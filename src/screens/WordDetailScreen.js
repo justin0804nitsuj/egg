@@ -181,16 +181,44 @@ export default function WordDetailScreen({
       word.id
     );
 
-  const definitionGroups =
+  const primaryDefinitions =
+    dictionaryEntry
+      ?.primaryDefinitions ??
+    dictionaryEntry
+      ?.definitions ??
+    [];
+
+  const secondaryDefinitions =
+    dictionaryEntry
+      ?.secondaryDefinitions ??
+    [];
+
+  const primaryDefinitionGroups =
     groupDefinitionsByPartOfSpeech(
-      dictionaryEntry
-        ?.definitions ?? []
+      primaryDefinitions
+    );
+
+  const secondaryDefinitionGroups =
+    groupDefinitionsByPartOfSpeech(
+      secondaryDefinitions
     );
 
   const cambridgeUrl =
     buildCambridgeTraditionalUrl(
       word.word
     );
+
+  const [
+    showSecondaryDefinitions,
+    setShowSecondaryDefinitions,
+  ] = useState(false);
+
+  const [prevWordId, setPrevWordId] = useState(word.id);
+
+  if (word.id !== prevWordId) {
+    setPrevWordId(word.id);
+    setShowSecondaryDefinitions(false);
+  }
 
   useFocusEffect(
     useCallback(() => {
@@ -371,7 +399,7 @@ export default function WordDetailScreen({
             styles.sectionLabel
           }
         >
-          中文意思
+          原始中文解釋
         </Text>
 
         <Text
@@ -404,15 +432,75 @@ export default function WordDetailScreen({
           </Text>
         </View>
 
-        {definitionGroups.length > 0 ? (
-          definitionGroups.map(
-            (group) => (
-              <DefinitionGroup
-                key={group.label}
-                group={group}
-              />
-            )
-          )
+        {primaryDefinitionGroups.length > 0 ? (
+          <>
+            <Text
+              style={
+                styles.senseSectionHeading
+              }
+            >
+              主要詞義
+            </Text>
+
+            {primaryDefinitionGroups.map(
+              (group) => (
+                <DefinitionGroup
+                  key={`primary-${group.label}`}
+                  group={group}
+                />
+              )
+            )}
+
+            {showSecondaryDefinitions &&
+              secondaryDefinitionGroups.length >
+                0 && (
+                <>
+                  <Text
+                    style={
+                      styles.senseSectionHeading
+                    }
+                  >
+                    其他詞義
+                  </Text>
+
+                  {secondaryDefinitionGroups.map(
+                    (group) => (
+                      <DefinitionGroup
+                        key={`secondary-${group.label}`}
+                        group={group}
+                      />
+                    )
+                  )}
+                </>
+              )}
+
+            {secondaryDefinitions.length >
+              0 && (
+              <Pressable
+                onPress={() =>
+                  setShowSecondaryDefinitions(
+                    (current) => !current
+                  )
+                }
+                style={({ pressed }) => [
+                  styles.moreSensesButton,
+
+                  pressed &&
+                    styles.buttonPressed,
+                ]}
+              >
+                <Text
+                  style={
+                    styles.moreSensesText
+                  }
+                >
+                  {showSecondaryDefinitions
+                    ? '收起其他詞義'
+                    : `顯示更多詞義 (${secondaryDefinitions.length})`}
+                </Text>
+              </Pressable>
+            )}
+          </>
         ) : (
           <Text
             style={
@@ -638,7 +726,9 @@ function DefinitionGroup({
                 styles.senseDefinition
               }
             >
-              {definition.definition}
+              {getEnglishDefinition(
+                definition
+              )}
             </Text>
 
             <Text
@@ -646,8 +736,12 @@ function DefinitionGroup({
                 styles.pendingText
               }
             >
-              {definition.meaningZh
-                ? definition.meaningZh
+              {getChineseDefinition(
+                definition
+              )
+                ? getChineseDefinition(
+                    definition
+                  )
                 : '中文翻譯待審核'}
             </Text>
 
@@ -662,6 +756,26 @@ function DefinitionGroup({
         )
       )}
     </View>
+  );
+}
+
+function getEnglishDefinition(
+  definition
+) {
+  return (
+    definition.englishDefinition ??
+    definition.definition ??
+    ''
+  );
+}
+
+function getChineseDefinition(
+  definition
+) {
+  return (
+    definition.chineseDefinition ??
+    definition.meaningZh ??
+    null
   );
 }
 
@@ -868,6 +982,18 @@ const styles =
       lineHeight: 32,
     },
 
+    senseSectionHeading: {
+      color: COLORS.textSecondary,
+
+      fontSize: 13,
+
+      fontWeight: '800',
+
+      marginTop: 8,
+
+      marginBottom: 2,
+    },
+
     senseGroup: {
       marginTop: 10,
     },
@@ -930,6 +1056,39 @@ const styles =
       fontSize: 14,
 
       lineHeight: 20,
+    },
+
+    moreSensesButton: {
+      minHeight: 44,
+
+      justifyContent:
+        'center',
+
+      alignItems: 'center',
+
+      backgroundColor:
+        COLORS.surfaceLight,
+
+      borderWidth: 1,
+
+      borderColor:
+        COLORS.border,
+
+      borderRadius: 12,
+
+      marginTop: 14,
+
+      paddingHorizontal: 12,
+    },
+
+    moreSensesText: {
+      color: COLORS.text,
+
+      fontSize: 13,
+
+      fontWeight: '800',
+
+      textAlign: 'center',
     },
 
     cambridgeButton: {

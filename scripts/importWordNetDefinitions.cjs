@@ -36,7 +36,7 @@ const FULL_REPORT_PATH = path.join(
   'wordnet-import-all.json'
 );
 
-const SOURCE_ID = 'oewn-2025';
+const SOURCE_ID = 'openEnglishWordNet';
 
 const SOURCE = {
   name: 'Open English WordNet',
@@ -57,15 +57,24 @@ const SORTING = {
     'The OEWN JSON export used here does not expose a reliable corpus frequency or learner-dictionary priority score for these senses; no frequency ranking is invented.',
 };
 
+const PRIMARY_DEFINITION_RULES = {
+  strategy: 'source-order-limited-primary-senses',
+  maxPerPartOfSpeech: 3,
+  maxPerWord: 6,
+  description:
+    'Primary definitions use the same source ordering as the full definition list, limited to at most three definitions per part of speech and six definitions per word.',
+};
+
 const RUNTIME_DEFINITION_SCHEMA = [
   'id',
   'synsetId',
   'partOfSpeech',
   'partOfSpeechLabel',
   'lexicalFile',
-  'definition',
+  'englishDefinition',
+  'chineseDefinition',
+  'examples',
   'source',
-  'meaningZh',
   'translationStatus',
 ];
 
@@ -407,6 +416,87 @@ function createSynsetIndex(sourceDirectory) {
   return synsets;
 }
 
+function inspectRankingMetadata(sourceDirectory) {
+  const senseKeys = new Set();
+  const synsetKeys = new Set();
+  let senseCount = 0;
+  let orderedSenseLists = 0;
+
+  fs.readdirSync(sourceDirectory)
+    .filter((file) => file.endsWith('.json'))
+    .forEach((file) => {
+      const data = readJson(
+        path.join(sourceDirectory, file)
+      );
+
+      if (file.startsWith('entries-')) {
+        Object.values(data).forEach((entry) => {
+          Object.values(entry).forEach((posData) => {
+            if (!Array.isArray(posData?.sense)) {
+              return;
+            }
+
+            orderedSenseLists += 1;
+
+            posData.sense.forEach((sense) => {
+              senseCount += 1;
+
+              Object.keys(sense).forEach((key) => {
+                senseKeys.add(key);
+              });
+            });
+          });
+        });
+
+        return;
+      }
+
+      if (
+        /^(noun|verb|adj|adv)\..*\.json$/.test(file)
+      ) {
+        Object.values(data).forEach((synset) => {
+          Object.keys(synset).forEach((key) => {
+            synsetKeys.add(key);
+          });
+        });
+      }
+    });
+
+  const rankingKeyPattern =
+    /freq|frequency|tag|count|rank|order|sense.?number|sense.?no|priority/i;
+
+  const rankingLikeSenseKeys =
+    Array.from(senseKeys).filter((key) =>
+      rankingKeyPattern.test(key)
+    );
+
+  const rankingLikeSynsetKeys =
+    Array.from(synsetKeys).filter((key) =>
+      rankingKeyPattern.test(key)
+    );
+
+  return {
+    sourceSenseOrderAvailable:
+      orderedSenseLists > 0,
+    orderedSenseLists,
+    senseCount,
+    senseObjectKeys:
+      Array.from(senseKeys).sort(),
+    rankingLikeSenseKeys,
+    rankingLikeSynsetKeys,
+    reliableRankingMetadataFound:
+      rankingLikeSenseKeys.length > 0 ||
+      rankingLikeSynsetKeys.length > 0,
+    usedForPrimaryDefinitions:
+      rankingLikeSenseKeys.length > 0 ||
+      rankingLikeSynsetKeys.length > 0
+        ? 'ranking-metadata'
+        : 'source-order',
+    note:
+      'OEWN entry sense arrays are ordered, but no frequency, tag count, or priority fields were found on imported sense or synset objects. WordNet sense IDs are retained as identifiers, not treated as usage-frequency ranks.',
+  };
+}
+
 function getEntryPosKeys({
   entryData,
   posOrder,
@@ -534,6 +624,59 @@ function summarizeUnmatched(item) {
   return 'no_wordnet_sense_for_word_and_pos';
 }
 
+function getEntryDiagnostics({
+  candidates,
+  entryIndex,
+}) {
+  return candidates.map((candidate) => {
+    const entry =
+      entryIndex.get(
+        normalizeLookup(candidate)
+      );
+
+    if (!entry) {
+      return {
+        candidate,
+        found: false,
+        availablePos: [],
+      };
+    }
+
+    return {
+      candidate,
+      found: true,
+      availablePos: Object.keys(entry.data),
+    };
+  });
+}
+
+function explainMatchingFailure({
+  diagnostics,
+  supportedPos,
+}) {
+  const foundEntries =
+    diagnostics.filter(
+      (item) => item.found
+    );
+
+  if (foundEntries.length === 0) {
+    return 'No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN.';
+  }
+
+  const compatibleEntry =
+    foundEntries.find((item) =>
+      item.availablePos.some((pos) =>
+        supportedPos.includes(pos)
+      )
+    );
+
+  if (!compatibleEntry) {
+    return 'OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry.';
+  }
+
+  return 'OEWN contains a compatible candidate/POS, but no usable synset definition was resolved by the importer.';
+}
+
 function compactDefinition(definition) {
   return [
     definition.id,
@@ -542,10 +685,45 @@ function compactDefinition(definition) {
     definition.partOfSpeechLabel,
     definition.lexicalFile,
     definition.definition,
-    definition.source,
     definition.meaningZh,
+    [],
+    definition.source,
     definition.translationStatus,
   ];
+}
+
+function splitPrimarySecondaryDefinitions(definitions) {
+  const primary = [];
+  const secondary = [];
+  const countsByPos = {};
+
+  definitions.forEach((definition) => {
+    const posKey =
+      definition.partOfSpeechLabel ||
+      definition.partOfSpeech;
+
+    const countForPos =
+      countsByPos[posKey] ?? 0;
+
+    if (
+      primary.length <
+        PRIMARY_DEFINITION_RULES.maxPerWord &&
+      countForPos <
+        PRIMARY_DEFINITION_RULES.maxPerPartOfSpeech
+    ) {
+      primary.push(definition);
+      countsByPos[posKey] =
+        countForPos + 1;
+      return;
+    }
+
+    secondary.push(definition);
+  });
+
+  return {
+    primary,
+    secondary,
+  };
 }
 
 function getDefinitionBucket(count) {
@@ -662,12 +840,15 @@ function buildDictionary({
   limit,
   entryIndex,
   synsetIndex,
+  rankingMetadata,
 }) {
   const selectedWords =
     limit === null ? words : words.slice(0, limit);
 
   const dictionary = {};
   const unmatched = [];
+  const unmatchedUnsupportedPos = [];
+  const unmatchedNoCompatibleSense = [];
   const ambiguous = [];
   const highDefinitionCountWords = [];
   const duplicateDefinitionGroups = [];
@@ -678,6 +859,8 @@ function buildDictionary({
   const definitionCountBuckets = {};
   const definitionCounts = [];
   let definitionCount = 0;
+  let primaryDefinitionCount = 0;
+  let secondaryDefinitionCount = 0;
 
   const highDefinitionThreshold = 20;
 
@@ -763,28 +946,77 @@ function buildDictionary({
       }
     });
 
+    const {
+      primary,
+      secondary,
+    } =
+      splitPrimarySecondaryDefinitions(
+        definitions
+      );
+
+    primaryDefinitionCount +=
+      primary.length;
+
+    secondaryDefinitionCount +=
+      secondary.length;
+
     if (definitions.length > 0) {
-      dictionary[word.id] =
-        definitions.map(
+      dictionary[word.id] = {
+        p: primary.map(
           compactDefinition
-        );
+        ),
+        s: secondary.map(
+          compactDefinition
+        ),
+      };
     }
 
     if (definitions.length === 0) {
-      unmatched.push({
+      const entryDiagnostics =
+        getEntryDiagnostics({
+          candidates,
+          entryIndex,
+        });
+
+      const unmatchedItem = {
         id: word.id,
         word: word.word,
         partOfSpeech: word.partOfSpeech,
         level: word.level,
+        originalMeaning:
+          word.meaning,
         candidates,
         supportedPos,
         unsupportedParts:
           posInfo.unsupportedParts,
+        entryDiagnostics,
         reason: summarizeUnmatched({
           candidates,
           supportedPos,
         }),
-      });
+      };
+
+      unmatchedItem.possibleReason =
+        explainMatchingFailure({
+          diagnostics:
+            entryDiagnostics,
+          supportedPos,
+        });
+
+      unmatched.push(unmatchedItem);
+
+      if (
+        unmatchedItem.reason ===
+        'unsupported_pos'
+      ) {
+        unmatchedUnsupportedPos.push(
+          unmatchedItem
+        );
+      } else {
+        unmatchedNoCompatibleSense.push(
+          unmatchedItem
+        );
+      }
     }
 
     if (definitions.length > 1) {
@@ -848,6 +1080,9 @@ function buildDictionary({
           : `first-${limit}-words`,
       source: SOURCE,
       sorting: SORTING,
+      rankingMetadata,
+      primaryDefinitionRules:
+        PRIMARY_DEFINITION_RULES,
       runtimeDefinitionSchema:
         RUNTIME_DEFINITION_SCHEMA,
       totalWordsInApp: words.length,
@@ -866,6 +1101,8 @@ function buildDictionary({
       runtimeWordCount:
         Object.keys(dictionary).length,
       definitionCount,
+      primaryDefinitionCount,
+      secondaryDefinitionCount,
       definitionCountStats:
         getDefinitionCountStats(
           definitionCounts
@@ -894,6 +1131,12 @@ function buildDictionary({
           unsupportedPartWarnings.length,
       },
       unmatched,
+      unmatchedAnalysis: {
+        unsupported_pos:
+          unmatchedUnsupportedPos,
+        no_wordnet_sense_for_word_and_pos:
+          unmatchedNoCompatibleSense,
+      },
       anomalies: {
         posMismatches,
         duplicateDefinitionGroups,
@@ -927,9 +1170,13 @@ export const WORD_DEFINITION_METADATA = ${JSON.stringify(
       unmatchedWordCount: report.unmatchedWordCount,
       matchRate: report.matchRate,
       definitionCount: report.definitionCount,
+      primaryDefinitionCount: report.primaryDefinitionCount,
+      secondaryDefinitionCount: report.secondaryDefinitionCount,
       runtimeWordCount: report.runtimeWordCount,
       runtimeDefinitionSchema: report.runtimeDefinitionSchema,
       sorting: report.sorting,
+      rankingMetadata: report.rankingMetadata,
+      primaryDefinitionRules: report.primaryDefinitionRules,
       source: report.source,
     },
     null,
@@ -955,9 +1202,10 @@ function expandDefinition(item) {
     partOfSpeech,
     partOfSpeechLabel,
     lexicalFile,
-    definition,
+    englishDefinition,
+    chineseDefinition,
+    examples,
     source,
-    meaningZh,
     translationStatus,
   ] = item;
 
@@ -967,25 +1215,42 @@ function expandDefinition(item) {
     partOfSpeech,
     partOfSpeechLabel,
     lexicalFile,
-    definition,
+    englishDefinition,
+    chineseDefinition,
+    examples,
     source,
-    meaningZh,
     translationStatus,
+    definition:
+      englishDefinition,
+    meaningZh:
+      chineseDefinition,
   };
 }
 
 export function getWordDefinitions(wordId) {
-  const definitions =
+  const entry =
     WORD_DEFINITIONS_BY_ID[String(wordId)];
 
-  if (!definitions) {
+  if (!entry) {
     return null;
   }
 
+  const primaryDefinitions =
+    (entry.p ?? []).map(
+      expandDefinition
+    );
+
+  const secondaryDefinitions =
+    (entry.s ?? []).map(
+      expandDefinition
+    );
+
   return {
+    primaryDefinitions,
+    secondaryDefinitions,
     definitions:
-      definitions.map(
-        expandDefinition
+      primaryDefinitions.concat(
+        secondaryDefinitions
       ),
   };
 }
@@ -1015,11 +1280,17 @@ async function main() {
     Promise.resolve(createSynsetIndex(sourceDirectory)),
   ]);
 
+  const rankingMetadata =
+    inspectRankingMetadata(
+      sourceDirectory
+    );
+
   const { dictionary, report } = buildDictionary({
     words,
     limit: options.limit,
     entryIndex,
     synsetIndex,
+    rankingMetadata,
   });
 
   writeDictionaryFile({
@@ -1039,6 +1310,8 @@ async function main() {
   console.log(`Unmatched words: ${report.unmatchedWordCount}`);
   console.log(`Match rate: ${report.matchRate}%`);
   console.log(`Definitions: ${report.definitionCount}`);
+  console.log(`Primary definitions: ${report.primaryDefinitionCount}`);
+  console.log(`Secondary definitions: ${report.secondaryDefinitionCount}`);
   console.log(`Dictionary: ${options.output}`);
   console.log(`Report: ${options.report}`);
 }

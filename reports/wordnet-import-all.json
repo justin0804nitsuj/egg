@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T12:59:24.087Z",
+  "generatedAt": "2026-09-24T13:27:07.611Z",
   "scope": "all-words",
   "source": {
     "name": "Open English WordNet",
@@ -16,15 +16,60 @@
     "description": "Definitions are ordered by app lookup candidate order, app POS order, then the original sense order in the OEWN entry JSON.",
     "limitation": "The OEWN JSON export used here does not expose a reliable corpus frequency or learner-dictionary priority score for these senses; no frequency ranking is invented."
   },
+  "rankingMetadata": {
+    "sourceSenseOrderAvailable": true,
+    "orderedSenseLists": 135969,
+    "senseCount": 185129,
+    "senseObjectKeys": [
+      "adjposition",
+      "agent",
+      "also",
+      "antonym",
+      "body_part",
+      "by_means_of",
+      "derivation",
+      "destination",
+      "event",
+      "exemplifies",
+      "id",
+      "instrument",
+      "location",
+      "material",
+      "participle",
+      "pertainym",
+      "property",
+      "result",
+      "sent",
+      "similar",
+      "state",
+      "subcat",
+      "synset",
+      "undergoer",
+      "uses",
+      "vehicle"
+    ],
+    "rankingLikeSenseKeys": [],
+    "rankingLikeSynsetKeys": [],
+    "reliableRankingMetadataFound": false,
+    "usedForPrimaryDefinitions": "source-order",
+    "note": "OEWN entry sense arrays are ordered, but no frequency, tag count, or priority fields were found on imported sense or synset objects. WordNet sense IDs are retained as identifiers, not treated as usage-frequency ranks."
+  },
+  "primaryDefinitionRules": {
+    "strategy": "source-order-limited-primary-senses",
+    "maxPerPartOfSpeech": 3,
+    "maxPerWord": 6,
+    "description": "Primary definitions use the same source ordering as the full definition list, limited to at most three definitions per part of speech and six definitions per word."
+  },
   "runtimeDefinitionSchema": [
     "id",
     "synsetId",
     "partOfSpeech",
     "partOfSpeechLabel",
     "lexicalFile",
-    "definition",
+    "englishDefinition",
+    "chineseDefinition",
+    "examples",
     "source",
-    "meaningZh",
     "translationStatus"
   ],
   "totalWordsInApp": 6012,
@@ -34,6 +79,8 @@
   "matchRate": 98.47,
   "runtimeWordCount": 5920,
   "definitionCount": 28562,
+  "primaryDefinitionCount": 18058,
+  "secondaryDefinitionCount": 10504,
   "definitionCountStats": {
     "min": 0,
     "max": 75,
@@ -74,6 +121,7 @@
       "word": "a/an",
       "partOfSpeech": "art.",
       "level": 1,
+      "originalMeaning": "一個；一（冠詞）",
       "candidates": [
         "a",
         "an"
@@ -82,13 +130,31 @@
       "unsupportedParts": [
         "art"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "a",
+          "found": true,
+          "availablePos": [
+            "n"
+          ]
+        },
+        {
+          "candidate": "an",
+          "found": true,
+          "availablePos": [
+            "n"
+          ]
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "although-28",
       "word": "although",
       "partOfSpeech": "conj.",
       "level": 1,
+      "originalMeaning": "雖然",
       "candidates": [
         "although"
       ],
@@ -96,13 +162,22 @@
       "unsupportedParts": [
         "conj"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "although",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "and-31",
       "word": "and",
       "partOfSpeech": "conj.",
       "level": 1,
+      "originalMeaning": "和",
       "candidates": [
         "and"
       ],
@@ -110,13 +185,22 @@
       "unsupportedParts": [
         "conj"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "and",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "anybody/anyone-38",
       "word": "anybody/anyone",
       "partOfSpeech": "pron.",
       "level": 1,
+      "originalMeaning": "任何人",
       "candidates": [
         "anybody",
         "anyone"
@@ -125,13 +209,27 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "anybody",
+          "found": false,
+          "availablePos": []
+        },
+        {
+          "candidate": "anyone",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "anything-39",
       "word": "anything",
       "partOfSpeech": "pron.",
       "level": 1,
+      "originalMeaning": "任何事",
       "candidates": [
         "anything"
       ],
@@ -139,13 +237,22 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "anything",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "at-50",
       "word": "at",
       "partOfSpeech": "prep.",
       "level": 1,
+      "originalMeaning": "在",
       "candidates": [
         "at"
       ],
@@ -153,13 +260,24 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "at",
+          "found": true,
+          "availablePos": [
+            "n"
+          ]
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "because-73",
       "word": "because",
       "partOfSpeech": "conj.",
       "level": 1,
+      "originalMeaning": "因為",
       "candidates": [
         "because"
       ],
@@ -167,13 +285,22 @@
       "unsupportedParts": [
         "conj"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "because",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "beside-88",
       "word": "beside",
       "partOfSpeech": "prep.",
       "level": 1,
+      "originalMeaning": "在旁邊",
       "candidates": [
         "beside"
       ],
@@ -181,13 +308,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "beside",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "bow-111",
       "word": "bow",
       "partOfSpeech": "n./v.",
       "level": 1,
+      "originalMeaning": "弓",
       "candidates": [
         "bow"
       ],
@@ -196,13 +332,27 @@
         "v"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "bow",
+          "found": true,
+          "availablePos": [
+            "n-1",
+            "n-2",
+            "v-1",
+            "v-2"
+          ]
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "during-249",
       "word": "during",
       "partOfSpeech": "prep.",
       "level": 1,
+      "originalMeaning": "在...的時候",
       "candidates": [
         "during"
       ],
@@ -210,13 +360,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "during",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "else-260",
       "word": "else",
       "partOfSpeech": "adv.",
       "level": 1,
+      "originalMeaning": "別的",
       "candidates": [
         "else"
       ],
@@ -224,13 +383,22 @@
         "r"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "else",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "everyone/everybody-274",
       "word": "everyone/everybody",
       "partOfSpeech": "pron.",
       "level": 1,
+      "originalMeaning": "每個人",
       "candidates": [
         "everyone",
         "everybody"
@@ -239,13 +407,27 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "everyone",
+          "found": false,
+          "availablePos": []
+        },
+        {
+          "candidate": "everybody",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "everything-275",
       "word": "everything",
       "partOfSpeech": "pron.",
       "level": 1,
+      "originalMeaning": "每件事物",
       "candidates": [
         "everything"
       ],
@@ -253,13 +435,24 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "everything",
+          "found": true,
+          "availablePos": [
+            "n"
+          ]
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "except-278",
       "word": "except",
       "partOfSpeech": "prep./conj.",
       "level": 1,
+      "originalMeaning": "除",
       "candidates": [
         "except"
       ],
@@ -268,13 +461,24 @@
         "prep",
         "conj"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "except",
+          "found": true,
+          "availablePos": [
+            "v"
+          ]
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "for-323",
       "word": "for",
       "partOfSpeech": "prep./conj.",
       "level": 1,
+      "originalMeaning": "為",
       "candidates": [
         "for"
       ],
@@ -283,13 +487,22 @@
         "prep",
         "conj"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "for",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "from-333",
       "word": "from",
       "partOfSpeech": "prep.",
       "level": 1,
+      "originalMeaning": "從",
       "candidates": [
         "from"
       ],
@@ -297,13 +510,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "from",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "he (him, his, himself)-382",
       "word": "he (him, his, himself)",
       "partOfSpeech": "pron.",
       "level": 1,
+      "originalMeaning": "他",
       "candidates": [
         "he",
         "he him, his, himself"
@@ -312,13 +534,29 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "he",
+          "found": true,
+          "availablePos": [
+            "n"
+          ]
+        },
+        {
+          "candidate": "he him, his, himself",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "how-417",
       "word": "how",
       "partOfSpeech": "adv.",
       "level": 1,
+      "originalMeaning": "如何",
       "candidates": [
         "how"
       ],
@@ -326,13 +564,22 @@
         "r"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "how",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "i (me, my, mine, myself)-423",
       "word": "I (me, my, mine, myself)",
       "partOfSpeech": "pron.",
       "level": 1,
+      "originalMeaning": "我",
       "candidates": [
         "I",
         "I me, my, mine, myself"
@@ -341,13 +588,30 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "I",
+          "found": true,
+          "availablePos": [
+            "a",
+            "n"
+          ]
+        },
+        {
+          "candidate": "I me, my, mine, myself",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "if-426",
       "word": "if",
       "partOfSpeech": "conj.",
       "level": 1,
+      "originalMeaning": "如果",
       "candidates": [
         "if"
       ],
@@ -355,13 +619,22 @@
       "unsupportedParts": [
         "conj"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "if",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "into-436",
       "word": "into",
       "partOfSpeech": "prep.",
       "level": 1,
+      "originalMeaning": "進入...之內",
       "candidates": [
         "into"
       ],
@@ -369,13 +642,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "into",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "it (its, itself)-439",
       "word": "it (its, itself)",
       "partOfSpeech": "pron.",
       "level": 1,
+      "originalMeaning": "它",
       "candidates": [
         "it",
         "it its, itself"
@@ -384,13 +666,29 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "it",
+          "found": true,
+          "availablePos": [
+            "n"
+          ]
+        },
+        {
+          "candidate": "it its, itself",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "may-526",
       "word": "may",
       "partOfSpeech": "aux.",
       "level": 1,
+      "originalMeaning": "五月",
       "candidates": [
         "may"
       ],
@@ -398,13 +696,24 @@
       "unsupportedParts": [
         "aux"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "may",
+          "found": true,
+          "availablePos": [
+            "n"
+          ]
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "media-531",
       "word": "media",
       "partOfSpeech": "n.",
       "level": 1,
+      "originalMeaning": "媒體",
       "candidates": [
         "media"
       ],
@@ -412,13 +721,22 @@
         "n"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "media",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "of-599",
       "word": "of",
       "partOfSpeech": "prep.",
       "level": 1,
+      "originalMeaning": "的",
       "candidates": [
         "of"
       ],
@@ -426,13 +744,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "of",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "or-611",
       "word": "or",
       "partOfSpeech": "conj.",
       "level": 1,
+      "originalMeaning": "或",
       "candidates": [
         "or"
       ],
@@ -440,13 +767,24 @@
       "unsupportedParts": [
         "conj"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "or",
+          "found": true,
+          "availablePos": [
+            "n"
+          ]
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "shall-758",
       "word": "shall",
       "partOfSpeech": "aux.",
       "level": 1,
+      "originalMeaning": "將",
       "candidates": [
         "shall"
       ],
@@ -454,13 +792,22 @@
       "unsupportedParts": [
         "aux"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "shall",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "she (her, hers, herself)-762",
       "word": "she (her, hers, herself)",
       "partOfSpeech": "pron.",
       "level": 1,
+      "originalMeaning": "她",
       "candidates": [
         "she",
         "she her, hers, herself"
@@ -469,13 +816,27 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "she",
+          "found": false,
+          "availablePos": []
+        },
+        {
+          "candidate": "she her, hers, herself",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "since-779",
       "word": "since",
       "partOfSpeech": "conj./prep./adv.",
       "level": 1,
+      "originalMeaning": "自...以後",
       "candidates": [
         "since"
       ],
@@ -486,13 +847,22 @@
         "conj",
         "prep"
       ],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "since",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "something-803",
       "word": "something",
       "partOfSpeech": "pron./n.",
       "level": 1,
+      "originalMeaning": "某事",
       "candidates": [
         "something"
       ],
@@ -502,13 +872,22 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "something",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "than-869",
       "word": "than",
       "partOfSpeech": "conj./prep.",
       "level": 1,
+      "originalMeaning": "比",
       "candidates": [
         "than"
       ],
@@ -517,13 +896,22 @@
         "conj",
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "than",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "that-871",
       "word": "that",
       "partOfSpeech": "conj./pron./adv./adj.",
       "level": 1,
+      "originalMeaning": "那",
       "candidates": [
         "that"
       ],
@@ -535,13 +923,22 @@
         "conj",
         "pron"
       ],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "that",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "the-872",
       "word": "the",
       "partOfSpeech": "art.",
       "level": 1,
+      "originalMeaning": "那",
       "candidates": [
         "the"
       ],
@@ -549,13 +946,22 @@
       "unsupportedParts": [
         "art"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "the",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "these-876",
       "word": "these",
       "partOfSpeech": "pron./adj.",
       "level": 1,
+      "originalMeaning": "這些",
       "candidates": [
         "these"
       ],
@@ -565,13 +971,22 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "these",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "they (them, their, theirs, themselves)-877",
       "word": "they (them, their, theirs, themselves)",
       "partOfSpeech": "pron.",
       "level": 1,
+      "originalMeaning": "他們",
       "candidates": [
         "they",
         "they them, their, theirs, themselves"
@@ -580,13 +995,27 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "they",
+          "found": false,
+          "availablePos": []
+        },
+        {
+          "candidate": "they them, their, theirs, themselves",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "this-883",
       "word": "this",
       "partOfSpeech": "pron./adv./adj.",
       "level": 1,
+      "originalMeaning": "這",
       "candidates": [
         "this"
       ],
@@ -597,13 +1026,22 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "this",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "those-884",
       "word": "those",
       "partOfSpeech": "pron./adj.",
       "level": 1,
+      "originalMeaning": "那些",
       "candidates": [
         "those"
       ],
@@ -613,13 +1051,22 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "those",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "to-897",
       "word": "to",
       "partOfSpeech": "prep.",
       "level": 1,
+      "originalMeaning": "到",
       "candidates": [
         "to"
       ],
@@ -627,13 +1074,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "to",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "until-931",
       "word": "until",
       "partOfSpeech": "conj./prep.",
       "level": 1,
+      "originalMeaning": "直到",
       "candidates": [
         "until"
       ],
@@ -642,13 +1098,22 @@
         "conj",
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "until",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "we (us, our, ours, ourselves)-953",
       "word": "we (us, our, ours, ourselves)",
       "partOfSpeech": "pron.",
       "level": 1,
+      "originalMeaning": "我們",
       "candidates": [
         "we",
         "we us, our, ours, ourselves"
@@ -657,13 +1122,27 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "we",
+          "found": false,
+          "availablePos": []
+        },
+        {
+          "candidate": "we us, our, ours, ourselves",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "what-963",
       "word": "what",
       "partOfSpeech": "pron./adj.",
       "level": 1,
+      "originalMeaning": "什麼",
       "candidates": [
         "what"
       ],
@@ -673,13 +1152,22 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "what",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "when-964",
       "word": "when",
       "partOfSpeech": "adv./conj./pron.",
       "level": 1,
+      "originalMeaning": "當...的時候",
       "candidates": [
         "when"
       ],
@@ -690,13 +1178,22 @@
         "conj",
         "pron"
       ],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "when",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "where-965",
       "word": "where",
       "partOfSpeech": "conj./adv./pron./n.",
       "level": 1,
+      "originalMeaning": "在哪裡",
       "candidates": [
         "where"
       ],
@@ -708,13 +1205,22 @@
         "conj",
         "pron"
       ],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "where",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "whether-966",
       "word": "whether",
       "partOfSpeech": "conj.",
       "level": 1,
+      "originalMeaning": "是否",
       "candidates": [
         "whether"
       ],
@@ -722,13 +1228,22 @@
       "unsupportedParts": [
         "conj"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "whether",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "which-967",
       "word": "which",
       "partOfSpeech": "pron./adj.",
       "level": 1,
+      "originalMeaning": "哪一個",
       "candidates": [
         "which"
       ],
@@ -738,13 +1253,22 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "which",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "who-970",
       "word": "who",
       "partOfSpeech": "pron.",
       "level": 1,
+      "originalMeaning": "誰",
       "candidates": [
         "who"
       ],
@@ -752,13 +1276,24 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "who",
+          "found": true,
+          "availablePos": [
+            "n"
+          ]
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "whose-971",
       "word": "whose",
       "partOfSpeech": "pron.",
       "level": 1,
+      "originalMeaning": "誰的",
       "candidates": [
         "whose"
       ],
@@ -766,13 +1301,22 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "whose",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "wind-977",
       "word": "wind",
       "partOfSpeech": "n./v.",
       "level": 1,
+      "originalMeaning": "風",
       "candidates": [
         "wind"
       ],
@@ -781,13 +1325,27 @@
         "v"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "wind",
+          "found": true,
+          "availablePos": [
+            "n-1",
+            "n-2",
+            "v-1",
+            "v-2"
+          ]
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "with-981",
       "word": "with",
       "partOfSpeech": "prep.",
       "level": 1,
+      "originalMeaning": "和...在一起",
       "candidates": [
         "with"
       ],
@@ -795,13 +1353,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "with",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "without-982",
       "word": "without",
       "partOfSpeech": "prep./adv.",
       "level": 1,
+      "originalMeaning": "沒有",
       "candidates": [
         "without"
       ],
@@ -811,13 +1378,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "without",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "you (your, yours, yourself, yourselves)-999",
       "word": "you (your, yours, yourself, yourselves)",
       "partOfSpeech": "pron.",
       "level": 1,
+      "originalMeaning": "你；你們",
       "candidates": [
         "you",
         "you your, yours, yourself, yourselves"
@@ -826,13 +1402,27 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "you",
+          "found": false,
+          "availablePos": []
+        },
+        {
+          "candidate": "you your, yours, yourself, yourselves",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "against-1019",
       "word": "against",
       "partOfSpeech": "prep.",
       "level": 2,
+      "originalMeaning": "反對",
       "candidates": [
         "against"
       ],
@@ -840,13 +1430,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "against",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "among-1031",
       "word": "among",
       "partOfSpeech": "prep.",
       "level": 2,
+      "originalMeaning": "在...之中",
       "candidates": [
         "among"
       ],
@@ -854,13 +1453,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "among",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "anytime-1037",
       "word": "anytime",
       "partOfSpeech": "adv.",
       "level": 2,
+      "originalMeaning": "任何時候",
       "candidates": [
         "anytime"
       ],
@@ -868,13 +1476,22 @@
         "r"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "anytime",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "liver-1512",
       "word": "liver",
       "partOfSpeech": "n.",
       "level": 2,
+      "originalMeaning": "肝髒",
       "candidates": [
         "liver"
       ],
@@ -882,13 +1499,26 @@
         "n"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "liver",
+          "found": true,
+          "availablePos": [
+            "a",
+            "n-1",
+            "n-2"
+          ]
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "lower-1517",
       "word": "lower",
       "partOfSpeech": "v.",
       "level": 2,
+      "originalMeaning": "低的",
       "candidates": [
         "lower"
       ],
@@ -896,13 +1526,27 @@
         "v"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "lower",
+          "found": true,
+          "availablePos": [
+            "a",
+            "n",
+            "v-1",
+            "v-2"
+          ]
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "nor-1586",
       "word": "nor",
       "partOfSpeech": "conj.",
       "level": 2,
+      "originalMeaning": "也不",
       "candidates": [
         "nor"
       ],
@@ -910,13 +1554,22 @@
       "unsupportedParts": [
         "conj"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "nor",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "pajamas-1609",
       "word": "pajamas",
       "partOfSpeech": "n.",
       "level": 2,
+      "originalMeaning": "睡衣",
       "candidates": [
         "pajamas"
       ],
@@ -924,13 +1577,22 @@
         "n"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "pajamas",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "per-1628",
       "word": "per",
       "partOfSpeech": "prep.",
       "level": 2,
+      "originalMeaning": "每一",
       "candidates": [
         "per"
       ],
@@ -938,13 +1600,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "per",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "recover-1712",
       "word": "recover",
       "partOfSpeech": "v.",
       "level": 2,
+      "originalMeaning": "重新獲得",
       "candidates": [
         "recover"
       ],
@@ -952,13 +1623,25 @@
         "v"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "recover",
+          "found": true,
+          "availablePos": [
+            "v-1",
+            "v-2"
+          ]
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "tear-1892",
       "word": "tear",
       "partOfSpeech": "n./v.",
       "level": 2,
+      "originalMeaning": "淚滴",
       "candidates": [
         "tear"
       ],
@@ -967,13 +1650,27 @@
         "v"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "tear",
+          "found": true,
+          "availablePos": [
+            "n-1",
+            "n-2",
+            "v-1",
+            "v-2"
+          ]
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "terrorist-1898",
       "word": "terrorist",
       "partOfSpeech": "adj.",
       "level": 2,
+      "originalMeaning": "恐怖分子",
       "candidates": [
         "terrorist"
       ],
@@ -981,13 +1678,24 @@
         "a"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "terrorist",
+          "found": true,
+          "availablePos": [
+            "n"
+          ]
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "till-1908",
       "word": "till",
       "partOfSpeech": "conj./prep.",
       "level": 2,
+      "originalMeaning": "直到",
       "candidates": [
         "till"
       ],
@@ -996,13 +1704,25 @@
         "conj",
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "till",
+          "found": true,
+          "availablePos": [
+            "n",
+            "v"
+          ]
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "toward/towards-1920",
       "word": "toward/towards",
       "partOfSpeech": "prep.",
       "level": 2,
+      "originalMeaning": "向",
       "candidates": [
         "toward",
         "towards"
@@ -1011,13 +1731,27 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "toward",
+          "found": false,
+          "availablePos": []
+        },
+        {
+          "candidate": "towards",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "unless-1944",
       "word": "unless",
       "partOfSpeech": "conj.",
       "level": 2,
+      "originalMeaning": "除非",
       "candidates": [
         "unless"
       ],
@@ -1025,13 +1759,22 @@
       "unsupportedParts": [
         "conj"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "unless",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "upon-1946",
       "word": "upon",
       "partOfSpeech": "prep.",
       "level": 2,
+      "originalMeaning": "在...之上",
       "candidates": [
         "upon"
       ],
@@ -1039,13 +1782,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "upon",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "whenever-1977",
       "word": "whenever",
       "partOfSpeech": "conj./adv.",
       "level": 2,
+      "originalMeaning": "每當",
       "candidates": [
         "whenever"
       ],
@@ -1055,13 +1807,22 @@
       "unsupportedParts": [
         "conj"
       ],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "whenever",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "whoever-1980",
       "word": "whoever",
       "partOfSpeech": "pron.",
       "level": 2,
+      "originalMeaning": "任何人",
       "candidates": [
         "whoever"
       ],
@@ -1069,13 +1830,22 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "whoever",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "whom-1982",
       "word": "whom",
       "partOfSpeech": "pron.",
       "level": 2,
+      "originalMeaning": "誰",
       "candidates": [
         "whom"
       ],
@@ -1083,13 +1853,22 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "whom",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "beneath-2078",
       "word": "beneath",
       "partOfSpeech": "prep.",
       "level": 3,
+      "originalMeaning": "在...下方",
       "candidates": [
         "beneath"
       ],
@@ -1097,13 +1876,24 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "beneath",
+          "found": true,
+          "availablePos": [
+            "r"
+          ]
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "nun-2580",
       "word": "nun",
       "partOfSpeech": "n.",
       "level": 3,
+      "originalMeaning": "修女",
       "candidates": [
         "nun"
       ],
@@ -1111,13 +1901,25 @@
         "n"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "nun",
+          "found": true,
+          "availablePos": [
+            "n-1",
+            "n-2"
+          ]
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "onto-2588",
       "word": "onto",
       "partOfSpeech": "prep.",
       "level": 3,
+      "originalMeaning": "在...之上",
       "candidates": [
         "onto"
       ],
@@ -1125,13 +1927,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "onto",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "sake-2756",
       "word": "sake",
       "partOfSpeech": "n.",
       "level": 3,
+      "originalMeaning": "目的",
       "candidates": [
         "sake"
       ],
@@ -1139,13 +1950,25 @@
         "n"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "sake",
+          "found": true,
+          "availablePos": [
+            "n-1",
+            "n-2"
+          ]
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "tower-2925",
       "word": "tower",
       "partOfSpeech": "n.",
       "level": 3,
+      "originalMeaning": "塔",
       "candidates": [
         "tower"
       ],
@@ -1153,13 +1976,26 @@
         "n"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "tower",
+          "found": true,
+          "availablePos": [
+            "n-1",
+            "n-2",
+            "v"
+          ]
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "underlying-2947",
       "word": "underlying",
       "partOfSpeech": "v.",
       "level": 3,
+      "originalMeaning": "在下面的",
       "candidates": [
         "underlying"
       ],
@@ -1167,13 +2003,24 @@
         "v"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "underlying",
+          "found": true,
+          "availablePos": [
+            "a"
+          ]
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "audio-3082",
       "word": "audio",
       "partOfSpeech": "adj.",
       "level": 4,
+      "originalMeaning": "音頻的",
       "candidates": [
         "audio"
       ],
@@ -1181,13 +2028,24 @@
         "a"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "audio",
+          "found": true,
+          "availablePos": [
+            "n"
+          ]
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "concerning-3181",
       "word": "concerning",
       "partOfSpeech": "prep.",
       "level": 4,
+      "originalMeaning": "關於",
       "candidates": [
         "concerning"
       ],
@@ -1195,13 +2053,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "concerning",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "crunchy-3247",
       "word": "crunchy",
       "partOfSpeech": "adj.",
       "level": 4,
+      "originalMeaning": "發嘎吱嘎吱聲的",
       "candidates": [
         "crunchy"
       ],
@@ -1209,13 +2076,22 @@
         "a"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "crunchy",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "despite-3280",
       "word": "despite",
       "partOfSpeech": "prep.",
       "level": 4,
+      "originalMeaning": "輕視",
       "candidates": [
         "despite"
       ],
@@ -1223,13 +2099,24 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "despite",
+          "found": true,
+          "availablePos": [
+            "n"
+          ]
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "goods-3457",
       "word": "goods",
       "partOfSpeech": "n.",
       "level": 4,
+      "originalMeaning": "貨物",
       "candidates": [
         "goods"
       ],
@@ -1237,13 +2124,22 @@
         "n"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "goods",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "including-3528",
       "word": "including",
       "partOfSpeech": "prep.",
       "level": 4,
+      "originalMeaning": "包含",
       "candidates": [
         "including"
       ],
@@ -1251,13 +2147,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "including",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "regarding-3825",
       "word": "regarding",
       "partOfSpeech": "prep.",
       "level": 4,
+      "originalMeaning": "關於",
       "candidates": [
         "regarding"
       ],
@@ -1265,13 +2170,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "regarding",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "lest-4517",
       "word": "lest",
       "partOfSpeech": "conj.",
       "level": 5,
+      "originalMeaning": "以免",
       "candidates": [
         "lest"
       ],
@@ -1279,13 +2193,22 @@
       "unsupportedParts": [
         "conj"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "lest",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "versus-4972",
       "word": "versus",
       "partOfSpeech": "prep.",
       "level": 5,
+      "originalMeaning": "對...",
       "candidates": [
         "versus"
       ],
@@ -1293,13 +2216,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "versus",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "via-4975",
       "word": "via",
       "partOfSpeech": "prep.",
       "level": 5,
+      "originalMeaning": "經由",
       "candidates": [
         "via"
       ],
@@ -1307,13 +2239,22 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "via",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "whereas-4996",
       "word": "whereas",
       "partOfSpeech": "conj.",
       "level": 5,
+      "originalMeaning": "然而",
       "candidates": [
         "whereas"
       ],
@@ -1321,13 +2262,22 @@
       "unsupportedParts": [
         "conj"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "whereas",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "amid/amidst-5049",
       "word": "amid/amidst",
       "partOfSpeech": "prep.",
       "level": 6,
+      "originalMeaning": "在...之中",
       "candidates": [
         "amid",
         "amidst"
@@ -1336,13 +2286,27 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "amid",
+          "found": false,
+          "availablePos": []
+        },
+        {
+          "candidate": "amidst",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "celsius-5143",
       "word": "Celsius",
       "partOfSpeech": "n.",
       "level": 6,
+      "originalMeaning": "攝氏的",
       "candidates": [
         "Celsius"
       ],
@@ -1350,13 +2314,22 @@
         "n"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "Celsius",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "cosmetics-5206",
       "word": "cosmetics",
       "partOfSpeech": "n.",
       "level": 6,
+      "originalMeaning": "裝飾品",
       "candidates": [
         "cosmetics"
       ],
@@ -1364,13 +2337,22 @@
         "n"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "cosmetics",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "fahrenheit-5345",
       "word": "Fahrenheit",
       "partOfSpeech": "n.",
       "level": 6,
+      "originalMeaning": "華氏溫度計的",
       "candidates": [
         "Fahrenheit"
       ],
@@ -1378,13 +2360,24 @@
         "n"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "Fahrenheit",
+          "found": true,
+          "availablePos": [
+            "a"
+          ]
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "telecommunications-5918",
       "word": "telecommunications",
       "partOfSpeech": "n.",
       "level": 6,
+      "originalMeaning": "電信",
       "candidates": [
         "telecommunications"
       ],
@@ -1392,13 +2385,22 @@
         "n"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "telecommunications",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "underway-5953",
       "word": "underway",
       "partOfSpeech": "adv.",
       "level": 6,
+      "originalMeaning": "航行中的",
       "candidates": [
         "underway"
       ],
@@ -1406,9 +2408,2329 @@
         "r"
       ],
       "unsupportedParts": [],
-      "reason": "no_wordnet_sense_for_word_and_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "underway",
+          "found": true,
+          "availablePos": [
+            "a"
+          ]
+        }
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     }
   ],
+  "unmatchedAnalysis": {
+    "unsupported_pos": [
+      {
+        "id": "a/an-1",
+        "word": "a/an",
+        "partOfSpeech": "art.",
+        "level": 1,
+        "originalMeaning": "一個；一（冠詞）",
+        "candidates": [
+          "a",
+          "an"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "art"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "a",
+            "found": true,
+            "availablePos": [
+              "n"
+            ]
+          },
+          {
+            "candidate": "an",
+            "found": true,
+            "availablePos": [
+              "n"
+            ]
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "although-28",
+        "word": "although",
+        "partOfSpeech": "conj.",
+        "level": 1,
+        "originalMeaning": "雖然",
+        "candidates": [
+          "although"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "conj"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "although",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "and-31",
+        "word": "and",
+        "partOfSpeech": "conj.",
+        "level": 1,
+        "originalMeaning": "和",
+        "candidates": [
+          "and"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "conj"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "and",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "anybody/anyone-38",
+        "word": "anybody/anyone",
+        "partOfSpeech": "pron.",
+        "level": 1,
+        "originalMeaning": "任何人",
+        "candidates": [
+          "anybody",
+          "anyone"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "anybody",
+            "found": false,
+            "availablePos": []
+          },
+          {
+            "candidate": "anyone",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "anything-39",
+        "word": "anything",
+        "partOfSpeech": "pron.",
+        "level": 1,
+        "originalMeaning": "任何事",
+        "candidates": [
+          "anything"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "anything",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "at-50",
+        "word": "at",
+        "partOfSpeech": "prep.",
+        "level": 1,
+        "originalMeaning": "在",
+        "candidates": [
+          "at"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "at",
+            "found": true,
+            "availablePos": [
+              "n"
+            ]
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "because-73",
+        "word": "because",
+        "partOfSpeech": "conj.",
+        "level": 1,
+        "originalMeaning": "因為",
+        "candidates": [
+          "because"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "conj"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "because",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "beside-88",
+        "word": "beside",
+        "partOfSpeech": "prep.",
+        "level": 1,
+        "originalMeaning": "在旁邊",
+        "candidates": [
+          "beside"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "beside",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "during-249",
+        "word": "during",
+        "partOfSpeech": "prep.",
+        "level": 1,
+        "originalMeaning": "在...的時候",
+        "candidates": [
+          "during"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "during",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "everyone/everybody-274",
+        "word": "everyone/everybody",
+        "partOfSpeech": "pron.",
+        "level": 1,
+        "originalMeaning": "每個人",
+        "candidates": [
+          "everyone",
+          "everybody"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "everyone",
+            "found": false,
+            "availablePos": []
+          },
+          {
+            "candidate": "everybody",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "everything-275",
+        "word": "everything",
+        "partOfSpeech": "pron.",
+        "level": 1,
+        "originalMeaning": "每件事物",
+        "candidates": [
+          "everything"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "everything",
+            "found": true,
+            "availablePos": [
+              "n"
+            ]
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "except-278",
+        "word": "except",
+        "partOfSpeech": "prep./conj.",
+        "level": 1,
+        "originalMeaning": "除",
+        "candidates": [
+          "except"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep",
+          "conj"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "except",
+            "found": true,
+            "availablePos": [
+              "v"
+            ]
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "for-323",
+        "word": "for",
+        "partOfSpeech": "prep./conj.",
+        "level": 1,
+        "originalMeaning": "為",
+        "candidates": [
+          "for"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep",
+          "conj"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "for",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "from-333",
+        "word": "from",
+        "partOfSpeech": "prep.",
+        "level": 1,
+        "originalMeaning": "從",
+        "candidates": [
+          "from"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "from",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "he (him, his, himself)-382",
+        "word": "he (him, his, himself)",
+        "partOfSpeech": "pron.",
+        "level": 1,
+        "originalMeaning": "他",
+        "candidates": [
+          "he",
+          "he him, his, himself"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "he",
+            "found": true,
+            "availablePos": [
+              "n"
+            ]
+          },
+          {
+            "candidate": "he him, his, himself",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "i (me, my, mine, myself)-423",
+        "word": "I (me, my, mine, myself)",
+        "partOfSpeech": "pron.",
+        "level": 1,
+        "originalMeaning": "我",
+        "candidates": [
+          "I",
+          "I me, my, mine, myself"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "I",
+            "found": true,
+            "availablePos": [
+              "a",
+              "n"
+            ]
+          },
+          {
+            "candidate": "I me, my, mine, myself",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "if-426",
+        "word": "if",
+        "partOfSpeech": "conj.",
+        "level": 1,
+        "originalMeaning": "如果",
+        "candidates": [
+          "if"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "conj"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "if",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "into-436",
+        "word": "into",
+        "partOfSpeech": "prep.",
+        "level": 1,
+        "originalMeaning": "進入...之內",
+        "candidates": [
+          "into"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "into",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "it (its, itself)-439",
+        "word": "it (its, itself)",
+        "partOfSpeech": "pron.",
+        "level": 1,
+        "originalMeaning": "它",
+        "candidates": [
+          "it",
+          "it its, itself"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "it",
+            "found": true,
+            "availablePos": [
+              "n"
+            ]
+          },
+          {
+            "candidate": "it its, itself",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "may-526",
+        "word": "may",
+        "partOfSpeech": "aux.",
+        "level": 1,
+        "originalMeaning": "五月",
+        "candidates": [
+          "may"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "aux"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "may",
+            "found": true,
+            "availablePos": [
+              "n"
+            ]
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "of-599",
+        "word": "of",
+        "partOfSpeech": "prep.",
+        "level": 1,
+        "originalMeaning": "的",
+        "candidates": [
+          "of"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "of",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "or-611",
+        "word": "or",
+        "partOfSpeech": "conj.",
+        "level": 1,
+        "originalMeaning": "或",
+        "candidates": [
+          "or"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "conj"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "or",
+            "found": true,
+            "availablePos": [
+              "n"
+            ]
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "shall-758",
+        "word": "shall",
+        "partOfSpeech": "aux.",
+        "level": 1,
+        "originalMeaning": "將",
+        "candidates": [
+          "shall"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "aux"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "shall",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "she (her, hers, herself)-762",
+        "word": "she (her, hers, herself)",
+        "partOfSpeech": "pron.",
+        "level": 1,
+        "originalMeaning": "她",
+        "candidates": [
+          "she",
+          "she her, hers, herself"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "she",
+            "found": false,
+            "availablePos": []
+          },
+          {
+            "candidate": "she her, hers, herself",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "than-869",
+        "word": "than",
+        "partOfSpeech": "conj./prep.",
+        "level": 1,
+        "originalMeaning": "比",
+        "candidates": [
+          "than"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "conj",
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "than",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "the-872",
+        "word": "the",
+        "partOfSpeech": "art.",
+        "level": 1,
+        "originalMeaning": "那",
+        "candidates": [
+          "the"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "art"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "the",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "they (them, their, theirs, themselves)-877",
+        "word": "they (them, their, theirs, themselves)",
+        "partOfSpeech": "pron.",
+        "level": 1,
+        "originalMeaning": "他們",
+        "candidates": [
+          "they",
+          "they them, their, theirs, themselves"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "they",
+            "found": false,
+            "availablePos": []
+          },
+          {
+            "candidate": "they them, their, theirs, themselves",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "to-897",
+        "word": "to",
+        "partOfSpeech": "prep.",
+        "level": 1,
+        "originalMeaning": "到",
+        "candidates": [
+          "to"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "to",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "until-931",
+        "word": "until",
+        "partOfSpeech": "conj./prep.",
+        "level": 1,
+        "originalMeaning": "直到",
+        "candidates": [
+          "until"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "conj",
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "until",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "we (us, our, ours, ourselves)-953",
+        "word": "we (us, our, ours, ourselves)",
+        "partOfSpeech": "pron.",
+        "level": 1,
+        "originalMeaning": "我們",
+        "candidates": [
+          "we",
+          "we us, our, ours, ourselves"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "we",
+            "found": false,
+            "availablePos": []
+          },
+          {
+            "candidate": "we us, our, ours, ourselves",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "whether-966",
+        "word": "whether",
+        "partOfSpeech": "conj.",
+        "level": 1,
+        "originalMeaning": "是否",
+        "candidates": [
+          "whether"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "conj"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "whether",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "who-970",
+        "word": "who",
+        "partOfSpeech": "pron.",
+        "level": 1,
+        "originalMeaning": "誰",
+        "candidates": [
+          "who"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "who",
+            "found": true,
+            "availablePos": [
+              "n"
+            ]
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "whose-971",
+        "word": "whose",
+        "partOfSpeech": "pron.",
+        "level": 1,
+        "originalMeaning": "誰的",
+        "candidates": [
+          "whose"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "whose",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "with-981",
+        "word": "with",
+        "partOfSpeech": "prep.",
+        "level": 1,
+        "originalMeaning": "和...在一起",
+        "candidates": [
+          "with"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "with",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "you (your, yours, yourself, yourselves)-999",
+        "word": "you (your, yours, yourself, yourselves)",
+        "partOfSpeech": "pron.",
+        "level": 1,
+        "originalMeaning": "你；你們",
+        "candidates": [
+          "you",
+          "you your, yours, yourself, yourselves"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "you",
+            "found": false,
+            "availablePos": []
+          },
+          {
+            "candidate": "you your, yours, yourself, yourselves",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "against-1019",
+        "word": "against",
+        "partOfSpeech": "prep.",
+        "level": 2,
+        "originalMeaning": "反對",
+        "candidates": [
+          "against"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "against",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "among-1031",
+        "word": "among",
+        "partOfSpeech": "prep.",
+        "level": 2,
+        "originalMeaning": "在...之中",
+        "candidates": [
+          "among"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "among",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "nor-1586",
+        "word": "nor",
+        "partOfSpeech": "conj.",
+        "level": 2,
+        "originalMeaning": "也不",
+        "candidates": [
+          "nor"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "conj"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "nor",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "per-1628",
+        "word": "per",
+        "partOfSpeech": "prep.",
+        "level": 2,
+        "originalMeaning": "每一",
+        "candidates": [
+          "per"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "per",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "till-1908",
+        "word": "till",
+        "partOfSpeech": "conj./prep.",
+        "level": 2,
+        "originalMeaning": "直到",
+        "candidates": [
+          "till"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "conj",
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "till",
+            "found": true,
+            "availablePos": [
+              "n",
+              "v"
+            ]
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "toward/towards-1920",
+        "word": "toward/towards",
+        "partOfSpeech": "prep.",
+        "level": 2,
+        "originalMeaning": "向",
+        "candidates": [
+          "toward",
+          "towards"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "toward",
+            "found": false,
+            "availablePos": []
+          },
+          {
+            "candidate": "towards",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "unless-1944",
+        "word": "unless",
+        "partOfSpeech": "conj.",
+        "level": 2,
+        "originalMeaning": "除非",
+        "candidates": [
+          "unless"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "conj"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "unless",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "upon-1946",
+        "word": "upon",
+        "partOfSpeech": "prep.",
+        "level": 2,
+        "originalMeaning": "在...之上",
+        "candidates": [
+          "upon"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "upon",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "whoever-1980",
+        "word": "whoever",
+        "partOfSpeech": "pron.",
+        "level": 2,
+        "originalMeaning": "任何人",
+        "candidates": [
+          "whoever"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "whoever",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "whom-1982",
+        "word": "whom",
+        "partOfSpeech": "pron.",
+        "level": 2,
+        "originalMeaning": "誰",
+        "candidates": [
+          "whom"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "whom",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "beneath-2078",
+        "word": "beneath",
+        "partOfSpeech": "prep.",
+        "level": 3,
+        "originalMeaning": "在...下方",
+        "candidates": [
+          "beneath"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "beneath",
+            "found": true,
+            "availablePos": [
+              "r"
+            ]
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "onto-2588",
+        "word": "onto",
+        "partOfSpeech": "prep.",
+        "level": 3,
+        "originalMeaning": "在...之上",
+        "candidates": [
+          "onto"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "onto",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "concerning-3181",
+        "word": "concerning",
+        "partOfSpeech": "prep.",
+        "level": 4,
+        "originalMeaning": "關於",
+        "candidates": [
+          "concerning"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "concerning",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "despite-3280",
+        "word": "despite",
+        "partOfSpeech": "prep.",
+        "level": 4,
+        "originalMeaning": "輕視",
+        "candidates": [
+          "despite"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "despite",
+            "found": true,
+            "availablePos": [
+              "n"
+            ]
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "including-3528",
+        "word": "including",
+        "partOfSpeech": "prep.",
+        "level": 4,
+        "originalMeaning": "包含",
+        "candidates": [
+          "including"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "including",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "regarding-3825",
+        "word": "regarding",
+        "partOfSpeech": "prep.",
+        "level": 4,
+        "originalMeaning": "關於",
+        "candidates": [
+          "regarding"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "regarding",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "lest-4517",
+        "word": "lest",
+        "partOfSpeech": "conj.",
+        "level": 5,
+        "originalMeaning": "以免",
+        "candidates": [
+          "lest"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "conj"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "lest",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "versus-4972",
+        "word": "versus",
+        "partOfSpeech": "prep.",
+        "level": 5,
+        "originalMeaning": "對...",
+        "candidates": [
+          "versus"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "versus",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "via-4975",
+        "word": "via",
+        "partOfSpeech": "prep.",
+        "level": 5,
+        "originalMeaning": "經由",
+        "candidates": [
+          "via"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "via",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "whereas-4996",
+        "word": "whereas",
+        "partOfSpeech": "conj.",
+        "level": 5,
+        "originalMeaning": "然而",
+        "candidates": [
+          "whereas"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "conj"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "whereas",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "amid/amidst-5049",
+        "word": "amid/amidst",
+        "partOfSpeech": "prep.",
+        "level": 6,
+        "originalMeaning": "在...之中",
+        "candidates": [
+          "amid",
+          "amidst"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "amid",
+            "found": false,
+            "availablePos": []
+          },
+          {
+            "candidate": "amidst",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      }
+    ],
+    "no_wordnet_sense_for_word_and_pos": [
+      {
+        "id": "bow-111",
+        "word": "bow",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "originalMeaning": "弓",
+        "candidates": [
+          "bow"
+        ],
+        "supportedPos": [
+          "n",
+          "v"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "bow",
+            "found": true,
+            "availablePos": [
+              "n-1",
+              "n-2",
+              "v-1",
+              "v-2"
+            ]
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "else-260",
+        "word": "else",
+        "partOfSpeech": "adv.",
+        "level": 1,
+        "originalMeaning": "別的",
+        "candidates": [
+          "else"
+        ],
+        "supportedPos": [
+          "r"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "else",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "how-417",
+        "word": "how",
+        "partOfSpeech": "adv.",
+        "level": 1,
+        "originalMeaning": "如何",
+        "candidates": [
+          "how"
+        ],
+        "supportedPos": [
+          "r"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "how",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "media-531",
+        "word": "media",
+        "partOfSpeech": "n.",
+        "level": 1,
+        "originalMeaning": "媒體",
+        "candidates": [
+          "media"
+        ],
+        "supportedPos": [
+          "n"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "media",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "since-779",
+        "word": "since",
+        "partOfSpeech": "conj./prep./adv.",
+        "level": 1,
+        "originalMeaning": "自...以後",
+        "candidates": [
+          "since"
+        ],
+        "supportedPos": [
+          "r"
+        ],
+        "unsupportedParts": [
+          "conj",
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "since",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "something-803",
+        "word": "something",
+        "partOfSpeech": "pron./n.",
+        "level": 1,
+        "originalMeaning": "某事",
+        "candidates": [
+          "something"
+        ],
+        "supportedPos": [
+          "n"
+        ],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "something",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "that-871",
+        "word": "that",
+        "partOfSpeech": "conj./pron./adv./adj.",
+        "level": 1,
+        "originalMeaning": "那",
+        "candidates": [
+          "that"
+        ],
+        "supportedPos": [
+          "r",
+          "a"
+        ],
+        "unsupportedParts": [
+          "conj",
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "that",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "these-876",
+        "word": "these",
+        "partOfSpeech": "pron./adj.",
+        "level": 1,
+        "originalMeaning": "這些",
+        "candidates": [
+          "these"
+        ],
+        "supportedPos": [
+          "a"
+        ],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "these",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "this-883",
+        "word": "this",
+        "partOfSpeech": "pron./adv./adj.",
+        "level": 1,
+        "originalMeaning": "這",
+        "candidates": [
+          "this"
+        ],
+        "supportedPos": [
+          "r",
+          "a"
+        ],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "this",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "those-884",
+        "word": "those",
+        "partOfSpeech": "pron./adj.",
+        "level": 1,
+        "originalMeaning": "那些",
+        "candidates": [
+          "those"
+        ],
+        "supportedPos": [
+          "a"
+        ],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "those",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "what-963",
+        "word": "what",
+        "partOfSpeech": "pron./adj.",
+        "level": 1,
+        "originalMeaning": "什麼",
+        "candidates": [
+          "what"
+        ],
+        "supportedPos": [
+          "a"
+        ],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "what",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "when-964",
+        "word": "when",
+        "partOfSpeech": "adv./conj./pron.",
+        "level": 1,
+        "originalMeaning": "當...的時候",
+        "candidates": [
+          "when"
+        ],
+        "supportedPos": [
+          "r"
+        ],
+        "unsupportedParts": [
+          "conj",
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "when",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "where-965",
+        "word": "where",
+        "partOfSpeech": "conj./adv./pron./n.",
+        "level": 1,
+        "originalMeaning": "在哪裡",
+        "candidates": [
+          "where"
+        ],
+        "supportedPos": [
+          "r",
+          "n"
+        ],
+        "unsupportedParts": [
+          "conj",
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "where",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "which-967",
+        "word": "which",
+        "partOfSpeech": "pron./adj.",
+        "level": 1,
+        "originalMeaning": "哪一個",
+        "candidates": [
+          "which"
+        ],
+        "supportedPos": [
+          "a"
+        ],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "which",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "wind-977",
+        "word": "wind",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "originalMeaning": "風",
+        "candidates": [
+          "wind"
+        ],
+        "supportedPos": [
+          "n",
+          "v"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "wind",
+            "found": true,
+            "availablePos": [
+              "n-1",
+              "n-2",
+              "v-1",
+              "v-2"
+            ]
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "without-982",
+        "word": "without",
+        "partOfSpeech": "prep./adv.",
+        "level": 1,
+        "originalMeaning": "沒有",
+        "candidates": [
+          "without"
+        ],
+        "supportedPos": [
+          "r"
+        ],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "without",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "anytime-1037",
+        "word": "anytime",
+        "partOfSpeech": "adv.",
+        "level": 2,
+        "originalMeaning": "任何時候",
+        "candidates": [
+          "anytime"
+        ],
+        "supportedPos": [
+          "r"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "anytime",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "liver-1512",
+        "word": "liver",
+        "partOfSpeech": "n.",
+        "level": 2,
+        "originalMeaning": "肝髒",
+        "candidates": [
+          "liver"
+        ],
+        "supportedPos": [
+          "n"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "liver",
+            "found": true,
+            "availablePos": [
+              "a",
+              "n-1",
+              "n-2"
+            ]
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "lower-1517",
+        "word": "lower",
+        "partOfSpeech": "v.",
+        "level": 2,
+        "originalMeaning": "低的",
+        "candidates": [
+          "lower"
+        ],
+        "supportedPos": [
+          "v"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "lower",
+            "found": true,
+            "availablePos": [
+              "a",
+              "n",
+              "v-1",
+              "v-2"
+            ]
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "pajamas-1609",
+        "word": "pajamas",
+        "partOfSpeech": "n.",
+        "level": 2,
+        "originalMeaning": "睡衣",
+        "candidates": [
+          "pajamas"
+        ],
+        "supportedPos": [
+          "n"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "pajamas",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "recover-1712",
+        "word": "recover",
+        "partOfSpeech": "v.",
+        "level": 2,
+        "originalMeaning": "重新獲得",
+        "candidates": [
+          "recover"
+        ],
+        "supportedPos": [
+          "v"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "recover",
+            "found": true,
+            "availablePos": [
+              "v-1",
+              "v-2"
+            ]
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "tear-1892",
+        "word": "tear",
+        "partOfSpeech": "n./v.",
+        "level": 2,
+        "originalMeaning": "淚滴",
+        "candidates": [
+          "tear"
+        ],
+        "supportedPos": [
+          "n",
+          "v"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "tear",
+            "found": true,
+            "availablePos": [
+              "n-1",
+              "n-2",
+              "v-1",
+              "v-2"
+            ]
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "terrorist-1898",
+        "word": "terrorist",
+        "partOfSpeech": "adj.",
+        "level": 2,
+        "originalMeaning": "恐怖分子",
+        "candidates": [
+          "terrorist"
+        ],
+        "supportedPos": [
+          "a"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "terrorist",
+            "found": true,
+            "availablePos": [
+              "n"
+            ]
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "whenever-1977",
+        "word": "whenever",
+        "partOfSpeech": "conj./adv.",
+        "level": 2,
+        "originalMeaning": "每當",
+        "candidates": [
+          "whenever"
+        ],
+        "supportedPos": [
+          "r"
+        ],
+        "unsupportedParts": [
+          "conj"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "whenever",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "nun-2580",
+        "word": "nun",
+        "partOfSpeech": "n.",
+        "level": 3,
+        "originalMeaning": "修女",
+        "candidates": [
+          "nun"
+        ],
+        "supportedPos": [
+          "n"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "nun",
+            "found": true,
+            "availablePos": [
+              "n-1",
+              "n-2"
+            ]
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "sake-2756",
+        "word": "sake",
+        "partOfSpeech": "n.",
+        "level": 3,
+        "originalMeaning": "目的",
+        "candidates": [
+          "sake"
+        ],
+        "supportedPos": [
+          "n"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "sake",
+            "found": true,
+            "availablePos": [
+              "n-1",
+              "n-2"
+            ]
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "tower-2925",
+        "word": "tower",
+        "partOfSpeech": "n.",
+        "level": 3,
+        "originalMeaning": "塔",
+        "candidates": [
+          "tower"
+        ],
+        "supportedPos": [
+          "n"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "tower",
+            "found": true,
+            "availablePos": [
+              "n-1",
+              "n-2",
+              "v"
+            ]
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "underlying-2947",
+        "word": "underlying",
+        "partOfSpeech": "v.",
+        "level": 3,
+        "originalMeaning": "在下面的",
+        "candidates": [
+          "underlying"
+        ],
+        "supportedPos": [
+          "v"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "underlying",
+            "found": true,
+            "availablePos": [
+              "a"
+            ]
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "audio-3082",
+        "word": "audio",
+        "partOfSpeech": "adj.",
+        "level": 4,
+        "originalMeaning": "音頻的",
+        "candidates": [
+          "audio"
+        ],
+        "supportedPos": [
+          "a"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "audio",
+            "found": true,
+            "availablePos": [
+              "n"
+            ]
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "crunchy-3247",
+        "word": "crunchy",
+        "partOfSpeech": "adj.",
+        "level": 4,
+        "originalMeaning": "發嘎吱嘎吱聲的",
+        "candidates": [
+          "crunchy"
+        ],
+        "supportedPos": [
+          "a"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "crunchy",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "goods-3457",
+        "word": "goods",
+        "partOfSpeech": "n.",
+        "level": 4,
+        "originalMeaning": "貨物",
+        "candidates": [
+          "goods"
+        ],
+        "supportedPos": [
+          "n"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "goods",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "celsius-5143",
+        "word": "Celsius",
+        "partOfSpeech": "n.",
+        "level": 6,
+        "originalMeaning": "攝氏的",
+        "candidates": [
+          "Celsius"
+        ],
+        "supportedPos": [
+          "n"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "Celsius",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "cosmetics-5206",
+        "word": "cosmetics",
+        "partOfSpeech": "n.",
+        "level": 6,
+        "originalMeaning": "裝飾品",
+        "candidates": [
+          "cosmetics"
+        ],
+        "supportedPos": [
+          "n"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "cosmetics",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "fahrenheit-5345",
+        "word": "Fahrenheit",
+        "partOfSpeech": "n.",
+        "level": 6,
+        "originalMeaning": "華氏溫度計的",
+        "candidates": [
+          "Fahrenheit"
+        ],
+        "supportedPos": [
+          "n"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "Fahrenheit",
+            "found": true,
+            "availablePos": [
+              "a"
+            ]
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "telecommunications-5918",
+        "word": "telecommunications",
+        "partOfSpeech": "n.",
+        "level": 6,
+        "originalMeaning": "電信",
+        "candidates": [
+          "telecommunications"
+        ],
+        "supportedPos": [
+          "n"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "telecommunications",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "underway-5953",
+        "word": "underway",
+        "partOfSpeech": "adv.",
+        "level": 6,
+        "originalMeaning": "航行中的",
+        "candidates": [
+          "underway"
+        ],
+        "supportedPos": [
+          "r"
+        ],
+        "unsupportedParts": [],
+        "entryDiagnostics": [
+          {
+            "candidate": "underway",
+            "found": true,
+            "availablePos": [
+              "a"
+            ]
+          }
+        ],
+        "reason": "no_wordnet_sense_for_word_and_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      }
+    ]
+  },
   "anomalies": {
     "posMismatches": [],
     "duplicateDefinitionGroups": [
