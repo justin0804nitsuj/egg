@@ -1,0 +1,1368 @@
+import React, {
+  useEffect,
+  useRef,
+  useState,
+} from 'react';
+
+import {
+  View,
+  Text,
+  StyleSheet,
+  ScrollView,
+  Pressable,
+  TextInput,
+  KeyboardAvoidingView,
+  Platform,
+} from 'react-native';
+
+import * as Speech from 'expo-speech';
+
+import XpBurst from '../components/XpBurst';
+
+import { WORDS } from '../data/words';
+import { COLORS } from '../theme/colors';
+
+import {
+  buildReviewSession,
+} from '../utils/reviewQueue';
+
+import {
+  successFeedback,
+  wrongFeedback,
+  comboFeedback,
+  getComboBonus,
+} from '../utils/gameFeedback';
+
+import {
+  recordReview,
+  completeSession,
+  getLearningStats,
+  grantBonusXp,
+} from '../storage/progress';
+
+const LEVELS = [1, 2, 3, 4, 5, 6];
+
+const SESSION_SIZE = 10;
+
+function normalizeAnswer(value) {
+  return String(value ?? '')
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, ' ');
+}
+
+export default function SpellingScreen({
+  navigation,
+}) {
+  const inputRef =
+    useRef(null);
+
+  const [phase, setPhase] =
+    useState('setup');
+
+  const [
+    selectedLevel,
+    setSelectedLevel,
+  ] = useState(null);
+
+  const [
+    sessionWords,
+    setSessionWords,
+  ] = useState([]);
+
+  const [
+    currentIndex,
+    setCurrentIndex,
+  ] = useState(0);
+
+  const [
+    answer,
+    setAnswer,
+  ] = useState('');
+
+  const [
+    answered,
+    setAnswered,
+  ] = useState(false);
+
+  const [
+    wasCorrect,
+    setWasCorrect,
+  ] = useState(false);
+
+  const [
+    preparing,
+    setPreparing,
+  ] = useState(false);
+
+  const [
+    submitting,
+    setSubmitting,
+  ] = useState(false);
+
+  const [
+    sessionXp,
+    setSessionXp,
+  ] = useState(0);
+
+  const [
+    totalXp,
+    setTotalXp,
+  ] = useState(0);
+
+  const [combo, setCombo] =
+    useState(0);
+
+  const [
+    maxCombo,
+    setMaxCombo,
+  ] = useState(0);
+
+  const [
+    correctCount,
+    setCorrectCount,
+  ] = useState(0);
+
+  const [
+    wrongCount,
+    setWrongCount,
+  ] = useState(0);
+
+  const [
+    burst,
+    setBurst,
+  ] = useState({
+    visible: false,
+    amount: 0,
+    combo: 0,
+  });
+
+  useEffect(() => {
+    loadStats();
+  }, []);
+
+  async function loadStats() {
+    const stats =
+      await getLearningStats();
+
+    setTotalXp(stats.xp);
+  }
+
+  function showXpBurst(
+    amount,
+    comboValue
+  ) {
+    setBurst({
+      visible: false,
+      amount,
+      combo: comboValue,
+    });
+
+    setTimeout(() => {
+      setBurst({
+        visible: true,
+        amount,
+        combo: comboValue,
+      });
+    }, 20);
+
+    setTimeout(() => {
+      setBurst(
+        (current) => ({
+          ...current,
+          visible: false,
+        })
+      );
+    }, 900);
+  }
+
+  const currentWord =
+    sessionWords[currentIndex];
+
+  async function startSession() {
+    if (preparing) {
+      return;
+    }
+
+    setPreparing(true);
+
+    try {
+      const words =
+        await buildReviewSession({
+          words: WORDS,
+          selectedLevel,
+          size: SESSION_SIZE,
+        });
+
+      if (!words.length) {
+        return;
+      }
+
+      setSessionWords(words);
+
+      setCurrentIndex(0);
+
+      setAnswer('');
+      setAnswered(false);
+      setWasCorrect(false);
+
+      setSessionXp(0);
+
+      setCorrectCount(0);
+      setWrongCount(0);
+
+      setCombo(0);
+      setMaxCombo(0);
+
+      setBurst({
+        visible: false,
+        amount: 0,
+        combo: 0,
+      });
+
+      setPhase('quiz');
+
+      setTimeout(() => {
+        inputRef.current?.focus();
+      }, 200);
+    } catch (error) {
+      console.error(
+        'Failed to start spelling session:',
+        error
+      );
+    } finally {
+      setPreparing(false);
+    }
+  }
+
+  async function submitAnswer() {
+    if (
+      submitting ||
+      answered ||
+      !currentWord
+    ) {
+      return;
+    }
+
+    const userAnswer =
+      normalizeAnswer(answer);
+
+    if (!userAnswer) {
+      return;
+    }
+
+    const correctAnswer =
+      normalizeAnswer(
+        currentWord.word
+      );
+
+    const correct =
+      userAnswer ===
+      correctAnswer;
+
+    setWasCorrect(correct);
+    setAnswered(true);
+    setSubmitting(true);
+
+    try {
+      const result =
+        await recordReview(
+          currentWord.id,
+          correct
+            ? 'good'
+            : 'again'
+        );
+
+      setSessionXp(
+        (value) =>
+          value +
+          result.xpGain
+      );
+
+      setTotalXp(
+        result.totalXp
+      );
+
+      if (correct) {
+        await successFeedback();
+
+        setCorrectCount(
+          (value) =>
+            value + 1
+        );
+
+        const nextCombo =
+          combo + 1;
+
+        const comboBonus =
+          getComboBonus(
+            nextCombo
+          );
+
+        let finalXp =
+          result.xpGain;
+
+        if (comboBonus > 0) {
+          const bonusStats =
+            await grantBonusXp(
+              comboBonus
+            );
+
+          finalXp +=
+            comboBonus;
+
+          setTotalXp(
+            bonusStats.xp
+          );
+
+          setSessionXp(
+            (value) =>
+              value +
+              comboBonus
+          );
+
+          await comboFeedback(
+            nextCombo
+          );
+        }
+
+        setCombo(
+          nextCombo
+        );
+
+        setMaxCombo(
+          (value) =>
+            Math.max(
+              value,
+              nextCombo
+            )
+        );
+
+        showXpBurst(
+          finalXp,
+          nextCombo
+        );
+      } else {
+        await wrongFeedback();
+
+        setWrongCount(
+          (value) =>
+            value + 1
+        );
+
+        setCombo(0);
+
+        showXpBurst(
+          result.xpGain,
+          0
+        );
+      }
+    } catch (error) {
+      console.error(
+        'Failed to submit spelling answer:',
+        error
+      );
+    } finally {
+      setSubmitting(false);
+    }
+  }
+
+  function speakCorrectWord() {
+    if (!currentWord) {
+      return;
+    }
+
+    Speech.stop();
+
+    Speech.speak(
+      currentWord.word,
+      {
+        language: 'en-US',
+        rate: 0.85,
+        pitch: 1,
+      }
+    );
+  }
+
+  async function nextQuestion() {
+    if (
+      !answered ||
+      submitting
+    ) {
+      return;
+    }
+
+    const last =
+      currentIndex ===
+      sessionWords.length - 1;
+
+    if (last) {
+      setSubmitting(true);
+
+      try {
+        await completeSession();
+
+        setPhase('result');
+      } catch (error) {
+        console.error(
+          'Failed to finish spelling session:',
+          error
+        );
+      } finally {
+        setSubmitting(false);
+      }
+
+      return;
+    }
+
+    setCurrentIndex(
+      (value) =>
+        value + 1
+    );
+
+    setAnswer('');
+    setAnswered(false);
+    setWasCorrect(false);
+
+    setTimeout(() => {
+      inputRef.current?.focus();
+    }, 100);
+  }
+
+  if (phase === 'setup') {
+    return (
+      <ScrollView
+        style={styles.container}
+        contentContainerStyle={
+          styles.content
+        }
+        showsVerticalScrollIndicator={
+          false
+        }
+      >
+        <Text style={styles.eyebrow}>
+          SPELLING BATTLE
+        </Text>
+
+        <Text style={styles.title}>
+          拼字挑戰
+        </Text>
+
+        <Text style={styles.subtitle}>
+          看到中文意思後，親手輸入正確的英文。
+        </Text>
+
+        <View
+          style={styles.infoCard}
+        >
+          <Text
+            style={styles.infoText}
+          >
+            ⌨️ 必須完整拼對英文
+          </Text>
+
+          <Text
+            style={styles.infoText}
+          >
+            ✅ 答對 +10 XP
+          </Text>
+
+          <Text
+            style={styles.infoText}
+          >
+            ❌ 答錯 +2 XP
+          </Text>
+
+          <Text
+            style={styles.infoText}
+          >
+            🔥 Combo 有額外 XP
+          </Text>
+        </View>
+
+        <Text
+          style={
+            styles.sectionTitle
+          }
+        >
+          選擇單字級別
+        </Text>
+
+        <View
+          style={styles.levelGrid}
+        >
+          <LevelButton
+            label="ALL"
+            count={WORDS.length}
+            active={
+              selectedLevel === null
+            }
+            onPress={() =>
+              setSelectedLevel(null)
+            }
+          />
+
+          {LEVELS.map(
+            (level) => {
+              const count =
+                WORDS.filter(
+                  (word) =>
+                    word.level ===
+                    level
+                ).length;
+
+              return (
+                <LevelButton
+                  key={level}
+                  label={`LV.${level}`}
+                  count={count}
+                  active={
+                    selectedLevel ===
+                    level
+                  }
+                  onPress={() =>
+                    setSelectedLevel(
+                      level
+                    )
+                  }
+                />
+              );
+            }
+          )}
+        </View>
+
+        <Pressable
+          disabled={preparing}
+          onPress={startSession}
+          style={({ pressed }) => [
+            styles.mainButton,
+
+            preparing &&
+              styles.disabled,
+
+            pressed &&
+              !preparing &&
+              styles.pressed,
+          ]}
+        >
+          <Text
+            style={
+              styles.mainButtonText
+            }
+          >
+            {preparing
+              ? '載入單字中...'
+              : '開始拼字'}
+          </Text>
+        </Pressable>
+      </ScrollView>
+    );
+  }
+
+  if (phase === 'result') {
+    const accuracy =
+      sessionWords.length > 0
+        ? Math.round(
+            (
+              correctCount /
+              sessionWords.length
+            ) * 100
+          )
+        : 0;
+
+    return (
+      <ScrollView
+        style={styles.container}
+        contentContainerStyle={
+          styles.resultContent
+        }
+      >
+        <Text
+          style={styles.resultEmoji}
+        >
+          {accuracy >= 80
+            ? '🏆'
+            : accuracy >= 60
+            ? '⌨️'
+            : '🧠'}
+        </Text>
+
+        <Text
+          style={styles.resultTitle}
+        >
+          拼字作戰完成
+        </Text>
+
+        <Text
+          style={styles.accuracy}
+        >
+          {accuracy}%
+        </Text>
+
+        <Text
+          style={
+            styles.accuracyLabel
+          }
+        >
+          正確率
+        </Text>
+
+        <View
+          style={styles.resultGrid}
+        >
+          <ResultCard
+            label="答對"
+            value={correctCount}
+            color={
+              COLORS.success
+            }
+          />
+
+          <ResultCard
+            label="答錯"
+            value={wrongCount}
+            color={
+              COLORS.danger
+            }
+          />
+
+          <ResultCard
+            label="最高 Combo"
+            value={`x${maxCombo}`}
+            color={
+              COLORS.warning
+            }
+          />
+
+          <ResultCard
+            label="獲得 XP"
+            value={`+${sessionXp}`}
+            color={
+              COLORS.primary
+            }
+          />
+        </View>
+
+        <Text
+          style={styles.totalXp}
+        >
+          TOTAL XP {totalXp}
+        </Text>
+
+        <Pressable
+          disabled={preparing}
+          onPress={startSession}
+          style={({ pressed }) => [
+            styles.mainButton,
+
+            preparing &&
+              styles.disabled,
+
+            pressed &&
+              !preparing &&
+              styles.pressed,
+          ]}
+        >
+          <Text
+            style={
+              styles.mainButtonText
+            }
+          >
+            {preparing
+              ? '載入單字中...'
+              : '再來一局'}
+          </Text>
+        </Pressable>
+
+        <Pressable
+          onPress={() =>
+            navigation.goBack()
+          }
+          style={styles.backButton}
+        >
+          <Text
+            style={styles.backText}
+          >
+            返回作戰區
+          </Text>
+        </Pressable>
+      </ScrollView>
+    );
+  }
+
+  const progress =
+    sessionWords.length > 0
+      ? (
+          (currentIndex + 1) /
+          sessionWords.length
+        ) * 100
+      : 0;
+
+  return (
+    <KeyboardAvoidingView
+      style={styles.container}
+      behavior={
+        Platform.OS === 'ios'
+          ? 'padding'
+          : undefined
+      }
+    >
+      <ScrollView
+        contentContainerStyle={
+          styles.quizContent
+        }
+        keyboardShouldPersistTaps="handled"
+      >
+        <XpBurst
+          visible={burst.visible}
+          amount={burst.amount}
+          combo={burst.combo}
+        />
+
+        <View style={styles.header}>
+          <Text style={styles.counter}>
+            {currentIndex + 1}
+            {' / '}
+            {sessionWords.length}
+          </Text>
+
+          <Text style={styles.combo}>
+            🔥 x{combo}
+          </Text>
+
+          <Text
+            style={styles.sessionXp}
+          >
+            +{sessionXp} XP
+          </Text>
+        </View>
+
+        <View
+          style={
+            styles.progressTrack
+          }
+        >
+          <View
+            style={[
+              styles.progressFill,
+              {
+                width:
+                  `${progress}%`,
+              },
+            ]}
+          />
+        </View>
+
+        <View
+          style={
+            styles.questionCard
+          }
+        >
+          <View style={styles.meta}>
+            <Text
+              style={styles.level}
+            >
+              LV.{currentWord?.level}
+            </Text>
+
+            <Text style={styles.pos}>
+              {
+                currentWord
+                  ?.partOfSpeech
+              }
+            </Text>
+          </View>
+
+          <Text
+            style={
+              styles.questionHint
+            }
+          >
+            請輸入對應的英文單字
+          </Text>
+
+          <Text
+            style={styles.meaning}
+          >
+            {currentWord?.meaning}
+          </Text>
+        </View>
+
+        <TextInput
+          ref={inputRef}
+          value={answer}
+          onChangeText={setAnswer}
+          editable={!answered}
+          placeholder="輸入英文..."
+          placeholderTextColor={
+            COLORS.textMuted
+          }
+          autoCapitalize="none"
+          autoCorrect={false}
+          returnKeyType="done"
+          onSubmitEditing={
+            answered
+              ? nextQuestion
+              : submitAnswer
+          }
+          style={[
+            styles.input,
+
+            answered &&
+              (wasCorrect
+                ? styles.inputCorrect
+                : styles.inputWrong),
+          ]}
+        />
+
+        {!answered && (
+          <Pressable
+            disabled={
+              submitting ||
+              !answer.trim()
+            }
+            onPress={
+              submitAnswer
+            }
+            style={({ pressed }) => [
+              styles.mainButton,
+
+              (
+                submitting ||
+                !answer.trim()
+              ) &&
+                styles.disabled,
+
+              pressed &&
+                !submitting &&
+                answer.trim() &&
+                styles.pressed,
+            ]}
+          >
+            <Text
+              style={
+                styles.mainButtonText
+              }
+            >
+              確認答案
+            </Text>
+          </Pressable>
+        )}
+
+        {answered && (
+          <View
+            style={styles.feedback}
+          >
+            <Text
+              style={[
+                styles.feedbackTitle,
+                {
+                  color:
+                    wasCorrect
+                      ? COLORS.success
+                      : COLORS.danger,
+                },
+              ]}
+            >
+              {wasCorrect
+                ? '✓ 拼字正確！'
+                : '✕ 拼錯了'}
+            </Text>
+
+            {!wasCorrect && (
+              <Text
+                style={
+                  styles.correctAnswer
+                }
+              >
+                正確答案：
+                {currentWord?.word}
+              </Text>
+            )}
+
+            <Pressable
+              onPress={
+                speakCorrectWord
+              }
+              style={
+                styles.speakButton
+              }
+            >
+              <Text
+                style={
+                  styles.speakText
+                }
+              >
+                🔊 聽發音
+              </Text>
+            </Pressable>
+
+            <Pressable
+              disabled={submitting}
+              onPress={
+                nextQuestion
+              }
+              style={({ pressed }) => [
+                styles.nextButton,
+
+                submitting &&
+                  styles.disabled,
+
+                pressed &&
+                  !submitting &&
+                  styles.pressed,
+              ]}
+            >
+              <Text
+                style={
+                  styles.nextButtonText
+                }
+              >
+                {currentIndex ===
+                sessionWords.length - 1
+                  ? '查看戰績'
+                  : '下一題 →'}
+              </Text>
+            </Pressable>
+          </View>
+        )}
+      </ScrollView>
+    </KeyboardAvoidingView>
+  );
+}
+
+function LevelButton({
+  label,
+  count,
+  active,
+  onPress,
+}) {
+  return (
+    <Pressable
+      onPress={onPress}
+      style={[
+        styles.levelButton,
+
+        active &&
+          styles.levelActive,
+      ]}
+    >
+      <Text
+        style={[
+          styles.levelLabel,
+
+          active &&
+            styles.levelLabelActive,
+        ]}
+      >
+        {label}
+      </Text>
+
+      <Text
+        style={styles.levelCount}
+      >
+        {count}
+      </Text>
+    </Pressable>
+  );
+}
+
+function ResultCard({
+  label,
+  value,
+  color,
+}) {
+  return (
+    <View
+      style={styles.resultCard}
+    >
+      <Text
+        style={[
+          styles.resultValue,
+          { color },
+        ]}
+      >
+        {value}
+      </Text>
+
+      <Text
+        style={styles.resultLabel}
+      >
+        {label}
+      </Text>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor:
+      COLORS.background,
+  },
+
+  content: {
+    padding: 20,
+    paddingBottom: 50,
+  },
+
+  eyebrow: {
+    color: COLORS.primary,
+    fontSize: 11,
+    fontWeight: '800',
+    letterSpacing: 2,
+  },
+
+  title: {
+    color: COLORS.text,
+    fontSize: 34,
+    fontWeight: '900',
+    marginTop: 5,
+  },
+
+  subtitle: {
+    color:
+      COLORS.textSecondary,
+    fontSize: 15,
+    lineHeight: 22,
+    marginTop: 7,
+  },
+
+  infoCard: {
+    backgroundColor:
+      COLORS.surface,
+    borderWidth: 1,
+    borderColor:
+      COLORS.border,
+    borderRadius: 18,
+    padding: 16,
+    gap: 11,
+    marginTop: 22,
+  },
+
+  infoText: {
+    color:
+      COLORS.textSecondary,
+    fontSize: 13,
+  },
+
+  sectionTitle: {
+    color: COLORS.text,
+    fontSize: 17,
+    fontWeight: '800',
+    marginTop: 26,
+    marginBottom: 12,
+  },
+
+  levelGrid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 9,
+  },
+
+  levelButton: {
+    width: '31%',
+    backgroundColor:
+      COLORS.surface,
+    borderWidth: 1,
+    borderColor:
+      COLORS.border,
+    borderRadius: 15,
+    paddingVertical: 14,
+    alignItems: 'center',
+  },
+
+  levelActive: {
+    borderColor:
+      COLORS.primary,
+    backgroundColor:
+      COLORS.surfaceLight,
+  },
+
+  levelLabel: {
+    color: COLORS.text,
+    fontWeight: '800',
+  },
+
+  levelLabelActive: {
+    color: COLORS.primary,
+  },
+
+  levelCount: {
+    color:
+      COLORS.textMuted,
+    fontSize: 10,
+    marginTop: 4,
+  },
+
+  mainButton: {
+    minHeight: 56,
+    justifyContent:
+      'center',
+    alignItems: 'center',
+    backgroundColor:
+      COLORS.primary,
+    borderRadius: 17,
+    marginTop: 20,
+  },
+
+  mainButtonText: {
+    color: '#FFFFFF',
+    fontSize: 16,
+    fontWeight: '800',
+  },
+
+  disabled: {
+    opacity: 0.4,
+  },
+
+  pressed: {
+    opacity: 0.7,
+    transform: [
+      {
+        scale: 0.99,
+      },
+    ],
+  },
+
+  quizContent: {
+    padding: 20,
+    paddingBottom: 50,
+  },
+
+  header: {
+    flexDirection: 'row',
+    justifyContent:
+      'space-between',
+  },
+
+  counter: {
+    color: COLORS.text,
+    fontWeight: '700',
+  },
+
+  combo: {
+    color: COLORS.warning,
+    fontWeight: '800',
+  },
+
+  sessionXp: {
+    color: COLORS.success,
+    fontWeight: '800',
+  },
+
+  progressTrack: {
+    height: 6,
+    backgroundColor:
+      COLORS.surfaceLight,
+    borderRadius: 3,
+    marginTop: 12,
+    overflow: 'hidden',
+  },
+
+  progressFill: {
+    height: '100%',
+    backgroundColor:
+      COLORS.primary,
+  },
+
+  questionCard: {
+    backgroundColor:
+      COLORS.surface,
+    borderWidth: 1,
+    borderColor:
+      COLORS.border,
+    borderRadius: 24,
+    padding: 22,
+    marginTop: 24,
+  },
+
+  meta: {
+    flexDirection: 'row',
+    justifyContent:
+      'space-between',
+  },
+
+  level: {
+    color: COLORS.primary,
+    fontWeight: '800',
+    fontSize: 11,
+  },
+
+  pos: {
+    color:
+      COLORS.textMuted,
+  },
+
+  questionHint: {
+    color:
+      COLORS.textMuted,
+    textAlign: 'center',
+    marginTop: 30,
+    fontSize: 12,
+  },
+
+  meaning: {
+    color: COLORS.text,
+    textAlign: 'center',
+    fontSize: 28,
+    fontWeight: '800',
+    lineHeight: 38,
+    marginTop: 15,
+    marginBottom: 25,
+  },
+
+  input: {
+    minHeight: 58,
+    backgroundColor:
+      COLORS.surface,
+    borderWidth: 2,
+    borderColor:
+      COLORS.border,
+    borderRadius: 17,
+    marginTop: 20,
+    paddingHorizontal: 18,
+    color: COLORS.text,
+    fontSize: 20,
+    fontWeight: '700',
+  },
+
+  inputCorrect: {
+    borderColor:
+      COLORS.success,
+  },
+
+  inputWrong: {
+    borderColor:
+      COLORS.danger,
+  },
+
+  feedback: {
+    marginTop: 22,
+  },
+
+  feedbackTitle: {
+    textAlign: 'center',
+    fontSize: 19,
+    fontWeight: '900',
+  },
+
+  correctAnswer: {
+    color:
+      COLORS.textSecondary,
+    textAlign: 'center',
+    fontSize: 17,
+    marginTop: 8,
+  },
+
+  speakButton: {
+    alignSelf: 'center',
+    backgroundColor:
+      COLORS.surfaceLight,
+    paddingHorizontal: 16,
+    paddingVertical: 10,
+    borderRadius: 12,
+    marginTop: 14,
+  },
+
+  speakText: {
+    color: COLORS.primary,
+    fontWeight: '700',
+  },
+
+  nextButton: {
+    height: 54,
+    justifyContent:
+      'center',
+    alignItems: 'center',
+    borderRadius: 16,
+    backgroundColor:
+      COLORS.primary,
+    marginTop: 16,
+  },
+
+  nextButtonText: {
+    color: '#FFFFFF',
+    fontWeight: '800',
+  },
+
+  resultContent: {
+    padding: 24,
+    paddingTop: 45,
+    alignItems: 'center',
+  },
+
+  resultEmoji: {
+    fontSize: 60,
+  },
+
+  resultTitle: {
+    color: COLORS.text,
+    fontSize: 30,
+    fontWeight: '900',
+    marginTop: 13,
+  },
+
+  accuracy: {
+    color: COLORS.primary,
+    fontSize: 56,
+    fontWeight: '900',
+    marginTop: 25,
+  },
+
+  accuracyLabel: {
+    color:
+      COLORS.textMuted,
+  },
+
+  resultGrid: {
+    width: '100%',
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent:
+      'space-between',
+    gap: 10,
+    marginTop: 28,
+  },
+
+  resultCard: {
+    width: '48%',
+    backgroundColor:
+      COLORS.surface,
+    borderWidth: 1,
+    borderColor:
+      COLORS.border,
+    borderRadius: 17,
+    alignItems: 'center',
+    padding: 18,
+  },
+
+  resultValue: {
+    fontSize: 25,
+    fontWeight: '900',
+  },
+
+  resultLabel: {
+    color:
+      COLORS.textSecondary,
+    fontSize: 11,
+    marginTop: 4,
+  },
+
+  totalXp: {
+    color:
+      COLORS.textMuted,
+    marginTop: 20,
+    fontWeight: '700',
+  },
+
+  backButton: {
+    padding: 16,
+  },
+
+  backText: {
+    color:
+      COLORS.textSecondary,
+    fontWeight: '600',
+  },
+});
