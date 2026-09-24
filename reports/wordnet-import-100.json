@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T12:44:13.050Z",
+  "generatedAt": "2026-09-24T12:58:52.736Z",
   "scope": "first-100-words",
   "source": {
     "name": "Open English WordNet",
@@ -11,12 +11,43 @@
     "derivedFrom": "Princeton WordNet",
     "derivedFromUrl": "https://wordnet.princeton.edu/"
   },
+  "sorting": {
+    "strategy": "oewn-entry-sense-order",
+    "description": "Definitions are ordered by app lookup candidate order, app POS order, then the original sense order in the OEWN entry JSON.",
+    "limitation": "The OEWN JSON export used here does not expose a reliable corpus frequency or learner-dictionary priority score for these senses; no frequency ranking is invented."
+  },
+  "runtimeDefinitionSchema": [
+    "id",
+    "synsetId",
+    "partOfSpeech",
+    "partOfSpeechLabel",
+    "lexicalFile",
+    "definition",
+    "source",
+    "meaningZh",
+    "translationStatus"
+  ],
   "totalWordsInApp": 6012,
   "processedWordCount": 100,
   "matchedWordCount": 92,
   "unmatchedWordCount": 8,
   "matchRate": 92,
+  "runtimeWordCount": 92,
   "definitionCount": 600,
+  "definitionCountStats": {
+    "min": 0,
+    "max": 28,
+    "average": 6,
+    "median": 4
+  },
+  "definitionCountBuckets": {
+    "0": 8,
+    "1": 13,
+    "2-5": 38,
+    "6-10": 22,
+    "11-20": 16,
+    "21-50": 3
+  },
   "wordsWithMultipleDefinitions": 79,
   "posTotals": {
     "noun": 250,
@@ -26,6 +57,14 @@
   },
   "unmatchedReasonTotals": {
     "unsupported_pos": 8
+  },
+  "quality": {
+    "highDefinitionThreshold": 20,
+    "posMismatchCount": 0,
+    "duplicateDefinitionGroupCount": 3,
+    "emptyDefinitionCount": 0,
+    "highDefinitionCountWordCount": 3,
+    "unsupportedPartWarningCount": 23
   },
   "unmatched": [
     {
@@ -38,6 +77,9 @@
         "an"
       ],
       "supportedPos": [],
+      "unsupportedParts": [
+        "art"
+      ],
       "reason": "unsupported_pos"
     },
     {
@@ -49,6 +91,9 @@
         "although"
       ],
       "supportedPos": [],
+      "unsupportedParts": [
+        "conj"
+      ],
       "reason": "unsupported_pos"
     },
     {
@@ -60,6 +105,9 @@
         "and"
       ],
       "supportedPos": [],
+      "unsupportedParts": [
+        "conj"
+      ],
       "reason": "unsupported_pos"
     },
     {
@@ -72,6 +120,9 @@
         "anyone"
       ],
       "supportedPos": [],
+      "unsupportedParts": [
+        "pron"
+      ],
       "reason": "unsupported_pos"
     },
     {
@@ -83,6 +134,9 @@
         "anything"
       ],
       "supportedPos": [],
+      "unsupportedParts": [
+        "pron"
+      ],
       "reason": "unsupported_pos"
     },
     {
@@ -94,6 +148,9 @@
         "at"
       ],
       "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
       "reason": "unsupported_pos"
     },
     {
@@ -105,6 +162,9 @@
         "because"
       ],
       "supportedPos": [],
+      "unsupportedParts": [
+        "conj"
+      ],
       "reason": "unsupported_pos"
     },
     {
@@ -116,9 +176,342 @@
         "beside"
       ],
       "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
       "reason": "unsupported_pos"
     }
   ],
+  "anomalies": {
+    "posMismatches": [],
+    "duplicateDefinitionGroups": [
+      {
+        "id": "airplane/plane-20",
+        "word": "airplane/plane",
+        "partOfSpeech": "n.",
+        "definition": "an aircraft that has a fixed wing and is powered by propellers or jets",
+        "wordNetIds": [
+          "airplane%1:06:00::",
+          "plane%1:06:01::"
+        ],
+        "synsetIds": [
+          "02694015-n",
+          "02694015-n"
+        ]
+      },
+      {
+        "id": "am/a.m.-30",
+        "word": "am/a.m.",
+        "partOfSpeech": "adv.",
+        "definition": "before 12 noon",
+        "wordNetIds": [
+          "am%4:02:04::",
+          "a.m.%4:02:03::"
+        ],
+        "synsetIds": [
+          "00252773-r",
+          "00252773-r"
+        ]
+      },
+      {
+        "id": "bicycle/bike-91",
+        "word": "bicycle/bike",
+        "partOfSpeech": "n.",
+        "definition": "a wheeled vehicle that has two wheels and is moved by foot pedals",
+        "wordNetIds": [
+          "bicycle%1:06:00::",
+          "bike%1:06:00::"
+        ],
+        "synsetIds": [
+          "02837983-n",
+          "02837983-n"
+        ]
+      }
+    ],
+    "emptyDefinitions": [],
+    "highDefinitionCountWords": [
+      {
+        "id": "back-55",
+        "word": "back",
+        "partOfSpeech": "adv./n./v./adj.",
+        "level": 1,
+        "definitionCount": 28,
+        "wordNetPos": [
+          "adverb",
+          "noun",
+          "verb",
+          "adjective"
+        ]
+      },
+      {
+        "id": "block-97",
+        "word": "block",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 28,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "blow-98",
+        "word": "blow",
+        "partOfSpeech": "v.",
+        "level": 1,
+        "definitionCount": 23,
+        "wordNetPos": [
+          "verb"
+        ]
+      }
+    ],
+    "unsupportedPartWarnings": [
+      {
+        "id": "a/an-1",
+        "word": "a/an",
+        "partOfSpeech": "art.",
+        "unsupportedParts": [
+          "art"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "about-4",
+        "word": "about",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "above-5",
+        "word": "above",
+        "partOfSpeech": "prep./adv./adj.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r",
+          "a"
+        ]
+      },
+      {
+        "id": "across-7",
+        "word": "across",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "after-13",
+        "word": "after",
+        "partOfSpeech": "prep./conj./adv.",
+        "unsupportedParts": [
+          "prep",
+          "conj"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "all-22",
+        "word": "all",
+        "partOfSpeech": "adj./adv./pron./n.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a",
+          "r",
+          "n"
+        ]
+      },
+      {
+        "id": "along-25",
+        "word": "along",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "although-28",
+        "word": "although",
+        "partOfSpeech": "conj.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "and-31",
+        "word": "and",
+        "partOfSpeech": "conj.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "another-34",
+        "word": "another",
+        "partOfSpeech": "adj./pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a"
+        ]
+      },
+      {
+        "id": "any-37",
+        "word": "any",
+        "partOfSpeech": "pron./adj./adv.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a",
+          "r"
+        ]
+      },
+      {
+        "id": "anybody/anyone-38",
+        "word": "anybody/anyone",
+        "partOfSpeech": "pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "anything-39",
+        "word": "anything",
+        "partOfSpeech": "pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "around-45",
+        "word": "around",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "as-48",
+        "word": "as",
+        "partOfSpeech": "conj./adv./prep.",
+        "unsupportedParts": [
+          "conj",
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "at-50",
+        "word": "at",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "be-68",
+        "word": "be",
+        "partOfSpeech": "v./aux.",
+        "unsupportedParts": [
+          "aux"
+        ],
+        "supportedPos": [
+          "v"
+        ]
+      },
+      {
+        "id": "because-73",
+        "word": "because",
+        "partOfSpeech": "conj.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "before-79",
+        "word": "before",
+        "partOfSpeech": "prep./conj./adv.",
+        "unsupportedParts": [
+          "prep",
+          "conj"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "behind-81",
+        "word": "behind",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "below-85",
+        "word": "below",
+        "partOfSpeech": "adv./prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "beside-88",
+        "word": "beside",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "between-90",
+        "word": "between",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      }
+    ]
+  },
   "multipleDefinitionSamples": [
     {
       "id": "ability-2",
@@ -255,8 +648,8 @@
       "partOfSpeech": "v./(n.)",
       "definitionCount": 13,
       "wordNetPos": [
-        "noun",
-        "verb"
+        "verb",
+        "noun"
       ]
     },
     {
@@ -348,8 +741,8 @@
       "partOfSpeech": "pron./adj./adv.",
       "definitionCount": 2,
       "wordNetPos": [
-        "adverb",
-        "adjective"
+        "adjective",
+        "adverb"
       ]
     }
   ]

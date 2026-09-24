@@ -25,11 +25,18 @@ const OUTPUT_PATH = path.join(
   'data',
   'wordDefinitions.js'
 );
-const REPORT_PATH = path.join(
+const SAMPLE_REPORT_PATH = path.join(
   PROJECT_ROOT,
   'reports',
   'wordnet-import-100.json'
 );
+const FULL_REPORT_PATH = path.join(
+  PROJECT_ROOT,
+  'reports',
+  'wordnet-import-all.json'
+);
+
+const SOURCE_ID = 'oewn-2025';
 
 const SOURCE = {
   name: 'Open English WordNet',
@@ -41,6 +48,26 @@ const SOURCE = {
   derivedFrom: 'Princeton WordNet',
   derivedFromUrl: 'https://wordnet.princeton.edu/',
 };
+
+const SORTING = {
+  strategy: 'oewn-entry-sense-order',
+  description:
+    'Definitions are ordered by app lookup candidate order, app POS order, then the original sense order in the OEWN entry JSON.',
+  limitation:
+    'The OEWN JSON export used here does not expose a reliable corpus frequency or learner-dictionary priority score for these senses; no frequency ranking is invented.',
+};
+
+const RUNTIME_DEFINITION_SCHEMA = [
+  'id',
+  'synsetId',
+  'partOfSpeech',
+  'partOfSpeechLabel',
+  'lexicalFile',
+  'definition',
+  'source',
+  'meaningZh',
+  'translationStatus',
+];
 
 const POS_DISPLAY = {
   n: 'noun',
@@ -57,7 +84,8 @@ function parseArgs(argv) {
     limit: 100,
     source: null,
     output: OUTPUT_PATH,
-    report: REPORT_PATH,
+    report: SAMPLE_REPORT_PATH,
+    reportProvided: false,
     downloadUrl: DEFAULT_DOWNLOAD_URL,
   };
 
@@ -89,6 +117,7 @@ function parseArgs(argv) {
 
     if (arg === '--report') {
       options.report = path.resolve(PROJECT_ROOT, argv[index + 1]);
+      options.reportProvided = true;
       index += 1;
       continue;
     }
@@ -105,6 +134,15 @@ function parseArgs(argv) {
   ) {
     throw new Error('--limit must be a positive integer.');
   }
+
+  if (
+    options.limit === null &&
+    !options.reportProvided
+  ) {
+    options.report = FULL_REPORT_PATH;
+  }
+
+  delete options.reportProvided;
 
   return options;
 }
@@ -220,7 +258,7 @@ function normalizeLookup(value) {
   return String(value ?? '')
     .trim()
     .toLowerCase()
-    .replace(/[’`]/g, "'")
+    .replace(/[\u2019`]/g, "'")
     .replace(/_/g, ' ')
     .replace(/\s+/g, ' ');
 }
@@ -274,26 +312,53 @@ function parseVocabularyPos(partOfSpeech) {
     .toLowerCase()
     .replace(/[()]/g, '');
 
+  const parts = normalized
+    .split(/[\/,\s]+/)
+    .map((part) => part.replace(/\.$/, ''))
+    .filter(Boolean);
+
   const result = new Set();
+  const order = [];
+  const unsupportedParts = [];
 
-  if (/\bn\.?/.test(normalized)) {
-    result.add('n');
+  function add(pos) {
+    if (!result.has(pos)) {
+      order.push(pos);
+    }
+
+    result.add(pos);
   }
 
-  if (/\bv\.?/.test(normalized)) {
-    result.add('v');
-  }
+  parts.forEach((part) => {
+    if (part === 'n') {
+      add('n');
+      return;
+    }
 
-  if (/\badj\.?/.test(normalized)) {
-    result.add('a');
-    result.add('s');
-  }
+    if (part === 'v') {
+      add('v');
+      return;
+    }
 
-  if (/\badv\.?/.test(normalized)) {
-    result.add('r');
-  }
+    if (part === 'adj') {
+      add('a');
+      add('s');
+      return;
+    }
 
-  return result;
+    if (part === 'adv') {
+      add('r');
+      return;
+    }
+
+    unsupportedParts.push(part);
+  });
+
+  return {
+    set: result,
+    order,
+    unsupportedParts,
+  };
 }
 
 function createEntryIndex(sourceDirectory) {
@@ -342,35 +407,68 @@ function createSynsetIndex(sourceDirectory) {
   return synsets;
 }
 
+function getEntryPosKeys({
+  entryData,
+  posOrder,
+  wantedPos,
+}) {
+  const keys = [];
+  const seen = new Set();
+
+  posOrder.forEach((pos) => {
+    if (
+      entryData[pos] &&
+      !seen.has(pos)
+    ) {
+      keys.push(pos);
+      seen.add(pos);
+    }
+  });
+
+  Object.keys(entryData).forEach((pos) => {
+    if (
+      SUPPORTED_POS.has(pos) &&
+      wantedPos.has(pos) &&
+      !seen.has(pos)
+    ) {
+      keys.push(pos);
+      seen.add(pos);
+    }
+  });
+
+  return keys;
+}
+
 function getMatchingDefinitions({
   candidates,
   wantedPos,
+  posOrder,
   entryIndex,
   synsetIndex,
 }) {
   const definitions = [];
   const seen = new Set();
 
-  candidates.forEach((candidate) => {
+  candidates.forEach((candidate, candidateIndex) => {
     const entry = entryIndex.get(normalizeLookup(candidate));
 
     if (!entry) {
       return;
     }
 
-    Object.entries(entry.data).forEach(([wordNetPos, posData]) => {
-      if (
-        !SUPPORTED_POS.has(wordNetPos) ||
-        !wantedPos.has(wordNetPos)
-      ) {
-        return;
-      }
+    const entryPosKeys = getEntryPosKeys({
+      entryData: entry.data,
+      posOrder,
+      wantedPos,
+    });
 
+    entryPosKeys.forEach((wordNetPos, posOrderIndex) => {
+      const posData = entry.data[wordNetPos];
       const senses = Array.isArray(posData.sense)
         ? posData.sense
         : [];
 
-      senses.forEach((sense) => {
+      senses.forEach((sense, senseIndex) => {
         const synset = synsetIndex.get(sense.synset);
 
         if (!synset) {
@@ -398,24 +496,20 @@ function getMatchingDefinitions({
           definition: Array.isArray(synset.definition)
             ? synset.definition[0]
             : String(synset.definition ?? ''),
-          source: 'oewn-2025',
+          source: SOURCE_ID,
           meaningZh: null,
           translationStatus: 'pending_review',
+          sort: {
+            candidateIndex,
+            posOrderIndex,
+            senseIndex,
+          },
         });
       });
     });
   });
 
-  return definitions.sort((a, b) => {
-    const posCompare =
-      a.partOfSpeech.localeCompare(b.partOfSpeech);
-
-    if (posCompare !== 0) {
-      return posCompare;
-    }
-
-    return a.synsetId.localeCompare(b.synsetId);
-  });
+  return definitions;
 }
 
 async function loadWords() {
@@ -440,6 +534,129 @@ function summarizeUnmatched(item) {
   return 'no_wordnet_sense_for_word_and_pos';
 }
 
+function compactDefinition(definition) {
+  return [
+    definition.id,
+    definition.synsetId,
+    definition.partOfSpeech,
+    definition.partOfSpeechLabel,
+    definition.lexicalFile,
+    definition.definition,
+    definition.source,
+    definition.meaningZh,
+    definition.translationStatus,
+  ];
+}
+
+function getDefinitionBucket(count) {
+  if (count === 0) {
+    return '0';
+  }
+
+  if (count === 1) {
+    return '1';
+  }
+
+  if (count <= 5) {
+    return '2-5';
+  }
+
+  if (count <= 10) {
+    return '6-10';
+  }
+
+  if (count <= 20) {
+    return '11-20';
+  }
+
+  if (count <= 50) {
+    return '21-50';
+  }
+
+  return '51+';
+}
+
+function getDefinitionCountStats(counts) {
+  if (!counts.length) {
+    return {
+      min: 0,
+      max: 0,
+      average: 0,
+      median: 0,
+    };
+  }
+
+  const sorted = [...counts].sort(
+    (a, b) => a - b
+  );
+
+  const middle = Math.floor(
+    sorted.length / 2
+  );
+
+  const median =
+    sorted.length % 2 === 0
+      ? (sorted[middle - 1] + sorted[middle]) / 2
+      : sorted[middle];
+
+  const total = sorted.reduce(
+    (sum, count) => sum + count,
+    0
+  );
+
+  return {
+    min: sorted[0],
+    max: sorted[sorted.length - 1],
+    average: Number(
+      (total / sorted.length).toFixed(2)
+    ),
+    median,
+  };
+}
+
+function findDuplicateDefinitionGroups({
+  word,
+  definitions,
+}) {
+  const groups = new Map();
+
+  definitions.forEach((definition) => {
+    const key = [
+      definition.partOfSpeech,
+      normalizeLookup(
+        definition.definition
+      ),
+    ].join(':');
+
+    if (!groups.has(key)) {
+      groups.set(key, []);
+    }
+
+    groups.get(key).push(
+      definition
+    );
+  });
+
+  return Array.from(groups.values())
+    .filter((group) => group.length > 1)
+    .map((group) => ({
+      id: word.id,
+      word: word.word,
+      partOfSpeech:
+        word.partOfSpeech,
+      definition:
+        group[0].definition,
+      wordNetIds: group.map(
+        (definition) =>
+          definition.id
+      ),
+      synsetIds: group.map(
+        (definition) =>
+          definition.synsetId
+      ),
+    }));
+}
+
 function buildDictionary({
   words,
   limit,
@@ -452,14 +669,26 @@ function buildDictionary({
   const dictionary = {};
   const unmatched = [];
   const ambiguous = [];
+  const highDefinitionCountWords = [];
+  const duplicateDefinitionGroups = [];
+  const posMismatches = [];
+  const emptyDefinitions = [];
+  const unsupportedPartWarnings = [];
   const posTotals = {};
+  const definitionCountBuckets = {};
+  const definitionCounts = [];
+  let definitionCount = 0;
+
+  const highDefinitionThreshold = 20;
 
   selectedWords.forEach((word) => {
     const candidates = getWordCandidates(word.word);
-    const wantedPos = parseVocabularyPos(word.partOfSpeech);
+    const posInfo = parseVocabularyPos(word.partOfSpeech);
+    const wantedPos = posInfo.set;
     const definitions = getMatchingDefinitions({
       candidates,
       wantedPos,
+      posOrder: posInfo.order,
       entryIndex,
       synsetIndex,
     });
@@ -468,20 +697,78 @@ function buildDictionary({
       (pos) => pos !== 's'
     );
 
+    const definitionBucket =
+      getDefinitionBucket(
+        definitions.length
+      );
+
+    definitionCountBuckets[definitionBucket] =
+      (definitionCountBuckets[definitionBucket] ?? 0) + 1;
+
+    definitionCounts.push(
+      definitions.length
+    );
+
+    if (
+      posInfo.unsupportedParts.length > 0
+    ) {
+      unsupportedPartWarnings.push({
+        id: word.id,
+        word: word.word,
+        partOfSpeech:
+          word.partOfSpeech,
+        unsupportedParts:
+          posInfo.unsupportedParts,
+        supportedPos,
+      });
+    }
+
     definitions.forEach((definition) => {
+      definitionCount += 1;
+
       posTotals[definition.partOfSpeechLabel] =
         (posTotals[definition.partOfSpeechLabel] ?? 0) + 1;
+
+      if (
+        !wantedPos.has(
+          definition.partOfSpeech
+        )
+      ) {
+        posMismatches.push({
+          id: word.id,
+          word: word.word,
+          appPartOfSpeech:
+            word.partOfSpeech,
+          wordNetId:
+            definition.id,
+          wordNetPartOfSpeech:
+            definition.partOfSpeech,
+          definition:
+            definition.definition,
+        });
+      }
+
+      if (
+        !definition.definition ||
+        !definition.definition.trim()
+      ) {
+        emptyDefinitions.push({
+          id: word.id,
+          word: word.word,
+          wordNetId:
+            definition.id,
+          synsetId:
+            definition.synsetId,
+        });
+      }
     });
 
-    dictionary[word.id] = {
-      wordId: word.id,
-      word: word.word,
-      level: word.level,
-      partOfSpeech: word.partOfSpeech,
-      originalMeaning: word.meaning,
-      lookupCandidates: candidates,
-      definitions,
-    };
+    if (definitions.length > 0) {
+      dictionary[word.id] =
+        definitions.map(
+          compactDefinition
+        );
+    }
 
     if (definitions.length === 0) {
       unmatched.push({
@@ -491,6 +778,8 @@ function buildDictionary({
         level: word.level,
         candidates,
         supportedPos,
+        unsupportedParts:
+          posInfo.unsupportedParts,
         reason: summarizeUnmatched({
           candidates,
           supportedPos,
@@ -513,6 +802,36 @@ function buildDictionary({
         ),
       });
     }
+
+    if (
+      definitions.length >
+      highDefinitionThreshold
+    ) {
+      highDefinitionCountWords.push({
+        id: word.id,
+        word: word.word,
+        partOfSpeech:
+          word.partOfSpeech,
+        level: word.level,
+        definitionCount:
+          definitions.length,
+        wordNetPos: Array.from(
+          new Set(
+            definitions.map(
+              (definition) =>
+                definition.partOfSpeechLabel
+            )
+          )
+        ),
+      });
+    }
+
+    duplicateDefinitionGroups.push(
+      ...findDuplicateDefinitionGroups({
+        word,
+        definitions,
+      })
+    );
   });
 
   const matchedWordCount =
@@ -528,6 +847,9 @@ function buildDictionary({
           ? 'all-words'
           : `first-${limit}-words`,
       source: SOURCE,
+      sorting: SORTING,
+      runtimeDefinitionSchema:
+        RUNTIME_DEFINITION_SCHEMA,
       totalWordsInApp: words.length,
       processedWordCount: selectedWords.length,
       matchedWordCount,
@@ -541,10 +863,14 @@ function buildDictionary({
               ).toFixed(2)
             )
           : 0,
-      definitionCount: Object.values(dictionary).reduce(
-        (total, entry) => total + entry.definitions.length,
-        0
-      ),
+      runtimeWordCount:
+        Object.keys(dictionary).length,
+      definitionCount,
+      definitionCountStats:
+        getDefinitionCountStats(
+          definitionCounts
+        ),
+      definitionCountBuckets,
       wordsWithMultipleDefinitions: ambiguous.length,
       posTotals,
       unmatchedReasonTotals: unmatched.reduce(
@@ -554,8 +880,29 @@ function buildDictionary({
         }),
         {}
       ),
+      quality: {
+        highDefinitionThreshold,
+        posMismatchCount:
+          posMismatches.length,
+        duplicateDefinitionGroupCount:
+          duplicateDefinitionGroups.length,
+        emptyDefinitionCount:
+          emptyDefinitions.length,
+        highDefinitionCountWordCount:
+          highDefinitionCountWords.length,
+        unsupportedPartWarningCount:
+          unsupportedPartWarnings.length,
+      },
       unmatched,
-      multipleDefinitionSamples: ambiguous.slice(0, 25),
+      anomalies: {
+        posMismatches,
+        duplicateDefinitionGroups,
+        emptyDefinitions,
+        highDefinitionCountWords,
+        unsupportedPartWarnings,
+      },
+      multipleDefinitionSamples:
+        ambiguous.slice(0, 25),
     },
   };
 }
@@ -580,8 +927,17 @@ export const WORD_DEFINITION_METADATA = ${JSON.stringify(
       unmatchedWordCount: report.unmatchedWordCount,
       matchRate: report.matchRate,
       definitionCount: report.definitionCount,
+      runtimeWordCount: report.runtimeWordCount,
+      runtimeDefinitionSchema: report.runtimeDefinitionSchema,
+      sorting: report.sorting,
       source: report.source,
     },
+    null,
+    2
+  )};
+
+export const WORD_DEFINITION_SCHEMA = ${JSON.stringify(
+    RUNTIME_DEFINITION_SCHEMA,
     null,
     2
   )};
@@ -592,8 +948,46 @@ export const WORD_DEFINITIONS_BY_ID = ${JSON.stringify(
     2
   )};
 
+function expandDefinition(item) {
+  const [
+    id,
+    synsetId,
+    partOfSpeech,
+    partOfSpeechLabel,
+    lexicalFile,
+    definition,
+    source,
+    meaningZh,
+    translationStatus,
+  ] = item;
+
+  return {
+    id,
+    synsetId,
+    partOfSpeech,
+    partOfSpeechLabel,
+    lexicalFile,
+    definition,
+    source,
+    meaningZh,
+    translationStatus,
+  };
+}
+
 export function getWordDefinitions(wordId) {
-  return WORD_DEFINITIONS_BY_ID[String(wordId)] ?? null;
+  const definitions =
+    WORD_DEFINITIONS_BY_ID[String(wordId)];
+
+  if (!definitions) {
+    return null;
+  }
+
+  return {
+    definitions:
+      definitions.map(
+        expandDefinition
+      ),
+  };
 }
 `;
 

@@ -1,0 +1,5388 @@
+{
+  "generatedAt": "2026-09-24T12:59:24.087Z",
+  "scope": "all-words",
+  "source": {
+    "name": "Open English WordNet",
+    "edition": "2025",
+    "url": "https://en-word.net/downloads",
+    "dataUrl": "https://en-word.net/downloads/english-wordnet-2025-json.zip",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "derivedFrom": "Princeton WordNet",
+    "derivedFromUrl": "https://wordnet.princeton.edu/"
+  },
+  "sorting": {
+    "strategy": "oewn-entry-sense-order",
+    "description": "Definitions are ordered by app lookup candidate order, app POS order, then the original sense order in the OEWN entry JSON.",
+    "limitation": "The OEWN JSON export used here does not expose a reliable corpus frequency or learner-dictionary priority score for these senses; no frequency ranking is invented."
+  },
+  "runtimeDefinitionSchema": [
+    "id",
+    "synsetId",
+    "partOfSpeech",
+    "partOfSpeechLabel",
+    "lexicalFile",
+    "definition",
+    "source",
+    "meaningZh",
+    "translationStatus"
+  ],
+  "totalWordsInApp": 6012,
+  "processedWordCount": 6012,
+  "matchedWordCount": 5920,
+  "unmatchedWordCount": 92,
+  "matchRate": 98.47,
+  "runtimeWordCount": 5920,
+  "definitionCount": 28562,
+  "definitionCountStats": {
+    "min": 0,
+    "max": 75,
+    "average": 4.75,
+    "median": 3
+  },
+  "definitionCountBuckets": {
+    "0": 92,
+    "1": 922,
+    "2-5": 3381,
+    "6-10": 1107,
+    "11-20": 411,
+    "21-50": 96,
+    "51+": 3
+  },
+  "wordsWithMultipleDefinitions": 4998,
+  "posTotals": {
+    "noun": 14300,
+    "adjective": 4431,
+    "adverb": 622,
+    "verb": 9209
+  },
+  "unmatchedReasonTotals": {
+    "unsupported_pos": 56,
+    "no_wordnet_sense_for_word_and_pos": 36
+  },
+  "quality": {
+    "highDefinitionThreshold": 20,
+    "posMismatchCount": 0,
+    "duplicateDefinitionGroupCount": 71,
+    "emptyDefinitionCount": 0,
+    "highDefinitionCountWordCount": 99,
+    "unsupportedPartWarningCount": 152
+  },
+  "unmatched": [
+    {
+      "id": "a/an-1",
+      "word": "a/an",
+      "partOfSpeech": "art.",
+      "level": 1,
+      "candidates": [
+        "a",
+        "an"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "art"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "although-28",
+      "word": "although",
+      "partOfSpeech": "conj.",
+      "level": 1,
+      "candidates": [
+        "although"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "conj"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "and-31",
+      "word": "and",
+      "partOfSpeech": "conj.",
+      "level": 1,
+      "candidates": [
+        "and"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "conj"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "anybody/anyone-38",
+      "word": "anybody/anyone",
+      "partOfSpeech": "pron.",
+      "level": 1,
+      "candidates": [
+        "anybody",
+        "anyone"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "anything-39",
+      "word": "anything",
+      "partOfSpeech": "pron.",
+      "level": 1,
+      "candidates": [
+        "anything"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "at-50",
+      "word": "at",
+      "partOfSpeech": "prep.",
+      "level": 1,
+      "candidates": [
+        "at"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "because-73",
+      "word": "because",
+      "partOfSpeech": "conj.",
+      "level": 1,
+      "candidates": [
+        "because"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "conj"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "beside-88",
+      "word": "beside",
+      "partOfSpeech": "prep.",
+      "level": 1,
+      "candidates": [
+        "beside"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "bow-111",
+      "word": "bow",
+      "partOfSpeech": "n./v.",
+      "level": 1,
+      "candidates": [
+        "bow"
+      ],
+      "supportedPos": [
+        "n",
+        "v"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "during-249",
+      "word": "during",
+      "partOfSpeech": "prep.",
+      "level": 1,
+      "candidates": [
+        "during"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "else-260",
+      "word": "else",
+      "partOfSpeech": "adv.",
+      "level": 1,
+      "candidates": [
+        "else"
+      ],
+      "supportedPos": [
+        "r"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "everyone/everybody-274",
+      "word": "everyone/everybody",
+      "partOfSpeech": "pron.",
+      "level": 1,
+      "candidates": [
+        "everyone",
+        "everybody"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "everything-275",
+      "word": "everything",
+      "partOfSpeech": "pron.",
+      "level": 1,
+      "candidates": [
+        "everything"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "except-278",
+      "word": "except",
+      "partOfSpeech": "prep./conj.",
+      "level": 1,
+      "candidates": [
+        "except"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep",
+        "conj"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "for-323",
+      "word": "for",
+      "partOfSpeech": "prep./conj.",
+      "level": 1,
+      "candidates": [
+        "for"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep",
+        "conj"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "from-333",
+      "word": "from",
+      "partOfSpeech": "prep.",
+      "level": 1,
+      "candidates": [
+        "from"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "he (him, his, himself)-382",
+      "word": "he (him, his, himself)",
+      "partOfSpeech": "pron.",
+      "level": 1,
+      "candidates": [
+        "he",
+        "he him, his, himself"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "how-417",
+      "word": "how",
+      "partOfSpeech": "adv.",
+      "level": 1,
+      "candidates": [
+        "how"
+      ],
+      "supportedPos": [
+        "r"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "i (me, my, mine, myself)-423",
+      "word": "I (me, my, mine, myself)",
+      "partOfSpeech": "pron.",
+      "level": 1,
+      "candidates": [
+        "I",
+        "I me, my, mine, myself"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "if-426",
+      "word": "if",
+      "partOfSpeech": "conj.",
+      "level": 1,
+      "candidates": [
+        "if"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "conj"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "into-436",
+      "word": "into",
+      "partOfSpeech": "prep.",
+      "level": 1,
+      "candidates": [
+        "into"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "it (its, itself)-439",
+      "word": "it (its, itself)",
+      "partOfSpeech": "pron.",
+      "level": 1,
+      "candidates": [
+        "it",
+        "it its, itself"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "may-526",
+      "word": "may",
+      "partOfSpeech": "aux.",
+      "level": 1,
+      "candidates": [
+        "may"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "aux"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "media-531",
+      "word": "media",
+      "partOfSpeech": "n.",
+      "level": 1,
+      "candidates": [
+        "media"
+      ],
+      "supportedPos": [
+        "n"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "of-599",
+      "word": "of",
+      "partOfSpeech": "prep.",
+      "level": 1,
+      "candidates": [
+        "of"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "or-611",
+      "word": "or",
+      "partOfSpeech": "conj.",
+      "level": 1,
+      "candidates": [
+        "or"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "conj"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "shall-758",
+      "word": "shall",
+      "partOfSpeech": "aux.",
+      "level": 1,
+      "candidates": [
+        "shall"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "aux"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "she (her, hers, herself)-762",
+      "word": "she (her, hers, herself)",
+      "partOfSpeech": "pron.",
+      "level": 1,
+      "candidates": [
+        "she",
+        "she her, hers, herself"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "since-779",
+      "word": "since",
+      "partOfSpeech": "conj./prep./adv.",
+      "level": 1,
+      "candidates": [
+        "since"
+      ],
+      "supportedPos": [
+        "r"
+      ],
+      "unsupportedParts": [
+        "conj",
+        "prep"
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "something-803",
+      "word": "something",
+      "partOfSpeech": "pron./n.",
+      "level": 1,
+      "candidates": [
+        "something"
+      ],
+      "supportedPos": [
+        "n"
+      ],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "than-869",
+      "word": "than",
+      "partOfSpeech": "conj./prep.",
+      "level": 1,
+      "candidates": [
+        "than"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "conj",
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "that-871",
+      "word": "that",
+      "partOfSpeech": "conj./pron./adv./adj.",
+      "level": 1,
+      "candidates": [
+        "that"
+      ],
+      "supportedPos": [
+        "r",
+        "a"
+      ],
+      "unsupportedParts": [
+        "conj",
+        "pron"
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "the-872",
+      "word": "the",
+      "partOfSpeech": "art.",
+      "level": 1,
+      "candidates": [
+        "the"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "art"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "these-876",
+      "word": "these",
+      "partOfSpeech": "pron./adj.",
+      "level": 1,
+      "candidates": [
+        "these"
+      ],
+      "supportedPos": [
+        "a"
+      ],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "they (them, their, theirs, themselves)-877",
+      "word": "they (them, their, theirs, themselves)",
+      "partOfSpeech": "pron.",
+      "level": 1,
+      "candidates": [
+        "they",
+        "they them, their, theirs, themselves"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "this-883",
+      "word": "this",
+      "partOfSpeech": "pron./adv./adj.",
+      "level": 1,
+      "candidates": [
+        "this"
+      ],
+      "supportedPos": [
+        "r",
+        "a"
+      ],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "those-884",
+      "word": "those",
+      "partOfSpeech": "pron./adj.",
+      "level": 1,
+      "candidates": [
+        "those"
+      ],
+      "supportedPos": [
+        "a"
+      ],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "to-897",
+      "word": "to",
+      "partOfSpeech": "prep.",
+      "level": 1,
+      "candidates": [
+        "to"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "until-931",
+      "word": "until",
+      "partOfSpeech": "conj./prep.",
+      "level": 1,
+      "candidates": [
+        "until"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "conj",
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "we (us, our, ours, ourselves)-953",
+      "word": "we (us, our, ours, ourselves)",
+      "partOfSpeech": "pron.",
+      "level": 1,
+      "candidates": [
+        "we",
+        "we us, our, ours, ourselves"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "what-963",
+      "word": "what",
+      "partOfSpeech": "pron./adj.",
+      "level": 1,
+      "candidates": [
+        "what"
+      ],
+      "supportedPos": [
+        "a"
+      ],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "when-964",
+      "word": "when",
+      "partOfSpeech": "adv./conj./pron.",
+      "level": 1,
+      "candidates": [
+        "when"
+      ],
+      "supportedPos": [
+        "r"
+      ],
+      "unsupportedParts": [
+        "conj",
+        "pron"
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "where-965",
+      "word": "where",
+      "partOfSpeech": "conj./adv./pron./n.",
+      "level": 1,
+      "candidates": [
+        "where"
+      ],
+      "supportedPos": [
+        "r",
+        "n"
+      ],
+      "unsupportedParts": [
+        "conj",
+        "pron"
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "whether-966",
+      "word": "whether",
+      "partOfSpeech": "conj.",
+      "level": 1,
+      "candidates": [
+        "whether"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "conj"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "which-967",
+      "word": "which",
+      "partOfSpeech": "pron./adj.",
+      "level": 1,
+      "candidates": [
+        "which"
+      ],
+      "supportedPos": [
+        "a"
+      ],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "who-970",
+      "word": "who",
+      "partOfSpeech": "pron.",
+      "level": 1,
+      "candidates": [
+        "who"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "whose-971",
+      "word": "whose",
+      "partOfSpeech": "pron.",
+      "level": 1,
+      "candidates": [
+        "whose"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "wind-977",
+      "word": "wind",
+      "partOfSpeech": "n./v.",
+      "level": 1,
+      "candidates": [
+        "wind"
+      ],
+      "supportedPos": [
+        "n",
+        "v"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "with-981",
+      "word": "with",
+      "partOfSpeech": "prep.",
+      "level": 1,
+      "candidates": [
+        "with"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "without-982",
+      "word": "without",
+      "partOfSpeech": "prep./adv.",
+      "level": 1,
+      "candidates": [
+        "without"
+      ],
+      "supportedPos": [
+        "r"
+      ],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "you (your, yours, yourself, yourselves)-999",
+      "word": "you (your, yours, yourself, yourselves)",
+      "partOfSpeech": "pron.",
+      "level": 1,
+      "candidates": [
+        "you",
+        "you your, yours, yourself, yourselves"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "against-1019",
+      "word": "against",
+      "partOfSpeech": "prep.",
+      "level": 2,
+      "candidates": [
+        "against"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "among-1031",
+      "word": "among",
+      "partOfSpeech": "prep.",
+      "level": 2,
+      "candidates": [
+        "among"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "anytime-1037",
+      "word": "anytime",
+      "partOfSpeech": "adv.",
+      "level": 2,
+      "candidates": [
+        "anytime"
+      ],
+      "supportedPos": [
+        "r"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "liver-1512",
+      "word": "liver",
+      "partOfSpeech": "n.",
+      "level": 2,
+      "candidates": [
+        "liver"
+      ],
+      "supportedPos": [
+        "n"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "lower-1517",
+      "word": "lower",
+      "partOfSpeech": "v.",
+      "level": 2,
+      "candidates": [
+        "lower"
+      ],
+      "supportedPos": [
+        "v"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "nor-1586",
+      "word": "nor",
+      "partOfSpeech": "conj.",
+      "level": 2,
+      "candidates": [
+        "nor"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "conj"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "pajamas-1609",
+      "word": "pajamas",
+      "partOfSpeech": "n.",
+      "level": 2,
+      "candidates": [
+        "pajamas"
+      ],
+      "supportedPos": [
+        "n"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "per-1628",
+      "word": "per",
+      "partOfSpeech": "prep.",
+      "level": 2,
+      "candidates": [
+        "per"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "recover-1712",
+      "word": "recover",
+      "partOfSpeech": "v.",
+      "level": 2,
+      "candidates": [
+        "recover"
+      ],
+      "supportedPos": [
+        "v"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "tear-1892",
+      "word": "tear",
+      "partOfSpeech": "n./v.",
+      "level": 2,
+      "candidates": [
+        "tear"
+      ],
+      "supportedPos": [
+        "n",
+        "v"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "terrorist-1898",
+      "word": "terrorist",
+      "partOfSpeech": "adj.",
+      "level": 2,
+      "candidates": [
+        "terrorist"
+      ],
+      "supportedPos": [
+        "a"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "till-1908",
+      "word": "till",
+      "partOfSpeech": "conj./prep.",
+      "level": 2,
+      "candidates": [
+        "till"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "conj",
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "toward/towards-1920",
+      "word": "toward/towards",
+      "partOfSpeech": "prep.",
+      "level": 2,
+      "candidates": [
+        "toward",
+        "towards"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "unless-1944",
+      "word": "unless",
+      "partOfSpeech": "conj.",
+      "level": 2,
+      "candidates": [
+        "unless"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "conj"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "upon-1946",
+      "word": "upon",
+      "partOfSpeech": "prep.",
+      "level": 2,
+      "candidates": [
+        "upon"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "whenever-1977",
+      "word": "whenever",
+      "partOfSpeech": "conj./adv.",
+      "level": 2,
+      "candidates": [
+        "whenever"
+      ],
+      "supportedPos": [
+        "r"
+      ],
+      "unsupportedParts": [
+        "conj"
+      ],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "whoever-1980",
+      "word": "whoever",
+      "partOfSpeech": "pron.",
+      "level": 2,
+      "candidates": [
+        "whoever"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "whom-1982",
+      "word": "whom",
+      "partOfSpeech": "pron.",
+      "level": 2,
+      "candidates": [
+        "whom"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "pron"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "beneath-2078",
+      "word": "beneath",
+      "partOfSpeech": "prep.",
+      "level": 3,
+      "candidates": [
+        "beneath"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "nun-2580",
+      "word": "nun",
+      "partOfSpeech": "n.",
+      "level": 3,
+      "candidates": [
+        "nun"
+      ],
+      "supportedPos": [
+        "n"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "onto-2588",
+      "word": "onto",
+      "partOfSpeech": "prep.",
+      "level": 3,
+      "candidates": [
+        "onto"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "sake-2756",
+      "word": "sake",
+      "partOfSpeech": "n.",
+      "level": 3,
+      "candidates": [
+        "sake"
+      ],
+      "supportedPos": [
+        "n"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "tower-2925",
+      "word": "tower",
+      "partOfSpeech": "n.",
+      "level": 3,
+      "candidates": [
+        "tower"
+      ],
+      "supportedPos": [
+        "n"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "underlying-2947",
+      "word": "underlying",
+      "partOfSpeech": "v.",
+      "level": 3,
+      "candidates": [
+        "underlying"
+      ],
+      "supportedPos": [
+        "v"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "audio-3082",
+      "word": "audio",
+      "partOfSpeech": "adj.",
+      "level": 4,
+      "candidates": [
+        "audio"
+      ],
+      "supportedPos": [
+        "a"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "concerning-3181",
+      "word": "concerning",
+      "partOfSpeech": "prep.",
+      "level": 4,
+      "candidates": [
+        "concerning"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "crunchy-3247",
+      "word": "crunchy",
+      "partOfSpeech": "adj.",
+      "level": 4,
+      "candidates": [
+        "crunchy"
+      ],
+      "supportedPos": [
+        "a"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "despite-3280",
+      "word": "despite",
+      "partOfSpeech": "prep.",
+      "level": 4,
+      "candidates": [
+        "despite"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "goods-3457",
+      "word": "goods",
+      "partOfSpeech": "n.",
+      "level": 4,
+      "candidates": [
+        "goods"
+      ],
+      "supportedPos": [
+        "n"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "including-3528",
+      "word": "including",
+      "partOfSpeech": "prep.",
+      "level": 4,
+      "candidates": [
+        "including"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "regarding-3825",
+      "word": "regarding",
+      "partOfSpeech": "prep.",
+      "level": 4,
+      "candidates": [
+        "regarding"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "lest-4517",
+      "word": "lest",
+      "partOfSpeech": "conj.",
+      "level": 5,
+      "candidates": [
+        "lest"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "conj"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "versus-4972",
+      "word": "versus",
+      "partOfSpeech": "prep.",
+      "level": 5,
+      "candidates": [
+        "versus"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "via-4975",
+      "word": "via",
+      "partOfSpeech": "prep.",
+      "level": 5,
+      "candidates": [
+        "via"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "whereas-4996",
+      "word": "whereas",
+      "partOfSpeech": "conj.",
+      "level": 5,
+      "candidates": [
+        "whereas"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "conj"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "amid/amidst-5049",
+      "word": "amid/amidst",
+      "partOfSpeech": "prep.",
+      "level": 6,
+      "candidates": [
+        "amid",
+        "amidst"
+      ],
+      "supportedPos": [],
+      "unsupportedParts": [
+        "prep"
+      ],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "celsius-5143",
+      "word": "Celsius",
+      "partOfSpeech": "n.",
+      "level": 6,
+      "candidates": [
+        "Celsius"
+      ],
+      "supportedPos": [
+        "n"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "cosmetics-5206",
+      "word": "cosmetics",
+      "partOfSpeech": "n.",
+      "level": 6,
+      "candidates": [
+        "cosmetics"
+      ],
+      "supportedPos": [
+        "n"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "fahrenheit-5345",
+      "word": "Fahrenheit",
+      "partOfSpeech": "n.",
+      "level": 6,
+      "candidates": [
+        "Fahrenheit"
+      ],
+      "supportedPos": [
+        "n"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "telecommunications-5918",
+      "word": "telecommunications",
+      "partOfSpeech": "n.",
+      "level": 6,
+      "candidates": [
+        "telecommunications"
+      ],
+      "supportedPos": [
+        "n"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    },
+    {
+      "id": "underway-5953",
+      "word": "underway",
+      "partOfSpeech": "adv.",
+      "level": 6,
+      "candidates": [
+        "underway"
+      ],
+      "supportedPos": [
+        "r"
+      ],
+      "unsupportedParts": [],
+      "reason": "no_wordnet_sense_for_word_and_pos"
+    }
+  ],
+  "anomalies": {
+    "posMismatches": [],
+    "duplicateDefinitionGroups": [
+      {
+        "id": "airplane/plane-20",
+        "word": "airplane/plane",
+        "partOfSpeech": "n.",
+        "definition": "an aircraft that has a fixed wing and is powered by propellers or jets",
+        "wordNetIds": [
+          "airplane%1:06:00::",
+          "plane%1:06:01::"
+        ],
+        "synsetIds": [
+          "02694015-n",
+          "02694015-n"
+        ]
+      },
+      {
+        "id": "am/a.m.-30",
+        "word": "am/a.m.",
+        "partOfSpeech": "adv.",
+        "definition": "before 12 noon",
+        "wordNetIds": [
+          "am%4:02:04::",
+          "a.m.%4:02:03::"
+        ],
+        "synsetIds": [
+          "00252773-r",
+          "00252773-r"
+        ]
+      },
+      {
+        "id": "bicycle/bike-91",
+        "word": "bicycle/bike",
+        "partOfSpeech": "n.",
+        "definition": "a wheeled vehicle that has two wheels and is moved by foot pedals",
+        "wordNetIds": [
+          "bicycle%1:06:00::",
+          "bike%1:06:00::"
+        ],
+        "synsetIds": [
+          "02837983-n",
+          "02837983-n"
+        ]
+      },
+      {
+        "id": "doctor/doc-232",
+        "word": "doctor/doc",
+        "partOfSpeech": "n.",
+        "definition": "a licensed medical practitioner",
+        "wordNetIds": [
+          "doctor%1:18:00::",
+          "doc%1:18:00::"
+        ],
+        "synsetIds": [
+          "10040615-n",
+          "10040615-n"
+        ]
+      },
+      {
+        "id": "mathematics/math-524",
+        "word": "mathematics/math",
+        "partOfSpeech": "n.",
+        "definition": "a science (or group of related sciences) dealing with the logic of quantity and shape and arrangement",
+        "wordNetIds": [
+          "mathematics%1:09:00::",
+          "math%1:09:00::"
+        ],
+        "synsetIds": [
+          "06009822-n",
+          "06009822-n"
+        ]
+      },
+      {
+        "id": "move(ment)-559",
+        "word": "move(ment)",
+        "partOfSpeech": "v./(n.)",
+        "definition": "a change of position that does not entail a change of location",
+        "wordNetIds": [
+          "move%1:04:03::",
+          "movement%1:04:00::"
+        ],
+        "synsetIds": [
+          "00332776-n",
+          "00332776-n"
+        ]
+      },
+      {
+        "id": "move(ment)-559",
+        "word": "move(ment)",
+        "partOfSpeech": "v./(n.)",
+        "definition": "the act of changing location from one place to another",
+        "wordNetIds": [
+          "move%1:04:04::",
+          "movement%1:04:04::"
+        ],
+        "synsetIds": [
+          "00280679-n",
+          "00280679-n"
+        ]
+      },
+      {
+        "id": "movie/film-560",
+        "word": "movie/film",
+        "partOfSpeech": "n.",
+        "definition": "a form of entertainment that enacts a story by sound and a sequence of images giving the illusion of continuous movement",
+        "wordNetIds": [
+          "movie%1:10:00::",
+          "film%1:10:01::"
+        ],
+        "synsetIds": [
+          "06626039-n",
+          "06626039-n"
+        ]
+      },
+      {
+        "id": "mr./mister-561",
+        "word": "Mr./Mister",
+        "partOfSpeech": "n.",
+        "definition": "a form of address for a man",
+        "wordNetIds": [
+          "mr.%1:10:00::",
+          "mister%1:10:00::"
+        ],
+        "synsetIds": [
+          "06352710-n",
+          "06352710-n"
+        ]
+      },
+      {
+        "id": "o.k./ok/okay-597",
+        "word": "O.K./OK/okay",
+        "partOfSpeech": "adj./adv./n./v.",
+        "definition": "being satisfactory or in satisfactory condition",
+        "wordNetIds": [
+          "o.k.%5:00:00:satisfactory:00",
+          "ok%5:00:00:satisfactory:00",
+          "okay%5:00:00:satisfactory:00"
+        ],
+        "synsetIds": [
+          "02088253-s",
+          "02088253-s",
+          "02088253-s"
+        ]
+      },
+      {
+        "id": "photograph/photo-639",
+        "word": "photograph/photo",
+        "partOfSpeech": "n./v.",
+        "definition": "a representation of a person or scene in the form of a print or transparent slide or in digital format",
+        "wordNetIds": [
+          "photograph%1:06:00::",
+          "photo%1:06:00::"
+        ],
+        "synsetIds": [
+          "03931348-n",
+          "03931348-n"
+        ]
+      },
+      {
+        "id": "pm/p.m.-659",
+        "word": "pm/p.m.",
+        "partOfSpeech": "adv.",
+        "definition": "between noon and midnight",
+        "wordNetIds": [
+          "pm%4:02:02::",
+          "p.m.%4:02:03::"
+        ],
+        "synsetIds": [
+          "00252877-r",
+          "00252877-r"
+        ]
+      },
+      {
+        "id": "someone/somebody-802",
+        "word": "someone/somebody",
+        "partOfSpeech": "pron./n.",
+        "definition": "a human being; person, singular, assertive existential pronoun; pronoun, person, singular; quantifier: assertive existential",
+        "wordNetIds": [
+          "someone%1:03:00::",
+          "somebody%1:03:00::"
+        ],
+        "synsetIds": [
+          "00007846-n",
+          "00007846-n"
+        ]
+      },
+      {
+        "id": "taxicab/taxi/cab-856",
+        "word": "taxicab/taxi/cab",
+        "partOfSpeech": "n.",
+        "definition": "a car driven by a person whose job is to take passengers where they want to go in exchange for money",
+        "wordNetIds": [
+          "taxicab%1:06:00::",
+          "taxi%1:06:00::",
+          "cab%1:06:00::"
+        ],
+        "synsetIds": [
+          "02934150-n",
+          "02934150-n",
+          "02934150-n"
+        ]
+      },
+      {
+        "id": "telephone/phone-862",
+        "word": "telephone/phone",
+        "partOfSpeech": "n./v.",
+        "definition": "electronic equipment that converts sound into electrical signals that can be transmitted over distances and then converts received signals back into sounds",
+        "wordNetIds": [
+          "telephone%1:06:00::",
+          "phone%1:06:00::"
+        ],
+        "synsetIds": [
+          "04408223-n",
+          "04408223-n"
+        ]
+      },
+      {
+        "id": "telephone/phone-862",
+        "word": "telephone/phone",
+        "partOfSpeech": "n./v.",
+        "definition": "get or try to get into communication (with someone) by telephone",
+        "wordNetIds": [
+          "telephone%2:32:00::",
+          "phone%2:32:00::"
+        ],
+        "synsetIds": [
+          "00791110-v",
+          "00791110-v"
+        ]
+      },
+      {
+        "id": "television/tv-863",
+        "word": "television/TV",
+        "partOfSpeech": "n.",
+        "definition": "an electronic device that receives television signals and displays them on a screen",
+        "wordNetIds": [
+          "television%1:06:01::",
+          "tv%1:06:00::"
+        ],
+        "synsetIds": [
+          "04413042-n",
+          "04413042-n"
+        ]
+      },
+      {
+        "id": "anywhere/anyplace-1039",
+        "word": "anywhere/anyplace",
+        "partOfSpeech": "adv.",
+        "definition": "at or in or to any place",
+        "wordNetIds": [
+          "anywhere%4:02:00::",
+          "anyplace%4:02:00::"
+        ],
+        "synsetIds": [
+          "00025699-r",
+          "00025699-r"
+        ]
+      },
+      {
+        "id": "backward/backwards-1063",
+        "word": "backward/backwards",
+        "partOfSpeech": "adv.",
+        "definition": "at or to or toward the back or rear",
+        "wordNetIds": [
+          "backward%4:02:03::",
+          "backwards%4:02:03::"
+        ],
+        "synsetIds": [
+          "00074673-r",
+          "00074673-r"
+        ]
+      },
+      {
+        "id": "backward/backwards-1063",
+        "word": "backward/backwards",
+        "partOfSpeech": "adv.",
+        "definition": "in a manner or order or direction the reverse of normal",
+        "wordNetIds": [
+          "backward%4:02:01::",
+          "backwards%4:02:01::"
+        ],
+        "synsetIds": [
+          "00076232-r",
+          "00076232-r"
+        ]
+      },
+      {
+        "id": "cockroach/roach-1172",
+        "word": "cockroach/roach",
+        "partOfSpeech": "n.",
+        "definition": "any of numerous chiefly nocturnal insects; some are domestic pests",
+        "wordNetIds": [
+          "cockroach%1:05:00::",
+          "roach%1:05:01::"
+        ],
+        "synsetIds": [
+          "02235990-n",
+          "02235990-n"
+        ]
+      },
+      {
+        "id": "employ(ment)-1304",
+        "word": "employ(ment)",
+        "partOfSpeech": "v./(n.)",
+        "definition": "the state of being employed or having a job",
+        "wordNetIds": [
+          "employ%1:26:00::",
+          "employment%1:26:00::"
+        ],
+        "synsetIds": [
+          "13991539-n",
+          "13991539-n"
+        ]
+      },
+      {
+        "id": "examination/exam-1325",
+        "word": "examination/exam",
+        "partOfSpeech": "n.",
+        "definition": "a set of questions or exercises evaluating skill or knowledge",
+        "wordNetIds": [
+          "examination%1:10:00::",
+          "exam%1:10:00::"
+        ],
+        "synsetIds": [
+          "07211681-n",
+          "07211681-n"
+        ]
+      },
+      {
+        "id": "eyebrow/brow-1337",
+        "word": "eyebrow/brow",
+        "partOfSpeech": "n.",
+        "definition": "the arch of hair above each eye",
+        "wordNetIds": [
+          "eyebrow%1:08:00::",
+          "brow%1:08:01::"
+        ],
+        "synsetIds": [
+          "05321060-n",
+          "05321060-n"
+        ]
+      },
+      {
+        "id": "forward/forwards-1381",
+        "word": "forward/forwards",
+        "partOfSpeech": "adv.",
+        "definition": "at or to or toward the front; forward",
+        "wordNetIds": [
+          "forward%4:02:00::",
+          "forwards%4:02:01::"
+        ],
+        "synsetIds": [
+          "00074907-r",
+          "00074907-r"
+        ]
+      },
+      {
+        "id": "forward/forwards-1381",
+        "word": "forward/forwards",
+        "partOfSpeech": "adv.",
+        "definition": "in a forward direction",
+        "wordNetIds": [
+          "forward%4:02:01::",
+          "forwards%4:02:00::"
+        ],
+        "synsetIds": [
+          "00067665-r",
+          "00067665-r"
+        ]
+      },
+      {
+        "id": "gymnasium/gym-1421",
+        "word": "gymnasium/gym",
+        "partOfSpeech": "n.",
+        "definition": "athletic facility equipped for sports or physical training",
+        "wordNetIds": [
+          "gymnasium%1:06:00::",
+          "gym%1:06:00::"
+        ],
+        "synsetIds": [
+          "03477235-n",
+          "03477235-n"
+        ]
+      },
+      {
+        "id": "hamburger/burger-1424",
+        "word": "hamburger/burger",
+        "partOfSpeech": "n.",
+        "definition": "a sandwich consisting of a fried cake of minced beef served on a bun, often with other ingredients",
+        "wordNetIds": [
+          "hamburger%1:13:01::",
+          "burger%1:13:00::"
+        ],
+        "synsetIds": [
+          "07712845-n",
+          "07712845-n"
+        ]
+      },
+      {
+        "id": "hippopotamus/hippo-1434",
+        "word": "hippopotamus/hippo",
+        "partOfSpeech": "n.",
+        "definition": "massive thick-skinned herbivorous animal living in or around rivers of tropical Africa",
+        "wordNetIds": [
+          "hippopotamus%1:05:00::",
+          "hippo%1:05:00::"
+        ],
+        "synsetIds": [
+          "02401173-n",
+          "02401173-n"
+        ]
+      },
+      {
+        "id": "judgment/judgement-1482",
+        "word": "judgment/judgement",
+        "partOfSpeech": "n.",
+        "definition": "an opinion formed by judging something",
+        "wordNetIds": [
+          "judgment%1:09:04::",
+          "judgement%1:09:04::"
+        ],
+        "synsetIds": [
+          "05846466-n",
+          "05846466-n"
+        ]
+      },
+      {
+        "id": "judgment/judgement-1482",
+        "word": "judgment/judgement",
+        "partOfSpeech": "n.",
+        "definition": "the act of judging or assessing a person or situation or event",
+        "wordNetIds": [
+          "judgment%1:04:02::",
+          "judgement%1:04:02::"
+        ],
+        "synsetIds": [
+          "00875745-n",
+          "00875745-n"
+        ]
+      },
+      {
+        "id": "judgment/judgement-1482",
+        "word": "judgment/judgement",
+        "partOfSpeech": "n.",
+        "definition": "(law) the determination by a court of competent jurisdiction on matters submitted to it",
+        "wordNetIds": [
+          "judgment%1:04:00::",
+          "judgement%1:04:00::"
+        ],
+        "synsetIds": [
+          "01190300-n",
+          "01190300-n"
+        ]
+      },
+      {
+        "id": "judgment/judgement-1482",
+        "word": "judgment/judgement",
+        "partOfSpeech": "n.",
+        "definition": "the cognitive process of reaching a decision or drawing conclusions",
+        "wordNetIds": [
+          "judgment%1:09:00::",
+          "judgement%1:09:00::"
+        ],
+        "synsetIds": [
+          "05797437-n",
+          "05797437-n"
+        ]
+      },
+      {
+        "id": "judgment/judgement-1482",
+        "word": "judgment/judgement",
+        "partOfSpeech": "n.",
+        "definition": "the legal document stating the reasons for a judicial decision",
+        "wordNetIds": [
+          "judgment%1:10:00::",
+          "judgement%1:10:00::"
+        ],
+        "synsetIds": [
+          "06563775-n",
+          "06563775-n"
+        ]
+      },
+      {
+        "id": "judgment/judgement-1482",
+        "word": "judgment/judgement",
+        "partOfSpeech": "n.",
+        "definition": "the capacity to assess situations or circumstances shrewdly and to draw sound conclusions",
+        "wordNetIds": [
+          "judgment%1:07:00::",
+          "judgement%1:07:00::"
+        ],
+        "synsetIds": [
+          "04899279-n",
+          "04899279-n"
+        ]
+      },
+      {
+        "id": "judgment/judgement-1482",
+        "word": "judgment/judgement",
+        "partOfSpeech": "n.",
+        "definition": "the mental ability to understand and discriminate between relations",
+        "wordNetIds": [
+          "judgment%1:09:01::",
+          "judgement%1:09:01::"
+        ],
+        "synsetIds": [
+          "05621958-n",
+          "05621958-n"
+        ]
+      },
+      {
+        "id": "measure(ment)-1539",
+        "word": "measure(ment)",
+        "partOfSpeech": "v./(n.)",
+        "definition": "the act or process of assigning numbers to phenomena according to a rule",
+        "wordNetIds": [
+          "measure%1:04:00::",
+          "measurement%1:04:00::"
+        ],
+        "synsetIds": [
+          "00998911-n",
+          "00998911-n"
+        ]
+      },
+      {
+        "id": "railroad/railway-1700",
+        "word": "railroad/railway",
+        "partOfSpeech": "n.",
+        "definition": "line that is the commercial organization responsible for operating a system of transportation for trains that pull passengers or freight",
+        "wordNetIds": [
+          "railroad%1:06:00::",
+          "railway%1:06:00::"
+        ],
+        "synsetIds": [
+          "04055680-n",
+          "04055680-n"
+        ]
+      },
+      {
+        "id": "railroad/railway-1700",
+        "word": "railroad/railway",
+        "partOfSpeech": "n.",
+        "definition": "a line of track providing a runway for wheels",
+        "wordNetIds": [
+          "railroad%1:06:01::",
+          "railway%1:06:01::"
+        ],
+        "synsetIds": [
+          "04055187-n",
+          "04055187-n"
+        ]
+      },
+      {
+        "id": "subway/underground/ metro-1861",
+        "word": "subway/underground/ metro",
+        "partOfSpeech": "n.",
+        "definition": "an electric railway operating below the surface of the ground (usually in a city)",
+        "wordNetIds": [
+          "subway%1:06:00::",
+          "underground%1:06:00::",
+          "metro%1:06:00::"
+        ],
+        "synsetIds": [
+          "03762667-n",
+          "03762667-n",
+          "03762667-n"
+        ]
+      },
+      {
+        "id": "wood(s)-1993",
+        "word": "wood(s)",
+        "partOfSpeech": "n.",
+        "definition": "the trees and other plants in a large densely wooded area",
+        "wordNetIds": [
+          "wood%1:14:00::",
+          "woods%1:14:00::"
+        ],
+        "synsetIds": [
+          "08455525-n",
+          "08455525-n"
+        ]
+      },
+      {
+        "id": "advertise(ment)/ad-2015",
+        "word": "advertise(ment)/ad",
+        "partOfSpeech": "v./(n.)",
+        "definition": "a public promotion of some product or service",
+        "wordNetIds": [
+          "advertisement%1:10:00::",
+          "ad%1:10:00::"
+        ],
+        "synsetIds": [
+          "07263469-n",
+          "07263469-n"
+        ]
+      },
+      {
+        "id": "adviser/advisor-2017",
+        "word": "adviser/advisor",
+        "partOfSpeech": "n.",
+        "definition": "an expert who gives advice",
+        "wordNetIds": [
+          "adviser%1:18:00::",
+          "advisor%1:18:00::"
+        ],
+        "synsetIds": [
+          "09793689-n",
+          "09793689-n"
+        ]
+      },
+      {
+        "id": "afterward/afterwards-2019",
+        "word": "afterward/afterwards",
+        "partOfSpeech": "adv.",
+        "definition": "happening at a time subsequent to a reference time",
+        "wordNetIds": [
+          "afterward%4:02:00::",
+          "afterwards%4:02:00::"
+        ],
+        "synsetIds": [
+          "00061741-r",
+          "00061741-r"
+        ]
+      },
+      {
+        "id": "automobile/auto-2051",
+        "word": "automobile/auto",
+        "partOfSpeech": "n.",
+        "definition": "a motor vehicle with four wheels; usually propelled by an internal combustion engine",
+        "wordNetIds": [
+          "automobile%1:06:00::",
+          "auto%1:06:00::"
+        ],
+        "synsetIds": [
+          "02961779-n",
+          "02961779-n"
+        ]
+      },
+      {
+        "id": "disk/disc-2250",
+        "word": "disk/disc",
+        "partOfSpeech": "n.",
+        "definition": "something with a round shape resembling a flat circular plate",
+        "wordNetIds": [
+          "disk%1:25:00::",
+          "disc%1:25:00::"
+        ],
+        "synsetIds": [
+          "13897824-n",
+          "13897824-n"
+        ]
+      },
+      {
+        "id": "disk/disc-2250",
+        "word": "disk/disc",
+        "partOfSpeech": "n.",
+        "definition": "a flat circular plate",
+        "wordNetIds": [
+          "disk%1:06:00::",
+          "disc%1:06:00::"
+        ],
+        "synsetIds": [
+          "03213277-n",
+          "03213277-n"
+        ]
+      },
+      {
+        "id": "disk/disc-2250",
+        "word": "disk/disc",
+        "partOfSpeech": "n.",
+        "definition": "sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove",
+        "wordNetIds": [
+          "disk%1:06:02::",
+          "disc%1:06:01::"
+        ],
+        "synsetIds": [
+          "03930191-n",
+          "03930191-n"
+        ]
+      },
+      {
+        "id": "disk/disc-2250",
+        "word": "disk/disc",
+        "partOfSpeech": "n.",
+        "definition": "(computer science) a memory device consisting of a flat disk covered with a magnetic coating on which information is stored",
+        "wordNetIds": [
+          "disk%1:06:03::",
+          "disc%1:06:03::"
+        ],
+        "synsetIds": [
+          "03712192-n",
+          "03712192-n"
+        ]
+      },
+      {
+        "id": "gasoline/gas-2358",
+        "word": "gasoline/gas",
+        "partOfSpeech": "n.",
+        "definition": "a volatile flammable mixture of hydrocarbons (hexane and heptane and octane etc.) derived from petroleum; used mainly as a fuel in internal-combustion engines",
+        "wordNetIds": [
+          "gasoline%1:27:00::",
+          "gas%1:27:02::"
+        ],
+        "synsetIds": [
+          "14711074-n",
+          "14711074-n"
+        ]
+      },
+      {
+        "id": "mankind/humankind-2521",
+        "word": "mankind/humankind",
+        "partOfSpeech": "n.",
+        "definition": "all of the living human inhabitants of the earth",
+        "wordNetIds": [
+          "mankind%1:05:00::",
+          "humankind%1:05:00::"
+        ],
+        "synsetIds": [
+          "02475618-n",
+          "02475618-n"
+        ]
+      },
+      {
+        "id": "microphone/mike-2539",
+        "word": "microphone/mike",
+        "partOfSpeech": "n.",
+        "definition": "device for converting sound waves into electrical energy",
+        "wordNetIds": [
+          "microphone%1:06:00::",
+          "mike%1:06:00::"
+        ],
+        "synsetIds": [
+          "03765483-n",
+          "03765483-n"
+        ]
+      },
+      {
+        "id": "bridegroom/groom-3112",
+        "word": "bridegroom/groom",
+        "partOfSpeech": "n.",
+        "definition": "a man who has recently been married",
+        "wordNetIds": [
+          "bridegroom%1:18:00::",
+          "groom%1:18:00::"
+        ],
+        "synsetIds": [
+          "10167455-n",
+          "10167455-n"
+        ]
+      },
+      {
+        "id": "bridegroom/groom-3112",
+        "word": "bridegroom/groom",
+        "partOfSpeech": "n.",
+        "definition": "a man participant in his own marriage ceremony",
+        "wordNetIds": [
+          "bridegroom%1:18:01::",
+          "groom%1:18:02::"
+        ],
+        "synsetIds": [
+          "10167555-n",
+          "10167555-n"
+        ]
+      },
+      {
+        "id": "laboratory/lab-3581",
+        "word": "laboratory/lab",
+        "partOfSpeech": "n.",
+        "definition": "a workplace for the conduct of scientific research",
+        "wordNetIds": [
+          "laboratory%1:06:00::",
+          "lab%1:06:00::"
+        ],
+        "synsetIds": [
+          "03635277-n",
+          "03635277-n"
+        ]
+      },
+      {
+        "id": "tactic(s)-4894",
+        "word": "tactic(s)",
+        "partOfSpeech": "n.",
+        "definition": "a plan for attaining a particular goal",
+        "wordNetIds": [
+          "tactic%1:09:00::",
+          "tactics%1:09:00::"
+        ],
+        "synsetIds": [
+          "05913746-n",
+          "05913746-n"
+        ]
+      },
+      {
+        "id": "administer/administrate-5031",
+        "word": "administer/administrate",
+        "partOfSpeech": "v.",
+        "definition": "work in an administrative capacity; supervise or be in charge of",
+        "wordNetIds": [
+          "administer%2:41:00::",
+          "administrate%2:41:00::"
+        ],
+        "synsetIds": [
+          "02436818-v",
+          "02436818-v"
+        ]
+      },
+      {
+        "id": "blond/blonde-5097",
+        "word": "blond/blonde",
+        "partOfSpeech": "n./adj.",
+        "definition": "a light grayish yellow to near white",
+        "wordNetIds": [
+          "blond%1:07:00::",
+          "blonde%1:07:00::"
+        ],
+        "synsetIds": [
+          "04973194-n",
+          "04973194-n"
+        ]
+      },
+      {
+        "id": "blond/blonde-5097",
+        "word": "blond/blonde",
+        "partOfSpeech": "n./adj.",
+        "definition": "being or having light colored skin and hair and usually blue or grey eyes",
+        "wordNetIds": [
+          "blond%3:00:00::",
+          "blonde%3:00:00::"
+        ],
+        "synsetIds": [
+          "00244463-a",
+          "00244463-a"
+        ]
+      },
+      {
+        "id": "brassiere/bra-5107",
+        "word": "brassiere/bra",
+        "partOfSpeech": "n.",
+        "definition": "an undergarment worn by women to support their breasts",
+        "wordNetIds": [
+          "brassiere%1:06:00::",
+          "bra%1:06:00::"
+        ],
+        "synsetIds": [
+          "02896008-n",
+          "02896008-n"
+        ]
+      },
+      {
+        "id": "chairperson/chair/ chairman/ chairwoman-5148",
+        "word": "chairperson/chair/ chairman/ chairwoman",
+        "partOfSpeech": "n.",
+        "definition": "the officer who presides at the meetings of an organization",
+        "wordNetIds": [
+          "chairperson%1:18:00::",
+          "chair%1:18:00::"
+        ],
+        "synsetIds": [
+          "10488547-n",
+          "10488547-n"
+        ]
+      },
+      {
+        "id": "dormitory/dorm-5287",
+        "word": "dormitory/dorm",
+        "partOfSpeech": "n.",
+        "definition": "a college or university building containing living quarters for students",
+        "wordNetIds": [
+          "dormitory%1:06:00::",
+          "dorm%1:06:00::"
+        ],
+        "synsetIds": [
+          "03229596-n",
+          "03229596-n"
+        ]
+      },
+      {
+        "id": "downward/downwards-5289",
+        "word": "downward/downwards",
+        "partOfSpeech": "adv.",
+        "definition": "spatially or metaphorically from a higher to a lower level or position",
+        "wordNetIds": [
+          "downward%4:02:00::",
+          "downwards%4:02:00::"
+        ],
+        "synsetIds": [
+          "00095870-r",
+          "00095870-r"
+        ]
+      },
+      {
+        "id": "eyelash/lash-5340",
+        "word": "eyelash/lash",
+        "partOfSpeech": "n.",
+        "definition": "any of the short curved hairs that grow from the edges of the eyelids",
+        "wordNetIds": [
+          "eyelash%1:08:00::",
+          "lash%1:08:00::"
+        ],
+        "synsetIds": [
+          "05322469-n",
+          "05322469-n"
+        ]
+      },
+      {
+        "id": "madam/ma’am-5544",
+        "word": "madam/ma’am",
+        "partOfSpeech": "n.",
+        "definition": "a woman of refinement",
+        "wordNetIds": [
+          "madam%1:18:00::",
+          "ma'am%1:18:00::"
+        ],
+        "synsetIds": [
+          "10008828-n",
+          "10008828-n"
+        ]
+      },
+      {
+        "id": "outward/outwards-5644",
+        "word": "outward/outwards",
+        "partOfSpeech": "adv.",
+        "definition": "toward the outside",
+        "wordNetIds": [
+          "outward%4:02:00::",
+          "outwards%4:02:00::"
+        ],
+        "synsetIds": [
+          "00260109-r",
+          "00260109-r"
+        ]
+      },
+      {
+        "id": "seagull/gull-5803",
+        "word": "seagull/gull",
+        "partOfSpeech": "n.",
+        "definition": "mostly white aquatic bird having long pointed wings and short legs",
+        "wordNetIds": [
+          "seagull%1:05:00::",
+          "gull%1:05:00::"
+        ],
+        "synsetIds": [
+          "02043900-n",
+          "02043900-n"
+        ]
+      },
+      {
+        "id": "upward/upwards-5960",
+        "word": "upward/upwards",
+        "partOfSpeech": "adv.",
+        "definition": "spatially or metaphorically from a lower to a higher position",
+        "wordNetIds": [
+          "upward%4:02:00::",
+          "upwards%4:02:00::"
+        ],
+        "synsetIds": [
+          "00096883-r",
+          "00096883-r"
+        ]
+      },
+      {
+        "id": "upward/upwards-5960",
+        "word": "upward/upwards",
+        "partOfSpeech": "adv.",
+        "definition": "to a later time",
+        "wordNetIds": [
+          "upward%4:02:01::",
+          "upwards%4:02:01::"
+        ],
+        "synsetIds": [
+          "00097186-r",
+          "00097186-r"
+        ]
+      },
+      {
+        "id": "veterinarian/vet-5972",
+        "word": "veterinarian/vet",
+        "partOfSpeech": "n.",
+        "definition": "a doctor who practices veterinary medicine",
+        "wordNetIds": [
+          "veterinarian%1:18:00::",
+          "vet%1:18:00::"
+        ],
+        "synsetIds": [
+          "10769383-n",
+          "10769383-n"
+        ]
+      },
+      {
+        "id": "whiskey/whisky-5999",
+        "word": "whiskey/whisky",
+        "partOfSpeech": "n.",
+        "definition": "a liquor made from fermented mash of grain",
+        "wordNetIds": [
+          "whiskey%1:13:00::",
+          "whisky%1:13:00::"
+        ],
+        "synsetIds": [
+          "07922524-n",
+          "07922524-n"
+        ]
+      }
+    ],
+    "emptyDefinitions": [],
+    "highDefinitionCountWords": [
+      {
+        "id": "back-55",
+        "word": "back",
+        "partOfSpeech": "adv./n./v./adj.",
+        "level": 1,
+        "definitionCount": 28,
+        "wordNetPos": [
+          "adverb",
+          "noun",
+          "verb",
+          "adjective"
+        ]
+      },
+      {
+        "id": "block-97",
+        "word": "block",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 28,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "blow-98",
+        "word": "blow",
+        "partOfSpeech": "v.",
+        "level": 1,
+        "definitionCount": 23,
+        "wordNetPos": [
+          "verb"
+        ]
+      },
+      {
+        "id": "break-117",
+        "word": "break",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 75,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "call-136",
+        "word": "call",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 41,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "carry-146",
+        "word": "carry",
+        "partOfSpeech": "v.",
+        "level": 1,
+        "definitionCount": 40,
+        "wordNetPos": [
+          "verb"
+        ]
+      },
+      {
+        "id": "case-147",
+        "word": "case",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 22,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "catch-149",
+        "word": "catch",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 39,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "check-159",
+        "word": "check",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 38,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "clean-170",
+        "word": "clean",
+        "partOfSpeech": "adj./v./adv./n.",
+        "level": 1,
+        "definitionCount": 31,
+        "wordNetPos": [
+          "adjective",
+          "verb",
+          "adverb",
+          "noun"
+        ]
+      },
+      {
+        "id": "clear-171",
+        "word": "clear",
+        "partOfSpeech": "adj./v./adv.",
+        "level": 1,
+        "definitionCount": 43,
+        "wordNetPos": [
+          "adjective",
+          "verb",
+          "adverb"
+        ]
+      },
+      {
+        "id": "close-175",
+        "word": "close",
+        "partOfSpeech": "adj./adv./v./n.",
+        "level": 1,
+        "definitionCount": 37,
+        "wordNetPos": [
+          "adjective",
+          "adverb",
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "come-184",
+        "word": "come",
+        "partOfSpeech": "v.",
+        "level": 1,
+        "definitionCount": 21,
+        "wordNetPos": [
+          "verb"
+        ]
+      },
+      {
+        "id": "cover-201",
+        "word": "cover",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 36,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "cut-207",
+        "word": "cut",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 61,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "deal-216",
+        "word": "deal",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 22,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "down-237",
+        "word": "down",
+        "partOfSpeech": "adv./prep./adj./n./v.",
+        "level": 1,
+        "definitionCount": 25,
+        "wordNetPos": [
+          "adverb",
+          "adjective",
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "draw-239",
+        "word": "draw",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 45,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "drive-243",
+        "word": "drive",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 34,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "drop-245",
+        "word": "drop",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 32,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "face-287",
+        "word": "face",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 22,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "fall-291",
+        "word": "fall",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 43,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "fire-313",
+        "word": "fire",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 21,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "follow-319",
+        "word": "follow",
+        "partOfSpeech": "v.",
+        "level": 1,
+        "definitionCount": 26,
+        "wordNetPos": [
+          "verb"
+        ]
+      },
+      {
+        "id": "free-328",
+        "word": "free",
+        "partOfSpeech": "adj./v./adv.",
+        "level": 1,
+        "definitionCount": 21,
+        "wordNetPos": [
+          "adjective",
+          "verb",
+          "adverb"
+        ]
+      },
+      {
+        "id": "get-343",
+        "word": "get",
+        "partOfSpeech": "v.",
+        "level": 1,
+        "definitionCount": 36,
+        "wordNetPos": [
+          "verb"
+        ]
+      },
+      {
+        "id": "give-348",
+        "word": "give",
+        "partOfSpeech": "v.",
+        "level": 1,
+        "definitionCount": 43,
+        "wordNetPos": [
+          "verb"
+        ]
+      },
+      {
+        "id": "go-353",
+        "word": "go",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 34,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "good-355",
+        "word": "good",
+        "partOfSpeech": "adj./adv./n.",
+        "level": 1,
+        "definitionCount": 27,
+        "wordNetPos": [
+          "adjective",
+          "adverb",
+          "noun"
+        ]
+      },
+      {
+        "id": "ground-364",
+        "word": "ground",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 22,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "hard-378",
+        "word": "hard",
+        "partOfSpeech": "adj./adv.",
+        "level": 1,
+        "definitionCount": 22,
+        "wordNetPos": [
+          "adjective",
+          "adverb"
+        ]
+      },
+      {
+        "id": "head-383",
+        "word": "head",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 42,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "heavy-390",
+        "word": "heavy",
+        "partOfSpeech": "adj.",
+        "level": 1,
+        "definitionCount": 27,
+        "wordNetPos": [
+          "adjective"
+        ]
+      },
+      {
+        "id": "hit-401",
+        "word": "hit",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 22,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "hold-403",
+        "word": "hold",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 45,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "hot-412",
+        "word": "hot",
+        "partOfSpeech": "adj.",
+        "level": 1,
+        "definitionCount": 21,
+        "wordNetPos": [
+          "adjective"
+        ]
+      },
+      {
+        "id": "jump-448",
+        "word": "jump",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 21,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "keep-450",
+        "word": "keep",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 25,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "last-470",
+        "word": "last",
+        "partOfSpeech": "n./v./adv./adj.",
+        "level": 1,
+        "definitionCount": 21,
+        "wordNetPos": [
+          "noun",
+          "verb",
+          "adverb",
+          "adjective"
+        ]
+      },
+      {
+        "id": "light-492",
+        "word": "light",
+        "partOfSpeech": "n./adj./v./adv.",
+        "level": 1,
+        "definitionCount": 47,
+        "wordNetPos": [
+          "noun",
+          "adjective",
+          "verb",
+          "adverb"
+        ]
+      },
+      {
+        "id": "line-494",
+        "word": "line",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 36,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "make-517",
+        "word": "make",
+        "partOfSpeech": "v.",
+        "level": 1,
+        "definitionCount": 49,
+        "wordNetPos": [
+          "verb"
+        ]
+      },
+      {
+        "id": "mark-521",
+        "word": "mark",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 28,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "move(ment)-559",
+        "word": "move(ment)",
+        "partOfSpeech": "v./(n.)",
+        "level": 1,
+        "definitionCount": 32,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "open-610",
+        "word": "open",
+        "partOfSpeech": "adj./v.",
+        "level": 1,
+        "definitionCount": 31,
+        "wordNetPos": [
+          "adjective",
+          "verb"
+        ]
+      },
+      {
+        "id": "order-613",
+        "word": "order",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 23,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "pack-619",
+        "word": "pack",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 22,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "pass-630",
+        "word": "pass",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 41,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "pick-641",
+        "word": "pick",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 21,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "place-650",
+        "word": "place",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 32,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "play-655",
+        "word": "play",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 52,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "point-661",
+        "word": "point",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 40,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "pull-683",
+        "word": "pull",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 24,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "raise-698",
+        "word": "raise",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 32,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "right-716",
+        "word": "right",
+        "partOfSpeech": "adv./adj./n.",
+        "level": 1,
+        "definitionCount": 33,
+        "wordNetPos": [
+          "adverb",
+          "adjective",
+          "noun"
+        ]
+      },
+      {
+        "id": "rise-718",
+        "word": "rise",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 27,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "roll-723",
+        "word": "roll",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 33,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "round-728",
+        "word": "round",
+        "partOfSpeech": "adj./n./adv./prep./v.",
+        "level": 1,
+        "definitionCount": 25,
+        "wordNetPos": [
+          "adjective",
+          "noun",
+          "adverb",
+          "verb"
+        ]
+      },
+      {
+        "id": "run-732",
+        "word": "run",
+        "partOfSpeech": "v.",
+        "level": 1,
+        "definitionCount": 41,
+        "wordNetPos": [
+          "verb"
+        ]
+      },
+      {
+        "id": "see-748",
+        "word": "see",
+        "partOfSpeech": "v.",
+        "level": 1,
+        "definitionCount": 24,
+        "wordNetPos": [
+          "verb"
+        ]
+      },
+      {
+        "id": "set-755",
+        "word": "set",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 37,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "stand-822",
+        "word": "stand",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 24,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "start-824",
+        "word": "start",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 22,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "stop-828",
+        "word": "stop",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 21,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "straight-831",
+        "word": "straight",
+        "partOfSpeech": "adv./adj./n.",
+        "level": 1,
+        "definitionCount": 21,
+        "wordNetPos": [
+          "adverb",
+          "adjective",
+          "noun"
+        ]
+      },
+      {
+        "id": "take-851",
+        "word": "take",
+        "partOfSpeech": "v.",
+        "level": 1,
+        "definitionCount": 42,
+        "wordNetPos": [
+          "verb"
+        ]
+      },
+      {
+        "id": "top-908",
+        "word": "top",
+        "partOfSpeech": "n./adj./v.",
+        "level": 1,
+        "definitionCount": 22,
+        "wordNetPos": [
+          "noun",
+          "adjective",
+          "verb"
+        ]
+      },
+      {
+        "id": "touch-911",
+        "word": "touch",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 27,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "turn-924",
+        "word": "turn",
+        "partOfSpeech": "v./n.",
+        "level": 1,
+        "definitionCount": 38,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "well-960",
+        "word": "well",
+        "partOfSpeech": "adv./adj./n.",
+        "level": 1,
+        "definitionCount": 21,
+        "wordNetPos": [
+          "adverb",
+          "adjective",
+          "noun"
+        ]
+      },
+      {
+        "id": "work-986",
+        "word": "work",
+        "partOfSpeech": "n./v.",
+        "level": 1,
+        "definitionCount": 34,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "base-1074",
+        "word": "base",
+        "partOfSpeech": "n./v.",
+        "level": 2,
+        "definitionCount": 22,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "beat-1081",
+        "word": "beat",
+        "partOfSpeech": "v./n.",
+        "level": 2,
+        "definitionCount": 33,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "charge-1147",
+        "word": "charge",
+        "partOfSpeech": "n./v.",
+        "level": 2,
+        "definitionCount": 40,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "develop(ment)-1248",
+        "word": "develop(ment)",
+        "partOfSpeech": "v./(n.)",
+        "level": 2,
+        "definitionCount": 30,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "direct-1256",
+        "word": "direct",
+        "partOfSpeech": "adj./v./adv.",
+        "level": 2,
+        "definitionCount": 24,
+        "wordNetPos": [
+          "adjective",
+          "verb",
+          "adverb"
+        ]
+      },
+      {
+        "id": "double-1273",
+        "word": "double",
+        "partOfSpeech": "adj./v./n./adv.",
+        "level": 2,
+        "definitionCount": 21,
+        "wordNetPos": [
+          "adjective",
+          "verb",
+          "noun",
+          "adverb"
+        ]
+      },
+      {
+        "id": "flat-1363",
+        "word": "flat",
+        "partOfSpeech": "adj./adv./n.",
+        "level": 2,
+        "definitionCount": 24,
+        "wordNetPos": [
+          "adjective",
+          "adverb",
+          "noun"
+        ]
+      },
+      {
+        "id": "form-1376",
+        "word": "form",
+        "partOfSpeech": "n./v.",
+        "level": 2,
+        "definitionCount": 23,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "lift-1506",
+        "word": "lift",
+        "partOfSpeech": "v./n.",
+        "level": 2,
+        "definitionCount": 36,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "post-1655",
+        "word": "post",
+        "partOfSpeech": "n./v./adv.",
+        "level": 2,
+        "definitionCount": 22,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "press-1664",
+        "word": "press",
+        "partOfSpeech": "n./v.",
+        "level": 2,
+        "definitionCount": 23,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "return-1733",
+        "word": "return",
+        "partOfSpeech": "v./n.",
+        "level": 2,
+        "definitionCount": 29,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "settle(ment)-1780",
+        "word": "settle(ment)",
+        "partOfSpeech": "v./(n.)",
+        "level": 2,
+        "definitionCount": 30,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "shoot-1789",
+        "word": "shoot",
+        "partOfSpeech": "v./n.",
+        "level": 2,
+        "definitionCount": 22,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "slip-1808",
+        "word": "slip",
+        "partOfSpeech": "v./n.",
+        "level": 2,
+        "definitionCount": 26,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "step-1847",
+        "word": "step",
+        "partOfSpeech": "n./v.",
+        "level": 2,
+        "definitionCount": 21,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "stick-1848",
+        "word": "stick",
+        "partOfSpeech": "v./n.",
+        "level": 2,
+        "definitionCount": 25,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "strike-1858",
+        "word": "strike",
+        "partOfSpeech": "n./v.",
+        "level": 2,
+        "definitionCount": 29,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "support-1872",
+        "word": "support",
+        "partOfSpeech": "n./v.",
+        "level": 2,
+        "definitionCount": 22,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "swing-1883",
+        "word": "swing",
+        "partOfSpeech": "n./v.",
+        "level": 2,
+        "definitionCount": 22,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "wash-1965",
+        "word": "wash",
+        "partOfSpeech": "v./n.",
+        "level": 2,
+        "definitionCount": 22,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "dip-2246",
+        "word": "dip",
+        "partOfSpeech": "v./n.",
+        "level": 3,
+        "definitionCount": 23,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "pitch-2647",
+        "word": "pitch",
+        "partOfSpeech": "n./v.",
+        "level": 3,
+        "definitionCount": 23,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "release-2715",
+        "word": "release",
+        "partOfSpeech": "n./v.",
+        "level": 3,
+        "definitionCount": 22,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "snap-2816",
+        "word": "snap",
+        "partOfSpeech": "v./n.",
+        "level": 3,
+        "definitionCount": 26,
+        "wordNetPos": [
+          "verb",
+          "noun"
+        ]
+      },
+      {
+        "id": "twist-2946",
+        "word": "twist",
+        "partOfSpeech": "n./v.",
+        "level": 3,
+        "definitionCount": 23,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "crack-3237",
+        "word": "crack",
+        "partOfSpeech": "n./v.",
+        "level": 4,
+        "definitionCount": 23,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      },
+      {
+        "id": "shift-3894",
+        "word": "shift",
+        "partOfSpeech": "n./v.",
+        "level": 4,
+        "definitionCount": 23,
+        "wordNetPos": [
+          "noun",
+          "verb"
+        ]
+      }
+    ],
+    "unsupportedPartWarnings": [
+      {
+        "id": "a/an-1",
+        "word": "a/an",
+        "partOfSpeech": "art.",
+        "unsupportedParts": [
+          "art"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "about-4",
+        "word": "about",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "above-5",
+        "word": "above",
+        "partOfSpeech": "prep./adv./adj.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r",
+          "a"
+        ]
+      },
+      {
+        "id": "across-7",
+        "word": "across",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "after-13",
+        "word": "after",
+        "partOfSpeech": "prep./conj./adv.",
+        "unsupportedParts": [
+          "prep",
+          "conj"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "all-22",
+        "word": "all",
+        "partOfSpeech": "adj./adv./pron./n.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a",
+          "r",
+          "n"
+        ]
+      },
+      {
+        "id": "along-25",
+        "word": "along",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "although-28",
+        "word": "although",
+        "partOfSpeech": "conj.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "and-31",
+        "word": "and",
+        "partOfSpeech": "conj.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "another-34",
+        "word": "another",
+        "partOfSpeech": "adj./pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a"
+        ]
+      },
+      {
+        "id": "any-37",
+        "word": "any",
+        "partOfSpeech": "pron./adj./adv.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a",
+          "r"
+        ]
+      },
+      {
+        "id": "anybody/anyone-38",
+        "word": "anybody/anyone",
+        "partOfSpeech": "pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "anything-39",
+        "word": "anything",
+        "partOfSpeech": "pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "around-45",
+        "word": "around",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "as-48",
+        "word": "as",
+        "partOfSpeech": "conj./adv./prep.",
+        "unsupportedParts": [
+          "conj",
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "at-50",
+        "word": "at",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "be-68",
+        "word": "be",
+        "partOfSpeech": "v./aux.",
+        "unsupportedParts": [
+          "aux"
+        ],
+        "supportedPos": [
+          "v"
+        ]
+      },
+      {
+        "id": "because-73",
+        "word": "because",
+        "partOfSpeech": "conj.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "before-79",
+        "word": "before",
+        "partOfSpeech": "prep./conj./adv.",
+        "unsupportedParts": [
+          "prep",
+          "conj"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "behind-81",
+        "word": "behind",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "below-85",
+        "word": "below",
+        "partOfSpeech": "adv./prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "beside-88",
+        "word": "beside",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "between-90",
+        "word": "between",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "both-108",
+        "word": "both",
+        "partOfSpeech": "pron./adv./adj.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "r",
+          "a"
+        ]
+      },
+      {
+        "id": "but-129",
+        "word": "but",
+        "partOfSpeech": "conj./prep./adv.",
+        "unsupportedParts": [
+          "conj",
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "by-134",
+        "word": "by",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "can-139",
+        "word": "can",
+        "partOfSpeech": "aux./n./v.",
+        "unsupportedParts": [
+          "aux"
+        ],
+        "supportedPos": [
+          "n",
+          "v"
+        ]
+      },
+      {
+        "id": "certain-154",
+        "word": "certain",
+        "partOfSpeech": "adj./pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a"
+        ]
+      },
+      {
+        "id": "do-231",
+        "word": "do",
+        "partOfSpeech": "aux./v.",
+        "unsupportedParts": [
+          "aux"
+        ],
+        "supportedPos": [
+          "v"
+        ]
+      },
+      {
+        "id": "down-237",
+        "word": "down",
+        "partOfSpeech": "adv./prep./adj./n./v.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r",
+          "a",
+          "n",
+          "v"
+        ]
+      },
+      {
+        "id": "during-249",
+        "word": "during",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "each-250",
+        "word": "each",
+        "partOfSpeech": "pron./adj./adv.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a",
+          "r"
+        ]
+      },
+      {
+        "id": "either-258",
+        "word": "either",
+        "partOfSpeech": "adv./pron./adj./conj.",
+        "unsupportedParts": [
+          "pron",
+          "conj"
+        ],
+        "supportedPos": [
+          "r",
+          "a"
+        ]
+      },
+      {
+        "id": "everyone/everybody-274",
+        "word": "everyone/everybody",
+        "partOfSpeech": "pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "everything-275",
+        "word": "everything",
+        "partOfSpeech": "pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "except-278",
+        "word": "except",
+        "partOfSpeech": "prep./conj.",
+        "unsupportedParts": [
+          "prep",
+          "conj"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "few-304",
+        "word": "few",
+        "partOfSpeech": "adj./pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a"
+        ]
+      },
+      {
+        "id": "for-323",
+        "word": "for",
+        "partOfSpeech": "prep./conj.",
+        "unsupportedParts": [
+          "prep",
+          "conj"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "from-333",
+        "word": "from",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "have-381",
+        "word": "have",
+        "partOfSpeech": "aux./v.",
+        "unsupportedParts": [
+          "aux"
+        ],
+        "supportedPos": [
+          "v"
+        ]
+      },
+      {
+        "id": "he (him, his, himself)-382",
+        "word": "he (him, his, himself)",
+        "partOfSpeech": "pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "i (me, my, mine, myself)-423",
+        "word": "I (me, my, mine, myself)",
+        "partOfSpeech": "pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "if-426",
+        "word": "if",
+        "partOfSpeech": "conj.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "in-428",
+        "word": "in",
+        "partOfSpeech": "prep./adv./adj.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r",
+          "a"
+        ]
+      },
+      {
+        "id": "inside-431",
+        "word": "inside",
+        "partOfSpeech": "prep./adv./n./adj.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r",
+          "n",
+          "a"
+        ]
+      },
+      {
+        "id": "into-436",
+        "word": "into",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "it (its, itself)-439",
+        "word": "it (its, itself)",
+        "partOfSpeech": "pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "least-479",
+        "word": "least",
+        "partOfSpeech": "adv./pron./adj.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "r",
+          "a"
+        ]
+      },
+      {
+        "id": "less-484",
+        "word": "less",
+        "partOfSpeech": "pron./adv./adj./prep.",
+        "unsupportedParts": [
+          "pron",
+          "prep"
+        ],
+        "supportedPos": [
+          "r",
+          "a"
+        ]
+      },
+      {
+        "id": "like-493",
+        "word": "like",
+        "partOfSpeech": "prep./v./n.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "v",
+          "n"
+        ]
+      },
+      {
+        "id": "many-519",
+        "word": "many",
+        "partOfSpeech": "adj./pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a"
+        ]
+      },
+      {
+        "id": "may-526",
+        "word": "may",
+        "partOfSpeech": "aux.",
+        "unsupportedParts": [
+          "aux"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "more-552",
+        "word": "more",
+        "partOfSpeech": "adj./pron./adv.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a",
+          "r"
+        ]
+      },
+      {
+        "id": "most-554",
+        "word": "most",
+        "partOfSpeech": "adv./pron./adj.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "r",
+          "a"
+        ]
+      },
+      {
+        "id": "much-564",
+        "word": "much",
+        "partOfSpeech": "adj./pron./adv.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a",
+          "r"
+        ]
+      },
+      {
+        "id": "must-568",
+        "word": "must",
+        "partOfSpeech": "aux./n.",
+        "unsupportedParts": [
+          "aux"
+        ],
+        "supportedPos": [
+          "n"
+        ]
+      },
+      {
+        "id": "near-572",
+        "word": "near",
+        "partOfSpeech": "prep./adj./adv./v.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "a",
+          "r",
+          "v"
+        ]
+      },
+      {
+        "id": "need-574",
+        "word": "need",
+        "partOfSpeech": "v./n./aux.",
+        "unsupportedParts": [
+          "aux"
+        ],
+        "supportedPos": [
+          "v",
+          "n"
+        ]
+      },
+      {
+        "id": "nobody-584",
+        "word": "nobody",
+        "partOfSpeech": "pron./n.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "n"
+        ]
+      },
+      {
+        "id": "nothing-592",
+        "word": "nothing",
+        "partOfSpeech": "pron./n.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "n"
+        ]
+      },
+      {
+        "id": "of-599",
+        "word": "of",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "off-600",
+        "word": "off",
+        "partOfSpeech": "adv./prep./adj.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r",
+          "a"
+        ]
+      },
+      {
+        "id": "on-606",
+        "word": "on",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "once-607",
+        "word": "once",
+        "partOfSpeech": "adv./conj./n.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": [
+          "r",
+          "n"
+        ]
+      },
+      {
+        "id": "only-609",
+        "word": "only",
+        "partOfSpeech": "adv./adj./conj.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": [
+          "r",
+          "a"
+        ]
+      },
+      {
+        "id": "or-611",
+        "word": "or",
+        "partOfSpeech": "conj.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "other-614",
+        "word": "other",
+        "partOfSpeech": "adj./pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a"
+        ]
+      },
+      {
+        "id": "out-615",
+        "word": "out",
+        "partOfSpeech": "adv./prep./adj./n./v.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r",
+          "a",
+          "n",
+          "v"
+        ]
+      },
+      {
+        "id": "outside-616",
+        "word": "outside",
+        "partOfSpeech": "prep./adv./adj./n.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r",
+          "a",
+          "n"
+        ]
+      },
+      {
+        "id": "over-617",
+        "word": "over",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "own-618",
+        "word": "own",
+        "partOfSpeech": "adj./pron./v.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a",
+          "v"
+        ]
+      },
+      {
+        "id": "past-631",
+        "word": "past",
+        "partOfSpeech": "adj./n./prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "a",
+          "n",
+          "r"
+        ]
+      },
+      {
+        "id": "round-728",
+        "word": "round",
+        "partOfSpeech": "adj./n./adv./prep./v.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "a",
+          "n",
+          "r",
+          "v"
+        ]
+      },
+      {
+        "id": "same-738",
+        "word": "same",
+        "partOfSpeech": "adj./pron./adv.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a",
+          "r"
+        ]
+      },
+      {
+        "id": "several-756",
+        "word": "several",
+        "partOfSpeech": "adj./pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a"
+        ]
+      },
+      {
+        "id": "shall-758",
+        "word": "shall",
+        "partOfSpeech": "aux.",
+        "unsupportedParts": [
+          "aux"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "she (her, hers, herself)-762",
+        "word": "she (her, hers, herself)",
+        "partOfSpeech": "pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "since-779",
+        "word": "since",
+        "partOfSpeech": "conj./prep./adv.",
+        "unsupportedParts": [
+          "conj",
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "so-798",
+        "word": "so",
+        "partOfSpeech": "adv./conj.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "some-801",
+        "word": "some",
+        "partOfSpeech": "adj./pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a"
+        ]
+      },
+      {
+        "id": "someone/somebody-802",
+        "word": "someone/somebody",
+        "partOfSpeech": "pron./n.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "n"
+        ]
+      },
+      {
+        "id": "something-803",
+        "word": "something",
+        "partOfSpeech": "pron./n.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "n"
+        ]
+      },
+      {
+        "id": "than-869",
+        "word": "than",
+        "partOfSpeech": "conj./prep.",
+        "unsupportedParts": [
+          "conj",
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "that-871",
+        "word": "that",
+        "partOfSpeech": "conj./pron./adv./adj.",
+        "unsupportedParts": [
+          "conj",
+          "pron"
+        ],
+        "supportedPos": [
+          "r",
+          "a"
+        ]
+      },
+      {
+        "id": "the-872",
+        "word": "the",
+        "partOfSpeech": "art.",
+        "unsupportedParts": [
+          "art"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "these-876",
+        "word": "these",
+        "partOfSpeech": "pron./adj.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a"
+        ]
+      },
+      {
+        "id": "they (them, their, theirs, themselves)-877",
+        "word": "they (them, their, theirs, themselves)",
+        "partOfSpeech": "pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "this-883",
+        "word": "this",
+        "partOfSpeech": "pron./adv./adj.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "r",
+          "a"
+        ]
+      },
+      {
+        "id": "those-884",
+        "word": "those",
+        "partOfSpeech": "pron./adj.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a"
+        ]
+      },
+      {
+        "id": "though-885",
+        "word": "though",
+        "partOfSpeech": "conj./adv.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "through-888",
+        "word": "through",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "to-897",
+        "word": "to",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "under-928",
+        "word": "under",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "until-931",
+        "word": "until",
+        "partOfSpeech": "conj./prep.",
+        "unsupportedParts": [
+          "conj",
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "up-932",
+        "word": "up",
+        "partOfSpeech": "adv./prep./adj./v./n.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r",
+          "a",
+          "v",
+          "n"
+        ]
+      },
+      {
+        "id": "we (us, our, ours, ourselves)-953",
+        "word": "we (us, our, ours, ourselves)",
+        "partOfSpeech": "pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "what-963",
+        "word": "what",
+        "partOfSpeech": "pron./adj.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a"
+        ]
+      },
+      {
+        "id": "when-964",
+        "word": "when",
+        "partOfSpeech": "adv./conj./pron.",
+        "unsupportedParts": [
+          "conj",
+          "pron"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "where-965",
+        "word": "where",
+        "partOfSpeech": "conj./adv./pron./n.",
+        "unsupportedParts": [
+          "conj",
+          "pron"
+        ],
+        "supportedPos": [
+          "r",
+          "n"
+        ]
+      },
+      {
+        "id": "whether-966",
+        "word": "whether",
+        "partOfSpeech": "conj.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "which-967",
+        "word": "which",
+        "partOfSpeech": "pron./adj.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a"
+        ]
+      },
+      {
+        "id": "while-968",
+        "word": "while",
+        "partOfSpeech": "conj./n./v.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": [
+          "n",
+          "v"
+        ]
+      },
+      {
+        "id": "who-970",
+        "word": "who",
+        "partOfSpeech": "pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "whose-971",
+        "word": "whose",
+        "partOfSpeech": "pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "will-975",
+        "word": "will",
+        "partOfSpeech": "aux./n.",
+        "unsupportedParts": [
+          "aux"
+        ],
+        "supportedPos": [
+          "n"
+        ]
+      },
+      {
+        "id": "with-981",
+        "word": "with",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "without-982",
+        "word": "without",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "yet-998",
+        "word": "yet",
+        "partOfSpeech": "adv./conj.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "you (your, yours, yourself, yourselves)-999",
+        "word": "you (your, yours, yourself, yourselves)",
+        "partOfSpeech": "pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "against-1019",
+        "word": "against",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "among-1031",
+        "word": "among",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "beyond-1091",
+        "word": "beyond",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "following-1370",
+        "word": "following",
+        "partOfSpeech": "adj./prep./n.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "a",
+          "n"
+        ]
+      },
+      {
+        "id": "neither-1577",
+        "word": "neither",
+        "partOfSpeech": "adj./adv./pron./conj.",
+        "unsupportedParts": [
+          "pron",
+          "conj"
+        ],
+        "supportedPos": [
+          "a",
+          "r"
+        ]
+      },
+      {
+        "id": "none-1584",
+        "word": "none",
+        "partOfSpeech": "pron./adv.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "nor-1586",
+        "word": "nor",
+        "partOfSpeech": "conj.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "per-1628",
+        "word": "per",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "plus-1640",
+        "word": "plus",
+        "partOfSpeech": "prep./n./adj.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "n",
+          "a"
+        ]
+      },
+      {
+        "id": "such-1864",
+        "word": "such",
+        "partOfSpeech": "adj./pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a"
+        ]
+      },
+      {
+        "id": "throughout-1905",
+        "word": "throughout",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "till-1908",
+        "word": "till",
+        "partOfSpeech": "conj./prep.",
+        "unsupportedParts": [
+          "conj",
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "toward/towards-1920",
+        "word": "toward/towards",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "unless-1944",
+        "word": "unless",
+        "partOfSpeech": "conj.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "upon-1946",
+        "word": "upon",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "whatever-1975",
+        "word": "whatever",
+        "partOfSpeech": "adj./pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a"
+        ]
+      },
+      {
+        "id": "whenever-1977",
+        "word": "whenever",
+        "partOfSpeech": "conj./adv.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "wherever-1978",
+        "word": "wherever",
+        "partOfSpeech": "adv./conj.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "whoever-1980",
+        "word": "whoever",
+        "partOfSpeech": "pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "whom-1982",
+        "word": "whom",
+        "partOfSpeech": "pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "within-1990",
+        "word": "within",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "aboard-2005",
+        "word": "aboard",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "beneath-2078",
+        "word": "beneath",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "besides-2081",
+        "word": "besides",
+        "partOfSpeech": "adv./prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "dare-2218",
+        "word": "dare",
+        "partOfSpeech": "aux./v.",
+        "unsupportedParts": [
+          "aux"
+        ],
+        "supportedPos": [
+          "v"
+        ]
+      },
+      {
+        "id": "minus-2542",
+        "word": "minus",
+        "partOfSpeech": "prep./n./adj.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "n",
+          "a"
+        ]
+      },
+      {
+        "id": "onto-2588",
+        "word": "onto",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "opposite-2591",
+        "word": "opposite",
+        "partOfSpeech": "adj./n./prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "a",
+          "n",
+          "r"
+        ]
+      },
+      {
+        "id": "plenty-2651",
+        "word": "plenty",
+        "partOfSpeech": "pron./n./adv.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "n",
+          "r"
+        ]
+      },
+      {
+        "id": "concerning-3181",
+        "word": "concerning",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "despite-3280",
+        "word": "despite",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "including-3528",
+        "word": "including",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "regarding-3825",
+        "word": "regarding",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "alongside-4047",
+        "word": "alongside",
+        "partOfSpeech": "prep./adv.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "lest-4517",
+        "word": "lest",
+        "partOfSpeech": "conj.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "midst-4544",
+        "word": "midst",
+        "partOfSpeech": "n./prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "n"
+        ]
+      },
+      {
+        "id": "nowhere-4581",
+        "word": "nowhere",
+        "partOfSpeech": "adv./pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "r"
+        ]
+      },
+      {
+        "id": "versus-4972",
+        "word": "versus",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "via-4975",
+        "word": "via",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "whatsoever-4993",
+        "word": "whatsoever",
+        "partOfSpeech": "adj./pron.",
+        "unsupportedParts": [
+          "pron"
+        ],
+        "supportedPos": [
+          "a"
+        ]
+      },
+      {
+        "id": "whereas-4996",
+        "word": "whereas",
+        "partOfSpeech": "conj.",
+        "unsupportedParts": [
+          "conj"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "amid/amidst-5049",
+        "word": "amid/amidst",
+        "partOfSpeech": "prep.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": []
+      },
+      {
+        "id": "underneath-5951",
+        "word": "underneath",
+        "partOfSpeech": "prep./adv./n./adj.",
+        "unsupportedParts": [
+          "prep"
+        ],
+        "supportedPos": [
+          "r",
+          "n",
+          "a"
+        ]
+      }
+    ]
+  },
+  "multipleDefinitionSamples": [
+    {
+      "id": "ability-2",
+      "word": "ability",
+      "partOfSpeech": "n.",
+      "definitionCount": 2,
+      "wordNetPos": [
+        "noun"
+      ]
+    },
+    {
+      "id": "able-3",
+      "word": "able",
+      "partOfSpeech": "adj.",
+      "definitionCount": 4,
+      "wordNetPos": [
+        "adjective"
+      ]
+    },
+    {
+      "id": "about-4",
+      "word": "about",
+      "partOfSpeech": "prep./adv.",
+      "definitionCount": 7,
+      "wordNetPos": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "above-5",
+      "word": "above",
+      "partOfSpeech": "prep./adv./adj.",
+      "definitionCount": 3,
+      "wordNetPos": [
+        "adverb",
+        "adjective"
+      ]
+    },
+    {
+      "id": "abroad-6",
+      "word": "abroad",
+      "partOfSpeech": "adv.",
+      "definitionCount": 3,
+      "wordNetPos": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "across-7",
+      "word": "across",
+      "partOfSpeech": "prep./adv.",
+      "definitionCount": 2,
+      "wordNetPos": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "act-8",
+      "word": "act",
+      "partOfSpeech": "n./v.",
+      "definitionCount": 14,
+      "wordNetPos": [
+        "noun",
+        "verb"
+      ]
+    },
+    {
+      "id": "action-9",
+      "word": "action",
+      "partOfSpeech": "n.",
+      "definitionCount": 11,
+      "wordNetPos": [
+        "noun"
+      ]
+    },
+    {
+      "id": "actor/actress-10",
+      "word": "actor/actress",
+      "partOfSpeech": "n.",
+      "definitionCount": 3,
+      "wordNetPos": [
+        "noun"
+      ]
+    },
+    {
+      "id": "add-11",
+      "word": "add",
+      "partOfSpeech": "v.",
+      "definitionCount": 6,
+      "wordNetPos": [
+        "verb"
+      ]
+    },
+    {
+      "id": "afraid-12",
+      "word": "afraid",
+      "partOfSpeech": "adj.",
+      "definitionCount": 4,
+      "wordNetPos": [
+        "adjective"
+      ]
+    },
+    {
+      "id": "after-13",
+      "word": "after",
+      "partOfSpeech": "prep./conj./adv.",
+      "definitionCount": 2,
+      "wordNetPos": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "afternoon-14",
+      "word": "afternoon",
+      "partOfSpeech": "n.",
+      "definitionCount": 2,
+      "wordNetPos": [
+        "noun"
+      ]
+    },
+    {
+      "id": "age-16",
+      "word": "age",
+      "partOfSpeech": "n./v.",
+      "definitionCount": 8,
+      "wordNetPos": [
+        "noun",
+        "verb"
+      ]
+    },
+    {
+      "id": "agree(ment)-18",
+      "word": "agree(ment)",
+      "partOfSpeech": "v./(n.)",
+      "definitionCount": 13,
+      "wordNetPos": [
+        "verb",
+        "noun"
+      ]
+    },
+    {
+      "id": "air-19",
+      "word": "air",
+      "partOfSpeech": "n.",
+      "definitionCount": 9,
+      "wordNetPos": [
+        "noun"
+      ]
+    },
+    {
+      "id": "airplane/plane-20",
+      "word": "airplane/plane",
+      "partOfSpeech": "n.",
+      "definitionCount": 6,
+      "wordNetPos": [
+        "noun"
+      ]
+    },
+    {
+      "id": "all-22",
+      "word": "all",
+      "partOfSpeech": "adj./adv./pron./n.",
+      "definitionCount": 3,
+      "wordNetPos": [
+        "adjective",
+        "adverb"
+      ]
+    },
+    {
+      "id": "allow-23",
+      "word": "allow",
+      "partOfSpeech": "v.",
+      "definitionCount": 10,
+      "wordNetPos": [
+        "verb"
+      ]
+    },
+    {
+      "id": "along-25",
+      "word": "along",
+      "partOfSpeech": "prep./adv.",
+      "definitionCount": 5,
+      "wordNetPos": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "always-29",
+      "word": "always",
+      "partOfSpeech": "adv.",
+      "definitionCount": 5,
+      "wordNetPos": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "am/a.m.-30",
+      "word": "am/a.m.",
+      "partOfSpeech": "adv.",
+      "definitionCount": 2,
+      "wordNetPos": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "angry-32",
+      "word": "angry",
+      "partOfSpeech": "adj.",
+      "definitionCount": 3,
+      "wordNetPos": [
+        "adjective"
+      ]
+    },
+    {
+      "id": "answer-35",
+      "word": "answer",
+      "partOfSpeech": "n./v.",
+      "definitionCount": 15,
+      "wordNetPos": [
+        "noun",
+        "verb"
+      ]
+    },
+    {
+      "id": "any-37",
+      "word": "any",
+      "partOfSpeech": "pron./adj./adv.",
+      "definitionCount": 2,
+      "wordNetPos": [
+        "adjective",
+        "adverb"
+      ]
+    }
+  ]
+}
