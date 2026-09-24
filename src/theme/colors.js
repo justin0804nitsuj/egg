@@ -1,4 +1,4 @@
-﻿export const COLORS = {
+export const COLORS = {
   background: '#0B0E14',
 
   surface: '#151922',

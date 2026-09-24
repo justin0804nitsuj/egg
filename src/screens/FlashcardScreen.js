@@ -1,6 +1,6 @@
-﻿import React, {
+import React, {
   useEffect,
-  useRef,
+  useMemo,
   useState,
 } from 'react';
 
@@ -29,6 +29,12 @@ import {
 } from '../utils/reviewQueue';
 
 import {
+  isAllLevelsSelected,
+  isSelectedLevel,
+  wordHasLevel,
+} from '../utils/wordLevels';
+
+import {
   tapFeedback,
   successFeedback,
   wrongFeedback,
@@ -40,9 +46,11 @@ const SESSION_SIZE = 10;
 
 export default function FlashcardScreen() {
   const flipAnim =
-    useRef(
-      new Animated.Value(0)
-    ).current;
+    useMemo(
+      () =>
+        new Animated.Value(0),
+      []
+    );
 
   const [
     selectedLevel,
@@ -99,70 +107,94 @@ export default function FlashcardScreen() {
   });
 
   useEffect(() => {
+    let active = true;
+
+    async function loadStats() {
+      const stats =
+        await getLearningStats();
+
+      if (active) {
+        setTotalXp(stats.xp);
+      }
+    }
+
     loadStats();
+
+    return () => {
+      active = false;
+    };
   }, []);
-
-  async function loadStats() {
-    const stats =
-      await getLearningStats();
-
-    setTotalXp(stats.xp);
-  }
 
   const currentWord =
     sessionWords[currentIndex];
 
   const frontRotateY =
-    flipAnim.interpolate({
-      inputRange: [0, 1],
-      outputRange: [
-        '0deg',
-        '180deg',
-      ],
-    });
+    useMemo(
+      () =>
+        flipAnim.interpolate({
+          inputRange: [0, 1],
+          outputRange: [
+            '0deg',
+            '180deg',
+          ],
+        }),
+      [flipAnim]
+    );
 
   const backRotateY =
-    flipAnim.interpolate({
-      inputRange: [0, 1],
-      outputRange: [
-        '180deg',
-        '360deg',
-      ],
-    });
+    useMemo(
+      () =>
+        flipAnim.interpolate({
+          inputRange: [0, 1],
+          outputRange: [
+            '180deg',
+            '360deg',
+          ],
+        }),
+      [flipAnim]
+    );
 
   const frontOpacity =
-    flipAnim.interpolate({
-      inputRange: [
-        0,
-        0.49,
-        0.5,
-        1,
-      ],
+    useMemo(
+      () =>
+        flipAnim.interpolate({
+          inputRange: [
+            0,
+            0.49,
+            0.5,
+            1,
+          ],
 
-      outputRange: [
-        1,
-        1,
-        0,
-        0,
-      ],
-    });
+          outputRange: [
+            1,
+            1,
+            0,
+            0,
+          ],
+        }),
+      [flipAnim]
+    );
 
   const backOpacity =
-    flipAnim.interpolate({
-      inputRange: [
-        0,
-        0.49,
-        0.5,
-        1,
-      ],
+    useMemo(
+      () =>
+        flipAnim.interpolate({
+          inputRange: [
+            0,
+            0.49,
+            0.5,
+            1,
+          ],
 
-      outputRange: [
-        0,
-        0,
-        1,
-        1,
-      ],
-    });
+          outputRange: [
+            0,
+            0,
+            1,
+            1,
+          ],
+        }),
+      [flipAnim]
+    );
 
   function resetCardFlip() {
     flipAnim.stopAnimation();
@@ -349,6 +381,9 @@ export default function FlashcardScreen() {
   }
 
   if (phase === 'setup') {
+    const allLevelsSelected =
+      isAllLevelsSelected(selectedLevel);
+
     return (
       <ScrollView
         style={styles.container}
@@ -417,7 +452,7 @@ export default function FlashcardScreen() {
             style={[
               styles.levelCard,
 
-              selectedLevel === null &&
+              allLevelsSelected &&
                 styles.levelCardActive,
             ]}
           >
@@ -425,7 +460,7 @@ export default function FlashcardScreen() {
               style={[
                 styles.levelNumber,
 
-                selectedLevel === null &&
+                allLevelsSelected &&
                   styles.levelTextActive,
               ]}
             >
@@ -446,13 +481,17 @@ export default function FlashcardScreen() {
               const count =
                 WORDS.filter(
                   (word) =>
-                    word.level ===
-                    level
+                    wordHasLevel(
+                      word,
+                      level
+                    )
                 ).length;
 
               const active =
-                selectedLevel ===
-                level;
+                isSelectedLevel(
+                  selectedLevel,
+                  level
+                );
 
               return (
                 <Pressable

@@ -13,6 +13,11 @@ import { useFocusEffect } from '@react-navigation/native';
 import { COLORS } from '../theme/colors';
 import { WORDS } from '../data/words';
 import { getFavoriteWordIds } from '../storage/favorites';
+import {
+  isAllLevelsSelected,
+  isSelectedLevel,
+  wordMatchesSelectedLevel,
+} from '../utils/wordLevels';
 
 const LEVELS = [1, 2, 3, 4, 5, 6];
 
@@ -57,8 +62,7 @@ export default function LibraryScreen({ navigation }) {
         String(item.meaning ?? '').toLowerCase().includes(keyword);
 
       const matchesLevel =
-        selectedLevel === null ||
-        Number(item.level) === Number(selectedLevel);
+        wordMatchesSelectedLevel(item, selectedLevel);
 
       const matchesFavorite =
         !favoritesOnly || favoriteIds.has(String(item.id));
@@ -106,6 +110,9 @@ export default function LibraryScreen({ navigation }) {
     [favoriteIds, openWord]
   );
 
+  const allLevelsSelected =
+    isAllLevelsSelected(selectedLevel);
+
   return (
     <View style={styles.container}>
       {/* Keep the search and level selector outside the virtualized list. */}
@@ -142,45 +149,50 @@ export default function LibraryScreen({ navigation }) {
             <Pressable
               onPress={() => setSelectedLevel(null)}
               accessibilityRole="button"
-              accessibilityState={{ selected: selectedLevel === null }}
+              accessibilityState={{ selected: allLevelsSelected }}
               testID="library-level-all"
               style={[
                 styles.levelButton,
-                selectedLevel === null && styles.levelButtonActive,
+                allLevelsSelected && styles.levelButtonActive,
               ]}
             >
               <Text
                 style={[
                   styles.levelButtonText,
-                  selectedLevel === null && styles.levelButtonTextActive,
+                  allLevelsSelected && styles.levelButtonTextActive,
                 ]}
               >
                 全部
               </Text>
             </Pressable>
 
-            {LEVELS.map((level) => (
-              <Pressable
-                key={level}
-                onPress={() => setSelectedLevel(level)}
-                accessibilityRole="button"
-                accessibilityState={{ selected: selectedLevel === level }}
-                testID={`library-level-${level}`}
-                style={[
-                  styles.levelButton,
-                  selectedLevel === level && styles.levelButtonActive,
-                ]}
-              >
-                <Text
+            {LEVELS.map((level) => {
+              const active =
+                isSelectedLevel(selectedLevel, level);
+
+              return (
+                <Pressable
+                  key={level}
+                  onPress={() => setSelectedLevel(level)}
+                  accessibilityRole="button"
+                  accessibilityState={{ selected: active }}
+                  testID={`library-level-${level}`}
                   style={[
-                    styles.levelButtonText,
-                    selectedLevel === level && styles.levelButtonTextActive,
+                    styles.levelButton,
+                    active && styles.levelButtonActive,
                   ]}
                 >
-                  Lv.{level}
-                </Text>
-              </Pressable>
-            ))}
+                  <Text
+                    style={[
+                      styles.levelButtonText,
+                      active && styles.levelButtonTextActive,
+                    ]}
+                  >
+                    Lv.{level}
+                  </Text>
+                </Pressable>
+              );
+            })}
           </ScrollView>
         </View>
 

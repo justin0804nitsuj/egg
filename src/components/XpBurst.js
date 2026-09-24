@@ -1,6 +1,6 @@
 import React, {
   useEffect,
-  useRef,
+  useMemo,
 } from 'react';
 
 import {
@@ -19,19 +19,25 @@ export default function XpBurst({
   visible,
 }) {
   const scale =
-    useRef(
-      new Animated.Value(0.5)
-    ).current;
+    useMemo(
+      () =>
+        new Animated.Value(0.5),
+      []
+    );
 
   const opacity =
-    useRef(
-      new Animated.Value(0)
-    ).current;
+    useMemo(
+      () =>
+        new Animated.Value(0),
+      []
+    );
 
   const translateY =
-    useRef(
-      new Animated.Value(10)
-    ).current;
+    useMemo(
+      () =>
+        new Animated.Value(10),
+      []
+    );
 
   useEffect(() => {
     if (!visible) {

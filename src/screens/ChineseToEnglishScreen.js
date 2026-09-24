@@ -24,6 +24,12 @@ import {
 } from '../utils/reviewQueue';
 
 import {
+  isAllLevelsSelected,
+  isSelectedLevel,
+  wordHasLevel,
+} from '../utils/wordLevels';
+
+import {
   createChineseToEnglishQuestion,
 } from '../utils/quizGenerator';
 
@@ -124,15 +130,23 @@ export default function ChineseToEnglishScreen({
   });
 
   useEffect(() => {
+    let active = true;
+
+    async function loadStats() {
+      const stats =
+        await getLearningStats();
+
+      if (active) {
+        setTotalXp(stats.xp);
+      }
+    }
+
     loadStats();
+
+    return () => {
+      active = false;
+    };
   }, []);
-
-  async function loadStats() {
-    const stats =
-      await getLearningStats();
-
-    setTotalXp(stats.xp);
-  }
 
   function showXpBurst(
     amount,
@@ -416,6 +430,9 @@ export default function ChineseToEnglishScreen({
       : 0;
 
   if (phase === 'setup') {
+    const allLevelsSelected =
+      isAllLevelsSelected(selectedLevel);
+
     return (
       <ScrollView
         style={styles.container}
@@ -480,7 +497,7 @@ export default function ChineseToEnglishScreen({
           <LevelButton
             label="ALL"
             active={
-              selectedLevel === null
+              allLevelsSelected
             }
             count={WORDS.length}
             onPress={() =>
@@ -493,8 +510,10 @@ export default function ChineseToEnglishScreen({
               const count =
                 WORDS.filter(
                   (word) =>
-                    word.level ===
-                    level
+                    wordHasLevel(
+                      word,
+                      level
+                    )
                 ).length;
 
               return (
@@ -503,8 +522,10 @@ export default function ChineseToEnglishScreen({
                   label={`LV.${level}`}
                   count={count}
                   active={
-                    selectedLevel ===
-                    level
+                    isSelectedLevel(
+                      selectedLevel,
+                      level
+                    )
                   }
                   onPress={() =>
                     setSelectedLevel(

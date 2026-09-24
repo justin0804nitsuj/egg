@@ -27,6 +27,12 @@ import {
 } from '../utils/reviewQueue';
 
 import {
+  isAllLevelsSelected,
+  isSelectedLevel,
+  wordHasLevel,
+} from '../utils/wordLevels';
+
+import {
   successFeedback,
   wrongFeedback,
   comboFeedback,
@@ -138,15 +144,23 @@ export default function SpellingScreen({
   });
 
   useEffect(() => {
+    let active = true;
+
+    async function loadStats() {
+      const stats =
+        await getLearningStats();
+
+      if (active) {
+        setTotalXp(stats.xp);
+      }
+    }
+
     loadStats();
+
+    return () => {
+      active = false;
+    };
   }, []);
-
-  async function loadStats() {
-    const stats =
-      await getLearningStats();
-
-    setTotalXp(stats.xp);
-  }
 
   function showXpBurst(
     amount,
@@ -430,6 +444,9 @@ export default function SpellingScreen({
   }
 
   if (phase === 'setup') {
+    const allLevelsSelected =
+      isAllLevelsSelected(selectedLevel);
+
     return (
       <ScrollView
         style={styles.container}
@@ -495,7 +512,7 @@ export default function SpellingScreen({
             label="ALL"
             count={WORDS.length}
             active={
-              selectedLevel === null
+              allLevelsSelected
             }
             onPress={() =>
               setSelectedLevel(null)
@@ -507,8 +524,10 @@ export default function SpellingScreen({
               const count =
                 WORDS.filter(
                   (word) =>
-                    word.level ===
-                    level
+                    wordHasLevel(
+                      word,
+                      level
+                    )
                 ).length;
 
               return (
@@ -517,8 +536,10 @@ export default function SpellingScreen({
                   label={`LV.${level}`}
                   count={count}
                   active={
-                    selectedLevel ===
-                    level
+                    isSelectedLevel(
+                      selectedLevel,
+                      level
+                    )
                   }
                   onPress={() =>
                     setSelectedLevel(

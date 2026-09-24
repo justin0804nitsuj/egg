@@ -1,3 +1,7 @@
+import {
+  wordHasLevel,
+} from './wordLevels';
+
 function shuffle(items) {
   const array = [...items];
 
@@ -50,7 +54,10 @@ function buildDistractors({
   const sameLevelAndPos = shuffle(
     candidates.filter(
       (word) =>
-        word.level === target.level &&
+        wordHasLevel(
+          word,
+          target.level
+        ) &&
         word.partOfSpeech ===
           target.partOfSpeech
     )
@@ -59,7 +66,10 @@ function buildDistractors({
   const sameLevel = shuffle(
     candidates.filter(
       (word) =>
-        word.level === target.level
+        wordHasLevel(
+          word,
+          target.level
+        )
     )
   );
 

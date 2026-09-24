@@ -2,6 +2,11 @@ import {
   getAllWordProgress,
 } from '../storage/progress';
 
+import {
+  isAllLevelsSelected,
+  wordMatchesSelectedLevel,
+} from './wordLevels';
+
 function shuffle(items) {
   const array = [...items];
 
@@ -81,12 +86,13 @@ export async function buildReviewSession({
     await getAllWordProgress();
 
   const pool =
-    selectedLevel === null
+    isAllLevelsSelected(selectedLevel)
       ? words
-      : words.filter(
-          (word) =>
-            word.level ===
+      : words.filter((word) =>
+          wordMatchesSelectedLevel(
+            word,
             selectedLevel
+          )
         );
 
   const now =

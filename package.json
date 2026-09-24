@@ -23,7 +23,12 @@
   "scripts": {
     "start": "expo start",
     "web": "expo start --web",
-    "build:web": "expo export -p web && node scripts/generateServiceWorker.cjs"
+    "build:web": "expo export -p web && node scripts/generateServiceWorker.cjs",
+    "lint": "expo lint"
   },
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-expo": "~57.0.2"
+  }
 }
