@@ -9,6 +9,9 @@ import {
   StyleSheet,
   ScrollView,
   Pressable,
+  Alert,
+  Linking,
+  Platform,
 } from 'react-native';
 
 import {
@@ -31,6 +34,15 @@ import {
   getWordProgress,
 } from '../storage/progress';
 
+import {
+  getWordDefinitions,
+} from '../data/wordDefinitions';
+
+import {
+  DICTIONARY_SOURCES,
+  buildCambridgeTraditionalUrl,
+} from '../data/dictionarySources';
+
 const DEFAULT_PROGRESS = {
   mastery: 0,
 
@@ -43,6 +55,52 @@ const DEFAULT_PROGRESS = {
   lastReviewed: null,
   nextReview: null,
 };
+
+function groupDefinitionsByPartOfSpeech(
+  definitions
+) {
+  const groups = [];
+  const groupsByPos = new Map();
+
+  definitions.forEach(
+    (definition) => {
+      const key =
+        definition.partOfSpeechLabel ||
+        definition.partOfSpeech ||
+        'other';
+
+      if (!groupsByPos.has(key)) {
+        const group = {
+          label: key,
+          definitions: [],
+        };
+
+        groupsByPos.set(
+          key,
+          group
+        );
+
+        groups.push(group);
+      }
+
+      groupsByPos
+        .get(key)
+        .definitions.push(
+          definition
+        );
+    }
+  );
+
+  return groups;
+}
+
+function isOfflineForExternalLookup() {
+  return (
+    Platform.OS === 'web' &&
+    globalThis.navigator
+      ?.onLine === false
+  );
+}
 
 function formatNextReview(
   nextReview
@@ -118,6 +176,22 @@ export default function WordDetailScreen({
     DEFAULT_PROGRESS
   );
 
+  const dictionaryEntry =
+    getWordDefinitions(
+      word.id
+    );
+
+  const definitionGroups =
+    groupDefinitionsByPartOfSpeech(
+      dictionaryEntry
+        ?.definitions ?? []
+    );
+
+  const cambridgeUrl =
+    buildCambridgeTraditionalUrl(
+      word.word
+    );
+
   useFocusEffect(
     useCallback(() => {
       let active = true;
@@ -180,6 +254,35 @@ export default function WordDetailScreen({
         pitch: 1,
       }
     );
+  }
+
+  async function handleOpenCambridge() {
+    if (
+      isOfflineForExternalLookup()
+    ) {
+      Alert.alert(
+        '需要網路連線',
+        'Cambridge 英漢繁體字典是外部線上查詢，離線時無法開啟。'
+      );
+
+      return;
+    }
+
+    try {
+      await Linking.openURL(
+        cambridgeUrl
+      );
+    } catch (error) {
+      console.warn(
+        'Unable to open Cambridge dictionary:',
+        error
+      );
+
+      Alert.alert(
+        '無法開啟連結',
+        '請稍後再試，或確認裝置的瀏覽器設定。'
+      );
+    }
   }
 
   const totalAnswers =
@@ -275,6 +378,83 @@ export default function WordDetailScreen({
           style={styles.meaning}
         >
           {word.meaning}
+        </Text>
+      </View>
+
+      <View style={styles.section}>
+        <View
+          style={
+            styles.dictionaryHeaderRow
+          }
+        >
+          <Text
+            style={
+              styles.sectionLabel
+            }
+          >
+            WordNet 詞義
+          </Text>
+
+          <Text
+            style={
+              styles.sourceBadge
+            }
+          >
+            OEWN 2025
+          </Text>
+        </View>
+
+        {definitionGroups.length > 0 ? (
+          definitionGroups.map(
+            (group) => (
+              <DefinitionGroup
+                key={group.label}
+                group={group}
+              />
+            )
+          )
+        ) : (
+          <Text
+            style={
+              styles.emptyDictionaryText
+            }
+          >
+            尚未匹配 WordNet 詞義。
+          </Text>
+        )}
+
+        <Pressable
+          onPress={
+            handleOpenCambridge
+          }
+          style={({ pressed }) => [
+            styles.cambridgeButton,
+
+            pressed &&
+              styles.buttonPressed,
+          ]}
+        >
+          <Text
+            style={
+              styles.cambridgeButtonText
+            }
+          >
+            開啟 Cambridge 英漢繁體
+          </Text>
+        </Pressable>
+
+        <Text
+          style={
+            styles.attributionText
+          }
+        >
+          {DICTIONARY_SOURCES
+            .openEnglishWordNet
+            .name}{' '}
+          2025, CC BY 4.0;
+          derived from Princeton
+          WordNet. Cambridge is an
+          online lookup only.
         </Text>
       </View>
 
@@ -431,6 +611,57 @@ export default function WordDetailScreen({
         </Text>
       </Pressable>
     </ScrollView>
+  );
+}
+
+function DefinitionGroup({
+  group,
+}) {
+  return (
+    <View
+      style={styles.senseGroup}
+    >
+      <Text
+        style={styles.senseGroupTitle}
+      >
+        {group.label}
+      </Text>
+
+      {group.definitions.map(
+        (definition) => (
+          <View
+            key={definition.id}
+            style={styles.senseItem}
+          >
+            <Text
+              style={
+                styles.senseDefinition
+              }
+            >
+              {definition.definition}
+            </Text>
+
+            <Text
+              style={
+                styles.pendingText
+              }
+            >
+              {definition.meaningZh
+                ? definition.meaningZh
+                : '中文翻譯待審核'}
+            </Text>
+
+            <Text
+              style={styles.sourceText}
+            >
+              {definition.synsetId}
+              {' · '}
+              {definition.lexicalFile}
+            </Text>
+          </View>
+        )
+      )}
+    </View>
   );
 }
 
@@ -599,6 +830,34 @@ const styles =
       marginBottom: 12,
     },
 
+    dictionaryHeaderRow: {
+      flexDirection: 'row',
+
+      alignItems: 'center',
+
+      justifyContent:
+        'space-between',
+
+      marginBottom: 6,
+    },
+
+    sourceBadge: {
+      color: COLORS.primary,
+
+      fontSize: 11,
+
+      fontWeight: '800',
+
+      backgroundColor:
+        COLORS.surfaceLight,
+
+      paddingHorizontal: 8,
+
+      paddingVertical: 4,
+
+      borderRadius: 8,
+    },
+
     meaning: {
       color: COLORS.text,
 
@@ -607,6 +866,113 @@ const styles =
       fontWeight: '600',
 
       lineHeight: 32,
+    },
+
+    senseGroup: {
+      marginTop: 10,
+    },
+
+    senseGroupTitle: {
+      color: COLORS.primary,
+
+      fontSize: 13,
+
+      fontWeight: '800',
+
+      textTransform:
+        'uppercase',
+    },
+
+    senseItem: {
+      borderTopWidth: 1,
+
+      borderTopColor:
+        COLORS.border,
+
+      paddingTop: 12,
+
+      marginTop: 12,
+    },
+
+    senseDefinition: {
+      color: COLORS.text,
+
+      fontSize: 15,
+
+      fontWeight: '600',
+
+      lineHeight: 22,
+    },
+
+    pendingText: {
+      color:
+        COLORS.textSecondary,
+
+      fontSize: 13,
+
+      lineHeight: 19,
+
+      marginTop: 6,
+    },
+
+    sourceText: {
+      color: COLORS.textMuted,
+
+      fontSize: 11,
+
+      marginTop: 7,
+    },
+
+    emptyDictionaryText: {
+      color:
+        COLORS.textSecondary,
+
+      fontSize: 14,
+
+      lineHeight: 20,
+    },
+
+    cambridgeButton: {
+      minHeight: 48,
+
+      justifyContent:
+        'center',
+
+      alignItems: 'center',
+
+      backgroundColor:
+        COLORS.surfaceLight,
+
+      borderWidth: 1,
+
+      borderColor:
+        COLORS.primary,
+
+      borderRadius: 14,
+
+      marginTop: 16,
+
+      paddingHorizontal: 12,
+    },
+
+    cambridgeButtonText: {
+      color: COLORS.primary,
+
+      fontSize: 14,
+
+      fontWeight: '800',
+
+      textAlign: 'center',
+    },
+
+    attributionText: {
+      color: COLORS.textMuted,
+
+      fontSize: 11,
+
+      lineHeight: 16,
+
+      marginTop: 12,
     },
 
     infoRow: {

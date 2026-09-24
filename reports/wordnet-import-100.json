@@ -1,0 +1,356 @@
+{
+  "generatedAt": "2026-09-24T12:44:13.050Z",
+  "scope": "first-100-words",
+  "source": {
+    "name": "Open English WordNet",
+    "edition": "2025",
+    "url": "https://en-word.net/downloads",
+    "dataUrl": "https://en-word.net/downloads/english-wordnet-2025-json.zip",
+    "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "derivedFrom": "Princeton WordNet",
+    "derivedFromUrl": "https://wordnet.princeton.edu/"
+  },
+  "totalWordsInApp": 6012,
+  "processedWordCount": 100,
+  "matchedWordCount": 92,
+  "unmatchedWordCount": 8,
+  "matchRate": 92,
+  "definitionCount": 600,
+  "wordsWithMultipleDefinitions": 79,
+  "posTotals": {
+    "noun": 250,
+    "adjective": 75,
+    "adverb": 79,
+    "verb": 196
+  },
+  "unmatchedReasonTotals": {
+    "unsupported_pos": 8
+  },
+  "unmatched": [
+    {
+      "id": "a/an-1",
+      "word": "a/an",
+      "partOfSpeech": "art.",
+      "level": 1,
+      "candidates": [
+        "a",
+        "an"
+      ],
+      "supportedPos": [],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "although-28",
+      "word": "although",
+      "partOfSpeech": "conj.",
+      "level": 1,
+      "candidates": [
+        "although"
+      ],
+      "supportedPos": [],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "and-31",
+      "word": "and",
+      "partOfSpeech": "conj.",
+      "level": 1,
+      "candidates": [
+        "and"
+      ],
+      "supportedPos": [],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "anybody/anyone-38",
+      "word": "anybody/anyone",
+      "partOfSpeech": "pron.",
+      "level": 1,
+      "candidates": [
+        "anybody",
+        "anyone"
+      ],
+      "supportedPos": [],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "anything-39",
+      "word": "anything",
+      "partOfSpeech": "pron.",
+      "level": 1,
+      "candidates": [
+        "anything"
+      ],
+      "supportedPos": [],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "at-50",
+      "word": "at",
+      "partOfSpeech": "prep.",
+      "level": 1,
+      "candidates": [
+        "at"
+      ],
+      "supportedPos": [],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "because-73",
+      "word": "because",
+      "partOfSpeech": "conj.",
+      "level": 1,
+      "candidates": [
+        "because"
+      ],
+      "supportedPos": [],
+      "reason": "unsupported_pos"
+    },
+    {
+      "id": "beside-88",
+      "word": "beside",
+      "partOfSpeech": "prep.",
+      "level": 1,
+      "candidates": [
+        "beside"
+      ],
+      "supportedPos": [],
+      "reason": "unsupported_pos"
+    }
+  ],
+  "multipleDefinitionSamples": [
+    {
+      "id": "ability-2",
+      "word": "ability",
+      "partOfSpeech": "n.",
+      "definitionCount": 2,
+      "wordNetPos": [
+        "noun"
+      ]
+    },
+    {
+      "id": "able-3",
+      "word": "able",
+      "partOfSpeech": "adj.",
+      "definitionCount": 4,
+      "wordNetPos": [
+        "adjective"
+      ]
+    },
+    {
+      "id": "about-4",
+      "word": "about",
+      "partOfSpeech": "prep./adv.",
+      "definitionCount": 7,
+      "wordNetPos": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "above-5",
+      "word": "above",
+      "partOfSpeech": "prep./adv./adj.",
+      "definitionCount": 3,
+      "wordNetPos": [
+        "adverb",
+        "adjective"
+      ]
+    },
+    {
+      "id": "abroad-6",
+      "word": "abroad",
+      "partOfSpeech": "adv.",
+      "definitionCount": 3,
+      "wordNetPos": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "across-7",
+      "word": "across",
+      "partOfSpeech": "prep./adv.",
+      "definitionCount": 2,
+      "wordNetPos": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "act-8",
+      "word": "act",
+      "partOfSpeech": "n./v.",
+      "definitionCount": 14,
+      "wordNetPos": [
+        "noun",
+        "verb"
+      ]
+    },
+    {
+      "id": "action-9",
+      "word": "action",
+      "partOfSpeech": "n.",
+      "definitionCount": 11,
+      "wordNetPos": [
+        "noun"
+      ]
+    },
+    {
+      "id": "actor/actress-10",
+      "word": "actor/actress",
+      "partOfSpeech": "n.",
+      "definitionCount": 3,
+      "wordNetPos": [
+        "noun"
+      ]
+    },
+    {
+      "id": "add-11",
+      "word": "add",
+      "partOfSpeech": "v.",
+      "definitionCount": 6,
+      "wordNetPos": [
+        "verb"
+      ]
+    },
+    {
+      "id": "afraid-12",
+      "word": "afraid",
+      "partOfSpeech": "adj.",
+      "definitionCount": 4,
+      "wordNetPos": [
+        "adjective"
+      ]
+    },
+    {
+      "id": "after-13",
+      "word": "after",
+      "partOfSpeech": "prep./conj./adv.",
+      "definitionCount": 2,
+      "wordNetPos": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "afternoon-14",
+      "word": "afternoon",
+      "partOfSpeech": "n.",
+      "definitionCount": 2,
+      "wordNetPos": [
+        "noun"
+      ]
+    },
+    {
+      "id": "age-16",
+      "word": "age",
+      "partOfSpeech": "n./v.",
+      "definitionCount": 8,
+      "wordNetPos": [
+        "noun",
+        "verb"
+      ]
+    },
+    {
+      "id": "agree(ment)-18",
+      "word": "agree(ment)",
+      "partOfSpeech": "v./(n.)",
+      "definitionCount": 13,
+      "wordNetPos": [
+        "noun",
+        "verb"
+      ]
+    },
+    {
+      "id": "air-19",
+      "word": "air",
+      "partOfSpeech": "n.",
+      "definitionCount": 9,
+      "wordNetPos": [
+        "noun"
+      ]
+    },
+    {
+      "id": "airplane/plane-20",
+      "word": "airplane/plane",
+      "partOfSpeech": "n.",
+      "definitionCount": 6,
+      "wordNetPos": [
+        "noun"
+      ]
+    },
+    {
+      "id": "all-22",
+      "word": "all",
+      "partOfSpeech": "adj./adv./pron./n.",
+      "definitionCount": 3,
+      "wordNetPos": [
+        "adjective",
+        "adverb"
+      ]
+    },
+    {
+      "id": "allow-23",
+      "word": "allow",
+      "partOfSpeech": "v.",
+      "definitionCount": 10,
+      "wordNetPos": [
+        "verb"
+      ]
+    },
+    {
+      "id": "along-25",
+      "word": "along",
+      "partOfSpeech": "prep./adv.",
+      "definitionCount": 5,
+      "wordNetPos": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "always-29",
+      "word": "always",
+      "partOfSpeech": "adv.",
+      "definitionCount": 5,
+      "wordNetPos": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "am/a.m.-30",
+      "word": "am/a.m.",
+      "partOfSpeech": "adv.",
+      "definitionCount": 2,
+      "wordNetPos": [
+        "adverb"
+      ]
+    },
+    {
+      "id": "angry-32",
+      "word": "angry",
+      "partOfSpeech": "adj.",
+      "definitionCount": 3,
+      "wordNetPos": [
+        "adjective"
+      ]
+    },
+    {
+      "id": "answer-35",
+      "word": "answer",
+      "partOfSpeech": "n./v.",
+      "definitionCount": 15,
+      "wordNetPos": [
+        "noun",
+        "verb"
+      ]
+    },
+    {
+      "id": "any-37",
+      "word": "any",
+      "partOfSpeech": "pron./adj./adv.",
+      "definitionCount": 2,
+      "wordNetPos": [
+        "adverb",
+        "adjective"
+      ]
+    }
+  ]
+}
