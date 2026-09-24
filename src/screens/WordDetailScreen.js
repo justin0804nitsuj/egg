@@ -715,46 +715,41 @@ function DefinitionGroup({
         {group.label}
       </Text>
 
-      {group.definitions.map(
-        (definition) => (
-          <View
-            key={definition.id}
-            style={styles.senseItem}
-          >
-            <Text
-              style={
-                styles.senseDefinition
-              }
-            >
-              {getEnglishDefinition(
-                definition
-              )}
-            </Text>
+      {group.definitions.map((definition) => {
+        const chineseSense = getChineseDefinition(definition);
 
-            <Text
-              style={
-                styles.pendingText
-              }
-            >
-              {getChineseDefinition(
-                definition
-              )
-                ? getChineseDefinition(
-                    definition
-                  )
-                : '中文翻譯待審核'}
-            </Text>
+        return (
+          <View key={definition.id} style={styles.senseItem}>
+            {chineseSense ? (
+              <>
+                <Text style={styles.senseChineseTitle}>
+                  {chineseSense}
+                </Text>
 
-            <Text
-              style={styles.sourceText}
-            >
+                <Text style={styles.senseEnglishSub}>
+                  {getEnglishDefinition(definition)}
+                </Text>
+              </>
+            ) : (
+              <>
+                <Text style={styles.senseDefinition}>
+                  {getEnglishDefinition(definition)}
+                </Text>
+
+                <Text style={styles.pendingText}>
+                  中文翻譯待審核
+                </Text>
+              </>
+            )}
+
+            <Text style={styles.sourceText}>
               {definition.synsetId}
               {' · '}
               {definition.lexicalFile}
             </Text>
           </View>
-        )
-      )}
+        );
+      })}
     </View>
   );
 }
@@ -1018,6 +1013,26 @@ const styles =
       paddingTop: 12,
 
       marginTop: 12,
+    },
+
+    senseChineseTitle: {
+      color: COLORS.text,
+
+      fontSize: 15,
+
+      fontWeight: '700',
+
+      lineHeight: 22,
+    },
+
+    senseEnglishSub: {
+      color: COLORS.textSecondary,
+
+      fontSize: 13,
+
+      lineHeight: 19,
+
+      marginTop: 4,
     },
 
     senseDefinition: {

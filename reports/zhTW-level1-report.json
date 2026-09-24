@@ -1,0 +1,773 @@
+{
+  "generatedAt": "2026-09-24T14:23:23.795Z",
+  "scope": "level-1-only",
+  "level1WordCount": 1002,
+  "level1MatchedWordCount": 951,
+  "primarySenseCount": 3464,
+  "translatedSenseCount": 3464,
+  "untranslatedSenseCount": 0,
+  "wordsWithMultipleTranslatedSensesCount": 854,
+  "suspiciousAmbiguousCount": 76,
+  "suspiciousAmbiguousTranslations": [
+    {
+      "wordId": "ant-36",
+      "word": "ant",
+      "senseId": "ant%1:05:00::",
+      "synsetId": "02222138-n",
+      "pos": "noun",
+      "englishDefinition": "social insect living in organized colonies; characteristically the males and fertile queen have wings during breeding season; wingless sterile females are the workers",
+      "meaningZhTW": "螞蟻",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "area-43",
+      "word": "area",
+      "senseId": "area%1:15:01::",
+      "synsetId": "08514304-n",
+      "pos": "noun",
+      "englishDefinition": "a particular geographical region of indefinite boundary (usually serving some special purpose or distinguished by its people or culture or geography)",
+      "meaningZhTW": "區域",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "arm-44",
+      "word": "arm",
+      "senseId": "arm%1:08:00::",
+      "synsetId": "05571403-n",
+      "pos": "noun",
+      "englishDefinition": "a human limb; technically the part of the superior limb between the shoulder and the elbow but commonly used to refer to the whole superior limb",
+      "meaningZhTW": "手臂",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "banana-59",
+      "word": "banana",
+      "senseId": "banana%1:20:00::",
+      "synsetId": "12372804-n",
+      "pos": "noun",
+      "englishDefinition": "any of several tropical and subtropical treelike herbs of the genus Musa having a terminal crown of large entire leaves and usually bearing hanging clusters of elongated fruits",
+      "meaningZhTW": "香蕉",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "basketball-64",
+      "word": "basketball",
+      "senseId": "basketball%1:04:00::",
+      "synsetId": "00482004-n",
+      "pos": "noun",
+      "englishDefinition": "a game played on a court by two opposing teams of 5 players; points are scored by throwing the ball through an elevated horizontal hoop",
+      "meaningZhTW": "籃球",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "bat-65",
+      "word": "bat",
+      "senseId": "bat%1:05:00::",
+      "synsetId": "02141851-n",
+      "pos": "noun",
+      "englishDefinition": "nocturnal mouselike mammal with forelimbs modified to form membranous wings and anatomical adaptations for echolocation by which they navigate",
+      "meaningZhTW": "蝙蝠",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "bath-66",
+      "word": "bath",
+      "senseId": "bath%1:06:02::",
+      "synsetId": "02809715-n",
+      "pos": "noun",
+      "englishDefinition": "a vessel containing liquid in which something is immersed (as to process it or to maintain it at a constant temperature or to lubricate it)",
+      "meaningZhTW": "沐浴",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "bear-71",
+      "word": "bear",
+      "senseId": "bear%1:18:00::",
+      "synsetId": "09864599-n",
+      "pos": "noun",
+      "englishDefinition": "an investor with a pessimistic market outlook; an investor who expects prices to fall and so sells now in order to buy later at a lower price",
+      "meaningZhTW": "熊",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "bottle-109",
+      "word": "bottle",
+      "senseId": "bottle%1:06:00::",
+      "synsetId": "02879899-n",
+      "pos": "noun",
+      "englishDefinition": "a glass or plastic vessel used for storing drinks or other liquids; typically cylindrical without handles and with a narrow neck that can be plugged or capped",
+      "meaningZhTW": "瓶子",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "bottle-109",
+      "word": "bottle",
+      "senseId": "bottle%1:06:01::",
+      "synsetId": "02880508-n",
+      "pos": "noun",
+      "englishDefinition": "a vessel fitted with a flexible teat and filled with milk or formula; used as a substitute for breast feeding infants and very young children",
+      "meaningZhTW": "瓶子",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "camera-137",
+      "word": "camera",
+      "senseId": "camera%1:06:00::",
+      "synsetId": "02946154-n",
+      "pos": "noun",
+      "englishDefinition": "equipment for taking photographs (usually consisting of a lightproof box with a lens at one end and light-sensitive film at the other)",
+      "meaningZhTW": "照相機",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "camera-137",
+      "word": "camera",
+      "senseId": "camera%1:06:01::",
+      "synsetId": "04412132-n",
+      "pos": "noun",
+      "englishDefinition": "television equipment consisting of a lens system that focuses an image on a photosensitive mosaic that is scanned by an electron beam",
+      "meaningZhTW": "照相機",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "cap-140",
+      "word": "cap",
+      "senseId": "cap%1:06:05::",
+      "synsetId": "03186898-n",
+      "pos": "noun",
+      "englishDefinition": "a mechanical or electrical explosive device or a small amount of explosive; can be used to initiate the reaction of a disrupting explosive",
+      "meaningZhTW": "蓋子",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "carrot-145",
+      "word": "carrot",
+      "senseId": "carrot%1:20:00::",
+      "synsetId": "12958148-n",
+      "pos": "noun",
+      "englishDefinition": "perennial plant widely cultivated as an annual in many varieties for its long conical orange edible roots; temperate and tropical regions",
+      "meaningZhTW": "胡蘿卜",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "cellphone-151",
+      "word": "cellphone",
+      "senseId": "cellphone%1:06:00::",
+      "synsetId": "02995984-n",
+      "pos": "noun",
+      "englishDefinition": "a hand-held mobile radiotelephone for use in an area divided into small sections, each with its own short-range transmitter/receiver",
+      "meaningZhTW": "蜂窩式便攜無線電話",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "circle-167",
+      "word": "circle",
+      "senseId": "circle%1:25:00::",
+      "synsetId": "13896141-n",
+      "pos": "noun",
+      "englishDefinition": "ellipse in which the two axes are of equal length; a plane curve generated by one point moving at a constant distance from a fixed point",
+      "meaningZhTW": "圓周",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "deep-220",
+      "word": "deep",
+      "senseId": "deep%3:00:01::",
+      "synsetId": "00693335-a",
+      "pos": "adjective",
+      "englishDefinition": "having great spatial extension or penetration downward or inward from an outer surface or backward or laterally or outward from a center; sometimes used in combination",
+      "meaningZhTW": "深的",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "dog-233",
+      "word": "dog",
+      "senseId": "dog%1:05:00::",
+      "synsetId": "02086723-n",
+      "pos": "noun",
+      "englishDefinition": "a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times; occurs in many breeds",
+      "meaningZhTW": "狗",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "egg-257",
+      "word": "egg",
+      "senseId": "egg%1:05:00::",
+      "synsetId": "01463098-n",
+      "pos": "noun",
+      "englishDefinition": "animal reproductive body consisting of an ovum or embryo together with nutritive and protective envelopes; especially the thin-shelled reproductive body laid by e.g. female birds",
+      "meaningZhTW": "蛋",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "email-261",
+      "word": "email",
+      "senseId": "email%1:10:00::",
+      "synsetId": "06289979-n",
+      "pos": "noun",
+      "englishDefinition": "(computer science) a system of world-wide electronic communication in which a computer user can compose a message at one terminal that can be regenerated at the recipient's terminal when the recipient logs in",
+      "meaningZhTW": "電子信函",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "even-270",
+      "word": "even",
+      "senseId": "even%3:00:01::",
+      "synsetId": "00912628-a",
+      "pos": "adjective",
+      "englishDefinition": "being level or straight or regular and without variation as e.g. in shape or texture; or being in the same plane or at the same height as something else (i.e. even with)",
+      "meaningZhTW": "平坦的",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "god/goddess-354",
+      "word": "god/goddess",
+      "senseId": "god%1:18:01::",
+      "synsetId": "09528550-n",
+      "pos": "noun",
+      "englishDefinition": "any supernatural being worshipped as controlling some part of the world or some aspect of life or who is the personification of a force",
+      "meaningZhTW": "神",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "good-355",
+      "word": "good",
+      "senseId": "good%4:02:00::",
+      "synsetId": "00011555-r",
+      "pos": "adverb",
+      "englishDefinition": "(often used as a combining form) in a good or proper or satisfactory manner or to a high standard (‘good’ is a nonstandard dialectal variant for ‘well’)",
+      "meaningZhTW": "善行",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "habit-370",
+      "word": "habit",
+      "senseId": "habit%1:04:02::",
+      "synsetId": "00415192-n",
+      "pos": "noun",
+      "englishDefinition": "(psychology) an automatic pattern of behavior in reaction to a specific situation; may be inherited or acquired through frequent repetition",
+      "meaningZhTW": "習慣",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "hair-371",
+      "word": "hair",
+      "senseId": "hair%1:08:00::",
+      "synsetId": "05262259-n",
+      "pos": "noun",
+      "englishDefinition": "a covering for the body (or parts of it) consisting of a dense growth of threadlike structures (as on the human head); helps to prevent heat loss",
+      "meaningZhTW": "頭發",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "heart-388",
+      "word": "heart",
+      "senseId": "heart%1:08:00::",
+      "synsetId": "05396148-n",
+      "pos": "noun",
+      "englishDefinition": "the hollow muscular organ located behind the sternum and between the lungs; its rhythmic contractions move the blood through the body",
+      "meaningZhTW": "心",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "here-396",
+      "word": "here",
+      "senseId": "here%1:15:00::",
+      "synsetId": "08506507-n",
+      "pos": "noun",
+      "englishDefinition": "the present location; this place; location, proximal pronoun; demonstrative pronoun, location; quantifier: demonstrative determiner, singular, proximal",
+      "meaningZhTW": "在這裡",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "high-398",
+      "word": "high",
+      "senseId": "high%3:00:01::",
+      "synsetId": "01207229-a",
+      "pos": "adjective",
+      "englishDefinition": "(literal meaning) being at or having a relatively great or specific elevation or upward extension (sometimes used in combinations like ‘knee-high’)",
+      "meaningZhTW": "高度",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "hit-401",
+      "word": "hit",
+      "senseId": "hit%1:04:03::",
+      "synsetId": "00044640-n",
+      "pos": "noun",
+      "englishDefinition": "(baseball) when a batter strikes a pitched ball into fair territory and arrives safely on base (without an error or a fielder's choice being made by the defense)",
+      "meaningZhTW": "打擊",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "hot-412",
+      "word": "hot",
+      "senseId": "hot%3:00:01::",
+      "synsetId": "01250274-a",
+      "pos": "adjective",
+      "englishDefinition": "used of physical heat; having a high or higher than desirable temperature or giving off heat or feeling or causing a sensation of heat or burning",
+      "meaningZhTW": "熱的",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "least-479",
+      "word": "least",
+      "senseId": "least%3:00:00::",
+      "synsetId": "01560454-a",
+      "pos": "adjective",
+      "englishDefinition": "the superlative of ‘little’ that can be used with mass nouns and is usually preceded by ‘the’; a quantifier meaning smallest in amount or extent or degree",
+      "meaningZhTW": "最少",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "leg-482",
+      "word": "leg",
+      "senseId": "leg%1:08:01::",
+      "synsetId": "05568420-n",
+      "pos": "noun",
+      "englishDefinition": "a human limb; commonly used to refer to a whole limb but technically only the part of the limb between the knee and ankle",
+      "meaningZhTW": "腿",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "long-502",
+      "word": "long",
+      "senseId": "long%3:00:02::",
+      "synsetId": "01440837-a",
+      "pos": "adjective",
+      "englishDefinition": "primarily temporal sense; being or indicating a relatively great or greater than average duration or passage of time or a duration as specified",
+      "meaningZhTW": "長的",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "many-519",
+      "word": "many",
+      "senseId": "many%3:00:00::",
+      "synsetId": "01555990-a",
+      "pos": "adjective",
+      "englishDefinition": "a quantifier that can be used with count nouns and is often preceded by ‘as’ or ‘too’ or ‘so’ or ‘that’; amounting to a large but indefinite number; quantifier, plural pronoun; quantifier, plural",
+      "meaningZhTW": "多數",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "map-520",
+      "word": "map",
+      "senseId": "map%1:24:00::",
+      "synsetId": "13806028-n",
+      "pos": "noun",
+      "englishDefinition": "(mathematics) a mathematical relation such that each element of a given set (the domain of the function) is associated with an element of another set (the range of the function)",
+      "meaningZhTW": "地圖",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "medicine-532",
+      "word": "medicine",
+      "senseId": "medicine%1:04:00::",
+      "synsetId": "00613447-n",
+      "pos": "noun",
+      "englishDefinition": "the learned profession that is mastered by graduate training in a medical school and that is devoted to preventing or alleviating or curing diseases and injuries",
+      "meaningZhTW": "藥",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "most-554",
+      "word": "most",
+      "senseId": "most%3:00:01::",
+      "synsetId": "01560125-a",
+      "pos": "adjective",
+      "englishDefinition": "the superlative of ‘much’ that can be used with mass nouns and is usually preceded by ‘the’; a quantifier meaning the greatest in amount or extent or degree",
+      "meaningZhTW": "最多",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "mother-555",
+      "word": "mother",
+      "senseId": "mother%1:27:00::",
+      "synsetId": "15131241-n",
+      "pos": "noun",
+      "englishDefinition": "a stringy slimy substance consisting of yeast cells and bacteria; forms during fermentation and is added to cider or wine to produce vinegar",
+      "meaningZhTW": "母親",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "mouse-557",
+      "word": "mouse",
+      "senseId": "mouse%1:05:00::",
+      "synsetId": "02332897-n",
+      "pos": "noun",
+      "englishDefinition": "any of numerous small rodents typically resembling diminutive rats having pointed snouts and small ears on elongated bodies with slender usually hairless tails",
+      "meaningZhTW": "老鼠",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "need-574",
+      "word": "need",
+      "senseId": "need%1:03:00::",
+      "synsetId": "00023953-n",
+      "pos": "noun",
+      "englishDefinition": "the psychological feature that arouses an organism to action toward a desired goal; the reason for the action; that which gives purpose and direction to behavior",
+      "meaningZhTW": "需要",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "net-575",
+      "word": "net",
+      "senseId": "net%1:06:01::",
+      "synsetId": "03585784-n",
+      "pos": "noun",
+      "englishDefinition": "a computer network consisting of a worldwide network of computer networks that use the TCP/IP network protocols to facilitate data transmission and exchange",
+      "meaningZhTW": "網",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "no/nope-583",
+      "word": "no/nope",
+      "senseId": "no%3:00:00::",
+      "synsetId": "02276242-a",
+      "pos": "adjective",
+      "englishDefinition": "(quantifier) used with either mass nouns or plural count nouns for indicating a complete or almost complete lack or zero quantity of",
+      "meaningZhTW": "不",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "nothing-592",
+      "word": "nothing",
+      "senseId": "nothing%1:23:00::",
+      "synsetId": "13762308-n",
+      "pos": "noun",
+      "englishDefinition": "a quantity of no importance; thing (object:), singular, negative pronoun; pronoun, thing, singular; quantifier: negative existential",
+      "meaningZhTW": "無",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "package-620",
+      "word": "package",
+      "senseId": "package%1:10:00::",
+      "synsetId": "06578068-n",
+      "pos": "noun",
+      "englishDefinition": "(computer science) written programs or procedures or rules and associated documentation pertaining to the operation of a computer system and that are stored in read/write memory",
+      "meaningZhTW": "包裹",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "paint-622",
+      "word": "paint",
+      "senseId": "paint%1:06:00::",
+      "synsetId": "03880896-n",
+      "pos": "noun",
+      "englishDefinition": "a substance used as a coating to protect or decorate a surface (especially a mixture of pigment suspended in a liquid); dries to form a hard coating",
+      "meaningZhTW": "油漆",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "paint-622",
+      "word": "paint",
+      "senseId": "paint%1:15:00::",
+      "synsetId": "08608465-n",
+      "pos": "noun",
+      "englishDefinition": "(basketball) a space (including the foul line) in front of the basket at each end of a basketball court; usually painted a different color from the rest of the court",
+      "meaningZhTW": "油漆",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "parent(s)-626",
+      "word": "parent(s)",
+      "senseId": "parent%1:18:00::",
+      "synsetId": "10419190-n",
+      "pos": "noun",
+      "englishDefinition": "a father or mother; one who begets or one who gives birth to or nurtures and raises a child; a relative who plays the role of guardian",
+      "meaningZhTW": "父母",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "person-637",
+      "word": "person",
+      "senseId": "person%1:10:00::",
+      "synsetId": "06337790-n",
+      "pos": "noun",
+      "englishDefinition": "a grammatical category used in the classification of pronouns, possessive determiners, and verb forms according to whether they indicate the speaker, the addressee, or a third party",
+      "meaningZhTW": "人",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "planet-652",
+      "word": "planet",
+      "senseId": "planet%1:17:00::",
+      "synsetId": "09416900-n",
+      "pos": "noun",
+      "englishDefinition": "(astronomy) any of the nine large celestial bodies in the solar system that revolve around the sun and shine by reflected light; Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune, and Pluto in order of their proximity to the sun; viewed from the constellation Hercules, all the planets rotate around the sun in a counterclockwise direction",
+      "meaningZhTW": "行星",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "polite-663",
+      "word": "polite",
+      "senseId": "polite%3:00:04::",
+      "synsetId": "00645401-a",
+      "pos": "adjective",
+      "englishDefinition": "not rude; marked by satisfactory (or especially minimal) adherence to social usages and sufficient but not noteworthy consideration for others",
+      "meaningZhTW": "有禮貌的",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "potato-671",
+      "word": "potato",
+      "senseId": "potato%1:20:00::",
+      "synsetId": "12918253-n",
+      "pos": "noun",
+      "englishDefinition": "annual native to South America having underground stolons bearing edible starchy tubers; widely cultivated as a garden vegetable; vines are poisonous",
+      "meaningZhTW": "馬鈴薯",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "rabbit-692",
+      "word": "rabbit",
+      "senseId": "rabbit%1:05:00::",
+      "synsetId": "02326697-n",
+      "pos": "noun",
+      "englishDefinition": "any of various burrowing animals of the family Leporidae having long ears and short tails; some domesticated and raised for pets or food",
+      "meaningZhTW": "兔子",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "root-725",
+      "word": "root",
+      "senseId": "root%1:20:00::",
+      "synsetId": "13145876-n",
+      "pos": "noun",
+      "englishDefinition": "(botany) the usually underground organ that lacks buds or leaves or nodes; absorbs water and mineral salts; usually it anchors the plant to the ground",
+      "meaningZhTW": "根",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "ruler-731",
+      "word": "ruler",
+      "senseId": "ruler%1:06:00::",
+      "synsetId": "04125870-n",
+      "pos": "noun",
+      "englishDefinition": "measuring stick consisting of a strip of wood or metal or plastic with a straight edge that is used for drawing straight lines and measuring lengths",
+      "meaningZhTW": "統治者",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "share-760",
+      "word": "share",
+      "senseId": "share%1:21:01::",
+      "synsetId": "13363150-n",
+      "pos": "noun",
+      "englishDefinition": "any of the equal portions into which the capital stock of a corporation is divided and ownership of which is evidenced by a stock certificate",
+      "meaningZhTW": "部分",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "shoe(s)-766",
+      "word": "shoe(s)",
+      "senseId": "shoe%1:06:00::",
+      "synsetId": "04206070-n",
+      "pos": "noun",
+      "englishDefinition": "footwear shaped to fit the foot (below the ankle) with a flexible upper of leather or plastic and a sole and heel of heavier material",
+      "meaningZhTW": "鞋子",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "story-830",
+      "word": "story",
+      "senseId": "story%1:10:03::",
+      "synsetId": "07235754-n",
+      "pos": "noun",
+      "englishDefinition": "a message that tells the particulars of an act or occurrence or course of events; presented in writing or drama or cinema or as a radio or television program",
+      "meaningZhTW": "故事",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "sugar-841",
+      "word": "sugar",
+      "senseId": "sugar%1:27:00::",
+      "synsetId": "14816873-n",
+      "pos": "noun",
+      "englishDefinition": "an essential structural component of living cells and source of energy for animals; includes simple sugars with small molecules as well as macromolecular substances; are classified according to the number of monosaccharide groups they contain",
+      "meaningZhTW": "糖",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "taste-855",
+      "word": "taste",
+      "senseId": "taste%1:09:02::",
+      "synsetId": "05723230-n",
+      "pos": "noun",
+      "englishDefinition": "the sensation that results when taste buds in the tongue and throat convey information about the chemical composition of a soluble stimulus",
+      "meaningZhTW": "味道",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "telephone/phone-862",
+      "word": "telephone/phone",
+      "senseId": "telephone%1:06:00::",
+      "synsetId": "04408223-n",
+      "pos": "noun",
+      "englishDefinition": "electronic equipment that converts sound into electrical signals that can be transmitted over distances and then converts received signals back into sounds",
+      "meaningZhTW": "電話",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "telephone/phone-862",
+      "word": "telephone/phone",
+      "senseId": "phone%1:06:00::",
+      "synsetId": "04408223-n",
+      "pos": "noun",
+      "englishDefinition": "electronic equipment that converts sound into electrical signals that can be transmitted over distances and then converts received signals back into sounds",
+      "meaningZhTW": "電話",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "there-875",
+      "word": "there",
+      "senseId": "there%1:15:00::",
+      "synsetId": "08506637-n",
+      "pos": "noun",
+      "englishDefinition": "a location other than here; that place; location, medial pronoun; demonstrative pronoun, location; quantifier: demonstrative determiner, distal; demonstrative pronoun, location; quantifier: demonstrative determiner, singular, distal",
+      "meaningZhTW": "在那裡",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "thick-878",
+      "word": "thick",
+      "senseId": "thick%3:00:01::",
+      "synsetId": "02419189-a",
+      "pos": "adjective",
+      "englishDefinition": "not thin; of a specific thickness or of relatively great extent from one surface to the opposite usually in the smallest of the three solid dimensions",
+      "meaningZhTW": "厚的",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "third-882",
+      "word": "third",
+      "senseId": "third%1:04:00::",
+      "synsetId": "00725419-n",
+      "pos": "noun",
+      "englishDefinition": "the fielding position of the player on a baseball team who is stationed near the third of the bases in the infield (counting counterclockwise from home plate)",
+      "meaningZhTW": "第三",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "ticket-890",
+      "word": "ticket",
+      "senseId": "ticket%1:10:01::",
+      "synsetId": "06530710-n",
+      "pos": "noun",
+      "englishDefinition": "a commercial document showing that the holder is entitled to something (as to ride on public transportation or to enter a public entertainment)",
+      "meaningZhTW": "票",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "ticket-890",
+      "word": "ticket",
+      "senseId": "ticket%1:10:03::",
+      "synsetId": "07287841-n",
+      "pos": "noun",
+      "englishDefinition": "a label written or printed on paper, cardboard, or plastic that is attached to something to indicate its owner, nature, price, etc.",
+      "meaningZhTW": "票",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "treat(ment)-917",
+      "word": "treat(ment)",
+      "senseId": "treatment%1:04:00::",
+      "synsetId": "00659325-n",
+      "pos": "noun",
+      "englishDefinition": "care provided to improve a situation (especially medical procedures or applications that are intended to relieve illness or injury)",
+      "meaningZhTW": "對待",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "tree-918",
+      "word": "tree",
+      "senseId": "tree%1:20:00::",
+      "synsetId": "13124818-n",
+      "pos": "noun",
+      "englishDefinition": "a tall perennial woody plant having a main trunk and branches forming a distinct elevated crown; includes both gymnosperms and angiosperms",
+      "meaningZhTW": "樹",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "truck-921",
+      "word": "truck",
+      "senseId": "truck%1:06:01::",
+      "synsetId": "03495220-n",
+      "pos": "noun",
+      "englishDefinition": "a handcart that has a frame with two low wheels and a ledge at the bottom and handles at the top; used to move crates or other heavy objects",
+      "meaningZhTW": "卡車",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "vegetable-936",
+      "word": "vegetable",
+      "senseId": "vegetable%1:20:00::",
+      "synsetId": "12232878-n",
+      "pos": "noun",
+      "englishDefinition": "any of various herbaceous plants cultivated for an edible part such as the fruit or the root of the beet or the leaf of spinach or the seeds of bean plants or the flower buds of broccoli or cauliflower",
+      "meaningZhTW": "蔬菜",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "violin-939",
+      "word": "violin",
+      "senseId": "violin%1:06:00::",
+      "synsetId": "04544161-n",
+      "pos": "noun",
+      "englishDefinition": "bowed stringed instrument that is the highest member of the violin family; this instrument has four strings and a hollow body and an unfretted fingerboard and is played with a bow",
+      "meaningZhTW": "小提琴",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "wall-946",
+      "word": "wall",
+      "senseId": "wall%1:06:00::",
+      "synsetId": "04554141-n",
+      "pos": "noun",
+      "englishDefinition": "an architectural partition with a height and length greater than its thickness; used to divide or enclose an area or to support another structure",
+      "meaningZhTW": "牆",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "weekend-958",
+      "word": "weekend",
+      "senseId": "weekend%1:28:00::",
+      "synsetId": "15195551-n",
+      "pos": "noun",
+      "englishDefinition": "a time period usually extending from Friday night through Sunday; more loosely defined as any period of successive days including one and only one Sunday",
+      "meaningZhTW": "周末",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "well-960",
+      "word": "well",
+      "senseId": "well%4:02:00::",
+      "synsetId": "00011555-r",
+      "pos": "adverb",
+      "englishDefinition": "(often used as a combining form) in a good or proper or satisfactory manner or to a high standard (‘good’ is a nonstandard dialectal variant for ‘well’)",
+      "meaningZhTW": "很好地；井",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "white-969",
+      "word": "white",
+      "senseId": "white%1:13:00::",
+      "synsetId": "07857013-n",
+      "pos": "noun",
+      "englishDefinition": "the white part of an egg; the nutritive and protective gelatinous substance surrounding the yolk consisting mainly of albumin dissolved in water",
+      "meaningZhTW": "白色",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "zero-1001",
+      "word": "zero",
+      "senseId": "zero%1:23:02::",
+      "synsetId": "13762308-n",
+      "pos": "noun",
+      "englishDefinition": "a quantity of no importance; thing (object:), singular, negative pronoun; pronoun, thing, singular; quantifier: negative existential",
+      "meaningZhTW": "零",
+      "reason": "complex_or_technical_definition"
+    }
+  ]
+}
