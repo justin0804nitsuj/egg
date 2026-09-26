@@ -92,6 +92,17 @@ async function main() {
 
   const rawPrimaryDefsByWord = [];
 
+  let EXPLICIT_OVERRIDES = {};
+  const OVERRIDES_JS_PATH = path.join(PROJECT_ROOT, 'src', 'data', `wordDefinitionsZhTW_L${level}_overrides.js`);
+  if (fs.existsSync(OVERRIDES_JS_PATH)) {
+    try {
+      const overridesModule = await import(pathToFileURL(OVERRIDES_JS_PATH).href);
+      EXPLICIT_OVERRIDES = overridesModule[`ZH_TW_L${level}_OVERRIDES`] || {};
+    } catch (e) {
+      console.warn(`Could not load overrides file: ${OVERRIDES_JS_PATH}`);
+    }
+  }
+
   levelWords.forEach((word) => {
     const entry = getWordDefinitions(word.id);
     if (!entry || (!entry.primaryDefinitions && !entry.rawPrimaryDefinitions)) {
@@ -126,6 +137,7 @@ async function main() {
         lexicalFile: def.lexicalFile,
         senseIndex: index,
         totalSenses: primaryDefs.length,
+        explicitOverrides: EXPLICIT_OVERRIDES,
       });
 
       const cleanMeaning = applyTaiwanTerms(meaningZhTW);
@@ -266,14 +278,15 @@ function translateSense(ctx) {
 }
 
 function getSenseTranslation(ctx) {
-  const { word, wordId, originalMeaning, pos, english, senseId, synsetId, lexicalFile, senseIndex, totalSenses } = ctx;
+  const { word, wordId, originalMeaning, pos, english, senseId, synsetId, lexicalFile, senseIndex, totalSenses, explicitOverrides } = ctx;
   const normEng = english.toLowerCase().trim();
   const wordLower = word.toLowerCase();
 
-  const OVERRIDES = getExplicitSenseOverrides();
+  const OVERRIDES = explicitOverrides || getExplicitSenseOverrides();
   if (OVERRIDES[senseId]) {
+    const ov = OVERRIDES[senseId];
     return {
-      meaningZhTW: OVERRIDES[senseId],
+      meaningZhTW: typeof ov === 'string' ? ov : ov.meaningZhTW,
       isSuspicious: false,
       reason: null,
     };

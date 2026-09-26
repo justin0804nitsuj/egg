@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-26T16:04:06.188Z",
+  "generatedAt": "2026-09-26T16:54:23.971Z",
   "scope": "level-1-only",
   "level1WordCount": 1002,
   "level1MatchedWordCount": 951,
   "translatedRawSenseCount": 3464,
   "learnerMeaningsBeforeDeduplication": 3464,
-  "learnerMeaningsAfterDeduplication": 1413,
-  "duplicatesRemovedFromDisplay": 2051,
-  "wordsAffectedByDeduplication": 832,
+  "learnerMeaningsAfterDeduplication": 1669,
+  "duplicatesRemovedFromDisplay": 1795,
+  "wordsAffectedByDeduplication": 775,
   "wordsWithMultipleTranslatedSensesCount": 854,
-  "suspiciousAmbiguousCount": 77,
+  "suspiciousAmbiguousCount": 66,
   "mergedDuplicateExamples": [
     {
       "wordId": "able-3",
@@ -249,13 +249,11 @@
       "primarySenseId": "airplane%1:06:00::",
       "sourceSenseIds": [
         "airplane%1:06:00::",
-        "plane%1:06:01::",
-        "plane%1:25:00::"
+        "plane%1:06:01::"
       ],
       "englishDefinitions": [
         "an aircraft that has a fixed wing and is powered by propellers or jets",
-        "an aircraft that has a fixed wing and is powered by propellers or jets",
-        "(mathematics) an unbounded two-dimensional shape"
+        "an aircraft that has a fixed wing and is powered by propellers or jets"
       ]
     },
     {
@@ -288,23 +286,6 @@
         "make it possible through a specific action or lack of action for something to happen",
         "consent to, give permission; permit",
         "let have"
-      ]
-    },
-    {
-      "wordId": "along-25",
-      "word": "along",
-      "pos": "adverb",
-      "meaningZhTW": "平行地",
-      "primarySenseId": "along%4:02:01::",
-      "sourceSenseIds": [
-        "along%4:02:01::",
-        "along%4:02:00::",
-        "along%4:02:03::"
-      ],
-      "englishDefinitions": [
-        "with a forward motion",
-        "in accompaniment or as a companion",
-        "to a more advanced state"
       ]
     },
     {
@@ -440,38 +421,6 @@
       ]
     },
     {
-      "wordId": "arm-44",
-      "word": "arm",
-      "pos": "noun",
-      "meaningZhTW": "手臂",
-      "primarySenseId": "arm%1:08:00::",
-      "sourceSenseIds": [
-        "arm%1:08:00::",
-        "arm%1:06:03::",
-        "arm%1:06:01::"
-      ],
-      "englishDefinitions": [
-        "a human limb; technically the part of the superior limb between the shoulder and the elbow but commonly used to refer to the whole superior limb",
-        "any projection that is thought to resemble a human arm",
-        "any instrument or instrumentality used in fighting or hunting"
-      ]
-    },
-    {
-      "wordId": "arm-44",
-      "word": "arm",
-      "pos": "verb",
-      "meaningZhTW": "手臂",
-      "primarySenseId": "arm%2:33:00::",
-      "sourceSenseIds": [
-        "arm%2:33:00::",
-        "arm%2:40:00::"
-      ],
-      "englishDefinitions": [
-        "prepare oneself for a military confrontation",
-        "supply with arms"
-      ]
-    },
-    {
       "wordId": "around-45",
       "word": "around",
       "pos": "adverb",
@@ -502,6 +451,55 @@
         "reach a destination; arrive by movement or progress",
         "succeed in a big way; get to the top"
       ]
+    },
+    {
+      "wordId": "art-47",
+      "word": "art",
+      "pos": "noun",
+      "meaningZhTW": "藝術",
+      "primarySenseId": "art%1:06:00::",
+      "sourceSenseIds": [
+        "art%1:06:00::",
+        "art%1:04:00::",
+        "art%1:09:00::"
+      ],
+      "englishDefinitions": [
+        "the products of human creativity; works of art collectively",
+        "the creation of beautiful or significant things",
+        "a superior skill that you can learn by study and practice and observation"
+      ]
+    },
+    {
+      "wordId": "ask-49",
+      "word": "ask",
+      "pos": "verb",
+      "meaningZhTW": "問",
+      "primarySenseId": "ask%2:32:01::",
+      "sourceSenseIds": [
+        "ask%2:32:01::",
+        "ask%2:32:02::",
+        "ask%2:32:05::"
+      ],
+      "englishDefinitions": [
+        "make a request or demand for something to somebody",
+        "direct or put; seek an answer to",
+        "consider obligatory; request and expect"
+      ]
+    },
+    {
+      "wordId": "attack-51",
+      "word": "attack",
+      "pos": "noun",
+      "meaningZhTW": "攻擊",
+      "primarySenseId": "attack%1:04:04::",
+      "sourceSenseIds": [
+        "attack%1:04:04::",
+        "attack%1:10:00::"
+      ],
+      "englishDefinitions": [
+        "an offensive move in a sport or game",
+        "intense adverse criticism"
+      ]
     }
   ],
   "suspiciousAmbiguousTranslations": [
@@ -526,16 +524,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "arm-44",
-      "word": "arm",
-      "senseId": "arm%1:08:00::",
-      "synsetId": "05571403-n",
-      "pos": "noun",
-      "englishDefinition": "a human limb; technically the part of the superior limb between the shoulder and the elbow but commonly used to refer to the whole superior limb",
-      "meaningZhTW": "手臂",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "banana-59",
       "word": "banana",
       "senseId": "banana%1:20:00::",
@@ -543,16 +531,6 @@
       "pos": "noun",
       "englishDefinition": "any of several tropical and subtropical treelike herbs of the genus Musa having a terminal crown of large entire leaves and usually bearing hanging clusters of elongated fruits",
       "meaningZhTW": "香蕉",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "basketball-64",
-      "word": "basketball",
-      "senseId": "basketball%1:04:00::",
-      "synsetId": "00482004-n",
-      "pos": "noun",
-      "englishDefinition": "a game played on a court by two opposing teams of 5 players; points are scored by throwing the ball through an elevated horizontal hoop",
-      "meaningZhTW": "籃球",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -573,36 +551,6 @@
       "pos": "noun",
       "englishDefinition": "a vessel containing liquid in which something is immersed (as to process it or to maintain it at a constant temperature or to lubricate it)",
       "meaningZhTW": "沐浴",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "bear-71",
-      "word": "bear",
-      "senseId": "bear%1:18:00::",
-      "synsetId": "09864599-n",
-      "pos": "noun",
-      "englishDefinition": "an investor with a pessimistic market outlook; an investor who expects prices to fall and so sells now in order to buy later at a lower price",
-      "meaningZhTW": "熊",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "bottle-109",
-      "word": "bottle",
-      "senseId": "bottle%1:06:00::",
-      "synsetId": "02879899-n",
-      "pos": "noun",
-      "englishDefinition": "a glass or plastic vessel used for storing drinks or other liquids; typically cylindrical without handles and with a narrow neck that can be plugged or capped",
-      "meaningZhTW": "瓶子",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "bottle-109",
-      "word": "bottle",
-      "senseId": "bottle%1:06:01::",
-      "synsetId": "02880508-n",
-      "pos": "noun",
-      "englishDefinition": "a vessel fitted with a flexible teat and filled with milk or formula; used as a substitute for breast feeding infants and very young children",
-      "meaningZhTW": "瓶子",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -663,16 +611,6 @@
       "pos": "noun",
       "englishDefinition": "ellipse in which the two axes are of equal length; a plane curve generated by one point moving at a constant distance from a fixed point",
       "meaningZhTW": "圓周",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "deep-220",
-      "word": "deep",
-      "senseId": "deep%3:00:01::",
-      "synsetId": "00693335-a",
-      "pos": "adjective",
-      "englishDefinition": "having great spatial extension or penetration downward or inward from an outer surface or backward or laterally or outward from a center; sometimes used in combination",
-      "meaningZhTW": "深的",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -773,16 +711,6 @@
       "pos": "noun",
       "englishDefinition": "the present location; this place; location, proximal pronoun; demonstrative pronoun, location; quantifier: demonstrative determiner, singular, proximal",
       "meaningZhTW": "在這裡",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "high-398",
-      "word": "high",
-      "senseId": "high%3:00:01::",
-      "synsetId": "01207229-a",
-      "pos": "adjective",
-      "englishDefinition": "(literal meaning) being at or having a relatively great or specific elevation or upward extension (sometimes used in combinations like ‘knee-high’)",
-      "meaningZhTW": "高度",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -893,16 +821,6 @@
       "pos": "noun",
       "englishDefinition": "any of numerous small rodents typically resembling diminutive rats having pointed snouts and small ears on elongated bodies with slender usually hairless tails",
       "meaningZhTW": "老鼠",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "need-574",
-      "word": "need",
-      "senseId": "need%1:03:00::",
-      "synsetId": "00023953-n",
-      "pos": "noun",
-      "englishDefinition": "the psychological feature that arouses an organism to action toward a desired goal; the reason for the action; that which gives purpose and direction to behavior",
-      "meaningZhTW": "需要",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -1046,16 +964,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "share-760",
-      "word": "share",
-      "senseId": "share%1:21:01::",
-      "synsetId": "13363150-n",
-      "pos": "noun",
-      "englishDefinition": "any of the equal portions into which the capital stock of a corporation is divided and ownership of which is evidenced by a stock certificate",
-      "meaningZhTW": "部分",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "shoe(s)-766",
       "word": "shoe(s)",
       "senseId": "shoe%1:06:00::",
@@ -1073,16 +981,6 @@
       "pos": "noun",
       "englishDefinition": "a message that tells the particulars of an act or occurrence or course of events; presented in writing or drama or cinema or as a radio or television program",
       "meaningZhTW": "故事",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "sugar-841",
-      "word": "sugar",
-      "senseId": "sugar%1:27:00::",
-      "synsetId": "14816873-n",
-      "pos": "noun",
-      "englishDefinition": "an essential structural component of living cells and source of energy for animals; includes simple sugars with small molecules as well as macromolecular substances; are classified according to the number of monosaccharide groups they contain",
-      "meaningZhTW": "糖",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -1163,16 +1061,6 @@
       "pos": "noun",
       "englishDefinition": "a label written or printed on paper, cardboard, or plastic that is attached to something to indicate its owner, nature, price, etc.",
       "meaningZhTW": "票",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "treat(ment)-917",
-      "word": "treat(ment)",
-      "senseId": "treatment%1:04:00::",
-      "synsetId": "00659325-n",
-      "pos": "noun",
-      "englishDefinition": "care provided to improve a situation (especially medical procedures or applications that are intended to relieve illness or injury)",
-      "meaningZhTW": "對待",
       "reason": "complex_or_technical_definition"
     },
     {

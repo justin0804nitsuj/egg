@@ -1,0 +1,787 @@
+{
+  "sampledMerged": [
+    {
+      "wordId": "aboard-2005",
+      "word": "aboard",
+      "pos": "adverb",
+      "meaningZhTW": "在船上",
+      "senses": [
+        {
+          "senseId": "aboard%4:02:01::",
+          "eng": "on a ship, train, plane or other vehicle"
+        },
+        {
+          "senseId": "aboard%4:02:00::",
+          "eng": "on first or second or third base"
+        },
+        {
+          "senseId": "aboard%4:02:04::",
+          "eng": "side by side"
+        }
+      ]
+    },
+    {
+      "wordId": "accurate-2007",
+      "word": "accurate",
+      "pos": "adjective",
+      "meaningZhTW": "正確的",
+      "senses": [
+        {
+          "senseId": "accurate%3:00:00::",
+          "eng": "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy"
+        },
+        {
+          "senseId": "accurate%5:00:00:correct:00",
+          "eng": "(of ideas, images, representations, expressions) characterized by perfect conformity to fact or truth; strictly correct"
+        }
+      ]
+    },
+    {
+      "wordId": "ache-2008",
+      "word": "ache",
+      "pos": "verb",
+      "meaningZhTW": "疼痛",
+      "senses": [
+        {
+          "senseId": "ache%2:39:00::",
+          "eng": "be the source of pain"
+        },
+        {
+          "senseId": "ache%2:29:07::",
+          "eng": "be in pain"
+        }
+      ]
+    },
+    {
+      "wordId": "admire-2011",
+      "word": "admire",
+      "pos": "verb",
+      "meaningZhTW": "贊美",
+      "senses": [
+        {
+          "senseId": "admire%2:37:00::",
+          "eng": "feel admiration for"
+        },
+        {
+          "senseId": "admire%2:39:00::",
+          "eng": "look at with admiration"
+        }
+      ]
+    },
+    {
+      "wordId": "advanced-2012",
+      "word": "advanced",
+      "pos": "adjective",
+      "meaningZhTW": "在前的",
+      "senses": [
+        {
+          "senseId": "advanced%5:00:00:precocious:00",
+          "eng": "farther along in physical or mental development"
+        },
+        {
+          "senseId": "advanced%5:00:00:late:02",
+          "eng": "comparatively late in a course of development"
+        },
+        {
+          "senseId": "advanced%5:00:00:progressive:01",
+          "eng": "ahead of the times"
+        }
+      ]
+    },
+    {
+      "wordId": "advantage-2013",
+      "word": "advantage",
+      "pos": "noun",
+      "meaningZhTW": "優點",
+      "senses": [
+        {
+          "senseId": "advantage%1:07:00::",
+          "eng": "the quality of having a superior or more favorable position"
+        },
+        {
+          "senseId": "advantage%1:23:00::",
+          "eng": "(tennis) first point scored after deuce"
+        },
+        {
+          "senseId": "advantage%1:07:01::",
+          "eng": "benefit resulting from some event or action"
+        }
+      ]
+    },
+    {
+      "wordId": "advertise(ment)/ad-2015",
+      "word": "advertise(ment)/ad",
+      "pos": "verb",
+      "meaningZhTW": "廣告；宣傳",
+      "senses": [
+        {
+          "senseId": "advertise%2:32:01::",
+          "eng": "call attention to"
+        },
+        {
+          "senseId": "advertise%2:32:00::",
+          "eng": "make publicity for; try to sell (a product)"
+        }
+      ]
+    },
+    {
+      "wordId": "advertise(ment)/ad-2015",
+      "word": "advertise(ment)/ad",
+      "pos": "noun",
+      "meaningZhTW": "廣告；宣傳",
+      "senses": [
+        {
+          "senseId": "advertisement%1:10:00::",
+          "eng": "a public promotion of some product or service"
+        },
+        {
+          "senseId": "ad%1:10:00::",
+          "eng": "a public promotion of some product or service"
+        }
+      ]
+    },
+    {
+      "wordId": "advise-2016",
+      "word": "advise",
+      "pos": "verb",
+      "meaningZhTW": "勸告",
+      "senses": [
+        {
+          "senseId": "advise%2:32:00::",
+          "eng": "give advice to"
+        },
+        {
+          "senseId": "advise%2:32:01::",
+          "eng": "inform (somebody) of something"
+        },
+        {
+          "senseId": "advise%2:32:02::",
+          "eng": "make a proposal, declare a plan for something"
+        }
+      ]
+    },
+    {
+      "wordId": "adviser/advisor-2017",
+      "word": "adviser/advisor",
+      "pos": "noun",
+      "meaningZhTW": "顧問",
+      "senses": [
+        {
+          "senseId": "adviser%1:18:00::",
+          "eng": "an expert who gives advice"
+        },
+        {
+          "senseId": "advisor%1:18:00::",
+          "eng": "an expert who gives advice"
+        }
+      ]
+    },
+    {
+      "wordId": "afford-2018",
+      "word": "afford",
+      "pos": "verb",
+      "meaningZhTW": "買得起",
+      "senses": [
+        {
+          "senseId": "afford%2:34:00::",
+          "eng": "be able to spare or give up"
+        },
+        {
+          "senseId": "afford%2:40:00::",
+          "eng": "be the cause or source of"
+        },
+        {
+          "senseId": "afford%2:42:00::",
+          "eng": "have the financial means to do something or buy something"
+        }
+      ]
+    },
+    {
+      "wordId": "afterward/afterwards-2019",
+      "word": "afterward/afterwards",
+      "pos": "adverb",
+      "meaningZhTW": "後來；之後",
+      "senses": [
+        {
+          "senseId": "afterward%4:02:00::",
+          "eng": "happening at a time subsequent to a reference time"
+        },
+        {
+          "senseId": "afterwards%4:02:00::",
+          "eng": "happening at a time subsequent to a reference time"
+        }
+      ]
+    },
+    {
+      "wordId": "airline-2021",
+      "word": "airline",
+      "pos": "noun",
+      "meaningZhTW": "航線",
+      "senses": [
+        {
+          "senseId": "airline%1:06:01::",
+          "eng": "a hose that carries air under pressure"
+        },
+        {
+          "senseId": "airline%1:06:00::",
+          "eng": "a commercial enterprise that provides scheduled flights for passengers"
+        }
+      ]
+    },
+    {
+      "wordId": "almond-2023",
+      "word": "almond",
+      "pos": "noun",
+      "meaningZhTW": "杏仁",
+      "senses": [
+        {
+          "senseId": "almond%1:20:00::",
+          "eng": "small bushy deciduous tree native to Asia and North Africa having pretty pink blossoms and highly prized edible nuts enclosed in a hard green hull; cultivated in southern Australia and California"
+        },
+        {
+          "senseId": "almond%1:13:00::",
+          "eng": "oval-shaped edible seed of the almond tree"
+        }
+      ]
+    },
+    {
+      "wordId": "alphabet-2024",
+      "word": "alphabet",
+      "pos": "noun",
+      "meaningZhTW": "字母",
+      "senses": [
+        {
+          "senseId": "alphabet%1:10:00::",
+          "eng": "a character set that includes letters and is used to write a language"
+        },
+        {
+          "senseId": "alphabet%1:09:00::",
+          "eng": "the elementary stages of any subject (usually plural)"
+        }
+      ]
+    },
+    {
+      "wordId": "amaze(ment)-2025",
+      "word": "amaze(ment)",
+      "pos": "verb",
+      "meaningZhTW": "使大為吃驚",
+      "senses": [
+        {
+          "senseId": "amaze%2:31:00::",
+          "eng": "affect with wonder"
+        },
+        {
+          "senseId": "amaze%2:31:01::",
+          "eng": "be a mystery or bewildering to"
+        }
+      ]
+    },
+    {
+      "wordId": "ambassador-2026",
+      "word": "ambassador",
+      "pos": "noun",
+      "meaningZhTW": "大使",
+      "senses": [
+        {
+          "senseId": "ambassador%1:18:00::",
+          "eng": "a diplomat of the highest rank; accredited as representative from one country to another"
+        },
+        {
+          "senseId": "ambassador%1:18:01::",
+          "eng": "an informal representative"
+        }
+      ]
+    },
+    {
+      "wordId": "ambition-2027",
+      "word": "ambition",
+      "pos": "noun",
+      "meaningZhTW": "野心",
+      "senses": [
+        {
+          "senseId": "ambition%1:12:00::",
+          "eng": "a cherished desire"
+        },
+        {
+          "senseId": "ambition%1:07:00::",
+          "eng": "a strong drive for success"
+        }
+      ]
+    },
+    {
+      "wordId": "angel-2029",
+      "word": "angel",
+      "pos": "noun",
+      "meaningZhTW": "天使",
+      "senses": [
+        {
+          "senseId": "angel%1:18:00::",
+          "eng": "spiritual being attendant upon God"
+        },
+        {
+          "senseId": "angel%1:18:03::",
+          "eng": "a person of exceptional holiness"
+        }
+      ]
+    },
+    {
+      "wordId": "announce(ment)-2030",
+      "word": "announce(ment)",
+      "pos": "verb",
+      "meaningZhTW": "宣布",
+      "senses": [
+        {
+          "senseId": "announce%2:32:00::",
+          "eng": "make known; make an announcement"
+        },
+        {
+          "senseId": "announce%2:32:02::",
+          "eng": "announce publicly or officially"
+        },
+        {
+          "senseId": "announce%2:32:07::",
+          "eng": "give the names of"
+        }
+      ]
+    }
+  ],
+  "sampledOverride": [
+    {
+      "wordId": "acceptable-2006",
+      "word": "acceptable",
+      "pos": "adjective",
+      "meaningZhTW": "可接受的 (義項 1)",
+      "senses": [
+        {
+          "senseId": "acceptable%3:00:00::",
+          "eng": "worthy of acceptance or satisfactory",
+          "override": {
+            "meaningZhTW": "可接受的 (義項 1)",
+            "status": "verified",
+            "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+          }
+        }
+      ]
+    },
+    {
+      "wordId": "acceptable-2006",
+      "word": "acceptable",
+      "pos": "adjective",
+      "meaningZhTW": "可接受的 (義項 2)",
+      "senses": [
+        {
+          "senseId": "acceptable%5:00:00:standard:03",
+          "eng": "judged to be in conformity with approved usage",
+          "override": {
+            "meaningZhTW": "可接受的 (義項 2)",
+            "status": "verified",
+            "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+          }
+        }
+      ]
+    },
+    {
+      "wordId": "acceptable-2006",
+      "word": "acceptable",
+      "pos": "adjective",
+      "meaningZhTW": "可接受的 (義項 3)",
+      "senses": [
+        {
+          "senseId": "acceptable%5:00:00:good:01",
+          "eng": "meeting requirements",
+          "override": {
+            "meaningZhTW": "可接受的 (義項 3)",
+            "status": "verified",
+            "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+          }
+        }
+      ]
+    },
+    {
+      "wordId": "agriculture-2020",
+      "word": "agriculture",
+      "pos": "noun",
+      "meaningZhTW": "農業 (義項 1)",
+      "senses": [
+        {
+          "senseId": "agriculture%1:04:01::",
+          "eng": "a large-scale farming enterprise",
+          "override": {
+            "meaningZhTW": "農業 (義項 1)",
+            "status": "verified",
+            "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+          }
+        }
+      ]
+    },
+    {
+      "wordId": "agriculture-2020",
+      "word": "agriculture",
+      "pos": "noun",
+      "meaningZhTW": "農業（音樂）",
+      "senses": [
+        {
+          "senseId": "agriculture%1:04:00::",
+          "eng": "the practice of cultivating the land or raising stock",
+          "override": {
+            "meaningZhTW": "農業（音樂）",
+            "status": "verified",
+            "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+          }
+        }
+      ]
+    },
+    {
+      "wordId": "agriculture-2020",
+      "word": "agriculture",
+      "pos": "noun",
+      "meaningZhTW": "農業 (義項 3)",
+      "senses": [
+        {
+          "senseId": "agriculture%1:14:00::",
+          "eng": "the class of people engaged in growing food",
+          "override": {
+            "meaningZhTW": "農業 (義項 3)",
+            "status": "verified",
+            "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+          }
+        }
+      ]
+    },
+    {
+      "wordId": "alley-2022",
+      "word": "alley",
+      "pos": "noun",
+      "meaningZhTW": "小路 (義項 1)",
+      "senses": [
+        {
+          "senseId": "alley%1:06:00::",
+          "eng": "a narrow street with walls on both sides",
+          "override": {
+            "meaningZhTW": "小路 (義項 1)",
+            "status": "verified",
+            "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+          }
+        }
+      ]
+    },
+    {
+      "wordId": "alley-2022",
+      "word": "alley",
+      "pos": "noun",
+      "meaningZhTW": "小路（軍事）",
+      "senses": [
+        {
+          "senseId": "alley%1:06:01::",
+          "eng": "a lane down which a bowling ball is rolled toward pins",
+          "override": {
+            "meaningZhTW": "小路（軍事）",
+            "status": "verified",
+            "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+          }
+        }
+      ]
+    },
+    {
+      "wordId": "armed-2038",
+      "word": "armed",
+      "pos": "adjective",
+      "meaningZhTW": "有扶手的（軍事）",
+      "senses": [
+        {
+          "senseId": "armed%3:00:01::",
+          "eng": "(used of persons or the military) characterized by having or bearing arms",
+          "override": {
+            "meaningZhTW": "有扶手的（軍事）",
+            "status": "verified",
+            "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+          }
+        }
+      ]
+    },
+    {
+      "wordId": "armed-2038",
+      "word": "armed",
+      "pos": "adjective",
+      "meaningZhTW": "有扶手的 (義項 2)",
+      "senses": [
+        {
+          "senseId": "armed%3:00:03::",
+          "eng": "having arms or arms as specified; used especially in combination",
+          "override": {
+            "meaningZhTW": "有扶手的 (義項 2)",
+            "status": "verified",
+            "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+          }
+        }
+      ]
+    },
+    {
+      "wordId": "armed-2038",
+      "word": "armed",
+      "pos": "adjective",
+      "meaningZhTW": "有扶手的（動物）",
+      "senses": [
+        {
+          "senseId": "armed%3:00:02::",
+          "eng": "(used of plants and animals) furnished with bristles and thorns",
+          "override": {
+            "meaningZhTW": "有扶手的（動物）",
+            "status": "verified",
+            "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+          }
+        }
+      ]
+    },
+    {
+      "wordId": "attract-2047",
+      "word": "attract",
+      "pos": "verb",
+      "meaningZhTW": "吸引（軍事）",
+      "senses": [
+        {
+          "senseId": "attract%2:35:00::",
+          "eng": "direct toward itself or oneself by means of some psychological power or physical attributes",
+          "override": {
+            "meaningZhTW": "吸引（軍事）",
+            "status": "verified",
+            "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+          }
+        }
+      ]
+    },
+    {
+      "wordId": "attract-2047",
+      "word": "attract",
+      "pos": "verb",
+      "meaningZhTW": "吸引 (義項 2)",
+      "senses": [
+        {
+          "senseId": "attract%2:37:00::",
+          "eng": "be attractive to",
+          "override": {
+            "meaningZhTW": "吸引 (義項 2)",
+            "status": "verified",
+            "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+          }
+        }
+      ]
+    },
+    {
+      "wordId": "attract-2047",
+      "word": "attract",
+      "pos": "verb",
+      "meaningZhTW": "吸引（音樂）",
+      "senses": [
+        {
+          "senseId": "attract%2:35:01::",
+          "eng": "exert a force on (a body) causing it to approach or prevent it from moving away",
+          "override": {
+            "meaningZhTW": "吸引（音樂）",
+            "status": "verified",
+            "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+          }
+        }
+      ]
+    },
+    {
+      "wordId": "awaken-2054",
+      "word": "awaken",
+      "pos": "verb",
+      "meaningZhTW": "喚醒 (義項 1)",
+      "senses": [
+        {
+          "senseId": "awaken%2:29:00::",
+          "eng": "cause to become awake or conscious",
+          "override": {
+            "meaningZhTW": "喚醒 (義項 1)",
+            "status": "verified",
+            "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+          }
+        }
+      ]
+    }
+  ],
+  "sampledDistinct": [
+    {
+      "wordId": "ache-2008",
+      "word": "ache",
+      "pos": "noun",
+      "meaningZhTW": "疼痛",
+      "senses": [
+        {
+          "senseId": "ache%1:26:00::",
+          "eng": "a dull persistent (usually moderately intense) pain"
+        }
+      ]
+    },
+    {
+      "wordId": "ache-2008",
+      "word": "ache",
+      "pos": "verb",
+      "meaningZhTW": "疼痛（人）",
+      "senses": [
+        {
+          "senseId": "ache%2:37:06::",
+          "eng": "have a desire for something or someone who is not present"
+        }
+      ]
+    },
+    {
+      "wordId": "achieve(ment)-2009",
+      "word": "achieve(ment)",
+      "pos": "verb",
+      "meaningZhTW": "完成",
+      "senses": [
+        {
+          "senseId": "achieve%2:41:00::",
+          "eng": "to gain with effort"
+        }
+      ]
+    },
+    {
+      "wordId": "achieve(ment)-2009",
+      "word": "achieve(ment)",
+      "pos": "noun",
+      "meaningZhTW": "完成",
+      "senses": [
+        {
+          "senseId": "achievement%1:04:00::",
+          "eng": "the action of accomplishing something"
+        }
+      ]
+    },
+    {
+      "wordId": "additional-2010",
+      "word": "additional",
+      "pos": "adjective",
+      "meaningZhTW": "附加的",
+      "senses": [
+        {
+          "senseId": "additional%5:00:03:additive:00",
+          "eng": "further or added"
+        }
+      ]
+    },
+    {
+      "wordId": "adventure-2014",
+      "word": "adventure",
+      "pos": "noun",
+      "meaningZhTW": "冒險",
+      "senses": [
+        {
+          "senseId": "adventure%1:04:00::",
+          "eng": "a wild and exciting undertaking (not necessarily lawful)"
+        }
+      ]
+    },
+    {
+      "wordId": "amaze(ment)-2025",
+      "word": "amaze(ment)",
+      "pos": "noun",
+      "meaningZhTW": "使大為吃驚",
+      "senses": [
+        {
+          "senseId": "amazement%1:12:00::",
+          "eng": "the feeling that accompanies something extremely surprising"
+        }
+      ]
+    },
+    {
+      "wordId": "ambulance-2028",
+      "word": "ambulance",
+      "pos": "noun",
+      "meaningZhTW": "救護車",
+      "senses": [
+        {
+          "senseId": "ambulance%1:06:00::",
+          "eng": "a vehicle that takes people to and from hospitals"
+        }
+      ]
+    },
+    {
+      "wordId": "angel-2029",
+      "word": "angel",
+      "pos": "noun",
+      "meaningZhTW": "天使（人）",
+      "senses": [
+        {
+          "senseId": "angel%1:18:02::",
+          "eng": "someone who provides financial support for some venture"
+        }
+      ]
+    },
+    {
+      "wordId": "assistant-2043",
+      "word": "assistant",
+      "pos": "noun",
+      "meaningZhTW": "助手（人）",
+      "senses": [
+        {
+          "senseId": "assistant%1:18:00::",
+          "eng": "a person who contributes to the fulfillment of a need or furtherance of an effort or purpose"
+        }
+      ]
+    },
+    {
+      "wordId": "athlete-2045",
+      "word": "athlete",
+      "pos": "noun",
+      "meaningZhTW": "運動員",
+      "senses": [
+        {
+          "senseId": "athlete%1:18:00::",
+          "eng": "a person trained to compete in sports"
+        }
+      ]
+    },
+    {
+      "wordId": "awake-2053",
+      "word": "awake",
+      "pos": "verb",
+      "meaningZhTW": "醒著的",
+      "senses": [
+        {
+          "senseId": "awake%2:29:00::",
+          "eng": "stop sleeping"
+        }
+      ]
+    },
+    {
+      "wordId": "bacon-2060",
+      "word": "bacon",
+      "pos": "noun",
+      "meaningZhTW": "燻豬肉",
+      "senses": [
+        {
+          "senseId": "bacon%1:13:00::",
+          "eng": "back and sides of a hog salted and dried or smoked; usually sliced thin and fried"
+        }
+      ]
+    },
+    {
+      "wordId": "bacteria-2061",
+      "word": "bacteria",
+      "pos": "noun",
+      "meaningZhTW": "細菌",
+      "senses": [
+        {
+          "senseId": "bacteria%1:05:00::",
+          "eng": "(microbiology) single-celled or noncellular spherical or spiral or rod-shaped organisms lacking chlorophyll that reproduce by fission; important as pathogens and for biochemical properties; taxonomy is difficult; often considered to be plants"
+        }
+      ]
+    },
+    {
+      "wordId": "blouse-2088",
+      "word": "blouse",
+      "pos": "noun",
+      "meaningZhTW": "寬松的上衣",
+      "senses": [
+        {
+          "senseId": "blouse%1:06:00::",
+          "eng": "a top worn by women"
+        }
+      ]
+    }
+  ]
+}

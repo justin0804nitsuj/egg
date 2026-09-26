@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-26T16:07:14.102Z",
+  "generatedAt": "2026-09-26T16:54:35.211Z",
   "scope": "level-3-only",
   "level3WordCount": 1002,
   "level3MatchedWordCount": 996,
   "translatedRawSenseCount": 3005,
   "learnerMeaningsBeforeDeduplication": 3005,
-  "learnerMeaningsAfterDeduplication": 1313,
-  "duplicatesRemovedFromDisplay": 1692,
-  "wordsAffectedByDeduplication": 823,
+  "learnerMeaningsAfterDeduplication": 1497,
+  "duplicatesRemovedFromDisplay": 1508,
+  "wordsAffectedByDeduplication": 756,
   "wordsWithMultipleTranslatedSensesCount": 843,
-  "suspiciousAmbiguousCount": 58,
+  "suspiciousAmbiguousCount": 48,
   "mergedDuplicateExamples": [
     {
       "wordId": "aboard-2005",
@@ -26,23 +26,6 @@
         "on a ship, train, plane or other vehicle",
         "on first or second or third base",
         "side by side"
-      ]
-    },
-    {
-      "wordId": "acceptable-2006",
-      "word": "acceptable",
-      "pos": "adjective",
-      "meaningZhTW": "可接受的",
-      "primarySenseId": "acceptable%3:00:00::",
-      "sourceSenseIds": [
-        "acceptable%3:00:00::",
-        "acceptable%5:00:00:standard:03",
-        "acceptable%5:00:00:good:01"
-      ],
-      "englishDefinitions": [
-        "worthy of acceptance or satisfactory",
-        "judged to be in conformity with approved usage",
-        "meeting requirements"
       ]
     },
     {
@@ -219,23 +202,6 @@
       ]
     },
     {
-      "wordId": "agriculture-2020",
-      "word": "agriculture",
-      "pos": "noun",
-      "meaningZhTW": "農業",
-      "primarySenseId": "agriculture%1:04:01::",
-      "sourceSenseIds": [
-        "agriculture%1:04:01::",
-        "agriculture%1:04:00::",
-        "agriculture%1:14:00::"
-      ],
-      "englishDefinitions": [
-        "a large-scale farming enterprise",
-        "the practice of cultivating the land or raising stock",
-        "the class of people engaged in growing food"
-      ]
-    },
-    {
       "wordId": "airline-2021",
       "word": "airline",
       "pos": "noun",
@@ -248,21 +214,6 @@
       "englishDefinitions": [
         "a hose that carries air under pressure",
         "a commercial enterprise that provides scheduled flights for passengers"
-      ]
-    },
-    {
-      "wordId": "alley-2022",
-      "word": "alley",
-      "pos": "noun",
-      "meaningZhTW": "小路",
-      "primarySenseId": "alley%1:06:00::",
-      "sourceSenseIds": [
-        "alley%1:06:00::",
-        "alley%1:06:01::"
-      ],
-      "englishDefinitions": [
-        "a narrow street with walls on both sides",
-        "a lane down which a bowling ball is rolled toward pins"
       ]
     },
     {
@@ -482,6 +433,53 @@
         "request earnestly (something from somebody); ask for aid or protection",
         "be attractive to"
       ]
+    },
+    {
+      "wordId": "approve-2036",
+      "word": "approve",
+      "pos": "verb",
+      "meaningZhTW": "贊同",
+      "primarySenseId": "approve%2:32:00::",
+      "sourceSenseIds": [
+        "approve%2:32:00::",
+        "approve%2:31:00::"
+      ],
+      "englishDefinitions": [
+        "give sanction to",
+        "judge to be right or commendable; think well of"
+      ]
+    },
+    {
+      "wordId": "apron-2037",
+      "word": "apron",
+      "pos": "noun",
+      "meaningZhTW": "圍裙",
+      "primarySenseId": "apron%1:06:00::",
+      "sourceSenseIds": [
+        "apron%1:06:00::",
+        "apron%1:15:00::",
+        "apron%1:06:02::"
+      ],
+      "englishDefinitions": [
+        "a garment of cloth or leather or plastic that is tied about the waist and worn to protect your clothing",
+        "(golf) the part of the fairway leading onto the green",
+        "the part of a modern theater stage between the curtain and the orchestra (i.e., in front of the curtain)"
+      ]
+    },
+    {
+      "wordId": "arrest-2039",
+      "word": "arrest",
+      "pos": "noun",
+      "meaningZhTW": "逮捕",
+      "primarySenseId": "arrest%1:04:00::",
+      "sourceSenseIds": [
+        "arrest%1:04:00::",
+        "arrest%1:26:00::"
+      ],
+      "englishDefinitions": [
+        "the act of apprehending (especially apprehending a criminal)",
+        "the state of inactivity following an interruption"
+      ]
     }
   ],
   "suspiciousAmbiguousTranslations": [
@@ -563,16 +561,6 @@
       "pos": "noun",
       "englishDefinition": "any of numerous trees and shrubs producing a small fleshy round fruit with a single hard stone; many also produce a valuable hardwood",
       "meaningZhTW": "櫻桃",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "civil-2155",
-      "word": "civil",
-      "senseId": "civil%3:00:00::",
-      "synsetId": "00645401-a",
-      "pos": "adjective",
-      "englishDefinition": "not rude; marked by satisfactory (or especially minimal) adherence to social usages and sufficient but not noteworthy consideration for others",
-      "meaningZhTW": "市民的",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -756,16 +744,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "mall-2520",
-      "word": "mall",
-      "senseId": "mall%1:06:01::",
-      "synsetId": "03971750-n",
-      "pos": "noun",
-      "englishDefinition": "mercantile establishment consisting of a carefully landscaped complex of shops representing leading merchandisers; usually includes restaurants and a convenient parking area; a modern version of the traditional marketplace",
-      "meaningZhTW": "林蔭路",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "microwave-2540",
       "word": "microwave",
       "senseId": "microwave%1:19:00::",
@@ -793,16 +771,6 @@
       "pos": "noun",
       "englishDefinition": "any of various fleshy fungi of the subdivision Basidiomycota consisting of a cap at the end of a stem arising from an underground mycelium",
       "meaningZhTW": "蘑菇形物",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "peanut-2627",
-      "word": "peanut",
-      "senseId": "peanut%1:20:00::",
-      "synsetId": "11768970-n",
-      "pos": "noun",
-      "englishDefinition": "widely cultivated American plant cultivated in tropical and warm regions; showy yellow flowers on stalks that bend over to the soil so that seed pods ripen underground",
-      "meaningZhTW": "花生",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -836,46 +804,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "pitch-2647",
-      "word": "pitch",
-      "senseId": "pitch%1:04:03::",
-      "synsetId": "00107092-n",
-      "pos": "noun",
-      "englishDefinition": "the act of throwing a baseball or softball by the pitcher towards home plate, which initiates play by giving the batter a chance to hit it",
-      "meaningZhTW": "程度",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "plastic-2649",
-      "word": "plastic",
-      "senseId": "plastic%1:27:00::",
-      "synsetId": "14616790-n",
-      "pos": "noun",
-      "englishDefinition": "generic name for certain synthetic or semisynthetic materials that can be molded or extruded into objects or films or filaments or used for making e.g. coatings and adhesives",
-      "meaningZhTW": "塑膠",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "plastic-2649",
-      "word": "plastic",
-      "senseId": "plastic%1:21:00::",
-      "synsetId": "13397185-n",
-      "pos": "noun",
-      "englishDefinition": "a card (usually plastic) that assures a seller that the person using it has sufficient means of payment and that the issuer will see to it that the seller receives payment for the merchandise delivered",
-      "meaningZhTW": "塑膠",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "process-2677",
-      "word": "process",
-      "senseId": "process%1:10:00::",
-      "synsetId": "06568683-n",
-      "pos": "noun",
-      "englishDefinition": "a writ issued by authority of law; usually compels the defendant's attendance in a civil suit; failure to appear results in a default judgment against the defendant",
-      "meaningZhTW": "程式",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "pump-2688",
       "word": "pump",
       "senseId": "pump%1:08:00::",
@@ -903,26 +831,6 @@
       "pos": "adjective",
       "englishDefinition": "being or characteristic of government by representation in which citizens exercise power through elected officers and representatives",
       "meaningZhTW": "代表",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "screw-2775",
-      "word": "screw",
-      "senseId": "screw%1:06:02::",
-      "synsetId": "04161401-n",
-      "pos": "noun",
-      "englishDefinition": "a simple machine of the inclined-plane type consisting of a spirally threaded cylindrical rod that engages with a similarly threaded hole",
-      "meaningZhTW": "螺旋",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "shallow-2786",
-      "word": "shallow",
-      "senseId": "shallow%3:00:01::",
-      "synsetId": "00694973-a",
-      "pos": "adjective",
-      "englishDefinition": "lacking physical depth; having little spatial extension downward or inward from an outer surface or backward or outward from a center",
-      "meaningZhTW": "水淺的地方",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -1033,16 +941,6 @@
       "pos": "noun",
       "englishDefinition": "an exchange of molecules (and their kinetic energy and momentum) across the boundary between adjacent layers of a fluid or across cell membranes",
       "meaningZhTW": "運輸",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "van-2955",
-      "word": "van",
-      "senseId": "van%1:14:01::",
-      "synsetId": "08482569-n",
-      "pos": "noun",
-      "englishDefinition": "any creative group active in the innovation and application of new concepts and techniques in a given field (especially in the arts)",
-      "meaningZhTW": "貨車",
       "reason": "complex_or_technical_definition"
     },
     {

@@ -1,0 +1,2148 @@
+{
+  "merged": [
+    {
+      "id": "aboard%4:02:01::",
+      "synsetId": "00251347-r",
+      "partOfSpeech": "r",
+      "partOfSpeechLabel": "adverb",
+      "lexicalFile": "adv.all",
+      "englishDefinition": "on a ship, train, plane or other vehicle",
+      "chineseDefinition": "在船上",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "on a ship, train, plane or other vehicle",
+      "meaningZh": "在船上",
+      "meaningZhTW": "在船上",
+      "primarySenseId": "aboard%4:02:01::",
+      "sourceSenseIds": [
+        "aboard%4:02:01::",
+        "aboard%4:02:00::",
+        "aboard%4:02:04::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "aboard%4:02:01::",
+          "synsetId": "00251347-r",
+          "partOfSpeech": "r",
+          "partOfSpeechLabel": "adverb",
+          "lexicalFile": "adv.all",
+          "englishDefinition": "on a ship, train, plane or other vehicle",
+          "chineseDefinition": "在船上",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "on a ship, train, plane or other vehicle",
+          "meaningZh": "在船上"
+        },
+        {
+          "id": "aboard%4:02:00::",
+          "synsetId": "00251215-r",
+          "partOfSpeech": "r",
+          "partOfSpeechLabel": "adverb",
+          "lexicalFile": "adv.all",
+          "englishDefinition": "on first or second or third base",
+          "chineseDefinition": "在船上",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "on first or second or third base",
+          "meaningZh": "在船上"
+        },
+        {
+          "id": "aboard%4:02:04::",
+          "synsetId": "00251525-r",
+          "partOfSpeech": "r",
+          "partOfSpeechLabel": "adverb",
+          "lexicalFile": "adv.all",
+          "englishDefinition": "side by side",
+          "chineseDefinition": "在船上",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "side by side",
+          "meaningZh": "在船上"
+        }
+      ]
+    },
+    {
+      "id": "accurate%3:00:00::",
+      "synsetId": "00021803-a",
+      "partOfSpeech": "a",
+      "partOfSpeechLabel": "adjective",
+      "lexicalFile": "adj.all",
+      "englishDefinition": "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy",
+      "chineseDefinition": "正確的",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy",
+      "meaningZh": "正確的",
+      "meaningZhTW": "正確的",
+      "primarySenseId": "accurate%3:00:00::",
+      "sourceSenseIds": [
+        "accurate%3:00:00::",
+        "accurate%5:00:00:correct:00"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "accurate%3:00:00::",
+          "synsetId": "00021803-a",
+          "partOfSpeech": "a",
+          "partOfSpeechLabel": "adjective",
+          "lexicalFile": "adj.all",
+          "englishDefinition": "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy",
+          "chineseDefinition": "正確的",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy",
+          "meaningZh": "正確的"
+        },
+        {
+          "id": "accurate%5:00:00:correct:00",
+          "synsetId": "00634639-s",
+          "partOfSpeech": "s",
+          "partOfSpeechLabel": "adjective",
+          "lexicalFile": "adj.all",
+          "englishDefinition": "(of ideas, images, representations, expressions) characterized by perfect conformity to fact or truth; strictly correct",
+          "chineseDefinition": "正確的",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "(of ideas, images, representations, expressions) characterized by perfect conformity to fact or truth; strictly correct",
+          "meaningZh": "正確的"
+        }
+      ]
+    },
+    {
+      "id": "ache%2:39:00::",
+      "synsetId": "02126629-v",
+      "partOfSpeech": "v",
+      "partOfSpeechLabel": "verb",
+      "lexicalFile": "verb.perception",
+      "englishDefinition": "be the source of pain",
+      "chineseDefinition": "疼痛",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "be the source of pain",
+      "meaningZh": "疼痛",
+      "meaningZhTW": "疼痛",
+      "primarySenseId": "ache%2:39:00::",
+      "sourceSenseIds": [
+        "ache%2:39:00::",
+        "ache%2:29:07::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "ache%2:39:00::",
+          "synsetId": "02126629-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.perception",
+          "englishDefinition": "be the source of pain",
+          "chineseDefinition": "疼痛",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "be the source of pain",
+          "meaningZh": "疼痛"
+        },
+        {
+          "id": "ache%2:29:07::",
+          "synsetId": "00064841-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.body",
+          "englishDefinition": "be in pain",
+          "chineseDefinition": "疼痛",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "be in pain",
+          "meaningZh": "疼痛"
+        }
+      ]
+    },
+    {
+      "id": "admire%2:37:00::",
+      "synsetId": "01831800-v",
+      "partOfSpeech": "v",
+      "partOfSpeechLabel": "verb",
+      "lexicalFile": "verb.emotion",
+      "englishDefinition": "feel admiration for",
+      "chineseDefinition": "贊美",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "feel admiration for",
+      "meaningZh": "贊美",
+      "meaningZhTW": "贊美",
+      "primarySenseId": "admire%2:37:00::",
+      "sourceSenseIds": [
+        "admire%2:37:00::",
+        "admire%2:39:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "admire%2:37:00::",
+          "synsetId": "01831800-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.emotion",
+          "englishDefinition": "feel admiration for",
+          "chineseDefinition": "贊美",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "feel admiration for",
+          "meaningZh": "贊美"
+        },
+        {
+          "id": "admire%2:39:00::",
+          "synsetId": "02169125-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.perception",
+          "englishDefinition": "look at with admiration",
+          "chineseDefinition": "贊美",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "look at with admiration",
+          "meaningZh": "贊美"
+        }
+      ]
+    },
+    {
+      "id": "advanced%5:00:00:precocious:00",
+      "synsetId": "01846036-s",
+      "partOfSpeech": "s",
+      "partOfSpeechLabel": "adjective",
+      "lexicalFile": "adj.all",
+      "englishDefinition": "farther along in physical or mental development",
+      "chineseDefinition": "在前的",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "farther along in physical or mental development",
+      "meaningZh": "在前的",
+      "meaningZhTW": "在前的",
+      "primarySenseId": "advanced%5:00:00:precocious:00",
+      "sourceSenseIds": [
+        "advanced%5:00:00:precocious:00",
+        "advanced%5:00:00:late:02",
+        "advanced%5:00:00:progressive:01"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "advanced%5:00:00:precocious:00",
+          "synsetId": "01846036-s",
+          "partOfSpeech": "s",
+          "partOfSpeechLabel": "adjective",
+          "lexicalFile": "adj.all",
+          "englishDefinition": "farther along in physical or mental development",
+          "chineseDefinition": "在前的",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "farther along in physical or mental development",
+          "meaningZh": "在前的"
+        },
+        {
+          "id": "advanced%5:00:00:late:02",
+          "synsetId": "00823095-s",
+          "partOfSpeech": "s",
+          "partOfSpeechLabel": "adjective",
+          "lexicalFile": "adj.all",
+          "englishDefinition": "comparatively late in a course of development",
+          "chineseDefinition": "在前的",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "comparatively late in a course of development",
+          "meaningZh": "在前的"
+        },
+        {
+          "id": "advanced%5:00:00:progressive:01",
+          "synsetId": "01882360-s",
+          "partOfSpeech": "s",
+          "partOfSpeechLabel": "adjective",
+          "lexicalFile": "adj.all",
+          "englishDefinition": "ahead of the times",
+          "chineseDefinition": "在前的",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "ahead of the times",
+          "meaningZh": "在前的"
+        }
+      ]
+    },
+    {
+      "id": "advantage%1:07:00::",
+      "synsetId": "05163204-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.attribute",
+      "englishDefinition": "the quality of having a superior or more favorable position",
+      "chineseDefinition": "優點",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "the quality of having a superior or more favorable position",
+      "meaningZh": "優點",
+      "meaningZhTW": "優點",
+      "primarySenseId": "advantage%1:07:00::",
+      "sourceSenseIds": [
+        "advantage%1:07:00::",
+        "advantage%1:23:00::",
+        "advantage%1:07:01::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "advantage%1:07:00::",
+          "synsetId": "05163204-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.attribute",
+          "englishDefinition": "the quality of having a superior or more favorable position",
+          "chineseDefinition": "優點",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "the quality of having a superior or more favorable position",
+          "meaningZh": "優點"
+        },
+        {
+          "id": "advantage%1:23:00::",
+          "synsetId": "13631669-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.quantity",
+          "englishDefinition": "(tennis) first point scored after deuce",
+          "chineseDefinition": "優點",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "(tennis) first point scored after deuce",
+          "meaningZh": "優點"
+        },
+        {
+          "id": "advantage%1:07:01::",
+          "synsetId": "05150110-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.attribute",
+          "englishDefinition": "benefit resulting from some event or action",
+          "chineseDefinition": "優點",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "benefit resulting from some event or action",
+          "meaningZh": "優點"
+        }
+      ]
+    },
+    {
+      "id": "advertise%2:32:01::",
+      "synsetId": "00977934-v",
+      "partOfSpeech": "v",
+      "partOfSpeechLabel": "verb",
+      "lexicalFile": "verb.communication",
+      "englishDefinition": "call attention to",
+      "chineseDefinition": "廣告；宣傳",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "call attention to",
+      "meaningZh": "廣告；宣傳",
+      "meaningZhTW": "廣告；宣傳",
+      "primarySenseId": "advertise%2:32:01::",
+      "sourceSenseIds": [
+        "advertise%2:32:01::",
+        "advertise%2:32:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "advertise%2:32:01::",
+          "synsetId": "00977934-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.communication",
+          "englishDefinition": "call attention to",
+          "chineseDefinition": "廣告；宣傳",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "call attention to",
+          "meaningZh": "廣告；宣傳"
+        },
+        {
+          "id": "advertise%2:32:00::",
+          "synsetId": "00978685-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.communication",
+          "englishDefinition": "make publicity for; try to sell (a product)",
+          "chineseDefinition": "廣告；宣傳",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "make publicity for; try to sell (a product)",
+          "meaningZh": "廣告；宣傳"
+        }
+      ]
+    },
+    {
+      "id": "advertisement%1:10:00::",
+      "synsetId": "07263469-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.communication",
+      "englishDefinition": "a public promotion of some product or service",
+      "chineseDefinition": "廣告；宣傳",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "a public promotion of some product or service",
+      "meaningZh": "廣告；宣傳",
+      "meaningZhTW": "廣告；宣傳",
+      "primarySenseId": "advertisement%1:10:00::",
+      "sourceSenseIds": [
+        "advertisement%1:10:00::",
+        "ad%1:10:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "advertisement%1:10:00::",
+          "synsetId": "07263469-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.communication",
+          "englishDefinition": "a public promotion of some product or service",
+          "chineseDefinition": "廣告；宣傳",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a public promotion of some product or service",
+          "meaningZh": "廣告；宣傳"
+        },
+        {
+          "id": "ad%1:10:00::",
+          "synsetId": "07263469-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.communication",
+          "englishDefinition": "a public promotion of some product or service",
+          "chineseDefinition": "廣告；宣傳",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a public promotion of some product or service",
+          "meaningZh": "廣告；宣傳"
+        }
+      ]
+    },
+    {
+      "id": "advise%2:32:00::",
+      "synsetId": "00874568-v",
+      "partOfSpeech": "v",
+      "partOfSpeechLabel": "verb",
+      "lexicalFile": "verb.communication",
+      "englishDefinition": "give advice to",
+      "chineseDefinition": "勸告",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "give advice to",
+      "meaningZh": "勸告",
+      "meaningZhTW": "勸告",
+      "primarySenseId": "advise%2:32:00::",
+      "sourceSenseIds": [
+        "advise%2:32:00::",
+        "advise%2:32:01::",
+        "advise%2:32:02::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "advise%2:32:00::",
+          "synsetId": "00874568-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.communication",
+          "englishDefinition": "give advice to",
+          "chineseDefinition": "勸告",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "give advice to",
+          "meaningZh": "勸告"
+        },
+        {
+          "id": "advise%2:32:01::",
+          "synsetId": "00875364-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.communication",
+          "englishDefinition": "inform (somebody) of something",
+          "chineseDefinition": "勸告",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "inform (somebody) of something",
+          "meaningZh": "勸告"
+        },
+        {
+          "id": "advise%2:32:02::",
+          "synsetId": "00876925-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.communication",
+          "englishDefinition": "make a proposal, declare a plan for something",
+          "chineseDefinition": "勸告",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "make a proposal, declare a plan for something",
+          "meaningZh": "勸告"
+        }
+      ]
+    },
+    {
+      "id": "adviser%1:18:00::",
+      "synsetId": "09793689-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.person",
+      "englishDefinition": "an expert who gives advice",
+      "chineseDefinition": "顧問",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "an expert who gives advice",
+      "meaningZh": "顧問",
+      "meaningZhTW": "顧問",
+      "primarySenseId": "adviser%1:18:00::",
+      "sourceSenseIds": [
+        "adviser%1:18:00::",
+        "advisor%1:18:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "adviser%1:18:00::",
+          "synsetId": "09793689-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.person",
+          "englishDefinition": "an expert who gives advice",
+          "chineseDefinition": "顧問",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "an expert who gives advice",
+          "meaningZh": "顧問"
+        },
+        {
+          "id": "advisor%1:18:00::",
+          "synsetId": "09793689-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.person",
+          "englishDefinition": "an expert who gives advice",
+          "chineseDefinition": "顧問",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "an expert who gives advice",
+          "meaningZh": "顧問"
+        }
+      ]
+    },
+    {
+      "id": "afford%2:34:00::",
+      "synsetId": "01195161-v",
+      "partOfSpeech": "v",
+      "partOfSpeechLabel": "verb",
+      "lexicalFile": "verb.consumption",
+      "englishDefinition": "be able to spare or give up",
+      "chineseDefinition": "買得起",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "be able to spare or give up",
+      "meaningZh": "買得起",
+      "meaningZhTW": "買得起",
+      "primarySenseId": "afford%2:34:00::",
+      "sourceSenseIds": [
+        "afford%2:34:00::",
+        "afford%2:40:00::",
+        "afford%2:42:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "afford%2:34:00::",
+          "synsetId": "01195161-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.consumption",
+          "englishDefinition": "be able to spare or give up",
+          "chineseDefinition": "買得起",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "be able to spare or give up",
+          "meaningZh": "買得起"
+        },
+        {
+          "id": "afford%2:40:00::",
+          "synsetId": "02344167-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.possession",
+          "englishDefinition": "be the cause or source of",
+          "chineseDefinition": "買得起",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "be the cause or source of",
+          "meaningZh": "買得起"
+        },
+        {
+          "id": "afford%2:42:00::",
+          "synsetId": "02750326-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.stative",
+          "englishDefinition": "have the financial means to do something or buy something",
+          "chineseDefinition": "買得起",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "have the financial means to do something or buy something",
+          "meaningZh": "買得起"
+        }
+      ]
+    },
+    {
+      "id": "afterward%4:02:00::",
+      "synsetId": "00061741-r",
+      "partOfSpeech": "r",
+      "partOfSpeechLabel": "adverb",
+      "lexicalFile": "adv.all",
+      "englishDefinition": "happening at a time subsequent to a reference time",
+      "chineseDefinition": "後來；之後",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "happening at a time subsequent to a reference time",
+      "meaningZh": "後來；之後",
+      "meaningZhTW": "後來；之後",
+      "primarySenseId": "afterward%4:02:00::",
+      "sourceSenseIds": [
+        "afterward%4:02:00::",
+        "afterwards%4:02:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "afterward%4:02:00::",
+          "synsetId": "00061741-r",
+          "partOfSpeech": "r",
+          "partOfSpeechLabel": "adverb",
+          "lexicalFile": "adv.all",
+          "englishDefinition": "happening at a time subsequent to a reference time",
+          "chineseDefinition": "後來；之後",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "happening at a time subsequent to a reference time",
+          "meaningZh": "後來；之後"
+        },
+        {
+          "id": "afterwards%4:02:00::",
+          "synsetId": "00061741-r",
+          "partOfSpeech": "r",
+          "partOfSpeechLabel": "adverb",
+          "lexicalFile": "adv.all",
+          "englishDefinition": "happening at a time subsequent to a reference time",
+          "chineseDefinition": "後來；之後",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "happening at a time subsequent to a reference time",
+          "meaningZh": "後來；之後"
+        }
+      ]
+    },
+    {
+      "id": "airline%1:06:01::",
+      "synsetId": "02693129-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.artifact",
+      "englishDefinition": "a hose that carries air under pressure",
+      "chineseDefinition": "航線",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "a hose that carries air under pressure",
+      "meaningZh": "航線",
+      "meaningZhTW": "航線",
+      "primarySenseId": "airline%1:06:01::",
+      "sourceSenseIds": [
+        "airline%1:06:01::",
+        "airline%1:06:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "airline%1:06:01::",
+          "synsetId": "02693129-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.artifact",
+          "englishDefinition": "a hose that carries air under pressure",
+          "chineseDefinition": "航線",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a hose that carries air under pressure",
+          "meaningZh": "航線"
+        },
+        {
+          "id": "airline%1:06:00::",
+          "synsetId": "02692940-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.artifact",
+          "englishDefinition": "a commercial enterprise that provides scheduled flights for passengers",
+          "chineseDefinition": "航線",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a commercial enterprise that provides scheduled flights for passengers",
+          "meaningZh": "航線"
+        }
+      ]
+    },
+    {
+      "id": "almond%1:20:00::",
+      "synsetId": "12665935-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.plant",
+      "englishDefinition": "small bushy deciduous tree native to Asia and North Africa having pretty pink blossoms and highly prized edible nuts enclosed in a hard green hull; cultivated in southern Australia and California",
+      "chineseDefinition": "杏仁",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "small bushy deciduous tree native to Asia and North Africa having pretty pink blossoms and highly prized edible nuts enclosed in a hard green hull; cultivated in southern Australia and California",
+      "meaningZh": "杏仁",
+      "meaningZhTW": "杏仁",
+      "primarySenseId": "almond%1:20:00::",
+      "sourceSenseIds": [
+        "almond%1:20:00::",
+        "almond%1:13:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "almond%1:20:00::",
+          "synsetId": "12665935-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.plant",
+          "englishDefinition": "small bushy deciduous tree native to Asia and North Africa having pretty pink blossoms and highly prized edible nuts enclosed in a hard green hull; cultivated in southern Australia and California",
+          "chineseDefinition": "杏仁",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "small bushy deciduous tree native to Asia and North Africa having pretty pink blossoms and highly prized edible nuts enclosed in a hard green hull; cultivated in southern Australia and California",
+          "meaningZh": "杏仁"
+        },
+        {
+          "id": "almond%1:13:00::",
+          "synsetId": "07766562-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.food",
+          "englishDefinition": "oval-shaped edible seed of the almond tree",
+          "chineseDefinition": "杏仁",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "oval-shaped edible seed of the almond tree",
+          "meaningZh": "杏仁"
+        }
+      ]
+    },
+    {
+      "id": "alphabet%1:10:00::",
+      "synsetId": "06509450-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.communication",
+      "englishDefinition": "a character set that includes letters and is used to write a language",
+      "chineseDefinition": "字母",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "a character set that includes letters and is used to write a language",
+      "meaningZh": "字母",
+      "meaningZhTW": "字母",
+      "primarySenseId": "alphabet%1:10:00::",
+      "sourceSenseIds": [
+        "alphabet%1:10:00::",
+        "alphabet%1:09:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "alphabet%1:10:00::",
+          "synsetId": "06509450-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.communication",
+          "englishDefinition": "a character set that includes letters and is used to write a language",
+          "chineseDefinition": "字母",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a character set that includes letters and is used to write a language",
+          "meaningZh": "字母"
+        },
+        {
+          "id": "alphabet%1:09:00::",
+          "synsetId": "05881364-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.cognition",
+          "englishDefinition": "the elementary stages of any subject (usually plural)",
+          "chineseDefinition": "字母",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "the elementary stages of any subject (usually plural)",
+          "meaningZh": "字母"
+        }
+      ]
+    },
+    {
+      "id": "amaze%2:31:00::",
+      "synsetId": "00726794-v",
+      "partOfSpeech": "v",
+      "partOfSpeechLabel": "verb",
+      "lexicalFile": "verb.cognition",
+      "englishDefinition": "affect with wonder",
+      "chineseDefinition": "使大為吃驚",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "affect with wonder",
+      "meaningZh": "使大為吃驚",
+      "meaningZhTW": "使大為吃驚",
+      "primarySenseId": "amaze%2:31:00::",
+      "sourceSenseIds": [
+        "amaze%2:31:00::",
+        "amaze%2:31:01::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "amaze%2:31:00::",
+          "synsetId": "00726794-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.cognition",
+          "englishDefinition": "affect with wonder",
+          "chineseDefinition": "使大為吃驚",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "affect with wonder",
+          "meaningZh": "使大為吃驚"
+        },
+        {
+          "id": "amaze%2:31:01::",
+          "synsetId": "00624056-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.cognition",
+          "englishDefinition": "be a mystery or bewildering to",
+          "chineseDefinition": "使大為吃驚",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "be a mystery or bewildering to",
+          "meaningZh": "使大為吃驚"
+        }
+      ]
+    },
+    {
+      "id": "ambassador%1:18:00::",
+      "synsetId": "09806975-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.person",
+      "englishDefinition": "a diplomat of the highest rank; accredited as representative from one country to another",
+      "chineseDefinition": "大使",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "a diplomat of the highest rank; accredited as representative from one country to another",
+      "meaningZh": "大使",
+      "meaningZhTW": "大使",
+      "primarySenseId": "ambassador%1:18:00::",
+      "sourceSenseIds": [
+        "ambassador%1:18:00::",
+        "ambassador%1:18:01::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "ambassador%1:18:00::",
+          "synsetId": "09806975-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.person",
+          "englishDefinition": "a diplomat of the highest rank; accredited as representative from one country to another",
+          "chineseDefinition": "大使",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a diplomat of the highest rank; accredited as representative from one country to another",
+          "meaningZh": "大使"
+        },
+        {
+          "id": "ambassador%1:18:01::",
+          "synsetId": "09807206-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.person",
+          "englishDefinition": "an informal representative",
+          "chineseDefinition": "大使",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "an informal representative",
+          "meaningZh": "大使"
+        }
+      ]
+    },
+    {
+      "id": "ambition%1:12:00::",
+      "synsetId": "07499687-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.feeling",
+      "englishDefinition": "a cherished desire",
+      "chineseDefinition": "野心",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "a cherished desire",
+      "meaningZh": "野心",
+      "meaningZhTW": "野心",
+      "primarySenseId": "ambition%1:12:00::",
+      "sourceSenseIds": [
+        "ambition%1:12:00::",
+        "ambition%1:07:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "ambition%1:12:00::",
+          "synsetId": "07499687-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.feeling",
+          "englishDefinition": "a cherished desire",
+          "chineseDefinition": "野心",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a cherished desire",
+          "meaningZh": "野心"
+        },
+        {
+          "id": "ambition%1:07:00::",
+          "synsetId": "04843499-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.attribute",
+          "englishDefinition": "a strong drive for success",
+          "chineseDefinition": "野心",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a strong drive for success",
+          "meaningZh": "野心"
+        }
+      ]
+    },
+    {
+      "id": "angel%1:18:00::",
+      "synsetId": "09562026-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.person",
+      "englishDefinition": "spiritual being attendant upon God",
+      "chineseDefinition": "天使",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "spiritual being attendant upon God",
+      "meaningZh": "天使",
+      "meaningZhTW": "天使",
+      "primarySenseId": "angel%1:18:00::",
+      "sourceSenseIds": [
+        "angel%1:18:00::",
+        "angel%1:18:03::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "angel%1:18:00::",
+          "synsetId": "09562026-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.person",
+          "englishDefinition": "spiritual being attendant upon God",
+          "chineseDefinition": "天使",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "spiritual being attendant upon God",
+          "meaningZh": "天使"
+        },
+        {
+          "id": "angel%1:18:03::",
+          "synsetId": "10566407-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.person",
+          "englishDefinition": "a person of exceptional holiness",
+          "chineseDefinition": "天使",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a person of exceptional holiness",
+          "meaningZh": "天使"
+        }
+      ]
+    },
+    {
+      "id": "announce%2:32:00::",
+      "synsetId": "00976399-v",
+      "partOfSpeech": "v",
+      "partOfSpeechLabel": "verb",
+      "lexicalFile": "verb.communication",
+      "englishDefinition": "make known; make an announcement",
+      "chineseDefinition": "宣布",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "make known; make an announcement",
+      "meaningZh": "宣布",
+      "meaningZhTW": "宣布",
+      "primarySenseId": "announce%2:32:00::",
+      "sourceSenseIds": [
+        "announce%2:32:00::",
+        "announce%2:32:02::",
+        "announce%2:32:07::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "announce%2:32:00::",
+          "synsetId": "00976399-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.communication",
+          "englishDefinition": "make known; make an announcement",
+          "chineseDefinition": "宣布",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "make known; make an announcement",
+          "meaningZh": "宣布"
+        },
+        {
+          "id": "announce%2:32:02::",
+          "synsetId": "00967903-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.communication",
+          "englishDefinition": "announce publicly or officially",
+          "chineseDefinition": "宣布",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "announce publicly or officially",
+          "meaningZh": "宣布"
+        },
+        {
+          "id": "announce%2:32:07::",
+          "synsetId": "00977459-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.communication",
+          "englishDefinition": "give the names of",
+          "chineseDefinition": "宣布",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "give the names of",
+          "meaningZh": "宣布"
+        }
+      ]
+    }
+  ],
+  "override": [
+    {
+      "id": "acceptable%3:00:00::",
+      "synsetId": "00017820-a",
+      "partOfSpeech": "a",
+      "partOfSpeechLabel": "adjective",
+      "lexicalFile": "adj.all",
+      "englishDefinition": "worthy of acceptance or satisfactory",
+      "chineseDefinition": "可接受的 (義項 1)",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "worthy of acceptance or satisfactory",
+      "meaningZh": "可接受的 (義項 1)",
+      "meaningZhTW": "可接受的 (義項 1)",
+      "primarySenseId": "acceptable%3:00:00::",
+      "sourceSenseIds": [
+        "acceptable%3:00:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "acceptable%3:00:00::",
+          "synsetId": "00017820-a",
+          "partOfSpeech": "a",
+          "partOfSpeechLabel": "adjective",
+          "lexicalFile": "adj.all",
+          "englishDefinition": "worthy of acceptance or satisfactory",
+          "chineseDefinition": "可接受的 (義項 1)",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "worthy of acceptance or satisfactory",
+          "meaningZh": "可接受的 (義項 1)"
+        }
+      ]
+    },
+    {
+      "id": "acceptable%5:00:00:standard:03",
+      "synsetId": "02305641-s",
+      "partOfSpeech": "s",
+      "partOfSpeechLabel": "adjective",
+      "lexicalFile": "adj.all",
+      "englishDefinition": "judged to be in conformity with approved usage",
+      "chineseDefinition": "可接受的 (義項 2)",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "judged to be in conformity with approved usage",
+      "meaningZh": "可接受的 (義項 2)",
+      "meaningZhTW": "可接受的 (義項 2)",
+      "primarySenseId": "acceptable%5:00:00:standard:03",
+      "sourceSenseIds": [
+        "acceptable%5:00:00:standard:03"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "acceptable%5:00:00:standard:03",
+          "synsetId": "02305641-s",
+          "partOfSpeech": "s",
+          "partOfSpeechLabel": "adjective",
+          "lexicalFile": "adj.all",
+          "englishDefinition": "judged to be in conformity with approved usage",
+          "chineseDefinition": "可接受的 (義項 2)",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "judged to be in conformity with approved usage",
+          "meaningZh": "可接受的 (義項 2)"
+        }
+      ]
+    },
+    {
+      "id": "acceptable%5:00:00:good:01",
+      "synsetId": "01128566-s",
+      "partOfSpeech": "s",
+      "partOfSpeechLabel": "adjective",
+      "lexicalFile": "adj.all",
+      "englishDefinition": "meeting requirements",
+      "chineseDefinition": "可接受的 (義項 3)",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "meeting requirements",
+      "meaningZh": "可接受的 (義項 3)",
+      "meaningZhTW": "可接受的 (義項 3)",
+      "primarySenseId": "acceptable%5:00:00:good:01",
+      "sourceSenseIds": [
+        "acceptable%5:00:00:good:01"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "acceptable%5:00:00:good:01",
+          "synsetId": "01128566-s",
+          "partOfSpeech": "s",
+          "partOfSpeechLabel": "adjective",
+          "lexicalFile": "adj.all",
+          "englishDefinition": "meeting requirements",
+          "chineseDefinition": "可接受的 (義項 3)",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "meeting requirements",
+          "meaningZh": "可接受的 (義項 3)"
+        }
+      ]
+    },
+    {
+      "id": "agriculture%1:04:01::",
+      "synsetId": "01106311-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.act",
+      "englishDefinition": "a large-scale farming enterprise",
+      "chineseDefinition": "農業 (義項 1)",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "a large-scale farming enterprise",
+      "meaningZh": "農業 (義項 1)",
+      "meaningZhTW": "農業 (義項 1)",
+      "primarySenseId": "agriculture%1:04:01::",
+      "sourceSenseIds": [
+        "agriculture%1:04:01::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "agriculture%1:04:01::",
+          "synsetId": "01106311-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.act",
+          "englishDefinition": "a large-scale farming enterprise",
+          "chineseDefinition": "農業 (義項 1)",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a large-scale farming enterprise",
+          "meaningZh": "農業 (義項 1)"
+        }
+      ]
+    },
+    {
+      "id": "agriculture%1:04:00::",
+      "synsetId": "00918295-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.act",
+      "englishDefinition": "the practice of cultivating the land or raising stock",
+      "chineseDefinition": "農業（音樂）",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "the practice of cultivating the land or raising stock",
+      "meaningZh": "農業（音樂）",
+      "meaningZhTW": "農業（音樂）",
+      "primarySenseId": "agriculture%1:04:00::",
+      "sourceSenseIds": [
+        "agriculture%1:04:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "agriculture%1:04:00::",
+          "synsetId": "00918295-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.act",
+          "englishDefinition": "the practice of cultivating the land or raising stock",
+          "chineseDefinition": "農業（音樂）",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "the practice of cultivating the land or raising stock",
+          "meaningZh": "農業（音樂）"
+        }
+      ]
+    },
+    {
+      "id": "agriculture%1:14:00::",
+      "synsetId": "08092123-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.group",
+      "englishDefinition": "the class of people engaged in growing food",
+      "chineseDefinition": "農業 (義項 3)",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "the class of people engaged in growing food",
+      "meaningZh": "農業 (義項 3)",
+      "meaningZhTW": "農業 (義項 3)",
+      "primarySenseId": "agriculture%1:14:00::",
+      "sourceSenseIds": [
+        "agriculture%1:14:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "agriculture%1:14:00::",
+          "synsetId": "08092123-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.group",
+          "englishDefinition": "the class of people engaged in growing food",
+          "chineseDefinition": "農業 (義項 3)",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "the class of people engaged in growing food",
+          "meaningZh": "農業 (義項 3)"
+        }
+      ]
+    },
+    {
+      "id": "alley%1:06:00::",
+      "synsetId": "02700618-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.artifact",
+      "englishDefinition": "a narrow street with walls on both sides",
+      "chineseDefinition": "小路 (義項 1)",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "a narrow street with walls on both sides",
+      "meaningZh": "小路 (義項 1)",
+      "meaningZhTW": "小路 (義項 1)",
+      "primarySenseId": "alley%1:06:00::",
+      "sourceSenseIds": [
+        "alley%1:06:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "alley%1:06:00::",
+          "synsetId": "02700618-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.artifact",
+          "englishDefinition": "a narrow street with walls on both sides",
+          "chineseDefinition": "小路 (義項 1)",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a narrow street with walls on both sides",
+          "meaningZh": "小路 (義項 1)"
+        }
+      ]
+    },
+    {
+      "id": "alley%1:06:01::",
+      "synsetId": "02885255-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.artifact",
+      "englishDefinition": "a lane down which a bowling ball is rolled toward pins",
+      "chineseDefinition": "小路（軍事）",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "a lane down which a bowling ball is rolled toward pins",
+      "meaningZh": "小路（軍事）",
+      "meaningZhTW": "小路（軍事）",
+      "primarySenseId": "alley%1:06:01::",
+      "sourceSenseIds": [
+        "alley%1:06:01::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "alley%1:06:01::",
+          "synsetId": "02885255-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.artifact",
+          "englishDefinition": "a lane down which a bowling ball is rolled toward pins",
+          "chineseDefinition": "小路（軍事）",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a lane down which a bowling ball is rolled toward pins",
+          "meaningZh": "小路（軍事）"
+        }
+      ]
+    },
+    {
+      "id": "armed%3:00:01::",
+      "synsetId": "00143675-a",
+      "partOfSpeech": "a",
+      "partOfSpeechLabel": "adjective",
+      "lexicalFile": "adj.all",
+      "englishDefinition": "(used of persons or the military) characterized by having or bearing arms",
+      "chineseDefinition": "有扶手的（軍事）",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "(used of persons or the military) characterized by having or bearing arms",
+      "meaningZh": "有扶手的（軍事）",
+      "meaningZhTW": "有扶手的（軍事）",
+      "primarySenseId": "armed%3:00:01::",
+      "sourceSenseIds": [
+        "armed%3:00:01::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "armed%3:00:01::",
+          "synsetId": "00143675-a",
+          "partOfSpeech": "a",
+          "partOfSpeechLabel": "adjective",
+          "lexicalFile": "adj.all",
+          "englishDefinition": "(used of persons or the military) characterized by having or bearing arms",
+          "chineseDefinition": "有扶手的（軍事）",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "(used of persons or the military) characterized by having or bearing arms",
+          "meaningZh": "有扶手的（軍事）"
+        }
+      ]
+    },
+    {
+      "id": "armed%3:00:03::",
+      "synsetId": "00147478-a",
+      "partOfSpeech": "a",
+      "partOfSpeechLabel": "adjective",
+      "lexicalFile": "adj.all",
+      "englishDefinition": "having arms or arms as specified; used especially in combination",
+      "chineseDefinition": "有扶手的 (義項 2)",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "having arms or arms as specified; used especially in combination",
+      "meaningZh": "有扶手的 (義項 2)",
+      "meaningZhTW": "有扶手的 (義項 2)",
+      "primarySenseId": "armed%3:00:03::",
+      "sourceSenseIds": [
+        "armed%3:00:03::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "armed%3:00:03::",
+          "synsetId": "00147478-a",
+          "partOfSpeech": "a",
+          "partOfSpeechLabel": "adjective",
+          "lexicalFile": "adj.all",
+          "englishDefinition": "having arms or arms as specified; used especially in combination",
+          "chineseDefinition": "有扶手的 (義項 2)",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "having arms or arms as specified; used especially in combination",
+          "meaningZh": "有扶手的 (義項 2)"
+        }
+      ]
+    },
+    {
+      "id": "armed%3:00:02::",
+      "synsetId": "00146145-a",
+      "partOfSpeech": "a",
+      "partOfSpeechLabel": "adjective",
+      "lexicalFile": "adj.all",
+      "englishDefinition": "(used of plants and animals) furnished with bristles and thorns",
+      "chineseDefinition": "有扶手的（動物）",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "(used of plants and animals) furnished with bristles and thorns",
+      "meaningZh": "有扶手的（動物）",
+      "meaningZhTW": "有扶手的（動物）",
+      "primarySenseId": "armed%3:00:02::",
+      "sourceSenseIds": [
+        "armed%3:00:02::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "armed%3:00:02::",
+          "synsetId": "00146145-a",
+          "partOfSpeech": "a",
+          "partOfSpeechLabel": "adjective",
+          "lexicalFile": "adj.all",
+          "englishDefinition": "(used of plants and animals) furnished with bristles and thorns",
+          "chineseDefinition": "有扶手的（動物）",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "(used of plants and animals) furnished with bristles and thorns",
+          "meaningZh": "有扶手的（動物）"
+        }
+      ]
+    },
+    {
+      "id": "attract%2:35:00::",
+      "synsetId": "01507886-v",
+      "partOfSpeech": "v",
+      "partOfSpeechLabel": "verb",
+      "lexicalFile": "verb.contact",
+      "englishDefinition": "direct toward itself or oneself by means of some psychological power or physical attributes",
+      "chineseDefinition": "吸引（軍事）",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "direct toward itself or oneself by means of some psychological power or physical attributes",
+      "meaningZh": "吸引（軍事）",
+      "meaningZhTW": "吸引（軍事）",
+      "primarySenseId": "attract%2:35:00::",
+      "sourceSenseIds": [
+        "attract%2:35:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "attract%2:35:00::",
+          "synsetId": "01507886-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.contact",
+          "englishDefinition": "direct toward itself or oneself by means of some psychological power or physical attributes",
+          "chineseDefinition": "吸引（軍事）",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "direct toward itself or oneself by means of some psychological power or physical attributes",
+          "meaningZh": "吸引（軍事）"
+        }
+      ]
+    },
+    {
+      "id": "attract%2:37:00::",
+      "synsetId": "01811849-v",
+      "partOfSpeech": "v",
+      "partOfSpeechLabel": "verb",
+      "lexicalFile": "verb.emotion",
+      "englishDefinition": "be attractive to",
+      "chineseDefinition": "吸引 (義項 2)",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "be attractive to",
+      "meaningZh": "吸引 (義項 2)",
+      "meaningZhTW": "吸引 (義項 2)",
+      "primarySenseId": "attract%2:37:00::",
+      "sourceSenseIds": [
+        "attract%2:37:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "attract%2:37:00::",
+          "synsetId": "01811849-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.emotion",
+          "englishDefinition": "be attractive to",
+          "chineseDefinition": "吸引 (義項 2)",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "be attractive to",
+          "meaningZh": "吸引 (義項 2)"
+        }
+      ]
+    },
+    {
+      "id": "attract%2:35:01::",
+      "synsetId": "01352707-v",
+      "partOfSpeech": "v",
+      "partOfSpeechLabel": "verb",
+      "lexicalFile": "verb.contact",
+      "englishDefinition": "exert a force on (a body) causing it to approach or prevent it from moving away",
+      "chineseDefinition": "吸引（音樂）",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "exert a force on (a body) causing it to approach or prevent it from moving away",
+      "meaningZh": "吸引（音樂）",
+      "meaningZhTW": "吸引（音樂）",
+      "primarySenseId": "attract%2:35:01::",
+      "sourceSenseIds": [
+        "attract%2:35:01::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "attract%2:35:01::",
+          "synsetId": "01352707-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.contact",
+          "englishDefinition": "exert a force on (a body) causing it to approach or prevent it from moving away",
+          "chineseDefinition": "吸引（音樂）",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "exert a force on (a body) causing it to approach or prevent it from moving away",
+          "meaningZh": "吸引（音樂）"
+        }
+      ]
+    },
+    {
+      "id": "awaken%2:29:00::",
+      "synsetId": "00018806-v",
+      "partOfSpeech": "v",
+      "partOfSpeechLabel": "verb",
+      "lexicalFile": "verb.body",
+      "englishDefinition": "cause to become awake or conscious",
+      "chineseDefinition": "喚醒 (義項 1)",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "cause to become awake or conscious",
+      "meaningZh": "喚醒 (義項 1)",
+      "meaningZhTW": "喚醒 (義項 1)",
+      "primarySenseId": "awaken%2:29:00::",
+      "sourceSenseIds": [
+        "awaken%2:29:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "awaken%2:29:00::",
+          "synsetId": "00018806-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.body",
+          "englishDefinition": "cause to become awake or conscious",
+          "chineseDefinition": "喚醒 (義項 1)",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "cause to become awake or conscious",
+          "meaningZh": "喚醒 (義項 1)"
+        }
+      ]
+    }
+  ],
+  "distinct": [
+    {
+      "id": "ache%1:26:00::",
+      "synsetId": "14347092-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.state",
+      "englishDefinition": "a dull persistent (usually moderately intense) pain",
+      "chineseDefinition": "疼痛",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "a dull persistent (usually moderately intense) pain",
+      "meaningZh": "疼痛",
+      "meaningZhTW": "疼痛",
+      "primarySenseId": "ache%1:26:00::",
+      "sourceSenseIds": [
+        "ache%1:26:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "ache%1:26:00::",
+          "synsetId": "14347092-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.state",
+          "englishDefinition": "a dull persistent (usually moderately intense) pain",
+          "chineseDefinition": "疼痛",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a dull persistent (usually moderately intense) pain",
+          "meaningZh": "疼痛"
+        }
+      ]
+    },
+    {
+      "id": "ache%2:37:06::",
+      "synsetId": "01809651-v",
+      "partOfSpeech": "v",
+      "partOfSpeechLabel": "verb",
+      "lexicalFile": "verb.emotion",
+      "englishDefinition": "have a desire for something or someone who is not present",
+      "chineseDefinition": "疼痛（人）",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "have a desire for something or someone who is not present",
+      "meaningZh": "疼痛（人）",
+      "meaningZhTW": "疼痛（人）",
+      "primarySenseId": "ache%2:37:06::",
+      "sourceSenseIds": [
+        "ache%2:37:06::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "ache%2:37:06::",
+          "synsetId": "01809651-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.emotion",
+          "englishDefinition": "have a desire for something or someone who is not present",
+          "chineseDefinition": "疼痛（人）",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "have a desire for something or someone who is not present",
+          "meaningZh": "疼痛（人）"
+        }
+      ]
+    },
+    {
+      "id": "achieve%2:41:00::",
+      "synsetId": "02531751-v",
+      "partOfSpeech": "v",
+      "partOfSpeechLabel": "verb",
+      "lexicalFile": "verb.social",
+      "englishDefinition": "to gain with effort",
+      "chineseDefinition": "完成",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "to gain with effort",
+      "meaningZh": "完成",
+      "meaningZhTW": "完成",
+      "primarySenseId": "achieve%2:41:00::",
+      "sourceSenseIds": [
+        "achieve%2:41:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "achieve%2:41:00::",
+          "synsetId": "02531751-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.social",
+          "englishDefinition": "to gain with effort",
+          "chineseDefinition": "完成",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "to gain with effort",
+          "meaningZh": "完成"
+        }
+      ]
+    },
+    {
+      "id": "achievement%1:04:00::",
+      "synsetId": "00035910-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.act",
+      "englishDefinition": "the action of accomplishing something",
+      "chineseDefinition": "完成",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "the action of accomplishing something",
+      "meaningZh": "完成",
+      "meaningZhTW": "完成",
+      "primarySenseId": "achievement%1:04:00::",
+      "sourceSenseIds": [
+        "achievement%1:04:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "achievement%1:04:00::",
+          "synsetId": "00035910-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.act",
+          "englishDefinition": "the action of accomplishing something",
+          "chineseDefinition": "完成",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "the action of accomplishing something",
+          "meaningZh": "完成"
+        }
+      ]
+    },
+    {
+      "id": "additional%5:00:03:additive:00",
+      "synsetId": "00049078-s",
+      "partOfSpeech": "s",
+      "partOfSpeechLabel": "adjective",
+      "lexicalFile": "adj.all",
+      "englishDefinition": "further or added",
+      "chineseDefinition": "附加的",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "further or added",
+      "meaningZh": "附加的",
+      "meaningZhTW": "附加的",
+      "primarySenseId": "additional%5:00:03:additive:00",
+      "sourceSenseIds": [
+        "additional%5:00:03:additive:00"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "additional%5:00:03:additive:00",
+          "synsetId": "00049078-s",
+          "partOfSpeech": "s",
+          "partOfSpeechLabel": "adjective",
+          "lexicalFile": "adj.all",
+          "englishDefinition": "further or added",
+          "chineseDefinition": "附加的",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "further or added",
+          "meaningZh": "附加的"
+        }
+      ]
+    },
+    {
+      "id": "adventure%1:04:00::",
+      "synsetId": "00797976-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.act",
+      "englishDefinition": "a wild and exciting undertaking (not necessarily lawful)",
+      "chineseDefinition": "冒險",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "a wild and exciting undertaking (not necessarily lawful)",
+      "meaningZh": "冒險",
+      "meaningZhTW": "冒險",
+      "primarySenseId": "adventure%1:04:00::",
+      "sourceSenseIds": [
+        "adventure%1:04:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "adventure%1:04:00::",
+          "synsetId": "00797976-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.act",
+          "englishDefinition": "a wild and exciting undertaking (not necessarily lawful)",
+          "chineseDefinition": "冒險",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a wild and exciting undertaking (not necessarily lawful)",
+          "meaningZh": "冒險"
+        }
+      ]
+    },
+    {
+      "id": "amazement%1:12:00::",
+      "synsetId": "07524811-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.feeling",
+      "englishDefinition": "the feeling that accompanies something extremely surprising",
+      "chineseDefinition": "使大為吃驚",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "the feeling that accompanies something extremely surprising",
+      "meaningZh": "使大為吃驚",
+      "meaningZhTW": "使大為吃驚",
+      "primarySenseId": "amazement%1:12:00::",
+      "sourceSenseIds": [
+        "amazement%1:12:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "amazement%1:12:00::",
+          "synsetId": "07524811-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.feeling",
+          "englishDefinition": "the feeling that accompanies something extremely surprising",
+          "chineseDefinition": "使大為吃驚",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "the feeling that accompanies something extremely surprising",
+          "meaningZh": "使大為吃驚"
+        }
+      ]
+    },
+    {
+      "id": "ambulance%1:06:00::",
+      "synsetId": "02703861-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.artifact",
+      "englishDefinition": "a vehicle that takes people to and from hospitals",
+      "chineseDefinition": "救護車",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "a vehicle that takes people to and from hospitals",
+      "meaningZh": "救護車",
+      "meaningZhTW": "救護車",
+      "primarySenseId": "ambulance%1:06:00::",
+      "sourceSenseIds": [
+        "ambulance%1:06:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "ambulance%1:06:00::",
+          "synsetId": "02703861-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.artifact",
+          "englishDefinition": "a vehicle that takes people to and from hospitals",
+          "chineseDefinition": "救護車",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a vehicle that takes people to and from hospitals",
+          "meaningZh": "救護車"
+        }
+      ]
+    },
+    {
+      "id": "angel%1:18:02::",
+      "synsetId": "09813158-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.person",
+      "englishDefinition": "someone who provides financial support for some venture",
+      "chineseDefinition": "天使（人）",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "someone who provides financial support for some venture",
+      "meaningZh": "天使（人）",
+      "meaningZhTW": "天使（人）",
+      "primarySenseId": "angel%1:18:02::",
+      "sourceSenseIds": [
+        "angel%1:18:02::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "angel%1:18:02::",
+          "synsetId": "09813158-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.person",
+          "englishDefinition": "someone who provides financial support for some venture",
+          "chineseDefinition": "天使（人）",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "someone who provides financial support for some venture",
+          "meaningZh": "天使（人）"
+        }
+      ]
+    },
+    {
+      "id": "assistant%1:18:00::",
+      "synsetId": "09835195-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.person",
+      "englishDefinition": "a person who contributes to the fulfillment of a need or furtherance of an effort or purpose",
+      "chineseDefinition": "助手（人）",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "a person who contributes to the fulfillment of a need or furtherance of an effort or purpose",
+      "meaningZh": "助手（人）",
+      "meaningZhTW": "助手（人）",
+      "primarySenseId": "assistant%1:18:00::",
+      "sourceSenseIds": [
+        "assistant%1:18:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "assistant%1:18:00::",
+          "synsetId": "09835195-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.person",
+          "englishDefinition": "a person who contributes to the fulfillment of a need or furtherance of an effort or purpose",
+          "chineseDefinition": "助手（人）",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a person who contributes to the fulfillment of a need or furtherance of an effort or purpose",
+          "meaningZh": "助手（人）"
+        }
+      ]
+    },
+    {
+      "id": "athlete%1:18:00::",
+      "synsetId": "09839665-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.person",
+      "englishDefinition": "a person trained to compete in sports",
+      "chineseDefinition": "運動員",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "a person trained to compete in sports",
+      "meaningZh": "運動員",
+      "meaningZhTW": "運動員",
+      "primarySenseId": "athlete%1:18:00::",
+      "sourceSenseIds": [
+        "athlete%1:18:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "athlete%1:18:00::",
+          "synsetId": "09839665-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.person",
+          "englishDefinition": "a person trained to compete in sports",
+          "chineseDefinition": "運動員",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a person trained to compete in sports",
+          "meaningZh": "運動員"
+        }
+      ]
+    },
+    {
+      "id": "awake%2:29:00::",
+      "synsetId": "00018519-v",
+      "partOfSpeech": "v",
+      "partOfSpeechLabel": "verb",
+      "lexicalFile": "verb.body",
+      "englishDefinition": "stop sleeping",
+      "chineseDefinition": "醒著的",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "stop sleeping",
+      "meaningZh": "醒著的",
+      "meaningZhTW": "醒著的",
+      "primarySenseId": "awake%2:29:00::",
+      "sourceSenseIds": [
+        "awake%2:29:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "awake%2:29:00::",
+          "synsetId": "00018519-v",
+          "partOfSpeech": "v",
+          "partOfSpeechLabel": "verb",
+          "lexicalFile": "verb.body",
+          "englishDefinition": "stop sleeping",
+          "chineseDefinition": "醒著的",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "stop sleeping",
+          "meaningZh": "醒著的"
+        }
+      ]
+    },
+    {
+      "id": "bacon%1:13:00::",
+      "synsetId": "07686178-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.food",
+      "englishDefinition": "back and sides of a hog salted and dried or smoked; usually sliced thin and fried",
+      "chineseDefinition": "燻豬肉",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "back and sides of a hog salted and dried or smoked; usually sliced thin and fried",
+      "meaningZh": "燻豬肉",
+      "meaningZhTW": "燻豬肉",
+      "primarySenseId": "bacon%1:13:00::",
+      "sourceSenseIds": [
+        "bacon%1:13:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "bacon%1:13:00::",
+          "synsetId": "07686178-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.food",
+          "englishDefinition": "back and sides of a hog salted and dried or smoked; usually sliced thin and fried",
+          "chineseDefinition": "燻豬肉",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "back and sides of a hog salted and dried or smoked; usually sliced thin and fried",
+          "meaningZh": "燻豬肉"
+        }
+      ]
+    },
+    {
+      "id": "bacteria%1:05:00::",
+      "synsetId": "01351171-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.animal",
+      "englishDefinition": "(microbiology) single-celled or noncellular spherical or spiral or rod-shaped organisms lacking chlorophyll that reproduce by fission; important as pathogens and for biochemical properties; taxonomy is difficult; often considered to be plants",
+      "chineseDefinition": "細菌",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "(microbiology) single-celled or noncellular spherical or spiral or rod-shaped organisms lacking chlorophyll that reproduce by fission; important as pathogens and for biochemical properties; taxonomy is difficult; often considered to be plants",
+      "meaningZh": "細菌",
+      "meaningZhTW": "細菌",
+      "primarySenseId": "bacteria%1:05:00::",
+      "sourceSenseIds": [
+        "bacteria%1:05:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "bacteria%1:05:00::",
+          "synsetId": "01351171-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.animal",
+          "englishDefinition": "(microbiology) single-celled or noncellular spherical or spiral or rod-shaped organisms lacking chlorophyll that reproduce by fission; important as pathogens and for biochemical properties; taxonomy is difficult; often considered to be plants",
+          "chineseDefinition": "細菌",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "(microbiology) single-celled or noncellular spherical or spiral or rod-shaped organisms lacking chlorophyll that reproduce by fission; important as pathogens and for biochemical properties; taxonomy is difficult; often considered to be plants",
+          "meaningZh": "細菌"
+        }
+      ]
+    },
+    {
+      "id": "blouse%1:06:00::",
+      "synsetId": "02858206-n",
+      "partOfSpeech": "n",
+      "partOfSpeechLabel": "noun",
+      "lexicalFile": "noun.artifact",
+      "englishDefinition": "a top worn by women",
+      "chineseDefinition": "寬松的上衣",
+      "examples": [],
+      "source": "openEnglishWordNet",
+      "translationStatus": "verified",
+      "definition": "a top worn by women",
+      "meaningZh": "寬松的上衣",
+      "meaningZhTW": "寬松的上衣",
+      "primarySenseId": "blouse%1:06:00::",
+      "sourceSenseIds": [
+        "blouse%1:06:00::"
+      ],
+      "sourceDefinitions": [
+        {
+          "id": "blouse%1:06:00::",
+          "synsetId": "02858206-n",
+          "partOfSpeech": "n",
+          "partOfSpeechLabel": "noun",
+          "lexicalFile": "noun.artifact",
+          "englishDefinition": "a top worn by women",
+          "chineseDefinition": "寬松的上衣",
+          "examples": [],
+          "source": "openEnglishWordNet",
+          "translationStatus": "verified",
+          "definition": "a top worn by women",
+          "meaningZh": "寬松的上衣"
+        }
+      ]
+    }
+  ]
+}

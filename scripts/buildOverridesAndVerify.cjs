@@ -955,55 +955,55 @@ async function main() {
         reason: override.reason,
       };
     });
-  }
 
-  // 3. Load audit data to process all questionable groups (For Level 2 onwards)
-  if (fs.existsSync(AUDIT_JSON_PATH)) {
-    const auditData = JSON.parse(fs.readFileSync(AUDIT_JSON_PATH, 'utf8'));
+    // 3. Load audit data to process all questionable groups (For Level 2 onwards)
+    if (fs.existsSync(AUDIT_JSON_PATH)) {
+      const auditData = JSON.parse(fs.readFileSync(AUDIT_JSON_PATH, 'utf8'));
 
-    auditData.allQuestionableGroups.forEach((group) => {
-      if (group.classification === 'CLEAR_OVER_MERGE') clearProcessed += 1;
-      if (group.classification === 'POSSIBLE_OVER_MERGE') possibleProcessed += 1;
+      auditData.allQuestionableGroups.forEach((group) => {
+        if (group.classification === 'CLEAR_OVER_MERGE') clearProcessed += 1;
+        if (group.classification === 'POSSIBLE_OVER_MERGE') possibleProcessed += 1;
 
-      const generatedMeaningsForGroup = new Set();
+        const generatedMeaningsForGroup = new Set();
 
-      group.sourceSenseIds.forEach((senseId, idx) => {
-        const eng = group.englishDefinitions[idx];
-        const oldMeaning = group.currentMeaningZhTW;
+        group.sourceSenseIds.forEach((senseId, idx) => {
+          const eng = group.englishDefinitions[idx];
+          const oldMeaning = group.currentMeaningZhTW;
 
-        let override = manualMap[senseId];
-        let newMeaning = override ? override.meaningZhTW : null;
-        let reason = override ? override.reason : null;
+          let override = manualMap[senseId];
+          let newMeaning = override ? override.meaningZhTW : null;
+          let reason = override ? override.reason : null;
 
-        if (!newMeaning) {
-          let candidate = autoDifferentiateSense(eng, oldMeaning, idx, group.sourceSenseIds.length);
-          if (generatedMeaningsForGroup.has(candidate)) {
-            candidate = `${candidate} (義項 ${idx + 1})`;
+          if (!newMeaning) {
+            let candidate = autoDifferentiateSense(eng, oldMeaning, idx, group.sourceSenseIds.length);
+            if (generatedMeaningsForGroup.has(candidate)) {
+              candidate = `${candidate} (義項 ${idx + 1})`;
+            }
+            newMeaning = candidate;
+            reason = `Auto-differentiated to eliminate questionable over-merge [${group.classification}]`;
           }
-          newMeaning = candidate;
-          reason = `Auto-differentiated to eliminate questionable over-merge [${group.classification}]`;
-        }
 
-        generatedMeaningsForGroup.add(newMeaning);
+          generatedMeaningsForGroup.add(newMeaning);
 
-        overrides[senseId] = {
-          meaningZhTW: newMeaning,
-          status: 'verified',
-          reason,
-        };
+          overrides[senseId] = {
+            meaningZhTW: newMeaning,
+            status: 'verified',
+            reason,
+          };
 
-        corrections.push({
-          senseId,
-          word: group.word,
-          partOfSpeech: group.partOfSpeech,
-          oldMeaningZhTW: oldMeaning,
-          newMeaningZhTW: newMeaning,
-          englishDefinition: eng,
-          reason,
-          classification: group.classification,
+          corrections.push({
+            senseId,
+            word: group.word,
+            partOfSpeech: group.partOfSpeech,
+            oldMeaningZhTW: oldMeaning,
+            newMeaningZhTW: newMeaning,
+            englishDefinition: eng,
+            reason,
+            classification: group.classification,
+          });
         });
       });
-    });
+    }
   }
 
   console.log(`CLEAR_OVER_MERGE groups processed: ${clearProcessed}`);
