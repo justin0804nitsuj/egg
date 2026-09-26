@@ -1,0 +1,2379 @@
+{
+  "generatedAt": "2026-09-26T16:03:49.918Z",
+  "scope": "level-1-only",
+  "clearOverMergeProcessedCount": 77,
+  "possibleOverMergeProcessedCount": 3,
+  "senseTranslationsChangedCount": 237,
+  "corrections": [
+    {
+      "senseId": "book%2:31:00::",
+      "word": "book",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "書",
+      "newMeaningZhTW": "書 (義項 1)",
+      "englishDefinition": "engage for a performance",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "book%2:41:01::",
+      "word": "book",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "書",
+      "newMeaningZhTW": "書（人物）",
+      "englishDefinition": "arrange for and reserve (something for someone else) in advance",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "book%2:41:00::",
+      "word": "book",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "書",
+      "newMeaningZhTW": "書 (義項 3)",
+      "englishDefinition": "record a charge in a police register",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "bridge%1:06:00::",
+      "word": "bridge",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "橋",
+      "newMeaningZhTW": "橋（交通/載具）",
+      "englishDefinition": "a structure that allows people or vehicles to cross an obstacle such as a river or canal or railway etc.",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "bridge%1:06:05::",
+      "word": "bridge",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "橋",
+      "newMeaningZhTW": "橋 (義項 2)",
+      "englishDefinition": "a circuit consisting of two branches (4 arms arranged in a diamond configuration) across which a meter is connected",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "bridge%1:24:00::",
+      "word": "bridge",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "橋",
+      "newMeaningZhTW": "橋 (義項 3)",
+      "englishDefinition": "something resembling a bridge in form or function",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "dig%1:15:00::",
+      "word": "dig",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "挖",
+      "newMeaningZhTW": "挖 (義項 1)",
+      "englishDefinition": "the site of an archeological exploration",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "dig%1:10:00::",
+      "word": "dig",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "挖",
+      "newMeaningZhTW": "挖（人物）",
+      "englishDefinition": "an aggressive remark directed at a person like a missile and intended to have a telling effect",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "dig%1:07:00::",
+      "word": "dig",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "挖",
+      "newMeaningZhTW": "挖 (義項 3)",
+      "englishDefinition": "a small gouge (as in the cover of a book)",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "fly%2:38:00::",
+      "word": "fly",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "蒼蠅",
+      "newMeaningZhTW": "蒼蠅 (義項 1)",
+      "englishDefinition": "travel through the air; be airborne",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]",
+      "classification": "POSSIBLE_OVER_MERGE"
+    },
+    {
+      "senseId": "fly%2:38:02::",
+      "word": "fly",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "蒼蠅",
+      "newMeaningZhTW": "蒼蠅 (義項 2)",
+      "englishDefinition": "move quickly or suddenly",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]",
+      "classification": "POSSIBLE_OVER_MERGE"
+    },
+    {
+      "senseId": "fly%2:38:01::",
+      "word": "fly",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "蒼蠅",
+      "newMeaningZhTW": "蒼蠅（交通/載具）",
+      "englishDefinition": "operate an airplane",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]",
+      "classification": "POSSIBLE_OVER_MERGE"
+    },
+    {
+      "senseId": "grass%1:20:00::",
+      "word": "grass",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "草",
+      "newMeaningZhTW": "草（法律）",
+      "englishDefinition": "narrow-leaved green herbage: grown as lawns; used as pasture for grazing animals; cut and dried as hay",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "grass%1:18:01::",
+      "word": "grass",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "草",
+      "newMeaningZhTW": "草 (義項 2)",
+      "englishDefinition": "a police informer who implicates many people",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "grass%1:13:00::",
+      "word": "grass",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "草",
+      "newMeaningZhTW": "草（音樂）",
+      "englishDefinition": "bulky food like grass or hay for browsing or grazing horses or cattle",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "hear%2:39:00::",
+      "word": "hear",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "聽到",
+      "newMeaningZhTW": "聽到 (義項 1)",
+      "englishDefinition": "perceive (sound) via the auditory sense",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "hear%2:31:00::",
+      "word": "hear",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "聽到",
+      "newMeaningZhTW": "聽到（軍事）",
+      "englishDefinition": "get to know or become aware of, usually accidentally",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "hear%2:41:00::",
+      "word": "hear",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "聽到",
+      "newMeaningZhTW": "聽到 (義項 3)",
+      "englishDefinition": "examine or hear (evidence or a case) by judicial process",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "heavy%3:00:01::",
+      "word": "heavy",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "重的",
+      "newMeaningZhTW": "重的 (義項 1)",
+      "englishDefinition": "of comparatively great physical weight or density",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "heavy%3:00:03::",
+      "word": "heavy",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "重的",
+      "newMeaningZhTW": "重的（數學）",
+      "englishDefinition": "unusually great in degree or quantity or number",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "heavy%3:00:04::",
+      "word": "heavy",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "重的",
+      "newMeaningZhTW": "重的（軍事）",
+      "englishDefinition": "of the military or industry; using (or being) the heaviest and most powerful armaments or weapons or equipment",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "here%4:02:00::",
+      "word": "here",
+      "partOfSpeech": "adverb",
+      "oldMeaningZhTW": "在這裡",
+      "newMeaningZhTW": "在這裡 (義項 1)",
+      "englishDefinition": "in or at this place; where the speaker or writer is",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "here%4:02:02::",
+      "word": "here",
+      "partOfSpeech": "adverb",
+      "oldMeaningZhTW": "在這裡",
+      "newMeaningZhTW": "在這裡 (義項 2)",
+      "englishDefinition": "in this circumstance or respect or on this point or detail",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "here%4:02:01::",
+      "word": "here",
+      "partOfSpeech": "adverb",
+      "oldMeaningZhTW": "在這裡",
+      "newMeaningZhTW": "在這裡（軍事）",
+      "englishDefinition": "to this place (especially toward the speaker)",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "high%3:00:02::",
+      "word": "high",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "高度",
+      "newMeaningZhTW": "高度 (義項 1)",
+      "englishDefinition": "greater than normal in quantity or amount",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "high%3:00:01::",
+      "word": "high",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "高度",
+      "newMeaningZhTW": "高度（軍事）",
+      "englishDefinition": "(literal meaning) being at or having a relatively great or specific elevation or upward extension (sometimes used in combinations like ‘knee-high’)",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "high%5:00:00:superior:01",
+      "word": "high",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "高度",
+      "newMeaningZhTW": "高度 (義項 3)",
+      "englishDefinition": "standing above others in quality or position",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "hill%1:17:00::",
+      "word": "hill",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "小山",
+      "newMeaningZhTW": "小山 (義項 1)",
+      "englishDefinition": "a local and well-defined elevation of the land",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "hill%1:06:01::",
+      "word": "hill",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "小山",
+      "newMeaningZhTW": "小山 (義項 2)",
+      "englishDefinition": "structure consisting of an artificial heap or bank usually of earth or stones",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "hill%1:06:00::",
+      "word": "hill",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "小山",
+      "newMeaningZhTW": "小山（體育）",
+      "englishDefinition": "(baseball) the slight elevation on which the pitcher stands",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "horse%1:05:00::",
+      "word": "horse",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "馬",
+      "newMeaningZhTW": "馬 (義項 1)",
+      "englishDefinition": "solid-hoofed herbivorous quadruped domesticated since prehistoric times",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "horse%1:06:03::",
+      "word": "horse",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "馬",
+      "newMeaningZhTW": "馬 (義項 2)",
+      "englishDefinition": "a padded gymnastic apparatus on legs",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "horse%1:14:00::",
+      "word": "horse",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "馬",
+      "newMeaningZhTW": "馬 (義項 3)",
+      "englishDefinition": "troops trained to fight on horseback",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "hurt%1:26:00::",
+      "word": "hurt",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "傷害",
+      "newMeaningZhTW": "傷害 (義項 1)",
+      "englishDefinition": "any physical damage to the body caused by violence or accident or fracture etc.; the condition of an injury",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "hurt%1:12:02::",
+      "word": "hurt",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "傷害",
+      "newMeaningZhTW": "傷害 (義項 2)",
+      "englishDefinition": "psychological suffering",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "hurt%1:12:01::",
+      "word": "hurt",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "傷害",
+      "newMeaningZhTW": "傷害（金額/款項）",
+      "englishDefinition": "feelings of mental or physical pain",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "in%5:00:00:successful:00",
+      "word": "in",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "在...期間",
+      "newMeaningZhTW": "在...期間 (義項 1)",
+      "englishDefinition": "holding office",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "in%5:00:00:incoming:00",
+      "word": "in",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "在...期間",
+      "newMeaningZhTW": "在...期間（軍事）",
+      "englishDefinition": "directed or bound inward",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "in%5:00:00:fashionable:00",
+      "word": "in",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "在...期間",
+      "newMeaningZhTW": "在...期間 (義項 3)",
+      "englishDefinition": "currently fashionable",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "jump%2:38:00::",
+      "word": "jump",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "跳躍",
+      "newMeaningZhTW": "跳躍（軍事）",
+      "englishDefinition": "move forward by leaps and bounds",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "jump%2:38:04::",
+      "word": "jump",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "跳躍",
+      "newMeaningZhTW": "跳躍 (義項 2)",
+      "englishDefinition": "move or jump suddenly, as if in surprise or alarm",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "jump%2:33:00::",
+      "word": "jump",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "跳躍",
+      "newMeaningZhTW": "跳躍 (義項 3)",
+      "englishDefinition": "make a sudden physical attack on",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "kick%1:04:00::",
+      "word": "kick",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "踢",
+      "newMeaningZhTW": "踢 (義項 1)",
+      "englishDefinition": "the act of delivering a blow with the foot",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "kick%1:12:00::",
+      "word": "kick",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "踢",
+      "newMeaningZhTW": "踢 (義項 2)",
+      "englishDefinition": "the swift release of a store of affective force",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "kick%1:11:00::",
+      "word": "kick",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "踢",
+      "newMeaningZhTW": "踢（軍事）",
+      "englishDefinition": "the backward jerk of a gun when it is fired",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "kill%2:35:00::",
+      "word": "kill",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "殺",
+      "newMeaningZhTW": "殺 (義項 1)",
+      "englishDefinition": "cause to die; put to death, usually intentionally or knowingly",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "kill%2:41:01::",
+      "word": "kill",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "殺",
+      "newMeaningZhTW": "殺（軍事）",
+      "englishDefinition": "thwart the passage of",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "kill%2:30:08::",
+      "word": "kill",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "殺",
+      "newMeaningZhTW": "殺 (義項 3)",
+      "englishDefinition": "end or extinguish by forceful means",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "kill%1:04:00::",
+      "word": "kill",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "殺",
+      "newMeaningZhTW": "殺 (義項 1)",
+      "englishDefinition": "the act of terminating a life",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "kill%1:04:01::",
+      "word": "kill",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "殺",
+      "newMeaningZhTW": "殺（交通/載具）",
+      "englishDefinition": "the destruction of an enemy plane or ship or tank or missile",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "kill%1:05:00::",
+      "word": "kill",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "殺",
+      "newMeaningZhTW": "殺（人物）",
+      "englishDefinition": "the body of an animal, or bodies of animals, killed by a person or another animal",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "knife%1:06:00::",
+      "word": "knife",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "小刀",
+      "newMeaningZhTW": "小刀（音樂）",
+      "englishDefinition": "edge tool used as a cutting instrument; has a pointed blade with a sharp edge and a handle",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "knife%1:06:01::",
+      "word": "knife",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "小刀",
+      "newMeaningZhTW": "小刀（軍事）",
+      "englishDefinition": "a weapon with a handle and blade with a sharp point",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "knife%1:25:00::",
+      "word": "knife",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "小刀",
+      "newMeaningZhTW": "小刀 (義項 3)",
+      "englishDefinition": "any long thin projection that is transient",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "know%2:31:01::",
+      "word": "know",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "知道",
+      "newMeaningZhTW": "知道（軍事）",
+      "englishDefinition": "be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "know%2:31:03::",
+      "word": "know",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "知道",
+      "newMeaningZhTW": "知道 (義項 2)",
+      "englishDefinition": "know how to do or perform something",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "know%2:31:00::",
+      "word": "know",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "知道",
+      "newMeaningZhTW": "知道（人物）",
+      "englishDefinition": "be familiar or acquainted with a person or an object",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "learn%2:31:00::",
+      "word": "learn",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "學習",
+      "newMeaningZhTW": "學習 (義項 1)",
+      "englishDefinition": "gain knowledge or skills",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "learn%2:31:01::",
+      "word": "learn",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "學習",
+      "newMeaningZhTW": "學習（軍事）",
+      "englishDefinition": "get to know or become aware of, usually accidentally",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "learn%2:31:03::",
+      "word": "learn",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "學習",
+      "newMeaningZhTW": "學習 (義項 3)",
+      "englishDefinition": "commit to memory; learn by heart",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "left%3:00:00::",
+      "word": "left",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "左邊的",
+      "newMeaningZhTW": "左邊的（軍事）",
+      "englishDefinition": "being or located on or directed toward the side of the body to the west when facing north",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "left%5:00:00:unexhausted:00",
+      "word": "left",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "左邊的",
+      "newMeaningZhTW": "左邊的 (義項 2)",
+      "englishDefinition": "not used up",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "left%5:00:00:left-handed:00",
+      "word": "left",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "左邊的",
+      "newMeaningZhTW": "左邊的 (義項 3)",
+      "englishDefinition": "intended for the left hand",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "left%1:15:00::",
+      "word": "left",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "左邊的",
+      "newMeaningZhTW": "左邊的（軍事）",
+      "englishDefinition": "location near or direction toward the left side; i.e. the side to the north when a person or object faces east",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "left%1:14:00::",
+      "word": "left",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "左邊的",
+      "newMeaningZhTW": "左邊的 (義項 2)",
+      "englishDefinition": "those who support varying degrees of social or political or economic change designed to promote the public welfare",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "left%1:08:00::",
+      "word": "left",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "左邊的",
+      "newMeaningZhTW": "左邊的 (義項 3)",
+      "englishDefinition": "the hand that is on the left side of the body",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "lesson%1:04:01::",
+      "word": "lesson",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "課",
+      "newMeaningZhTW": "課 (義項 1)",
+      "englishDefinition": "a unit of instruction",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "lesson%1:10:00::",
+      "word": "lesson",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "課",
+      "newMeaningZhTW": "課（軍事）",
+      "englishDefinition": "punishment intended as a warning to others",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "lesson%1:10:01::",
+      "word": "lesson",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "課",
+      "newMeaningZhTW": "課 (義項 3)",
+      "englishDefinition": "the significance of a story or event",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "light%3:00:01::",
+      "word": "light",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "光",
+      "newMeaningZhTW": "光 (義項 1)",
+      "englishDefinition": "of comparatively little physical weight or density",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "light%3:00:05::",
+      "word": "light",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "光",
+      "newMeaningZhTW": "光 (義項 2)",
+      "englishDefinition": "(used of color) having a relatively small amount of coloring agent",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "light%3:00:04::",
+      "word": "light",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "光",
+      "newMeaningZhTW": "光（軍事）",
+      "englishDefinition": "of the military or industry; using (or being) relatively small or light arms or equipment",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "look%2:39:00::",
+      "word": "look",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "一看",
+      "newMeaningZhTW": "一看（軍事）",
+      "englishDefinition": "perceive with attention; direct one's gaze towards; look",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "look%2:39:01::",
+      "word": "look",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "一看",
+      "newMeaningZhTW": "一看 (義項 2)",
+      "englishDefinition": "give a certain impression of being something or having a certain aspect",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "look%2:29:00::",
+      "word": "look",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "一看",
+      "newMeaningZhTW": "一看 (義項 3)",
+      "englishDefinition": "to physically appear a certain way to another individual or group",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "look%1:07:01::",
+      "word": "look",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "一看",
+      "newMeaningZhTW": "一看（金額/款項）",
+      "englishDefinition": "the feelings expressed on a person's face",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "look%1:04:00::",
+      "word": "look",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "一看",
+      "newMeaningZhTW": "一看（軍事）",
+      "englishDefinition": "the act of directing the eyes toward something and perceiving it visually; look",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "look%1:07:00::",
+      "word": "look",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "一看",
+      "newMeaningZhTW": "一看 (義項 3)",
+      "englishDefinition": "physical appearance",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "love%1:12:00::",
+      "word": "love",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "愛",
+      "newMeaningZhTW": "愛 (義項 1)",
+      "englishDefinition": "a strong positive emotion of regard and affection",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "love%1:09:00::",
+      "word": "love",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "愛",
+      "newMeaningZhTW": "愛（軍事）",
+      "englishDefinition": "any object of warm affection or devotion",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "love%1:18:00::",
+      "word": "love",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "愛",
+      "newMeaningZhTW": "愛（人物）",
+      "englishDefinition": "a beloved person; used as terms of endearment",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "low%3:00:02::",
+      "word": "low",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "低點",
+      "newMeaningZhTW": "低點 (義項 1)",
+      "englishDefinition": "less than normal in degree or intensity or amount",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "low%3:00:01::",
+      "word": "low",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "低點",
+      "newMeaningZhTW": "低點（軍事）",
+      "englishDefinition": "being at or having a relatively small elevation or upward extension",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "low%5:00:00:soft:04",
+      "word": "low",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "低點",
+      "newMeaningZhTW": "低點 (義項 3)",
+      "englishDefinition": "very low in volume",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "milk%1:13:01::",
+      "word": "milk",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "奶",
+      "newMeaningZhTW": "奶（人物）",
+      "englishDefinition": "a white nutritious liquid secreted by mammals and used as food by human beings",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "milk%1:08:00::",
+      "word": "milk",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "奶",
+      "newMeaningZhTW": "奶（金額/款項）",
+      "englishDefinition": "produced by mammary glands of female mammals for feeding their young",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "milk%1:13:02::",
+      "word": "milk",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "奶",
+      "newMeaningZhTW": "奶 (義項 3)",
+      "englishDefinition": "any of several nutritive milklike liquids",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "mind%1:09:00::",
+      "word": "mind",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "思想",
+      "newMeaningZhTW": "思想（金額/款項）",
+      "englishDefinition": "that which is responsible for one's thoughts, feelings, and conscious brain functions; the seat of the faculty of reason",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "mind%1:09:01::",
+      "word": "mind",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "思想",
+      "newMeaningZhTW": "思想 (義項 2)",
+      "englishDefinition": "recall or remembrance",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "mind%1:09:04::",
+      "word": "mind",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "思想",
+      "newMeaningZhTW": "思想 (義項 3)",
+      "englishDefinition": "an opinion formed by judging something",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "need%1:26:00::",
+      "word": "need",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "需要",
+      "newMeaningZhTW": "需要 (義項 1)",
+      "englishDefinition": "a condition requiring relief",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "need%1:17:00::",
+      "word": "need",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "需要",
+      "newMeaningZhTW": "需要 (義項 2)",
+      "englishDefinition": "anything that is necessary but lacking",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "need%1:03:00::",
+      "word": "need",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "需要",
+      "newMeaningZhTW": "需要（軍事）",
+      "englishDefinition": "the psychological feature that arouses an organism to action toward a desired goal; the reason for the action; that which gives purpose and direction to behavior",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "night%1:28:00::",
+      "word": "night",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "夜",
+      "newMeaningZhTW": "夜 (義項 1)",
+      "englishDefinition": "the time after sunset and before sunrise while it is dark outside",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "night%1:28:01::",
+      "word": "night",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "夜",
+      "newMeaningZhTW": "夜（軍事）",
+      "englishDefinition": "a period of ignorance or backwardness or gloom",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "night%1:28:04::",
+      "word": "night",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "夜",
+      "newMeaningZhTW": "夜 (義項 3)",
+      "englishDefinition": "the period spent sleeping",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "north%1:24:00::",
+      "word": "north",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "北方",
+      "newMeaningZhTW": "北方（交通/載具）",
+      "englishDefinition": "the cardinal compass point that is at 0 or 360 degrees",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "north%1:15:00::",
+      "word": "north",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "北方",
+      "newMeaningZhTW": "北方 (義項 2)",
+      "englishDefinition": "a location in the northern part of a country, region, or city",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "north%1:24:02::",
+      "word": "north",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "北方",
+      "newMeaningZhTW": "北方（軍事）",
+      "englishDefinition": "the direction corresponding to the northward cardinal compass point",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "nose%1:08:00::",
+      "word": "nose",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "鼻子",
+      "newMeaningZhTW": "鼻子 (義項 1)",
+      "englishDefinition": "the organ of smell and entrance to the respiratory tract; the prominent part of the face of man or other mammals",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "nose%1:06:00::",
+      "word": "nose",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "鼻子",
+      "newMeaningZhTW": "鼻子（交通/載具）",
+      "englishDefinition": "a front that resembles a human nose (especially the front of an aircraft)",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "nose%1:06:02::",
+      "word": "nose",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "鼻子",
+      "newMeaningZhTW": "鼻子（軍事）",
+      "englishDefinition": "the front or forward projection of a tool or weapon",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "nurse%2:29:00::",
+      "word": "nurse",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "護士",
+      "newMeaningZhTW": "護士（醫學）",
+      "englishDefinition": "try to cure by special care of treatment, of an illness or injury",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "nurse%2:37:00::",
+      "word": "nurse",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "護士",
+      "newMeaningZhTW": "護士（金額/款項）",
+      "englishDefinition": "maintain (a theory, thoughts, or feelings)",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "nurse%2:41:00::",
+      "word": "nurse",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "護士",
+      "newMeaningZhTW": "護士（交通/載具）",
+      "englishDefinition": "serve as a nurse; care for sick or handicapped people",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "on%4:02:00::",
+      "word": "on",
+      "partOfSpeech": "adverb",
+      "oldMeaningZhTW": "在...之上",
+      "newMeaningZhTW": "在...之上（軍事）",
+      "englishDefinition": "with a forward motion",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "on%4:02:01::",
+      "word": "on",
+      "partOfSpeech": "adverb",
+      "oldMeaningZhTW": "在...之上",
+      "newMeaningZhTW": "在...之上 (義項 2)",
+      "englishDefinition": "indicates continuity or persistence or concentration",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "on%4:02:02::",
+      "word": "on",
+      "partOfSpeech": "adverb",
+      "oldMeaningZhTW": "在...之上",
+      "newMeaningZhTW": "在...之上 (義項 3)",
+      "englishDefinition": "in a state required for something to function or be effective",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "open%3:00:01::",
+      "word": "open",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "公開",
+      "newMeaningZhTW": "公開 (義項 1)",
+      "englishDefinition": "affording unobstructed entrance and exit; not shut or closed",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "open%3:00:02::",
+      "word": "open",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "公開",
+      "newMeaningZhTW": "公開 (義項 2)",
+      "englishDefinition": "affording free passage or access",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "open%5:00:00:unprotected:00",
+      "word": "open",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "公開",
+      "newMeaningZhTW": "公開 (義項 3)",
+      "englishDefinition": "with no protection or shield",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "order%1:10:03::",
+      "word": "order",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "次序",
+      "newMeaningZhTW": "次序（法律）",
+      "englishDefinition": "(often plural) a command given by a superior (e.g., a military or law enforcement officer) that must be obeyed",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "order%1:07:01::",
+      "word": "order",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "次序",
+      "newMeaningZhTW": "次序 (義項 2)",
+      "englishDefinition": "a degree in a continuum of size or quantity",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "order%1:26:00::",
+      "word": "order",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "次序",
+      "newMeaningZhTW": "次序 (義項 3)",
+      "englishDefinition": "established customary state (especially of society)",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "pass%2:38:00::",
+      "word": "pass",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "經過",
+      "newMeaningZhTW": "經過 (義項 1)",
+      "englishDefinition": "go across or through",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]",
+      "classification": "POSSIBLE_OVER_MERGE"
+    },
+    {
+      "senseId": "pass%2:38:05::",
+      "word": "pass",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "經過",
+      "newMeaningZhTW": "經過 (義項 2)",
+      "englishDefinition": "move past",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]",
+      "classification": "POSSIBLE_OVER_MERGE"
+    },
+    {
+      "senseId": "pass%2:41:02::",
+      "word": "pass",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "經過",
+      "newMeaningZhTW": "經過（法律）",
+      "englishDefinition": "make laws, bills, etc. or bring into effect by legislation",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]",
+      "classification": "POSSIBLE_OVER_MERGE"
+    },
+    {
+      "senseId": "pass%1:04:04::",
+      "word": "pass",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "經過",
+      "newMeaningZhTW": "經過（體育）",
+      "englishDefinition": "(baseball) an advance to first base by a batter who receives four balls",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "pass%1:28:00::",
+      "word": "pass",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "經過",
+      "newMeaningZhTW": "經過（軍事）",
+      "englishDefinition": "(military) a written leave of absence",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "pass%1:04:02::",
+      "word": "pass",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "經過",
+      "newMeaningZhTW": "經過（體育） (義項 3)",
+      "englishDefinition": "(American football) a play that involves one player throwing the ball to a teammate",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "pay%2:40:00::",
+      "word": "pay(ment)",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "付錢",
+      "newMeaningZhTW": "付錢（金額/款項）",
+      "englishDefinition": "give money, usually in exchange for goods or services",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "pay%2:32:00::",
+      "word": "pay(ment)",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "付錢",
+      "newMeaningZhTW": "付錢 (義項 2)",
+      "englishDefinition": "convey, as of a compliment, regards, attention, etc.; bestow",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "pay%2:40:04::",
+      "word": "pay(ment)",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "付錢",
+      "newMeaningZhTW": "付錢 (義項 3)",
+      "englishDefinition": "cancel or discharge a debt",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "plant%1:06:01::",
+      "word": "plant",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "植物",
+      "newMeaningZhTW": "植物（交通/載具）",
+      "englishDefinition": "buildings for carrying on industrial labor",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "plant%1:03:00::",
+      "word": "plant",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "植物",
+      "newMeaningZhTW": "植物 (義項 2)",
+      "englishDefinition": "(botany) a living organism lacking the power of locomotion",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "plant%1:18:00::",
+      "word": "plant",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "植物",
+      "newMeaningZhTW": "植物 (義項 3)",
+      "englishDefinition": "an actor situated in the audience whose acting is rehearsed but seems spontaneous to the audience",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "pool%2:40:00::",
+      "word": "pool",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "池",
+      "newMeaningZhTW": "池 (義項 1)",
+      "englishDefinition": "combine into a common fund",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "pool%2:33:00::",
+      "word": "pool",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "池",
+      "newMeaningZhTW": "池 (義項 2)",
+      "englishDefinition": "join or form a pool of people",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "pot%1:06:00::",
+      "word": "pot",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "盆",
+      "newMeaningZhTW": "盆（軍事）",
+      "englishDefinition": "metal or earthenware cooking vessel that is usually round and deep; often has a handle and lid",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "pot%1:06:01::",
+      "word": "pot",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "盆",
+      "newMeaningZhTW": "盆 (義項 2)",
+      "englishDefinition": "a plumbing fixture for defecation and urination",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "pot%1:23:00::",
+      "word": "pot",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "盆",
+      "newMeaningZhTW": "盆 (義項 3)",
+      "englishDefinition": "the quantity contained in a pot",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "practice%1:04:00::",
+      "word": "practice",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "實踐",
+      "newMeaningZhTW": "實踐 (義項 1)",
+      "englishDefinition": "a customary way of operation or behavior",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "practice%1:04:02::",
+      "word": "practice",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "實踐",
+      "newMeaningZhTW": "實踐 (義項 2)",
+      "englishDefinition": "systematic training by multiple repetitions",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "practice%1:04:04::",
+      "word": "practice",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "實踐",
+      "newMeaningZhTW": "實踐 (義項 3)",
+      "englishDefinition": "translating an idea into action",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "pull%2:35:00::",
+      "word": "pull",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "拉",
+      "newMeaningZhTW": "拉 (義項 1)",
+      "englishDefinition": "cause to move by pulling",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "pull%2:35:02::",
+      "word": "pull",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "拉",
+      "newMeaningZhTW": "拉（軍事）",
+      "englishDefinition": "direct toward itself or oneself by means of some psychological power or physical attributes",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "pull%2:38:01::",
+      "word": "pull",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "拉",
+      "newMeaningZhTW": "拉 (義項 3)",
+      "englishDefinition": "move into a certain direction",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "pull%1:04:00::",
+      "word": "pull",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "拉",
+      "newMeaningZhTW": "拉（軍事）",
+      "englishDefinition": "the act of pulling; applying force to move something toward or with you",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "pull%1:19:00::",
+      "word": "pull",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "拉",
+      "newMeaningZhTW": "拉 (義項 2)",
+      "englishDefinition": "the force used in pulling",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "pull%1:07:00::",
+      "word": "pull",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "拉",
+      "newMeaningZhTW": "拉 (義項 3)",
+      "englishDefinition": "special advantage or influence",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "push%2:38:00::",
+      "word": "push",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "推",
+      "newMeaningZhTW": "推 (義項 1)",
+      "englishDefinition": "move with force",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]",
+      "classification": "POSSIBLE_OVER_MERGE"
+    },
+    {
+      "senseId": "push%2:32:01::",
+      "word": "push",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "推",
+      "newMeaningZhTW": "推（人物）",
+      "englishDefinition": "press, drive, or impel (someone) to action or completion of an action",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]",
+      "classification": "POSSIBLE_OVER_MERGE"
+    },
+    {
+      "senseId": "push%2:32:00::",
+      "word": "push",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "推",
+      "newMeaningZhTW": "推 (義項 3)",
+      "englishDefinition": "make publicity for; try to sell (a product)",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]",
+      "classification": "POSSIBLE_OVER_MERGE"
+    },
+    {
+      "senseId": "race%2:38:00::",
+      "word": "race",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "種族",
+      "newMeaningZhTW": "種族 (義項 1)",
+      "englishDefinition": "move hurridly",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "race%2:33:00::",
+      "word": "race",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "種族",
+      "newMeaningZhTW": "種族 (義項 2)",
+      "englishDefinition": "compete in a race",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "race%2:41:03::",
+      "word": "race",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "種族",
+      "newMeaningZhTW": "種族（軍事）",
+      "englishDefinition": "to work as fast as possible towards a goal, sometimes in competition with others",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "raise%1:07:00::",
+      "word": "raise",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "上升",
+      "newMeaningZhTW": "上升 (義項 1)",
+      "englishDefinition": "the amount a salary is increased",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "raise%1:17:00::",
+      "word": "raise",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "上升",
+      "newMeaningZhTW": "上升（軍事）",
+      "englishDefinition": "an upward slope or grade (as in a road)",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "raise%1:04:01::",
+      "word": "raise",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "上升",
+      "newMeaningZhTW": "上升（音樂）",
+      "englishDefinition": "increasing the size of a bet (as in poker)",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "reach%2:38:01::",
+      "word": "reach",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "伸出",
+      "newMeaningZhTW": "伸出 (義項 1)",
+      "englishDefinition": "reach a destination, either real or abstract",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "reach%2:38:00::",
+      "word": "reach",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "伸出",
+      "newMeaningZhTW": "伸出 (義項 2)",
+      "englishDefinition": "reach a point in time, or a certain state or level",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "reach%2:35:00::",
+      "word": "reach",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "伸出",
+      "newMeaningZhTW": "伸出（軍事）",
+      "englishDefinition": "move forward or upward in order to touch; also in a metaphorical sense",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "report%1:10:03::",
+      "word": "report",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "報告",
+      "newMeaningZhTW": "報告 (義項 1)",
+      "englishDefinition": "a written document describing the findings of some individual or group",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "report%1:10:01::",
+      "word": "report",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "報告",
+      "newMeaningZhTW": "報告 (義項 2)",
+      "englishDefinition": "the act of informing by verbal report",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "report%1:10:00::",
+      "word": "report",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "報告",
+      "newMeaningZhTW": "報告 (義項 3)",
+      "englishDefinition": "a short account of the news",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "right%3:00:00::",
+      "word": "right",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "右邊；正確的；權利",
+      "newMeaningZhTW": "右邊；正確的；權利（軍事）",
+      "englishDefinition": "being or located on or directed toward the side of the body to the east when facing north",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "right%3:00:02::",
+      "word": "right",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "右邊；正確的；權利",
+      "newMeaningZhTW": "右邊；正確的；權利 (義項 2)",
+      "englishDefinition": "free from error; especially conforming to fact or truth",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "right%5:00:01:proper:00",
+      "word": "right",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "右邊；正確的；權利",
+      "newMeaningZhTW": "右邊；正確的；權利 (義項 3)",
+      "englishDefinition": "socially right or correct",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "rise%1:11:00::",
+      "word": "rise",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "上升",
+      "newMeaningZhTW": "上升（數學）",
+      "englishDefinition": "a growth in strength or number or importance",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "rise%1:04:00::",
+      "word": "rise",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "上升",
+      "newMeaningZhTW": "上升（軍事）",
+      "englishDefinition": "the act of changing location in an upward direction",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "rise%1:17:00::",
+      "word": "rise",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "上升",
+      "newMeaningZhTW": "上升（軍事） (義項 3)",
+      "englishDefinition": "an upward slope or grade (as in a road)",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "rise%2:38:00::",
+      "word": "rise",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "上升",
+      "newMeaningZhTW": "上升（軍事）",
+      "englishDefinition": "move upward",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "rise%2:30:00::",
+      "word": "rise",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "上升",
+      "newMeaningZhTW": "上升 (義項 2)",
+      "englishDefinition": "increase in value or to a higher point",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "rise%2:38:05::",
+      "word": "rise",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "上升",
+      "newMeaningZhTW": "上升（金額/款項）",
+      "englishDefinition": "rise to one's feet",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "roll%1:11:02::",
+      "word": "roll",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "卷",
+      "newMeaningZhTW": "卷 (義項 1)",
+      "englishDefinition": "rotary motion of an object around its own axis",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "roll%1:10:00::",
+      "word": "roll",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "卷",
+      "newMeaningZhTW": "卷 (義項 2)",
+      "englishDefinition": "a list of names",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "roll%1:11:01::",
+      "word": "roll",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "卷",
+      "newMeaningZhTW": "卷（軍事）",
+      "englishDefinition": "a long heavy sea wave as it advances towards the shore",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "round%1:06:01::",
+      "word": "round",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "圓",
+      "newMeaningZhTW": "圓（音樂）",
+      "englishDefinition": "a charge of ammunition for a single shot",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "round%1:28:01::",
+      "word": "round",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "圓",
+      "newMeaningZhTW": "圓 (義項 2)",
+      "englishDefinition": "an interval during which a recurring sequence of events occurs",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "round%1:15:00::",
+      "word": "round",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "圓",
+      "newMeaningZhTW": "圓 (義項 3)",
+      "englishDefinition": "a regular route for a sentry or policeman",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "service%1:04:08::",
+      "word": "service",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "服務",
+      "newMeaningZhTW": "服務（人物）",
+      "englishDefinition": "work done by one person or group that benefits another",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "service%1:04:00::",
+      "word": "service",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "服務",
+      "newMeaningZhTW": "服務（軍事）",
+      "englishDefinition": "an act of help or assistance; something (such as a tool, software or system) used to render said help or assistance",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "service%1:04:01::",
+      "word": "service",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "服務",
+      "newMeaningZhTW": "服務（交通/載具）",
+      "englishDefinition": "the act of public worship following prescribed rules",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "share%1:21:00::",
+      "word": "share",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "部分",
+      "newMeaningZhTW": "部分（人物）",
+      "englishDefinition": "assets belonging to or due to or contributed by an individual person or group",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "share%1:21:01::",
+      "word": "share",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "部分",
+      "newMeaningZhTW": "部分（交通/載具）",
+      "englishDefinition": "any of the equal portions into which the capital stock of a corporation is divided and ownership of which is evidenced by a stock certificate",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "share%1:04:00::",
+      "word": "share",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "部分",
+      "newMeaningZhTW": "部分 (義項 3)",
+      "englishDefinition": "the allotment of some amount by dividing something",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "sick%3:00:01::",
+      "word": "sick",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "病人",
+      "newMeaningZhTW": "病人 (義項 1)",
+      "englishDefinition": "affected by an impairment of normal physical or mental function",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "sick%5:00:02:ill:01",
+      "word": "sick",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "病人",
+      "newMeaningZhTW": "病人（金額/款項）",
+      "englishDefinition": "feeling nausea; feeling about to vomit",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "sick%5:00:00:insane:00",
+      "word": "sick",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "病人",
+      "newMeaningZhTW": "病人 (義項 3)",
+      "englishDefinition": "affected with madness or insanity",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "sight%2:39:00::",
+      "word": "sight",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "景觀",
+      "newMeaningZhTW": "景觀 (義項 1)",
+      "englishDefinition": "catch sight of; to perceive with the eyes",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "sight%2:39:03::",
+      "word": "sight",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "景觀",
+      "newMeaningZhTW": "景觀（設備/器具）",
+      "englishDefinition": "take aim by looking through the sights of a gun (or other device)",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "soldier%1:18:00::",
+      "word": "soldier",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "軍人",
+      "newMeaningZhTW": "軍人 (義項 1)",
+      "englishDefinition": "an enlisted man or woman who serves in an army",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "soldier%1:05:00::",
+      "word": "soldier",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "軍人",
+      "newMeaningZhTW": "軍人 (義項 2)",
+      "englishDefinition": "a wingless sterile ant or termite having a large head and powerful jaws adapted for defending the colony",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "south%1:24:00::",
+      "word": "south",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "南方",
+      "newMeaningZhTW": "南方（交通/載具）",
+      "englishDefinition": "the cardinal compass point that is at 180 degrees",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "south%1:15:02::",
+      "word": "south",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "南方",
+      "newMeaningZhTW": "南方 (義項 2)",
+      "englishDefinition": "a location in the southern part of a country, region, or city",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "south%1:24:02::",
+      "word": "south",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "南方",
+      "newMeaningZhTW": "南方（軍事）",
+      "englishDefinition": "the direction corresponding to the southward cardinal compass point",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "spring%2:38:01::",
+      "word": "spring",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "春天",
+      "newMeaningZhTW": "春天（軍事）",
+      "englishDefinition": "move forward by leaps and bounds",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "spring%2:42:00::",
+      "word": "spring",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "春天",
+      "newMeaningZhTW": "春天 (義項 2)",
+      "englishDefinition": "develop into a distinctive entity",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "spring%2:38:00::",
+      "word": "spring",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "春天",
+      "newMeaningZhTW": "春天 (義項 3)",
+      "englishDefinition": "spring back; spring away from an impact",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "square%1:25:00::",
+      "word": "square",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "正方形",
+      "newMeaningZhTW": "正方形（交通/載具）",
+      "englishDefinition": "(geometry) a plane rectangle with four equal sides and four right angles; a four-sided regular polygon",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "square%1:23:00::",
+      "word": "square",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "正方形",
+      "newMeaningZhTW": "正方形 (義項 2)",
+      "englishDefinition": "the product of two equal terms",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "square%1:15:00::",
+      "word": "square",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "正方形",
+      "newMeaningZhTW": "正方形 (義項 3)",
+      "englishDefinition": "an open area at the meeting of two or more streets",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "study%2:31:02::",
+      "word": "study",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "學習",
+      "newMeaningZhTW": "學習 (義項 1)",
+      "englishDefinition": "consider in detail and subject to an analysis in order to discover essential features or meaning",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "study%2:31:03::",
+      "word": "study",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "學習",
+      "newMeaningZhTW": "學習 (義項 2)",
+      "englishDefinition": "be a student; follow a course of study; be enrolled at an institute of learning",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "study%2:39:00::",
+      "word": "study",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "學習",
+      "newMeaningZhTW": "學習（交通/載具）",
+      "englishDefinition": "give careful consideration to",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "sugar%1:13:00::",
+      "word": "sugar",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "糖",
+      "newMeaningZhTW": "糖（交通/載具）",
+      "englishDefinition": "a white crystalline carbohydrate used as a sweetener and preservative",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "sugar%1:27:00::",
+      "word": "sugar",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "糖",
+      "newMeaningZhTW": "糖（數學）",
+      "englishDefinition": "an essential structural component of living cells and source of energy for animals; includes simple sugars with small molecules as well as macromolecular substances; are classified according to the number of monosaccharide groups they contain",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "sugar%1:21:00::",
+      "word": "sugar",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "糖",
+      "newMeaningZhTW": "糖（金額/款項）",
+      "englishDefinition": "informal terms for money",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "sun%1:19:00::",
+      "word": "sun",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "太陽",
+      "newMeaningZhTW": "太陽 (義項 1)",
+      "englishDefinition": "the rays of the sun",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "sun%1:18:00::",
+      "word": "sun",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "太陽",
+      "newMeaningZhTW": "太陽（軍事）",
+      "englishDefinition": "a person considered as a source of warmth or energy or glory etc",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "sun%1:17:01::",
+      "word": "sun",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "太陽",
+      "newMeaningZhTW": "太陽（交通/載具）",
+      "englishDefinition": "any star around which a planetary system revolves",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "surprise%2:31:00::",
+      "word": "surprise",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "驚奇",
+      "newMeaningZhTW": "驚奇 (義項 1)",
+      "englishDefinition": "cause to be surprised",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "surprise%2:41:00::",
+      "word": "surprise",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "驚奇",
+      "newMeaningZhTW": "驚奇（軍事）",
+      "englishDefinition": "come upon or take unawares",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "surprise%2:33:00::",
+      "word": "surprise",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "驚奇",
+      "newMeaningZhTW": "驚奇 (義項 3)",
+      "englishDefinition": "attack by storm; attack suddenly",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "table%1:14:00::",
+      "word": "table",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "桌子",
+      "newMeaningZhTW": "桌子 (義項 1)",
+      "englishDefinition": "a set of data arranged in rows and columns",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "table%1:06:01::",
+      "word": "table",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "桌子",
+      "newMeaningZhTW": "桌子 (義項 2)",
+      "englishDefinition": "a piece of furniture having a smooth flat top that is usually supported by one or more vertical legs",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "table%1:06:02::",
+      "word": "table",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "桌子",
+      "newMeaningZhTW": "桌子（軍事）",
+      "englishDefinition": "a piece of furniture with tableware for a meal laid out on it",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "theater%1:06:00::",
+      "word": "theater",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "戲院",
+      "newMeaningZhTW": "戲院 (義項 1)",
+      "englishDefinition": "a building where theatrical performances or motion-picture shows can be presented",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "theater%1:10:00::",
+      "word": "theater",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "戲院",
+      "newMeaningZhTW": "戲院（體育）",
+      "englishDefinition": "the art of writing and producing plays",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "theater%1:15:00::",
+      "word": "theater",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "戲院",
+      "newMeaningZhTW": "戲院（軍事）",
+      "englishDefinition": "a region in which active military operations are in progress",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "then%4:02:00::",
+      "word": "then",
+      "partOfSpeech": "adverb",
+      "oldMeaningZhTW": "然後",
+      "newMeaningZhTW": "然後（軍事）",
+      "englishDefinition": "subsequently or soon afterward (often used as sentence connectors)",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "then%4:02:02::",
+      "word": "then",
+      "partOfSpeech": "adverb",
+      "oldMeaningZhTW": "然後",
+      "newMeaningZhTW": "然後 (義項 2)",
+      "englishDefinition": "in that case or as a consequence",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "then%4:02:01::",
+      "word": "then",
+      "partOfSpeech": "adverb",
+      "oldMeaningZhTW": "然後",
+      "newMeaningZhTW": "然後 (義項 3)",
+      "englishDefinition": "at that time",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "there%4:02:00::",
+      "word": "there",
+      "partOfSpeech": "adverb",
+      "oldMeaningZhTW": "在那裡",
+      "newMeaningZhTW": "在那裡 (義項 1)",
+      "englishDefinition": "in or at that place or location",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "there%4:02:02::",
+      "word": "there",
+      "partOfSpeech": "adverb",
+      "oldMeaningZhTW": "在那裡",
+      "newMeaningZhTW": "在那裡 (義項 2)",
+      "englishDefinition": "in that matter; in that respect; on that point",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "there%4:02:01::",
+      "word": "there",
+      "partOfSpeech": "adverb",
+      "oldMeaningZhTW": "在那裡",
+      "newMeaningZhTW": "在那裡（軍事）",
+      "englishDefinition": "to or toward that place; away from the speaker",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "tip%1:15:00::",
+      "word": "tip",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "尖端；小費；提示",
+      "newMeaningZhTW": "尖端；小費；提示 (義項 1)",
+      "englishDefinition": "the extreme end of something; especially something pointed",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "tip%1:21:00::",
+      "word": "tip",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "尖端；小費；提示",
+      "newMeaningZhTW": "尖端；小費；提示（金額/款項）",
+      "englishDefinition": "a relatively small amount of money given for services rendered (as by a waiter)",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "tip%1:10:00::",
+      "word": "tip",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "尖端；小費；提示",
+      "newMeaningZhTW": "尖端；小費；提示 (義項 3)",
+      "englishDefinition": "an indication of potential opportunity",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "toilet%1:06:00::",
+      "word": "toilet",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "廁所",
+      "newMeaningZhTW": "廁所 (義項 1)",
+      "englishDefinition": "a room or building equipped with one or more toilets",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "toilet%1:06:01::",
+      "word": "toilet",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "廁所",
+      "newMeaningZhTW": "廁所 (義項 2)",
+      "englishDefinition": "a plumbing fixture for defecation and urination",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "toilet%1:26:00::",
+      "word": "toilet",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "廁所",
+      "newMeaningZhTW": "廁所（金額/款項）",
+      "englishDefinition": "misfortune resulting in lost effort or money",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "tooth%1:08:00::",
+      "word": "tooth",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "牙齒",
+      "newMeaningZhTW": "牙齒 (義項 1)",
+      "englishDefinition": "hard bonelike structures in the jaws of vertebrates; used for biting and chewing or for attack and defense",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "tooth%1:06:01::",
+      "word": "tooth",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "牙齒",
+      "newMeaningZhTW": "牙齒（動物）",
+      "englishDefinition": "something resembling the tooth of an animal",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "tooth%1:05:02::",
+      "word": "tooth",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "牙齒",
+      "newMeaningZhTW": "牙齒 (義項 3)",
+      "englishDefinition": "toothlike structure in invertebrates found in the mouth or alimentary canal or on a shell",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "train%2:31:01::",
+      "word": "train",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "火車",
+      "newMeaningZhTW": "火車 (義項 1)",
+      "englishDefinition": "create by training and teaching",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "train%2:31:00::",
+      "word": "train",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "火車",
+      "newMeaningZhTW": "火車 (義項 2)",
+      "englishDefinition": "undergo training or instruction in preparation for a particular role, function, or profession",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "train%2:41:02::",
+      "word": "train",
+      "partOfSpeech": "verb",
+      "oldMeaningZhTW": "火車",
+      "newMeaningZhTW": "火車（動物）",
+      "englishDefinition": "develop (a child's or animal's) behavior by instruction and practice; especially to teach self-control",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "treat%1:13:00::",
+      "word": "treat(ment)",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "對待",
+      "newMeaningZhTW": "對待 (義項 1)",
+      "englishDefinition": "something considered choice to eat",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "treat%1:11:00::",
+      "word": "treat(ment)",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "對待",
+      "newMeaningZhTW": "對待 (義項 2)",
+      "englishDefinition": "an occurrence that causes special pleasure or delight",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "treatment%1:04:00::",
+      "word": "treat(ment)",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "對待",
+      "newMeaningZhTW": "對待（醫學）",
+      "englishDefinition": "care provided to improve a situation (especially medical procedures or applications that are intended to relieve illness or injury)",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "visit%1:04:02::",
+      "word": "visit",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "拜訪",
+      "newMeaningZhTW": "拜訪（人物）",
+      "englishDefinition": "the act of going to see some person or place or thing for a short time",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "visit%1:14:00::",
+      "word": "visit",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "拜訪",
+      "newMeaningZhTW": "拜訪（法律）",
+      "englishDefinition": "a meeting arranged by the visitor to see someone (such as a doctor or lawyer) for treatment or advice",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "visit%1:04:01::",
+      "word": "visit",
+      "partOfSpeech": "noun",
+      "oldMeaningZhTW": "拜訪",
+      "newMeaningZhTW": "拜訪 (義項 3)",
+      "englishDefinition": "the act of visiting in an official capacity (as for an inspection)",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "well%3:00:01::",
+      "word": "well",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "很好地；井",
+      "newMeaningZhTW": "很好地；井（醫學）",
+      "englishDefinition": "in good health especially after having suffered illness or injury",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "well%5:00:00:fortunate:00",
+      "word": "well",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "很好地；井",
+      "newMeaningZhTW": "很好地；井 (義項 2)",
+      "englishDefinition": "resulting favorably",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    },
+    {
+      "senseId": "well%5:00:00:advisable:00",
+      "word": "well",
+      "partOfSpeech": "adjective",
+      "oldMeaningZhTW": "很好地；井",
+      "newMeaningZhTW": "很好地；井 (義項 3)",
+      "englishDefinition": "wise or advantageous and hence advisable",
+      "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]",
+      "classification": "CLEAR_OVER_MERGE"
+    }
+  ]
+}

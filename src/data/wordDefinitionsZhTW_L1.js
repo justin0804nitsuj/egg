@@ -9,40 +9,40 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "才能；才智"
   },
   "able%3:00:00::": {
-    "meaningZhTW": "能夠的；有能力的"
+    "meaningZhTW": "能幹的"
   },
   "able%5:00:00:competent:00": {
-    "meaningZhTW": "勝任的；有能力的"
+    "meaningZhTW": "能幹的"
   },
   "able%5:00:00:capable:00": {
-    "meaningZhTW": "有能力的；有才能的"
+    "meaningZhTW": "能幹的"
   },
   "about%4:02:00::": {
     "meaningZhTW": "大約；大概"
   },
   "about%4:02:06::": {
-    "meaningZhTW": "周圍；到處"
+    "meaningZhTW": "到處；周圍"
   },
   "about%4:02:01::": {
-    "meaningZhTW": "在附近；在近處"
+    "meaningZhTW": "在...周圍"
   },
   "above%4:02:00::": {
-    "meaningZhTW": "(文章中) 在前文；在上述"
+    "meaningZhTW": "在上方"
   },
   "above%4:02:01::": {
-    "meaningZhTW": "在上方；向高處"
+    "meaningZhTW": "在上方"
   },
   "above%5:00:00:preceding:00": {
-    "meaningZhTW": "上述的；前述的"
+    "meaningZhTW": "在上方"
   },
   "abroad%4:02:00::": {
-    "meaningZhTW": "在國外；到國外"
+    "meaningZhTW": "往國外"
   },
   "abroad%4:02:02::": {
-    "meaningZhTW": "在異鄉；離家"
+    "meaningZhTW": "往國外"
   },
   "abroad%4:02:01::": {
-    "meaningZhTW": "在海外；在大洋彼岸"
+    "meaningZhTW": "往國外"
   },
   "across%4:02:01::": {
     "meaningZhTW": "越過"
@@ -51,31 +51,31 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "越過"
   },
   "act%1:10:01::": {
-    "meaningZhTW": "行動"
+    "meaningZhTW": "法案；條例"
   },
   "act%1:03:00::": {
-    "meaningZhTW": "行動"
+    "meaningZhTW": "行動；行為"
   },
   "act%1:10:00::": {
-    "meaningZhTW": "行動"
+    "meaningZhTW": "（戲劇的）幕"
   },
   "act%2:41:00::": {
-    "meaningZhTW": "行動"
+    "meaningZhTW": "行動；採取行動"
   },
   "act%2:29:00::": {
-    "meaningZhTW": "行動"
+    "meaningZhTW": "表現；舉止"
   },
   "act%2:36:00::": {
-    "meaningZhTW": "行動"
+    "meaningZhTW": "扮演；演戲"
   },
   "action%1:04:02::": {
-    "meaningZhTW": "行動"
+    "meaningZhTW": "行動；行為"
   },
   "action%1:26:00::": {
-    "meaningZhTW": "行動"
+    "meaningZhTW": "活動；運作"
   },
   "action%1:04:03::": {
-    "meaningZhTW": "行動"
+    "meaningZhTW": "軍事行動；戰鬥"
   },
   "actor%1:18:00::": {
     "meaningZhTW": "男演員"
@@ -861,22 +861,22 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "身體"
   },
   "book%1:10:00::": {
-    "meaningZhTW": "書籍；書本"
+    "meaningZhTW": "書"
   },
   "book%1:06:00::": {
-    "meaningZhTW": "書籍；書本"
+    "meaningZhTW": "書"
   },
   "book%1:10:02::": {
     "meaningZhTW": "書"
   },
   "book%2:31:00::": {
-    "meaningZhTW": "預訂；預約"
+    "meaningZhTW": "書"
   },
   "book%2:41:01::": {
-    "meaningZhTW": "預訂；預約"
+    "meaningZhTW": "書"
   },
   "book%2:41:00::": {
-    "meaningZhTW": "帳簿；記錄簿"
+    "meaningZhTW": "書"
   },
   "bored%5:00:00:tired:00": {
     "meaningZhTW": "感到無聊的"
@@ -3162,22 +3162,22 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "發現"
   },
   "fine%5:00:00:satisfactory:00": {
-    "meaningZhTW": "美好的；優秀的"
+    "meaningZhTW": "好的；優良的；罰款"
   },
   "fine%5:00:00:precise:00": {
     "meaningZhTW": "好的；優良的；罰款"
   },
   "fine%5:00:00:thin:01": {
-    "meaningZhTW": "細微的；精細的"
+    "meaningZhTW": "好的；優良的；罰款"
   },
   "fine%4:02:00::": {
     "meaningZhTW": "好的；優良的；罰款"
   },
   "fine%4:02:02::": {
-    "meaningZhTW": "細微的；精細的"
+    "meaningZhTW": "好的；優良的；罰款"
   },
   "fine%2:41:00::": {
-    "meaningZhTW": "罰金；罰款"
+    "meaningZhTW": "好的；優良的；罰款"
   },
   "finger%1:08:00::": {
     "meaningZhTW": "手指"
@@ -3291,13 +3291,13 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "花"
   },
   "fly%2:38:00::": {
-    "meaningZhTW": "飛；飛行"
+    "meaningZhTW": "蒼蠅"
   },
   "fly%2:38:02::": {
     "meaningZhTW": "蒼蠅"
   },
   "fly%2:38:01::": {
-    "meaningZhTW": "駕駛（飛機）；飛行"
+    "meaningZhTW": "蒼蠅"
   },
   "fly%1:05:00::": {
     "meaningZhTW": "蒼蠅"
@@ -4995,10 +4995,10 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "讓"
   },
   "letter%1:10:00::": {
-    "meaningZhTW": "信件；書信"
+    "meaningZhTW": "信"
   },
   "letter%1:10:01::": {
-    "meaningZhTW": "字母"
+    "meaningZhTW": "信"
   },
   "letter%1:18:00::": {
     "meaningZhTW": "信"
@@ -5055,16 +5055,16 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "生活"
   },
   "light%1:19:00::": {
-    "meaningZhTW": "光；光線"
+    "meaningZhTW": "光"
   },
   "light%1:06:00::": {
-    "meaningZhTW": "燈；照明設備"
+    "meaningZhTW": "光"
   },
   "light%1:09:01::": {
     "meaningZhTW": "光"
   },
   "light%3:00:01::": {
-    "meaningZhTW": "輕的；重量輕的"
+    "meaningZhTW": "光"
   },
   "light%3:00:05::": {
     "meaningZhTW": "光"
@@ -6507,10 +6507,10 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "父母"
   },
   "park%1:15:00::": {
-    "meaningZhTW": "公園；國家公園"
+    "meaningZhTW": "公園"
   },
   "park%1:15:01::": {
-    "meaningZhTW": "公園；國家公園"
+    "meaningZhTW": "公園"
   },
   "park%1:06:00::": {
     "meaningZhTW": "公園"
@@ -6519,7 +6519,7 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "公園"
   },
   "park%2:38:00::": {
-    "meaningZhTW": "停放（車輛）；停車"
+    "meaningZhTW": "公園"
   },
   "part%1:24:00::": {
     "meaningZhTW": "部分"
@@ -6864,7 +6864,7 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "行星"
   },
   "plant%1:06:01::": {
-    "meaningZhTW": "工廠；發電廠"
+    "meaningZhTW": "植物"
   },
   "plant%1:03:00::": {
     "meaningZhTW": "植物"
@@ -6873,7 +6873,7 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "植物"
   },
   "plant%2:35:00::": {
-    "meaningZhTW": "種植；栽種"
+    "meaningZhTW": "植物"
   },
   "plant%2:35:01::": {
     "meaningZhTW": "植物"
@@ -6891,22 +6891,22 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "碟"
   },
   "play%2:33:00::": {
-    "meaningZhTW": "玩耍；打（球）；參加比賽"
+    "meaningZhTW": "遊戲"
   },
   "play%2:41:12::": {
-    "meaningZhTW": "扮演；飾演"
+    "meaningZhTW": "遊戲"
   },
   "play%2:36:12::": {
-    "meaningZhTW": "演奏（樂器）"
+    "meaningZhTW": "遊戲"
   },
   "play%1:10:01::": {
-    "meaningZhTW": "戲劇；劇本"
+    "meaningZhTW": "遊戲"
   },
   "play%1:10:03::": {
     "meaningZhTW": "遊戲"
   },
   "play%1:04:05::": {
-    "meaningZhTW": "玩耍；打（球）；參加比賽"
+    "meaningZhTW": "遊戲"
   },
   "player%1:18:01::": {
     "meaningZhTW": "競賽者（人）"
@@ -7599,22 +7599,22 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "右邊；正確的；權利"
   },
   "ring%1:07:00::": {
-    "meaningZhTW": "（鐘鈴）響；按鈴"
+    "meaningZhTW": "環"
   },
   "ring%1:25:00::": {
     "meaningZhTW": "環"
   },
   "ring%1:06:02::": {
-    "meaningZhTW": "環狀物；圈"
+    "meaningZhTW": "環"
   },
   "ring%2:39:00::": {
-    "meaningZhTW": "（鐘鈴）響；按鈴"
+    "meaningZhTW": "環"
   },
   "ring%2:39:04::": {
-    "meaningZhTW": "（鐘鈴）響；按鈴"
+    "meaningZhTW": "環"
   },
   "ring%2:39:01::": {
-    "meaningZhTW": "（鐘鈴）響；按鈴"
+    "meaningZhTW": "環"
   },
   "rise%1:11:00::": {
     "meaningZhTW": "上升"
@@ -7764,7 +7764,7 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "統治者"
   },
   "run%2:38:00::": {
-    "meaningZhTW": "跑步；奔跑"
+    "meaningZhTW": "跑"
   },
   "run%2:38:04::": {
     "meaningZhTW": "跑"
@@ -8625,16 +8625,16 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "花費"
   },
   "spring%1:28:00::": {
-    "meaningZhTW": "春天；春季"
+    "meaningZhTW": "春天"
   },
   "spring%1:06:00::": {
-    "meaningZhTW": "彈簧"
+    "meaningZhTW": "春天"
   },
   "spring%1:17:00::": {
-    "meaningZhTW": "泉水；溫泉"
+    "meaningZhTW": "春天"
   },
   "spring%2:38:01::": {
-    "meaningZhTW": "跳躍；彈跳"
+    "meaningZhTW": "春天"
   },
   "spring%2:42:00::": {
     "meaningZhTW": "春天"
@@ -9924,7 +9924,7 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "暖和的"
   },
   "watch%2:39:00::": {
-    "meaningZhTW": "觀看；注視"
+    "meaningZhTW": "觀察"
   },
   "watch%2:41:00::": {
     "meaningZhTW": "觀察"
@@ -9933,25 +9933,25 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "觀察"
   },
   "watch%1:06:00::": {
-    "meaningZhTW": "手錶"
+    "meaningZhTW": "觀察"
   },
   "watch%1:28:00::": {
     "meaningZhTW": "觀察"
   },
   "watch%1:04:00::": {
-    "meaningZhTW": "看守；監視"
+    "meaningZhTW": "觀察"
   },
   "water%1:27:00::": {
     "meaningZhTW": "水"
   },
   "water%1:17:00::": {
-    "meaningZhTW": "水域；海域"
+    "meaningZhTW": "水"
   },
   "water%1:27:02::": {
     "meaningZhTW": "水"
   },
   "water%2:30:00::": {
-    "meaningZhTW": "澆水；供水"
+    "meaningZhTW": "水"
   },
   "water%2:40:00::": {
     "meaningZhTW": "水"

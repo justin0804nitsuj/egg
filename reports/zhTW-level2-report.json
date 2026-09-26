@@ -1,0 +1,1121 @@
+{
+  "generatedAt": "2026-09-26T15:28:00.094Z",
+  "scope": "level-2-only",
+  "level2WordCount": 1002,
+  "level2MatchedWordCount": 984,
+  "translatedRawSenseCount": 3299,
+  "learnerMeaningsBeforeDeduplication": 3299,
+  "learnerMeaningsAfterDeduplication": 1371,
+  "duplicatesRemovedFromDisplay": 1928,
+  "wordsAffectedByDeduplication": 859,
+  "wordsWithMultipleTranslatedSensesCount": 873,
+  "suspiciousAmbiguousCount": 61,
+  "mergedDuplicateExamples": [
+    {
+      "wordId": "absence-1003",
+      "word": "absence",
+      "pos": "noun",
+      "meaningZhTW": "缺席",
+      "primarySenseId": "absence%1:26:00::",
+      "sourceSenseIds": [
+        "absence%1:26:00::",
+        "absence%1:04:00::",
+        "absence%1:28:00::"
+      ],
+      "englishDefinitions": [
+        "the state of being absent",
+        "failure to be present",
+        "the time interval during which something or somebody is away"
+      ]
+    },
+    {
+      "wordId": "absent-1004",
+      "word": "absent",
+      "pos": "adjective",
+      "meaningZhTW": "缺席的",
+      "primarySenseId": "absent%3:00:00::",
+      "sourceSenseIds": [
+        "absent%3:00:00::",
+        "absent%5:00:00:nonexistent:00",
+        "absent%5:00:00:inattentive:00"
+      ],
+      "englishDefinitions": [
+        "not being in a specified place",
+        "nonexistent",
+        "lost in thought; showing preoccupation"
+      ]
+    },
+    {
+      "wordId": "accept-1005",
+      "word": "accept",
+      "pos": "verb",
+      "meaningZhTW": "接受",
+      "primarySenseId": "accept%2:31:00::",
+      "sourceSenseIds": [
+        "accept%2:31:00::",
+        "accept%2:40:00::",
+        "accept%2:32:00::"
+      ],
+      "englishDefinitions": [
+        "consider or hold as true",
+        "receive willingly something given or offered",
+        "give an affirmative reply to; respond favorably to"
+      ]
+    },
+    {
+      "wordId": "accident-1006",
+      "word": "accident",
+      "pos": "noun",
+      "meaningZhTW": "意外事件",
+      "primarySenseId": "accident%1:11:01::",
+      "sourceSenseIds": [
+        "accident%1:11:01::",
+        "accident%1:11:00::"
+      ],
+      "englishDefinitions": [
+        "an unfortunate mishap; especially one causing damage or injury",
+        "anything that happens suddenly or by chance without an apparent cause"
+      ]
+    },
+    {
+      "wordId": "account-1007",
+      "word": "account",
+      "pos": "noun",
+      "meaningZhTW": "報告",
+      "primarySenseId": "account%1:10:00::",
+      "sourceSenseIds": [
+        "account%1:10:00::",
+        "account%1:10:03::",
+        "account%1:26:00::"
+      ],
+      "englishDefinitions": [
+        "a record or narrative description of past events",
+        "a short account of the news",
+        "a formal contractual relationship established to provide for regular banking or brokerage or business services"
+      ]
+    },
+    {
+      "wordId": "account-1007",
+      "word": "account",
+      "pos": "verb",
+      "meaningZhTW": "報告",
+      "primarySenseId": "account%2:42:01::",
+      "sourceSenseIds": [
+        "account%2:42:01::",
+        "account%2:40:00::",
+        "account%2:32:02::"
+      ],
+      "englishDefinitions": [
+        "be the sole or primary factor in the existence, acquisition, supply, or disposal of something",
+        "keep an account of",
+        "to give an account or representation of in words"
+      ]
+    },
+    {
+      "wordId": "active-1008",
+      "word": "active",
+      "pos": "adjective",
+      "meaningZhTW": "活躍的",
+      "primarySenseId": "active%3:00:02::",
+      "sourceSenseIds": [
+        "active%3:00:02::",
+        "active%5:00:00:operational:00",
+        "active%3:00:03::"
+      ],
+      "englishDefinitions": [
+        "tending to become more severe or wider in scope",
+        "engaged in or ready for military or naval operations",
+        "disposed to take action or effectuate change"
+      ]
+    },
+    {
+      "wordId": "activity-1009",
+      "word": "activity",
+      "pos": "noun",
+      "meaningZhTW": "活動",
+      "primarySenseId": "activity%1:04:00::",
+      "sourceSenseIds": [
+        "activity%1:04:00::",
+        "activity%1:26:00::",
+        "activity%1:22:00::"
+      ],
+      "englishDefinitions": [
+        "any specific behavior",
+        "the state of being active",
+        "an organic process that takes place in the body"
+      ]
+    },
+    {
+      "wordId": "actual-1010",
+      "word": "actual",
+      "pos": "adjective",
+      "meaningZhTW": "真實的",
+      "primarySenseId": "actual%3:00:00::",
+      "sourceSenseIds": [
+        "actual%3:00:00::",
+        "actual%5:00:00:real:00",
+        "actual%5:00:00:true:00"
+      ],
+      "englishDefinitions": [
+        "presently existing in fact and not merely potential or possible",
+        "taking place in reality; not pretended or imitated",
+        "being or reflecting the essential or genuine character of something"
+      ]
+    },
+    {
+      "wordId": "addition-1011",
+      "word": "addition",
+      "pos": "noun",
+      "meaningZhTW": "加法",
+      "primarySenseId": "addition%1:06:00::",
+      "sourceSenseIds": [
+        "addition%1:06:00::",
+        "addition%1:04:02::",
+        "addition%1:23:00::"
+      ],
+      "englishDefinitions": [
+        "a component that is added to something to improve it",
+        "the act of adding one thing to another",
+        "a quantity that is added"
+      ]
+    },
+    {
+      "wordId": "address-1012",
+      "word": "address",
+      "pos": "verb",
+      "meaningZhTW": "住址",
+      "primarySenseId": "address%2:32:00::",
+      "sourceSenseIds": [
+        "address%2:32:00::",
+        "address%2:32:02::",
+        "address%2:32:03::"
+      ],
+      "englishDefinitions": [
+        "speak to",
+        "give a speech to",
+        "put an address on (an envelope)"
+      ]
+    },
+    {
+      "wordId": "address-1012",
+      "word": "address",
+      "pos": "noun",
+      "meaningZhTW": "住址",
+      "primarySenseId": "address%1:10:04::",
+      "sourceSenseIds": [
+        "address%1:10:04::",
+        "address%1:15:00::",
+        "address%1:10:00::"
+      ],
+      "englishDefinitions": [
+        "(computer science) the code that identifies where a piece of information is stored",
+        "the place where a person or organization can be found or communicated with",
+        "the act of delivering a formal spoken communication to an audience"
+      ]
+    },
+    {
+      "wordId": "admit-1013",
+      "word": "admit",
+      "pos": "verb",
+      "meaningZhTW": "承認",
+      "primarySenseId": "admit%2:32:00::",
+      "sourceSenseIds": [
+        "admit%2:32:00::",
+        "admit%2:41:01::",
+        "admit%2:41:00::"
+      ],
+      "englishDefinitions": [
+        "declare to be true or admit the existence or reality or truth of",
+        "allow to enter; grant entry to",
+        "allow participation in or the right to be part of; permit to exercise the rights, functions, and responsibilities of"
+      ]
+    },
+    {
+      "wordId": "adult-1014",
+      "word": "adult",
+      "pos": "noun",
+      "meaningZhTW": "成人",
+      "primarySenseId": "adult%1:18:00::",
+      "sourceSenseIds": [
+        "adult%1:18:00::",
+        "adult%1:05:00::"
+      ],
+      "englishDefinitions": [
+        "a fully developed person from maturity onward",
+        "any mature animal"
+      ]
+    },
+    {
+      "wordId": "adult-1014",
+      "word": "adult",
+      "pos": "adjective",
+      "meaningZhTW": "成人",
+      "primarySenseId": "adult%5:00:00:mature:01",
+      "sourceSenseIds": [
+        "adult%5:00:00:mature:01",
+        "adult%5:00:00:sexy:00"
+      ],
+      "englishDefinitions": [
+        "(of animals) fully developed",
+        "designed to arouse lust"
+      ]
+    },
+    {
+      "wordId": "advance-1015",
+      "word": "advance",
+      "pos": "noun",
+      "meaningZhTW": "前進",
+      "primarySenseId": "advance%1:11:00::",
+      "sourceSenseIds": [
+        "advance%1:11:00::",
+        "advance%1:11:01::",
+        "advance%1:10:00::"
+      ],
+      "englishDefinitions": [
+        "a movement forward",
+        "a change for the better; progress in development",
+        "a tentative suggestion designed to elicit the reactions of others"
+      ]
+    },
+    {
+      "wordId": "advance-1015",
+      "word": "advance",
+      "pos": "verb",
+      "meaningZhTW": "前進",
+      "primarySenseId": "advance%2:38:00::",
+      "sourceSenseIds": [
+        "advance%2:38:00::",
+        "advance%2:32:00::",
+        "advance%2:41:01::"
+      ],
+      "englishDefinitions": [
+        "move forward, also in the metaphorical sense",
+        "bring forward for consideration or acceptance",
+        "contribute to the progress or growth of"
+      ]
+    },
+    {
+      "wordId": "affair-1017",
+      "word": "affair",
+      "pos": "noun",
+      "meaningZhTW": "事件",
+      "primarySenseId": "affair%1:09:00::",
+      "sourceSenseIds": [
+        "affair%1:09:00::",
+        "affair%1:26:00::",
+        "affair%1:11:00::"
+      ],
+      "englishDefinitions": [
+        "a vaguely specified concern",
+        "a usually secretive or illicit sexual relationship",
+        "a formal or official social gathering or ceremony of people"
+      ]
+    },
+    {
+      "wordId": "affect-1018",
+      "word": "affect",
+      "pos": "verb",
+      "meaningZhTW": "影響",
+      "primarySenseId": "affect%2:30:00::",
+      "sourceSenseIds": [
+        "affect%2:30:00::",
+        "affect%2:29:00::",
+        "affect%2:42:00::"
+      ],
+      "englishDefinitions": [
+        "have an effect upon",
+        "act physically on; have an effect upon",
+        "connect closely and often incriminatingly"
+      ]
+    },
+    {
+      "wordId": "ahead-1020",
+      "word": "ahead",
+      "pos": "adverb",
+      "meaningZhTW": "領先的",
+      "primarySenseId": "ahead%4:02:00::",
+      "sourceSenseIds": [
+        "ahead%4:02:00::",
+        "ahead%4:02:06::",
+        "ahead%4:02:02::"
+      ],
+      "englishDefinitions": [
+        "at or in the front",
+        "toward the future; forward in time",
+        "in a forward direction"
+      ]
+    },
+    {
+      "wordId": "aid-1021",
+      "word": "aid",
+      "pos": "noun",
+      "meaningZhTW": "幫助",
+      "primarySenseId": "aid%1:07:00::",
+      "sourceSenseIds": [
+        "aid%1:07:00::",
+        "aid%1:04:00::",
+        "aid%1:21:00::"
+      ],
+      "englishDefinitions": [
+        "a person or thing that is a resource that helps make something easier or possible to do",
+        "the activity of contributing to the fulfillment of a need or furtherance of an effort or purpose",
+        "gift of money or other material help to support a person or cause"
+      ]
+    },
+    {
+      "wordId": "aid-1021",
+      "word": "aid",
+      "pos": "verb",
+      "meaningZhTW": "幫助",
+      "primarySenseId": "aid%2:41:00::",
+      "sourceSenseIds": [
+        "aid%2:41:00::",
+        "aid%2:29:00::"
+      ],
+      "englishDefinitions": [
+        "give help or assistance; be of service",
+        "improve the condition of"
+      ]
+    },
+    {
+      "wordId": "aim-1022",
+      "word": "aim",
+      "pos": "noun",
+      "meaningZhTW": "目標",
+      "primarySenseId": "aim%1:09:00::",
+      "sourceSenseIds": [
+        "aim%1:09:00::",
+        "aim%1:09:01::",
+        "aim%1:04:00::"
+      ],
+      "englishDefinitions": [
+        "an anticipated outcome that is intended or that guides your planned actions",
+        "the goal intended to be attained (and which is believed to be attainable)",
+        "the action of directing something at an object"
+      ]
+    },
+    {
+      "wordId": "aim-1022",
+      "word": "aim",
+      "pos": "verb",
+      "meaningZhTW": "目標",
+      "primarySenseId": "aim%2:33:00::",
+      "sourceSenseIds": [
+        "aim%2:33:00::",
+        "aim%2:31:01::",
+        "aim%2:32:09::"
+      ],
+      "englishDefinitions": [
+        "point or cause to go (blows, weapons, or objects such as photographic equipment) towards",
+        "propose or intend",
+        "move into a desired direction of discourse"
+      ]
+    },
+    {
+      "wordId": "alarm-1024",
+      "word": "alarm",
+      "pos": "noun",
+      "meaningZhTW": "驚恐",
+      "primarySenseId": "alarm%1:12:00::",
+      "sourceSenseIds": [
+        "alarm%1:12:00::",
+        "alarm%1:06:00::",
+        "alarm%1:10:00::"
+      ],
+      "englishDefinitions": [
+        "fear resulting from the awareness of danger",
+        "a device that signals the occurrence of some undesirable event",
+        "an automatic signal (usually a sound) warning of danger"
+      ]
+    },
+    {
+      "wordId": "alarm-1024",
+      "word": "alarm",
+      "pos": "verb",
+      "meaningZhTW": "驚恐",
+      "primarySenseId": "alarm%2:37:00::",
+      "sourceSenseIds": [
+        "alarm%2:37:00::",
+        "alarm%2:32:00::"
+      ],
+      "englishDefinitions": [
+        "fill with apprehension or alarm; cause to be unpleasantly surprised",
+        "warn or arouse to a sense of danger or call to a state of preparedness"
+      ]
+    },
+    {
+      "wordId": "album-1025",
+      "word": "album",
+      "pos": "noun",
+      "meaningZhTW": "粘貼簿",
+      "primarySenseId": "album%1:10:00::",
+      "sourceSenseIds": [
+        "album%1:10:00::",
+        "album%1:06:00::"
+      ],
+      "englishDefinitions": [
+        "one or more recordings issued together; originally released on 12-inch phonograph records (usually with attractive record covers) and later on cassette audiotape and compact disc",
+        "a book of blank pages with pockets or envelopes; for organizing photographs or stamp collections etc"
+      ]
+    },
+    {
+      "wordId": "alike-1026",
+      "word": "alike",
+      "pos": "adverb",
+      "meaningZhTW": "相似的",
+      "primarySenseId": "alike%4:02:00::",
+      "sourceSenseIds": [
+        "alike%4:02:00::",
+        "alike%4:02:01::"
+      ],
+      "englishDefinitions": [
+        "equally",
+        "in a like manner"
+      ]
+    },
+    {
+      "wordId": "alive-1027",
+      "word": "alive",
+      "pos": "adjective",
+      "meaningZhTW": "活著的",
+      "primarySenseId": "alive%3:00:01::",
+      "sourceSenseIds": [
+        "alive%3:00:01::",
+        "alive%5:00:00:lively:00",
+        "alive%3:00:04::"
+      ],
+      "englishDefinitions": [
+        "possessing life",
+        "(often followed by ‘with’) full of life and spirit",
+        "having life or vigor or spirit"
+      ]
+    },
+    {
+      "wordId": "alone-1028",
+      "word": "alone",
+      "pos": "adverb",
+      "meaningZhTW": "孤獨的",
+      "primarySenseId": "alone%4:02:00::",
+      "sourceSenseIds": [
+        "alone%4:02:00::",
+        "alone%4:02:01::"
+      ],
+      "englishDefinitions": [
+        "without any others being included or involved",
+        "without anybody else or anything else"
+      ]
+    }
+  ],
+  "suspiciousAmbiguousTranslations": [
+    {
+      "wordId": "album-1025",
+      "word": "album",
+      "senseId": "album%1:10:00::",
+      "synsetId": "06604096-n",
+      "pos": "noun",
+      "englishDefinition": "one or more recordings issued together; originally released on 12-inch phonograph records (usually with attractive record covers) and later on cassette audiotape and compact disc",
+      "meaningZhTW": "粘貼簿",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "arrow-1050",
+      "word": "arrow",
+      "senseId": "arrow%1:06:00::",
+      "synsetId": "02745758-n",
+      "pos": "noun",
+      "englishDefinition": "a projectile with a straight thin shaft and an arrowhead on one end and stabilizing vanes on the other; intended to be shot from a bow",
+      "meaningZhTW": "箭",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "better-1090",
+      "word": "better",
+      "senseId": "better%3:00:00::",
+      "synsetId": "00231927-a",
+      "pos": "adjective",
+      "englishDefinition": "(comparative of ‘good’) superior to another (of the same class or set or kind) in excellence or quality or desirability or suitability; more highly skilled than another",
+      "meaningZhTW": "較好的",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "billion-1093",
+      "word": "billion",
+      "senseId": "billion%1:23:01::",
+      "synsetId": "13774312-n",
+      "pos": "noun",
+      "englishDefinition": "the number that is represented as a one followed by 12 zeros; in the United Kingdom the usage followed in the United States is frequently seen",
+      "meaningZhTW": "十億",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "brain-1108",
+      "word": "brain",
+      "senseId": "brain%1:08:00::",
+      "synsetId": "05488747-n",
+      "pos": "noun",
+      "englishDefinition": "that part of the central nervous system that includes all the higher nervous centers; enclosed within the skull; continuous with the spinal cord",
+      "meaningZhTW": "腦",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "cancer-1128",
+      "word": "cancer",
+      "senseId": "cancer%1:26:00::",
+      "synsetId": "14263400-n",
+      "pos": "noun",
+      "englishDefinition": "any malignant growth or tumor caused by abnormal and uncontrolled cell division; it may spread to other parts of the body through the lymphatic system or the blood stream",
+      "meaningZhTW": "癌",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "candle-1129",
+      "word": "candle",
+      "senseId": "candle%1:23:00::",
+      "synsetId": "13663013-n",
+      "pos": "noun",
+      "englishDefinition": "the basic unit of luminous intensity adopted under the Systeme International d'Unites; equal to 1/60 of the luminous intensity per square centimeter of a black body radiating at the temperature of 2,046 degrees Kelvin",
+      "meaningZhTW": "蠟燭",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "cell-1136",
+      "word": "cell",
+      "senseId": "cell%1:03:00::",
+      "synsetId": "00006484-n",
+      "pos": "noun",
+      "englishDefinition": "(biology) the basic structural and functional unit of all organisms; they may exist as independent units of life (as in monads) or may form colonies or tissues as in higher plants and animals",
+      "meaningZhTW": "單元",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "chalk-1142",
+      "word": "chalk",
+      "senseId": "chalk%1:06:01::",
+      "synsetId": "03759824-n",
+      "pos": "noun",
+      "englishDefinition": "an amphetamine derivative (trade name Methedrine) used in the form of a crystalline hydrochloride; used as a stimulant to the nervous system and as an appetite suppressant",
+      "meaningZhTW": "粉筆",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "chase-1149",
+      "word": "chase",
+      "senseId": "chase%1:06:00::",
+      "synsetId": "03013937-n",
+      "pos": "noun",
+      "englishDefinition": "a rectangular metal frame used in letterpress printing to hold together the pages or columns of composed type that are printed at one time",
+      "meaningZhTW": "追求",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "clap-1160",
+      "word": "clap",
+      "senseId": "clap%1:26:00::",
+      "synsetId": "14157025-n",
+      "pos": "noun",
+      "englishDefinition": "a common venereal disease caused by the bacterium Neisseria gonorrhoeae; symptoms are painful urination and pain around the urethra",
+      "meaningZhTW": "拍手",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "complex-1185",
+      "word": "complex",
+      "senseId": "complex%1:12:00::",
+      "synsetId": "07497661-n",
+      "pos": "noun",
+      "englishDefinition": "(psychoanalysis) a combination of emotions and impulses that have been rejected from awareness but still influence a person's behavior",
+      "meaningZhTW": "綜合體",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "corn-1201",
+      "word": "corn",
+      "senseId": "corn%1:20:00::",
+      "synsetId": "12164193-n",
+      "pos": "noun",
+      "englishDefinition": "tall annual cereal grass bearing kernels on large ears: widely cultivated in America in many varieties; the principal cereal in Mexico and Central and South America since pre-Columbian times",
+      "meaningZhTW": "玉蜀黍",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "cream-1208",
+      "word": "cream",
+      "senseId": "cream%1:06:00::",
+      "synsetId": "03133170-n",
+      "pos": "noun",
+      "englishDefinition": "toiletry consisting of any of various substances in the form of a thick liquid that have a soothing and moisturizing effect when applied to the skin",
+      "meaningZhTW": "乳酪",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "develop(ment)-1248",
+      "word": "develop(ment)",
+      "senseId": "development%1:22:01::",
+      "synsetId": "13510240-n",
+      "pos": "noun",
+      "englishDefinition": "(biology) the process of an individual organism growing organically; a purely biological unfolding of events involved in an organism changing gradually from a simple to a more complex level",
+      "meaningZhTW": "發展",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "earthquake-1290",
+      "word": "earthquake",
+      "senseId": "earthquake%1:11:00::",
+      "synsetId": "07443554-n",
+      "pos": "noun",
+      "englishDefinition": "shaking and vibration at the surface of the earth resulting from underground movement along a fault plane or from volcanic activity",
+      "meaningZhTW": "地震",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "energy-1311",
+      "word": "energy",
+      "senseId": "energy%1:19:00::",
+      "synsetId": "11472635-n",
+      "pos": "noun",
+      "englishDefinition": "(physics) a thermodynamic quantity equivalent to the capacity of a physical system to do work; the units of energy are joules or ergs",
+      "meaningZhTW": "精力",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "flag-1362",
+      "word": "flag",
+      "senseId": "flag%1:10:01::",
+      "synsetId": "06505149-n",
+      "pos": "noun",
+      "englishDefinition": "a listing printed in all issues of a newspaper or magazine (usually on the editorial page) that gives the name of the publication and the names of the editorial staff, etc.",
+      "meaningZhTW": "標志",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "football-1372",
+      "word": "football",
+      "senseId": "football%1:04:00::",
+      "synsetId": "00469555-n",
+      "pos": "noun",
+      "englishDefinition": "any of various games played with a ball (round or oval) in which two teams try to kick or carry or propel the ball into each other's goal",
+      "meaningZhTW": "足球",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "formal-1377",
+      "word": "formal",
+      "senseId": "formal%3:00:02::",
+      "synsetId": "01048915-a",
+      "pos": "adjective",
+      "englishDefinition": "(of spoken and written language) adhering to traditional standards of correctness and without casual, contracted, and colloquial forms",
+      "meaningZhTW": "正式的",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "function-1388",
+      "word": "function",
+      "senseId": "function%1:24:00::",
+      "synsetId": "13806028-n",
+      "pos": "noun",
+      "englishDefinition": "(mathematics) a mathematical relation such that each element of a given set (the domain of the function) is associated with an element of another set (the range of the function)",
+      "meaningZhTW": "官能",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "gold-1404",
+      "word": "gold",
+      "senseId": "gold%1:27:00::",
+      "synsetId": "14662977-n",
+      "pos": "noun",
+      "englishDefinition": "a soft yellow malleable ductile (trivalent and univalent) metallic element; occurs mainly as nuggets in rocks and alluvial deposits; does not react with most chemicals but is attacked by chlorine and aqua regia",
+      "meaningZhTW": "黃金",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "growth-1415",
+      "word": "growth",
+      "senseId": "growth%1:22:00::",
+      "synsetId": "13510240-n",
+      "pos": "noun",
+      "englishDefinition": "(biology) the process of an individual organism growing organically; a purely biological unfolding of events involved in an organism changing gradually from a simple to a more complex level",
+      "meaningZhTW": "生長",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "hip-1433",
+      "word": "hip",
+      "senseId": "hip%1:08:01::",
+      "synsetId": "05604406-n",
+      "pos": "noun",
+      "englishDefinition": "the structure of the vertebrate skeleton supporting the lower limbs in humans and the hind limbs or corresponding parts in other vertebrates",
+      "meaningZhTW": "臀部",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "hop-1437",
+      "word": "hop",
+      "senseId": "hop%1:20:00::",
+      "synsetId": "12418369-n",
+      "pos": "noun",
+      "englishDefinition": "twining perennials having cordate leaves and flowers arranged in conelike spikes; the dried flowers of this plant are used in brewing to add the characteristic bitter taste to beer",
+      "meaningZhTW": "單腳跳",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "internet/internet-1473",
+      "word": "Internet/internet",
+      "senseId": "internet%1:06:00::",
+      "synsetId": "03585784-n",
+      "pos": "noun",
+      "englishDefinition": "a computer network consisting of a worldwide network of computer networks that use the TCP/IP network protocols to facilitate data transmission and exchange",
+      "meaningZhTW": "網際網路",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "iron-1476",
+      "word": "iron",
+      "senseId": "iron%1:27:00::",
+      "synsetId": "14666595-n",
+      "pos": "noun",
+      "englishDefinition": "a heavy ductile magnetic metallic element; is silver-white in pure form but readily rusts; used in construction and tools and armament; plays a role in the transport of oxygen by the blood",
+      "meaningZhTW": "鐵",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "liquid-1510",
+      "word": "liquid",
+      "senseId": "liquid%1:26:00::",
+      "synsetId": "14504004-n",
+      "pos": "noun",
+      "englishDefinition": "the state in which a substance exhibits a characteristic readiness to flow with little or no tendency to disperse and relatively high incompressibility",
+      "meaningZhTW": "液體",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "metal-1546",
+      "word": "metal",
+      "senseId": "metal%1:27:01::",
+      "synsetId": "14610949-n",
+      "pos": "noun",
+      "englishDefinition": "a mixture containing two or more metallic elements or metallic and nonmetallic elements usually fused together or dissolving into each other when molten",
+      "meaningZhTW": "金屬",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "method-1548",
+      "word": "method",
+      "senseId": "method%1:04:00::",
+      "synsetId": "00550803-n",
+      "pos": "noun",
+      "englishDefinition": "an acting technique introduced by Stanislavsky in which the actor recalls emotions or reactions from his or her own life and uses them to identify with the character being portrayed",
+      "meaningZhTW": "方法",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "mile-1550",
+      "word": "mile",
+      "senseId": "mile%1:23:04::",
+      "synsetId": "13682449-n",
+      "pos": "noun",
+      "englishDefinition": "a unit of length used in navigation; exactly 1,852 meters; historically based on the distance spanned by one minute of arc in latitude",
+      "meaningZhTW": "英裡",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "mixture-1556",
+      "word": "mixture",
+      "senseId": "mixture%1:27:00::",
+      "synsetId": "14610438-n",
+      "pos": "noun",
+      "englishDefinition": "(chemistry) a substance consisting of two or more substances mixed together (not in fixed proportions and not with chemical bonding)",
+      "meaningZhTW": "混合",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "opinion-1600",
+      "word": "opinion",
+      "senseId": "opinion%1:10:01::",
+      "synsetId": "06794876-n",
+      "pos": "noun",
+      "englishDefinition": "a message expressing a belief about something; the expression of a belief that is held with confidence but not substantiated by positive knowledge or proof",
+      "meaningZhTW": "意見",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "panda-1612",
+      "word": "panda",
+      "senseId": "panda%1:05:01::",
+      "synsetId": "02513086-n",
+      "pos": "noun",
+      "englishDefinition": "large black-and-white herbivorous mammal of bamboo forests of China and Tibet; in some classifications considered a member of the bear family or of a separate family Ailuropodidae",
+      "meaningZhTW": "大熊貓",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "patient-1621",
+      "word": "patient",
+      "senseId": "patient%1:10:00::",
+      "synsetId": "06343129-n",
+      "pos": "noun",
+      "englishDefinition": "the semantic role of an entity that is not the agent but is directly involved in or affected by the happening denoted by the verb in the clause",
+      "meaningZhTW": "病人",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "positive-1653",
+      "word": "positive",
+      "senseId": "positive%1:10:00::",
+      "synsetId": "06333461-n",
+      "pos": "noun",
+      "englishDefinition": "the primary form of an adjective or adverb; denotes a quality without qualification, comparison, or relation to increase or diminution",
+      "meaningZhTW": "肯定的",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "possibility-1654",
+      "word": "possibility",
+      "senseId": "possibility%1:09:00::",
+      "synsetId": "05897536-n",
+      "pos": "noun",
+      "englishDefinition": "a tentative insight into the natural world; a concept that is not yet verified but that if true would explain certain facts or phenomena",
+      "meaningZhTW": "可能性",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "pumpkin-1690",
+      "word": "pumpkin",
+      "senseId": "pumpkin%1:20:00::",
+      "synsetId": "12178960-n",
+      "pos": "noun",
+      "englishDefinition": "a coarse vine widely cultivated for its large pulpy round orange fruit with firm orange skin and numerous seeds; subspecies of Cucurbita pepo include the summer squashes and a few autumn squashes",
+      "meaningZhTW": "南瓜",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "railroad/railway-1700",
+      "word": "railroad/railway",
+      "senseId": "railroad%1:06:00::",
+      "synsetId": "04055680-n",
+      "pos": "noun",
+      "englishDefinition": "line that is the commercial organization responsible for operating a system of transportation for trains that pull passengers or freight",
+      "meaningZhTW": "鐵路",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "railroad/railway-1700",
+      "word": "railroad/railway",
+      "senseId": "railway%1:06:00::",
+      "synsetId": "04055680-n",
+      "pos": "noun",
+      "englishDefinition": "line that is the commercial organization responsible for operating a system of transportation for trains that pull passengers or freight",
+      "meaningZhTW": "鐵路",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "record-1711",
+      "word": "record",
+      "senseId": "record%1:10:03::",
+      "synsetId": "06659969-n",
+      "pos": "noun",
+      "englishDefinition": "anything (such as a document or a phonograph record or a photograph) providing permanent evidence of or information about past events",
+      "meaningZhTW": "記錄",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "record-1711",
+      "word": "record",
+      "senseId": "record%1:06:00::",
+      "synsetId": "03930191-n",
+      "pos": "noun",
+      "englishDefinition": "sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove",
+      "meaningZhTW": "記錄",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "relation-1720",
+      "word": "relation",
+      "senseId": "relation%1:04:01::",
+      "synsetId": "00847184-n",
+      "pos": "noun",
+      "englishDefinition": "sexual activity between individuals, especially the insertion of a man's penis into a woman's vagina until orgasm and ejaculation occur",
+      "meaningZhTW": "關系",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "relationship-1721",
+      "word": "relationship",
+      "senseId": "relationship%1:24:00::",
+      "synsetId": "13802931-n",
+      "pos": "noun",
+      "englishDefinition": "a relation between people; (‘relationship’ is often used where ‘relation’ would serve, as in ‘the relationship between inflation and unemployment’, but the preferred usage of ‘relationship’ is for human relations or states of relatedness)",
+      "meaningZhTW": "關系",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "rubber-1742",
+      "word": "rubber",
+      "senseId": "rubber%1:27:00::",
+      "synsetId": "15030825-n",
+      "pos": "noun",
+      "englishDefinition": "an elastic material obtained from the latex sap of trees (especially trees of the genera Hevea and Ficus) that can be vulcanized and finished into a variety of products",
+      "meaningZhTW": "橡皮",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "settle(ment)-1780",
+      "word": "settle(ment)",
+      "senseId": "settlement%1:14:00::",
+      "synsetId": "08390976-n",
+      "pos": "noun",
+      "englishDefinition": "a body of people who settle far from home but maintain ties with their homeland; inhabitants remain nationals of their home state but are not literally under the home state's system of government",
+      "meaningZhTW": "定居",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "shark-1783",
+      "word": "shark",
+      "senseId": "shark%1:05:00::",
+      "synsetId": "01484971-n",
+      "pos": "noun",
+      "englishDefinition": "any of numerous elongate mostly marine carnivorous fishes with heterocercal caudal fins and tough skin covered with small toothlike scales",
+      "meaningZhTW": "鯊魚",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "silver-1799",
+      "word": "silver",
+      "senseId": "silver%1:27:00::",
+      "synsetId": "14679133-n",
+      "pos": "noun",
+      "englishDefinition": "a soft white precious univalent metallic element having the highest electrical and thermal conductivity of any metal; occurs in argentite and in free form; used in coins and jewelry and tableware and photography",
+      "meaningZhTW": "銀",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "soybean-1830",
+      "word": "soybean",
+      "senseId": "soybean%1:20:00::",
+      "synsetId": "12552673-n",
+      "pos": "noun",
+      "englishDefinition": "erect bushy hairy annual herb having trifoliate leaves and purple to pink flowers; extensively cultivated for food and forage and soil improvement but especially for its nutritious oil-rich seeds; native to Asia",
+      "meaningZhTW": "大豆",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "soybean-1830",
+      "word": "soybean",
+      "senseId": "soybean%1:13:00::",
+      "synsetId": "07745461-n",
+      "pos": "noun",
+      "englishDefinition": "the most highly proteinaceous vegetable known; the fruit of the soybean plant is used in a variety of foods and as fodder (especially as a replacement for animal protein)",
+      "meaningZhTW": "大豆",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "spider-1835",
+      "word": "spider",
+      "senseId": "spider%1:05:00::",
+      "synsetId": "01774863-n",
+      "pos": "noun",
+      "englishDefinition": "predatory arachnid with eight legs, two poison fangs, two feelers, and usually two silk-spinning organs at the back end of the body; they spin silk to make cocoons for eggs or traps for prey",
+      "meaningZhTW": "蜘蛛",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "spider-1835",
+      "word": "spider",
+      "senseId": "spider%1:10:00::",
+      "synsetId": "06591891-n",
+      "pos": "noun",
+      "englishDefinition": "a computer program that prowls the internet looking for publicly accessible resources that can be added to a database; the database can then be searched with a search engine",
+      "meaningZhTW": "蜘蛛",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "strawberry-1853",
+      "word": "strawberry",
+      "senseId": "strawberry%1:20:00::",
+      "synsetId": "12650905-n",
+      "pos": "noun",
+      "englishDefinition": "any of various low perennial herbs with many runners and bearing white flowers followed by edible fruits having many small achenes scattered on the surface of an enlarged red pulpy berry",
+      "meaningZhTW": "草莓",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "style-1860",
+      "word": "style",
+      "senseId": "style%1:10:00::",
+      "synsetId": "07080699-n",
+      "pos": "noun",
+      "englishDefinition": "a way of expressing something (in language or art or music etc.) that is characteristic of a particular person or group of people or period",
+      "meaningZhTW": "風格",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "switch-1884",
+      "word": "switch",
+      "senseId": "switch%1:06:01::",
+      "synsetId": "04379457-n",
+      "pos": "noun",
+      "englishDefinition": "control consisting of a mechanical or electrical or electronic device for making or breaking or changing the connections in a circuit",
+      "meaningZhTW": "開關",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "tale-1887",
+      "word": "tale",
+      "senseId": "tale%1:10:00::",
+      "synsetId": "07235754-n",
+      "pos": "noun",
+      "englishDefinition": "a message that tells the particulars of an act or occurrence or course of events; presented in writing or drama or cinema or as a radio or television program",
+      "meaningZhTW": "故事",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "terrorism-1897",
+      "word": "terrorism",
+      "senseId": "terrorism%1:04:00::",
+      "synsetId": "00761047-n",
+      "pos": "noun",
+      "englishDefinition": "the calculated use of violence (or the threat of violence) against civilians in order to attain goals that are political or religious or ideological in nature; this is done through intimidation or coercion or instilling fear",
+      "meaningZhTW": "恐怖主義",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "university-1943",
+      "word": "university",
+      "senseId": "university%1:06:00::",
+      "synsetId": "04518297-n",
+      "pos": "noun",
+      "englishDefinition": "establishment where a seat of higher learning is housed, including administrative and living quarters as well as facilities for research and teaching",
+      "meaningZhTW": "大學",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "weight-1972",
+      "word": "weight",
+      "senseId": "weight%1:06:01::",
+      "synsetId": "04578578-n",
+      "pos": "noun",
+      "englishDefinition": "sports equipment used in calisthenic exercises and weightlifting; it is not attached to anything and is raised and lowered by use of the hands and arms",
+      "meaningZhTW": "重",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "wheel-1976",
+      "word": "wheel",
+      "senseId": "wheel%1:06:00::",
+      "synsetId": "04582285-n",
+      "pos": "noun",
+      "englishDefinition": "a simple machine consisting of a circular frame with spokes (or a solid disc) that can rotate on a shaft or axle (as in vehicles or other machines)",
+      "meaningZhTW": "輪子",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "worm-1997",
+      "word": "worm",
+      "senseId": "worm%1:05:00::",
+      "synsetId": "01924944-n",
+      "pos": "noun",
+      "englishDefinition": "any of numerous relatively small elongated soft-bodied animals especially of the phyla Annelida and Chaetognatha and Nematoda and Nemertea and Platyhelminthes; also many insect larvae",
+      "meaningZhTW": "蟲",
+      "reason": "complex_or_technical_definition"
+    }
+  ]
+}

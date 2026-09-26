@@ -1,0 +1,1069 @@
+{
+  "generatedAt": "2026-09-26T16:07:14.102Z",
+  "scope": "level-3-only",
+  "level3WordCount": 1002,
+  "level3MatchedWordCount": 996,
+  "translatedRawSenseCount": 3005,
+  "learnerMeaningsBeforeDeduplication": 3005,
+  "learnerMeaningsAfterDeduplication": 1313,
+  "duplicatesRemovedFromDisplay": 1692,
+  "wordsAffectedByDeduplication": 823,
+  "wordsWithMultipleTranslatedSensesCount": 843,
+  "suspiciousAmbiguousCount": 58,
+  "mergedDuplicateExamples": [
+    {
+      "wordId": "aboard-2005",
+      "word": "aboard",
+      "pos": "adverb",
+      "meaningZhTW": "在船上",
+      "primarySenseId": "aboard%4:02:01::",
+      "sourceSenseIds": [
+        "aboard%4:02:01::",
+        "aboard%4:02:00::",
+        "aboard%4:02:04::"
+      ],
+      "englishDefinitions": [
+        "on a ship, train, plane or other vehicle",
+        "on first or second or third base",
+        "side by side"
+      ]
+    },
+    {
+      "wordId": "acceptable-2006",
+      "word": "acceptable",
+      "pos": "adjective",
+      "meaningZhTW": "可接受的",
+      "primarySenseId": "acceptable%3:00:00::",
+      "sourceSenseIds": [
+        "acceptable%3:00:00::",
+        "acceptable%5:00:00:standard:03",
+        "acceptable%5:00:00:good:01"
+      ],
+      "englishDefinitions": [
+        "worthy of acceptance or satisfactory",
+        "judged to be in conformity with approved usage",
+        "meeting requirements"
+      ]
+    },
+    {
+      "wordId": "accurate-2007",
+      "word": "accurate",
+      "pos": "adjective",
+      "meaningZhTW": "正確的",
+      "primarySenseId": "accurate%3:00:00::",
+      "sourceSenseIds": [
+        "accurate%3:00:00::",
+        "accurate%5:00:00:correct:00"
+      ],
+      "englishDefinitions": [
+        "conforming exactly or almost exactly to fact or to a standard or performing with total accuracy",
+        "(of ideas, images, representations, expressions) characterized by perfect conformity to fact or truth; strictly correct"
+      ]
+    },
+    {
+      "wordId": "ache-2008",
+      "word": "ache",
+      "pos": "verb",
+      "meaningZhTW": "疼痛",
+      "primarySenseId": "ache%2:39:00::",
+      "sourceSenseIds": [
+        "ache%2:39:00::",
+        "ache%2:29:07::"
+      ],
+      "englishDefinitions": [
+        "be the source of pain",
+        "be in pain"
+      ]
+    },
+    {
+      "wordId": "admire-2011",
+      "word": "admire",
+      "pos": "verb",
+      "meaningZhTW": "贊美",
+      "primarySenseId": "admire%2:37:00::",
+      "sourceSenseIds": [
+        "admire%2:37:00::",
+        "admire%2:39:00::"
+      ],
+      "englishDefinitions": [
+        "feel admiration for",
+        "look at with admiration"
+      ]
+    },
+    {
+      "wordId": "advanced-2012",
+      "word": "advanced",
+      "pos": "adjective",
+      "meaningZhTW": "在前的",
+      "primarySenseId": "advanced%5:00:00:precocious:00",
+      "sourceSenseIds": [
+        "advanced%5:00:00:precocious:00",
+        "advanced%5:00:00:late:02",
+        "advanced%5:00:00:progressive:01"
+      ],
+      "englishDefinitions": [
+        "farther along in physical or mental development",
+        "comparatively late in a course of development",
+        "ahead of the times"
+      ]
+    },
+    {
+      "wordId": "advantage-2013",
+      "word": "advantage",
+      "pos": "noun",
+      "meaningZhTW": "優點",
+      "primarySenseId": "advantage%1:07:00::",
+      "sourceSenseIds": [
+        "advantage%1:07:00::",
+        "advantage%1:23:00::",
+        "advantage%1:07:01::"
+      ],
+      "englishDefinitions": [
+        "the quality of having a superior or more favorable position",
+        "(tennis) first point scored after deuce",
+        "benefit resulting from some event or action"
+      ]
+    },
+    {
+      "wordId": "advertise(ment)/ad-2015",
+      "word": "advertise(ment)/ad",
+      "pos": "verb",
+      "meaningZhTW": "廣告；宣傳",
+      "primarySenseId": "advertise%2:32:01::",
+      "sourceSenseIds": [
+        "advertise%2:32:01::",
+        "advertise%2:32:00::"
+      ],
+      "englishDefinitions": [
+        "call attention to",
+        "make publicity for; try to sell (a product)"
+      ]
+    },
+    {
+      "wordId": "advertise(ment)/ad-2015",
+      "word": "advertise(ment)/ad",
+      "pos": "noun",
+      "meaningZhTW": "廣告；宣傳",
+      "primarySenseId": "advertisement%1:10:00::",
+      "sourceSenseIds": [
+        "advertisement%1:10:00::",
+        "ad%1:10:00::"
+      ],
+      "englishDefinitions": [
+        "a public promotion of some product or service",
+        "a public promotion of some product or service"
+      ]
+    },
+    {
+      "wordId": "advise-2016",
+      "word": "advise",
+      "pos": "verb",
+      "meaningZhTW": "勸告",
+      "primarySenseId": "advise%2:32:00::",
+      "sourceSenseIds": [
+        "advise%2:32:00::",
+        "advise%2:32:01::",
+        "advise%2:32:02::"
+      ],
+      "englishDefinitions": [
+        "give advice to",
+        "inform (somebody) of something",
+        "make a proposal, declare a plan for something"
+      ]
+    },
+    {
+      "wordId": "adviser/advisor-2017",
+      "word": "adviser/advisor",
+      "pos": "noun",
+      "meaningZhTW": "顧問",
+      "primarySenseId": "adviser%1:18:00::",
+      "sourceSenseIds": [
+        "adviser%1:18:00::",
+        "advisor%1:18:00::"
+      ],
+      "englishDefinitions": [
+        "an expert who gives advice",
+        "an expert who gives advice"
+      ]
+    },
+    {
+      "wordId": "afford-2018",
+      "word": "afford",
+      "pos": "verb",
+      "meaningZhTW": "買得起",
+      "primarySenseId": "afford%2:34:00::",
+      "sourceSenseIds": [
+        "afford%2:34:00::",
+        "afford%2:40:00::",
+        "afford%2:42:00::"
+      ],
+      "englishDefinitions": [
+        "be able to spare or give up",
+        "be the cause or source of",
+        "have the financial means to do something or buy something"
+      ]
+    },
+    {
+      "wordId": "afterward/afterwards-2019",
+      "word": "afterward/afterwards",
+      "pos": "adverb",
+      "meaningZhTW": "後來；之後",
+      "primarySenseId": "afterward%4:02:00::",
+      "sourceSenseIds": [
+        "afterward%4:02:00::",
+        "afterwards%4:02:00::"
+      ],
+      "englishDefinitions": [
+        "happening at a time subsequent to a reference time",
+        "happening at a time subsequent to a reference time"
+      ]
+    },
+    {
+      "wordId": "agriculture-2020",
+      "word": "agriculture",
+      "pos": "noun",
+      "meaningZhTW": "農業",
+      "primarySenseId": "agriculture%1:04:01::",
+      "sourceSenseIds": [
+        "agriculture%1:04:01::",
+        "agriculture%1:04:00::",
+        "agriculture%1:14:00::"
+      ],
+      "englishDefinitions": [
+        "a large-scale farming enterprise",
+        "the practice of cultivating the land or raising stock",
+        "the class of people engaged in growing food"
+      ]
+    },
+    {
+      "wordId": "airline-2021",
+      "word": "airline",
+      "pos": "noun",
+      "meaningZhTW": "航線",
+      "primarySenseId": "airline%1:06:01::",
+      "sourceSenseIds": [
+        "airline%1:06:01::",
+        "airline%1:06:00::"
+      ],
+      "englishDefinitions": [
+        "a hose that carries air under pressure",
+        "a commercial enterprise that provides scheduled flights for passengers"
+      ]
+    },
+    {
+      "wordId": "alley-2022",
+      "word": "alley",
+      "pos": "noun",
+      "meaningZhTW": "小路",
+      "primarySenseId": "alley%1:06:00::",
+      "sourceSenseIds": [
+        "alley%1:06:00::",
+        "alley%1:06:01::"
+      ],
+      "englishDefinitions": [
+        "a narrow street with walls on both sides",
+        "a lane down which a bowling ball is rolled toward pins"
+      ]
+    },
+    {
+      "wordId": "almond-2023",
+      "word": "almond",
+      "pos": "noun",
+      "meaningZhTW": "杏仁",
+      "primarySenseId": "almond%1:20:00::",
+      "sourceSenseIds": [
+        "almond%1:20:00::",
+        "almond%1:13:00::"
+      ],
+      "englishDefinitions": [
+        "small bushy deciduous tree native to Asia and North Africa having pretty pink blossoms and highly prized edible nuts enclosed in a hard green hull; cultivated in southern Australia and California",
+        "oval-shaped edible seed of the almond tree"
+      ]
+    },
+    {
+      "wordId": "alphabet-2024",
+      "word": "alphabet",
+      "pos": "noun",
+      "meaningZhTW": "字母",
+      "primarySenseId": "alphabet%1:10:00::",
+      "sourceSenseIds": [
+        "alphabet%1:10:00::",
+        "alphabet%1:09:00::"
+      ],
+      "englishDefinitions": [
+        "a character set that includes letters and is used to write a language",
+        "the elementary stages of any subject (usually plural)"
+      ]
+    },
+    {
+      "wordId": "amaze(ment)-2025",
+      "word": "amaze(ment)",
+      "pos": "verb",
+      "meaningZhTW": "使大為吃驚",
+      "primarySenseId": "amaze%2:31:00::",
+      "sourceSenseIds": [
+        "amaze%2:31:00::",
+        "amaze%2:31:01::"
+      ],
+      "englishDefinitions": [
+        "affect with wonder",
+        "be a mystery or bewildering to"
+      ]
+    },
+    {
+      "wordId": "ambassador-2026",
+      "word": "ambassador",
+      "pos": "noun",
+      "meaningZhTW": "大使",
+      "primarySenseId": "ambassador%1:18:00::",
+      "sourceSenseIds": [
+        "ambassador%1:18:00::",
+        "ambassador%1:18:01::"
+      ],
+      "englishDefinitions": [
+        "a diplomat of the highest rank; accredited as representative from one country to another",
+        "an informal representative"
+      ]
+    },
+    {
+      "wordId": "ambition-2027",
+      "word": "ambition",
+      "pos": "noun",
+      "meaningZhTW": "野心",
+      "primarySenseId": "ambition%1:12:00::",
+      "sourceSenseIds": [
+        "ambition%1:12:00::",
+        "ambition%1:07:00::"
+      ],
+      "englishDefinitions": [
+        "a cherished desire",
+        "a strong drive for success"
+      ]
+    },
+    {
+      "wordId": "angel-2029",
+      "word": "angel",
+      "pos": "noun",
+      "meaningZhTW": "天使",
+      "primarySenseId": "angel%1:18:00::",
+      "sourceSenseIds": [
+        "angel%1:18:00::",
+        "angel%1:18:03::"
+      ],
+      "englishDefinitions": [
+        "spiritual being attendant upon God",
+        "a person of exceptional holiness"
+      ]
+    },
+    {
+      "wordId": "announce(ment)-2030",
+      "word": "announce(ment)",
+      "pos": "verb",
+      "meaningZhTW": "宣布",
+      "primarySenseId": "announce%2:32:00::",
+      "sourceSenseIds": [
+        "announce%2:32:00::",
+        "announce%2:32:02::",
+        "announce%2:32:07::"
+      ],
+      "englishDefinitions": [
+        "make known; make an announcement",
+        "announce publicly or officially",
+        "give the names of"
+      ]
+    },
+    {
+      "wordId": "announce(ment)-2030",
+      "word": "announce(ment)",
+      "pos": "noun",
+      "meaningZhTW": "宣布",
+      "primarySenseId": "announcement%1:10:01::",
+      "sourceSenseIds": [
+        "announcement%1:10:01::",
+        "announcement%1:10:00::"
+      ],
+      "englishDefinitions": [
+        "a formal public statement",
+        "a public statement containing information about an event that has happened or is going to happen"
+      ]
+    },
+    {
+      "wordId": "anxious-2031",
+      "word": "anxious",
+      "pos": "adjective",
+      "meaningZhTW": "憂慮的",
+      "primarySenseId": "anxious%5:00:00:eager:00",
+      "sourceSenseIds": [
+        "anxious%5:00:00:eager:00",
+        "anxious%5:00:00:troubled:00"
+      ],
+      "englishDefinitions": [
+        "eagerly desirous",
+        "causing or fraught with or showing anxiety"
+      ]
+    },
+    {
+      "wordId": "anyhow-2032",
+      "word": "anyhow",
+      "pos": "adverb",
+      "meaningZhTW": "無論如何",
+      "primarySenseId": "anyhow%4:02:00::",
+      "sourceSenseIds": [
+        "anyhow%4:02:00::",
+        "anyhow%4:02:01::"
+      ],
+      "englishDefinitions": [
+        "used to indicate that a statement explains or supports a previous statement",
+        "in any way whatsoever"
+      ]
+    },
+    {
+      "wordId": "apart-2033",
+      "word": "apart",
+      "pos": "adverb",
+      "meaningZhTW": "成零碎",
+      "primarySenseId": "apart%4:02:03::",
+      "sourceSenseIds": [
+        "apart%4:02:03::",
+        "apart%4:02:01::",
+        "apart%4:02:07::"
+      ],
+      "englishDefinitions": [
+        "separated or at a distance in place or position or time",
+        "not taken into account or excluded from consideration",
+        "away from another or others"
+      ]
+    },
+    {
+      "wordId": "apologize-2034",
+      "word": "apologize",
+      "pos": "verb",
+      "meaningZhTW": "道歉",
+      "primarySenseId": "apologize%2:32:00::",
+      "sourceSenseIds": [
+        "apologize%2:32:00::",
+        "apologize%2:32:01::"
+      ],
+      "englishDefinitions": [
+        "acknowledge faults or shortcomings or failing",
+        "defend, explain, clear away, or make excuses for by reasoning"
+      ]
+    },
+    {
+      "wordId": "appeal-2035",
+      "word": "appeal",
+      "pos": "noun",
+      "meaningZhTW": "懇求",
+      "primarySenseId": "appeal%1:10:00::",
+      "sourceSenseIds": [
+        "appeal%1:10:00::",
+        "appeal%1:07:00::",
+        "appeal%1:04:00::"
+      ],
+      "englishDefinitions": [
+        "earnest or urgent request",
+        "attractiveness that interests or pleases or stimulates",
+        "(law) a legal proceeding in which the appellant resorts to a higher court for the purpose of obtaining a review of a lower court decision and a reversal of the lower court's judgment or the granting of a new trial"
+      ]
+    },
+    {
+      "wordId": "appeal-2035",
+      "word": "appeal",
+      "pos": "verb",
+      "meaningZhTW": "懇求",
+      "primarySenseId": "appeal%2:41:00::",
+      "sourceSenseIds": [
+        "appeal%2:41:00::",
+        "appeal%2:32:00::",
+        "appeal%2:37:00::"
+      ],
+      "englishDefinitions": [
+        "take a court case to a higher court for review",
+        "request earnestly (something from somebody); ask for aid or protection",
+        "be attractive to"
+      ]
+    }
+  ],
+  "suspiciousAmbiguousTranslations": [
+    {
+      "wordId": "almond-2023",
+      "word": "almond",
+      "senseId": "almond%1:20:00::",
+      "synsetId": "12665935-n",
+      "pos": "noun",
+      "englishDefinition": "small bushy deciduous tree native to Asia and North Africa having pretty pink blossoms and highly prized edible nuts enclosed in a hard green hull; cultivated in southern Australia and California",
+      "meaningZhTW": "杏仁",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "appeal-2035",
+      "word": "appeal",
+      "senseId": "appeal%1:04:00::",
+      "synsetId": "01188101-n",
+      "pos": "noun",
+      "englishDefinition": "(law) a legal proceeding in which the appellant resorts to a higher court for the purpose of obtaining a review of a lower court decision and a reversal of the lower court's judgment or the granting of a new trial",
+      "meaningZhTW": "懇求",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "bacteria-2061",
+      "word": "bacteria",
+      "senseId": "bacteria%1:05:00::",
+      "synsetId": "01351171-n",
+      "pos": "noun",
+      "englishDefinition": "(microbiology) single-celled or noncellular spherical or spiral or rod-shaped organisms lacking chlorophyll that reproduce by fission; important as pathogens and for biochemical properties; taxonomy is difficult; often considered to be plants",
+      "meaningZhTW": "細菌",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "barn-2070",
+      "word": "barn",
+      "senseId": "barn%1:23:00::",
+      "synsetId": "13635537-n",
+      "pos": "noun",
+      "englishDefinition": "(physics) a unit of nuclear cross section; the effective circular area that one particle presents to another as a target for an encounter",
+      "meaningZhTW": "谷倉",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "bay-2073",
+      "word": "bay",
+      "senseId": "bay%1:20:00::",
+      "synsetId": "11724562-n",
+      "pos": "noun",
+      "englishDefinition": "small Mediterranean evergreen tree with small blackish berries and glossy aromatic leaves used for flavoring in cooking; also used by ancient Greeks to crown victors",
+      "meaningZhTW": "海灣",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "brass-2096",
+      "word": "brass",
+      "senseId": "brass%1:06:00::",
+      "synsetId": "02895029-n",
+      "pos": "noun",
+      "englishDefinition": "a wind instrument that consists of a brass tube (usually of variable length) that is blown by means of a cup-shaped or funnel-shaped mouthpiece",
+      "meaningZhTW": "黃銅",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "bulb-2112",
+      "word": "bulb",
+      "senseId": "bulb%1:06:00::",
+      "synsetId": "03671250-n",
+      "pos": "noun",
+      "englishDefinition": "electric lamp consisting of a transparent or translucent glass housing containing a wire filament (usually tungsten) that emits light when heated by electricity",
+      "meaningZhTW": "球莖",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "cherry-2143",
+      "word": "cherry",
+      "senseId": "cherry%1:20:00::",
+      "synsetId": "12662174-n",
+      "pos": "noun",
+      "englishDefinition": "any of numerous trees and shrubs producing a small fleshy round fruit with a single hard stone; many also produce a valuable hardwood",
+      "meaningZhTW": "櫻桃",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "civil-2155",
+      "word": "civil",
+      "senseId": "civil%3:00:00::",
+      "synsetId": "00645401-a",
+      "pos": "adjective",
+      "englishDefinition": "not rude; marked by satisfactory (or especially minimal) adherence to social usages and sufficient but not noteworthy consideration for others",
+      "meaningZhTW": "市民的",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "coconut-2168",
+      "word": "coconut",
+      "senseId": "coconut%1:13:00::",
+      "synsetId": "07788911-n",
+      "pos": "noun",
+      "englishDefinition": "large hard-shelled oval nut with a fibrous husk containing thick white meat surrounding a central cavity filled (when fresh) with fluid or milk",
+      "meaningZhTW": "椰子",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "colony-2171",
+      "word": "colony",
+      "senseId": "colony%1:14:00::",
+      "synsetId": "08390976-n",
+      "pos": "noun",
+      "englishDefinition": "a body of people who settle far from home but maintain ties with their homeland; inhabitants remain nationals of their home state but are not literally under the home state's system of government",
+      "meaningZhTW": "殖民地",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "column-2173",
+      "word": "column",
+      "senseId": "column%1:06:02::",
+      "synsetId": "03078578-n",
+      "pos": "noun",
+      "englishDefinition": "a vertical glass tube used in column chromatography; a mixture is poured in the top and washed through a stationary substance where components of the mixture are adsorbed selectively to form colored bands",
+      "meaningZhTW": "專欄",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "cough-2196",
+      "word": "cough",
+      "senseId": "cough%1:26:00::",
+      "synsetId": "14382579-n",
+      "pos": "noun",
+      "englishDefinition": "a sudden noisy expulsion of air from the lungs that clears the air passages; a common symptom of upper respiratory infection or bronchitis or pneumonia or tuberculosis",
+      "meaningZhTW": "咳嗽",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "disk/disc-2250",
+      "word": "disk/disc",
+      "senseId": "disk%1:06:02::",
+      "synsetId": "03930191-n",
+      "pos": "noun",
+      "englishDefinition": "sound recording consisting of a disk with a continuous groove; used to reproduce music by rotating while a phonograph needle tracks in the groove",
+      "meaningZhTW": "磁盤",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "editor-2277",
+      "word": "editor",
+      "senseId": "editor%1:18:00::",
+      "synsetId": "10064687-n",
+      "pos": "noun",
+      "englishDefinition": "a person responsible for the editorial aspects of publication; the person who determines the final content of a text (especially of a newspaper or magazine)",
+      "meaningZhTW": "編者",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "element-2287",
+      "word": "element",
+      "senseId": "element%1:06:00::",
+      "synsetId": "03085025-n",
+      "pos": "noun",
+      "englishDefinition": "an artifact that is one of the individual parts of which a composite entity is made up; especially a part that can be separated from or attached to a system",
+      "meaningZhTW": "元件",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "element-2287",
+      "word": "element",
+      "senseId": "element%1:27:00::",
+      "synsetId": "14647071-n",
+      "pos": "noun",
+      "englishDefinition": "any of the more than 100 known substances (of which 92 occur naturally) that cannot be separated into simpler substances and that singly or in combination constitute all matter",
+      "meaningZhTW": "元件",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "elevator-2288",
+      "word": "elevator",
+      "senseId": "elevator%1:06:00::",
+      "synsetId": "03286056-n",
+      "pos": "noun",
+      "englishDefinition": "lifting device consisting of a platform or cage that is raised and lowered mechanically in a vertical shaft in order to move people from one floor to another in a building",
+      "meaningZhTW": "電梯",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "flute-2336",
+      "word": "flute",
+      "senseId": "flute%1:06:00::",
+      "synsetId": "03376875-n",
+      "pos": "noun",
+      "englishDefinition": "a high-pitched woodwind instrument; a slender tube closed at one end with finger holes on one end and an opening near the closed end across which the breath is blown",
+      "meaningZhTW": "笛",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "gasoline/gas-2358",
+      "word": "gasoline/gas",
+      "senseId": "gasoline%1:27:00::",
+      "synsetId": "14711074-n",
+      "pos": "noun",
+      "englishDefinition": "a volatile flammable mixture of hydrocarbons (hexane and heptane and octane etc.) derived from petroleum; used mainly as a fuel in internal-combustion engines",
+      "meaningZhTW": "汽油",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "gasoline/gas-2358",
+      "word": "gasoline/gas",
+      "senseId": "gas%1:26:00::",
+      "synsetId": "14504664-n",
+      "pos": "noun",
+      "englishDefinition": "the state of matter distinguished from the solid and liquid states by: relatively low density and viscosity; relatively great expansion and contraction with changes in pressure and temperature; the ability to diffuse readily; and the spontaneous tendency to become distributed uniformly throughout any container",
+      "meaningZhTW": "汽油",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "graduate-2369",
+      "word": "graduate",
+      "senseId": "graduate%1:06:00::",
+      "synsetId": "03456417-n",
+      "pos": "noun",
+      "englishDefinition": "a measuring instrument for measuring fluid volume; a glass container (cup or cylinder or flask) whose sides are marked with or divided into amounts",
+      "meaningZhTW": "畢業生",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "honesty-2412",
+      "word": "honesty",
+      "senseId": "honesty%1:20:00::",
+      "synsetId": "11912010-n",
+      "pos": "noun",
+      "englishDefinition": "southeastern European plant cultivated for its fragrant purplish flowers and round flat papery silver-white seedpods that are used for indoor decoration",
+      "meaningZhTW": "誠實",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "jail-2451",
+      "word": "jail",
+      "senseId": "jail%1:06:00::",
+      "synsetId": "03597432-n",
+      "pos": "noun",
+      "englishDefinition": "a correctional institution used to detain persons who are in the lawful custody of the government (either accused persons awaiting trial or convicted persons serving a sentence)",
+      "meaningZhTW": "監牢",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "knight-2474",
+      "word": "knight",
+      "senseId": "knight%1:18:00::",
+      "synsetId": "10258072-n",
+      "pos": "noun",
+      "englishDefinition": "originally a person of noble birth trained to arms and chivalry; today in Great Britain a person honored by the sovereign for personal merit",
+      "meaningZhTW": "騎士",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "lightning-2497",
+      "word": "lightning",
+      "senseId": "lightning%1:11:00::",
+      "synsetId": "07427593-n",
+      "pos": "noun",
+      "englishDefinition": "the flash of light that accompanies an electric discharge in the atmosphere (or something resembling such a flash); can scintillate for a second or more",
+      "meaningZhTW": "閃電",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "lung-2514",
+      "word": "lung",
+      "senseId": "lung%1:08:00::",
+      "synsetId": "05394887-n",
+      "pos": "noun",
+      "englishDefinition": "either of two saclike respiratory organs in the chest of vertebrates; serves to remove carbon dioxide and provide oxygen to the blood",
+      "meaningZhTW": "肺",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "mall-2520",
+      "word": "mall",
+      "senseId": "mall%1:06:01::",
+      "synsetId": "03971750-n",
+      "pos": "noun",
+      "englishDefinition": "mercantile establishment consisting of a carefully landscaped complex of shops representing leading merchandisers; usually includes restaurants and a convenient parking area; a modern version of the traditional marketplace",
+      "meaningZhTW": "林蔭路",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "microwave-2540",
+      "word": "microwave",
+      "senseId": "microwave%1:19:00::",
+      "synsetId": "11502712-n",
+      "pos": "noun",
+      "englishDefinition": "a short electromagnetic wave (longer than infrared but shorter than radio waves); used for radar and microwave ovens and for transmitting telephone, facsimile, video and data",
+      "meaningZhTW": "微波",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "microwave-2540",
+      "word": "microwave",
+      "senseId": "microwave%1:06:00::",
+      "synsetId": "03766619-n",
+      "pos": "noun",
+      "englishDefinition": "kitchen appliance that cooks food by passing an electromagnetic wave through it; heat results from the absorption of energy by the water molecules in the food",
+      "meaningZhTW": "微波",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "mushroom-2565",
+      "word": "mushroom",
+      "senseId": "mushroom%1:20:02::",
+      "synsetId": "13018679-n",
+      "pos": "noun",
+      "englishDefinition": "any of various fleshy fungi of the subdivision Basidiomycota consisting of a cap at the end of a stem arising from an underground mycelium",
+      "meaningZhTW": "蘑菇形物",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "peanut-2627",
+      "word": "peanut",
+      "senseId": "peanut%1:20:00::",
+      "synsetId": "11768970-n",
+      "pos": "noun",
+      "englishDefinition": "widely cultivated American plant cultivated in tropical and warm regions; showy yellow flowers on stalks that bend over to the soil so that seed pods ripen underground",
+      "meaningZhTW": "花生",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "pepper-2632",
+      "word": "pepper",
+      "senseId": "pepper%1:20:01::",
+      "synsetId": "13170289-n",
+      "pos": "noun",
+      "englishDefinition": "climber having dark red berries (peppercorns) when fully ripe; southern India and Sri Lanka; naturalized in northern Burma and Assam",
+      "meaningZhTW": "胡椒粉",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "pineapple-2644",
+      "word": "pineapple",
+      "senseId": "pineapple%1:20:00::",
+      "synsetId": "12628217-n",
+      "pos": "noun",
+      "englishDefinition": "a tropical American plant bearing a large fleshy edible fruit with a terminal tuft of stiff leaves; widely cultivated in the tropics",
+      "meaningZhTW": "鳳梨",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "pit-2646",
+      "word": "pit",
+      "senseId": "pit%1:20:00::",
+      "synsetId": "11705208-n",
+      "pos": "noun",
+      "englishDefinition": "the hard inner (usually woody) layer of the pericarp of some fruits (as peaches or plums or cherries or olives) that contains the seed",
+      "meaningZhTW": "深坑",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "pitch-2647",
+      "word": "pitch",
+      "senseId": "pitch%1:04:03::",
+      "synsetId": "00107092-n",
+      "pos": "noun",
+      "englishDefinition": "the act of throwing a baseball or softball by the pitcher towards home plate, which initiates play by giving the batter a chance to hit it",
+      "meaningZhTW": "程度",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "plastic-2649",
+      "word": "plastic",
+      "senseId": "plastic%1:27:00::",
+      "synsetId": "14616790-n",
+      "pos": "noun",
+      "englishDefinition": "generic name for certain synthetic or semisynthetic materials that can be molded or extruded into objects or films or filaments or used for making e.g. coatings and adhesives",
+      "meaningZhTW": "塑膠",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "plastic-2649",
+      "word": "plastic",
+      "senseId": "plastic%1:21:00::",
+      "synsetId": "13397185-n",
+      "pos": "noun",
+      "englishDefinition": "a card (usually plastic) that assures a seller that the person using it has sufficient means of payment and that the issuer will see to it that the seller receives payment for the merchandise delivered",
+      "meaningZhTW": "塑膠",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "process-2677",
+      "word": "process",
+      "senseId": "process%1:10:00::",
+      "synsetId": "06568683-n",
+      "pos": "noun",
+      "englishDefinition": "a writ issued by authority of law; usually compels the defendant's attendance in a civil suit; failure to appear results in a default judgment against the defendant",
+      "meaningZhTW": "程式",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "pump-2688",
+      "word": "pump",
+      "senseId": "pump%1:08:00::",
+      "synsetId": "05396148-n",
+      "pos": "noun",
+      "englishDefinition": "the hollow muscular organ located behind the sternum and between the lungs; its rhythmic contractions move the blood through the body",
+      "meaningZhTW": "抽水機",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "puppet-2690",
+      "word": "puppet",
+      "senseId": "puppet%1:06:00::",
+      "synsetId": "04031524-n",
+      "pos": "noun",
+      "englishDefinition": "a doll with a hollow head of a person or animal and a cloth body; intended to fit over the hand and be manipulated with the fingers",
+      "meaningZhTW": "傀儡",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "representative-2725",
+      "word": "representative",
+      "senseId": "representative%5:00:00:democratic:00",
+      "synsetId": "00720006-s",
+      "pos": "adjective",
+      "englishDefinition": "being or characteristic of government by representation in which citizens exercise power through elected officers and representatives",
+      "meaningZhTW": "代表",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "screw-2775",
+      "word": "screw",
+      "senseId": "screw%1:06:02::",
+      "synsetId": "04161401-n",
+      "pos": "noun",
+      "englishDefinition": "a simple machine of the inclined-plane type consisting of a spirally threaded cylindrical rod that engages with a similarly threaded hole",
+      "meaningZhTW": "螺旋",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "shallow-2786",
+      "word": "shallow",
+      "senseId": "shallow%3:00:01::",
+      "synsetId": "00694973-a",
+      "pos": "adjective",
+      "englishDefinition": "lacking physical depth; having little spatial extension downward or inward from an outer surface or backward or outward from a center",
+      "meaningZhTW": "水淺的地方",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "signal-2796",
+      "word": "signal",
+      "senseId": "signal%1:19:00::",
+      "synsetId": "11467415-n",
+      "pos": "noun",
+      "englishDefinition": "an electric quantity (voltage or current or field strength) whose modulation represents coded information about the source from which it comes",
+      "meaningZhTW": "信號",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "similarity-2799",
+      "word": "similarity",
+      "senseId": "similarity%1:09:00::",
+      "synsetId": "06261163-n",
+      "pos": "noun",
+      "englishDefinition": "a Gestalt principle of organization holding that (other things being equal) parts of a stimulus field that are similar to each other tend to be perceived as belonging together as a unit",
+      "meaningZhTW": "類似",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "sink-2802",
+      "word": "sink",
+      "senseId": "sink%1:17:00::",
+      "synsetId": "09458643-n",
+      "pos": "noun",
+      "englishDefinition": "a depression in the ground communicating with a subterranean passage (especially in limestone) and formed by solution or by collapse of a cavern roof",
+      "meaningZhTW": "藏垢的場所",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "skate-2805",
+      "word": "skate",
+      "senseId": "skate%1:06:00::",
+      "synsetId": "04232791-n",
+      "pos": "noun",
+      "englishDefinition": "sports equipment that is worn on the feet to enable the wearer to glide along and to be propelled by the alternate actions of the legs",
+      "meaningZhTW": "溜冰",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "skate-2805",
+      "word": "skate",
+      "senseId": "skate%1:05:00::",
+      "synsetId": "01503801-n",
+      "pos": "noun",
+      "englishDefinition": "large edible rays having a long snout and thick tail with pectoral fins continuous with the head; swim by undulating the edges of the pectoral fins",
+      "meaningZhTW": "溜冰",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "spit-2828",
+      "word": "spit",
+      "senseId": "spit%1:08:00::",
+      "synsetId": "05423542-n",
+      "pos": "noun",
+      "englishDefinition": "a clear liquid secreted into the mouth by the salivary glands and mucous glands of the mouth; moistens the mouth and starts the digestion of starches",
+      "meaningZhTW": "唾液",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "spy-2833",
+      "word": "spy",
+      "senseId": "spy%1:18:00::",
+      "synsetId": "10661153-n",
+      "pos": "noun",
+      "englishDefinition": "(military) a secret agent hired by a state to obtain information about its enemies or by a business to obtain industrial secrets from competitors",
+      "meaningZhTW": "間諜",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "tag-2887",
+      "word": "tag",
+      "senseId": "tag%1:10:00::",
+      "synsetId": "07287841-n",
+      "pos": "noun",
+      "englishDefinition": "a label written or printed on paper, cardboard, or plastic that is attached to something to indicate its owner, nature, price, etc.",
+      "meaningZhTW": "標籤",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "theory-2908",
+      "word": "theory",
+      "senseId": "theory%1:09:00::",
+      "synsetId": "05998364-n",
+      "pos": "noun",
+      "englishDefinition": "a well-substantiated explanation of some aspect of the natural world; an organized system of accepted knowledge that applies in a variety of circumstances to explain a specific set of phenomena",
+      "meaningZhTW": "理論",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "theory-2908",
+      "word": "theory",
+      "senseId": "theory%1:09:01::",
+      "synsetId": "05897536-n",
+      "pos": "noun",
+      "englishDefinition": "a tentative insight into the natural world; a concept that is not yet verified but that if true would explain certain facts or phenomena",
+      "meaningZhTW": "理論",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "transport-2929",
+      "word": "transport",
+      "senseId": "transport%1:22:00::",
+      "synsetId": "13591439-n",
+      "pos": "noun",
+      "englishDefinition": "an exchange of molecules (and their kinetic energy and momentum) across the boundary between adjacent layers of a fluid or across cell membranes",
+      "meaningZhTW": "運輸",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "van-2955",
+      "word": "van",
+      "senseId": "van%1:14:01::",
+      "synsetId": "08482569-n",
+      "pos": "noun",
+      "englishDefinition": "any creative group active in the innovation and application of new concepts and techniques in a given field (especially in the arts)",
+      "meaningZhTW": "貨車",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "variety-2957",
+      "word": "variety",
+      "senseId": "variety%1:14:00::",
+      "synsetId": "08118051-n",
+      "pos": "noun",
+      "englishDefinition": "(biology) a taxonomic category consisting of members of a species that differ from others of the same species in minor but heritable characteristics",
+      "meaningZhTW": "多樣",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "wax-2982",
+      "word": "wax",
+      "senseId": "wax%1:27:00::",
+      "synsetId": "15118861-n",
+      "pos": "noun",
+      "englishDefinition": "any of various substances of either mineral origin or plant or animal origin; they are solid at normal temperatures and insoluble in water",
+      "meaningZhTW": "蠟",
+      "reason": "complex_or_technical_definition"
+    }
+  ]
+}

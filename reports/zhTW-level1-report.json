@@ -1,13 +1,509 @@
 {
-  "generatedAt": "2026-09-24T14:23:23.795Z",
+  "generatedAt": "2026-09-26T16:04:06.188Z",
   "scope": "level-1-only",
   "level1WordCount": 1002,
   "level1MatchedWordCount": 951,
-  "primarySenseCount": 3464,
-  "translatedSenseCount": 3464,
-  "untranslatedSenseCount": 0,
+  "translatedRawSenseCount": 3464,
+  "learnerMeaningsBeforeDeduplication": 3464,
+  "learnerMeaningsAfterDeduplication": 1413,
+  "duplicatesRemovedFromDisplay": 2051,
+  "wordsAffectedByDeduplication": 832,
   "wordsWithMultipleTranslatedSensesCount": 854,
-  "suspiciousAmbiguousCount": 76,
+  "suspiciousAmbiguousCount": 77,
+  "mergedDuplicateExamples": [
+    {
+      "wordId": "able-3",
+      "word": "able",
+      "pos": "adjective",
+      "meaningZhTW": "能幹的",
+      "primarySenseId": "able%3:00:00::",
+      "sourceSenseIds": [
+        "able%3:00:00::",
+        "able%5:00:00:competent:00",
+        "able%5:00:00:capable:00"
+      ],
+      "englishDefinitions": [
+        "(usually followed by ‘to’) having the necessary means or skill or know-how or authority to do something",
+        "have the skills and qualifications to do things well",
+        "having inherent physical or mental ability or capacity"
+      ]
+    },
+    {
+      "wordId": "above-5",
+      "word": "above",
+      "pos": "adverb",
+      "meaningZhTW": "在上方",
+      "primarySenseId": "above%4:02:00::",
+      "sourceSenseIds": [
+        "above%4:02:00::",
+        "above%4:02:01::"
+      ],
+      "englishDefinitions": [
+        "(in writing) at an earlier place",
+        "in or to a place that is higher"
+      ]
+    },
+    {
+      "wordId": "abroad-6",
+      "word": "abroad",
+      "pos": "adverb",
+      "meaningZhTW": "往國外",
+      "primarySenseId": "abroad%4:02:00::",
+      "sourceSenseIds": [
+        "abroad%4:02:00::",
+        "abroad%4:02:02::",
+        "abroad%4:02:01::"
+      ],
+      "englishDefinitions": [
+        "to or in a foreign country",
+        "far away from home or one's usual surroundings",
+        "in a place across an ocean"
+      ]
+    },
+    {
+      "wordId": "across-7",
+      "word": "across",
+      "pos": "adverb",
+      "meaningZhTW": "越過",
+      "primarySenseId": "across%4:02:01::",
+      "sourceSenseIds": [
+        "across%4:02:01::",
+        "across%4:02:00::"
+      ],
+      "englishDefinitions": [
+        "to the opposite side",
+        "transversely"
+      ]
+    },
+    {
+      "wordId": "actor/actress-10",
+      "word": "actor/actress",
+      "pos": "noun",
+      "meaningZhTW": "男演員",
+      "primarySenseId": "actor%1:18:00::",
+      "sourceSenseIds": [
+        "actor%1:18:00::",
+        "actor%1:18:01::",
+        "actress%1:18:00::"
+      ],
+      "englishDefinitions": [
+        "a theatrical performer",
+        "a person who acts and gets things done",
+        "a female actor"
+      ]
+    },
+    {
+      "wordId": "add-11",
+      "word": "add",
+      "pos": "verb",
+      "meaningZhTW": "增加",
+      "primarySenseId": "add%2:30:00::",
+      "sourceSenseIds": [
+        "add%2:30:00::",
+        "add%2:32:01::",
+        "add%2:40:00::"
+      ],
+      "englishDefinitions": [
+        "make an addition (to); join or combine or unite with others; increase the quality, quantity, size or scope of",
+        "state or say further",
+        "bestow a quality on"
+      ]
+    },
+    {
+      "wordId": "afraid-12",
+      "word": "afraid",
+      "pos": "adjective",
+      "meaningZhTW": "害怕的",
+      "primarySenseId": "afraid%3:00:00::",
+      "sourceSenseIds": [
+        "afraid%3:00:00::",
+        "afraid%5:00:00:concerned:00",
+        "afraid%5:00:02:concerned:00"
+      ],
+      "englishDefinitions": [
+        "filled with fear or apprehension",
+        "filled with regret or concern; used often to soften an unpleasant statement",
+        "feeling worry or concern or insecurity"
+      ]
+    },
+    {
+      "wordId": "after-13",
+      "word": "after",
+      "pos": "adverb",
+      "meaningZhTW": "在...之後",
+      "primarySenseId": "after%4:02:01::",
+      "sourceSenseIds": [
+        "after%4:02:01::",
+        "after%4:02:00::"
+      ],
+      "englishDefinitions": [
+        "happening at a time subsequent to a reference time",
+        "behind or in the rear"
+      ]
+    },
+    {
+      "wordId": "afternoon-14",
+      "word": "afternoon",
+      "pos": "noun",
+      "meaningZhTW": "午後",
+      "primarySenseId": "afternoon%1:28:00::",
+      "sourceSenseIds": [
+        "afternoon%1:28:00::",
+        "afternoon%1:10:00::"
+      ],
+      "englishDefinitions": [
+        "the part of the day between noon and evening",
+        "a conventional expression of greeting or farewell, used to wish someone a good afternoon"
+      ]
+    },
+    {
+      "wordId": "age-16",
+      "word": "age",
+      "pos": "noun",
+      "meaningZhTW": "年齡",
+      "primarySenseId": "age%1:07:00::",
+      "sourceSenseIds": [
+        "age%1:07:00::",
+        "age%1:28:02::",
+        "age%1:28:00::"
+      ],
+      "englishDefinitions": [
+        "how long something has existed",
+        "an era of history having some distinctive feature",
+        "a time of life (usually defined in years) at which some particular qualification or power arises"
+      ]
+    },
+    {
+      "wordId": "age-16",
+      "word": "age",
+      "pos": "verb",
+      "meaningZhTW": "年齡",
+      "primarySenseId": "age%2:30:01::",
+      "sourceSenseIds": [
+        "age%2:30:01::",
+        "age%2:30:00::",
+        "age%2:30:02::"
+      ],
+      "englishDefinitions": [
+        "begin to seem older; get older",
+        "grow old or older",
+        "make older"
+      ]
+    },
+    {
+      "wordId": "agree(ment)-18",
+      "word": "agree(ment)",
+      "pos": "verb",
+      "meaningZhTW": "同意",
+      "primarySenseId": "agree%2:32:00::",
+      "sourceSenseIds": [
+        "agree%2:32:00::",
+        "agree%2:32:01::",
+        "agree%2:42:00::"
+      ],
+      "englishDefinitions": [
+        "be in accord; be in agreement",
+        "consent or assent to a condition, or agree to do something",
+        "be compatible, similar or consistent; coincide in their characteristics"
+      ]
+    },
+    {
+      "wordId": "agree(ment)-18",
+      "word": "agree(ment)",
+      "pos": "noun",
+      "meaningZhTW": "同意",
+      "primarySenseId": "agreement%1:10:01::",
+      "sourceSenseIds": [
+        "agreement%1:10:01::",
+        "agreement%1:07:00::",
+        "agreement%1:26:01::"
+      ],
+      "englishDefinitions": [
+        "the statement (oral or written) of an exchange of promises",
+        "compatibility of observations",
+        "harmony of people's opinions or actions or characters"
+      ]
+    },
+    {
+      "wordId": "air-19",
+      "word": "air",
+      "pos": "noun",
+      "meaningZhTW": "空氣",
+      "primarySenseId": "air%1:27:00::",
+      "sourceSenseIds": [
+        "air%1:27:00::",
+        "air%1:15:00::",
+        "air%1:07:00::"
+      ],
+      "englishDefinitions": [
+        "a mixture of gases (especially oxygen) required for breathing; the stuff that the wind consists of",
+        "the region above the ground",
+        "a distinctive but intangible quality surrounding a person or thing"
+      ]
+    },
+    {
+      "wordId": "airplane/plane-20",
+      "word": "airplane/plane",
+      "pos": "noun",
+      "meaningZhTW": "飛機",
+      "primarySenseId": "airplane%1:06:00::",
+      "sourceSenseIds": [
+        "airplane%1:06:00::",
+        "plane%1:06:01::",
+        "plane%1:25:00::"
+      ],
+      "englishDefinitions": [
+        "an aircraft that has a fixed wing and is powered by propellers or jets",
+        "an aircraft that has a fixed wing and is powered by propellers or jets",
+        "(mathematics) an unbounded two-dimensional shape"
+      ]
+    },
+    {
+      "wordId": "all-22",
+      "word": "all",
+      "pos": "adjective",
+      "meaningZhTW": "所有的",
+      "primarySenseId": "all%3:00:00::",
+      "sourceSenseIds": [
+        "all%3:00:00::",
+        "all%5:00:00:complete:00"
+      ],
+      "englishDefinitions": [
+        "(quantifier) used with either mass or count nouns to indicate the whole number or amount of or every one of a class",
+        "completely given to or absorbed by"
+      ]
+    },
+    {
+      "wordId": "allow-23",
+      "word": "allow",
+      "pos": "verb",
+      "meaningZhTW": "允許",
+      "primarySenseId": "allow%2:41:00::",
+      "sourceSenseIds": [
+        "allow%2:41:00::",
+        "allow%2:32:00::",
+        "allow%2:40:00::"
+      ],
+      "englishDefinitions": [
+        "make it possible through a specific action or lack of action for something to happen",
+        "consent to, give permission; permit",
+        "let have"
+      ]
+    },
+    {
+      "wordId": "along-25",
+      "word": "along",
+      "pos": "adverb",
+      "meaningZhTW": "平行地",
+      "primarySenseId": "along%4:02:01::",
+      "sourceSenseIds": [
+        "along%4:02:01::",
+        "along%4:02:00::",
+        "along%4:02:03::"
+      ],
+      "englishDefinitions": [
+        "with a forward motion",
+        "in accompaniment or as a companion",
+        "to a more advanced state"
+      ]
+    },
+    {
+      "wordId": "always-29",
+      "word": "always",
+      "pos": "adverb",
+      "meaningZhTW": "總是",
+      "primarySenseId": "always%4:02:00::",
+      "sourceSenseIds": [
+        "always%4:02:00::",
+        "always%4:02:04::",
+        "always%4:02:03::"
+      ],
+      "englishDefinitions": [
+        "at all times; all the time and on every occasion",
+        "without variation or change, in every case",
+        "invariably"
+      ]
+    },
+    {
+      "wordId": "am/a.m.-30",
+      "word": "am/a.m.",
+      "pos": "adverb",
+      "meaningZhTW": "上午",
+      "primarySenseId": "am%4:02:04::",
+      "sourceSenseIds": [
+        "am%4:02:04::",
+        "a.m.%4:02:03::"
+      ],
+      "englishDefinitions": [
+        "before 12 noon",
+        "before 12 noon"
+      ]
+    },
+    {
+      "wordId": "angry-32",
+      "word": "angry",
+      "pos": "adjective",
+      "meaningZhTW": "生氣的",
+      "primarySenseId": "angry%3:00:00::",
+      "sourceSenseIds": [
+        "angry%3:00:00::",
+        "angry%5:00:00:stormy:00",
+        "angry%5:00:00:unhealthy:00"
+      ],
+      "englishDefinitions": [
+        "feeling or showing anger",
+        "(of the elements) as if showing violent anger",
+        "severely inflamed and painful"
+      ]
+    },
+    {
+      "wordId": "answer-35",
+      "word": "answer",
+      "pos": "noun",
+      "meaningZhTW": "答案",
+      "primarySenseId": "answer%1:10:01::",
+      "sourceSenseIds": [
+        "answer%1:10:01::",
+        "answer%1:10:02::",
+        "answer%1:10:00::"
+      ],
+      "englishDefinitions": [
+        "a statement (either spoken or written) that is made to reply to a question or request or criticism or accusation",
+        "a statement that solves a problem or explains how to solve the problem",
+        "the speech act of replying to a question"
+      ]
+    },
+    {
+      "wordId": "answer-35",
+      "word": "answer",
+      "pos": "verb",
+      "meaningZhTW": "答案",
+      "primarySenseId": "answer%2:32:00::",
+      "sourceSenseIds": [
+        "answer%2:32:00::",
+        "answer%2:31:02::",
+        "answer%2:31:00::"
+      ],
+      "englishDefinitions": [
+        "react verbally",
+        "respond to a signal",
+        "give the correct answer or solution to"
+      ]
+    },
+    {
+      "wordId": "appear-41",
+      "word": "appear",
+      "pos": "verb",
+      "meaningZhTW": "出現",
+      "primarySenseId": "appear%2:39:00::",
+      "sourceSenseIds": [
+        "appear%2:39:00::",
+        "appear%2:30:00::",
+        "appear%2:30:01::"
+      ],
+      "englishDefinitions": [
+        "give a certain impression of being something or having a certain aspect",
+        "come into sight or view",
+        "be issued or published"
+      ]
+    },
+    {
+      "wordId": "apple-42",
+      "word": "apple",
+      "pos": "noun",
+      "meaningZhTW": "蘋果",
+      "primarySenseId": "apple%1:13:00::",
+      "sourceSenseIds": [
+        "apple%1:13:00::",
+        "apple%1:20:00::"
+      ],
+      "englishDefinitions": [
+        "fruit with red or yellow or green skin and sweet to tart crisp whitish flesh",
+        "native Eurasian tree widely cultivated in many varieties for its firm rounded edible fruits"
+      ]
+    },
+    {
+      "wordId": "area-43",
+      "word": "area",
+      "pos": "noun",
+      "meaningZhTW": "區域",
+      "primarySenseId": "area%1:15:01::",
+      "sourceSenseIds": [
+        "area%1:15:01::",
+        "area%1:09:00::",
+        "area%1:08:00::"
+      ],
+      "englishDefinitions": [
+        "a particular geographical region of indefinite boundary (usually serving some special purpose or distinguished by its people or culture or geography)",
+        "a subject of study",
+        "a part of an animal that has a special function or is supplied by a given artery or nerve"
+      ]
+    },
+    {
+      "wordId": "arm-44",
+      "word": "arm",
+      "pos": "noun",
+      "meaningZhTW": "手臂",
+      "primarySenseId": "arm%1:08:00::",
+      "sourceSenseIds": [
+        "arm%1:08:00::",
+        "arm%1:06:03::",
+        "arm%1:06:01::"
+      ],
+      "englishDefinitions": [
+        "a human limb; technically the part of the superior limb between the shoulder and the elbow but commonly used to refer to the whole superior limb",
+        "any projection that is thought to resemble a human arm",
+        "any instrument or instrumentality used in fighting or hunting"
+      ]
+    },
+    {
+      "wordId": "arm-44",
+      "word": "arm",
+      "pos": "verb",
+      "meaningZhTW": "手臂",
+      "primarySenseId": "arm%2:33:00::",
+      "sourceSenseIds": [
+        "arm%2:33:00::",
+        "arm%2:40:00::"
+      ],
+      "englishDefinitions": [
+        "prepare oneself for a military confrontation",
+        "supply with arms"
+      ]
+    },
+    {
+      "wordId": "around-45",
+      "word": "around",
+      "pos": "adverb",
+      "meaningZhTW": "包圍",
+      "primarySenseId": "around%4:02:01::",
+      "sourceSenseIds": [
+        "around%4:02:01::",
+        "around%4:02:05::",
+        "around%4:02:04::"
+      ],
+      "englishDefinitions": [
+        "in the area or vicinity",
+        "by a circular or circuitous route",
+        "used of movement to or among many different places or in no particular direction"
+      ]
+    },
+    {
+      "wordId": "arrive-46",
+      "word": "arrive",
+      "pos": "verb",
+      "meaningZhTW": "到達",
+      "primarySenseId": "arrive%2:38:00::",
+      "sourceSenseIds": [
+        "arrive%2:38:00::",
+        "arrive%2:41:00::"
+      ],
+      "englishDefinitions": [
+        "reach a destination; arrive by movement or progress",
+        "succeed in a big way; get to the top"
+      ]
+    }
+  ],
   "suspiciousAmbiguousTranslations": [
     {
       "wordId": "ant-36",
@@ -727,6 +1223,16 @@
       "pos": "noun",
       "englishDefinition": "an architectural partition with a height and length greater than its thickness; used to divide or enclose an area or to support another structure",
       "meaningZhTW": "牆",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "water-950",
+      "word": "water",
+      "senseId": "water%1:27:00::",
+      "synsetId": "14869913-n",
+      "pos": "noun",
+      "englishDefinition": "binary compound that occurs at room temperature as a clear colorless odorless tasteless liquid; freezes into ice below 0 degrees centigrade and boils above 100 degrees centigrade; widely used as a solvent",
+      "meaningZhTW": "水",
       "reason": "complex_or_technical_definition"
     },
     {
