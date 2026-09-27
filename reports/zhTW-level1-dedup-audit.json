@@ -1,12 +1,1209 @@
 {
-  "generatedAt": "2026-09-26T16:54:24.421Z",
+  "generatedAt": "2026-09-27T14:34:21.660Z",
   "scope": "level-1-only",
-  "totalMergedGroups": 1014,
-  "safeDuplicateCount": 1014,
-  "possibleOverMergeCount": 0,
-  "clearOverMergeCount": 0,
-  "affectedWordsCount": 775,
-  "top20WordsNeedingReview": [],
-  "questionableGroupsCount": 0,
-  "allQuestionableGroups": []
+  "totalMergedGroups": 1035,
+  "safeDuplicateCount": 986,
+  "possibleOverMergeCount": 3,
+  "clearOverMergeCount": 46,
+  "affectedWordsCount": 778,
+  "top20WordsNeedingReview": [
+    {
+      "word": "pass",
+      "questionableGroupCount": 2
+    },
+    {
+      "word": "pull",
+      "questionableGroupCount": 2
+    },
+    {
+      "word": "rise",
+      "questionableGroupCount": 2
+    },
+    {
+      "word": "fly",
+      "questionableGroupCount": 1
+    },
+    {
+      "word": "north",
+      "questionableGroupCount": 1
+    },
+    {
+      "word": "nose",
+      "questionableGroupCount": 1
+    },
+    {
+      "word": "nurse",
+      "questionableGroupCount": 1
+    },
+    {
+      "word": "on",
+      "questionableGroupCount": 1
+    },
+    {
+      "word": "open",
+      "questionableGroupCount": 1
+    },
+    {
+      "word": "order",
+      "questionableGroupCount": 1
+    },
+    {
+      "word": "pay(ment)",
+      "questionableGroupCount": 1
+    },
+    {
+      "word": "plant",
+      "questionableGroupCount": 1
+    },
+    {
+      "word": "pool",
+      "questionableGroupCount": 1
+    },
+    {
+      "word": "pot",
+      "questionableGroupCount": 1
+    },
+    {
+      "word": "practice",
+      "questionableGroupCount": 1
+    },
+    {
+      "word": "push",
+      "questionableGroupCount": 1
+    },
+    {
+      "word": "race",
+      "questionableGroupCount": 1
+    },
+    {
+      "word": "raise",
+      "questionableGroupCount": 1
+    },
+    {
+      "word": "reach",
+      "questionableGroupCount": 1
+    },
+    {
+      "word": "report",
+      "questionableGroupCount": 1
+    }
+  ],
+  "questionableGroupsCount": 49,
+  "allQuestionableGroups": [
+    {
+      "wordId": "fly-318",
+      "word": "fly",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "蒼蠅",
+      "sourceSenseIds": [
+        "fly%2:38:00::",
+        "fly%2:38:02::",
+        "fly%2:38:01::"
+      ],
+      "englishDefinitions": [
+        "travel through the air; be airborne",
+        "move quickly or suddenly",
+        "operate an airplane"
+      ],
+      "classification": "POSSIBLE_OVER_MERGE",
+      "explanation": "English definitions convey distinct usages or core actions (move vs operate). High-school learners may benefit from separate entries or qualifiers.",
+      "suggestedSeparateMeanings": [
+        "蒼蠅 (義項 1)",
+        "蒼蠅 (義項 2)",
+        "蒼蠅 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "north-588",
+      "word": "north",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "正北；北方",
+      "sourceSenseIds": [
+        "north%1:24:00::",
+        "north%1:24:02::"
+      ],
+      "englishDefinitions": [
+        "the cardinal compass point that is at 0 or 360 degrees",
+        "the direction corresponding to the northward cardinal compass point"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (clothing, transport, military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "正北；北方 (義項 1)",
+        "正北；北方 (義項 2)"
+      ]
+    },
+    {
+      "wordId": "nose-589",
+      "word": "nose",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "鼻子",
+      "sourceSenseIds": [
+        "nose%1:08:00::",
+        "nose%1:06:00::",
+        "nose%1:06:02::"
+      ],
+      "englishDefinitions": [
+        "the organ of smell and entrance to the respiratory tract; the prominent part of the face of man or other mammals",
+        "a front that resembles a human nose (especially the front of an aircraft)",
+        "the front or forward projection of a tool or weapon"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (clothing, transport, military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "鼻子 (義項 1)",
+        "鼻子 (義項 2)",
+        "鼻子 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "nurse-596",
+      "word": "nurse",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "護士",
+      "sourceSenseIds": [
+        "nurse%2:29:00::",
+        "nurse%2:37:00::",
+        "nurse%2:41:00::"
+      ],
+      "englishDefinitions": [
+        "try to cure by special care of treatment, of an illness or injury",
+        "maintain (a theory, thoughts, or feelings)",
+        "serve as a nurse; care for sick or handicapped people"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (legal, transport, medical, finance). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "護士 (義項 1)",
+        "護士 (義項 2)",
+        "護士 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "on-606",
+      "word": "on",
+      "partOfSpeech": "adverb",
+      "currentMeaningZhTW": "在...之上",
+      "sourceSenseIds": [
+        "on%4:02:00::",
+        "on%4:02:01::",
+        "on%4:02:02::"
+      ],
+      "englishDefinitions": [
+        "with a forward motion",
+        "indicates continuity or persistence or concentration",
+        "in a state required for something to function or be effective"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military, mathematics). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "在...之上 (義項 1)",
+        "在...之上 (義項 2)",
+        "在...之上 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "open-610",
+      "word": "open",
+      "partOfSpeech": "adjective",
+      "currentMeaningZhTW": "公開",
+      "sourceSenseIds": [
+        "open%3:00:01::",
+        "open%3:00:02::",
+        "open%5:00:00:unprotected:00"
+      ],
+      "englishDefinitions": [
+        "affording unobstructed entrance and exit; not shut or closed",
+        "affording free passage or access",
+        "with no protection or shield"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "公開 (義項 1)",
+        "公開 (義項 2)",
+        "公開 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "order-613",
+      "word": "order",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "次序",
+      "sourceSenseIds": [
+        "order%1:10:03::",
+        "order%1:07:01::",
+        "order%1:26:00::"
+      ],
+      "englishDefinitions": [
+        "(often plural) a command given by a superior (e.g., a military or law enforcement officer) that must be obeyed",
+        "a degree in a continuum of size or quantity",
+        "established customary state (especially of society)"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (legal, military, clothing). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "次序 (義項 1)",
+        "次序 (義項 2)",
+        "次序 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "pass-630",
+      "word": "pass",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "經過",
+      "sourceSenseIds": [
+        "pass%2:38:00::",
+        "pass%2:38:05::",
+        "pass%2:41:02::"
+      ],
+      "englishDefinitions": [
+        "go across or through",
+        "move past",
+        "make laws, bills, etc. or bring into effect by legislation"
+      ],
+      "classification": "POSSIBLE_OVER_MERGE",
+      "explanation": "English definitions convey distinct usages or core actions (move vs create). High-school learners may benefit from separate entries or qualifiers.",
+      "suggestedSeparateMeanings": [
+        "經過 (義項 1)",
+        "經過 (義項 2)",
+        "經過 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "pass-630",
+      "word": "pass",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "經過",
+      "sourceSenseIds": [
+        "pass%1:04:04::",
+        "pass%1:28:00::",
+        "pass%1:04:02::"
+      ],
+      "englishDefinitions": [
+        "(baseball) an advance to first base by a batter who receives four balls",
+        "(military) a written leave of absence",
+        "(American football) a play that involves one player throwing the ball to a teammate"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military, entertainment, container, clothing). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "經過 (義項 1)",
+        "經過 (義項 2)",
+        "經過 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "pay(ment)-632",
+      "word": "pay(ment)",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "付錢",
+      "sourceSenseIds": [
+        "pay%2:40:00::",
+        "pay%2:32:00::",
+        "pay%2:40:04::"
+      ],
+      "englishDefinitions": [
+        "give money, usually in exchange for goods or services",
+        "convey, as of a compliment, regards, attention, etc.; bestow",
+        "cancel or discharge a debt"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (finance, container). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "付錢 (義項 1)",
+        "付錢 (義項 2)",
+        "付錢 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "plant-653",
+      "word": "plant",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "植物",
+      "sourceSenseIds": [
+        "plant%1:06:01::",
+        "plant%1:03:00::",
+        "plant%1:18:00::"
+      ],
+      "englishDefinitions": [
+        "buildings for carrying on industrial labor",
+        "(botany) a living organism lacking the power of locomotion",
+        "an actor situated in the audience whose acting is rehearsed but seems spontaneous to the audience"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (legal, transport, entertainment). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "植物 (義項 1)",
+        "植物 (義項 2)",
+        "植物 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "pool-665",
+      "word": "pool",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "池",
+      "sourceSenseIds": [
+        "pool%2:40:00::",
+        "pool%2:33:00::"
+      ],
+      "englishDefinitions": [
+        "combine into a common fund",
+        "join or form a pool of people"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (finance, container). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "池 (義項 1)",
+        "池 (義項 2)"
+      ]
+    },
+    {
+      "wordId": "pot-670",
+      "word": "pot",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "盆",
+      "sourceSenseIds": [
+        "pot%1:06:00::",
+        "pot%1:06:01::",
+        "pot%1:23:00::"
+      ],
+      "englishDefinitions": [
+        "metal or earthenware cooking vessel that is usually round and deep; often has a handle and lid",
+        "a plumbing fixture for defecation and urination",
+        "the quantity contained in a pot"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military, container, clothing, transport). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "盆 (義項 1)",
+        "盆 (義項 2)",
+        "盆 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "practice-673",
+      "word": "practice",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "實踐",
+      "sourceSenseIds": [
+        "practice%1:04:00::",
+        "practice%1:04:02::",
+        "practice%1:04:04::"
+      ],
+      "englishDefinitions": [
+        "a customary way of operation or behavior",
+        "systematic training by multiple repetitions",
+        "translating an idea into action"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (entertainment, mathematics, transport). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "實踐 (義項 1)",
+        "實踐 (義項 2)",
+        "實踐 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "pull-683",
+      "word": "pull",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "拉",
+      "sourceSenseIds": [
+        "pull%2:35:00::",
+        "pull%2:35:02::",
+        "pull%2:38:01::"
+      ],
+      "englishDefinitions": [
+        "cause to move by pulling",
+        "direct toward itself or oneself by means of some psychological power or physical attributes",
+        "move into a certain direction"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "拉 (義項 1)",
+        "拉 (義項 2)",
+        "拉 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "pull-683",
+      "word": "pull",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "拉",
+      "sourceSenseIds": [
+        "pull%1:04:00::",
+        "pull%1:19:00::",
+        "pull%1:07:00::"
+      ],
+      "englishDefinitions": [
+        "the act of pulling; applying force to move something toward or with you",
+        "the force used in pulling",
+        "special advantage or influence"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "拉 (義項 1)",
+        "拉 (義項 2)",
+        "拉 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "push-684",
+      "word": "push",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "推",
+      "sourceSenseIds": [
+        "push%2:38:00::",
+        "push%2:32:01::",
+        "push%2:32:00::"
+      ],
+      "englishDefinitions": [
+        "move with force",
+        "press, drive, or impel (someone) to action or completion of an action",
+        "make publicity for; try to sell (a product)"
+      ],
+      "classification": "POSSIBLE_OVER_MERGE",
+      "explanation": "English definitions convey distinct usages or core actions (move vs create). High-school learners may benefit from separate entries or qualifiers.",
+      "suggestedSeparateMeanings": [
+        "推 (義項 1)",
+        "推 (義項 2)",
+        "推 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "race-693",
+      "word": "race",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "種族",
+      "sourceSenseIds": [
+        "race%2:38:00::",
+        "race%2:33:00::",
+        "race%2:41:03::"
+      ],
+      "englishDefinitions": [
+        "move hurridly",
+        "compete in a race",
+        "to work as fast as possible towards a goal, sometimes in competition with others"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "種族 (義項 1)",
+        "種族 (義項 2)",
+        "種族 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "raise-698",
+      "word": "raise",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "上升",
+      "sourceSenseIds": [
+        "raise%1:07:00::",
+        "raise%1:17:00::",
+        "raise%1:04:01::"
+      ],
+      "englishDefinitions": [
+        "the amount a salary is increased",
+        "an upward slope or grade (as in a road)",
+        "increasing the size of a bet (as in poker)"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (geography, military, entertainment). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "上升 (義項 1)",
+        "上升 (義項 2)",
+        "上升 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "reach-699",
+      "word": "reach",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "伸出",
+      "sourceSenseIds": [
+        "reach%2:38:01::",
+        "reach%2:38:00::",
+        "reach%2:35:00::"
+      ],
+      "englishDefinitions": [
+        "reach a destination, either real or abstract",
+        "reach a point in time, or a certain state or level",
+        "move forward or upward in order to touch; also in a metaphorical sense"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "伸出 (義項 1)",
+        "伸出 (義項 2)",
+        "伸出 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "report-709",
+      "word": "report",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "報告",
+      "sourceSenseIds": [
+        "report%1:10:03::",
+        "report%1:10:01::",
+        "report%1:10:00::"
+      ],
+      "englishDefinitions": [
+        "a written document describing the findings of some individual or group",
+        "the act of informing by verbal report",
+        "a short account of the news"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (container, finance). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "報告 (義項 1)",
+        "報告 (義項 2)",
+        "報告 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "right-716",
+      "word": "right",
+      "partOfSpeech": "adjective",
+      "currentMeaningZhTW": "右邊；正確的；權利",
+      "sourceSenseIds": [
+        "right%3:00:00::",
+        "right%3:00:02::",
+        "right%5:00:01:proper:00"
+      ],
+      "englishDefinitions": [
+        "being or located on or directed toward the side of the body to the east when facing north",
+        "free from error; especially conforming to fact or truth",
+        "socially right or correct"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "右邊；正確的；權利 (義項 1)",
+        "右邊；正確的；權利 (義項 2)",
+        "右邊；正確的；權利 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "rise-718",
+      "word": "rise",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "上升",
+      "sourceSenseIds": [
+        "rise%1:11:00::",
+        "rise%1:04:00::",
+        "rise%1:17:00::"
+      ],
+      "englishDefinitions": [
+        "a growth in strength or number or importance",
+        "the act of changing location in an upward direction",
+        "an upward slope or grade (as in a road)"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (mathematics, military, geography). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "上升 (義項 1)",
+        "上升 (義項 2)",
+        "上升 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "rise-718",
+      "word": "rise",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "上升",
+      "sourceSenseIds": [
+        "rise%2:38:00::",
+        "rise%2:30:00::",
+        "rise%2:38:05::"
+      ],
+      "englishDefinitions": [
+        "move upward",
+        "increase in value or to a higher point",
+        "rise to one's feet"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military, finance). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "上升 (義項 1)",
+        "上升 (義項 2)",
+        "上升 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "roll-723",
+      "word": "roll",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "卷",
+      "sourceSenseIds": [
+        "roll%1:11:02::",
+        "roll%1:10:00::",
+        "roll%1:11:01::"
+      ],
+      "englishDefinitions": [
+        "rotary motion of an object around its own axis",
+        "a list of names",
+        "a long heavy sea wave as it advances towards the shore"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (geography, military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "卷 (義項 1)",
+        "卷 (義項 2)",
+        "卷 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "round-728",
+      "word": "round",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "圓",
+      "sourceSenseIds": [
+        "round%1:06:01::",
+        "round%1:28:01::",
+        "round%1:15:00::"
+      ],
+      "englishDefinitions": [
+        "a charge of ammunition for a single shot",
+        "an interval during which a recurring sequence of events occurs",
+        "a regular route for a sentry or policeman"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (entertainment, legal). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "圓 (義項 1)",
+        "圓 (義項 2)",
+        "圓 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "service-754",
+      "word": "service",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "服務",
+      "sourceSenseIds": [
+        "service%1:04:08::",
+        "service%1:04:00::",
+        "service%1:04:01::"
+      ],
+      "englishDefinitions": [
+        "work done by one person or group that benefits another",
+        "an act of help or assistance; something (such as a tool, software or system) used to render said help or assistance",
+        "the act of public worship following prescribed rules"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (clothing, military, transport). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "服務 (義項 1)",
+        "服務 (義項 2)",
+        "服務 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "share-760",
+      "word": "share",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "部分",
+      "sourceSenseIds": [
+        "share%1:21:00::",
+        "share%1:21:01::",
+        "share%1:04:00::"
+      ],
+      "englishDefinitions": [
+        "assets belonging to or due to or contributed by an individual person or group",
+        "any of the equal portions into which the capital stock of a corporation is divided and ownership of which is evidenced by a stock certificate",
+        "the allotment of some amount by dividing something"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (finance, transport, mathematics). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "部分 (義項 1)",
+        "部分 (義項 2)",
+        "部分 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "sick-774",
+      "word": "sick",
+      "partOfSpeech": "adjective",
+      "currentMeaningZhTW": "病人",
+      "sourceSenseIds": [
+        "sick%3:00:01::",
+        "sick%5:00:02:ill:01",
+        "sick%5:00:00:insane:00"
+      ],
+      "englishDefinitions": [
+        "affected by an impairment of normal physical or mental function",
+        "feeling nausea; feeling about to vomit",
+        "affected with madness or insanity"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (finance, geography). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "病人 (義項 1)",
+        "病人 (義項 2)",
+        "病人 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "sight-776",
+      "word": "sight",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "景觀",
+      "sourceSenseIds": [
+        "sight%2:39:00::",
+        "sight%2:39:03::"
+      ],
+      "englishDefinitions": [
+        "catch sight of; to perceive with the eyes",
+        "take aim by looking through the sights of a gun (or other device)"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "景觀 (義項 1)",
+        "景觀 (義項 2)"
+      ]
+    },
+    {
+      "wordId": "soldier-800",
+      "word": "soldier",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "軍人",
+      "sourceSenseIds": [
+        "soldier%1:18:00::",
+        "soldier%1:05:00::"
+      ],
+      "englishDefinitions": [
+        "an enlisted man or woman who serves in an army",
+        "a wingless sterile ant or termite having a large head and powerful jaws adapted for defending the colony"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "軍人 (義項 1)",
+        "軍人 (義項 2)"
+      ]
+    },
+    {
+      "wordId": "south-813",
+      "word": "south",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "南方",
+      "sourceSenseIds": [
+        "south%1:24:00::",
+        "south%1:15:02::",
+        "south%1:24:02::"
+      ],
+      "englishDefinitions": [
+        "the cardinal compass point that is at 180 degrees",
+        "a location in the southern part of a country, region, or city",
+        "the direction corresponding to the southward cardinal compass point"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (clothing, transport, military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "南方 (義項 1)",
+        "南方 (義項 2)",
+        "南方 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "spring-819",
+      "word": "spring",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "春天",
+      "sourceSenseIds": [
+        "spring%2:38:01::",
+        "spring%2:42:00::",
+        "spring%2:38:00::"
+      ],
+      "englishDefinitions": [
+        "move forward by leaps and bounds",
+        "develop into a distinctive entity",
+        "spring back; spring away from an impact"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military, time_season). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "春天 (義項 1)",
+        "春天 (義項 2)",
+        "春天 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "square-820",
+      "word": "square",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "正方形",
+      "sourceSenseIds": [
+        "square%1:25:00::",
+        "square%1:23:00::",
+        "square%1:15:00::"
+      ],
+      "englishDefinitions": [
+        "(geometry) a plane rectangle with four equal sides and four right angles; a four-sided regular polygon",
+        "the product of two equal terms",
+        "an open area at the meeting of two or more streets"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (transport, mathematics). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "正方形 (義項 1)",
+        "正方形 (義項 2)",
+        "正方形 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "study-837",
+      "word": "study",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "學習",
+      "sourceSenseIds": [
+        "study%2:31:02::",
+        "study%2:31:03::",
+        "study%2:39:00::"
+      ],
+      "englishDefinitions": [
+        "consider in detail and subject to an analysis in order to discover essential features or meaning",
+        "be a student; follow a course of study; be enrolled at an institute of learning",
+        "give careful consideration to"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (transport, mathematics). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "學習 (義項 1)",
+        "學習 (義項 2)",
+        "學習 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "sugar-841",
+      "word": "sugar",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "糖",
+      "sourceSenseIds": [
+        "sugar%1:13:00::",
+        "sugar%1:27:00::",
+        "sugar%1:21:00::"
+      ],
+      "englishDefinitions": [
+        "a white crystalline carbohydrate used as a sweetener and preservative",
+        "an essential structural component of living cells and source of energy for animals; includes simple sugars with small molecules as well as macromolecular substances; are classified according to the number of monosaccharide groups they contain",
+        "informal terms for money"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (transport, mathematics, finance). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "糖 (義項 1)",
+        "糖 (義項 2)",
+        "糖 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "sun-842",
+      "word": "sun",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "太陽",
+      "sourceSenseIds": [
+        "sun%1:19:00::",
+        "sun%1:18:00::",
+        "sun%1:17:01::"
+      ],
+      "englishDefinitions": [
+        "the rays of the sun",
+        "a person considered as a source of warmth or energy or glory etc",
+        "any star around which a planetary system revolves"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military, transport). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "太陽 (義項 1)",
+        "太陽 (義項 2)",
+        "太陽 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "surprise-846",
+      "word": "surprise",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "驚奇",
+      "sourceSenseIds": [
+        "surprise%2:31:00::",
+        "surprise%2:41:00::",
+        "surprise%2:33:00::"
+      ],
+      "englishDefinitions": [
+        "cause to be surprised",
+        "come upon or take unawares",
+        "attack by storm; attack suddenly"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "驚奇 (義項 1)",
+        "驚奇 (義項 2)",
+        "驚奇 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "table-849",
+      "word": "table",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "桌子",
+      "sourceSenseIds": [
+        "table%1:14:00::",
+        "table%1:06:01::",
+        "table%1:06:02::"
+      ],
+      "englishDefinitions": [
+        "a set of data arranged in rows and columns",
+        "a piece of furniture having a smooth flat top that is usually supported by one or more vertical legs",
+        "a piece of furniture with tableware for a meal laid out on it"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (clothing, military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "桌子 (義項 1)",
+        "桌子 (義項 2)",
+        "桌子 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "theater-873",
+      "word": "theater",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "戲院",
+      "sourceSenseIds": [
+        "theater%1:06:00::",
+        "theater%1:10:00::",
+        "theater%1:15:00::"
+      ],
+      "englishDefinitions": [
+        "a building where theatrical performances or motion-picture shows can be presented",
+        "the art of writing and producing plays",
+        "a region in which active military operations are in progress"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (entertainment, container, military, mathematics). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "戲院 (義項 1)",
+        "戲院 (義項 2)",
+        "戲院 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "then-874",
+      "word": "then",
+      "partOfSpeech": "adverb",
+      "currentMeaningZhTW": "然後",
+      "sourceSenseIds": [
+        "then%4:02:00::",
+        "then%4:02:02::",
+        "then%4:02:01::"
+      ],
+      "englishDefinitions": [
+        "subsequently or soon afterward (often used as sentence connectors)",
+        "in that case or as a consequence",
+        "at that time"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military, container, clothing). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "然後 (義項 1)",
+        "然後 (義項 2)",
+        "然後 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "there-875",
+      "word": "there",
+      "partOfSpeech": "adverb",
+      "currentMeaningZhTW": "在那裡",
+      "sourceSenseIds": [
+        "there%4:02:00::",
+        "there%4:02:02::",
+        "there%4:02:01::"
+      ],
+      "englishDefinitions": [
+        "in or at that place or location",
+        "in that matter; in that respect; on that point",
+        "to or toward that place; away from the speaker"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (clothing, military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "在那裡 (義項 1)",
+        "在那裡 (義項 2)",
+        "在那裡 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "tip-895",
+      "word": "tip",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "尖端；小費；提示",
+      "sourceSenseIds": [
+        "tip%1:15:00::",
+        "tip%1:21:00::",
+        "tip%1:10:00::"
+      ],
+      "englishDefinitions": [
+        "the extreme end of something; especially something pointed",
+        "a relatively small amount of money given for services rendered (as by a waiter)",
+        "an indication of potential opportunity"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (finance, container). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "尖端；小費；提示 (義項 1)",
+        "尖端；小費；提示 (義項 2)",
+        "尖端；小費；提示 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "toilet-901",
+      "word": "toilet",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "廁所",
+      "sourceSenseIds": [
+        "toilet%1:06:00::",
+        "toilet%1:06:01::",
+        "toilet%1:26:00::"
+      ],
+      "englishDefinitions": [
+        "a room or building equipped with one or more toilets",
+        "a plumbing fixture for defecation and urination",
+        "misfortune resulting in lost effort or money"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (container, finance). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "廁所 (義項 1)",
+        "廁所 (義項 2)",
+        "廁所 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "tooth-907",
+      "word": "tooth",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "牙齒",
+      "sourceSenseIds": [
+        "tooth%1:08:00::",
+        "tooth%1:06:01::",
+        "tooth%1:05:02::"
+      ],
+      "englishDefinitions": [
+        "hard bonelike structures in the jaws of vertebrates; used for biting and chewing or for attack and defense",
+        "something resembling the tooth of an animal",
+        "toothlike structure in invertebrates found in the mouth or alimentary canal or on a shell"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military, container). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "牙齒 (義項 1)",
+        "牙齒 (義項 2)",
+        "牙齒 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "train-916",
+      "word": "train",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "火車",
+      "sourceSenseIds": [
+        "train%2:31:01::",
+        "train%2:31:00::",
+        "train%2:41:02::"
+      ],
+      "englishDefinitions": [
+        "create by training and teaching",
+        "undergo training or instruction in preparation for a particular role, function, or profession",
+        "develop (a child's or animal's) behavior by instruction and practice; especially to teach self-control"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (transport, mathematics). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "火車 (義項 1)",
+        "火車 (義項 2)",
+        "火車 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "treat(ment)-917",
+      "word": "treat(ment)",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "對待",
+      "sourceSenseIds": [
+        "treat%1:13:00::",
+        "treat%1:11:00::",
+        "treatment%1:04:00::"
+      ],
+      "englishDefinitions": [
+        "something considered choice to eat",
+        "an occurrence that causes special pleasure or delight",
+        "care provided to improve a situation (especially medical procedures or applications that are intended to relieve illness or injury)"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (clothing, legal, transport, medical). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "對待 (義項 1)",
+        "對待 (義項 2)",
+        "對待 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "visit-940",
+      "word": "visit",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "拜訪",
+      "sourceSenseIds": [
+        "visit%1:04:02::",
+        "visit%1:14:00::",
+        "visit%1:04:01::"
+      ],
+      "englishDefinitions": [
+        "the act of going to see some person or place or thing for a short time",
+        "a meeting arranged by the visitor to see someone (such as a doctor or lawyer) for treatment or advice",
+        "the act of visiting in an official capacity (as for an inspection)"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (legal, medical). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "拜訪 (義項 1)",
+        "拜訪 (義項 2)",
+        "拜訪 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "well-960",
+      "word": "well",
+      "partOfSpeech": "adjective",
+      "currentMeaningZhTW": "很好地；井",
+      "sourceSenseIds": [
+        "well%3:00:01::",
+        "well%5:00:00:fortunate:00",
+        "well%5:00:00:advisable:00"
+      ],
+      "englishDefinitions": [
+        "in good health especially after having suffered illness or injury",
+        "resulting favorably",
+        "wise or advantageous and hence advisable"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (legal, medical). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "很好地；井 (義項 1)",
+        "很好地；井 (義項 2)",
+        "很好地；井 (義項 3)"
+      ]
+    }
+  ]
 }

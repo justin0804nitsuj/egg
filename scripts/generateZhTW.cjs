@@ -285,11 +285,14 @@ function getSenseTranslation(ctx) {
   const OVERRIDES = explicitOverrides || getExplicitSenseOverrides();
   if (OVERRIDES[senseId]) {
     const ov = OVERRIDES[senseId];
-    return {
-      meaningZhTW: typeof ov === 'string' ? ov : ov.meaningZhTW,
-      isSuspicious: false,
-      reason: null,
-    };
+    const isVerified = typeof ov === 'string' || ov.status === 'verified';
+    if (isVerified) {
+      return {
+        meaningZhTW: typeof ov === 'string' ? ov : ov.meaningZhTW,
+        isSuspicious: false,
+        reason: null,
+      };
+    }
   }
 
   const disambiguation = disambiguateWordSense(wordLower, pos, normEng, originalMeaning, senseIndex, totalSenses, lexicalFile);

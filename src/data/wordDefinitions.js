@@ -374971,11 +374971,14 @@ function expandDefinition(item, wordLevel = 1) {
   const overridesMap = OVERRIDES_BY_LEVEL[wordLevel];
   const generatedMap = GENERATED_BY_LEVEL[wordLevel];
 
-  const override = overridesMap?.[id];
+  const overrideEntry = overridesMap?.[id];
+  const isVerifiedOverride = typeof overrideEntry === 'string' || overrideEntry?.status === 'verified';
+  const verifiedMeaning = isVerifiedOverride ? (typeof overrideEntry === 'string' ? overrideEntry : overrideEntry.meaningZhTW) : null;
+
   const generated = generatedMap?.[id];
 
-  const meaningZh = override?.meaningZhTW ?? generated?.meaningZhTW ?? chineseDefinition;
-  const status = override ? 'verified' : (generated ? 'verified' : translationStatus);
+  const meaningZh = verifiedMeaning ?? generated?.meaningZhTW ?? chineseDefinition;
+  const status = verifiedMeaning ? 'verified' : (generated ? 'verified' : translationStatus);
 
   return {
     id,

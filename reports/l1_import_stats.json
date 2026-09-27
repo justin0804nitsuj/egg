@@ -1,0 +1,46 @@
+{
+  "levelResults": {
+    "1": {
+      "level": 1,
+      "wordCount": 1002,
+      "learnerMeanings": 1626,
+      "verifiedOverrides": 358,
+      "targetLearnerMeanings": 1626,
+      "targetOverrides": 358,
+      "matches": true
+    },
+    "2": {
+      "level": 2,
+      "wordCount": 1002,
+      "learnerMeanings": 1392,
+      "verifiedOverrides": 31,
+      "targetLearnerMeanings": 1392,
+      "targetOverrides": 31,
+      "matches": true
+    },
+    "3": {
+      "level": 3,
+      "wordCount": 1002,
+      "learnerMeanings": 1313,
+      "verifiedOverrides": 0,
+      "targetLearnerMeanings": 1313,
+      "targetOverrides": 0,
+      "matches": true
+    },
+    "4": {
+      "level": 4,
+      "wordCount": 1002,
+      "learnerMeanings": 1260,
+      "verifiedOverrides": 0,
+      "targetLearnerMeanings": 1260,
+      "targetOverrides": 0,
+      "matches": true
+    }
+  },
+  "level1Audit": {
+    "totalMergedGroups": 1035,
+    "safeDuplicateCount": 986,
+    "possibleOverMergeCount": 3,
+    "clearOverMergeCount": 46
+  }
+}

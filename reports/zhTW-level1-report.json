@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-26T16:54:23.971Z",
+  "generatedAt": "2026-09-27T14:36:47.895Z",
   "scope": "level-1-only",
   "level1WordCount": 1002,
   "level1MatchedWordCount": 951,
   "translatedRawSenseCount": 3464,
   "learnerMeaningsBeforeDeduplication": 3464,
-  "learnerMeaningsAfterDeduplication": 1669,
-  "duplicatesRemovedFromDisplay": 1795,
-  "wordsAffectedByDeduplication": 775,
+  "learnerMeaningsAfterDeduplication": 1626,
+  "duplicatesRemovedFromDisplay": 1838,
+  "wordsAffectedByDeduplication": 778,
   "wordsWithMultipleTranslatedSensesCount": 854,
-  "suspiciousAmbiguousCount": 66,
+  "suspiciousAmbiguousCount": 69,
   "mergedDuplicateExamples": [
     {
       "wordId": "able-3",
@@ -487,18 +487,20 @@
       ]
     },
     {
-      "wordId": "attack-51",
-      "word": "attack",
-      "pos": "noun",
-      "meaningZhTW": "攻擊",
-      "primarySenseId": "attack%1:04:04::",
+      "wordId": "away-53",
+      "word": "away",
+      "pos": "adverb",
+      "meaningZhTW": "離去",
+      "primarySenseId": "away%4:02:00::",
       "sourceSenseIds": [
-        "attack%1:04:04::",
-        "attack%1:10:00::"
+        "away%4:02:00::",
+        "away%4:02:01::",
+        "away%4:02:03::"
       ],
       "englishDefinitions": [
-        "an offensive move in a sport or game",
-        "intense adverse criticism"
+        "from a particular thing or place or position (‘forth’ is obsolete)",
+        "from one's possession",
+        "out of the way (especially away from one's thoughts)"
       ]
     }
   ],
@@ -964,6 +966,16 @@
       "reason": "complex_or_technical_definition"
     },
     {
+      "wordId": "share-760",
+      "word": "share",
+      "senseId": "share%1:21:01::",
+      "synsetId": "13363150-n",
+      "pos": "noun",
+      "englishDefinition": "any of the equal portions into which the capital stock of a corporation is divided and ownership of which is evidenced by a stock certificate",
+      "meaningZhTW": "部分",
+      "reason": "complex_or_technical_definition"
+    },
+    {
       "wordId": "shoe(s)-766",
       "word": "shoe(s)",
       "senseId": "shoe%1:06:00::",
@@ -981,6 +993,16 @@
       "pos": "noun",
       "englishDefinition": "a message that tells the particulars of an act or occurrence or course of events; presented in writing or drama or cinema or as a radio or television program",
       "meaningZhTW": "故事",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "sugar-841",
+      "word": "sugar",
+      "senseId": "sugar%1:27:00::",
+      "synsetId": "14816873-n",
+      "pos": "noun",
+      "englishDefinition": "an essential structural component of living cells and source of energy for animals; includes simple sugars with small molecules as well as macromolecular substances; are classified according to the number of monosaccharide groups they contain",
+      "meaningZhTW": "糖",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -1061,6 +1083,16 @@
       "pos": "noun",
       "englishDefinition": "a label written or printed on paper, cardboard, or plastic that is attached to something to indicate its owner, nature, price, etc.",
       "meaningZhTW": "票",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "treat(ment)-917",
+      "word": "treat(ment)",
+      "senseId": "treatment%1:04:00::",
+      "synsetId": "00659325-n",
+      "pos": "noun",
+      "englishDefinition": "care provided to improve a situation (especially medical procedures or applications that are intended to relieve illness or injury)",
+      "meaningZhTW": "對待",
       "reason": "complex_or_technical_definition"
     },
     {

@@ -1,0 +1,301 @@
+{
+  "statsByLevel": {
+    "1": 1568,
+    "2": 1642,
+    "3": 1313,
+    "4": 1260
+  },
+  "targetResults": {
+    "bank": [
+      {
+        "meaningZhTW": "河岸；堤岸",
+        "pos": "noun",
+        "sourceSenseIds": [
+          "bank%1:17:01::"
+        ],
+        "englishDefinition": "sloping land (especially the slope beside a body of water)"
+      },
+      {
+        "meaningZhTW": "銀行",
+        "pos": "noun",
+        "sourceSenseIds": [
+          "bank%1:14:00::"
+        ],
+        "englishDefinition": "a financial institution that accepts deposits and channels the money into lending activities"
+      },
+      {
+        "meaningZhTW": "土堤；長堆",
+        "pos": "noun",
+        "sourceSenseIds": [
+          "bank%1:17:00::"
+        ],
+        "englishDefinition": "a long ridge or pile"
+      },
+      {
+        "meaningZhTW": "側傾；傾斜轉彎",
+        "pos": "verb",
+        "sourceSenseIds": [
+          "bank%2:38:00::"
+        ],
+        "englishDefinition": "tip laterally"
+      },
+      {
+        "meaningZhTW": "築堤圍住",
+        "pos": "verb",
+        "sourceSenseIds": [
+          "bank%2:35:00::"
+        ],
+        "englishDefinition": "enclose with a bank"
+      },
+      {
+        "meaningZhTW": "在（銀行）開戶往來",
+        "pos": "verb",
+        "sourceSenseIds": [
+          "bank%2:40:02::"
+        ],
+        "englishDefinition": "do business with a bank or keep an account at a bank"
+      }
+    ],
+    "book": [
+      {
+        "meaningZhTW": "書",
+        "pos": "noun",
+        "sourceSenseIds": [
+          "book%1:10:00::",
+          "book%1:06:00::",
+          "book%1:10:02::"
+        ],
+        "englishDefinition": "a written work or composition that has been published (printed on pages bound together)"
+      },
+      {
+        "meaningZhTW": "聘請表演者；安排演出",
+        "pos": "verb",
+        "sourceSenseIds": [
+          "book%2:31:00::"
+        ],
+        "englishDefinition": "engage for a performance"
+      },
+      {
+        "meaningZhTW": "預訂；預約",
+        "pos": "verb",
+        "sourceSenseIds": [
+          "book%2:41:01::"
+        ],
+        "englishDefinition": "arrange for and reserve (something for someone else) in advance"
+      },
+      {
+        "meaningZhTW": "（警方）登記指控；記錄案情",
+        "pos": "verb",
+        "sourceSenseIds": [
+          "book%2:41:00::"
+        ],
+        "englishDefinition": "record a charge in a police register"
+      }
+    ],
+    "grass": [
+      {
+        "meaningZhTW": "草；草坪",
+        "pos": "noun",
+        "sourceSenseIds": [
+          "grass%1:20:00::"
+        ],
+        "englishDefinition": "narrow-leaved green herbage: grown as lawns; used as pasture for grazing animals; cut and dried as hay"
+      },
+      {
+        "meaningZhTW": "線人；告密者（俚語）",
+        "pos": "noun",
+        "sourceSenseIds": [
+          "grass%1:18:01::"
+        ],
+        "englishDefinition": "a police informer who implicates many people"
+      },
+      {
+        "meaningZhTW": "草料；粗飼料",
+        "pos": "noun",
+        "sourceSenseIds": [
+          "grass%1:13:00::"
+        ],
+        "englishDefinition": "bulky food like grass or hay for browsing or grazing horses or cattle"
+      }
+    ],
+    "fan": [
+      {
+        "meaningZhTW": "風扇；電扇",
+        "pos": "noun",
+        "sourceSenseIds": [
+          "fan%1:06:00::"
+        ],
+        "englishDefinition": "a device for creating a current of air by movement of a surface or surfaces"
+      },
+      {
+        "meaningZhTW": "球迷；運動迷",
+        "pos": "noun",
+        "sourceSenseIds": [
+          "fan%1:18:01::"
+        ],
+        "englishDefinition": "an enthusiastic devotee of sports"
+      },
+      {
+        "meaningZhTW": "粉絲；愛好者",
+        "pos": "noun",
+        "sourceSenseIds": [
+          "fan%1:18:00::"
+        ],
+        "englishDefinition": "an ardent follower and admirer"
+      },
+      {
+        "meaningZhTW": "三振（打者）",
+        "pos": "verb",
+        "sourceSenseIds": [
+          "fan%2:35:01::"
+        ],
+        "englishDefinition": "strike out (a batter), (of a pitcher)"
+      },
+      {
+        "meaningZhTW": "煽動；激起",
+        "pos": "verb",
+        "sourceSenseIds": [
+          "fan%2:30:00::"
+        ],
+        "englishDefinition": "make (an emotion) fiercer"
+      },
+      {
+        "meaningZhTW": "扇風；搖扇",
+        "pos": "verb",
+        "sourceSenseIds": [
+          "fan%2:38:00::"
+        ],
+        "englishDefinition": "agitate the air"
+      }
+    ],
+    "file": [
+      {
+        "meaningZhTW": "檔案；資料檔",
+        "pos": "noun",
+        "sourceSenseIds": [
+          "file%1:10:00::"
+        ],
+        "englishDefinition": "a set of related records (either written or electronic) kept together"
+      },
+      {
+        "meaningZhTW": "縱隊；隊列",
+        "pos": "noun",
+        "sourceSenseIds": [
+          "file%1:14:00::"
+        ],
+        "englishDefinition": "a line of persons or things ranged one behind the other"
+      },
+      {
+        "meaningZhTW": "文件櫃；檔案櫃",
+        "pos": "noun",
+        "sourceSenseIds": [
+          "file%1:06:01::"
+        ],
+        "englishDefinition": "office furniture consisting of a container for keeping papers in order"
+      },
+      {
+        "meaningZhTW": "（向機關）提交；登記",
+        "pos": "verb",
+        "sourceSenseIds": [
+          "file%2:32:02::"
+        ],
+        "englishDefinition": "record in a public office or in a court of law"
+      },
+      {
+        "meaningZhTW": "用銼刀磨平；銼平",
+        "pos": "verb",
+        "sourceSenseIds": [
+          "file%2:35:00::"
+        ],
+        "englishDefinition": "smooth with a file"
+      },
+      {
+        "meaningZhTW": "列隊行進；魚貫前進",
+        "pos": "verb",
+        "sourceSenseIds": [
+          "file%2:38:00::"
+        ],
+        "englishDefinition": "proceed in line"
+      }
+    ],
+    "close": [
+      {
+        "meaningZhTW": "接近的；相近的",
+        "pos": "adjective",
+        "sourceSenseIds": [
+          "close%3:00:01::",
+          "close%3:00:05::"
+        ],
+        "englishDefinition": "at or within a short distance in space or time or having elements near each other"
+      },
+      {
+        "meaningZhTW": "密切相關的；關係密切的",
+        "pos": "adjective",
+        "sourceSenseIds": [
+          "close%3:00:02::"
+        ],
+        "englishDefinition": "close in relevance or relationship"
+      },
+      {
+        "meaningZhTW": "靠近地；接近地",
+        "pos": "adverb",
+        "sourceSenseIds": [
+          "close%4:02:01::"
+        ],
+        "englishDefinition": "near in time or place or relationship"
+      },
+      {
+        "meaningZhTW": "仔細地；專注地",
+        "pos": "adverb",
+        "sourceSenseIds": [
+          "close%4:02:02::"
+        ],
+        "englishDefinition": "in an attentive manner"
+      },
+      {
+        "meaningZhTW": "關閉；合上",
+        "pos": "verb",
+        "sourceSenseIds": [
+          "close%2:35:00::"
+        ],
+        "englishDefinition": "move so that an opening or passage is obstructed; make shut"
+      }
+    ],
+    "check": [
+      {
+        "meaningZhTW": "檢查",
+        "pos": "verb",
+        "sourceSenseIds": [
+          "check%2:31:00::",
+          "check%2:41:04::",
+          "check%2:31:02::"
+        ],
+        "englishDefinition": "examine so as to determine accuracy, quality, or condition"
+      },
+      {
+        "meaningZhTW": "支票",
+        "pos": "noun",
+        "sourceSenseIds": [
+          "check%1:21:00::"
+        ],
+        "englishDefinition": "a written order directing a bank to pay money"
+      },
+      {
+        "meaningZhTW": "檢查；評估",
+        "pos": "noun",
+        "sourceSenseIds": [
+          "check%1:09:00::"
+        ],
+        "englishDefinition": "an appraisal of the state of affairs"
+      },
+      {
+        "meaningZhTW": "（餐廳）帳單",
+        "pos": "noun",
+        "sourceSenseIds": [
+          "check%1:10:00::"
+        ],
+        "englishDefinition": "the bill in a restaurant"
+      }
+    ]
+  }
+}

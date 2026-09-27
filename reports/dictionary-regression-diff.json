@@ -1,0 +1,4807 @@
+{
+  "metadata": {
+    "generatedAt": "2026-09-27T04:46:43.468Z",
+    "scope": "Levels 1 to 4 Dictionary Layer Regression Audit",
+    "reliableCheckpoint": "82c55e2 (nice)"
+  },
+  "summary": {
+    "level1": {
+      "rawPrimarySenses": 3464,
+      "baselineLearnerMeanings": 1657,
+      "restoredGeneratorLearnerMeanings": 1512,
+      "regressedLearnerMeanings": 1669,
+      "baselineManualOverridesCount": 178,
+      "reportedBaselineOverridesCount": 369,
+      "regressedTotalOverridesCount": 415,
+      "removedSpuriousAutoOverridesCount": 237,
+      "changedDisplayGroupsCount": 80
+    },
+    "level2": {
+      "rawPrimarySenses": 3299,
+      "learnerMeanings": 1371,
+      "totalOverridesCount": 416,
+      "verifiedManualOverridesCount": 31,
+      "autoDifferentiatedOverridesCount": 385
+    },
+    "level3": {
+      "rawPrimarySenses": 3005,
+      "baselineGeneratedLearnerMeanings": 1313,
+      "regressedDisplayLearnerMeanings": 1497,
+      "totalOverridesCount": 285,
+      "autoDifferentiatedOverridesCount": 285,
+      "changedSensesCount": 285
+    },
+    "level4": {
+      "rawPrimarySenses": 2874,
+      "learnerMeanings": 1427,
+      "totalOverridesCount": 258,
+      "autoDifferentiatedOverridesCount": 258,
+      "status": "preserved"
+    }
+  },
+  "level1Details": {
+    "removedSpuriousAutoOverrides": [
+      {
+        "senseId": "book%2:31:00::",
+        "spuriousMeaningZhTW": "書 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "book%2:41:01::",
+        "spuriousMeaningZhTW": "書（人物）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "book%2:41:00::",
+        "spuriousMeaningZhTW": "書 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "bridge%1:06:00::",
+        "spuriousMeaningZhTW": "橋（交通/載具）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "bridge%1:06:05::",
+        "spuriousMeaningZhTW": "橋 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "bridge%1:24:00::",
+        "spuriousMeaningZhTW": "橋 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "dig%1:15:00::",
+        "spuriousMeaningZhTW": "挖 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "dig%1:10:00::",
+        "spuriousMeaningZhTW": "挖（人物）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "dig%1:07:00::",
+        "spuriousMeaningZhTW": "挖 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "fly%2:38:00::",
+        "spuriousMeaningZhTW": "蒼蠅 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
+      },
+      {
+        "senseId": "fly%2:38:02::",
+        "spuriousMeaningZhTW": "蒼蠅 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
+      },
+      {
+        "senseId": "fly%2:38:01::",
+        "spuriousMeaningZhTW": "蒼蠅（交通/載具）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
+      },
+      {
+        "senseId": "grass%1:20:00::",
+        "spuriousMeaningZhTW": "草（法律）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "grass%1:18:01::",
+        "spuriousMeaningZhTW": "草 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "grass%1:13:00::",
+        "spuriousMeaningZhTW": "草（音樂）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "hear%2:39:00::",
+        "spuriousMeaningZhTW": "聽到 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "hear%2:31:00::",
+        "spuriousMeaningZhTW": "聽到（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "hear%2:41:00::",
+        "spuriousMeaningZhTW": "聽到 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "heavy%3:00:01::",
+        "spuriousMeaningZhTW": "重的 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "heavy%3:00:03::",
+        "spuriousMeaningZhTW": "重的（數學）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "heavy%3:00:04::",
+        "spuriousMeaningZhTW": "重的（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "here%4:02:00::",
+        "spuriousMeaningZhTW": "在這裡 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "here%4:02:02::",
+        "spuriousMeaningZhTW": "在這裡 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "here%4:02:01::",
+        "spuriousMeaningZhTW": "在這裡（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "high%3:00:02::",
+        "spuriousMeaningZhTW": "高度 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "high%3:00:01::",
+        "spuriousMeaningZhTW": "高度（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "high%5:00:00:superior:01",
+        "spuriousMeaningZhTW": "高度 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "hill%1:17:00::",
+        "spuriousMeaningZhTW": "小山 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "hill%1:06:01::",
+        "spuriousMeaningZhTW": "小山 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "hill%1:06:00::",
+        "spuriousMeaningZhTW": "小山（體育）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "horse%1:05:00::",
+        "spuriousMeaningZhTW": "馬 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "horse%1:06:03::",
+        "spuriousMeaningZhTW": "馬 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "horse%1:14:00::",
+        "spuriousMeaningZhTW": "馬 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "hurt%1:26:00::",
+        "spuriousMeaningZhTW": "傷害 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "hurt%1:12:02::",
+        "spuriousMeaningZhTW": "傷害 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "hurt%1:12:01::",
+        "spuriousMeaningZhTW": "傷害（金額/款項）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "in%5:00:00:successful:00",
+        "spuriousMeaningZhTW": "在...期間 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "in%5:00:00:incoming:00",
+        "spuriousMeaningZhTW": "在...期間（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "in%5:00:00:fashionable:00",
+        "spuriousMeaningZhTW": "在...期間 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "jump%2:38:00::",
+        "spuriousMeaningZhTW": "跳躍（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "jump%2:38:04::",
+        "spuriousMeaningZhTW": "跳躍 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "jump%2:33:00::",
+        "spuriousMeaningZhTW": "跳躍 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "kick%1:04:00::",
+        "spuriousMeaningZhTW": "踢 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "kick%1:12:00::",
+        "spuriousMeaningZhTW": "踢 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "kick%1:11:00::",
+        "spuriousMeaningZhTW": "踢（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "kill%2:35:00::",
+        "spuriousMeaningZhTW": "殺 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "kill%2:41:01::",
+        "spuriousMeaningZhTW": "殺（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "kill%2:30:08::",
+        "spuriousMeaningZhTW": "殺 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "kill%1:04:00::",
+        "spuriousMeaningZhTW": "殺 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "kill%1:04:01::",
+        "spuriousMeaningZhTW": "殺（交通/載具）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "kill%1:05:00::",
+        "spuriousMeaningZhTW": "殺（人物）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "knife%1:06:00::",
+        "spuriousMeaningZhTW": "小刀（音樂）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "knife%1:06:01::",
+        "spuriousMeaningZhTW": "小刀（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "knife%1:25:00::",
+        "spuriousMeaningZhTW": "小刀 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "know%2:31:01::",
+        "spuriousMeaningZhTW": "知道（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "know%2:31:03::",
+        "spuriousMeaningZhTW": "知道 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "know%2:31:00::",
+        "spuriousMeaningZhTW": "知道（人物）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "learn%2:31:00::",
+        "spuriousMeaningZhTW": "學習 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "learn%2:31:01::",
+        "spuriousMeaningZhTW": "學習（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "learn%2:31:03::",
+        "spuriousMeaningZhTW": "學習 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "left%3:00:00::",
+        "spuriousMeaningZhTW": "左邊的（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "left%5:00:00:unexhausted:00",
+        "spuriousMeaningZhTW": "左邊的 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "left%5:00:00:left-handed:00",
+        "spuriousMeaningZhTW": "左邊的 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "left%1:15:00::",
+        "spuriousMeaningZhTW": "左邊的（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "left%1:14:00::",
+        "spuriousMeaningZhTW": "左邊的 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "left%1:08:00::",
+        "spuriousMeaningZhTW": "左邊的 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "lesson%1:04:01::",
+        "spuriousMeaningZhTW": "課 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "lesson%1:10:00::",
+        "spuriousMeaningZhTW": "課（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "lesson%1:10:01::",
+        "spuriousMeaningZhTW": "課 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "light%3:00:01::",
+        "spuriousMeaningZhTW": "光 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "light%3:00:05::",
+        "spuriousMeaningZhTW": "光 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "light%3:00:04::",
+        "spuriousMeaningZhTW": "光（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "look%2:39:00::",
+        "spuriousMeaningZhTW": "一看（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "look%2:39:01::",
+        "spuriousMeaningZhTW": "一看 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "look%2:29:00::",
+        "spuriousMeaningZhTW": "一看 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "look%1:07:01::",
+        "spuriousMeaningZhTW": "一看（金額/款項）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "look%1:04:00::",
+        "spuriousMeaningZhTW": "一看（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "look%1:07:00::",
+        "spuriousMeaningZhTW": "一看 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "love%1:12:00::",
+        "spuriousMeaningZhTW": "愛 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "love%1:09:00::",
+        "spuriousMeaningZhTW": "愛（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "love%1:18:00::",
+        "spuriousMeaningZhTW": "愛（人物）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "low%3:00:02::",
+        "spuriousMeaningZhTW": "低點 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "low%3:00:01::",
+        "spuriousMeaningZhTW": "低點（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "low%5:00:00:soft:04",
+        "spuriousMeaningZhTW": "低點 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "milk%1:13:01::",
+        "spuriousMeaningZhTW": "奶（人物）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "milk%1:08:00::",
+        "spuriousMeaningZhTW": "奶（金額/款項）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "milk%1:13:02::",
+        "spuriousMeaningZhTW": "奶 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "mind%1:09:00::",
+        "spuriousMeaningZhTW": "思想（金額/款項）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "mind%1:09:01::",
+        "spuriousMeaningZhTW": "思想 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "mind%1:09:04::",
+        "spuriousMeaningZhTW": "思想 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "need%1:26:00::",
+        "spuriousMeaningZhTW": "需要 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "need%1:17:00::",
+        "spuriousMeaningZhTW": "需要 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "need%1:03:00::",
+        "spuriousMeaningZhTW": "需要（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "night%1:28:00::",
+        "spuriousMeaningZhTW": "夜 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "night%1:28:01::",
+        "spuriousMeaningZhTW": "夜（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "night%1:28:04::",
+        "spuriousMeaningZhTW": "夜 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "north%1:24:00::",
+        "spuriousMeaningZhTW": "北方（交通/載具）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "north%1:15:00::",
+        "spuriousMeaningZhTW": "北方 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "north%1:24:02::",
+        "spuriousMeaningZhTW": "北方（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "nose%1:08:00::",
+        "spuriousMeaningZhTW": "鼻子 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "nose%1:06:00::",
+        "spuriousMeaningZhTW": "鼻子（交通/載具）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "nose%1:06:02::",
+        "spuriousMeaningZhTW": "鼻子（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "nurse%2:29:00::",
+        "spuriousMeaningZhTW": "護士（醫學）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "nurse%2:37:00::",
+        "spuriousMeaningZhTW": "護士（金額/款項）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "nurse%2:41:00::",
+        "spuriousMeaningZhTW": "護士（交通/載具）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "on%4:02:00::",
+        "spuriousMeaningZhTW": "在...之上（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "on%4:02:01::",
+        "spuriousMeaningZhTW": "在...之上 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "on%4:02:02::",
+        "spuriousMeaningZhTW": "在...之上 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "open%3:00:01::",
+        "spuriousMeaningZhTW": "公開 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "open%3:00:02::",
+        "spuriousMeaningZhTW": "公開 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "open%5:00:00:unprotected:00",
+        "spuriousMeaningZhTW": "公開 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "order%1:10:03::",
+        "spuriousMeaningZhTW": "次序（法律）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "order%1:07:01::",
+        "spuriousMeaningZhTW": "次序 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "order%1:26:00::",
+        "spuriousMeaningZhTW": "次序 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "pass%2:38:00::",
+        "spuriousMeaningZhTW": "經過 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
+      },
+      {
+        "senseId": "pass%2:38:05::",
+        "spuriousMeaningZhTW": "經過 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
+      },
+      {
+        "senseId": "pass%2:41:02::",
+        "spuriousMeaningZhTW": "經過（法律）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
+      },
+      {
+        "senseId": "pass%1:04:04::",
+        "spuriousMeaningZhTW": "經過（體育）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "pass%1:28:00::",
+        "spuriousMeaningZhTW": "經過（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "pass%1:04:02::",
+        "spuriousMeaningZhTW": "經過（體育） (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "pay%2:40:00::",
+        "spuriousMeaningZhTW": "付錢（金額/款項）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "pay%2:32:00::",
+        "spuriousMeaningZhTW": "付錢 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "pay%2:40:04::",
+        "spuriousMeaningZhTW": "付錢 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "plant%1:06:01::",
+        "spuriousMeaningZhTW": "植物（交通/載具）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "plant%1:03:00::",
+        "spuriousMeaningZhTW": "植物 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "plant%1:18:00::",
+        "spuriousMeaningZhTW": "植物 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "pool%2:40:00::",
+        "spuriousMeaningZhTW": "池 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "pool%2:33:00::",
+        "spuriousMeaningZhTW": "池 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "pot%1:06:00::",
+        "spuriousMeaningZhTW": "盆（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "pot%1:06:01::",
+        "spuriousMeaningZhTW": "盆 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "pot%1:23:00::",
+        "spuriousMeaningZhTW": "盆 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "practice%1:04:00::",
+        "spuriousMeaningZhTW": "實踐 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "practice%1:04:02::",
+        "spuriousMeaningZhTW": "實踐 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "practice%1:04:04::",
+        "spuriousMeaningZhTW": "實踐 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "pull%2:35:00::",
+        "spuriousMeaningZhTW": "拉 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "pull%2:35:02::",
+        "spuriousMeaningZhTW": "拉（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "pull%2:38:01::",
+        "spuriousMeaningZhTW": "拉 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "pull%1:04:00::",
+        "spuriousMeaningZhTW": "拉（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "pull%1:19:00::",
+        "spuriousMeaningZhTW": "拉 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "pull%1:07:00::",
+        "spuriousMeaningZhTW": "拉 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "push%2:38:00::",
+        "spuriousMeaningZhTW": "推 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
+      },
+      {
+        "senseId": "push%2:32:01::",
+        "spuriousMeaningZhTW": "推（人物）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
+      },
+      {
+        "senseId": "push%2:32:00::",
+        "spuriousMeaningZhTW": "推 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
+      },
+      {
+        "senseId": "race%2:38:00::",
+        "spuriousMeaningZhTW": "種族 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "race%2:33:00::",
+        "spuriousMeaningZhTW": "種族 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "race%2:41:03::",
+        "spuriousMeaningZhTW": "種族（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "raise%1:07:00::",
+        "spuriousMeaningZhTW": "上升 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "raise%1:17:00::",
+        "spuriousMeaningZhTW": "上升（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "raise%1:04:01::",
+        "spuriousMeaningZhTW": "上升（音樂）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "reach%2:38:01::",
+        "spuriousMeaningZhTW": "伸出 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "reach%2:38:00::",
+        "spuriousMeaningZhTW": "伸出 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "reach%2:35:00::",
+        "spuriousMeaningZhTW": "伸出（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "report%1:10:03::",
+        "spuriousMeaningZhTW": "報告 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "report%1:10:01::",
+        "spuriousMeaningZhTW": "報告 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "report%1:10:00::",
+        "spuriousMeaningZhTW": "報告 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "right%3:00:00::",
+        "spuriousMeaningZhTW": "右邊；正確的；權利（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "right%3:00:02::",
+        "spuriousMeaningZhTW": "右邊；正確的；權利 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "right%5:00:01:proper:00",
+        "spuriousMeaningZhTW": "右邊；正確的；權利 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "rise%1:11:00::",
+        "spuriousMeaningZhTW": "上升（數學）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "rise%1:04:00::",
+        "spuriousMeaningZhTW": "上升（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "rise%1:17:00::",
+        "spuriousMeaningZhTW": "上升（軍事） (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "rise%2:38:00::",
+        "spuriousMeaningZhTW": "上升（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "rise%2:30:00::",
+        "spuriousMeaningZhTW": "上升 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "rise%2:38:05::",
+        "spuriousMeaningZhTW": "上升（金額/款項）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "roll%1:11:02::",
+        "spuriousMeaningZhTW": "卷 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "roll%1:10:00::",
+        "spuriousMeaningZhTW": "卷 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "roll%1:11:01::",
+        "spuriousMeaningZhTW": "卷（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "round%1:06:01::",
+        "spuriousMeaningZhTW": "圓（音樂）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "round%1:28:01::",
+        "spuriousMeaningZhTW": "圓 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "round%1:15:00::",
+        "spuriousMeaningZhTW": "圓 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "service%1:04:08::",
+        "spuriousMeaningZhTW": "服務（人物）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "service%1:04:00::",
+        "spuriousMeaningZhTW": "服務（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "service%1:04:01::",
+        "spuriousMeaningZhTW": "服務（交通/載具）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "share%1:21:00::",
+        "spuriousMeaningZhTW": "部分（人物）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "share%1:21:01::",
+        "spuriousMeaningZhTW": "部分（交通/載具）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "share%1:04:00::",
+        "spuriousMeaningZhTW": "部分 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "sick%3:00:01::",
+        "spuriousMeaningZhTW": "病人 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "sick%5:00:02:ill:01",
+        "spuriousMeaningZhTW": "病人（金額/款項）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "sick%5:00:00:insane:00",
+        "spuriousMeaningZhTW": "病人 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "sight%2:39:00::",
+        "spuriousMeaningZhTW": "景觀 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "sight%2:39:03::",
+        "spuriousMeaningZhTW": "景觀（設備/器具）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "soldier%1:18:00::",
+        "spuriousMeaningZhTW": "軍人 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "soldier%1:05:00::",
+        "spuriousMeaningZhTW": "軍人 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "south%1:24:00::",
+        "spuriousMeaningZhTW": "南方（交通/載具）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "south%1:15:02::",
+        "spuriousMeaningZhTW": "南方 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "south%1:24:02::",
+        "spuriousMeaningZhTW": "南方（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "spring%2:38:01::",
+        "spuriousMeaningZhTW": "春天（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "spring%2:42:00::",
+        "spuriousMeaningZhTW": "春天 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "spring%2:38:00::",
+        "spuriousMeaningZhTW": "春天 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "square%1:25:00::",
+        "spuriousMeaningZhTW": "正方形（交通/載具）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "square%1:23:00::",
+        "spuriousMeaningZhTW": "正方形 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "square%1:15:00::",
+        "spuriousMeaningZhTW": "正方形 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "study%2:31:02::",
+        "spuriousMeaningZhTW": "學習 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "study%2:31:03::",
+        "spuriousMeaningZhTW": "學習 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "study%2:39:00::",
+        "spuriousMeaningZhTW": "學習（交通/載具）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "sugar%1:13:00::",
+        "spuriousMeaningZhTW": "糖（交通/載具）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "sugar%1:27:00::",
+        "spuriousMeaningZhTW": "糖（數學）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "sugar%1:21:00::",
+        "spuriousMeaningZhTW": "糖（金額/款項）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "sun%1:19:00::",
+        "spuriousMeaningZhTW": "太陽 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "sun%1:18:00::",
+        "spuriousMeaningZhTW": "太陽（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "sun%1:17:01::",
+        "spuriousMeaningZhTW": "太陽（交通/載具）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "surprise%2:31:00::",
+        "spuriousMeaningZhTW": "驚奇 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "surprise%2:41:00::",
+        "spuriousMeaningZhTW": "驚奇（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "surprise%2:33:00::",
+        "spuriousMeaningZhTW": "驚奇 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "table%1:14:00::",
+        "spuriousMeaningZhTW": "桌子 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "table%1:06:01::",
+        "spuriousMeaningZhTW": "桌子 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "table%1:06:02::",
+        "spuriousMeaningZhTW": "桌子（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "theater%1:06:00::",
+        "spuriousMeaningZhTW": "戲院 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "theater%1:10:00::",
+        "spuriousMeaningZhTW": "戲院（體育）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "theater%1:15:00::",
+        "spuriousMeaningZhTW": "戲院（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "then%4:02:00::",
+        "spuriousMeaningZhTW": "然後（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "then%4:02:02::",
+        "spuriousMeaningZhTW": "然後 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "then%4:02:01::",
+        "spuriousMeaningZhTW": "然後 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "there%4:02:00::",
+        "spuriousMeaningZhTW": "在那裡 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "there%4:02:02::",
+        "spuriousMeaningZhTW": "在那裡 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "there%4:02:01::",
+        "spuriousMeaningZhTW": "在那裡（軍事）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "tip%1:15:00::",
+        "spuriousMeaningZhTW": "尖端；小費；提示 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "tip%1:21:00::",
+        "spuriousMeaningZhTW": "尖端；小費；提示（金額/款項）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "tip%1:10:00::",
+        "spuriousMeaningZhTW": "尖端；小費；提示 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "toilet%1:06:00::",
+        "spuriousMeaningZhTW": "廁所 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "toilet%1:06:01::",
+        "spuriousMeaningZhTW": "廁所 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "toilet%1:26:00::",
+        "spuriousMeaningZhTW": "廁所（金額/款項）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "tooth%1:08:00::",
+        "spuriousMeaningZhTW": "牙齒 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "tooth%1:06:01::",
+        "spuriousMeaningZhTW": "牙齒（動物）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "tooth%1:05:02::",
+        "spuriousMeaningZhTW": "牙齒 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "train%2:31:01::",
+        "spuriousMeaningZhTW": "火車 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "train%2:31:00::",
+        "spuriousMeaningZhTW": "火車 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "train%2:41:02::",
+        "spuriousMeaningZhTW": "火車（動物）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "treat%1:13:00::",
+        "spuriousMeaningZhTW": "對待 (義項 1)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "treat%1:11:00::",
+        "spuriousMeaningZhTW": "對待 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "treatment%1:04:00::",
+        "spuriousMeaningZhTW": "對待（醫學）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "visit%1:04:02::",
+        "spuriousMeaningZhTW": "拜訪（人物）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "visit%1:14:00::",
+        "spuriousMeaningZhTW": "拜訪（法律）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "visit%1:04:01::",
+        "spuriousMeaningZhTW": "拜訪 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "well%3:00:01::",
+        "spuriousMeaningZhTW": "很好地；井（醫學）",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "well%5:00:00:fortunate:00",
+        "spuriousMeaningZhTW": "很好地；井 (義項 2)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      },
+      {
+        "senseId": "well%5:00:00:advisable:00",
+        "spuriousMeaningZhTW": "很好地；井 (義項 3)",
+        "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+      }
+    ],
+    "changedDisplayGroups": [
+      {
+        "wordId": "book-102",
+        "word": "book",
+        "pos": "verb",
+        "baselineMeaningZhTW": "書",
+        "baselineSourceSenseIds": [
+          "book%2:31:00::",
+          "book%2:41:00::",
+          "book%2:41:01::"
+        ],
+        "regressedSplitMeanings": [
+          "書 (義項 1)",
+          "書（人物）",
+          "書 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "book%2:31:00::"
+          ],
+          [
+            "book%2:41:01::"
+          ],
+          [
+            "book%2:41:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "bridge-119",
+        "word": "bridge",
+        "pos": "noun",
+        "baselineMeaningZhTW": "橋",
+        "baselineSourceSenseIds": [
+          "bridge%1:06:00::",
+          "bridge%1:06:05::",
+          "bridge%1:24:00::"
+        ],
+        "regressedSplitMeanings": [
+          "橋（交通/載具）",
+          "橋 (義項 2)",
+          "橋 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "bridge%1:06:00::"
+          ],
+          [
+            "bridge%1:06:05::"
+          ],
+          [
+            "bridge%1:24:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "dig-227",
+        "word": "dig",
+        "pos": "noun",
+        "baselineMeaningZhTW": "挖",
+        "baselineSourceSenseIds": [
+          "dig%1:07:00::",
+          "dig%1:10:00::",
+          "dig%1:15:00::"
+        ],
+        "regressedSplitMeanings": [
+          "挖 (義項 1)",
+          "挖（人物）",
+          "挖 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "dig%1:15:00::"
+          ],
+          [
+            "dig%1:10:00::"
+          ],
+          [
+            "dig%1:07:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "fly-318",
+        "word": "fly",
+        "pos": "verb",
+        "baselineMeaningZhTW": "蒼蠅",
+        "baselineSourceSenseIds": [
+          "fly%2:38:00::",
+          "fly%2:38:01::",
+          "fly%2:38:02::"
+        ],
+        "regressedSplitMeanings": [
+          "蒼蠅 (義項 1)",
+          "蒼蠅 (義項 2)",
+          "蒼蠅（交通/載具）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "fly%2:38:00::"
+          ],
+          [
+            "fly%2:38:02::"
+          ],
+          [
+            "fly%2:38:01::"
+          ]
+        ]
+      },
+      {
+        "wordId": "grass-360",
+        "word": "grass",
+        "pos": "noun",
+        "baselineMeaningZhTW": "草",
+        "baselineSourceSenseIds": [
+          "grass%1:13:00::",
+          "grass%1:18:01::",
+          "grass%1:20:00::"
+        ],
+        "regressedSplitMeanings": [
+          "草（法律）",
+          "草 (義項 2)",
+          "草（音樂）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "grass%1:20:00::"
+          ],
+          [
+            "grass%1:18:01::"
+          ],
+          [
+            "grass%1:13:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "hear-387",
+        "word": "hear",
+        "pos": "verb",
+        "baselineMeaningZhTW": "聽到",
+        "baselineSourceSenseIds": [
+          "hear%2:31:00::",
+          "hear%2:39:00::",
+          "hear%2:41:00::"
+        ],
+        "regressedSplitMeanings": [
+          "聽到 (義項 1)",
+          "聽到（軍事）",
+          "聽到 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "hear%2:39:00::"
+          ],
+          [
+            "hear%2:31:00::"
+          ],
+          [
+            "hear%2:41:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "heavy-390",
+        "word": "heavy",
+        "pos": "adjective",
+        "baselineMeaningZhTW": "重的",
+        "baselineSourceSenseIds": [
+          "heavy%3:00:01::",
+          "heavy%3:00:03::",
+          "heavy%3:00:04::"
+        ],
+        "regressedSplitMeanings": [
+          "重的 (義項 1)",
+          "重的（數學）",
+          "重的（軍事）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "heavy%3:00:01::"
+          ],
+          [
+            "heavy%3:00:03::"
+          ],
+          [
+            "heavy%3:00:04::"
+          ]
+        ]
+      },
+      {
+        "wordId": "here-396",
+        "word": "here",
+        "pos": "adverb",
+        "baselineMeaningZhTW": "在這裡",
+        "baselineSourceSenseIds": [
+          "here%4:02:00::",
+          "here%4:02:01::",
+          "here%4:02:02::"
+        ],
+        "regressedSplitMeanings": [
+          "在這裡 (義項 1)",
+          "在這裡 (義項 2)",
+          "在這裡（軍事）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "here%4:02:00::"
+          ],
+          [
+            "here%4:02:02::"
+          ],
+          [
+            "here%4:02:01::"
+          ]
+        ]
+      },
+      {
+        "wordId": "high-398",
+        "word": "high",
+        "pos": "adjective",
+        "baselineMeaningZhTW": "高度",
+        "baselineSourceSenseIds": [
+          "high%3:00:01::",
+          "high%3:00:02::",
+          "high%5:00:00:superior:01"
+        ],
+        "regressedSplitMeanings": [
+          "高度 (義項 1)",
+          "高度（軍事）",
+          "高度 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "high%3:00:02::"
+          ],
+          [
+            "high%3:00:01::"
+          ],
+          [
+            "high%5:00:00:superior:01"
+          ]
+        ]
+      },
+      {
+        "wordId": "hill-399",
+        "word": "hill",
+        "pos": "noun",
+        "baselineMeaningZhTW": "小山",
+        "baselineSourceSenseIds": [
+          "hill%1:06:00::",
+          "hill%1:06:01::",
+          "hill%1:17:00::"
+        ],
+        "regressedSplitMeanings": [
+          "小山 (義項 1)",
+          "小山 (義項 2)",
+          "小山（體育）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "hill%1:17:00::"
+          ],
+          [
+            "hill%1:06:01::"
+          ],
+          [
+            "hill%1:06:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "horse-410",
+        "word": "horse",
+        "pos": "noun",
+        "baselineMeaningZhTW": "馬",
+        "baselineSourceSenseIds": [
+          "horse%1:05:00::",
+          "horse%1:06:03::",
+          "horse%1:14:00::"
+        ],
+        "regressedSplitMeanings": [
+          "馬 (義項 1)",
+          "馬 (義項 2)",
+          "馬 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "horse%1:05:00::"
+          ],
+          [
+            "horse%1:06:03::"
+          ],
+          [
+            "horse%1:14:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "hurt-421",
+        "word": "hurt",
+        "pos": "noun",
+        "baselineMeaningZhTW": "傷害",
+        "baselineSourceSenseIds": [
+          "hurt%1:12:01::",
+          "hurt%1:12:02::",
+          "hurt%1:26:00::"
+        ],
+        "regressedSplitMeanings": [
+          "傷害 (義項 1)",
+          "傷害 (義項 2)",
+          "傷害（金額/款項）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "hurt%1:26:00::"
+          ],
+          [
+            "hurt%1:12:02::"
+          ],
+          [
+            "hurt%1:12:01::"
+          ]
+        ]
+      },
+      {
+        "wordId": "in-428",
+        "word": "in",
+        "pos": "adjective",
+        "baselineMeaningZhTW": "在...期間",
+        "baselineSourceSenseIds": [
+          "in%5:00:00:fashionable:00",
+          "in%5:00:00:incoming:00",
+          "in%5:00:00:successful:00"
+        ],
+        "regressedSplitMeanings": [
+          "在...期間 (義項 1)",
+          "在...期間（軍事）",
+          "在...期間 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "in%5:00:00:successful:00"
+          ],
+          [
+            "in%5:00:00:incoming:00"
+          ],
+          [
+            "in%5:00:00:fashionable:00"
+          ]
+        ]
+      },
+      {
+        "wordId": "jump-448",
+        "word": "jump",
+        "pos": "verb",
+        "baselineMeaningZhTW": "跳躍",
+        "baselineSourceSenseIds": [
+          "jump%2:33:00::",
+          "jump%2:38:00::",
+          "jump%2:38:04::"
+        ],
+        "regressedSplitMeanings": [
+          "跳躍（軍事）",
+          "跳躍 (義項 2)",
+          "跳躍 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "jump%2:38:00::"
+          ],
+          [
+            "jump%2:38:04::"
+          ],
+          [
+            "jump%2:33:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "kick-452",
+        "word": "kick",
+        "pos": "noun",
+        "baselineMeaningZhTW": "踢",
+        "baselineSourceSenseIds": [
+          "kick%1:04:00::",
+          "kick%1:11:00::",
+          "kick%1:12:00::"
+        ],
+        "regressedSplitMeanings": [
+          "踢 (義項 1)",
+          "踢 (義項 2)",
+          "踢（軍事）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "kick%1:04:00::"
+          ],
+          [
+            "kick%1:12:00::"
+          ],
+          [
+            "kick%1:11:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "kill-454",
+        "word": "kill",
+        "pos": "verb",
+        "baselineMeaningZhTW": "殺",
+        "baselineSourceSenseIds": [
+          "kill%2:30:08::",
+          "kill%2:35:00::",
+          "kill%2:41:01::"
+        ],
+        "regressedSplitMeanings": [
+          "殺 (義項 1)",
+          "殺（軍事）",
+          "殺 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "kill%2:35:00::"
+          ],
+          [
+            "kill%2:41:01::"
+          ],
+          [
+            "kill%2:30:08::"
+          ]
+        ]
+      },
+      {
+        "wordId": "kill-454",
+        "word": "kill",
+        "pos": "noun",
+        "baselineMeaningZhTW": "殺",
+        "baselineSourceSenseIds": [
+          "kill%1:04:00::",
+          "kill%1:04:01::",
+          "kill%1:05:00::"
+        ],
+        "regressedSplitMeanings": [
+          "殺 (義項 1)",
+          "殺（交通/載具）",
+          "殺（人物）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "kill%1:04:00::"
+          ],
+          [
+            "kill%1:04:01::"
+          ],
+          [
+            "kill%1:05:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "knife-461",
+        "word": "knife",
+        "pos": "noun",
+        "baselineMeaningZhTW": "小刀",
+        "baselineSourceSenseIds": [
+          "knife%1:06:00::",
+          "knife%1:06:01::",
+          "knife%1:25:00::"
+        ],
+        "regressedSplitMeanings": [
+          "小刀（音樂）",
+          "小刀（軍事）",
+          "小刀 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "knife%1:06:00::"
+          ],
+          [
+            "knife%1:06:01::"
+          ],
+          [
+            "knife%1:25:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "know-463",
+        "word": "know",
+        "pos": "verb",
+        "baselineMeaningZhTW": "知道",
+        "baselineSourceSenseIds": [
+          "know%2:31:00::",
+          "know%2:31:01::",
+          "know%2:31:03::"
+        ],
+        "regressedSplitMeanings": [
+          "知道（軍事）",
+          "知道 (義項 2)",
+          "知道（人物）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "know%2:31:01::"
+          ],
+          [
+            "know%2:31:03::"
+          ],
+          [
+            "know%2:31:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "learn-478",
+        "word": "learn",
+        "pos": "verb",
+        "baselineMeaningZhTW": "學習",
+        "baselineSourceSenseIds": [
+          "learn%2:31:00::",
+          "learn%2:31:01::",
+          "learn%2:31:03::"
+        ],
+        "regressedSplitMeanings": [
+          "學習 (義項 1)",
+          "學習（軍事）",
+          "學習 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "learn%2:31:00::"
+          ],
+          [
+            "learn%2:31:01::"
+          ],
+          [
+            "learn%2:31:03::"
+          ]
+        ]
+      },
+      {
+        "wordId": "left-481",
+        "word": "left",
+        "pos": "adjective",
+        "baselineMeaningZhTW": "左邊的",
+        "baselineSourceSenseIds": [
+          "left%3:00:00::",
+          "left%5:00:00:left-handed:00",
+          "left%5:00:00:unexhausted:00"
+        ],
+        "regressedSplitMeanings": [
+          "左邊的（軍事）",
+          "左邊的 (義項 2)",
+          "左邊的 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "left%3:00:00::"
+          ],
+          [
+            "left%5:00:00:unexhausted:00"
+          ],
+          [
+            "left%5:00:00:left-handed:00"
+          ]
+        ]
+      },
+      {
+        "wordId": "left-481",
+        "word": "left",
+        "pos": "noun",
+        "baselineMeaningZhTW": "左邊的",
+        "baselineSourceSenseIds": [
+          "left%1:08:00::",
+          "left%1:14:00::",
+          "left%1:15:00::"
+        ],
+        "regressedSplitMeanings": [
+          "左邊的（軍事）",
+          "左邊的 (義項 2)",
+          "左邊的 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "left%1:15:00::"
+          ],
+          [
+            "left%1:14:00::"
+          ],
+          [
+            "left%1:08:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "lesson-485",
+        "word": "lesson",
+        "pos": "noun",
+        "baselineMeaningZhTW": "課",
+        "baselineSourceSenseIds": [
+          "lesson%1:04:01::",
+          "lesson%1:10:00::",
+          "lesson%1:10:01::"
+        ],
+        "regressedSplitMeanings": [
+          "課 (義項 1)",
+          "課（軍事）",
+          "課 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "lesson%1:04:01::"
+          ],
+          [
+            "lesson%1:10:00::"
+          ],
+          [
+            "lesson%1:10:01::"
+          ]
+        ]
+      },
+      {
+        "wordId": "light-492",
+        "word": "light",
+        "pos": "adjective",
+        "baselineMeaningZhTW": "光",
+        "baselineSourceSenseIds": [
+          "light%3:00:01::",
+          "light%3:00:04::",
+          "light%3:00:05::"
+        ],
+        "regressedSplitMeanings": [
+          "光 (義項 1)",
+          "光 (義項 2)",
+          "光（軍事）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "light%3:00:01::"
+          ],
+          [
+            "light%3:00:05::"
+          ],
+          [
+            "light%3:00:04::"
+          ]
+        ]
+      },
+      {
+        "wordId": "look-503",
+        "word": "look",
+        "pos": "verb",
+        "baselineMeaningZhTW": "一看",
+        "baselineSourceSenseIds": [
+          "look%2:29:00::",
+          "look%2:39:00::",
+          "look%2:39:01::"
+        ],
+        "regressedSplitMeanings": [
+          "一看（軍事）",
+          "一看 (義項 2)",
+          "一看 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "look%2:39:00::"
+          ],
+          [
+            "look%2:39:01::"
+          ],
+          [
+            "look%2:29:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "look-503",
+        "word": "look",
+        "pos": "noun",
+        "baselineMeaningZhTW": "一看",
+        "baselineSourceSenseIds": [
+          "look%1:04:00::",
+          "look%1:07:00::",
+          "look%1:07:01::"
+        ],
+        "regressedSplitMeanings": [
+          "一看（金額/款項）",
+          "一看（軍事）",
+          "一看 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "look%1:07:01::"
+          ],
+          [
+            "look%1:04:00::"
+          ],
+          [
+            "look%1:07:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "love-507",
+        "word": "love",
+        "pos": "noun",
+        "baselineMeaningZhTW": "愛",
+        "baselineSourceSenseIds": [
+          "love%1:09:00::",
+          "love%1:12:00::",
+          "love%1:18:00::"
+        ],
+        "regressedSplitMeanings": [
+          "愛 (義項 1)",
+          "愛（軍事）",
+          "愛（人物）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "love%1:12:00::"
+          ],
+          [
+            "love%1:09:00::"
+          ],
+          [
+            "love%1:18:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "low-509",
+        "word": "low",
+        "pos": "adjective",
+        "baselineMeaningZhTW": "低點",
+        "baselineSourceSenseIds": [
+          "low%3:00:01::",
+          "low%3:00:02::",
+          "low%5:00:00:soft:04"
+        ],
+        "regressedSplitMeanings": [
+          "低點 (義項 1)",
+          "低點（軍事）",
+          "低點 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "low%3:00:02::"
+          ],
+          [
+            "low%3:00:01::"
+          ],
+          [
+            "low%5:00:00:soft:04"
+          ]
+        ]
+      },
+      {
+        "wordId": "milk-539",
+        "word": "milk",
+        "pos": "noun",
+        "baselineMeaningZhTW": "奶",
+        "baselineSourceSenseIds": [
+          "milk%1:08:00::",
+          "milk%1:13:01::",
+          "milk%1:13:02::"
+        ],
+        "regressedSplitMeanings": [
+          "奶（人物）",
+          "奶（金額/款項）",
+          "奶 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "milk%1:13:01::"
+          ],
+          [
+            "milk%1:08:00::"
+          ],
+          [
+            "milk%1:13:02::"
+          ]
+        ]
+      },
+      {
+        "wordId": "mind-541",
+        "word": "mind",
+        "pos": "noun",
+        "baselineMeaningZhTW": "思想",
+        "baselineSourceSenseIds": [
+          "mind%1:09:00::",
+          "mind%1:09:01::",
+          "mind%1:09:04::"
+        ],
+        "regressedSplitMeanings": [
+          "思想（金額/款項）",
+          "思想 (義項 2)",
+          "思想 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "mind%1:09:00::"
+          ],
+          [
+            "mind%1:09:01::"
+          ],
+          [
+            "mind%1:09:04::"
+          ]
+        ]
+      },
+      {
+        "wordId": "need-574",
+        "word": "need",
+        "pos": "noun",
+        "baselineMeaningZhTW": "需要",
+        "baselineSourceSenseIds": [
+          "need%1:03:00::",
+          "need%1:17:00::",
+          "need%1:26:00::"
+        ],
+        "regressedSplitMeanings": [
+          "需要 (義項 1)",
+          "需要 (義項 2)",
+          "需要（軍事）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "need%1:26:00::"
+          ],
+          [
+            "need%1:17:00::"
+          ],
+          [
+            "need%1:03:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "night-582",
+        "word": "night",
+        "pos": "noun",
+        "baselineMeaningZhTW": "夜",
+        "baselineSourceSenseIds": [
+          "night%1:28:00::",
+          "night%1:28:01::",
+          "night%1:28:04::"
+        ],
+        "regressedSplitMeanings": [
+          "夜 (義項 1)",
+          "夜（軍事）",
+          "夜 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "night%1:28:00::"
+          ],
+          [
+            "night%1:28:01::"
+          ],
+          [
+            "night%1:28:04::"
+          ]
+        ]
+      },
+      {
+        "wordId": "north-588",
+        "word": "north",
+        "pos": "noun",
+        "baselineMeaningZhTW": "北方",
+        "baselineSourceSenseIds": [
+          "north%1:15:00::",
+          "north%1:24:00::",
+          "north%1:24:02::"
+        ],
+        "regressedSplitMeanings": [
+          "北方（交通/載具）",
+          "北方 (義項 2)",
+          "北方（軍事）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "north%1:24:00::"
+          ],
+          [
+            "north%1:15:00::"
+          ],
+          [
+            "north%1:24:02::"
+          ]
+        ]
+      },
+      {
+        "wordId": "nose-589",
+        "word": "nose",
+        "pos": "noun",
+        "baselineMeaningZhTW": "鼻子",
+        "baselineSourceSenseIds": [
+          "nose%1:06:00::",
+          "nose%1:06:02::",
+          "nose%1:08:00::"
+        ],
+        "regressedSplitMeanings": [
+          "鼻子 (義項 1)",
+          "鼻子（交通/載具）",
+          "鼻子（軍事）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "nose%1:08:00::"
+          ],
+          [
+            "nose%1:06:00::"
+          ],
+          [
+            "nose%1:06:02::"
+          ]
+        ]
+      },
+      {
+        "wordId": "nurse-596",
+        "word": "nurse",
+        "pos": "verb",
+        "baselineMeaningZhTW": "護士",
+        "baselineSourceSenseIds": [
+          "nurse%2:29:00::",
+          "nurse%2:37:00::",
+          "nurse%2:41:00::"
+        ],
+        "regressedSplitMeanings": [
+          "護士（醫學）",
+          "護士（金額/款項）",
+          "護士（交通/載具）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "nurse%2:29:00::"
+          ],
+          [
+            "nurse%2:37:00::"
+          ],
+          [
+            "nurse%2:41:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "on-606",
+        "word": "on",
+        "pos": "adverb",
+        "baselineMeaningZhTW": "在...之上",
+        "baselineSourceSenseIds": [
+          "on%4:02:00::",
+          "on%4:02:01::",
+          "on%4:02:02::"
+        ],
+        "regressedSplitMeanings": [
+          "在...之上（軍事）",
+          "在...之上 (義項 2)",
+          "在...之上 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "on%4:02:00::"
+          ],
+          [
+            "on%4:02:01::"
+          ],
+          [
+            "on%4:02:02::"
+          ]
+        ]
+      },
+      {
+        "wordId": "open-610",
+        "word": "open",
+        "pos": "adjective",
+        "baselineMeaningZhTW": "公開",
+        "baselineSourceSenseIds": [
+          "open%3:00:01::",
+          "open%3:00:02::",
+          "open%5:00:00:unprotected:00"
+        ],
+        "regressedSplitMeanings": [
+          "公開 (義項 1)",
+          "公開 (義項 2)",
+          "公開 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "open%3:00:01::"
+          ],
+          [
+            "open%3:00:02::"
+          ],
+          [
+            "open%5:00:00:unprotected:00"
+          ]
+        ]
+      },
+      {
+        "wordId": "order-613",
+        "word": "order",
+        "pos": "noun",
+        "baselineMeaningZhTW": "次序",
+        "baselineSourceSenseIds": [
+          "order%1:07:01::",
+          "order%1:10:03::",
+          "order%1:26:00::"
+        ],
+        "regressedSplitMeanings": [
+          "次序（法律）",
+          "次序 (義項 2)",
+          "次序 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "order%1:10:03::"
+          ],
+          [
+            "order%1:07:01::"
+          ],
+          [
+            "order%1:26:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "pass-630",
+        "word": "pass",
+        "pos": "verb",
+        "baselineMeaningZhTW": "經過",
+        "baselineSourceSenseIds": [
+          "pass%2:38:00::",
+          "pass%2:38:05::",
+          "pass%2:41:02::"
+        ],
+        "regressedSplitMeanings": [
+          "經過 (義項 1)",
+          "經過 (義項 2)",
+          "經過（法律）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "pass%2:38:00::"
+          ],
+          [
+            "pass%2:38:05::"
+          ],
+          [
+            "pass%2:41:02::"
+          ]
+        ]
+      },
+      {
+        "wordId": "pass-630",
+        "word": "pass",
+        "pos": "noun",
+        "baselineMeaningZhTW": "經過",
+        "baselineSourceSenseIds": [
+          "pass%1:04:02::",
+          "pass%1:04:04::",
+          "pass%1:28:00::"
+        ],
+        "regressedSplitMeanings": [
+          "經過（體育）",
+          "經過（軍事）",
+          "經過（體育） (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "pass%1:04:04::"
+          ],
+          [
+            "pass%1:28:00::"
+          ],
+          [
+            "pass%1:04:02::"
+          ]
+        ]
+      },
+      {
+        "wordId": "pay(ment)-632",
+        "word": "pay(ment)",
+        "pos": "verb",
+        "baselineMeaningZhTW": "付錢",
+        "baselineSourceSenseIds": [
+          "pay%2:32:00::",
+          "pay%2:40:00::",
+          "pay%2:40:04::"
+        ],
+        "regressedSplitMeanings": [
+          "付錢（金額/款項）",
+          "付錢 (義項 2)",
+          "付錢 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "pay%2:40:00::"
+          ],
+          [
+            "pay%2:32:00::"
+          ],
+          [
+            "pay%2:40:04::"
+          ]
+        ]
+      },
+      {
+        "wordId": "plant-653",
+        "word": "plant",
+        "pos": "noun",
+        "baselineMeaningZhTW": "植物",
+        "baselineSourceSenseIds": [
+          "plant%1:03:00::",
+          "plant%1:06:01::",
+          "plant%1:18:00::"
+        ],
+        "regressedSplitMeanings": [
+          "植物（交通/載具）",
+          "植物 (義項 2)",
+          "植物 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "plant%1:06:01::"
+          ],
+          [
+            "plant%1:03:00::"
+          ],
+          [
+            "plant%1:18:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "pool-665",
+        "word": "pool",
+        "pos": "verb",
+        "baselineMeaningZhTW": "池",
+        "baselineSourceSenseIds": [
+          "pool%2:33:00::",
+          "pool%2:40:00::"
+        ],
+        "regressedSplitMeanings": [
+          "池 (義項 1)",
+          "池 (義項 2)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "pool%2:40:00::"
+          ],
+          [
+            "pool%2:33:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "pot-670",
+        "word": "pot",
+        "pos": "noun",
+        "baselineMeaningZhTW": "盆",
+        "baselineSourceSenseIds": [
+          "pot%1:06:00::",
+          "pot%1:06:01::",
+          "pot%1:23:00::"
+        ],
+        "regressedSplitMeanings": [
+          "盆（軍事）",
+          "盆 (義項 2)",
+          "盆 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "pot%1:06:00::"
+          ],
+          [
+            "pot%1:06:01::"
+          ],
+          [
+            "pot%1:23:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "practice-673",
+        "word": "practice",
+        "pos": "noun",
+        "baselineMeaningZhTW": "實踐",
+        "baselineSourceSenseIds": [
+          "practice%1:04:00::",
+          "practice%1:04:02::",
+          "practice%1:04:04::"
+        ],
+        "regressedSplitMeanings": [
+          "實踐 (義項 1)",
+          "實踐 (義項 2)",
+          "實踐 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "practice%1:04:00::"
+          ],
+          [
+            "practice%1:04:02::"
+          ],
+          [
+            "practice%1:04:04::"
+          ]
+        ]
+      },
+      {
+        "wordId": "pull-683",
+        "word": "pull",
+        "pos": "verb",
+        "baselineMeaningZhTW": "拉",
+        "baselineSourceSenseIds": [
+          "pull%2:35:00::",
+          "pull%2:35:02::",
+          "pull%2:38:01::"
+        ],
+        "regressedSplitMeanings": [
+          "拉 (義項 1)",
+          "拉（軍事）",
+          "拉 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "pull%2:35:00::"
+          ],
+          [
+            "pull%2:35:02::"
+          ],
+          [
+            "pull%2:38:01::"
+          ]
+        ]
+      },
+      {
+        "wordId": "pull-683",
+        "word": "pull",
+        "pos": "noun",
+        "baselineMeaningZhTW": "拉",
+        "baselineSourceSenseIds": [
+          "pull%1:04:00::",
+          "pull%1:07:00::",
+          "pull%1:19:00::"
+        ],
+        "regressedSplitMeanings": [
+          "拉（軍事）",
+          "拉 (義項 2)",
+          "拉 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "pull%1:04:00::"
+          ],
+          [
+            "pull%1:19:00::"
+          ],
+          [
+            "pull%1:07:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "push-684",
+        "word": "push",
+        "pos": "verb",
+        "baselineMeaningZhTW": "推",
+        "baselineSourceSenseIds": [
+          "push%2:32:00::",
+          "push%2:32:01::",
+          "push%2:38:00::"
+        ],
+        "regressedSplitMeanings": [
+          "推 (義項 1)",
+          "推（人物）",
+          "推 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "push%2:38:00::"
+          ],
+          [
+            "push%2:32:01::"
+          ],
+          [
+            "push%2:32:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "race-693",
+        "word": "race",
+        "pos": "verb",
+        "baselineMeaningZhTW": "種族",
+        "baselineSourceSenseIds": [
+          "race%2:33:00::",
+          "race%2:38:00::",
+          "race%2:41:03::"
+        ],
+        "regressedSplitMeanings": [
+          "種族 (義項 1)",
+          "種族 (義項 2)",
+          "種族（軍事）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "race%2:38:00::"
+          ],
+          [
+            "race%2:33:00::"
+          ],
+          [
+            "race%2:41:03::"
+          ]
+        ]
+      },
+      {
+        "wordId": "raise-698",
+        "word": "raise",
+        "pos": "noun",
+        "baselineMeaningZhTW": "上升",
+        "baselineSourceSenseIds": [
+          "raise%1:04:01::",
+          "raise%1:07:00::",
+          "raise%1:17:00::"
+        ],
+        "regressedSplitMeanings": [
+          "上升 (義項 1)",
+          "上升（軍事）",
+          "上升（音樂）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "raise%1:07:00::"
+          ],
+          [
+            "raise%1:17:00::"
+          ],
+          [
+            "raise%1:04:01::"
+          ]
+        ]
+      },
+      {
+        "wordId": "reach-699",
+        "word": "reach",
+        "pos": "verb",
+        "baselineMeaningZhTW": "伸出",
+        "baselineSourceSenseIds": [
+          "reach%2:35:00::",
+          "reach%2:38:00::",
+          "reach%2:38:01::"
+        ],
+        "regressedSplitMeanings": [
+          "伸出 (義項 1)",
+          "伸出 (義項 2)",
+          "伸出（軍事）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "reach%2:38:01::"
+          ],
+          [
+            "reach%2:38:00::"
+          ],
+          [
+            "reach%2:35:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "report-709",
+        "word": "report",
+        "pos": "noun",
+        "baselineMeaningZhTW": "報告",
+        "baselineSourceSenseIds": [
+          "report%1:10:00::",
+          "report%1:10:01::",
+          "report%1:10:03::"
+        ],
+        "regressedSplitMeanings": [
+          "報告 (義項 1)",
+          "報告 (義項 2)",
+          "報告 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "report%1:10:03::"
+          ],
+          [
+            "report%1:10:01::"
+          ],
+          [
+            "report%1:10:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "right-716",
+        "word": "right",
+        "pos": "adjective",
+        "baselineMeaningZhTW": "右邊；正確的；權利",
+        "baselineSourceSenseIds": [
+          "right%3:00:00::",
+          "right%3:00:02::",
+          "right%5:00:01:proper:00"
+        ],
+        "regressedSplitMeanings": [
+          "右邊；正確的；權利（軍事）",
+          "右邊；正確的；權利 (義項 2)",
+          "右邊；正確的；權利 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "right%3:00:00::"
+          ],
+          [
+            "right%3:00:02::"
+          ],
+          [
+            "right%5:00:01:proper:00"
+          ]
+        ]
+      },
+      {
+        "wordId": "rise-718",
+        "word": "rise",
+        "pos": "noun",
+        "baselineMeaningZhTW": "上升",
+        "baselineSourceSenseIds": [
+          "rise%1:04:00::",
+          "rise%1:11:00::",
+          "rise%1:17:00::"
+        ],
+        "regressedSplitMeanings": [
+          "上升（數學）",
+          "上升（軍事）",
+          "上升（軍事） (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "rise%1:11:00::"
+          ],
+          [
+            "rise%1:04:00::"
+          ],
+          [
+            "rise%1:17:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "rise-718",
+        "word": "rise",
+        "pos": "verb",
+        "baselineMeaningZhTW": "上升",
+        "baselineSourceSenseIds": [
+          "rise%2:30:00::",
+          "rise%2:38:00::",
+          "rise%2:38:05::"
+        ],
+        "regressedSplitMeanings": [
+          "上升（軍事）",
+          "上升 (義項 2)",
+          "上升（金額/款項）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "rise%2:38:00::"
+          ],
+          [
+            "rise%2:30:00::"
+          ],
+          [
+            "rise%2:38:05::"
+          ]
+        ]
+      },
+      {
+        "wordId": "roll-723",
+        "word": "roll",
+        "pos": "noun",
+        "baselineMeaningZhTW": "卷",
+        "baselineSourceSenseIds": [
+          "roll%1:10:00::",
+          "roll%1:11:01::",
+          "roll%1:11:02::"
+        ],
+        "regressedSplitMeanings": [
+          "卷 (義項 1)",
+          "卷 (義項 2)",
+          "卷（軍事）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "roll%1:11:02::"
+          ],
+          [
+            "roll%1:10:00::"
+          ],
+          [
+            "roll%1:11:01::"
+          ]
+        ]
+      },
+      {
+        "wordId": "round-728",
+        "word": "round",
+        "pos": "noun",
+        "baselineMeaningZhTW": "圓",
+        "baselineSourceSenseIds": [
+          "round%1:06:01::",
+          "round%1:15:00::",
+          "round%1:28:01::"
+        ],
+        "regressedSplitMeanings": [
+          "圓（音樂）",
+          "圓 (義項 2)",
+          "圓 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "round%1:06:01::"
+          ],
+          [
+            "round%1:28:01::"
+          ],
+          [
+            "round%1:15:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "service-754",
+        "word": "service",
+        "pos": "noun",
+        "baselineMeaningZhTW": "服務",
+        "baselineSourceSenseIds": [
+          "service%1:04:00::",
+          "service%1:04:01::",
+          "service%1:04:08::"
+        ],
+        "regressedSplitMeanings": [
+          "服務（人物）",
+          "服務（軍事）",
+          "服務（交通/載具）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "service%1:04:08::"
+          ],
+          [
+            "service%1:04:00::"
+          ],
+          [
+            "service%1:04:01::"
+          ]
+        ]
+      },
+      {
+        "wordId": "share-760",
+        "word": "share",
+        "pos": "noun",
+        "baselineMeaningZhTW": "部分",
+        "baselineSourceSenseIds": [
+          "share%1:04:00::",
+          "share%1:21:00::",
+          "share%1:21:01::"
+        ],
+        "regressedSplitMeanings": [
+          "部分（人物）",
+          "部分（交通/載具）",
+          "部分 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "share%1:21:00::"
+          ],
+          [
+            "share%1:21:01::"
+          ],
+          [
+            "share%1:04:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "sick-774",
+        "word": "sick",
+        "pos": "adjective",
+        "baselineMeaningZhTW": "病人",
+        "baselineSourceSenseIds": [
+          "sick%3:00:01::",
+          "sick%5:00:00:insane:00",
+          "sick%5:00:02:ill:01"
+        ],
+        "regressedSplitMeanings": [
+          "病人 (義項 1)",
+          "病人（金額/款項）",
+          "病人 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "sick%3:00:01::"
+          ],
+          [
+            "sick%5:00:02:ill:01"
+          ],
+          [
+            "sick%5:00:00:insane:00"
+          ]
+        ]
+      },
+      {
+        "wordId": "sight-776",
+        "word": "sight",
+        "pos": "verb",
+        "baselineMeaningZhTW": "景觀",
+        "baselineSourceSenseIds": [
+          "sight%2:39:00::",
+          "sight%2:39:03::"
+        ],
+        "regressedSplitMeanings": [
+          "景觀 (義項 1)",
+          "景觀（設備/器具）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "sight%2:39:00::"
+          ],
+          [
+            "sight%2:39:03::"
+          ]
+        ]
+      },
+      {
+        "wordId": "soldier-800",
+        "word": "soldier",
+        "pos": "noun",
+        "baselineMeaningZhTW": "軍人",
+        "baselineSourceSenseIds": [
+          "soldier%1:05:00::",
+          "soldier%1:18:00::"
+        ],
+        "regressedSplitMeanings": [
+          "軍人 (義項 1)",
+          "軍人 (義項 2)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "soldier%1:18:00::"
+          ],
+          [
+            "soldier%1:05:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "south-813",
+        "word": "south",
+        "pos": "noun",
+        "baselineMeaningZhTW": "南方",
+        "baselineSourceSenseIds": [
+          "south%1:15:02::",
+          "south%1:24:00::",
+          "south%1:24:02::"
+        ],
+        "regressedSplitMeanings": [
+          "南方（交通/載具）",
+          "南方 (義項 2)",
+          "南方（軍事）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "south%1:24:00::"
+          ],
+          [
+            "south%1:15:02::"
+          ],
+          [
+            "south%1:24:02::"
+          ]
+        ]
+      },
+      {
+        "wordId": "spring-819",
+        "word": "spring",
+        "pos": "verb",
+        "baselineMeaningZhTW": "春天",
+        "baselineSourceSenseIds": [
+          "spring%2:38:00::",
+          "spring%2:38:01::",
+          "spring%2:42:00::"
+        ],
+        "regressedSplitMeanings": [
+          "春天（軍事）",
+          "春天 (義項 2)",
+          "春天 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "spring%2:38:01::"
+          ],
+          [
+            "spring%2:42:00::"
+          ],
+          [
+            "spring%2:38:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "square-820",
+        "word": "square",
+        "pos": "noun",
+        "baselineMeaningZhTW": "正方形",
+        "baselineSourceSenseIds": [
+          "square%1:15:00::",
+          "square%1:23:00::",
+          "square%1:25:00::"
+        ],
+        "regressedSplitMeanings": [
+          "正方形（交通/載具）",
+          "正方形 (義項 2)",
+          "正方形 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "square%1:25:00::"
+          ],
+          [
+            "square%1:23:00::"
+          ],
+          [
+            "square%1:15:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "study-837",
+        "word": "study",
+        "pos": "verb",
+        "baselineMeaningZhTW": "學習",
+        "baselineSourceSenseIds": [
+          "study%2:31:02::",
+          "study%2:31:03::",
+          "study%2:39:00::"
+        ],
+        "regressedSplitMeanings": [
+          "學習 (義項 1)",
+          "學習 (義項 2)",
+          "學習（交通/載具）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "study%2:31:02::"
+          ],
+          [
+            "study%2:31:03::"
+          ],
+          [
+            "study%2:39:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "sugar-841",
+        "word": "sugar",
+        "pos": "noun",
+        "baselineMeaningZhTW": "糖",
+        "baselineSourceSenseIds": [
+          "sugar%1:13:00::",
+          "sugar%1:21:00::",
+          "sugar%1:27:00::"
+        ],
+        "regressedSplitMeanings": [
+          "糖（交通/載具）",
+          "糖（數學）",
+          "糖（金額/款項）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "sugar%1:13:00::"
+          ],
+          [
+            "sugar%1:27:00::"
+          ],
+          [
+            "sugar%1:21:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "sun-842",
+        "word": "sun",
+        "pos": "noun",
+        "baselineMeaningZhTW": "太陽",
+        "baselineSourceSenseIds": [
+          "sun%1:17:01::",
+          "sun%1:18:00::",
+          "sun%1:19:00::"
+        ],
+        "regressedSplitMeanings": [
+          "太陽 (義項 1)",
+          "太陽（軍事）",
+          "太陽（交通/載具）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "sun%1:19:00::"
+          ],
+          [
+            "sun%1:18:00::"
+          ],
+          [
+            "sun%1:17:01::"
+          ]
+        ]
+      },
+      {
+        "wordId": "surprise-846",
+        "word": "surprise",
+        "pos": "verb",
+        "baselineMeaningZhTW": "驚奇",
+        "baselineSourceSenseIds": [
+          "surprise%2:31:00::",
+          "surprise%2:33:00::",
+          "surprise%2:41:00::"
+        ],
+        "regressedSplitMeanings": [
+          "驚奇 (義項 1)",
+          "驚奇（軍事）",
+          "驚奇 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "surprise%2:31:00::"
+          ],
+          [
+            "surprise%2:41:00::"
+          ],
+          [
+            "surprise%2:33:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "table-849",
+        "word": "table",
+        "pos": "noun",
+        "baselineMeaningZhTW": "桌子",
+        "baselineSourceSenseIds": [
+          "table%1:06:01::",
+          "table%1:06:02::",
+          "table%1:14:00::"
+        ],
+        "regressedSplitMeanings": [
+          "桌子 (義項 1)",
+          "桌子 (義項 2)",
+          "桌子（軍事）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "table%1:14:00::"
+          ],
+          [
+            "table%1:06:01::"
+          ],
+          [
+            "table%1:06:02::"
+          ]
+        ]
+      },
+      {
+        "wordId": "theater-873",
+        "word": "theater",
+        "pos": "noun",
+        "baselineMeaningZhTW": "戲院",
+        "baselineSourceSenseIds": [
+          "theater%1:06:00::",
+          "theater%1:10:00::",
+          "theater%1:15:00::"
+        ],
+        "regressedSplitMeanings": [
+          "戲院 (義項 1)",
+          "戲院（體育）",
+          "戲院（軍事）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "theater%1:06:00::"
+          ],
+          [
+            "theater%1:10:00::"
+          ],
+          [
+            "theater%1:15:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "then-874",
+        "word": "then",
+        "pos": "adverb",
+        "baselineMeaningZhTW": "然後",
+        "baselineSourceSenseIds": [
+          "then%4:02:00::",
+          "then%4:02:01::",
+          "then%4:02:02::"
+        ],
+        "regressedSplitMeanings": [
+          "然後（軍事）",
+          "然後 (義項 2)",
+          "然後 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "then%4:02:00::"
+          ],
+          [
+            "then%4:02:02::"
+          ],
+          [
+            "then%4:02:01::"
+          ]
+        ]
+      },
+      {
+        "wordId": "there-875",
+        "word": "there",
+        "pos": "adverb",
+        "baselineMeaningZhTW": "在那裡",
+        "baselineSourceSenseIds": [
+          "there%4:02:00::",
+          "there%4:02:01::",
+          "there%4:02:02::"
+        ],
+        "regressedSplitMeanings": [
+          "在那裡 (義項 1)",
+          "在那裡 (義項 2)",
+          "在那裡（軍事）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "there%4:02:00::"
+          ],
+          [
+            "there%4:02:02::"
+          ],
+          [
+            "there%4:02:01::"
+          ]
+        ]
+      },
+      {
+        "wordId": "tip-895",
+        "word": "tip",
+        "pos": "noun",
+        "baselineMeaningZhTW": "尖端；小費；提示",
+        "baselineSourceSenseIds": [
+          "tip%1:10:00::",
+          "tip%1:15:00::",
+          "tip%1:21:00::"
+        ],
+        "regressedSplitMeanings": [
+          "尖端；小費；提示 (義項 1)",
+          "尖端；小費；提示（金額/款項）",
+          "尖端；小費；提示 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "tip%1:15:00::"
+          ],
+          [
+            "tip%1:21:00::"
+          ],
+          [
+            "tip%1:10:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "toilet-901",
+        "word": "toilet",
+        "pos": "noun",
+        "baselineMeaningZhTW": "廁所",
+        "baselineSourceSenseIds": [
+          "toilet%1:06:00::",
+          "toilet%1:06:01::",
+          "toilet%1:26:00::"
+        ],
+        "regressedSplitMeanings": [
+          "廁所 (義項 1)",
+          "廁所 (義項 2)",
+          "廁所（金額/款項）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "toilet%1:06:00::"
+          ],
+          [
+            "toilet%1:06:01::"
+          ],
+          [
+            "toilet%1:26:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "tooth-907",
+        "word": "tooth",
+        "pos": "noun",
+        "baselineMeaningZhTW": "牙齒",
+        "baselineSourceSenseIds": [
+          "tooth%1:05:02::",
+          "tooth%1:06:01::",
+          "tooth%1:08:00::"
+        ],
+        "regressedSplitMeanings": [
+          "牙齒 (義項 1)",
+          "牙齒（動物）",
+          "牙齒 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "tooth%1:08:00::"
+          ],
+          [
+            "tooth%1:06:01::"
+          ],
+          [
+            "tooth%1:05:02::"
+          ]
+        ]
+      },
+      {
+        "wordId": "train-916",
+        "word": "train",
+        "pos": "verb",
+        "baselineMeaningZhTW": "火車",
+        "baselineSourceSenseIds": [
+          "train%2:31:00::",
+          "train%2:31:01::",
+          "train%2:41:02::"
+        ],
+        "regressedSplitMeanings": [
+          "火車 (義項 1)",
+          "火車 (義項 2)",
+          "火車（動物）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "train%2:31:01::"
+          ],
+          [
+            "train%2:31:00::"
+          ],
+          [
+            "train%2:41:02::"
+          ]
+        ]
+      },
+      {
+        "wordId": "treat(ment)-917",
+        "word": "treat(ment)",
+        "pos": "noun",
+        "baselineMeaningZhTW": "對待",
+        "baselineSourceSenseIds": [
+          "treat%1:11:00::",
+          "treat%1:13:00::",
+          "treatment%1:04:00::"
+        ],
+        "regressedSplitMeanings": [
+          "對待 (義項 1)",
+          "對待 (義項 2)",
+          "對待（醫學）"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "treat%1:13:00::"
+          ],
+          [
+            "treat%1:11:00::"
+          ],
+          [
+            "treatment%1:04:00::"
+          ]
+        ]
+      },
+      {
+        "wordId": "visit-940",
+        "word": "visit",
+        "pos": "noun",
+        "baselineMeaningZhTW": "拜訪",
+        "baselineSourceSenseIds": [
+          "visit%1:04:01::",
+          "visit%1:04:02::",
+          "visit%1:14:00::"
+        ],
+        "regressedSplitMeanings": [
+          "拜訪（人物）",
+          "拜訪（法律）",
+          "拜訪 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "visit%1:04:02::"
+          ],
+          [
+            "visit%1:14:00::"
+          ],
+          [
+            "visit%1:04:01::"
+          ]
+        ]
+      },
+      {
+        "wordId": "well-960",
+        "word": "well",
+        "pos": "adjective",
+        "baselineMeaningZhTW": "很好地；井",
+        "baselineSourceSenseIds": [
+          "well%3:00:01::",
+          "well%5:00:00:advisable:00",
+          "well%5:00:00:fortunate:00"
+        ],
+        "regressedSplitMeanings": [
+          "很好地；井（醫學）",
+          "很好地；井 (義項 2)",
+          "很好地；井 (義項 3)"
+        ],
+        "regressedSplitSourceSenseIds": [
+          [
+            "well%3:00:01::"
+          ],
+          [
+            "well%5:00:00:fortunate:00"
+          ],
+          [
+            "well%5:00:00:advisable:00"
+          ]
+        ]
+      }
+    ]
+  },
+  "level3Details": {
+    "changedSenses": [
+      {
+        "senseId": "acceptable%3:00:00::",
+        "generatedTranslation_c82": "可接受的",
+        "runtimeDisplayOutput_c81": "可接受的 (義項 1)"
+      },
+      {
+        "senseId": "acceptable%5:00:00:standard:03",
+        "generatedTranslation_c82": "可接受的",
+        "runtimeDisplayOutput_c81": "可接受的 (義項 2)"
+      },
+      {
+        "senseId": "acceptable%5:00:00:good:01",
+        "generatedTranslation_c82": "可接受的",
+        "runtimeDisplayOutput_c81": "可接受的 (義項 3)"
+      },
+      {
+        "senseId": "agriculture%1:04:01::",
+        "generatedTranslation_c82": "農業",
+        "runtimeDisplayOutput_c81": "農業 (義項 1)"
+      },
+      {
+        "senseId": "agriculture%1:04:00::",
+        "generatedTranslation_c82": "農業",
+        "runtimeDisplayOutput_c81": "農業（音樂）"
+      },
+      {
+        "senseId": "agriculture%1:14:00::",
+        "generatedTranslation_c82": "農業",
+        "runtimeDisplayOutput_c81": "農業 (義項 3)"
+      },
+      {
+        "senseId": "alley%1:06:00::",
+        "generatedTranslation_c82": "小路",
+        "runtimeDisplayOutput_c81": "小路 (義項 1)"
+      },
+      {
+        "senseId": "alley%1:06:01::",
+        "generatedTranslation_c82": "小路",
+        "runtimeDisplayOutput_c81": "小路（軍事）"
+      },
+      {
+        "senseId": "armed%3:00:01::",
+        "generatedTranslation_c82": "有扶手的",
+        "runtimeDisplayOutput_c81": "有扶手的（軍事）"
+      },
+      {
+        "senseId": "armed%3:00:03::",
+        "generatedTranslation_c82": "有扶手的",
+        "runtimeDisplayOutput_c81": "有扶手的 (義項 2)"
+      },
+      {
+        "senseId": "armed%3:00:02::",
+        "generatedTranslation_c82": "有扶手的",
+        "runtimeDisplayOutput_c81": "有扶手的（動物）"
+      },
+      {
+        "senseId": "attract%2:35:00::",
+        "generatedTranslation_c82": "吸引",
+        "runtimeDisplayOutput_c81": "吸引（軍事）"
+      },
+      {
+        "senseId": "attract%2:37:00::",
+        "generatedTranslation_c82": "吸引",
+        "runtimeDisplayOutput_c81": "吸引 (義項 2)"
+      },
+      {
+        "senseId": "attract%2:35:01::",
+        "generatedTranslation_c82": "吸引",
+        "runtimeDisplayOutput_c81": "吸引（音樂）"
+      },
+      {
+        "senseId": "awaken%2:29:00::",
+        "generatedTranslation_c82": "喚醒",
+        "runtimeDisplayOutput_c81": "喚醒 (義項 1)"
+      },
+      {
+        "senseId": "awaken%2:29:01::",
+        "generatedTranslation_c82": "喚醒",
+        "runtimeDisplayOutput_c81": "喚醒 (義項 2)"
+      },
+      {
+        "senseId": "awaken%2:31:00::",
+        "generatedTranslation_c82": "喚醒",
+        "runtimeDisplayOutput_c81": "喚醒（軍事）"
+      },
+      {
+        "senseId": "award%2:40:00::",
+        "generatedTranslation_c82": "獎品",
+        "runtimeDisplayOutput_c81": "獎品（軍事）"
+      },
+      {
+        "senseId": "award%2:40:01::",
+        "generatedTranslation_c82": "獎品",
+        "runtimeDisplayOutput_c81": "獎品 (義項 2)"
+      },
+      {
+        "senseId": "baggage%1:06:00::",
+        "generatedTranslation_c82": "行李",
+        "runtimeDisplayOutput_c81": "行李（交通/載具）"
+      },
+      {
+        "senseId": "baggage%1:18:00::",
+        "generatedTranslation_c82": "行李",
+        "runtimeDisplayOutput_c81": "行李 (義項 2)"
+      },
+      {
+        "senseId": "baggage%1:06:01::",
+        "generatedTranslation_c82": "行李",
+        "runtimeDisplayOutput_c81": "行李（設備/器具）"
+      },
+      {
+        "senseId": "bait%2:32:00::",
+        "generatedTranslation_c82": "餌",
+        "runtimeDisplayOutput_c81": "餌（交通/載具）"
+      },
+      {
+        "senseId": "bait%2:41:00::",
+        "generatedTranslation_c82": "餌",
+        "runtimeDisplayOutput_c81": "餌 (義項 2)"
+      },
+      {
+        "senseId": "bait%2:33:00::",
+        "generatedTranslation_c82": "餌",
+        "runtimeDisplayOutput_c81": "餌 (義項 3)"
+      },
+      {
+        "senseId": "barrel%1:06:01::",
+        "generatedTranslation_c82": "桶",
+        "runtimeDisplayOutput_c81": "桶 (義項 1)"
+      },
+      {
+        "senseId": "barrel%1:06:00::",
+        "generatedTranslation_c82": "桶",
+        "runtimeDisplayOutput_c81": "桶 (義項 2)"
+      },
+      {
+        "senseId": "barrel%1:25:00::",
+        "generatedTranslation_c82": "桶",
+        "runtimeDisplayOutput_c81": "桶 (義項 3)"
+      },
+      {
+        "senseId": "bomb%2:33:00::",
+        "generatedTranslation_c82": "炸彈",
+        "runtimeDisplayOutput_c81": "炸彈 (義項 1)"
+      },
+      {
+        "senseId": "bomb%2:41:00::",
+        "generatedTranslation_c82": "炸彈",
+        "runtimeDisplayOutput_c81": "炸彈（音樂）"
+      },
+      {
+        "senseId": "bore%1:18:00::",
+        "generatedTranslation_c82": "令人討厭的人",
+        "runtimeDisplayOutput_c81": "令人討厭的人（人物）"
+      },
+      {
+        "senseId": "bore%1:11:00::",
+        "generatedTranslation_c82": "令人討厭的人",
+        "runtimeDisplayOutput_c81": "令人討厭的人 (義項 2)"
+      },
+      {
+        "senseId": "bore%1:07:00::",
+        "generatedTranslation_c82": "令人討厭的人",
+        "runtimeDisplayOutput_c81": "令人討厭的人 (義項 3)"
+      },
+      {
+        "senseId": "bullet%1:06:00::",
+        "generatedTranslation_c82": "子彈",
+        "runtimeDisplayOutput_c81": "子彈 (義項 1)"
+      },
+      {
+        "senseId": "bullet%1:06:01::",
+        "generatedTranslation_c82": "子彈",
+        "runtimeDisplayOutput_c81": "子彈 (義項 2)"
+      },
+      {
+        "senseId": "bullet%1:04:00::",
+        "generatedTranslation_c82": "子彈",
+        "runtimeDisplayOutput_c81": "子彈（體育）"
+      },
+      {
+        "senseId": "bump%2:35:00::",
+        "generatedTranslation_c82": "撞擊",
+        "runtimeDisplayOutput_c81": "撞擊 (義項 1)"
+      },
+      {
+        "senseId": "bump%2:40:12::",
+        "generatedTranslation_c82": "撞擊",
+        "runtimeDisplayOutput_c81": "撞擊 (義項 2)"
+      },
+      {
+        "senseId": "bump%2:38:00::",
+        "generatedTranslation_c82": "撞擊",
+        "runtimeDisplayOutput_c81": "撞擊（軍事）"
+      },
+      {
+        "senseId": "bundle%1:14:00::",
+        "generatedTranslation_c82": "捆",
+        "runtimeDisplayOutput_c81": "捆 (義項 1)"
+      },
+      {
+        "senseId": "bundle%1:06:00::",
+        "generatedTranslation_c82": "捆",
+        "runtimeDisplayOutput_c81": "捆（交通/載具）"
+      },
+      {
+        "senseId": "bundle%1:21:00::",
+        "generatedTranslation_c82": "捆",
+        "runtimeDisplayOutput_c81": "捆（金額/款項）"
+      },
+      {
+        "senseId": "captain%1:18:05::",
+        "generatedTranslation_c82": "船長",
+        "runtimeDisplayOutput_c81": "船長 (義項 1)"
+      },
+      {
+        "senseId": "captain%1:18:02::",
+        "generatedTranslation_c82": "船長",
+        "runtimeDisplayOutput_c81": "船長（軍事）"
+      },
+      {
+        "senseId": "captain%1:18:04::",
+        "generatedTranslation_c82": "船長",
+        "runtimeDisplayOutput_c81": "船長 (義項 3)"
+      },
+      {
+        "senseId": "champion%1:18:01::",
+        "generatedTranslation_c82": "冠軍（人）",
+        "runtimeDisplayOutput_c81": "冠軍（人）（人物）"
+      },
+      {
+        "senseId": "champion%1:18:00::",
+        "generatedTranslation_c82": "冠軍（人）",
+        "runtimeDisplayOutput_c81": "冠軍（人）（人物） (義項 2)"
+      },
+      {
+        "senseId": "champion%1:18:02::",
+        "generatedTranslation_c82": "冠軍（人）",
+        "runtimeDisplayOutput_c81": "冠軍（人）（人物） (義項 3)"
+      },
+      {
+        "senseId": "chilly%5:00:00:unemotional:00",
+        "generatedTranslation_c82": "寒冷的",
+        "runtimeDisplayOutput_c81": "寒冷的 (義項 1)"
+      },
+      {
+        "senseId": "chilly%5:00:00:cold:01",
+        "generatedTranslation_c82": "寒冷的",
+        "runtimeDisplayOutput_c81": "寒冷的 (義項 2)"
+      },
+      {
+        "senseId": "chilly%5:00:00:unfriendly:01",
+        "generatedTranslation_c82": "寒冷的",
+        "runtimeDisplayOutput_c81": "寒冷的（金額/款項）"
+      },
+      {
+        "senseId": "civil%5:00:00:civilian:00",
+        "generatedTranslation_c82": "市民的",
+        "runtimeDisplayOutput_c81": "市民的（軍事）"
+      },
+      {
+        "senseId": "civil%3:00:00::",
+        "generatedTranslation_c82": "市民的",
+        "runtimeDisplayOutput_c81": "市民的 (義項 2)"
+      },
+      {
+        "senseId": "civil%3:01:01::",
+        "generatedTranslation_c82": "市民的",
+        "runtimeDisplayOutput_c81": "市民的 (義項 3)"
+      },
+      {
+        "senseId": "clay%1:27:00::",
+        "generatedTranslation_c82": "泥土",
+        "runtimeDisplayOutput_c81": "泥土 (義項 1)"
+      },
+      {
+        "senseId": "clay%1:27:02::",
+        "generatedTranslation_c82": "泥土",
+        "runtimeDisplayOutput_c81": "泥土 (義項 2)"
+      },
+      {
+        "senseId": "clay%1:08:00::",
+        "generatedTranslation_c82": "泥土",
+        "runtimeDisplayOutput_c81": "泥土（人物）"
+      },
+      {
+        "senseId": "clip%1:06:00::",
+        "generatedTranslation_c82": "修剪",
+        "runtimeDisplayOutput_c81": "修剪（交通/載具）"
+      },
+      {
+        "senseId": "clip%1:11:00::",
+        "generatedTranslation_c82": "修剪",
+        "runtimeDisplayOutput_c81": "修剪（音樂）"
+      },
+      {
+        "senseId": "clip%1:06:01::",
+        "generatedTranslation_c82": "修剪",
+        "runtimeDisplayOutput_c81": "修剪 (義項 3)"
+      },
+      {
+        "senseId": "cock%1:08:00::",
+        "generatedTranslation_c82": "公雞",
+        "runtimeDisplayOutput_c81": "公雞 (義項 1)"
+      },
+      {
+        "senseId": "cock%1:06:00::",
+        "generatedTranslation_c82": "公雞",
+        "runtimeDisplayOutput_c81": "公雞（設備/器具）"
+      },
+      {
+        "senseId": "cock%1:06:01::",
+        "generatedTranslation_c82": "公雞",
+        "runtimeDisplayOutput_c81": "公雞 (義項 3)"
+      },
+      {
+        "senseId": "conscious%5:00:00:intended:00",
+        "generatedTranslation_c82": "有意識的",
+        "runtimeDisplayOutput_c81": "有意識的 (義項 1)"
+      },
+      {
+        "senseId": "conscious%3:00:00::",
+        "generatedTranslation_c82": "有意識的",
+        "runtimeDisplayOutput_c81": "有意識的（軍事）"
+      },
+      {
+        "senseId": "conscious%5:00:00:aware:00",
+        "generatedTranslation_c82": "有意識的",
+        "runtimeDisplayOutput_c81": "有意識的 (義項 3)"
+      },
+      {
+        "senseId": "crawl%2:38:00::",
+        "generatedTranslation_c82": "爬行",
+        "runtimeDisplayOutput_c81": "爬行（動物）"
+      },
+      {
+        "senseId": "crawl%2:42:01::",
+        "generatedTranslation_c82": "爬行",
+        "runtimeDisplayOutput_c81": "爬行（金額/款項）"
+      },
+      {
+        "senseId": "crawl%2:42:00::",
+        "generatedTranslation_c82": "爬行",
+        "runtimeDisplayOutput_c81": "爬行 (義項 3)"
+      },
+      {
+        "senseId": "dam%1:06:00::",
+        "generatedTranslation_c82": "水壩",
+        "runtimeDisplayOutput_c81": "水壩 (義項 1)"
+      },
+      {
+        "senseId": "dam%1:23:00::",
+        "generatedTranslation_c82": "水壩",
+        "runtimeDisplayOutput_c81": "水壩 (義項 2)"
+      },
+      {
+        "senseId": "dam%1:05:00::",
+        "generatedTranslation_c82": "水壩",
+        "runtimeDisplayOutput_c81": "水壩（動物）"
+      },
+      {
+        "senseId": "decade%1:28:00::",
+        "generatedTranslation_c82": "十年",
+        "runtimeDisplayOutput_c81": "十年 (義項 1)"
+      },
+      {
+        "senseId": "decade%1:23:00::",
+        "generatedTranslation_c82": "十年",
+        "runtimeDisplayOutput_c81": "十年（交通/載具）"
+      },
+      {
+        "senseId": "deck%1:06:00::",
+        "generatedTranslation_c82": "甲板",
+        "runtimeDisplayOutput_c81": "甲板 (義項 1)"
+      },
+      {
+        "senseId": "deck%1:06:01::",
+        "generatedTranslation_c82": "甲板",
+        "runtimeDisplayOutput_c81": "甲板（法律）"
+      },
+      {
+        "senseId": "deck%1:14:00::",
+        "generatedTranslation_c82": "甲板",
+        "runtimeDisplayOutput_c81": "甲板（體育）"
+      },
+      {
+        "senseId": "decorate%2:36:00::",
+        "generatedTranslation_c82": "裝飾",
+        "runtimeDisplayOutput_c81": "裝飾 (義項 1)"
+      },
+      {
+        "senseId": "decorate%2:42:00::",
+        "generatedTranslation_c82": "裝飾",
+        "runtimeDisplayOutput_c81": "裝飾 (義項 2)"
+      },
+      {
+        "senseId": "decorate%2:41:00::",
+        "generatedTranslation_c82": "裝飾",
+        "runtimeDisplayOutput_c81": "裝飾（軍事）"
+      },
+      {
+        "senseId": "decrease%1:11:00::",
+        "generatedTranslation_c82": "減少",
+        "runtimeDisplayOutput_c81": "減少（軍事）"
+      },
+      {
+        "senseId": "decrease%1:22:00::",
+        "generatedTranslation_c82": "減少",
+        "runtimeDisplayOutput_c81": "減少 (義項 2)"
+      },
+      {
+        "senseId": "decrease%1:07:00::",
+        "generatedTranslation_c82": "減少",
+        "runtimeDisplayOutput_c81": "減少 (義項 3)"
+      },
+      {
+        "senseId": "dip%1:25:01::",
+        "generatedTranslation_c82": "浸",
+        "runtimeDisplayOutput_c81": "浸 (義項 1)"
+      },
+      {
+        "senseId": "dip%1:25:00::",
+        "generatedTranslation_c82": "浸",
+        "runtimeDisplayOutput_c81": "浸（交通/載具）"
+      },
+      {
+        "senseId": "dip%1:18:00::",
+        "generatedTranslation_c82": "浸",
+        "runtimeDisplayOutput_c81": "浸 (義項 3)"
+      },
+      {
+        "senseId": "dock%1:06:02::",
+        "generatedTranslation_c82": "碼頭",
+        "runtimeDisplayOutput_c81": "碼頭（法律）"
+      },
+      {
+        "senseId": "dock%1:20:00::",
+        "generatedTranslation_c82": "碼頭",
+        "runtimeDisplayOutput_c81": "碼頭 (義項 2)"
+      },
+      {
+        "senseId": "dock%1:06:01::",
+        "generatedTranslation_c82": "碼頭",
+        "runtimeDisplayOutput_c81": "碼頭（交通/載具）"
+      },
+      {
+        "senseId": "dolphin%1:05:01::",
+        "generatedTranslation_c82": "海豚",
+        "runtimeDisplayOutput_c81": "海豚（軍事）"
+      },
+      {
+        "senseId": "dolphin%1:05:00::",
+        "generatedTranslation_c82": "海豚",
+        "runtimeDisplayOutput_c81": "海豚 (義項 2)"
+      },
+      {
+        "senseId": "dust%1:27:00::",
+        "generatedTranslation_c82": "灰塵",
+        "runtimeDisplayOutput_c81": "灰塵 (義項 1)"
+      },
+      {
+        "senseId": "dust%1:27:01::",
+        "generatedTranslation_c82": "灰塵",
+        "runtimeDisplayOutput_c81": "灰塵 (義項 2)"
+      },
+      {
+        "senseId": "dust%1:27:02::",
+        "generatedTranslation_c82": "灰塵",
+        "runtimeDisplayOutput_c81": "灰塵 (義項 3)"
+      },
+      {
+        "senseId": "emergency%1:11:00::",
+        "generatedTranslation_c82": "緊急狀況",
+        "runtimeDisplayOutput_c81": "緊急狀況 (義項 1)"
+      },
+      {
+        "senseId": "emergency%1:26:00::",
+        "generatedTranslation_c82": "緊急狀況",
+        "runtimeDisplayOutput_c81": "緊急狀況（法律）"
+      },
+      {
+        "senseId": "emergency%1:06:00::",
+        "generatedTranslation_c82": "緊急狀況",
+        "runtimeDisplayOutput_c81": "緊急狀況 (義項 3)"
+      },
+      {
+        "senseId": "engagement%1:04:01::",
+        "generatedTranslation_c82": "從事",
+        "runtimeDisplayOutput_c81": "從事（軍事）"
+      },
+      {
+        "senseId": "engagement%1:14:00::",
+        "generatedTranslation_c82": "從事",
+        "runtimeDisplayOutput_c81": "從事 (義項 2)"
+      },
+      {
+        "senseId": "engagement%1:10:00::",
+        "generatedTranslation_c82": "從事",
+        "runtimeDisplayOutput_c81": "從事 (義項 3)"
+      },
+      {
+        "senseId": "envy%2:37:01::",
+        "generatedTranslation_c82": "羨慕",
+        "runtimeDisplayOutput_c81": "羨慕（金額/款項）"
+      },
+      {
+        "senseId": "envy%2:37:00::",
+        "generatedTranslation_c82": "羨慕",
+        "runtimeDisplayOutput_c81": "羨慕 (義項 2)"
+      },
+      {
+        "senseId": "explode%2:30:01::",
+        "generatedTranslation_c82": "爆炸",
+        "runtimeDisplayOutput_c81": "爆炸 (義項 1)"
+      },
+      {
+        "senseId": "explode%2:30:00::",
+        "generatedTranslation_c82": "爆炸",
+        "runtimeDisplayOutput_c81": "爆炸（軍事）"
+      },
+      {
+        "senseId": "explode%2:31:00::",
+        "generatedTranslation_c82": "爆炸",
+        "runtimeDisplayOutput_c81": "爆炸 (義項 3)"
+      },
+      {
+        "senseId": "fond%5:00:02:loving:00",
+        "generatedTranslation_c82": "喜歡的",
+        "runtimeDisplayOutput_c81": "喜歡的（軍事）"
+      },
+      {
+        "senseId": "fond%5:00:01:loving:00",
+        "generatedTranslation_c82": "喜歡的",
+        "runtimeDisplayOutput_c81": "喜歡的 (義項 2)"
+      },
+      {
+        "senseId": "fond%5:00:00:inclined:02",
+        "generatedTranslation_c82": "喜歡的",
+        "runtimeDisplayOutput_c81": "喜歡的 (義項 3)"
+      },
+      {
+        "senseId": "fur%1:27:00::",
+        "generatedTranslation_c82": "毛皮",
+        "runtimeDisplayOutput_c81": "毛皮 (義項 1)"
+      },
+      {
+        "senseId": "fur%1:05:00::",
+        "generatedTranslation_c82": "毛皮",
+        "runtimeDisplayOutput_c81": "毛皮 (義項 2)"
+      },
+      {
+        "senseId": "fur%1:06:00::",
+        "generatedTranslation_c82": "毛皮",
+        "runtimeDisplayOutput_c81": "毛皮（動物）"
+      },
+      {
+        "senseId": "hammer%1:06:04::",
+        "generatedTranslation_c82": "錘",
+        "runtimeDisplayOutput_c81": "錘 (義項 1)"
+      },
+      {
+        "senseId": "hammer%1:06:00::",
+        "generatedTranslation_c82": "錘",
+        "runtimeDisplayOutput_c81": "錘（設備/器具）"
+      },
+      {
+        "senseId": "hammer%1:08:00::",
+        "generatedTranslation_c82": "錘",
+        "runtimeDisplayOutput_c81": "錘 (義項 3)"
+      },
+      {
+        "senseId": "harm%1:26:00::",
+        "generatedTranslation_c82": "傷害",
+        "runtimeDisplayOutput_c81": "傷害 (義項 1)"
+      },
+      {
+        "senseId": "harm%1:11:01::",
+        "generatedTranslation_c82": "傷害",
+        "runtimeDisplayOutput_c81": "傷害 (義項 2)"
+      },
+      {
+        "senseId": "harm%1:04:00::",
+        "generatedTranslation_c82": "傷害",
+        "runtimeDisplayOutput_c81": "傷害（人物）"
+      },
+      {
+        "senseId": "headquarters%1:06:01::",
+        "generatedTranslation_c82": "總部",
+        "runtimeDisplayOutput_c81": "總部 (義項 1)"
+      },
+      {
+        "senseId": "headquarters%1:06:00::",
+        "generatedTranslation_c82": "總部",
+        "runtimeDisplayOutput_c81": "總部（軍事）"
+      },
+      {
+        "senseId": "headquarters%1:14:00::",
+        "generatedTranslation_c82": "總部",
+        "runtimeDisplayOutput_c81": "總部（軍事） (義項 3)"
+      },
+      {
+        "senseId": "heap%1:14:00::",
+        "generatedTranslation_c82": "堆",
+        "runtimeDisplayOutput_c81": "堆 (義項 1)"
+      },
+      {
+        "senseId": "heap%1:23:00::",
+        "generatedTranslation_c82": "堆",
+        "runtimeDisplayOutput_c81": "堆（數學）"
+      },
+      {
+        "senseId": "heap%1:06:01::",
+        "generatedTranslation_c82": "堆",
+        "runtimeDisplayOutput_c81": "堆（交通/載具）"
+      },
+      {
+        "senseId": "heater%1:06:00::",
+        "generatedTranslation_c82": "加熱器",
+        "runtimeDisplayOutput_c81": "加熱器（軍事）"
+      },
+      {
+        "senseId": "heater%1:04:00::",
+        "generatedTranslation_c82": "加熱器",
+        "runtimeDisplayOutput_c81": "加熱器（體育）"
+      },
+      {
+        "senseId": "honor%2:41:00::",
+        "generatedTranslation_c82": "榮譽",
+        "runtimeDisplayOutput_c81": "榮譽（軍事）"
+      },
+      {
+        "senseId": "honor%2:41:01::",
+        "generatedTranslation_c82": "榮譽",
+        "runtimeDisplayOutput_c81": "榮譽（軍事） (義項 2)"
+      },
+      {
+        "senseId": "honor%2:40:00::",
+        "generatedTranslation_c82": "榮譽",
+        "runtimeDisplayOutput_c81": "榮譽 (義項 3)"
+      },
+      {
+        "senseId": "horn%1:06:06::",
+        "generatedTranslation_c82": "角",
+        "runtimeDisplayOutput_c81": "角（體育）"
+      },
+      {
+        "senseId": "horn%1:05:01::",
+        "generatedTranslation_c82": "角",
+        "runtimeDisplayOutput_c81": "角 (義項 2)"
+      },
+      {
+        "senseId": "horn%1:10:02::",
+        "generatedTranslation_c82": "角",
+        "runtimeDisplayOutput_c81": "角（軍事）"
+      },
+      {
+        "senseId": "hut%1:06:01::",
+        "generatedTranslation_c82": "小屋",
+        "runtimeDisplayOutput_c81": "小屋（軍事）"
+      },
+      {
+        "senseId": "hut%1:06:00::",
+        "generatedTranslation_c82": "小屋",
+        "runtimeDisplayOutput_c81": "小屋 (義項 2)"
+      },
+      {
+        "senseId": "icy%5:00:00:cold:02",
+        "generatedTranslation_c82": "冰的",
+        "runtimeDisplayOutput_c81": "冰的（軍事）"
+      },
+      {
+        "senseId": "icy%5:00:00:cold:01",
+        "generatedTranslation_c82": "冰的",
+        "runtimeDisplayOutput_c81": "冰的 (義項 2)"
+      },
+      {
+        "senseId": "icy%5:00:00:frozen:00",
+        "generatedTranslation_c82": "冰的",
+        "runtimeDisplayOutput_c81": "冰的 (義項 3)"
+      },
+      {
+        "senseId": "injury%1:26:00::",
+        "generatedTranslation_c82": "傷害",
+        "runtimeDisplayOutput_c81": "傷害 (義項 1)"
+      },
+      {
+        "senseId": "injury%1:11:00::",
+        "generatedTranslation_c82": "傷害",
+        "runtimeDisplayOutput_c81": "傷害 (義項 2)"
+      },
+      {
+        "senseId": "injury%1:11:01::",
+        "generatedTranslation_c82": "傷害",
+        "runtimeDisplayOutput_c81": "傷害（軍事）"
+      },
+      {
+        "senseId": "inner%5:00:00:inward:00",
+        "generatedTranslation_c82": "內部的",
+        "runtimeDisplayOutput_c81": "內部的（軍事）"
+      },
+      {
+        "senseId": "inner%3:00:00::",
+        "generatedTranslation_c82": "內部的",
+        "runtimeDisplayOutput_c81": "內部的 (義項 2)"
+      },
+      {
+        "senseId": "inner%5:00:00:intrinsic:00",
+        "generatedTranslation_c82": "內部的",
+        "runtimeDisplayOutput_c81": "內部的 (義項 3)"
+      },
+      {
+        "senseId": "interrupt%2:32:00::",
+        "generatedTranslation_c82": "中斷",
+        "runtimeDisplayOutput_c81": "中斷 (義項 1)"
+      },
+      {
+        "senseId": "interrupt%2:30:03::",
+        "generatedTranslation_c82": "中斷",
+        "runtimeDisplayOutput_c81": "中斷 (義項 2)"
+      },
+      {
+        "senseId": "interrupt%2:30:04::",
+        "generatedTranslation_c82": "中斷",
+        "runtimeDisplayOutput_c81": "中斷（人物）"
+      },
+      {
+        "senseId": "leap%1:04:00::",
+        "generatedTranslation_c82": "跳躍",
+        "runtimeDisplayOutput_c81": "跳躍（軍事）"
+      },
+      {
+        "senseId": "leap%1:11:00::",
+        "generatedTranslation_c82": "跳躍",
+        "runtimeDisplayOutput_c81": "跳躍 (義項 2)"
+      },
+      {
+        "senseId": "leap%1:11:01::",
+        "generatedTranslation_c82": "跳躍",
+        "runtimeDisplayOutput_c81": "跳躍 (義項 3)"
+      },
+      {
+        "senseId": "leap%2:38:00::",
+        "generatedTranslation_c82": "跳躍",
+        "runtimeDisplayOutput_c81": "跳躍（軍事）"
+      },
+      {
+        "senseId": "leap%2:30:00::",
+        "generatedTranslation_c82": "跳躍",
+        "runtimeDisplayOutput_c81": "跳躍 (義項 2)"
+      },
+      {
+        "senseId": "leap%2:38:11::",
+        "generatedTranslation_c82": "跳躍",
+        "runtimeDisplayOutput_c81": "跳躍 (義項 3)"
+      },
+      {
+        "senseId": "lick%2:35:01::",
+        "generatedTranslation_c82": "舔",
+        "runtimeDisplayOutput_c81": "舔 (義項 1)"
+      },
+      {
+        "senseId": "lick%2:35:00::",
+        "generatedTranslation_c82": "舔",
+        "runtimeDisplayOutput_c81": "舔 (義項 2)"
+      },
+      {
+        "senseId": "lick%2:31:00::",
+        "generatedTranslation_c82": "舔",
+        "runtimeDisplayOutput_c81": "舔 (義項 3)"
+      },
+      {
+        "senseId": "lick%1:17:00::",
+        "generatedTranslation_c82": "舔",
+        "runtimeDisplayOutput_c81": "舔（動物）"
+      },
+      {
+        "senseId": "lick%1:04:00::",
+        "generatedTranslation_c82": "舔",
+        "runtimeDisplayOutput_c81": "舔 (義項 2)"
+      },
+      {
+        "senseId": "lick%1:04:01::",
+        "generatedTranslation_c82": "舔",
+        "runtimeDisplayOutput_c81": "舔 (義項 3)"
+      },
+      {
+        "senseId": "lock%1:06:00::",
+        "generatedTranslation_c82": "鎖",
+        "runtimeDisplayOutput_c81": "鎖 (義項 1)"
+      },
+      {
+        "senseId": "lock%1:08:00::",
+        "generatedTranslation_c82": "鎖",
+        "runtimeDisplayOutput_c81": "鎖 (義項 2)"
+      },
+      {
+        "senseId": "lock%1:06:03::",
+        "generatedTranslation_c82": "鎖",
+        "runtimeDisplayOutput_c81": "鎖 (義項 3)"
+      },
+      {
+        "senseId": "mall%1:06:00::",
+        "generatedTranslation_c82": "林蔭路",
+        "runtimeDisplayOutput_c81": "林蔭路 (義項 1)"
+      },
+      {
+        "senseId": "mall%1:06:01::",
+        "generatedTranslation_c82": "林蔭路",
+        "runtimeDisplayOutput_c81": "林蔭路（交通/載具）"
+      },
+      {
+        "senseId": "mission%1:14:01::",
+        "generatedTranslation_c82": "任務",
+        "runtimeDisplayOutput_c81": "任務（交通/載具）"
+      },
+      {
+        "senseId": "mission%1:04:01::",
+        "generatedTranslation_c82": "任務",
+        "runtimeDisplayOutput_c81": "任務 (義項 2)"
+      },
+      {
+        "senseId": "mission%1:04:00::",
+        "generatedTranslation_c82": "任務",
+        "runtimeDisplayOutput_c81": "任務（人物）"
+      },
+      {
+        "senseId": "mystery%1:09:00::",
+        "generatedTranslation_c82": "祕密",
+        "runtimeDisplayOutput_c81": "祕密 (義項 1)"
+      },
+      {
+        "senseId": "mystery%1:10:00::",
+        "generatedTranslation_c82": "祕密",
+        "runtimeDisplayOutput_c81": "祕密（體育）"
+      },
+      {
+        "senseId": "navy%1:14:00::",
+        "generatedTranslation_c82": "海軍",
+        "runtimeDisplayOutput_c81": "海軍（軍事）"
+      },
+      {
+        "senseId": "navy%1:07:00::",
+        "generatedTranslation_c82": "海軍",
+        "runtimeDisplayOutput_c81": "海軍 (義項 2)"
+      },
+      {
+        "senseId": "nest%1:17:00::",
+        "generatedTranslation_c82": "巢",
+        "runtimeDisplayOutput_c81": "巢（動物）"
+      },
+      {
+        "senseId": "nest%1:06:00::",
+        "generatedTranslation_c82": "巢",
+        "runtimeDisplayOutput_c81": "巢 (義項 2)"
+      },
+      {
+        "senseId": "nest%1:15:00::",
+        "generatedTranslation_c82": "巢",
+        "runtimeDisplayOutput_c81": "巢 (義項 3)"
+      },
+      {
+        "senseId": "normal%3:00:01::",
+        "generatedTranslation_c82": "常態",
+        "runtimeDisplayOutput_c81": "常態 (義項 1)"
+      },
+      {
+        "senseId": "normal%3:00:02::",
+        "generatedTranslation_c82": "常態",
+        "runtimeDisplayOutput_c81": "常態（法律）"
+      },
+      {
+        "senseId": "normal%3:00:03::",
+        "generatedTranslation_c82": "常態",
+        "runtimeDisplayOutput_c81": "常態 (義項 3)"
+      },
+      {
+        "senseId": "outer%3:00:00::",
+        "generatedTranslation_c82": "外部的",
+        "runtimeDisplayOutput_c81": "外部的 (義項 1)"
+      },
+      {
+        "senseId": "outer%5:00:00:outward:00",
+        "generatedTranslation_c82": "外部的",
+        "runtimeDisplayOutput_c81": "外部的 (義項 2)"
+      },
+      {
+        "senseId": "outer%5:00:00:external:00",
+        "generatedTranslation_c82": "外部的",
+        "runtimeDisplayOutput_c81": "外部的（軍事）"
+      },
+      {
+        "senseId": "peanut%1:20:02::",
+        "generatedTranslation_c82": "花生",
+        "runtimeDisplayOutput_c81": "花生 (義項 1)"
+      },
+      {
+        "senseId": "peanut%1:20:00::",
+        "generatedTranslation_c82": "花生",
+        "runtimeDisplayOutput_c81": "花生（軍事）"
+      },
+      {
+        "senseId": "peanut%1:18:00::",
+        "generatedTranslation_c82": "花生",
+        "runtimeDisplayOutput_c81": "花生 (義項 3)"
+      },
+      {
+        "senseId": "penny%1:23:00::",
+        "generatedTranslation_c82": "便士",
+        "runtimeDisplayOutput_c81": "便士 (義項 1)"
+      },
+      {
+        "senseId": "penny%1:21:00::",
+        "generatedTranslation_c82": "便士",
+        "runtimeDisplayOutput_c81": "便士 (義項 2)"
+      },
+      {
+        "senseId": "pitch%1:07:00::",
+        "generatedTranslation_c82": "程度",
+        "runtimeDisplayOutput_c81": "程度 (義項 1)"
+      },
+      {
+        "senseId": "pitch%1:04:03::",
+        "generatedTranslation_c82": "程度",
+        "runtimeDisplayOutput_c81": "程度（軍事）"
+      },
+      {
+        "senseId": "pitch%1:15:00::",
+        "generatedTranslation_c82": "程度",
+        "runtimeDisplayOutput_c81": "程度 (義項 3)"
+      },
+      {
+        "senseId": "pitch%2:35:00::",
+        "generatedTranslation_c82": "程度",
+        "runtimeDisplayOutput_c81": "程度 (義項 1)"
+      },
+      {
+        "senseId": "pitch%2:38:03::",
+        "generatedTranslation_c82": "程度",
+        "runtimeDisplayOutput_c81": "程度 (義項 2)"
+      },
+      {
+        "senseId": "pitch%2:38:00::",
+        "generatedTranslation_c82": "程度",
+        "runtimeDisplayOutput_c81": "程度（軍事）"
+      },
+      {
+        "senseId": "plastic%1:27:00::",
+        "generatedTranslation_c82": "塑膠",
+        "runtimeDisplayOutput_c81": "塑膠 (義項 1)"
+      },
+      {
+        "senseId": "plastic%1:21:00::",
+        "generatedTranslation_c82": "塑膠",
+        "runtimeDisplayOutput_c81": "塑膠（音樂）"
+      },
+      {
+        "senseId": "powder%1:27:00::",
+        "generatedTranslation_c82": "粉",
+        "runtimeDisplayOutput_c81": "粉 (義項 1)"
+      },
+      {
+        "senseId": "powder%1:27:01::",
+        "generatedTranslation_c82": "粉",
+        "runtimeDisplayOutput_c81": "粉 (義項 2)"
+      },
+      {
+        "senseId": "powder%1:06:01::",
+        "generatedTranslation_c82": "粉",
+        "runtimeDisplayOutput_c81": "粉（醫學）"
+      },
+      {
+        "senseId": "pretend%2:32:00::",
+        "generatedTranslation_c82": "假裝",
+        "runtimeDisplayOutput_c81": "假裝 (義項 1)"
+      },
+      {
+        "senseId": "pretend%2:36:00::",
+        "generatedTranslation_c82": "假裝",
+        "runtimeDisplayOutput_c81": "假裝 (義項 2)"
+      },
+      {
+        "senseId": "pretend%2:40:03::",
+        "generatedTranslation_c82": "假裝",
+        "runtimeDisplayOutput_c81": "假裝（軍事）"
+      },
+      {
+        "senseId": "process%1:04:00::",
+        "generatedTranslation_c82": "程式",
+        "runtimeDisplayOutput_c81": "程式 (義項 1)"
+      },
+      {
+        "senseId": "process%1:09:00::",
+        "generatedTranslation_c82": "程式",
+        "runtimeDisplayOutput_c81": "程式 (義項 2)"
+      },
+      {
+        "senseId": "process%1:10:00::",
+        "generatedTranslation_c82": "程式",
+        "runtimeDisplayOutput_c81": "程式（法律）"
+      },
+      {
+        "senseId": "punch%2:35:00::",
+        "generatedTranslation_c82": "打洞器",
+        "runtimeDisplayOutput_c81": "打洞器 (義項 1)"
+      },
+      {
+        "senseId": "punch%2:35:04::",
+        "generatedTranslation_c82": "打洞器",
+        "runtimeDisplayOutput_c81": "打洞器 (義項 2)"
+      },
+      {
+        "senseId": "punch%2:35:01::",
+        "generatedTranslation_c82": "打洞器",
+        "runtimeDisplayOutput_c81": "打洞器 (義項 3)"
+      },
+      {
+        "senseId": "purse%1:06:00::",
+        "generatedTranslation_c82": "錢包",
+        "runtimeDisplayOutput_c81": "錢包（金額/款項）"
+      },
+      {
+        "senseId": "purse%1:21:01::",
+        "generatedTranslation_c82": "錢包",
+        "runtimeDisplayOutput_c81": "錢包（金額/款項） (義項 2)"
+      },
+      {
+        "senseId": "purse%1:06:02::",
+        "generatedTranslation_c82": "錢包",
+        "runtimeDisplayOutput_c81": "錢包（金額/款項） (義項 3)"
+      },
+      {
+        "senseId": "rank%1:14:00::",
+        "generatedTranslation_c82": "等級",
+        "runtimeDisplayOutput_c81": "等級（軍事）"
+      },
+      {
+        "senseId": "rank%1:26:00::",
+        "generatedTranslation_c82": "等級",
+        "runtimeDisplayOutput_c81": "等級 (義項 2)"
+      },
+      {
+        "senseId": "rank%1:14:01::",
+        "generatedTranslation_c82": "等級",
+        "runtimeDisplayOutput_c81": "等級（軍事） (義項 3)"
+      },
+      {
+        "senseId": "recognize%2:31:02::",
+        "generatedTranslation_c82": "認出",
+        "runtimeDisplayOutput_c81": "認出（人物）"
+      },
+      {
+        "senseId": "recognize%2:31:01::",
+        "generatedTranslation_c82": "認出",
+        "runtimeDisplayOutput_c81": "認出（軍事）"
+      },
+      {
+        "senseId": "recognize%2:39:01::",
+        "generatedTranslation_c82": "認出",
+        "runtimeDisplayOutput_c81": "認出 (義項 3)"
+      },
+      {
+        "senseId": "release%2:35:00::",
+        "generatedTranslation_c82": "釋放",
+        "runtimeDisplayOutput_c81": "釋放 (義項 1)"
+      },
+      {
+        "senseId": "release%2:41:00::",
+        "generatedTranslation_c82": "釋放",
+        "runtimeDisplayOutput_c81": "釋放 (義項 2)"
+      },
+      {
+        "senseId": "release%2:35:01::",
+        "generatedTranslation_c82": "釋放",
+        "runtimeDisplayOutput_c81": "釋放 (義項 3)"
+      },
+      {
+        "senseId": "relief%1:12:00::",
+        "generatedTranslation_c82": "減輕",
+        "runtimeDisplayOutput_c81": "減輕（金額/款項）"
+      },
+      {
+        "senseId": "relief%1:26:00::",
+        "generatedTranslation_c82": "減輕",
+        "runtimeDisplayOutput_c81": "減輕 (義項 2)"
+      },
+      {
+        "senseId": "relief%1:21:00::",
+        "generatedTranslation_c82": "減輕",
+        "runtimeDisplayOutput_c81": "減輕（法律）"
+      },
+      {
+        "senseId": "ribbon%1:17:00::",
+        "generatedTranslation_c82": "緞帶",
+        "runtimeDisplayOutput_c81": "緞帶 (義項 1)"
+      },
+      {
+        "senseId": "ribbon%1:10:00::",
+        "generatedTranslation_c82": "緞帶",
+        "runtimeDisplayOutput_c81": "緞帶（軍事）"
+      },
+      {
+        "senseId": "ribbon%1:06:02::",
+        "generatedTranslation_c82": "緞帶",
+        "runtimeDisplayOutput_c81": "緞帶 (義項 3)"
+      },
+      {
+        "senseId": "robbery%1:04:00::",
+        "generatedTranslation_c82": "搶掠",
+        "runtimeDisplayOutput_c81": "搶掠 (義項 1)"
+      },
+      {
+        "senseId": "robbery%1:04:01::",
+        "generatedTranslation_c82": "搶掠",
+        "runtimeDisplayOutput_c81": "搶掠（軍事）"
+      },
+      {
+        "senseId": "rush%2:38:00::",
+        "generatedTranslation_c82": "匆促",
+        "runtimeDisplayOutput_c81": "匆促 (義項 1)"
+      },
+      {
+        "senseId": "rush%2:33:00::",
+        "generatedTranslation_c82": "匆促",
+        "runtimeDisplayOutput_c81": "匆促 (義項 2)"
+      },
+      {
+        "senseId": "rush%2:30:01::",
+        "generatedTranslation_c82": "匆促",
+        "runtimeDisplayOutput_c81": "匆促 (義項 3)"
+      },
+      {
+        "senseId": "scarf%1:06:00::",
+        "generatedTranslation_c82": "圍巾",
+        "runtimeDisplayOutput_c81": "圍巾（軍事）"
+      },
+      {
+        "senseId": "scarf%1:06:01::",
+        "generatedTranslation_c82": "圍巾",
+        "runtimeDisplayOutput_c81": "圍巾 (義項 2)"
+      },
+      {
+        "senseId": "screw%1:06:02::",
+        "generatedTranslation_c82": "螺旋",
+        "runtimeDisplayOutput_c81": "螺旋（交通/載具）"
+      },
+      {
+        "senseId": "screw%1:06:01::",
+        "generatedTranslation_c82": "螺旋",
+        "runtimeDisplayOutput_c81": "螺旋 (義項 2)"
+      },
+      {
+        "senseId": "seal%1:06:01::",
+        "generatedTranslation_c82": "印章",
+        "runtimeDisplayOutput_c81": "印章（軍事）"
+      },
+      {
+        "senseId": "seal%1:06:00::",
+        "generatedTranslation_c82": "印章",
+        "runtimeDisplayOutput_c81": "印章（音樂）"
+      },
+      {
+        "senseId": "seal%1:27:00::",
+        "generatedTranslation_c82": "印章",
+        "runtimeDisplayOutput_c81": "印章 (義項 3)"
+      },
+      {
+        "senseId": "shallow%3:00:01::",
+        "generatedTranslation_c82": "水淺的地方",
+        "runtimeDisplayOutput_c81": "水淺的地方（軍事）"
+      },
+      {
+        "senseId": "shallow%3:00:02::",
+        "generatedTranslation_c82": "水淺的地方",
+        "runtimeDisplayOutput_c81": "水淺的地方 (義項 2)"
+      },
+      {
+        "senseId": "shallow%5:00:00:superficial:00",
+        "generatedTranslation_c82": "水淺的地方",
+        "runtimeDisplayOutput_c81": "水淺的地方 (義項 3)"
+      },
+      {
+        "senseId": "spin%1:11:00::",
+        "generatedTranslation_c82": "旋轉",
+        "runtimeDisplayOutput_c81": "旋轉 (義項 1)"
+      },
+      {
+        "senseId": "spin%1:04:00::",
+        "generatedTranslation_c82": "旋轉",
+        "runtimeDisplayOutput_c81": "旋轉 (義項 2)"
+      },
+      {
+        "senseId": "spin%1:04:01::",
+        "generatedTranslation_c82": "旋轉",
+        "runtimeDisplayOutput_c81": "旋轉（交通/載具）"
+      },
+      {
+        "senseId": "squeeze%1:04:00::",
+        "generatedTranslation_c82": "緊握",
+        "runtimeDisplayOutput_c81": "緊握（音樂）"
+      },
+      {
+        "senseId": "squeeze%1:26:00::",
+        "generatedTranslation_c82": "緊握",
+        "runtimeDisplayOutput_c81": "緊握（金額/款項）"
+      },
+      {
+        "senseId": "squeeze%1:21:00::",
+        "generatedTranslation_c82": "緊握",
+        "runtimeDisplayOutput_c81": "緊握（金額/款項） (義項 3)"
+      },
+      {
+        "senseId": "sticky%5:00:00:adhesive:00",
+        "generatedTranslation_c82": "粘的",
+        "runtimeDisplayOutput_c81": "粘的 (義項 1)"
+      },
+      {
+        "senseId": "sticky%5:00:02:wet:01",
+        "generatedTranslation_c82": "粘的",
+        "runtimeDisplayOutput_c81": "粘的 (義項 2)"
+      },
+      {
+        "senseId": "sticky%5:00:01:wet:01",
+        "generatedTranslation_c82": "粘的",
+        "runtimeDisplayOutput_c81": "粘的（軍事）"
+      },
+      {
+        "senseId": "strategy%1:09:00::",
+        "generatedTranslation_c82": "戰略",
+        "runtimeDisplayOutput_c81": "戰略 (義項 1)"
+      },
+      {
+        "senseId": "strategy%1:09:01::",
+        "generatedTranslation_c82": "戰略",
+        "runtimeDisplayOutput_c81": "戰略（軍事）"
+      },
+      {
+        "senseId": "strength%1:07:00::",
+        "generatedTranslation_c82": "力量",
+        "runtimeDisplayOutput_c81": "力量 (義項 1)"
+      },
+      {
+        "senseId": "strength%1:07:05::",
+        "generatedTranslation_c82": "力量",
+        "runtimeDisplayOutput_c81": "力量（軍事）"
+      },
+      {
+        "senseId": "strength%1:07:06::",
+        "generatedTranslation_c82": "力量",
+        "runtimeDisplayOutput_c81": "力量 (義項 3)"
+      },
+      {
+        "senseId": "superior%1:18:01::",
+        "generatedTranslation_c82": "長者",
+        "runtimeDisplayOutput_c81": "長者 (義項 1)"
+      },
+      {
+        "senseId": "superior%1:18:02::",
+        "generatedTranslation_c82": "長者",
+        "runtimeDisplayOutput_c81": "長者 (義項 2)"
+      },
+      {
+        "senseId": "superior%1:18:03::",
+        "generatedTranslation_c82": "長者",
+        "runtimeDisplayOutput_c81": "長者 (義項 3)"
+      },
+      {
+        "senseId": "tank%1:06:01::",
+        "generatedTranslation_c82": "槽",
+        "runtimeDisplayOutput_c81": "槽（軍事）"
+      },
+      {
+        "senseId": "tank%1:06:00::",
+        "generatedTranslation_c82": "槽",
+        "runtimeDisplayOutput_c81": "槽 (義項 2)"
+      },
+      {
+        "senseId": "tank%1:23:00::",
+        "generatedTranslation_c82": "槽",
+        "runtimeDisplayOutput_c81": "槽 (義項 3)"
+      },
+      {
+        "senseId": "threat%1:26:00::",
+        "generatedTranslation_c82": "恐嚇",
+        "runtimeDisplayOutput_c81": "恐嚇 (義項 1)"
+      },
+      {
+        "senseId": "threat%1:10:00::",
+        "generatedTranslation_c82": "恐嚇",
+        "runtimeDisplayOutput_c81": "恐嚇（軍事）"
+      },
+      {
+        "senseId": "threat%1:10:01::",
+        "generatedTranslation_c82": "恐嚇",
+        "runtimeDisplayOutput_c81": "恐嚇 (義項 3)"
+      },
+      {
+        "senseId": "tight%3:00:01::",
+        "generatedTranslation_c82": "緊的",
+        "runtimeDisplayOutput_c81": "緊的 (義項 1)"
+      },
+      {
+        "senseId": "tight%5:00:00:tense:01",
+        "generatedTranslation_c82": "緊的",
+        "runtimeDisplayOutput_c81": "緊的 (義項 2)"
+      },
+      {
+        "senseId": "tight%5:00:00:invulnerable:00",
+        "generatedTranslation_c82": "緊的",
+        "runtimeDisplayOutput_c81": "緊的 (義項 3)"
+      },
+      {
+        "senseId": "tribe%1:14:00::",
+        "generatedTranslation_c82": "宗族",
+        "runtimeDisplayOutput_c81": "宗族 (義項 1)"
+      },
+      {
+        "senseId": "tribe%1:14:01::",
+        "generatedTranslation_c82": "宗族",
+        "runtimeDisplayOutput_c81": "宗族 (義項 2)"
+      },
+      {
+        "senseId": "tribe%1:14:03::",
+        "generatedTranslation_c82": "宗族",
+        "runtimeDisplayOutput_c81": "宗族 (義項 3)"
+      },
+      {
+        "senseId": "troop%1:14:00::",
+        "generatedTranslation_c82": "軍隊",
+        "runtimeDisplayOutput_c81": "軍隊（軍事）"
+      },
+      {
+        "senseId": "troop%1:14:03::",
+        "generatedTranslation_c82": "軍隊",
+        "runtimeDisplayOutput_c81": "軍隊 (義項 2)"
+      },
+      {
+        "senseId": "troop%1:14:02::",
+        "generatedTranslation_c82": "軍隊",
+        "runtimeDisplayOutput_c81": "軍隊 (義項 3)"
+      },
+      {
+        "senseId": "van%1:14:01::",
+        "generatedTranslation_c82": "貨車",
+        "runtimeDisplayOutput_c81": "貨車 (義項 1)"
+      },
+      {
+        "senseId": "van%1:14:00::",
+        "generatedTranslation_c82": "貨車",
+        "runtimeDisplayOutput_c81": "貨車 (義項 2)"
+      },
+      {
+        "senseId": "van%1:06:02::",
+        "generatedTranslation_c82": "貨車",
+        "runtimeDisplayOutput_c81": "貨車（交通/載具）"
+      },
+      {
+        "senseId": "vanish%2:30:00::",
+        "generatedTranslation_c82": "消失",
+        "runtimeDisplayOutput_c81": "消失（軍事）"
+      },
+      {
+        "senseId": "vanish%2:39:00::",
+        "generatedTranslation_c82": "消失",
+        "runtimeDisplayOutput_c81": "消失 (義項 2)"
+      },
+      {
+        "senseId": "vanish%2:38:05::",
+        "generatedTranslation_c82": "消失",
+        "runtimeDisplayOutput_c81": "消失 (義項 3)"
+      },
+      {
+        "senseId": "wagon%1:06:00::",
+        "generatedTranslation_c82": "四輪馬車",
+        "runtimeDisplayOutput_c81": "四輪馬車（交通/載具）"
+      },
+      {
+        "senseId": "wagon%1:06:02::",
+        "generatedTranslation_c82": "四輪馬車",
+        "runtimeDisplayOutput_c81": "四輪馬車 (義項 2)"
+      },
+      {
+        "senseId": "wagon%1:06:04::",
+        "generatedTranslation_c82": "四輪馬車",
+        "runtimeDisplayOutput_c81": "四輪馬車（交通/載具） (義項 3)"
+      },
+      {
+        "senseId": "warmth%1:09:00::",
+        "generatedTranslation_c82": "溫暖",
+        "runtimeDisplayOutput_c81": "溫暖 (義項 1)"
+      },
+      {
+        "senseId": "warmth%1:12:00::",
+        "generatedTranslation_c82": "溫暖",
+        "runtimeDisplayOutput_c81": "溫暖（金額/款項）"
+      },
+      {
+        "senseId": "warmth%1:07:01::",
+        "generatedTranslation_c82": "溫暖",
+        "runtimeDisplayOutput_c81": "溫暖 (義項 3)"
+      },
+      {
+        "senseId": "weapon%1:06:00::",
+        "generatedTranslation_c82": "武器",
+        "runtimeDisplayOutput_c81": "武器（音樂）"
+      },
+      {
+        "senseId": "weapon%1:10:00::",
+        "generatedTranslation_c82": "武器",
+        "runtimeDisplayOutput_c81": "武器 (義項 2)"
+      },
+      {
+        "senseId": "whistle%2:39:00::",
+        "generatedTranslation_c82": "口哨",
+        "runtimeDisplayOutput_c81": "口哨 (義項 1)"
+      },
+      {
+        "senseId": "whistle%2:38:00::",
+        "generatedTranslation_c82": "口哨",
+        "runtimeDisplayOutput_c81": "口哨 (義項 2)"
+      },
+      {
+        "senseId": "whistle%2:32:00::",
+        "generatedTranslation_c82": "口哨",
+        "runtimeDisplayOutput_c81": "口哨 (義項 3)"
+      }
+    ]
+  }
+}

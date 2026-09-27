@@ -33,10 +33,10 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "接受"
   },
   "accident%1:11:01::": {
-    "meaningZhTW": "意外事件"
+    "meaningZhTW": "車禍；意外事故"
   },
   "accident%1:11:00::": {
-    "meaningZhTW": "意外事件"
+    "meaningZhTW": "偶然事件；意外"
   },
   "account%1:10:00::": {
     "meaningZhTW": "報告"
@@ -57,13 +57,13 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "報告"
   },
   "active%3:00:02::": {
-    "meaningZhTW": "活躍的"
+    "meaningZhTW": "（病患/病情）活躍的"
   },
   "active%5:00:00:operational:00": {
-    "meaningZhTW": "活躍的"
+    "meaningZhTW": "（軍事）現役的"
   },
   "active%3:00:03::": {
-    "meaningZhTW": "活躍的"
+    "meaningZhTW": "積極的；活躍的"
   },
   "activity%1:04:00::": {
     "meaningZhTW": "活動"
@@ -120,10 +120,10 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "承認"
   },
   "adult%1:18:00::": {
-    "meaningZhTW": "成人"
+    "meaningZhTW": "成年人"
   },
   "adult%1:05:00::": {
-    "meaningZhTW": "成人"
+    "meaningZhTW": "成體；成年動物"
   },
   "adult%5:00:00:mature:01": {
     "meaningZhTW": "成人"
@@ -132,22 +132,22 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "成人"
   },
   "advance%1:11:00::": {
-    "meaningZhTW": "前進"
+    "meaningZhTW": "前進；推進"
   },
   "advance%1:11:01::": {
-    "meaningZhTW": "前進"
+    "meaningZhTW": "進步；進展"
   },
   "advance%1:10:00::": {
-    "meaningZhTW": "前進"
+    "meaningZhTW": "提議；試探"
   },
   "advance%2:38:00::": {
-    "meaningZhTW": "前進"
+    "meaningZhTW": "前進；向前移動"
   },
   "advance%2:32:00::": {
-    "meaningZhTW": "前進"
+    "meaningZhTW": "提出（建議/看法）"
   },
   "advance%2:41:01::": {
-    "meaningZhTW": "前進"
+    "meaningZhTW": "促進；推動"
   },
   "advice%1:10:00::": {
     "meaningZhTW": "忠告"
@@ -171,13 +171,13 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "影響"
   },
   "ahead%4:02:00::": {
-    "meaningZhTW": "領先的"
+    "meaningZhTW": "在前面；領先"
   },
   "ahead%4:02:06::": {
-    "meaningZhTW": "領先的"
+    "meaningZhTW": "向將來；往前"
   },
   "ahead%4:02:02::": {
-    "meaningZhTW": "領先的"
+    "meaningZhTW": "向前"
   },
   "aid%1:07:00::": {
     "meaningZhTW": "幫助"
@@ -204,31 +204,31 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "目標"
   },
   "aim%2:33:00::": {
-    "meaningZhTW": "目標"
+    "meaningZhTW": "瞄準；對準"
   },
   "aim%2:31:01::": {
-    "meaningZhTW": "目標"
+    "meaningZhTW": "意圖；旨在"
   },
   "aim%2:32:09::": {
-    "meaningZhTW": "目標"
+    "meaningZhTW": "引導（話題/對話）"
   },
   "aircraft%1:06:00::": {
     "meaningZhTW": "航空器"
   },
   "alarm%1:12:00::": {
-    "meaningZhTW": "驚恐"
+    "meaningZhTW": "驚恐；恐慌"
   },
   "alarm%1:06:00::": {
-    "meaningZhTW": "驚恐"
+    "meaningZhTW": "警報器；鬧鐘"
   },
   "alarm%1:10:00::": {
-    "meaningZhTW": "驚恐"
+    "meaningZhTW": "警報聲；警告信號"
   },
   "alarm%2:37:00::": {
-    "meaningZhTW": "驚恐"
+    "meaningZhTW": "使驚恐；使不安"
   },
   "alarm%2:32:00::": {
-    "meaningZhTW": "驚恐"
+    "meaningZhTW": "發出警報；警告"
   },
   "album%1:10:00::": {
     "meaningZhTW": "粘貼簿"
@@ -285,13 +285,13 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "完全地"
   },
   "amount%1:21:00::": {
-    "meaningZhTW": "總數"
+    "meaningZhTW": "金額；款項"
   },
   "amount%1:07:00::": {
-    "meaningZhTW": "總數"
+    "meaningZhTW": "數量；程度"
   },
   "amount%1:03:00::": {
-    "meaningZhTW": "總數"
+    "meaningZhTW": "總數；總量"
   },
   "amount%2:42:03::": {
     "meaningZhTW": "總數"
@@ -3072,10 +3072,10 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "終止"
   },
   "enemy%1:14:00::": {
-    "meaningZhTW": "敵人"
+    "meaningZhTW": "敵軍；敵對部隊"
   },
   "enemy%1:18:00::": {
-    "meaningZhTW": "敵人"
+    "meaningZhTW": "敵人；敵手"
   },
   "enemy%1:14:01::": {
     "meaningZhTW": "敵人"
@@ -3870,13 +3870,13 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "往前"
   },
   "forward%3:00:01::": {
-    "meaningZhTW": "向前的"
+    "meaningZhTW": "向前的；前部的"
   },
   "forward%3:00:02::": {
     "meaningZhTW": "向前的"
   },
   "forward%3:00:03::": {
-    "meaningZhTW": "向前的"
+    "meaningZhTW": "（車輛）前進檔的"
   },
   "forward%1:18:00::": {
     "meaningZhTW": "向前的"

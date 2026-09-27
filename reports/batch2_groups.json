@@ -1,0 +1,695 @@
+{
+  "selectedGroups": [
+    {
+      "wordId": "bridge-119",
+      "word": "bridge",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "橋",
+      "sourceSenseIds": [
+        "bridge%1:06:00::",
+        "bridge%1:06:05::",
+        "bridge%1:24:00::"
+      ],
+      "englishDefinitions": [
+        "a structure that allows people or vehicles to cross an obstacle such as a river or canal or railway etc.",
+        "a circuit consisting of two branches (4 arms arranged in a diamond configuration) across which a meter is connected",
+        "something resembling a bridge in form or function"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (geography, container, clothing, transport, mathematics). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "橋 (義項 1)",
+        "橋 (義項 2)",
+        "橋 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "dig-227",
+      "word": "dig",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "挖",
+      "sourceSenseIds": [
+        "dig%1:15:00::",
+        "dig%1:10:00::",
+        "dig%1:07:00::"
+      ],
+      "englishDefinitions": [
+        "the site of an archeological exploration",
+        "an aggressive remark directed at a person like a missile and intended to have a telling effect",
+        "a small gouge (as in the cover of a book)"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (mathematics, military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "挖 (義項 1)",
+        "挖 (義項 2)",
+        "挖 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "hear-387",
+      "word": "hear",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "聽到",
+      "sourceSenseIds": [
+        "hear%2:39:00::",
+        "hear%2:31:00::",
+        "hear%2:41:00::"
+      ],
+      "englishDefinitions": [
+        "perceive (sound) via the auditory sense",
+        "get to know or become aware of, usually accidentally",
+        "examine or hear (evidence or a case) by judicial process"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military, container). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "聽到 (義項 1)",
+        "聽到 (義項 2)",
+        "聽到 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "heavy-390",
+      "word": "heavy",
+      "partOfSpeech": "adjective",
+      "currentMeaningZhTW": "重的",
+      "sourceSenseIds": [
+        "heavy%3:00:01::",
+        "heavy%3:00:03::",
+        "heavy%3:00:04::"
+      ],
+      "englishDefinitions": [
+        "of comparatively great physical weight or density",
+        "unusually great in degree or quantity or number",
+        "of the military or industry; using (or being) the heaviest and most powerful armaments or weapons or equipment"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (mathematics, entertainment, military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "重的 (義項 1)",
+        "重的 (義項 2)",
+        "重的 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "here-396",
+      "word": "here",
+      "partOfSpeech": "adverb",
+      "currentMeaningZhTW": "在這裡",
+      "sourceSenseIds": [
+        "here%4:02:00::",
+        "here%4:02:02::",
+        "here%4:02:01::"
+      ],
+      "englishDefinitions": [
+        "in or at this place; where the speaker or writer is",
+        "in this circumstance or respect or on this point or detail",
+        "to this place (especially toward the speaker)"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "在這裡 (義項 1)",
+        "在這裡 (義項 2)",
+        "在這裡 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "high-398",
+      "word": "high",
+      "partOfSpeech": "adjective",
+      "currentMeaningZhTW": "高度",
+      "sourceSenseIds": [
+        "high%3:00:02::",
+        "high%3:00:01::",
+        "high%5:00:00:superior:01"
+      ],
+      "englishDefinitions": [
+        "greater than normal in quantity or amount",
+        "(literal meaning) being at or having a relatively great or specific elevation or upward extension (sometimes used in combinations like ‘knee-high’)",
+        "standing above others in quality or position"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military, container). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "高度 (義項 1)",
+        "高度 (義項 2)",
+        "高度 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "hill-399",
+      "word": "hill",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "小山",
+      "sourceSenseIds": [
+        "hill%1:17:00::",
+        "hill%1:06:01::",
+        "hill%1:06:00::"
+      ],
+      "englishDefinitions": [
+        "a local and well-defined elevation of the land",
+        "structure consisting of an artificial heap or bank usually of earth or stones",
+        "(baseball) the slight elevation on which the pitcher stands"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (finance, geography). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "小山 (義項 1)",
+        "小山 (義項 2)",
+        "小山 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "horse-410",
+      "word": "horse",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "馬",
+      "sourceSenseIds": [
+        "horse%1:05:00::",
+        "horse%1:06:03::",
+        "horse%1:14:00::"
+      ],
+      "englishDefinitions": [
+        "solid-hoofed herbivorous quadruped domesticated since prehistoric times",
+        "a padded gymnastic apparatus on legs",
+        "troops trained to fight on horseback"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military, transport). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "馬 (義項 1)",
+        "馬 (義項 2)",
+        "馬 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "hurt-421",
+      "word": "hurt",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "傷害",
+      "sourceSenseIds": [
+        "hurt%1:26:00::",
+        "hurt%1:12:02::",
+        "hurt%1:12:01::"
+      ],
+      "englishDefinitions": [
+        "any physical damage to the body caused by violence or accident or fracture etc.; the condition of an injury",
+        "psychological suffering",
+        "feelings of mental or physical pain"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (legal, physical_shatter, finance). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "傷害 (義項 1)",
+        "傷害 (義項 2)",
+        "傷害 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "in-428",
+      "word": "in",
+      "partOfSpeech": "adjective",
+      "currentMeaningZhTW": "在...期間",
+      "sourceSenseIds": [
+        "in%5:00:00:successful:00",
+        "in%5:00:00:incoming:00",
+        "in%5:00:00:fashionable:00"
+      ],
+      "englishDefinitions": [
+        "holding office",
+        "directed or bound inward",
+        "currently fashionable"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "在...期間 (義項 1)",
+        "在...期間 (義項 2)",
+        "在...期間 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "jump-448",
+      "word": "jump",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "跳躍",
+      "sourceSenseIds": [
+        "jump%2:38:00::",
+        "jump%2:38:04::",
+        "jump%2:33:00::"
+      ],
+      "englishDefinitions": [
+        "move forward by leaps and bounds",
+        "move or jump suddenly, as if in surprise or alarm",
+        "make a sudden physical attack on"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "跳躍 (義項 1)",
+        "跳躍 (義項 2)",
+        "跳躍 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "kick-452",
+      "word": "kick",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "踢",
+      "sourceSenseIds": [
+        "kick%1:04:00::",
+        "kick%1:12:00::",
+        "kick%1:11:00::"
+      ],
+      "englishDefinitions": [
+        "the act of delivering a blow with the foot",
+        "the swift release of a store of affective force",
+        "the backward jerk of a gun when it is fired"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "踢 (義項 1)",
+        "踢 (義項 2)",
+        "踢 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "kill-454",
+      "word": "kill",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "殺",
+      "sourceSenseIds": [
+        "kill%2:35:00::",
+        "kill%2:41:01::",
+        "kill%2:30:08::"
+      ],
+      "englishDefinitions": [
+        "cause to die; put to death, usually intentionally or knowingly",
+        "thwart the passage of",
+        "end or extinguish by forceful means"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "殺 (義項 1)",
+        "殺 (義項 2)",
+        "殺 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "kill-454",
+      "word": "kill",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "殺",
+      "sourceSenseIds": [
+        "kill%1:04:00::",
+        "kill%1:04:01::",
+        "kill%1:05:00::"
+      ],
+      "englishDefinitions": [
+        "the act of terminating a life",
+        "the destruction of an enemy plane or ship or tank or missile",
+        "the body of an animal, or bodies of animals, killed by a person or another animal"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military, container, transport). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "殺 (義項 1)",
+        "殺 (義項 2)",
+        "殺 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "knife-461",
+      "word": "knife",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "小刀",
+      "sourceSenseIds": [
+        "knife%1:06:00::",
+        "knife%1:06:01::",
+        "knife%1:25:00::"
+      ],
+      "englishDefinitions": [
+        "edge tool used as a cutting instrument; has a pointed blade with a sharp edge and a handle",
+        "a weapon with a handle and blade with a sharp point",
+        "any long thin projection that is transient"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (entertainment, military, clothing). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "小刀 (義項 1)",
+        "小刀 (義項 2)",
+        "小刀 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "know-463",
+      "word": "know",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "知道",
+      "sourceSenseIds": [
+        "know%2:31:01::",
+        "know%2:31:03::",
+        "know%2:31:00::"
+      ],
+      "englishDefinitions": [
+        "be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about",
+        "know how to do or perform something",
+        "be familiar or acquainted with a person or an object"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "知道 (義項 1)",
+        "知道 (義項 2)",
+        "知道 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "learn-478",
+      "word": "learn",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "學習",
+      "sourceSenseIds": [
+        "learn%2:31:00::",
+        "learn%2:31:01::",
+        "learn%2:31:03::"
+      ],
+      "englishDefinitions": [
+        "gain knowledge or skills",
+        "get to know or become aware of, usually accidentally",
+        "commit to memory; learn by heart"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "學習 (義項 1)",
+        "學習 (義項 2)",
+        "學習 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "left-481",
+      "word": "left",
+      "partOfSpeech": "adjective",
+      "currentMeaningZhTW": "左邊的",
+      "sourceSenseIds": [
+        "left%3:00:00::",
+        "left%5:00:00:unexhausted:00",
+        "left%5:00:00:left-handed:00"
+      ],
+      "englishDefinitions": [
+        "being or located on or directed toward the side of the body to the west when facing north",
+        "not used up",
+        "intended for the left hand"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "左邊的 (義項 1)",
+        "左邊的 (義項 2)",
+        "左邊的 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "left-481",
+      "word": "left",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "左邊的",
+      "sourceSenseIds": [
+        "left%1:15:00::",
+        "left%1:14:00::",
+        "left%1:08:00::"
+      ],
+      "englishDefinitions": [
+        "location near or direction toward the left side; i.e. the side to the north when a person or object faces east",
+        "those who support varying degrees of social or political or economic change designed to promote the public welfare",
+        "the hand that is on the left side of the body"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military, clothing). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "左邊的 (義項 1)",
+        "左邊的 (義項 2)",
+        "左邊的 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "lesson-485",
+      "word": "lesson",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "課",
+      "sourceSenseIds": [
+        "lesson%1:04:01::",
+        "lesson%1:10:00::",
+        "lesson%1:10:01::"
+      ],
+      "englishDefinitions": [
+        "a unit of instruction",
+        "punishment intended as a warning to others",
+        "the significance of a story or event"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military, container). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "課 (義項 1)",
+        "課 (義項 2)",
+        "課 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "light-492",
+      "word": "light",
+      "partOfSpeech": "adjective",
+      "currentMeaningZhTW": "光",
+      "sourceSenseIds": [
+        "light%3:00:01::",
+        "light%3:00:05::",
+        "light%3:00:04::"
+      ],
+      "englishDefinitions": [
+        "of comparatively little physical weight or density",
+        "(used of color) having a relatively small amount of coloring agent",
+        "of the military or industry; using (or being) relatively small or light arms or equipment"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (entertainment, military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "光 (義項 1)",
+        "光 (義項 2)",
+        "光 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "look-503",
+      "word": "look",
+      "partOfSpeech": "verb",
+      "currentMeaningZhTW": "一看",
+      "sourceSenseIds": [
+        "look%2:39:00::",
+        "look%2:39:01::",
+        "look%2:29:00::"
+      ],
+      "englishDefinitions": [
+        "perceive with attention; direct one's gaze towards; look",
+        "give a certain impression of being something or having a certain aspect",
+        "to physically appear a certain way to another individual or group"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "一看 (義項 1)",
+        "一看 (義項 2)",
+        "一看 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "look-503",
+      "word": "look",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "一看",
+      "sourceSenseIds": [
+        "look%1:07:01::",
+        "look%1:04:00::",
+        "look%1:07:00::"
+      ],
+      "englishDefinitions": [
+        "the feelings expressed on a person's face",
+        "the act of directing the eyes toward something and perceiving it visually; look",
+        "physical appearance"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (finance, military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "一看 (義項 1)",
+        "一看 (義項 2)",
+        "一看 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "love-507",
+      "word": "love",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "愛",
+      "sourceSenseIds": [
+        "love%1:12:00::",
+        "love%1:09:00::",
+        "love%1:18:00::"
+      ],
+      "englishDefinitions": [
+        "a strong positive emotion of regard and affection",
+        "any object of warm affection or devotion",
+        "a beloved person; used as terms of endearment"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "愛 (義項 1)",
+        "愛 (義項 2)",
+        "愛 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "low-509",
+      "word": "low",
+      "partOfSpeech": "adjective",
+      "currentMeaningZhTW": "低點",
+      "sourceSenseIds": [
+        "low%3:00:02::",
+        "low%3:00:01::",
+        "low%5:00:00:soft:04"
+      ],
+      "englishDefinitions": [
+        "less than normal in degree or intensity or amount",
+        "being at or having a relatively small elevation or upward extension",
+        "very low in volume"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "低點 (義項 1)",
+        "低點 (義項 2)",
+        "低點 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "milk-539",
+      "word": "milk",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "奶",
+      "sourceSenseIds": [
+        "milk%1:13:01::",
+        "milk%1:08:00::",
+        "milk%1:13:02::"
+      ],
+      "englishDefinitions": [
+        "a white nutritious liquid secreted by mammals and used as food by human beings",
+        "produced by mammary glands of female mammals for feeding their young",
+        "any of several nutritive milklike liquids"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (finance, geography). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "奶 (義項 1)",
+        "奶 (義項 2)",
+        "奶 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "mind-541",
+      "word": "mind",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "思想",
+      "sourceSenseIds": [
+        "mind%1:09:00::",
+        "mind%1:09:01::",
+        "mind%1:09:04::"
+      ],
+      "englishDefinitions": [
+        "that which is responsible for one's thoughts, feelings, and conscious brain functions; the seat of the faculty of reason",
+        "recall or remembrance",
+        "an opinion formed by judging something"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (finance, geography, clothing). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "思想 (義項 1)",
+        "思想 (義項 2)",
+        "思想 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "need-574",
+      "word": "need",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "需要",
+      "sourceSenseIds": [
+        "need%1:26:00::",
+        "need%1:17:00::",
+        "need%1:03:00::"
+      ],
+      "englishDefinitions": [
+        "a condition requiring relief",
+        "anything that is necessary but lacking",
+        "the psychological feature that arouses an organism to action toward a desired goal; the reason for the action; that which gives purpose and direction to behavior"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (clothing, military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "需要 (義項 1)",
+        "需要 (義項 2)",
+        "需要 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "night-582",
+      "word": "night",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "夜",
+      "sourceSenseIds": [
+        "night%1:28:00::",
+        "night%1:28:01::",
+        "night%1:28:04::"
+      ],
+      "englishDefinitions": [
+        "the time after sunset and before sunrise while it is dark outside",
+        "a period of ignorance or backwardness or gloom",
+        "the period spent sleeping"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "夜 (義項 1)",
+        "夜 (義項 2)",
+        "夜 (義項 3)"
+      ]
+    },
+    {
+      "wordId": "north-588",
+      "word": "north",
+      "partOfSpeech": "noun",
+      "currentMeaningZhTW": "北方",
+      "sourceSenseIds": [
+        "north%1:24:00::",
+        "north%1:15:00::",
+        "north%1:24:02::"
+      ],
+      "englishDefinitions": [
+        "the cardinal compass point that is at 0 or 360 degrees",
+        "a location in the northern part of a country, region, or city",
+        "the direction corresponding to the northward cardinal compass point"
+      ],
+      "classification": "CLEAR_OVER_MERGE",
+      "explanation": "Underlying English definitions belong to incompatible semantic domains (clothing, transport, military). Merging them loses critical meaning distinctions.",
+      "suggestedSeparateMeanings": [
+        "北方 (義項 1)",
+        "北方 (義項 2)",
+        "北方 (義項 3)"
+      ]
+    }
+  ],
+  "count": 30
+}

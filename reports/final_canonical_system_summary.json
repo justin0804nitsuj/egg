@@ -1,0 +1,34 @@
+{
+  "1": {
+    "level": 1,
+    "totalWords": 1002,
+    "productionLearnerMeanings": 1568,
+    "verifiedOverridesInProduction": 268,
+    "unapprovedHeuristicsInProduction": 0,
+    "reviewSuggestionsPreserved": 231
+  },
+  "2": {
+    "level": 2,
+    "totalWords": 1002,
+    "productionLearnerMeanings": 1392,
+    "verifiedOverridesInProduction": 31,
+    "unapprovedHeuristicsInProduction": 0,
+    "reviewSuggestionsPreserved": 383
+  },
+  "3": {
+    "level": 3,
+    "totalWords": 1002,
+    "productionLearnerMeanings": 1313,
+    "verifiedOverridesInProduction": 0,
+    "unapprovedHeuristicsInProduction": 0,
+    "reviewSuggestionsPreserved": 285
+  },
+  "4": {
+    "level": 4,
+    "totalWords": 1002,
+    "productionLearnerMeanings": 1260,
+    "verifiedOverridesInProduction": 0,
+    "unapprovedHeuristicsInProduction": 0,
+    "reviewSuggestionsPreserved": 258
+  }
+}

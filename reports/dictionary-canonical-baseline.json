@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "generatedAt": "2026-09-27T11:09:19.402Z",
+    "pipelineVersion": "hardened-v2.0",
+    "rule": "Only human-reviewed verified overrides alter production learner meanings. auto_differentiated entries are review suggestions only."
+  },
+  "terminologyClarification": {
+    "verifiedOverrideKeys": "The number of human-reviewed entries explicitly defined in LEVEL_MANUAL_OVERRIDES for a level.",
+    "affectedSourceSenseInstances": "The number of raw primary WordNet senses across words in that level matching a verified override key.",
+    "autoDifferentiatedSuggestions": "Heuristic autoDifferentiateSense candidate strings written to reports/zhTW-levelN-override-suggestions.json for human review only."
+  },
+  "level1MetricClarification": {
+    "1512": "CANONICAL PRODUCTION LEARNER MEANINGS COUNT for Level 1 after verified manual overrides (178 keys), pattern adaptations, and deduplication.",
+    "1657": "Deduplicated meanings count when running deduplication directly on raw imported definitions without pattern adaptations.",
+    "1669": "Regressed meanings count when 237 spurious auto-differentiated overrides were incorrectly loaded into production, splitting display groups."
+  },
+  "canonicalBaselineByLevel": {
+    "1": {
+      "level": 1,
+      "totalWords": 1002,
+      "matchedWords": 951,
+      "rawPrimaryWordNetSenses": 3464,
+      "productionLearnerMeanings": 1512,
+      "duplicatesRemovedFromDisplay": 1952,
+      "wordsAffectedByDeduplication": 809,
+      "verifiedOverrideKeys": 178,
+      "affectedSourceSenseInstances": 126,
+      "autoDifferentiatedSuggestions": 237,
+      "safeDuplicates": 0,
+      "possibleOverMerges": 0,
+      "clearOverMerges": 0
+    },
+    "2": {
+      "level": 2,
+      "totalWords": 1002,
+      "matchedWords": 984,
+      "rawPrimaryWordNetSenses": 3299,
+      "productionLearnerMeanings": 1392,
+      "duplicatesRemovedFromDisplay": 1907,
+      "wordsAffectedByDeduplication": 853,
+      "verifiedOverrideKeys": 31,
+      "affectedSourceSenseInstances": 31,
+      "autoDifferentiatedSuggestions": 383,
+      "safeDuplicates": 0,
+      "possibleOverMerges": 0,
+      "clearOverMerges": 0
+    },
+    "3": {
+      "level": 3,
+      "totalWords": 1002,
+      "matchedWords": 996,
+      "rawPrimaryWordNetSenses": 3005,
+      "productionLearnerMeanings": 1313,
+      "duplicatesRemovedFromDisplay": 1692,
+      "wordsAffectedByDeduplication": 823,
+      "verifiedOverrideKeys": 0,
+      "affectedSourceSenseInstances": 0,
+      "autoDifferentiatedSuggestions": 285,
+      "safeDuplicates": 0,
+      "possibleOverMerges": 0,
+      "clearOverMerges": 0
+    },
+    "4": {
+      "level": 4,
+      "totalWords": 1002,
+      "matchedWords": 995,
+      "rawPrimaryWordNetSenses": 2874,
+      "productionLearnerMeanings": 1260,
+      "duplicatesRemovedFromDisplay": 1614,
+      "wordsAffectedByDeduplication": 812,
+      "verifiedOverrideKeys": 0,
+      "affectedSourceSenseInstances": 0,
+      "autoDifferentiatedSuggestions": 258,
+      "safeDuplicates": 0,
+      "possibleOverMerges": 0,
+      "clearOverMerges": 0
+    }
+  }
+}

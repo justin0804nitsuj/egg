@@ -892,1189 +892,904 @@ export const ZH_TW_L1_OVERRIDES = {
     "status": "verified",
     "reason": "Enclosed work area"
   },
-  "book%2:31:00::": {
-    "meaningZhTW": "書 (義項 1)",
+  "attack%1:04:04::": {
+    "meaningZhTW": "進攻；攻勢",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "attack%1:10:00::": {
+    "meaningZhTW": "抨擊；猛烈批評",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "bag%1:06:00::": {
+    "meaningZhTW": "袋子；提袋",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "bag%1:23:01::": {
+    "meaningZhTW": "獵獲量",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "bag%1:06:03::": {
+    "meaningZhTW": "壘包",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "ball%1:06:01::": {
+    "meaningZhTW": "球（運動用）",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "ball%1:06:03::": {
+    "meaningZhTW": "彈丸；槍彈",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "ball%1:25:00::": {
+    "meaningZhTW": "球體；球狀物",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "bank%1:14:00::": {
+    "meaningZhTW": "銀行",
+    "status": "verified",
+    "reason": "User-reviewed first30 (APPROVE): Approved in CSV review"
+  },
+  "bank%1:17:00::": {
+    "meaningZhTW": "土堤；長堆",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "bank%2:38:00::": {
+    "meaningZhTW": "側傾；傾斜轉彎",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "bank%2:35:00::": {
+    "meaningZhTW": "築堤圍住",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "black%1:07:00::": {
+    "meaningZhTW": "黑色",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "black%1:26:00::": {
+    "meaningZhTW": "黑暗；漆黑",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "black%1:06:01::": {
+    "meaningZhTW": "黑色棋子",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "book%2:31:00::": {
+    "meaningZhTW": "聘請表演者；安排演出",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
   },
   "book%2:41:01::": {
-    "meaningZhTW": "書（人物）",
+    "meaningZhTW": "預訂；預約",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
   },
   "book%2:41:00::": {
-    "meaningZhTW": "書 (義項 3)",
+    "meaningZhTW": "（警方）登記指控；記錄案情",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
   },
-  "bridge%1:06:00::": {
-    "meaningZhTW": "橋（交通/載具）",
+  "bread%1:13:00::": {
+    "meaningZhTW": "麵包",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed first30 (APPROVE): Approved in CSV review"
   },
-  "bridge%1:06:05::": {
-    "meaningZhTW": "橋 (義項 2)",
+  "bread%1:21:00::": {
+    "meaningZhTW": "錢；鈔票（俚語）",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
   },
-  "bridge%1:24:00::": {
-    "meaningZhTW": "橋 (義項 3)",
+  "bus%1:06:00::": {
+    "meaningZhTW": "公車；巴士",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
   },
-  "dig%1:15:00::": {
-    "meaningZhTW": "挖 (義項 1)",
+  "bus%1:09:00::": {
+    "meaningZhTW": "匯流排型網路拓樸",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
   },
-  "dig%1:10:00::": {
-    "meaningZhTW": "挖（人物）",
+  "bus%1:06:02::": {
+    "meaningZhTW": "匯流排；母線（電路）",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
   },
-  "dig%1:07:00::": {
-    "meaningZhTW": "挖 (義項 3)",
+  "business%1:14:00::": {
+    "meaningZhTW": "企業；公司",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
   },
-  "fly%2:38:00::": {
-    "meaningZhTW": "蒼蠅 (義項 1)",
+  "business%1:04:01::": {
+    "meaningZhTW": "商業活動；生意",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
   },
-  "fly%2:38:02::": {
-    "meaningZhTW": "蒼蠅 (義項 2)",
+  "business%1:04:00::": {
+    "meaningZhTW": "本業；職業",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
   },
-  "fly%2:38:01::": {
-    "meaningZhTW": "蒼蠅（交通/載具）",
+  "buy%2:40:00::": {
+    "meaningZhTW": "買；購買",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "buy%2:40:02::": {
+    "meaningZhTW": "收買；賄賂",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "buy%2:42:00::": {
+    "meaningZhTW": "能買到；足以購買",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "car%1:06:00::": {
+    "meaningZhTW": "汽車；轎車",
+    "status": "verified",
+    "reason": "User-reviewed first30 (APPROVE): Approved in CSV review"
+  },
+  "car%1:06:01::": {
+    "meaningZhTW": "鐵路車輛；車廂",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "car%1:06:03::": {
+    "meaningZhTW": "飛船吊艙",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "card%1:06:00::": {
+    "meaningZhTW": "紙牌；撲克牌",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "card%1:10:01::": {
+    "meaningZhTW": "身分證件；識別卡",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "card%1:10:00::": {
+    "meaningZhTW": "賀卡；明信片",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "case%1:11:00::": {
+    "meaningZhTW": "事例；個案",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "case%1:26:00::": {
+    "meaningZhTW": "情況；狀況",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "case%1:04:00::": {
+    "meaningZhTW": "訴訟案件；官司",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "check%1:21:00::": {
+    "meaningZhTW": "支票",
+    "status": "verified",
+    "reason": "User-reviewed first30 (APPROVE): Approved in CSV review"
+  },
+  "check%1:09:00::": {
+    "meaningZhTW": "檢查；評估",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "check%1:10:00::": {
+    "meaningZhTW": "（餐廳）帳單",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "close%3:00:01::": {
+    "meaningZhTW": "接近的；相近的",
+    "status": "verified",
+    "reason": "User-reviewed first30 (KEEP_MERGED): Approved in CSV review"
+  },
+  "close%3:00:02::": {
+    "meaningZhTW": "密切相關的；關係密切的",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "close%3:00:05::": {
+    "meaningZhTW": "接近的；相近的",
+    "status": "verified",
+    "reason": "User-reviewed first30 (KEEP_MERGED): Approved in CSV review"
+  },
+  "close%4:02:01::": {
+    "meaningZhTW": "靠近地；接近地",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "close%4:02:02::": {
+    "meaningZhTW": "仔細地；專注地",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "copy%1:10:00::": {
+    "meaningZhTW": "（文件）副本；影本",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "copy%1:06:00::": {
+    "meaningZhTW": "複製品；仿製品",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "copy%1:10:01::": {
+    "meaningZhTW": "待印文稿；稿件",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "cost%1:21:00::": {
+    "meaningZhTW": "成本；花費",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "cost%1:07:00::": {
+    "meaningZhTW": "價格；金錢價值",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "cost%1:07:01::": {
+    "meaningZhTW": "代價；犧牲",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "dear%5:00:00:loved:00": {
+    "meaningZhTW": "深愛的；心愛的",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "dear%5:00:00:close:02": {
+    "meaningZhTW": "親密的；關係密切的",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "dear%5:00:00:sincere:00": {
+    "meaningZhTW": "真誠的；懇切的",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "doctor%1:18:00::": {
+    "meaningZhTW": "醫師；醫生",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "doctor%1:04:00::": {
+    "meaningZhTW": "扮醫生遊戲",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "dollar%1:23:00::": {
+    "meaningZhTW": "元（貨幣單位）",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "dollar%1:21:00::": {
+    "meaningZhTW": "一元紙鈔",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "dollar%1:21:01::": {
+    "meaningZhTW": "美國一元硬幣",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "enjoyment%1:12:00::": {
+    "meaningZhTW": "愉悅感；快樂",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "enjoyment%1:04:00::": {
+    "meaningZhTW": "享受；享樂",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "enjoyment%1:07:00::": {
+    "meaningZhTW": "（法律）享有財產權益",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "fan%1:06:00::": {
+    "meaningZhTW": "風扇；電扇",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "fan%1:18:01::": {
+    "meaningZhTW": "球迷；運動迷",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "fan%1:18:00::": {
+    "meaningZhTW": "粉絲；愛好者",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "file%2:32:02::": {
+    "meaningZhTW": "（向機關）提交；登記",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "file%2:35:00::": {
+    "meaningZhTW": "用銼刀磨平；銼平",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "file%2:38:00::": {
+    "meaningZhTW": "列隊行進；魚貫前進",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "game%1:04:00::": {
+    "meaningZhTW": "競賽；比賽",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "game%1:04:03::": {
+    "meaningZhTW": "一場比賽；一局",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "game%1:04:01::": {
+    "meaningZhTW": "遊戲；消遣活動",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "gate%1:06:00::": {
+    "meaningZhTW": "大門；閘門",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "gate%1:06:01::": {
+    "meaningZhTW": "邏輯閘",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "gate%1:21:00::": {
+    "meaningZhTW": "入場收入；門票收入",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "ghost%1:09:00::": {
+    "meaningZhTW": "揮之不去的回憶；心中陰影",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "ghost%1:18:01::": {
+    "meaningZhTW": "代筆者；捉刀人",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "ghost%1:18:00::": {
+    "meaningZhTW": "鬼魂；幽靈",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
   },
   "grass%1:20:00::": {
-    "meaningZhTW": "草（法律）",
+    "meaningZhTW": "草；草坪",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed first30 (APPROVE): Approved in CSV review"
   },
   "grass%1:18:01::": {
-    "meaningZhTW": "草 (義項 2)",
+    "meaningZhTW": "線人；告密者（俚語）",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
   },
   "grass%1:13:00::": {
-    "meaningZhTW": "草（音樂）",
+    "meaningZhTW": "草料；粗飼料",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "half%1:23:00::": {
+    "meaningZhTW": "一半；二分之一",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "half%1:28:00::": {
+    "meaningZhTW": "（比賽／演出）半場；半段",
+    "status": "verified",
+    "reason": "User-reviewed first30 (REVISE): Approved in CSV review"
+  },
+  "file%1:10:00::": {
+    "meaningZhTW": "檔案；資料檔",
+    "status": "verified",
+    "reason": "Noun: set of related records kept together (documents/data)"
+  },
+  "file%1:14:00::": {
+    "meaningZhTW": "縱隊；隊列",
+    "status": "verified",
+    "reason": "Noun: line of persons or things ranged one behind another"
+  },
+  "file%1:06:01::": {
+    "meaningZhTW": "文件櫃；檔案櫃",
+    "status": "verified",
+    "reason": "Noun: office furniture for keeping papers in order"
+  },
+  "close%2:35:00::": {
+    "meaningZhTW": "關閉；合上",
+    "status": "verified",
+    "reason": "Verb: move so that an opening is obstructed; make shut (removed adjective '靠近的')"
+  },
+  "fan%2:35:01::": {
+    "meaningZhTW": "三振（打者）",
+    "status": "verified",
+    "reason": "Verb (baseball): strike out a batter"
+  },
+  "fan%2:30:00::": {
+    "meaningZhTW": "煽動；激起",
+    "status": "verified",
+    "reason": "Verb: make an emotion fiercer"
+  },
+  "fan%2:38:00::": {
+    "meaningZhTW": "扇風；搖扇",
+    "status": "verified",
+    "reason": "Verb: agitate the air"
+  },
+  "bridge%1:06:00::": {
+    "meaningZhTW": "橋；橋梁",
+    "status": "verified",
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。供人車跨越障礙的實體橋。"
+  },
+  "bridge%1:06:05::": {
+    "meaningZhTW": "電橋（電路）",
+    "status": "verified",
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。指電路中的橋式量測配置，非實體橋。"
+  },
+  "bridge%1:24:00::": {
+    "meaningZhTW": "橋狀物；連接物",
+    "status": "verified",
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。指外形或功能類似橋的事物。"
+  },
+  "dig%1:15:00::": {
+    "meaningZhTW": "考古發掘地；遺址挖掘現場",
+    "status": "verified",
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。原建議「住處」與英文定義不符。"
+  },
+  "dig%1:10:00::": {
+    "meaningZhTW": "挖苦；嘲諷",
+    "status": "verified",
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。指針對他人的尖銳言語。"
+  },
+  "dig%1:07:00::": {
+    "meaningZhTW": "小凹痕；刮痕",
+    "status": "verified",
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。指物體表面的淺凹痕。"
   },
   "hear%2:39:00::": {
-    "meaningZhTW": "聽到 (義項 1)",
+    "meaningZhTW": "聽見；聽到",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。聽覺感知。"
   },
   "hear%2:31:00::": {
-    "meaningZhTW": "聽到（軍事）",
+    "meaningZhTW": "聽說；得知",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。透過消息獲得資訊，與聽覺感知不同。"
   },
   "hear%2:41:00::": {
-    "meaningZhTW": "聽到 (義項 3)",
+    "meaningZhTW": "審理（案件）；聽取（證據）",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。法律程序中的 hear。"
   },
   "heavy%3:00:01::": {
-    "meaningZhTW": "重的 (義項 1)",
+    "meaningZhTW": "重的；沉重的",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。物理重量或密度大。"
   },
   "heavy%3:00:03::": {
-    "meaningZhTW": "重的（數學）",
+    "meaningZhTW": "大量的；程度高的",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。指數量或程度，不是物體重量。"
   },
   "heavy%3:00:04::": {
-    "meaningZhTW": "重的（軍事）",
+    "meaningZhTW": "重型的（軍事或工業設備）",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。指使用大型重裝備。"
   },
   "here%4:02:00::": {
-    "meaningZhTW": "在這裡 (義項 1)",
+    "meaningZhTW": "在這裡；於此地",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。靜態位置，不是移動方向。"
   },
   "here%4:02:02::": {
-    "meaningZhTW": "在這裡 (義項 2)",
+    "meaningZhTW": "在這方面；就這一點而言",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。原建議「此時」與英文定義不符。"
   },
   "here%4:02:01::": {
-    "meaningZhTW": "在這裡（軍事）",
+    "meaningZhTW": "到這裡；往這邊",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。朝說話者所在處移動。"
   },
   "high%3:00:02::": {
-    "meaningZhTW": "高度 (義項 1)",
+    "meaningZhTW": "高的；大量的",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。數量或金額高於正常值，不是高級。"
   },
   "high%3:00:01::": {
-    "meaningZhTW": "高度（軍事）",
+    "meaningZhTW": "高的；高聳的",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。物理高度較高。"
   },
   "high%5:00:00:superior:01": {
-    "meaningZhTW": "高度 (義項 3)",
+    "meaningZhTW": "優秀的；地位高的",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。品質或地位較高。"
   },
   "hill%1:17:00::": {
-    "meaningZhTW": "小山 (義項 1)",
+    "meaningZhTW": "小山；丘陵",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。自然形成的地形。"
   },
   "hill%1:06:01::": {
-    "meaningZhTW": "小山 (義項 2)",
+    "meaningZhTW": "土丘；人工土堆",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。人工堆起的土石結構。"
   },
   "hill%1:06:00::": {
-    "meaningZhTW": "小山（體育）",
+    "meaningZhTW": "投手丘",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。棒球場投手站立的土丘。"
   },
   "horse%1:05:00::": {
-    "meaningZhTW": "馬 (義項 1)",
+    "meaningZhTW": "馬",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。動物。"
   },
   "horse%1:06:03::": {
-    "meaningZhTW": "馬 (義項 2)",
+    "meaningZhTW": "鞍馬（體操器械）",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。不是晾衣架；指有支腳的軟墊體操器材。"
   },
   "horse%1:14:00::": {
-    "meaningZhTW": "馬 (義項 3)",
+    "meaningZhTW": "騎兵",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。指騎馬作戰的部隊。"
   },
   "hurt%1:26:00::": {
-    "meaningZhTW": "傷害 (義項 1)",
+    "meaningZhTW": "身體傷害；損傷",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。身體受傷的狀態。"
   },
   "hurt%1:12:02::": {
-    "meaningZhTW": "傷害 (義項 2)",
+    "meaningZhTW": "心理痛苦；精神傷害",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。偏重心理層面的痛苦。"
   },
   "hurt%1:12:01::": {
-    "meaningZhTW": "傷害（金額/款項）",
+    "meaningZhTW": "痛苦；傷痛",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。可包含心理或生理感受，與具體身體損傷分開。"
   },
   "in%5:00:00:successful:00": {
-    "meaningZhTW": "在...期間 (義項 1)",
+    "meaningZhTW": "在任的；執政的",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。holding office 表示擔任職位。"
   },
   "in%5:00:00:incoming:00": {
-    "meaningZhTW": "在...期間（軍事）",
+    "meaningZhTW": "向內的；進入的",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。朝向內部，不是時間介系詞用法。"
   },
   "in%5:00:00:fashionable:00": {
-    "meaningZhTW": "在...期間 (義項 3)",
+    "meaningZhTW": "流行的；時髦的",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。流行趨勢。"
   },
   "jump%2:38:00::": {
-    "meaningZhTW": "跳躍（軍事）",
+    "meaningZhTW": "跳躍前進；蹦跳",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。向前連續跳躍。"
   },
   "jump%2:38:04::": {
-    "meaningZhTW": "跳躍 (義項 2)",
+    "meaningZhTW": "驚跳；突然跳起",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。因驚嚇或意外而突然跳動。"
   },
   "jump%2:33:00::": {
-    "meaningZhTW": "跳躍 (義項 3)",
+    "meaningZhTW": "突襲；突然攻擊",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。不是一般跳躍動作。"
   },
   "kick%1:04:00::": {
-    "meaningZhTW": "踢 (義項 1)",
+    "meaningZhTW": "踢；踢擊",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。用腳踢的動作。"
   },
   "kick%1:12:00::": {
-    "meaningZhTW": "踢 (義項 2)",
+    "meaningZhTW": "刺激感；興奮感",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。突然釋放的情緒力量。"
   },
   "kick%1:11:00::": {
-    "meaningZhTW": "踢（軍事）",
+    "meaningZhTW": "後座力；反衝",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。槍枝射擊時的後座力。"
   },
   "kill%2:35:00::": {
-    "meaningZhTW": "殺 (義項 1)",
+    "meaningZhTW": "殺死；致死",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。造成生命終止。"
   },
   "kill%2:41:01::": {
-    "meaningZhTW": "殺（軍事）",
+    "meaningZhTW": "阻撓（法案）通過；否決",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。阻止法案等通過。"
   },
   "kill%2:30:08::": {
-    "meaningZhTW": "殺 (義項 3)",
+    "meaningZhTW": "強行終止；壓制",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。以強力手段終止某事，與致死不同。"
   },
   "kill%1:04:00::": {
-    "meaningZhTW": "殺 (義項 1)",
+    "meaningZhTW": "殺害；殺戮",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。使生命終止的行為。"
   },
   "kill%1:04:01::": {
-    "meaningZhTW": "殺（交通/載具）",
+    "meaningZhTW": "擊毀（敵方目標）；戰果",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。軍事語境下摧毀敵方飛機等。"
   },
   "kill%1:05:00::": {
-    "meaningZhTW": "殺（人物）",
+    "meaningZhTW": "獵獲物；被殺死的動物",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。指獵殺後的動物屍體。"
   },
   "knife%1:06:00::": {
-    "meaningZhTW": "小刀（音樂）",
+    "meaningZhTW": "刀；小刀",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。一般切割工具。"
   },
   "knife%1:06:01::": {
-    "meaningZhTW": "小刀（軍事）",
+    "meaningZhTW": "刀具；短刀（武器）",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。作為武器的尖刀；原建議機械刀片不符。"
   },
   "knife%1:25:00::": {
-    "meaningZhTW": "小刀 (義項 3)",
+    "meaningZhTW": "刀狀突出物；薄刃狀突起",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。英語定義為短暫的細長突出物；具體用例待原始語境確認。"
   },
   "know%2:31:01::": {
-    "meaningZhTW": "知道（軍事）",
+    "meaningZhTW": "知道；知悉",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。知道特定事實或資訊。"
   },
   "know%2:31:03::": {
-    "meaningZhTW": "知道 (義項 2)",
+    "meaningZhTW": "懂得；會（做某事）",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。具備做某事的方法或技能。"
   },
   "know%2:31:00::": {
-    "meaningZhTW": "知道（人物）",
+    "meaningZhTW": "認識；熟悉",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。熟識人或事物。"
   },
   "learn%2:31:00::": {
-    "meaningZhTW": "學習 (義項 1)",
+    "meaningZhTW": "學習；學會",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。獲得知識或技能。"
   },
   "learn%2:31:01::": {
-    "meaningZhTW": "學習（軍事）",
+    "meaningZhTW": "得知；獲悉",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。得知消息，非學習技能。"
   },
   "learn%2:31:03::": {
-    "meaningZhTW": "學習 (義項 3)",
+    "meaningZhTW": "背熟；記住",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。透過記憶學會。"
   },
   "left%3:00:00::": {
-    "meaningZhTW": "左邊的（軍事）",
+    "meaningZhTW": "左邊的；左側的",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。位置或方向在左側。"
   },
   "left%5:00:00:unexhausted:00": {
-    "meaningZhTW": "左邊的 (義項 2)",
+    "meaningZhTW": "剩下的；剩餘的",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。指尚未用完。"
   },
   "left%5:00:00:left-handed:00": {
-    "meaningZhTW": "左邊的 (義項 3)",
+    "meaningZhTW": "左手用的",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。專為左手設計。"
   },
   "left%1:15:00::": {
-    "meaningZhTW": "左邊的（軍事）",
+    "meaningZhTW": "左邊；左側",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。位置或方向。"
   },
   "left%1:14:00::": {
-    "meaningZhTW": "左邊的 (義項 2)",
+    "meaningZhTW": "左派；左翼",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。一般政治詞彙的詞典意義，不做評價。"
   },
   "left%1:08:00::": {
-    "meaningZhTW": "左邊的 (義項 3)",
+    "meaningZhTW": "左手",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。身體部位。"
   },
   "lesson%1:04:01::": {
-    "meaningZhTW": "課 (義項 1)",
+    "meaningZhTW": "一堂課；課程單元",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。教學單元。"
   },
   "lesson%1:10:00::": {
-    "meaningZhTW": "課（軍事）",
+    "meaningZhTW": "教訓；懲戒",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。作為警告的懲罰。"
   },
   "lesson%1:10:01::": {
-    "meaningZhTW": "課 (義項 3)",
+    "meaningZhTW": "教訓；啟示",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。故事或事件所傳達的意義。"
   },
   "light%3:00:01::": {
-    "meaningZhTW": "光 (義項 1)",
+    "meaningZhTW": "輕的；重量輕的",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。物理重量或密度小。"
   },
   "light%3:00:05::": {
-    "meaningZhTW": "光 (義項 2)",
+    "meaningZhTW": "淺色的；顏色淡的",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。原建議光不符；指顏色淡。"
   },
   "light%3:00:04::": {
-    "meaningZhTW": "光（軍事）",
+    "meaningZhTW": "輕型的（軍事或工業設備）",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。原建議淺色不符；指輕型裝備。"
   },
   "look%2:39:00::": {
-    "meaningZhTW": "一看（軍事）",
+    "meaningZhTW": "看；注視",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。視線指向某物。"
   },
   "look%2:39:01::": {
-    "meaningZhTW": "一看 (義項 2)",
+    "meaningZhTW": "看起來；顯得",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (KEEP_MERGED): AI 校訂草稿，待使用者確認。與下一個 appearance sense 在一般學習中文可用相同詞義。"
   },
   "look%2:29:00::": {
-    "meaningZhTW": "一看 (義項 3)",
+    "meaningZhTW": "看起來；顯得",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (KEEP_MERGED): AI 校訂草稿，待使用者確認。與上一個 impression sense 同義顯示，保留個別 sense ID。"
   },
   "look%1:07:01::": {
-    "meaningZhTW": "一看（金額/款項）",
+    "meaningZhTW": "神情；表情",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。指臉上的情緒表現。"
   },
   "look%1:04:00::": {
-    "meaningZhTW": "一看（軍事）",
+    "meaningZhTW": "看；一瞥",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。看向某物的行為。"
   },
   "look%1:07:00::": {
-    "meaningZhTW": "一看 (義項 3)",
+    "meaningZhTW": "外貌；外觀",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。人的或事物的外表。"
   },
   "love%1:12:00::": {
-    "meaningZhTW": "愛 (義項 1)",
+    "meaningZhTW": "愛；深厚的感情",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。強烈的喜愛與關愛情感。"
   },
   "love%1:09:00::": {
-    "meaningZhTW": "愛（軍事）",
+    "meaningZhTW": "鍾愛之物；心愛的事物",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。指所喜愛的對象或物件。"
   },
   "love%1:18:00::": {
-    "meaningZhTW": "愛（人物）",
+    "meaningZhTW": "愛人；心上人",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。指被愛的人。"
   },
   "low%3:00:02::": {
-    "meaningZhTW": "低點 (義項 1)",
+    "meaningZhTW": "低的；程度低的",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。程度、強度或數量低於正常。"
   },
   "low%3:00:01::": {
-    "meaningZhTW": "低點（軍事）",
+    "meaningZhTW": "低的；矮的",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。物理高度較低。"
   },
   "low%5:00:00:soft:04": {
-    "meaningZhTW": "低點 (義項 3)",
+    "meaningZhTW": "音量小的；低聲的",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。指音量，不是「低點」。"
   },
   "milk%1:13:01::": {
-    "meaningZhTW": "奶（人物）",
+    "meaningZhTW": "奶；乳（供食用）",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。哺乳動物分泌且供人飲用的乳液，非植物乳。"
   },
   "milk%1:08:00::": {
-    "meaningZhTW": "奶（金額/款項）",
+    "meaningZhTW": "乳汁；母乳",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。哺乳動物乳腺分泌、用以哺育幼體。"
   },
   "milk%1:13:02::": {
-    "meaningZhTW": "奶 (義項 3)",
+    "meaningZhTW": "植物奶；乳狀營養液",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。泛指其他有營養的乳狀液體。"
   },
   "mind%1:09:00::": {
-    "meaningZhTW": "思想（金額/款項）",
+    "meaningZhTW": "心智；頭腦",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。思考、感受及意識的能力或所在。"
   },
   "mind%1:09:01::": {
-    "meaningZhTW": "思想 (義項 2)",
+    "meaningZhTW": "記憶；回憶",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。指記憶或想起的內容。"
   },
   "mind%1:09:04::": {
-    "meaningZhTW": "思想 (義項 3)",
+    "meaningZhTW": "看法；意見",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。經判斷形成的觀點。"
   },
   "need%1:26:00::": {
-    "meaningZhTW": "需要 (義項 1)",
+    "meaningZhTW": "需要；需求",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。需要得到滿足的狀況。"
   },
   "need%1:17:00::": {
-    "meaningZhTW": "需要 (義項 2)",
+    "meaningZhTW": "必需品；欠缺之物",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。指必要卻缺乏的事物。"
   },
   "need%1:03:00::": {
-    "meaningZhTW": "需要（軍事）",
+    "meaningZhTW": "需求；動機",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。驅動行為的心理需求。"
   },
   "night%1:28:00::": {
-    "meaningZhTW": "夜 (義項 1)",
+    "meaningZhTW": "夜晚；夜間",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (APPROVE): AI 校訂草稿，待使用者確認。日落後至日出前的黑暗時段。"
   },
   "night%1:28:01::": {
-    "meaningZhTW": "夜（軍事）",
+    "meaningZhTW": "黑暗時期；蒙昧時代",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。比喻無知、落後或陰鬱的時期；原建議晚上活動時間不符。"
   },
   "night%1:28:04::": {
-    "meaningZhTW": "夜 (義項 3)",
+    "meaningZhTW": "睡眠時間；夜間休息時段",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。指睡眠所花的時段。"
   },
   "north%1:24:00::": {
-    "meaningZhTW": "北方（交通/載具）",
+    "meaningZhTW": "正北；北方",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (KEEP_MERGED): AI 校訂草稿，待使用者確認。與第三個方向 sense 可共用北方表述，需保留來源 ID。"
   },
   "north%1:15:00::": {
-    "meaningZhTW": "北方 (義項 2)",
+    "meaningZhTW": "北部；北方地區",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (REVISE): AI 校訂草稿，待使用者確認。指地理區域，不是純粹方向。"
   },
   "north%1:24:02::": {
-    "meaningZhTW": "北方（軍事）",
+    "meaningZhTW": "正北；北方",
     "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "nose%1:08:00::": {
-    "meaningZhTW": "鼻子 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "nose%1:06:00::": {
-    "meaningZhTW": "鼻子（交通/載具）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "nose%1:06:02::": {
-    "meaningZhTW": "鼻子（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "nurse%2:29:00::": {
-    "meaningZhTW": "護士（醫學）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "nurse%2:37:00::": {
-    "meaningZhTW": "護士（金額/款項）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "nurse%2:41:00::": {
-    "meaningZhTW": "護士（交通/載具）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "on%4:02:00::": {
-    "meaningZhTW": "在...之上（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "on%4:02:01::": {
-    "meaningZhTW": "在...之上 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "on%4:02:02::": {
-    "meaningZhTW": "在...之上 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "open%3:00:01::": {
-    "meaningZhTW": "公開 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "open%3:00:02::": {
-    "meaningZhTW": "公開 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "open%5:00:00:unprotected:00": {
-    "meaningZhTW": "公開 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "order%1:10:03::": {
-    "meaningZhTW": "次序（法律）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "order%1:07:01::": {
-    "meaningZhTW": "次序 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "order%1:26:00::": {
-    "meaningZhTW": "次序 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "pass%2:38:00::": {
-    "meaningZhTW": "經過 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
-  },
-  "pass%2:38:05::": {
-    "meaningZhTW": "經過 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
-  },
-  "pass%2:41:02::": {
-    "meaningZhTW": "經過（法律）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
-  },
-  "pass%1:04:04::": {
-    "meaningZhTW": "經過（體育）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "pass%1:28:00::": {
-    "meaningZhTW": "經過（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "pass%1:04:02::": {
-    "meaningZhTW": "經過（體育） (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "pay%2:40:00::": {
-    "meaningZhTW": "付錢（金額/款項）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "pay%2:32:00::": {
-    "meaningZhTW": "付錢 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "pay%2:40:04::": {
-    "meaningZhTW": "付錢 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "plant%1:06:01::": {
-    "meaningZhTW": "植物（交通/載具）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "plant%1:03:00::": {
-    "meaningZhTW": "植物 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "plant%1:18:00::": {
-    "meaningZhTW": "植物 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "pool%2:40:00::": {
-    "meaningZhTW": "池 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "pool%2:33:00::": {
-    "meaningZhTW": "池 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "pot%1:06:00::": {
-    "meaningZhTW": "盆（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "pot%1:06:01::": {
-    "meaningZhTW": "盆 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "pot%1:23:00::": {
-    "meaningZhTW": "盆 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "practice%1:04:00::": {
-    "meaningZhTW": "實踐 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "practice%1:04:02::": {
-    "meaningZhTW": "實踐 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "practice%1:04:04::": {
-    "meaningZhTW": "實踐 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "pull%2:35:00::": {
-    "meaningZhTW": "拉 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "pull%2:35:02::": {
-    "meaningZhTW": "拉（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "pull%2:38:01::": {
-    "meaningZhTW": "拉 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "pull%1:04:00::": {
-    "meaningZhTW": "拉（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "pull%1:19:00::": {
-    "meaningZhTW": "拉 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "pull%1:07:00::": {
-    "meaningZhTW": "拉 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "push%2:38:00::": {
-    "meaningZhTW": "推 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
-  },
-  "push%2:32:01::": {
-    "meaningZhTW": "推（人物）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
-  },
-  "push%2:32:00::": {
-    "meaningZhTW": "推 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [POSSIBLE_OVER_MERGE]"
-  },
-  "race%2:38:00::": {
-    "meaningZhTW": "種族 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "race%2:33:00::": {
-    "meaningZhTW": "種族 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "race%2:41:03::": {
-    "meaningZhTW": "種族（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "raise%1:07:00::": {
-    "meaningZhTW": "上升 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "raise%1:17:00::": {
-    "meaningZhTW": "上升（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "raise%1:04:01::": {
-    "meaningZhTW": "上升（音樂）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "reach%2:38:01::": {
-    "meaningZhTW": "伸出 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "reach%2:38:00::": {
-    "meaningZhTW": "伸出 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "reach%2:35:00::": {
-    "meaningZhTW": "伸出（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "report%1:10:03::": {
-    "meaningZhTW": "報告 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "report%1:10:01::": {
-    "meaningZhTW": "報告 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "report%1:10:00::": {
-    "meaningZhTW": "報告 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "right%3:00:00::": {
-    "meaningZhTW": "右邊；正確的；權利（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "right%3:00:02::": {
-    "meaningZhTW": "右邊；正確的；權利 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "right%5:00:01:proper:00": {
-    "meaningZhTW": "右邊；正確的；權利 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "rise%1:11:00::": {
-    "meaningZhTW": "上升（數學）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "rise%1:04:00::": {
-    "meaningZhTW": "上升（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "rise%1:17:00::": {
-    "meaningZhTW": "上升（軍事） (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "rise%2:38:00::": {
-    "meaningZhTW": "上升（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "rise%2:30:00::": {
-    "meaningZhTW": "上升 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "rise%2:38:05::": {
-    "meaningZhTW": "上升（金額/款項）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "roll%1:11:02::": {
-    "meaningZhTW": "卷 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "roll%1:10:00::": {
-    "meaningZhTW": "卷 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "roll%1:11:01::": {
-    "meaningZhTW": "卷（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "round%1:06:01::": {
-    "meaningZhTW": "圓（音樂）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "round%1:28:01::": {
-    "meaningZhTW": "圓 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "round%1:15:00::": {
-    "meaningZhTW": "圓 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "service%1:04:08::": {
-    "meaningZhTW": "服務（人物）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "service%1:04:00::": {
-    "meaningZhTW": "服務（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "service%1:04:01::": {
-    "meaningZhTW": "服務（交通/載具）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "share%1:21:00::": {
-    "meaningZhTW": "部分（人物）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "share%1:21:01::": {
-    "meaningZhTW": "部分（交通/載具）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "share%1:04:00::": {
-    "meaningZhTW": "部分 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "sick%3:00:01::": {
-    "meaningZhTW": "病人 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "sick%5:00:02:ill:01": {
-    "meaningZhTW": "病人（金額/款項）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "sick%5:00:00:insane:00": {
-    "meaningZhTW": "病人 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "sight%2:39:00::": {
-    "meaningZhTW": "景觀 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "sight%2:39:03::": {
-    "meaningZhTW": "景觀（設備/器具）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "soldier%1:18:00::": {
-    "meaningZhTW": "軍人 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "soldier%1:05:00::": {
-    "meaningZhTW": "軍人 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "south%1:24:00::": {
-    "meaningZhTW": "南方（交通/載具）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "south%1:15:02::": {
-    "meaningZhTW": "南方 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "south%1:24:02::": {
-    "meaningZhTW": "南方（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "spring%2:38:01::": {
-    "meaningZhTW": "春天（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "spring%2:42:00::": {
-    "meaningZhTW": "春天 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "spring%2:38:00::": {
-    "meaningZhTW": "春天 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "square%1:25:00::": {
-    "meaningZhTW": "正方形（交通/載具）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "square%1:23:00::": {
-    "meaningZhTW": "正方形 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "square%1:15:00::": {
-    "meaningZhTW": "正方形 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "study%2:31:02::": {
-    "meaningZhTW": "學習 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "study%2:31:03::": {
-    "meaningZhTW": "學習 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "study%2:39:00::": {
-    "meaningZhTW": "學習（交通/載具）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "sugar%1:13:00::": {
-    "meaningZhTW": "糖（交通/載具）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "sugar%1:27:00::": {
-    "meaningZhTW": "糖（數學）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "sugar%1:21:00::": {
-    "meaningZhTW": "糖（金額/款項）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "sun%1:19:00::": {
-    "meaningZhTW": "太陽 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "sun%1:18:00::": {
-    "meaningZhTW": "太陽（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "sun%1:17:01::": {
-    "meaningZhTW": "太陽（交通/載具）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "surprise%2:31:00::": {
-    "meaningZhTW": "驚奇 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "surprise%2:41:00::": {
-    "meaningZhTW": "驚奇（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "surprise%2:33:00::": {
-    "meaningZhTW": "驚奇 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "table%1:14:00::": {
-    "meaningZhTW": "桌子 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "table%1:06:01::": {
-    "meaningZhTW": "桌子 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "table%1:06:02::": {
-    "meaningZhTW": "桌子（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "theater%1:06:00::": {
-    "meaningZhTW": "戲院 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "theater%1:10:00::": {
-    "meaningZhTW": "戲院（體育）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "theater%1:15:00::": {
-    "meaningZhTW": "戲院（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "then%4:02:00::": {
-    "meaningZhTW": "然後（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "then%4:02:02::": {
-    "meaningZhTW": "然後 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "then%4:02:01::": {
-    "meaningZhTW": "然後 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "there%4:02:00::": {
-    "meaningZhTW": "在那裡 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "there%4:02:02::": {
-    "meaningZhTW": "在那裡 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "there%4:02:01::": {
-    "meaningZhTW": "在那裡（軍事）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "tip%1:15:00::": {
-    "meaningZhTW": "尖端；小費；提示 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "tip%1:21:00::": {
-    "meaningZhTW": "尖端；小費；提示（金額/款項）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "tip%1:10:00::": {
-    "meaningZhTW": "尖端；小費；提示 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "toilet%1:06:00::": {
-    "meaningZhTW": "廁所 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "toilet%1:06:01::": {
-    "meaningZhTW": "廁所 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "toilet%1:26:00::": {
-    "meaningZhTW": "廁所（金額/款項）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "tooth%1:08:00::": {
-    "meaningZhTW": "牙齒 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "tooth%1:06:01::": {
-    "meaningZhTW": "牙齒（動物）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "tooth%1:05:02::": {
-    "meaningZhTW": "牙齒 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "train%2:31:01::": {
-    "meaningZhTW": "火車 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "train%2:31:00::": {
-    "meaningZhTW": "火車 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "train%2:41:02::": {
-    "meaningZhTW": "火車（動物）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "treat%1:13:00::": {
-    "meaningZhTW": "對待 (義項 1)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "treat%1:11:00::": {
-    "meaningZhTW": "對待 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "treatment%1:04:00::": {
-    "meaningZhTW": "對待（醫學）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "visit%1:04:02::": {
-    "meaningZhTW": "拜訪（人物）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "visit%1:14:00::": {
-    "meaningZhTW": "拜訪（法律）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "visit%1:04:01::": {
-    "meaningZhTW": "拜訪 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "well%3:00:01::": {
-    "meaningZhTW": "很好地；井（醫學）",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "well%5:00:00:fortunate:00": {
-    "meaningZhTW": "很好地；井 (義項 2)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
-  },
-  "well%5:00:00:advisable:00": {
-    "meaningZhTW": "很好地；井 (義項 3)",
-    "status": "verified",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "reason": "User-reviewed batch2 (KEEP_MERGED): AI 校訂草稿，待使用者確認。與第一個羅盤方向 sense 語義相近，可合併顯示。"
   }
 };

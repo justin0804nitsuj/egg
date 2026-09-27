@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-26T15:28:00.094Z",
+  "generatedAt": "2026-09-27T13:50:10.060Z",
   "scope": "level-2-only",
   "level2WordCount": 1002,
   "level2MatchedWordCount": 984,
   "translatedRawSenseCount": 3299,
   "learnerMeaningsBeforeDeduplication": 3299,
-  "learnerMeaningsAfterDeduplication": 1371,
-  "duplicatesRemovedFromDisplay": 1928,
-  "wordsAffectedByDeduplication": 859,
+  "learnerMeaningsAfterDeduplication": 1392,
+  "duplicatesRemovedFromDisplay": 1907,
+  "wordsAffectedByDeduplication": 853,
   "wordsWithMultipleTranslatedSensesCount": 873,
   "suspiciousAmbiguousCount": 61,
   "mergedDuplicateExamples": [
@@ -63,21 +63,6 @@
       ]
     },
     {
-      "wordId": "accident-1006",
-      "word": "accident",
-      "pos": "noun",
-      "meaningZhTW": "意外事件",
-      "primarySenseId": "accident%1:11:01::",
-      "sourceSenseIds": [
-        "accident%1:11:01::",
-        "accident%1:11:00::"
-      ],
-      "englishDefinitions": [
-        "an unfortunate mishap; especially one causing damage or injury",
-        "anything that happens suddenly or by chance without an apparent cause"
-      ]
-    },
-    {
       "wordId": "account-1007",
       "word": "account",
       "pos": "noun",
@@ -109,23 +94,6 @@
         "be the sole or primary factor in the existence, acquisition, supply, or disposal of something",
         "keep an account of",
         "to give an account or representation of in words"
-      ]
-    },
-    {
-      "wordId": "active-1008",
-      "word": "active",
-      "pos": "adjective",
-      "meaningZhTW": "活躍的",
-      "primarySenseId": "active%3:00:02::",
-      "sourceSenseIds": [
-        "active%3:00:02::",
-        "active%5:00:00:operational:00",
-        "active%3:00:03::"
-      ],
-      "englishDefinitions": [
-        "tending to become more severe or wider in scope",
-        "engaged in or ready for military or naval operations",
-        "disposed to take action or effectuate change"
       ]
     },
     {
@@ -233,21 +201,6 @@
     {
       "wordId": "adult-1014",
       "word": "adult",
-      "pos": "noun",
-      "meaningZhTW": "成人",
-      "primarySenseId": "adult%1:18:00::",
-      "sourceSenseIds": [
-        "adult%1:18:00::",
-        "adult%1:05:00::"
-      ],
-      "englishDefinitions": [
-        "a fully developed person from maturity onward",
-        "any mature animal"
-      ]
-    },
-    {
-      "wordId": "adult-1014",
-      "word": "adult",
       "pos": "adjective",
       "meaningZhTW": "成人",
       "primarySenseId": "adult%5:00:00:mature:01",
@@ -258,40 +211,6 @@
       "englishDefinitions": [
         "(of animals) fully developed",
         "designed to arouse lust"
-      ]
-    },
-    {
-      "wordId": "advance-1015",
-      "word": "advance",
-      "pos": "noun",
-      "meaningZhTW": "前進",
-      "primarySenseId": "advance%1:11:00::",
-      "sourceSenseIds": [
-        "advance%1:11:00::",
-        "advance%1:11:01::",
-        "advance%1:10:00::"
-      ],
-      "englishDefinitions": [
-        "a movement forward",
-        "a change for the better; progress in development",
-        "a tentative suggestion designed to elicit the reactions of others"
-      ]
-    },
-    {
-      "wordId": "advance-1015",
-      "word": "advance",
-      "pos": "verb",
-      "meaningZhTW": "前進",
-      "primarySenseId": "advance%2:38:00::",
-      "sourceSenseIds": [
-        "advance%2:38:00::",
-        "advance%2:32:00::",
-        "advance%2:41:01::"
-      ],
-      "englishDefinitions": [
-        "move forward, also in the metaphorical sense",
-        "bring forward for consideration or acceptance",
-        "contribute to the progress or growth of"
       ]
     },
     {
@@ -326,23 +245,6 @@
         "have an effect upon",
         "act physically on; have an effect upon",
         "connect closely and often incriminatingly"
-      ]
-    },
-    {
-      "wordId": "ahead-1020",
-      "word": "ahead",
-      "pos": "adverb",
-      "meaningZhTW": "領先的",
-      "primarySenseId": "ahead%4:02:00::",
-      "sourceSenseIds": [
-        "ahead%4:02:00::",
-        "ahead%4:02:06::",
-        "ahead%4:02:02::"
-      ],
-      "englishDefinitions": [
-        "at or in the front",
-        "toward the future; forward in time",
-        "in a forward direction"
       ]
     },
     {
@@ -392,55 +294,6 @@
         "an anticipated outcome that is intended or that guides your planned actions",
         "the goal intended to be attained (and which is believed to be attainable)",
         "the action of directing something at an object"
-      ]
-    },
-    {
-      "wordId": "aim-1022",
-      "word": "aim",
-      "pos": "verb",
-      "meaningZhTW": "目標",
-      "primarySenseId": "aim%2:33:00::",
-      "sourceSenseIds": [
-        "aim%2:33:00::",
-        "aim%2:31:01::",
-        "aim%2:32:09::"
-      ],
-      "englishDefinitions": [
-        "point or cause to go (blows, weapons, or objects such as photographic equipment) towards",
-        "propose or intend",
-        "move into a desired direction of discourse"
-      ]
-    },
-    {
-      "wordId": "alarm-1024",
-      "word": "alarm",
-      "pos": "noun",
-      "meaningZhTW": "驚恐",
-      "primarySenseId": "alarm%1:12:00::",
-      "sourceSenseIds": [
-        "alarm%1:12:00::",
-        "alarm%1:06:00::",
-        "alarm%1:10:00::"
-      ],
-      "englishDefinitions": [
-        "fear resulting from the awareness of danger",
-        "a device that signals the occurrence of some undesirable event",
-        "an automatic signal (usually a sound) warning of danger"
-      ]
-    },
-    {
-      "wordId": "alarm-1024",
-      "word": "alarm",
-      "pos": "verb",
-      "meaningZhTW": "驚恐",
-      "primarySenseId": "alarm%2:37:00::",
-      "sourceSenseIds": [
-        "alarm%2:37:00::",
-        "alarm%2:32:00::"
-      ],
-      "englishDefinitions": [
-        "fill with apprehension or alarm; cause to be unpleasantly surprised",
-        "warn or arouse to a sense of danger or call to a state of preparedness"
       ]
     },
     {
@@ -503,6 +356,149 @@
       "englishDefinitions": [
         "without any others being included or involved",
         "without anybody else or anything else"
+      ]
+    },
+    {
+      "wordId": "alone-1028",
+      "word": "alone",
+      "pos": "adjective",
+      "meaningZhTW": "孤獨的",
+      "primarySenseId": "alone%5:00:00:unsocial:00",
+      "sourceSenseIds": [
+        "alone%5:00:00:unsocial:00",
+        "alone%5:00:00:unaccompanied:00",
+        "alone%5:00:00:exclusive:00"
+      ],
+      "englishDefinitions": [
+        "isolated from others",
+        "lacking companions or companionship",
+        "exclusive of anyone or anything else"
+      ]
+    },
+    {
+      "wordId": "aloud-1029",
+      "word": "aloud",
+      "pos": "adverb",
+      "meaningZhTW": "出聲地",
+      "primarySenseId": "aloud%4:02:00::",
+      "sourceSenseIds": [
+        "aloud%4:02:00::",
+        "aloud%4:02:01::"
+      ],
+      "englishDefinitions": [
+        "using the voice; not silently",
+        "with relatively high volume"
+      ]
+    },
+    {
+      "wordId": "altogether-1030",
+      "word": "altogether",
+      "pos": "adverb",
+      "meaningZhTW": "完全地",
+      "primarySenseId": "altogether%4:02:04::",
+      "sourceSenseIds": [
+        "altogether%4:02:04::",
+        "altogether%4:02:00::",
+        "altogether%4:02:03::"
+      ],
+      "englishDefinitions": [
+        "to a complete degree or to the full or entire extent; Completely or entirely",
+        "with everything included or counted",
+        "with everything considered (and neglecting details)"
+      ]
+    },
+    {
+      "wordId": "amount-1032",
+      "word": "amount",
+      "pos": "verb",
+      "meaningZhTW": "總數",
+      "primarySenseId": "amount%2:42:03::",
+      "sourceSenseIds": [
+        "amount%2:42:03::",
+        "amount%2:42:01::",
+        "amount%2:42:00::"
+      ],
+      "englishDefinitions": [
+        "be tantamount or equivalent to",
+        "add up in number or quantity",
+        "to measure up to in kind or quality"
+      ]
+    },
+    {
+      "wordId": "ancient-1033",
+      "word": "ancient",
+      "pos": "adjective",
+      "meaningZhTW": "古代的",
+      "primarySenseId": "ancient%5:00:00:past:00",
+      "sourceSenseIds": [
+        "ancient%5:00:00:past:00",
+        "ancient%5:00:00:old:02"
+      ],
+      "englishDefinitions": [
+        "belonging to times long past especially of the historical period before the fall of the Western Roman Empire",
+        "very old"
+      ]
+    },
+    {
+      "wordId": "anger-1034",
+      "word": "anger",
+      "pos": "noun",
+      "meaningZhTW": "忿怒",
+      "primarySenseId": "anger%1:12:00::",
+      "sourceSenseIds": [
+        "anger%1:12:00::",
+        "anger%1:26:00::",
+        "anger%1:04:00::"
+      ],
+      "englishDefinitions": [
+        "a strong emotion; a feeling that is oriented toward some real or supposed grievance",
+        "the state of being angry",
+        "belligerence aroused by a real or supposed wrong (personified as one of the deadly sins)"
+      ]
+    },
+    {
+      "wordId": "angle-1035",
+      "word": "angle",
+      "pos": "noun",
+      "meaningZhTW": "角",
+      "primarySenseId": "angle%1:25:00::",
+      "sourceSenseIds": [
+        "angle%1:25:00::",
+        "angle%1:09:00::"
+      ],
+      "englishDefinitions": [
+        "the space between two lines or planes that intersect; the inclination of one line to another; measured in degrees or radians",
+        "a biased way of looking at or presenting something"
+      ]
+    },
+    {
+      "wordId": "anyway-1038",
+      "word": "anyway",
+      "pos": "adverb",
+      "meaningZhTW": "無論如何",
+      "primarySenseId": "anyway%4:02:00::",
+      "sourceSenseIds": [
+        "anyway%4:02:00::",
+        "anyway%4:02:01::"
+      ],
+      "englishDefinitions": [
+        "used to indicate that a statement explains or supports a previous statement",
+        "in any way whatsoever"
+      ]
+    },
+    {
+      "wordId": "anywhere/anyplace-1039",
+      "word": "anywhere/anyplace",
+      "pos": "adverb",
+      "meaningZhTW": "任何地方",
+      "primarySenseId": "anywhere%4:02:00::",
+      "sourceSenseIds": [
+        "anywhere%4:02:00::",
+        "anyplace%4:02:00::"
+      ],
+      "englishDefinitions": [
+        "at or in or to any place",
+        "at or in or to any place"
       ]
     }
   ],
