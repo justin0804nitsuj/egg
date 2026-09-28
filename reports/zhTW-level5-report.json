@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-28T13:35:22.433Z",
+  "generatedAt": "2026-09-28T14:05:17.047Z",
   "scope": "level-5-only",
   "level5WordCount": 1002,
   "level5MatchedWordCount": 998,
   "translatedRawSenseCount": 2867,
   "learnerMeaningsBeforeDeduplication": 2867,
-  "learnerMeaningsAfterDeduplication": 1317,
-  "duplicatesRemovedFromDisplay": 1550,
-  "wordsAffectedByDeduplication": 797,
+  "learnerMeaningsAfterDeduplication": 1334,
+  "duplicatesRemovedFromDisplay": 1533,
+  "wordsAffectedByDeduplication": 789,
   "wordsWithMultipleTranslatedSensesCount": 834,
-  "suspiciousAmbiguousCount": 62,
+  "suspiciousAmbiguousCount": 51,
   "mergedDuplicateExamples": [
     {
       "wordId": "abnormal-4009",
@@ -530,16 +530,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "auction-4078",
-      "word": "auction",
-      "senseId": "auction%1:04:01::",
-      "synsetId": "00492172-n",
-      "pos": "noun",
-      "englishDefinition": "a variety of bridge in which tricks made in excess of the contract are scored toward game; now generally superseded by contract bridge",
-      "meaningZhTW": "拍賣",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "calcium-4122",
       "word": "calcium",
       "senseId": "calcium%1:27:00::",
@@ -627,16 +617,6 @@
       "pos": "noun",
       "englishDefinition": "an artifact that is one of the individual parts of which a composite entity is made up; especially a part that can be separated from or attached to a system",
       "meaningZhTW": "元件",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "confession-4205",
-      "word": "confession",
-      "senseId": "confession%1:04:00::",
-      "synsetId": "01041339-n",
-      "pos": "noun",
-      "englishDefinition": "(Roman Catholic Church) the act of a penitent disclosing their sinfulness before a priest in the sacrament of penance in the hope of absolution",
-      "meaningZhTW": "承認",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -780,26 +760,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "hockey-4440",
-      "word": "hockey",
-      "senseId": "hockey%1:04:00::",
-      "synsetId": "00469063-n",
-      "pos": "noun",
-      "englishDefinition": "a game resembling ice hockey that is played on an open field; two opposing teams use curved hockey sticks try to drive a ball into the opponents' net",
-      "meaningZhTW": "冰球",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "hockey-4440",
-      "word": "hockey",
-      "senseId": "hockey%1:04:01::",
-      "synsetId": "00464604-n",
-      "pos": "noun",
-      "englishDefinition": "a game played on an ice rink by two opposing teams of six skaters each who try to knock a flat round puck into the opponents' goal with angled hockey sticks",
-      "meaningZhTW": "冰球",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "hypothesis-4449",
       "word": "hypothesis",
       "senseId": "hypothesis%1:09:00::",
@@ -860,26 +820,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "mandate-4527",
-      "word": "mandate",
-      "senseId": "mandate%1:15:00::",
-      "synsetId": "08615283-n",
-      "pos": "noun",
-      "englishDefinition": "a territory surrendered by Turkey or Germany after World War I and put under the tutelage of some other European power until they are able to stand by themselves",
-      "meaningZhTW": "命令",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "marine-4531",
-      "word": "marine",
-      "senseId": "marine%3:01:01::",
-      "synsetId": "02899304-a",
-      "pos": "adjective",
-      "englishDefinition": "of or relating to military personnel who serve both on land and at sea (specifically the U.S. Marine Corps)",
-      "meaningZhTW": "艦隊",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "metaphor-4542",
       "word": "metaphor",
       "senseId": "metaphor%1:10:00::",
@@ -897,16 +837,6 @@
       "pos": "noun",
       "englishDefinition": "in the Eastern Orthodox Church this title is given to a position between bishop and patriarch; equivalent to archbishop in western Christianity",
       "meaningZhTW": "大都市居民",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "motive-4561",
-      "word": "motive",
-      "senseId": "motive%1:03:00::",
-      "synsetId": "00023953-n",
-      "pos": "noun",
-      "englishDefinition": "the psychological feature that arouses an organism to action toward a desired goal; the reason for the action; that which gives purpose and direction to behavior",
-      "meaningZhTW": "動機",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -990,16 +920,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "radiation-4698",
-      "word": "radiation",
-      "senseId": "radiation%1:26:00::",
-      "synsetId": "14331899-n",
-      "pos": "noun",
-      "englishDefinition": "syndrome resulting from exposure to ionizing radiation (e.g., exposure to radioactive chemicals or to nuclear explosions); low doses cause diarrhea and nausea and vomiting and sometimes loss of hair; greater exposure can cause sterility and cataracts and some forms of cancer and other diseases; severe exposure can cause death within hours",
-      "meaningZhTW": "輻射",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "radical-4699",
       "word": "radical",
       "senseId": "radical%1:27:02::",
@@ -1030,16 +950,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "rib-4743",
-      "word": "rib",
-      "senseId": "rib%1:08:01::",
-      "synsetId": "05286525-n",
-      "pos": "noun",
-      "englishDefinition": "any of the 12 pairs of curved arches of bone extending from the spine to or toward the sternum in humans (and similar bones in most vertebrates)",
-      "meaningZhTW": "肋骨",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "sensor-4777",
       "word": "sensor",
       "senseId": "sensor%1:06:00::",
@@ -1047,16 +957,6 @@
       "pos": "noun",
       "englishDefinition": "any device that receives a signal or stimulus (as heat or pressure or light or motion etc.) and responds to it in a distinctive manner",
       "meaningZhTW": "傳感器",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "server-4782",
-      "word": "server",
-      "senseId": "server%1:06:01::",
-      "synsetId": "04182208-n",
-      "pos": "noun",
-      "englishDefinition": "(computer science) a computer that provides client stations with access to files and printers as shared resources to a computer network",
-      "meaningZhTW": "服伺者",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -1107,16 +1007,6 @@
       "pos": "noun",
       "englishDefinition": "tall-stalked very woolly mullein with densely packed yellow flowers; ancient Greeks and Romans dipped the stalks in tallow for funeral torches",
       "meaningZhTW": "火把",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "vein-4965",
-      "word": "vein",
-      "senseId": "vein%1:20:00::",
-      "synsetId": "13118945-n",
-      "pos": "noun",
-      "englishDefinition": "any of the vascular bundles or ribs that form the branching framework of conducting and supporting tissues in a leaf or other plant organ",
-      "meaningZhTW": "血管",
       "reason": "complex_or_technical_definition"
     }
   ]

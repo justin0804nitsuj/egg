@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-28T13:35:20.864Z",
+  "generatedAt": "2026-09-28T14:05:15.535Z",
   "scope": "level-3-only",
   "level3WordCount": 1002,
   "level3MatchedWordCount": 996,
   "translatedRawSenseCount": 3005,
   "learnerMeaningsBeforeDeduplication": 3005,
-  "learnerMeaningsAfterDeduplication": 1318,
-  "duplicatesRemovedFromDisplay": 1687,
-  "wordsAffectedByDeduplication": 821,
+  "learnerMeaningsAfterDeduplication": 1333,
+  "duplicatesRemovedFromDisplay": 1672,
+  "wordsAffectedByDeduplication": 815,
   "wordsWithMultipleTranslatedSensesCount": 843,
-  "suspiciousAmbiguousCount": 58,
+  "suspiciousAmbiguousCount": 48,
   "mergedDuplicateExamples": [
     {
       "wordId": "aboard-2005",
@@ -566,16 +566,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "civil-2155",
-      "word": "civil",
-      "senseId": "civil%3:00:00::",
-      "synsetId": "00645401-a",
-      "pos": "adjective",
-      "englishDefinition": "not rude; marked by satisfactory (or especially minimal) adherence to social usages and sufficient but not noteworthy consideration for others",
-      "meaningZhTW": "市民的",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "coconut-2168",
       "word": "coconut",
       "senseId": "coconut%1:13:00::",
@@ -756,16 +746,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "mall-2520",
-      "word": "mall",
-      "senseId": "mall%1:06:01::",
-      "synsetId": "03971750-n",
-      "pos": "noun",
-      "englishDefinition": "mercantile establishment consisting of a carefully landscaped complex of shops representing leading merchandisers; usually includes restaurants and a convenient parking area; a modern version of the traditional marketplace",
-      "meaningZhTW": "林蔭路",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "microwave-2540",
       "word": "microwave",
       "senseId": "microwave%1:19:00::",
@@ -793,16 +773,6 @@
       "pos": "noun",
       "englishDefinition": "any of various fleshy fungi of the subdivision Basidiomycota consisting of a cap at the end of a stem arising from an underground mycelium",
       "meaningZhTW": "蘑菇形物",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "peanut-2627",
-      "word": "peanut",
-      "senseId": "peanut%1:20:00::",
-      "synsetId": "11768970-n",
-      "pos": "noun",
-      "englishDefinition": "widely cultivated American plant cultivated in tropical and warm regions; showy yellow flowers on stalks that bend over to the soil so that seed pods ripen underground",
-      "meaningZhTW": "花生",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -836,46 +806,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "pitch-2647",
-      "word": "pitch",
-      "senseId": "pitch%1:04:03::",
-      "synsetId": "00107092-n",
-      "pos": "noun",
-      "englishDefinition": "the act of throwing a baseball or softball by the pitcher towards home plate, which initiates play by giving the batter a chance to hit it",
-      "meaningZhTW": "程度",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "plastic-2649",
-      "word": "plastic",
-      "senseId": "plastic%1:27:00::",
-      "synsetId": "14616790-n",
-      "pos": "noun",
-      "englishDefinition": "generic name for certain synthetic or semisynthetic materials that can be molded or extruded into objects or films or filaments or used for making e.g. coatings and adhesives",
-      "meaningZhTW": "塑膠",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "plastic-2649",
-      "word": "plastic",
-      "senseId": "plastic%1:21:00::",
-      "synsetId": "13397185-n",
-      "pos": "noun",
-      "englishDefinition": "a card (usually plastic) that assures a seller that the person using it has sufficient means of payment and that the issuer will see to it that the seller receives payment for the merchandise delivered",
-      "meaningZhTW": "塑膠",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "process-2677",
-      "word": "process",
-      "senseId": "process%1:10:00::",
-      "synsetId": "06568683-n",
-      "pos": "noun",
-      "englishDefinition": "a writ issued by authority of law; usually compels the defendant's attendance in a civil suit; failure to appear results in a default judgment against the defendant",
-      "meaningZhTW": "程式",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "pump-2688",
       "word": "pump",
       "senseId": "pump%1:08:00::",
@@ -903,26 +833,6 @@
       "pos": "adjective",
       "englishDefinition": "being or characteristic of government by representation in which citizens exercise power through elected officers and representatives",
       "meaningZhTW": "代表",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "screw-2775",
-      "word": "screw",
-      "senseId": "screw%1:06:02::",
-      "synsetId": "04161401-n",
-      "pos": "noun",
-      "englishDefinition": "a simple machine of the inclined-plane type consisting of a spirally threaded cylindrical rod that engages with a similarly threaded hole",
-      "meaningZhTW": "螺旋",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "shallow-2786",
-      "word": "shallow",
-      "senseId": "shallow%3:00:01::",
-      "synsetId": "00694973-a",
-      "pos": "adjective",
-      "englishDefinition": "lacking physical depth; having little spatial extension downward or inward from an outer surface or backward or outward from a center",
-      "meaningZhTW": "水淺的地方",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -1033,16 +943,6 @@
       "pos": "noun",
       "englishDefinition": "an exchange of molecules (and their kinetic energy and momentum) across the boundary between adjacent layers of a fluid or across cell membranes",
       "meaningZhTW": "運輸",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "van-2955",
-      "word": "van",
-      "senseId": "van%1:14:01::",
-      "synsetId": "08482569-n",
-      "pos": "noun",
-      "englishDefinition": "any creative group active in the innovation and application of new concepts and techniques in a given field (especially in the arts)",
-      "meaningZhTW": "貨車",
       "reason": "complex_or_technical_definition"
     },
     {

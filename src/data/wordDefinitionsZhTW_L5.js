@@ -576,10 +576,10 @@ export const WORD_DEFINITIONS_ZH_TW_L5 = {
     "meaningZhTW": "屬性"
   },
   "auction%1:04:01::": {
-    "meaningZhTW": "拍賣"
+    "meaningZhTW": "競叫橋牌（舊式橋牌）"
   },
   "auction%1:04:00::": {
-    "meaningZhTW": "拍賣"
+    "meaningZhTW": "拍賣；公開競標"
   },
   "auction%2:40:00::": {
     "meaningZhTW": "拍賣"
@@ -1629,13 +1629,13 @@ export const WORD_DEFINITIONS_ZH_TW_L5 = {
     "meaningZhTW": "行為"
   },
   "confession%1:10:00::": {
-    "meaningZhTW": "承認"
+    "meaningZhTW": "坦白；供認；認錯"
   },
   "confession%1:10:01::": {
-    "meaningZhTW": "承認"
+    "meaningZhTW": "認罪書；書面供詞"
   },
   "confession%1:04:00::": {
-    "meaningZhTW": "承認"
+    "meaningZhTW": "告解；懺悔（天主教）"
   },
   "confidential%5:00:00:private:00": {
     "meaningZhTW": "機密的"
@@ -3600,10 +3600,10 @@ export const WORD_DEFINITIONS_ZH_TW_L5 = {
     "meaningZhTW": "加亮區"
   },
   "hockey%1:04:00::": {
-    "meaningZhTW": "冰球"
+    "meaningZhTW": "草地曲棍球"
   },
   "hockey%1:04:01::": {
-    "meaningZhTW": "冰球"
+    "meaningZhTW": "冰上曲棍球；冰球"
   },
   "honorable%3:00:04::": {
     "meaningZhTW": "值得尊敬的"
@@ -4299,13 +4299,13 @@ export const WORD_DEFINITIONS_ZH_TW_L5 = {
     "meaningZhTW": "哺乳動物"
   },
   "mandate%1:10:00::": {
-    "meaningZhTW": "命令"
+    "meaningZhTW": "正式命令；授權文件"
   },
   "mandate%1:15:00::": {
-    "meaningZhTW": "命令"
+    "meaningZhTW": "委任統治地；託管地（歷史）"
   },
   "mandate%1:04:00::": {
-    "meaningZhTW": "命令"
+    "meaningZhTW": "民意授權；選舉授權"
   },
   "manifest%2:32:00::": {
     "meaningZhTW": "載貨單"
@@ -4335,13 +4335,13 @@ export const WORD_DEFINITIONS_ZH_TW_L5 = {
     "meaningZhTW": "大廈"
   },
   "marine%3:01:00::": {
-    "meaningZhTW": "艦隊"
+    "meaningZhTW": "海洋的"
   },
   "marine%3:01:02::": {
-    "meaningZhTW": "艦隊"
+    "meaningZhTW": "船舶的；航運的；航海的"
   },
   "marine%3:01:01::": {
-    "meaningZhTW": "艦隊"
+    "meaningZhTW": "海軍陸戰隊的"
   },
   "marine%1:18:01::": {
     "meaningZhTW": "艦隊"
@@ -4554,13 +4554,13 @@ export const WORD_DEFINITIONS_ZH_TW_L5 = {
     "meaningZhTW": "抵押"
   },
   "motive%1:03:00::": {
-    "meaningZhTW": "動機"
+    "meaningZhTW": "動機；原因"
   },
   "motive%1:10:00::": {
-    "meaningZhTW": "動機"
+    "meaningZhTW": "音樂動機；主題（音樂）"
   },
   "motive%1:06:00::": {
-    "meaningZhTW": "動機"
+    "meaningZhTW": "圖案；紋飾（建築／裝飾）"
   },
   "mount%1:05:00::": {
     "meaningZhTW": "乘騎用馬"
@@ -5745,13 +5745,13 @@ export const WORD_DEFINITIONS_ZH_TW_L5 = {
     "meaningZhTW": "架"
   },
   "radiation%1:19:00::": {
-    "meaningZhTW": "輻射"
+    "meaningZhTW": "輻射；放射能量"
   },
   "radiation%1:04:00::": {
-    "meaningZhTW": "輻射"
+    "meaningZhTW": "放射；向外擴散"
   },
   "radiation%1:26:00::": {
-    "meaningZhTW": "輻射"
+    "meaningZhTW": "輻射病；放射線病"
   },
   "radical%5:00:00:immoderate:00": {
     "meaningZhTW": "激進分子"
@@ -6159,13 +6159,13 @@ export const WORD_DEFINITIONS_ZH_TW_L5 = {
     "meaningZhTW": "修辭"
   },
   "rib%1:06:00::": {
-    "meaningZhTW": "肋骨"
+    "meaningZhTW": "肋狀支架；肋材"
   },
   "rib%1:08:01::": {
     "meaningZhTW": "肋骨"
   },
   "rib%1:13:00::": {
-    "meaningZhTW": "肋骨"
+    "meaningZhTW": "帶骨肋排；肋肉"
   },
   "rib%2:36:00::": {
     "meaningZhTW": "肋骨"
@@ -6594,10 +6594,10 @@ export const WORD_DEFINITIONS_ZH_TW_L5 = {
     "meaningZhTW": "服伺者（人）"
   },
   "server%1:18:01::": {
-    "meaningZhTW": "服伺者"
+    "meaningZhTW": "發球者（球類運動）"
   },
   "server%1:06:01::": {
-    "meaningZhTW": "服伺者"
+    "meaningZhTW": "伺服器（資訊）"
   },
   "session%1:10:00::": {
     "meaningZhTW": "期間"
@@ -8286,13 +8286,13 @@ export const WORD_DEFINITIONS_ZH_TW_L5 = {
     "meaningZhTW": "變更"
   },
   "vein%1:08:00::": {
-    "meaningZhTW": "血管"
+    "meaningZhTW": "靜脈"
   },
   "vein%1:10:00::": {
-    "meaningZhTW": "血管"
+    "meaningZhTW": "風格；方式；調子"
   },
   "vein%1:20:00::": {
-    "meaningZhTW": "血管"
+    "meaningZhTW": "葉脈；葉片脈絡"
   },
   "vendor%1:18:00::": {
     "meaningZhTW": "小販（人）"

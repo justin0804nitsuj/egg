@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-28T13:35:20.061Z",
+  "generatedAt": "2026-09-28T14:05:14.808Z",
   "scope": "level-2-only",
   "level2WordCount": 1002,
   "level2MatchedWordCount": 984,
   "translatedRawSenseCount": 3299,
   "learnerMeaningsBeforeDeduplication": 3299,
-  "learnerMeaningsAfterDeduplication": 1393,
-  "duplicatesRemovedFromDisplay": 1906,
-  "wordsAffectedByDeduplication": 853,
+  "learnerMeaningsAfterDeduplication": 1410,
+  "duplicatesRemovedFromDisplay": 1889,
+  "wordsAffectedByDeduplication": 847,
   "wordsWithMultipleTranslatedSensesCount": 873,
-  "suspiciousAmbiguousCount": 61,
+  "suspiciousAmbiguousCount": 51,
   "mergedDuplicateExamples": [
     {
       "wordId": "absence-1003",
@@ -544,16 +544,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "brain-1108",
-      "word": "brain",
-      "senseId": "brain%1:08:00::",
-      "synsetId": "05488747-n",
-      "pos": "noun",
-      "englishDefinition": "that part of the central nervous system that includes all the higher nervous centers; enclosed within the skull; continuous with the spinal cord",
-      "meaningZhTW": "腦",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "cancer-1128",
       "word": "cancer",
       "senseId": "cancer%1:26:00::",
@@ -614,26 +604,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "complex-1185",
-      "word": "complex",
-      "senseId": "complex%1:12:00::",
-      "synsetId": "07497661-n",
-      "pos": "noun",
-      "englishDefinition": "(psychoanalysis) a combination of emotions and impulses that have been rejected from awareness but still influence a person's behavior",
-      "meaningZhTW": "綜合體",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "corn-1201",
-      "word": "corn",
-      "senseId": "corn%1:20:00::",
-      "synsetId": "12164193-n",
-      "pos": "noun",
-      "englishDefinition": "tall annual cereal grass bearing kernels on large ears: widely cultivated in America in many varieties; the principal cereal in Mexico and Central and South America since pre-Columbian times",
-      "meaningZhTW": "玉蜀黍",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "cream-1208",
       "word": "cream",
       "senseId": "cream%1:06:00::",
@@ -651,16 +621,6 @@
       "pos": "noun",
       "englishDefinition": "(biology) the process of an individual organism growing organically; a purely biological unfolding of events involved in an organism changing gradually from a simple to a more complex level",
       "meaningZhTW": "發展",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "earthquake-1290",
-      "word": "earthquake",
-      "senseId": "earthquake%1:11:00::",
-      "synsetId": "07443554-n",
-      "pos": "noun",
-      "englishDefinition": "shaking and vibration at the surface of the earth resulting from underground movement along a fault plane or from volcanic activity",
-      "meaningZhTW": "地震",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -714,16 +674,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "gold-1404",
-      "word": "gold",
-      "senseId": "gold%1:27:00::",
-      "synsetId": "14662977-n",
-      "pos": "noun",
-      "englishDefinition": "a soft yellow malleable ductile (trivalent and univalent) metallic element; occurs mainly as nuggets in rocks and alluvial deposits; does not react with most chemicals but is attacked by chlorine and aqua regia",
-      "meaningZhTW": "黃金",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "growth-1415",
       "word": "growth",
       "senseId": "growth%1:22:00::",
@@ -741,16 +691,6 @@
       "pos": "noun",
       "englishDefinition": "the structure of the vertebrate skeleton supporting the lower limbs in humans and the hind limbs or corresponding parts in other vertebrates",
       "meaningZhTW": "臀部",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "hop-1437",
-      "word": "hop",
-      "senseId": "hop%1:20:00::",
-      "synsetId": "12418369-n",
-      "pos": "noun",
-      "englishDefinition": "twining perennials having cordate leaves and flowers arranged in conelike spikes; the dried flowers of this plant are used in brewing to add the characteristic bitter taste to beer",
-      "meaningZhTW": "單腳跳",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -974,16 +914,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "silver-1799",
-      "word": "silver",
-      "senseId": "silver%1:27:00::",
-      "synsetId": "14679133-n",
-      "pos": "noun",
-      "englishDefinition": "a soft white precious univalent metallic element having the highest electrical and thermal conductivity of any metal; occurs in argentite and in free form; used in coins and jewelry and tableware and photography",
-      "meaningZhTW": "銀",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "soybean-1830",
       "word": "soybean",
       "senseId": "soybean%1:20:00::",
@@ -1001,26 +931,6 @@
       "pos": "noun",
       "englishDefinition": "the most highly proteinaceous vegetable known; the fruit of the soybean plant is used in a variety of foods and as fodder (especially as a replacement for animal protein)",
       "meaningZhTW": "大豆",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "spider-1835",
-      "word": "spider",
-      "senseId": "spider%1:05:00::",
-      "synsetId": "01774863-n",
-      "pos": "noun",
-      "englishDefinition": "predatory arachnid with eight legs, two poison fangs, two feelers, and usually two silk-spinning organs at the back end of the body; they spin silk to make cocoons for eggs or traps for prey",
-      "meaningZhTW": "蜘蛛",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "spider-1835",
-      "word": "spider",
-      "senseId": "spider%1:10:00::",
-      "synsetId": "06591891-n",
-      "pos": "noun",
-      "englishDefinition": "a computer program that prowls the internet looking for publicly accessible resources that can be added to a database; the database can then be searched with a search engine",
-      "meaningZhTW": "蜘蛛",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -1101,16 +1011,6 @@
       "pos": "noun",
       "englishDefinition": "a simple machine consisting of a circular frame with spokes (or a solid disc) that can rotate on a shaft or axle (as in vehicles or other machines)",
       "meaningZhTW": "輪子",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "worm-1997",
-      "word": "worm",
-      "senseId": "worm%1:05:00::",
-      "synsetId": "01924944-n",
-      "pos": "noun",
-      "englishDefinition": "any of numerous relatively small elongated soft-bodied animals especially of the phyla Annelida and Chaetognatha and Nematoda and Nemertea and Platyhelminthes; also many insect larvae",
-      "meaningZhTW": "蟲",
       "reason": "complex_or_technical_definition"
     }
   ]

@@ -1344,13 +1344,13 @@ export const WORD_DEFINITIONS_ZH_TW_L3 = {
     "meaningZhTW": "市民"
   },
   "civil%5:00:00:civilian:00": {
-    "meaningZhTW": "市民的"
+    "meaningZhTW": "非軍事的；平民的"
   },
   "civil%3:00:00::": {
-    "meaningZhTW": "市民的"
+    "meaningZhTW": "有禮貌的；客氣的"
   },
   "civil%3:01:01::": {
-    "meaningZhTW": "市民的"
+    "meaningZhTW": "公民的；國內的"
   },
   "clay%1:27:00::": {
     "meaningZhTW": "泥土"
@@ -4608,10 +4608,10 @@ export const WORD_DEFINITIONS_ZH_TW_L3 = {
     "meaningZhTW": "多數"
   },
   "mall%1:06:00::": {
-    "meaningZhTW": "林蔭路"
+    "meaningZhTW": "步行區；行人步道"
   },
   "mall%1:06:01::": {
-    "meaningZhTW": "林蔭路"
+    "meaningZhTW": "購物中心；商場"
   },
   "mankind%1:05:00::": {
     "meaningZhTW": "人類"
@@ -5472,13 +5472,13 @@ export const WORD_DEFINITIONS_ZH_TW_L3 = {
     "meaningZhTW": "豌豆"
   },
   "peanut%1:20:02::": {
-    "meaningZhTW": "花生"
+    "meaningZhTW": "花生莢；花生果實"
   },
   "peanut%1:20:00::": {
-    "meaningZhTW": "花生"
+    "meaningZhTW": "花生（植物）"
   },
   "peanut%1:18:00::": {
-    "meaningZhTW": "花生"
+    "meaningZhTW": "小不點；個子矮小的孩子（口語）"
   },
   "pearl%1:21:00::": {
     "meaningZhTW": "珍珠"
@@ -5646,13 +5646,13 @@ export const WORD_DEFINITIONS_ZH_TW_L3 = {
     "meaningZhTW": "深坑"
   },
   "pitch%1:07:00::": {
-    "meaningZhTW": "程度"
+    "meaningZhTW": "音高（聲學）"
   },
   "pitch%1:04:03::": {
-    "meaningZhTW": "程度"
+    "meaningZhTW": "投球（棒球／壘球）"
   },
   "pitch%1:15:00::": {
-    "meaningZhTW": "程度"
+    "meaningZhTW": "攤位；攤販位置"
   },
   "pitch%2:35:00::": {
     "meaningZhTW": "程度"
@@ -5676,10 +5676,10 @@ export const WORD_DEFINITIONS_ZH_TW_L3 = {
     "meaningZhTW": "遺憾"
   },
   "plastic%1:27:00::": {
-    "meaningZhTW": "塑膠"
+    "meaningZhTW": "塑膠（材料）"
   },
   "plastic%1:21:00::": {
-    "meaningZhTW": "塑膠"
+    "meaningZhTW": "信用卡；付款卡"
   },
   "plastic%5:00:00:elastic:00": {
     "meaningZhTW": "塑膠"
@@ -5919,13 +5919,13 @@ export const WORD_DEFINITIONS_ZH_TW_L3 = {
     "meaningZhTW": "很可能的"
   },
   "process%1:04:00::": {
-    "meaningZhTW": "程式"
+    "meaningZhTW": "過程；程式"
   },
   "process%1:09:00::": {
-    "meaningZhTW": "程式"
+    "meaningZhTW": "心智過程；認知歷程（心理學）"
   },
   "process%1:10:00::": {
-    "meaningZhTW": "程式"
+    "meaningZhTW": "法院令狀；傳票（法律）"
   },
   "producer%1:18:01::": {
     "meaningZhTW": "生產者（人）"
@@ -6855,10 +6855,10 @@ export const WORD_DEFINITIONS_ZH_TW_L3 = {
     "meaningZhTW": "螺旋（人）"
   },
   "screw%1:06:02::": {
-    "meaningZhTW": "螺旋"
+    "meaningZhTW": "螺絲；螺釘"
   },
   "screw%1:06:01::": {
-    "meaningZhTW": "螺旋"
+    "meaningZhTW": "螺旋槳"
   },
   "scrub%1:14:00::": {
     "meaningZhTW": "用力擦洗"
@@ -6975,13 +6975,13 @@ export const WORD_DEFINITIONS_ZH_TW_L3 = {
     "meaningZhTW": "陰影"
   },
   "shallow%3:00:01::": {
-    "meaningZhTW": "水淺的地方"
+    "meaningZhTW": "淺的；不深的"
   },
   "shallow%3:00:02::": {
-    "meaningZhTW": "水淺的地方"
+    "meaningZhTW": "不深刻的；不強烈的"
   },
   "shallow%5:00:00:superficial:00": {
-    "meaningZhTW": "水淺的地方"
+    "meaningZhTW": "膚淺的；淺薄的（思想／知識）"
   },
   "shampoo%1:06:00::": {
     "meaningZhTW": "洗頭"
@@ -8583,13 +8583,13 @@ export const WORD_DEFINITIONS_ZH_TW_L3 = {
     "meaningZhTW": "空的"
   },
   "van%1:14:01::": {
-    "meaningZhTW": "貨車"
+    "meaningZhTW": "先鋒；前衛團體（尤指藝術）"
   },
   "van%1:14:00::": {
-    "meaningZhTW": "貨車"
+    "meaningZhTW": "先頭部隊；前鋒（軍事）"
   },
   "van%1:06:02::": {
-    "meaningZhTW": "貨車"
+    "meaningZhTW": "鐵路貨車；行李車廂（英式）"
   },
   "vanish%2:30:00::": {
     "meaningZhTW": "消失"

@@ -256,19 +256,19 @@ export const ZH_TW_L3_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "civil%5:00:00:civilian:00": {
-    "meaningZhTW": "市民的（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "非軍事的；平民的",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "civil%3:00:00::": {
-    "meaningZhTW": "市民的 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "有禮貌的；客氣的",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "civil%3:01:01::": {
-    "meaningZhTW": "市民的 (義項 3)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "公民的；國內的",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "clay%1:27:00::": {
     "meaningZhTW": "泥土 (義項 1)",
@@ -801,14 +801,14 @@ export const ZH_TW_L3_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "mall%1:06:00::": {
-    "meaningZhTW": "林蔭路 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "步行區；行人步道",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "mall%1:06:01::": {
-    "meaningZhTW": "林蔭路（交通/載具）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "購物中心；商場",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "mission%1:14:01::": {
     "meaningZhTW": "任務 (義項 1)",
@@ -891,19 +891,19 @@ export const ZH_TW_L3_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "peanut%1:20:02::": {
-    "meaningZhTW": "花生 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "花生莢；花生果實",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "peanut%1:20:00::": {
-    "meaningZhTW": "花生（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "花生（植物）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "peanut%1:18:00::": {
-    "meaningZhTW": "花生 (義項 3)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "小不點；個子矮小的孩子（口語）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "penny%1:23:00::": {
     "meaningZhTW": "便士 (義項 1)",
@@ -916,19 +916,19 @@ export const ZH_TW_L3_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "pitch%1:07:00::": {
-    "meaningZhTW": "程度 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "音高（聲學）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "pitch%1:04:03::": {
-    "meaningZhTW": "程度（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "投球（棒球／壘球）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "pitch%1:15:00::": {
-    "meaningZhTW": "程度 (義項 3)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "攤位；攤販位置",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "pitch%2:35:00::": {
     "meaningZhTW": "程度 (義項 1)",
@@ -946,14 +946,14 @@ export const ZH_TW_L3_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "plastic%1:27:00::": {
-    "meaningZhTW": "塑膠 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "塑膠（材料）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "plastic%1:21:00::": {
-    "meaningZhTW": "塑膠（音樂）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "信用卡；付款卡",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "powder%1:27:00::": {
     "meaningZhTW": "粉（化學）",
@@ -986,19 +986,19 @@ export const ZH_TW_L3_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "process%1:04:00::": {
-    "meaningZhTW": "程式 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "過程；程序",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "process%1:09:00::": {
-    "meaningZhTW": "程式 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "心智過程；認知歷程（心理學）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "process%1:10:00::": {
-    "meaningZhTW": "程式（法律）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "法院令狀；傳票（法律）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "punch%2:35:00::": {
     "meaningZhTW": "打洞器 (義項 1)",
@@ -1141,14 +1141,14 @@ export const ZH_TW_L3_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "screw%1:06:02::": {
-    "meaningZhTW": "螺旋（交通/載具）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "螺絲；螺釘",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "screw%1:06:01::": {
-    "meaningZhTW": "螺旋 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "螺旋槳",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "seal%1:06:01::": {
     "meaningZhTW": "印章（軍事）",
@@ -1166,19 +1166,19 @@ export const ZH_TW_L3_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "shallow%3:00:01::": {
-    "meaningZhTW": "水淺的地方（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "淺的；不深的",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "shallow%3:00:02::": {
-    "meaningZhTW": "水淺的地方 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "不深刻的；不強烈的",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "shallow%5:00:00:superficial:00": {
-    "meaningZhTW": "水淺的地方 (義項 3)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "膚淺的；淺薄的（思想／知識）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "spin%1:11:00::": {
     "meaningZhTW": "旋轉 (義項 1)",
@@ -1341,19 +1341,19 @@ export const ZH_TW_L3_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "van%1:14:01::": {
-    "meaningZhTW": "貨車 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "先鋒；前衛團體（尤指藝術）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "van%1:14:00::": {
-    "meaningZhTW": "貨車 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "先頭部隊；前鋒（軍事）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "van%1:06:02::": {
-    "meaningZhTW": "貨車（交通/載具）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "鐵路貨車；行李車廂（英式）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "vanish%2:30:00::": {
     "meaningZhTW": "消失（軍事）",

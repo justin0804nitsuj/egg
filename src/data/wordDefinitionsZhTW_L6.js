@@ -135,13 +135,13 @@ export const WORD_DEFINITIONS_ZH_TW_L6 = {
     "meaningZhTW": "適應"
   },
   "addiction%1:26:00::": {
-    "meaningZhTW": "入迷"
+    "meaningZhTW": "成癮；依賴"
   },
   "addiction%1:12:00::": {
-    "meaningZhTW": "入迷"
+    "meaningZhTW": "強烈渴望；癮"
   },
   "addiction%1:04:00::": {
-    "meaningZhTW": "入迷"
+    "meaningZhTW": "判給；交付（羅馬法）"
   },
   "administer%2:41:00::": {
     "meaningZhTW": "管理；施行"
@@ -4425,13 +4425,13 @@ export const WORD_DEFINITIONS_ZH_TW_L6 = {
     "meaningZhTW": "近視的"
   },
   "nickel%1:27:00::": {
-    "meaningZhTW": "鎳"
+    "meaningZhTW": "鎳（金屬）"
   },
   "nickel%1:21:00::": {
-    "meaningZhTW": "鎳"
+    "meaningZhTW": "五美分硬幣"
   },
   "nickel%1:21:01::": {
-    "meaningZhTW": "鎳"
+    "meaningZhTW": "五美元份量的毒品（俚語）"
   },
   "nickel%2:35:00::": {
     "meaningZhTW": "鎳"
@@ -4872,10 +4872,10 @@ export const WORD_DEFINITIONS_ZH_TW_L6 = {
     "meaningZhTW": "使癱瘓"
   },
   "parliament%1:14:00::": {
-    "meaningZhTW": "國會"
+    "meaningZhTW": "國會；議會"
   },
   "parliament%1:04:00::": {
-    "meaningZhTW": "國會"
+    "meaningZhTW": "以七點牌起手的接龍紙牌遊戲"
   },
   "pastime%1:04:00::": {
     "meaningZhTW": "消遣"
@@ -5019,13 +5019,13 @@ export const WORD_DEFINITIONS_ZH_TW_L6 = {
     "meaningZhTW": "捏"
   },
   "plague%1:26:00::": {
-    "meaningZhTW": "瘟疫"
+    "meaningZhTW": "鼠疫"
   },
   "plague%1:26:01::": {
-    "meaningZhTW": "瘟疫"
+    "meaningZhTW": "瘟疫；致命流行病"
   },
   "plague%1:14:00::": {
-    "meaningZhTW": "瘟疫"
+    "meaningZhTW": "蟲害；蟲群"
   },
   "plantation%1:21:00::": {
     "meaningZhTW": "種植園"
@@ -6963,10 +6963,10 @@ export const WORD_DEFINITIONS_ZH_TW_L6 = {
     "meaningZhTW": "表徵"
   },
   "tornado%1:19:00::": {
-    "meaningZhTW": "旋風"
+    "meaningZhTW": "龍捲風"
   },
   "tornado%1:06:00::": {
-    "meaningZhTW": "旋風"
+    "meaningZhTW": "強效純化古柯鹼（毒品俚語）"
   },
   "torrent%1:19:01::": {
     "meaningZhTW": "奔流"

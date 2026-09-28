@@ -1,19 +1,19 @@
 // Generated & Verified Traditional Chinese (Taiwan) Override Layer for Level 6 Words.
 export const ZH_TW_L6_OVERRIDES = {
   "addiction%1:26:00::": {
-    "meaningZhTW": "入迷 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "成癮；依賴",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "addiction%1:12:00::": {
-    "meaningZhTW": "入迷 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "強烈渴望；癮",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "addiction%1:04:00::": {
-    "meaningZhTW": "入迷（法律）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "判給；交付（羅馬法）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "avert%2:41:00::": {
     "meaningZhTW": "轉開（軍事）",
@@ -491,19 +491,19 @@ export const ZH_TW_L6_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "nickel%1:27:00::": {
-    "meaningZhTW": "鎳 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "鎳（金屬）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "nickel%1:21:00::": {
-    "meaningZhTW": "鎳 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "五美分硬幣",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "nickel%1:21:01::": {
-    "meaningZhTW": "鎳 (義項 3)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "五美元份量的毒品（俚語）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "oblige%2:41:00::": {
     "meaningZhTW": "強制 (義項 1)",
@@ -531,14 +531,14 @@ export const ZH_TW_L6_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "parliament%1:14:00::": {
-    "meaningZhTW": "國會 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "國會；議會",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "parliament%1:04:00::": {
-    "meaningZhTW": "國會（體育）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "以七點牌起手的接龍紙牌遊戲",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "perch%1:06:00::": {
     "meaningZhTW": "棲木（動物）",
@@ -556,19 +556,19 @@ export const ZH_TW_L6_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "plague%1:26:00::": {
-    "meaningZhTW": "瘟疫（人物）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "鼠疫",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "plague%1:26:01::": {
-    "meaningZhTW": "瘟疫（醫學）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "瘟疫；致命流行病",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "plague%1:14:00::": {
-    "meaningZhTW": "瘟疫（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "蟲害；蟲群",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "procession%1:11:00::": {
     "meaningZhTW": "隊伍 (義項 1)",
@@ -771,14 +771,14 @@ export const ZH_TW_L6_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "tornado%1:19:00::": {
-    "meaningZhTW": "旋風（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "龍捲風",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "tornado%1:06:00::": {
-    "meaningZhTW": "旋風 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "強效純化古柯鹼（毒品俚語）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "treasury%1:21:00::": {
     "meaningZhTW": "國庫（人物）",

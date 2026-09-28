@@ -36,7 +36,7 @@ const GENERATED_BY_LEVEL = {
 };
 
 export const WORD_DEFINITION_METADATA = {
-  "generatedAt": "2026-09-28T13:35:39.862Z",
+  "generatedAt": "2026-09-28T14:05:22.522Z",
   "scope": "all-words",
   "processedWordCount": 6012,
   "matchedWordCount": 5920,

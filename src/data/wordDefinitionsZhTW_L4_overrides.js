@@ -26,14 +26,14 @@ export const ZH_TW_L4_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "anxiety%1:26:00::": {
-    "meaningZhTW": "焦慮 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "持續性焦慮；焦慮狀態（精神醫學）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "anxiety%1:12:00::": {
-    "meaningZhTW": "焦慮 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "焦慮；不安；憂慮（情緒）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "arms%1:06:00::": {
     "meaningZhTW": "武器（軍事）",
@@ -91,19 +91,19 @@ export const ZH_TW_L4_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "bond%1:19:00::": {
-    "meaningZhTW": "捆綁物 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "化學鍵（化學）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "bond%1:21:02::": {
-    "meaningZhTW": "捆綁物（金額/款項）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "債券（金融）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "bond%1:24:00::": {
-    "meaningZhTW": "捆綁物（交通/載具）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "紐帶；聯繫；關係",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "bounce%1:07:00::": {
     "meaningZhTW": "跳（化學）",
@@ -136,14 +136,14 @@ export const ZH_TW_L4_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "calorie%1:23:01::": {
-    "meaningZhTW": "卡路裡（熱量單位） (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "卡；小卡（cal，熱量單位）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "calorie%1:23:02::": {
-    "meaningZhTW": "卡路裡（熱量單位） (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "大卡；千卡（kcal，食品熱量）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "campaign%1:11:00::": {
     "meaningZhTW": "戰役 (義項 1)",
@@ -161,19 +161,19 @@ export const ZH_TW_L4_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "campaign%2:33:01::": {
-    "meaningZhTW": "戰役 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "競選；參選",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "campaign%2:41:10::": {
-    "meaningZhTW": "戰役（人物）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "發起運動；積極倡議",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "campaign%2:33:00::": {
-    "meaningZhTW": "戰役（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "參加戰役；出征",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "capital%1:21:01::": {
     "meaningZhTW": "首都 (義項 1)",
@@ -191,14 +191,14 @@ export const ZH_TW_L4_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "carrier%1:06:03::": {
-    "meaningZhTW": "運送者（交通/載具）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "運載車；運輸車輛",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "carrier%1:06:01::": {
-    "meaningZhTW": "運送者（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "航空母艦；航母",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "charity%1:14:00::": {
     "meaningZhTW": "慈悲（人物）",
@@ -276,19 +276,19 @@ export const ZH_TW_L4_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "counter%1:06:00::": {
-    "meaningZhTW": "計算器 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "櫃檯；櫃台",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "counter%1:06:03::": {
-    "meaningZhTW": "計算器（體育）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "計數籌碼；棋子",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "counter%1:06:01::": {
-    "meaningZhTW": "計算器（數學）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "計數器",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "decoration%1:06:00::": {
     "meaningZhTW": "裝飾 (義項 1)",
@@ -631,19 +631,19 @@ export const ZH_TW_L4_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "insurance%1:21:02::": {
-    "meaningZhTW": "保險 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "保險；損失補償保障",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "insurance%1:10:00::": {
-    "meaningZhTW": "保險 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "保險單；保險契約",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "insurance%1:26:00::": {
-    "meaningZhTW": "保險 (義項 3)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "保障；防範未來損失的措施",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "intensive%5:00:00:intense:00": {
     "meaningZhTW": "加強的 (義項 1)",
@@ -816,19 +816,19 @@ export const ZH_TW_L4_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "motivation%1:03:00::": {
-    "meaningZhTW": "動機（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "動機；驅力",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "motivation%1:26:00::": {
-    "meaningZhTW": "動機 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "積極性；受激勵的狀態",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "motivation%1:04:00::": {
-    "meaningZhTW": "動機 (義項 3)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "激勵；鼓舞（行為）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "nuclear%3:00:00::": {
     "meaningZhTW": "核子的（軍事）",
@@ -906,19 +906,19 @@ export const ZH_TW_L4_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "option%1:21:00::": {
-    "meaningZhTW": "選擇權（金額/款項）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "選擇權（金融／契約）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "option%1:09:00::": {
-    "meaningZhTW": "選擇權（數學）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "選項；可選擇的事物",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "option%1:04:00::": {
-    "meaningZhTW": "選擇權（音樂）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "選擇；選取（行為）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "partnership%1:14:00::": {
     "meaningZhTW": "合夥 (義項 1)",
@@ -1166,14 +1166,14 @@ export const ZH_TW_L4_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "submarine%1:06:00::": {
-    "meaningZhTW": "潛水艇（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "潛水艇；潛艦",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "submarine%1:13:00::": {
-    "meaningZhTW": "潛水艇 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "潛艇堡；長條三明治（美式）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "surgery%1:09:00::": {
     "meaningZhTW": "外科（醫學）",
@@ -1251,19 +1251,19 @@ export const ZH_TW_L4_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "virus%1:05:00::": {
-    "meaningZhTW": "病毒 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "病毒（生物／醫學）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "virus%1:26:00::": {
-    "meaningZhTW": "病毒 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "禍害；有害影響（比喻）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "virus%1:10:00::": {
-    "meaningZhTW": "病毒（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "電腦病毒",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "volunteer%1:18:01::": {
     "meaningZhTW": "志願者（人）（人物）",

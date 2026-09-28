@@ -687,10 +687,10 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "基本原理"
   },
   "basics%1:10:00::": {
-    "meaningZhTW": "最簡單但最重要的部分"
+    "meaningZhTW": "基礎；基本要點"
   },
   "basics%1:09:00::": {
-    "meaningZhTW": "最簡單但最重要的部分"
+    "meaningZhTW": "基本原理；基本原則"
   },
   "basis%1:24:00::": {
     "meaningZhTW": "基礎"
@@ -1029,13 +1029,13 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "煩擾"
   },
   "brain%1:08:00::": {
-    "meaningZhTW": "腦"
+    "meaningZhTW": "大腦（器官）"
   },
   "brain%1:09:00::": {
-    "meaningZhTW": "腦"
+    "meaningZhTW": "智力；腦力"
   },
   "brain%1:09:01::": {
-    "meaningZhTW": "腦"
+    "meaningZhTW": "頭腦；心智"
   },
   "branch%1:14:00::": {
     "meaningZhTW": "樹枝"
@@ -1833,13 +1833,13 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "綜合體"
   },
   "complex%1:09:00::": {
-    "meaningZhTW": "綜合體"
+    "meaningZhTW": "複合體；綜合體（概念）"
   },
   "complex%1:27:00::": {
-    "meaningZhTW": "綜合體"
+    "meaningZhTW": "錯合物（化學）"
   },
   "complex%1:12:00::": {
-    "meaningZhTW": "綜合體"
+    "meaningZhTW": "情結（心理學）"
   },
   "concern%1:09:00::": {
     "meaningZhTW": "關心"
@@ -2016,13 +2016,13 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "會話"
   },
   "corn%1:20:00::": {
-    "meaningZhTW": "玉蜀黍"
+    "meaningZhTW": "玉米（植物）"
   },
   "corn%1:20:02::": {
-    "meaningZhTW": "玉蜀黍"
+    "meaningZhTW": "玉米粒；玉米穀粒"
   },
   "corn%1:13:00::": {
-    "meaningZhTW": "玉蜀黍"
+    "meaningZhTW": "玉米穗；食用玉米"
   },
   "countryside%1:15:00::": {
     "meaningZhTW": "鄉下地方"
@@ -2871,7 +2871,7 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "地震"
   },
   "earthquake%1:26:00::": {
-    "meaningZhTW": "地震"
+    "meaningZhTW": "大動盪；劇變（比喻）"
   },
   "ease%1:07:00::": {
     "meaningZhTW": "安樂"
@@ -4095,13 +4095,13 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "山羊"
   },
   "gold%1:21:00::": {
-    "meaningZhTW": "黃金"
+    "meaningZhTW": "金幣"
   },
   "gold%1:07:00::": {
-    "meaningZhTW": "黃金"
+    "meaningZhTW": "金色；金黃色"
   },
   "gold%1:27:00::": {
-    "meaningZhTW": "黃金"
+    "meaningZhTW": "黃金；金（金屬）"
   },
   "gold%5:00:00:metallic:00": {
     "meaningZhTW": "黃金"
@@ -4407,13 +4407,13 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "單腳跳"
   },
   "hop%1:04:00::": {
-    "meaningZhTW": "單腳跳"
+    "meaningZhTW": "單腳跳；跳躍"
   },
   "hop%1:20:00::": {
-    "meaningZhTW": "單腳跳"
+    "meaningZhTW": "啤酒花（植物）"
   },
   "hop%1:11:00::": {
-    "meaningZhTW": "單腳跳"
+    "meaningZhTW": "舞會；跳舞聚會（口語）"
   },
   "host%1:18:02::": {
     "meaningZhTW": "主人"
@@ -7893,13 +7893,13 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "愚蠢的"
   },
   "silver%1:27:00::": {
-    "meaningZhTW": "銀"
+    "meaningZhTW": "銀；白銀（金屬）"
   },
   "silver%1:21:00::": {
-    "meaningZhTW": "銀"
+    "meaningZhTW": "銀幣"
   },
   "silver%1:07:00::": {
-    "meaningZhTW": "銀"
+    "meaningZhTW": "銀色；銀灰色"
   },
   "silver%5:00:00:metallic:00": {
     "meaningZhTW": "銀"
@@ -8247,10 +8247,10 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "蜘蛛"
   },
   "spider%1:10:00::": {
-    "meaningZhTW": "蜘蛛"
+    "meaningZhTW": "網路爬蟲；網路蜘蛛（資訊）"
   },
   "spider%1:06:00::": {
-    "meaningZhTW": "蜘蛛"
+    "meaningZhTW": "鑄鐵平底鍋（舊稱）"
   },
   "spirit%1:18:01::": {
     "meaningZhTW": "精神"
@@ -9813,13 +9813,13 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "輔助練習冊"
   },
   "worm%1:05:00::": {
-    "meaningZhTW": "蟲"
+    "meaningZhTW": "蠕蟲；蟲"
   },
   "worm%1:18:00::": {
     "meaningZhTW": "蟲（人）"
   },
   "worm%1:10:00::": {
-    "meaningZhTW": "蟲"
+    "meaningZhTW": "電腦蠕蟲；蠕蟲程式"
   },
   "worm%2:38:00::": {
     "meaningZhTW": "蟲"

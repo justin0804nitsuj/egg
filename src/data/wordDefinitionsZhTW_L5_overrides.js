@@ -101,14 +101,14 @@ export const ZH_TW_L5_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "auction%1:04:01::": {
-    "meaningZhTW": "拍賣（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "競叫橋牌（舊式橋牌）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "auction%1:04:00::": {
-    "meaningZhTW": "拍賣 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "拍賣；公開競標",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "bound%2:38:01::": {
     "meaningZhTW": "躍（軍事）",
@@ -226,19 +226,19 @@ export const ZH_TW_L5_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "confession%1:10:00::": {
-    "meaningZhTW": "承認 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "坦白；供認；認錯",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "confession%1:10:01::": {
-    "meaningZhTW": "承認 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "認罪書；書面供詞",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "confession%1:04:00::": {
-    "meaningZhTW": "承認（音樂）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "告解；懺悔（天主教）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "constitutional%3:01:00::": {
     "meaningZhTW": "憲法的 (義項 1)",
@@ -471,14 +471,14 @@ export const ZH_TW_L5_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "hockey%1:04:00::": {
-    "meaningZhTW": "冰球（音樂）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "草地曲棍球",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "hockey%1:04:01::": {
-    "meaningZhTW": "冰球（音樂） (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "冰上曲棍球；冰球",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "hostility%1:07:00::": {
     "meaningZhTW": "敵意 (義項 1)",
@@ -566,34 +566,34 @@ export const ZH_TW_L5_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "mandate%1:10:00::": {
-    "meaningZhTW": "命令 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "正式命令；授權文件",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "mandate%1:15:00::": {
-    "meaningZhTW": "命令（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "委任統治地；託管地（歷史）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "mandate%1:04:00::": {
-    "meaningZhTW": "命令 (義項 3)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "民意授權；選舉授權",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "marine%3:01:00::": {
-    "meaningZhTW": "艦隊 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "海洋的",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "marine%3:01:02::": {
-    "meaningZhTW": "艦隊（交通/載具）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "船舶的；航運的；航海的",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "marine%3:01:01::": {
-    "meaningZhTW": "艦隊（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "海軍陸戰隊的",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "marine%1:18:01::": {
     "meaningZhTW": "艦隊（軍事）",
@@ -606,19 +606,19 @@ export const ZH_TW_L5_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "motive%1:03:00::": {
-    "meaningZhTW": "動機（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "動機；原因",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "motive%1:10:00::": {
-    "meaningZhTW": "動機（音樂）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "音樂動機；主題（音樂）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "motive%1:06:00::": {
-    "meaningZhTW": "動機 (義項 3)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "圖案；紋飾（建築／裝飾）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "neutral%5:00:00:objective:00": {
     "meaningZhTW": "中立者（人物）",
@@ -816,19 +816,19 @@ export const ZH_TW_L5_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "radiation%1:19:00::": {
-    "meaningZhTW": "輻射 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "輻射；放射能量",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "radiation%1:04:00::": {
-    "meaningZhTW": "輻射（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "放射；向外擴散",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "radiation%1:26:00::": {
-    "meaningZhTW": "輻射（醫學）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "輻射病；放射線病",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "raid%1:04:00::": {
     "meaningZhTW": "襲擊 (義項 1)",
@@ -961,19 +961,19 @@ export const ZH_TW_L5_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "rib%1:06:00::": {
-    "meaningZhTW": "肋骨（動物）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "肋狀支架；肋材",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "rib%1:08:01::": {
-    "meaningZhTW": "肋骨（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "肋骨",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "rib%1:13:00::": {
-    "meaningZhTW": "肋骨 (義項 3)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "帶骨肋排；肋肉",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "ridge%2:42:00::": {
     "meaningZhTW": "脊 (義項 1)",
@@ -1016,14 +1016,14 @@ export const ZH_TW_L5_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "server%1:18:01::": {
-    "meaningZhTW": "服伺者（法律）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "發球者（球類運動）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "server%1:06:01::": {
-    "meaningZhTW": "服伺者 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "伺服器（資訊）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "shuttle%1:06:02::": {
     "meaningZhTW": "穿梭 (義項 1)",
@@ -1286,19 +1286,19 @@ export const ZH_TW_L5_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "vein%1:08:00::": {
-    "meaningZhTW": "血管（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "靜脈",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "vein%1:10:00::": {
-    "meaningZhTW": "血管 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "風格；方式；調子",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "vein%1:20:00::": {
-    "meaningZhTW": "血管 (義項 3)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "葉脈；葉片脈絡",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "venture%2:41:01::": {
     "meaningZhTW": "冒險 (義項 1)",

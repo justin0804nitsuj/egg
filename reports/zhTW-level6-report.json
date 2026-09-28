@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-28T13:35:23.202Z",
+  "generatedAt": "2026-09-28T14:05:17.640Z",
   "scope": "level-6-only",
   "level6WordCount": 1002,
   "level6MatchedWordCount": 996,
   "translatedRawSenseCount": 2549,
   "learnerMeaningsBeforeDeduplication": 2549,
-  "learnerMeaningsAfterDeduplication": 1253,
-  "duplicatesRemovedFromDisplay": 1296,
-  "wordsAffectedByDeduplication": 729,
+  "learnerMeaningsAfterDeduplication": 1261,
+  "duplicatesRemovedFromDisplay": 1288,
+  "wordsAffectedByDeduplication": 724,
   "wordsWithMultipleTranslatedSensesCount": 758,
-  "suspiciousAmbiguousCount": 52,
+  "suspiciousAmbiguousCount": 46,
   "mergedDuplicateExamples": [
     {
       "wordId": "abbreviate-5011",
@@ -262,23 +262,6 @@
       ]
     },
     {
-      "wordId": "addiction-5030",
-      "word": "addiction",
-      "pos": "noun",
-      "meaningZhTW": "入迷",
-      "primarySenseId": "addiction%1:26:00::",
-      "sourceSenseIds": [
-        "addiction%1:26:00::",
-        "addiction%1:12:00::",
-        "addiction%1:04:00::"
-      ],
-      "englishDefinitions": [
-        "being abnormally tolerant to and dependent on something that is psychologically or physically habit-forming (especially alcohol or narcotic drugs)",
-        "an abnormally strong craving",
-        "(Roman law) a formal award by a magistrate of a thing or person to another person (as the award of a debtor to their creditor); a surrender to a master"
-      ]
-    },
-    {
       "wordId": "administer/administrate-5031",
       "word": "administer/administrate",
       "pos": "verb",
@@ -488,6 +471,23 @@
         "to enlarge beyond bounds or the truth",
         "exaggerate or make bigger"
       ]
+    },
+    {
+      "wordId": "analogy-5051",
+      "word": "analogy",
+      "pos": "noun",
+      "meaningZhTW": "相似",
+      "primarySenseId": "analogy%1:09:00::",
+      "sourceSenseIds": [
+        "analogy%1:09:00::",
+        "analogy%1:04:00::",
+        "analogy%1:09:01::"
+      ],
+      "englishDefinitions": [
+        "an inference that if things agree in some respects they probably agree in others",
+        "drawing a comparison in order to show a similarity in some respect",
+        "the religious belief that between creature and creator no similarity can be found so great but that the dissimilarity is always greater; any analogy between God and humans will always be inadequate"
+      ]
     }
   ],
   "suspiciousAmbiguousTranslations": [
@@ -499,26 +499,6 @@
       "pos": "noun",
       "englishDefinition": "(chemistry) the ratio of the total mass of an element in the earth's crust to the total mass of the earth's crust; expressed as a percentage or in parts per million",
       "meaningZhTW": "豐富",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "addiction-5030",
-      "word": "addiction",
-      "senseId": "addiction%1:26:00::",
-      "synsetId": "14086207-n",
-      "pos": "noun",
-      "englishDefinition": "being abnormally tolerant to and dependent on something that is psychologically or physically habit-forming (especially alcohol or narcotic drugs)",
-      "meaningZhTW": "入迷",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "addiction-5030",
-      "word": "addiction",
-      "senseId": "addiction%1:04:00::",
-      "synsetId": "00088669-n",
-      "pos": "noun",
-      "englishDefinition": "(Roman law) a formal award by a magistrate of a thing or person to another person (as the award of a debtor to their creditor); a surrender to a master",
-      "meaningZhTW": "入迷",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -782,16 +762,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "nickel-5599",
-      "word": "nickel",
-      "senseId": "nickel%1:27:00::",
-      "synsetId": "14670788-n",
-      "pos": "noun",
-      "englishDefinition": "a hard malleable ductile silvery metallic element that is resistant to corrosion; used in alloys; occurs in pentlandite and smaltite and garnierite and millerite",
-      "meaningZhTW": "鎳",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "ordeal-5622",
       "word": "ordeal",
       "senseId": "ordeal%1:04:00::",
@@ -822,16 +792,6 @@
       "reason": "complex_or_technical_definition"
     },
     {
-      "wordId": "parliament-5657",
-      "word": "parliament",
-      "senseId": "parliament%1:04:00::",
-      "synsetId": "00493508-n",
-      "pos": "noun",
-      "englishDefinition": "a card game in which you play your sevens and other cards in sequence in the same suit as the sevens; you win if you are the first to use all your cards",
-      "meaningZhTW": "國會",
-      "reason": "complex_or_technical_definition"
-    },
-    {
       "wordId": "petrol-5673",
       "word": "petrol",
       "senseId": "petrol%1:27:00::",
@@ -839,16 +799,6 @@
       "pos": "noun",
       "englishDefinition": "a volatile flammable mixture of hydrocarbons (hexane and heptane and octane etc.) derived from petroleum; used mainly as a fuel in internal-combustion engines",
       "meaningZhTW": "汽油",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "plague-5682",
-      "word": "plague",
-      "senseId": "plague%1:26:00::",
-      "synsetId": "14162173-n",
-      "pos": "noun",
-      "englishDefinition": "a serious (sometimes fatal) infection of rodents caused by Yersinia pestis and accidentally transmitted to humans by the bite of a flea that has bitten an infected animal",
-      "meaningZhTW": "瘟疫",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -919,16 +869,6 @@
       "pos": "noun",
       "englishDefinition": "a craft capable of traveling in outer space; technically, a satellite around the sun",
       "meaningZhTW": "太空船",
-      "reason": "complex_or_technical_definition"
-    },
-    {
-      "wordId": "tornado-5931",
-      "word": "tornado",
-      "senseId": "tornado%1:19:00::",
-      "synsetId": "11539883-n",
-      "pos": "noun",
-      "englishDefinition": "a localized and violently destructive windstorm occurring over land characterized by a funnel-shaped cloud extending toward the ground",
-      "meaningZhTW": "旋風",
       "reason": "complex_or_technical_definition"
     },
     {

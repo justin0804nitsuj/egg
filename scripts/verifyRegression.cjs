@@ -224,6 +224,31 @@ async function runTests() {
   const keepMergedIntact = northNounOK && serviceNounOK && southNounOK && tableNounOK;
   assert(keepMergedIntact, 'Approved KEEP_MERGED groups (north, service, south, table) preserved intact in primary definitions.');
 
+  // 15. All 120 verified senses from final-human-review-reviewed-senses.csv match getWordDefinitions() runtime display
+  const finalCsvPath = path.join(PROJECT_ROOT, 'reports', 'final-human-review-reviewed-senses.csv');
+  if (fs.existsSync(finalCsvPath)) {
+    const finalRecords = parseCsv(fs.readFileSync(finalCsvPath, 'utf8'), { columns: true, skip_empty_lines: true, bom: true });
+    
+    // Dynamically load words.js
+    const { WORDS } = await import(pathToFileURL(path.join(PROJECT_ROOT, 'src', 'data', 'words.js')).href);
+    
+    let all120Match = true;
+    let verifiedCount = 0;
+
+    for (const r of finalRecords) {
+      verifiedCount++;
+      const wId = WORDS.find(w => w.word === r.word)?.id;
+      if (!wId) { all120Match = false; continue; }
+      const defs = getWordDefinitions(wId);
+      if (!defs) { all120Match = false; continue; }
+      const rawSense = defs.rawDefinitions.find(d => d.id === r.senseId);
+      if (!rawSense || rawSense.chineseDefinition !== r.finalZhTw || rawSense.translationStatus !== 'verified') {
+        all120Match = false;
+      }
+    }
+    assert(all120Match && verifiedCount === 120, 'All 120 verified senses from final-human-review-reviewed-senses.csv match getWordDefinitions() and have status "verified".');
+  }
+
   console.log('\n----------------------------------------------------');
   console.log(`SUMMARY: ${passed} Passed, ${failed} Failed.`);
   console.log('----------------------------------------------------\n');

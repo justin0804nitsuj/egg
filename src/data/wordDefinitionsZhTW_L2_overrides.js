@@ -311,14 +311,14 @@ export const ZH_TW_L2_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "basics%1:10:00::": {
-    "meaningZhTW": "最簡單但最重要的部分 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "基礎；基本要點",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "basics%1:09:00::": {
-    "meaningZhTW": "最簡單但最重要的部分 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "基本原理；基本原則",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "basis%1:24:00::": {
     "meaningZhTW": "基礎 (義項 1)",
@@ -381,19 +381,19 @@ export const ZH_TW_L2_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "brain%1:08:00::": {
-    "meaningZhTW": "腦 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "大腦（器官）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "brain%1:09:00::": {
-    "meaningZhTW": "腦 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "智力；腦力",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "brain%1:09:01::": {
-    "meaningZhTW": "腦（金額/款項）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "頭腦；心智",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "burst%2:30:00::": {
     "meaningZhTW": "破裂 (義項 1)",
@@ -601,19 +601,19 @@ export const ZH_TW_L2_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "complex%1:09:00::": {
-    "meaningZhTW": "綜合體 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "複合體；綜合體（概念）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "complex%1:27:00::": {
-    "meaningZhTW": "綜合體 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "錯合物（化學）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "complex%1:12:00::": {
-    "meaningZhTW": "綜合體（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "情結（心理學）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "conflict%1:04:00::": {
     "meaningZhTW": "戰鬥（人物）",
@@ -661,19 +661,19 @@ export const ZH_TW_L2_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "corn%1:20:00::": {
-    "meaningZhTW": "玉蜀黍 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "玉米（植物）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "corn%1:20:02::": {
-    "meaningZhTW": "玉蜀黍（金額/款項）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "玉米粒；玉米穀粒",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "corn%1:13:00::": {
-    "meaningZhTW": "玉蜀黍（人物）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "玉米穗；食用玉米",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "crowd%2:38:01::": {
     "meaningZhTW": "群眾 (義項 1)",
@@ -866,14 +866,14 @@ export const ZH_TW_L2_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "earthquake%1:11:00::": {
-    "meaningZhTW": "地震（交通/載具）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "地震",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "earthquake%1:26:00::": {
-    "meaningZhTW": "地震 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "大動盪；劇變（比喻）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "ease%2:38:00::": {
     "meaningZhTW": "安樂 (義項 1)",
@@ -1051,19 +1051,19 @@ export const ZH_TW_L2_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "gold%1:21:00::": {
-    "meaningZhTW": "黃金 (義項 1)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "金幣",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "gold%1:07:00::": {
-    "meaningZhTW": "黃金 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "金色；金黃色",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "gold%1:27:00::": {
-    "meaningZhTW": "黃金 (義項 3)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "黃金；金（金屬）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "grape%1:13:00::": {
     "meaningZhTW": "葡萄（果實）",
@@ -1121,19 +1121,19 @@ export const ZH_TW_L2_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "hop%1:04:00::": {
-    "meaningZhTW": "單腳跳（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "單腳跳；跳躍",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "hop%1:20:00::": {
-    "meaningZhTW": "單腳跳 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "啤酒花（植物）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "hop%1:11:00::": {
-    "meaningZhTW": "單腳跳（音樂）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "舞會；跳舞聚會（口語）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "judgment%1:09:04::": {
     "meaningZhTW": "判斷；判決 (義項 1)",
@@ -1741,19 +1741,19 @@ export const ZH_TW_L2_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "silver%1:27:00::": {
-    "meaningZhTW": "銀（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "銀；白銀（金屬）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "silver%1:21:00::": {
-    "meaningZhTW": "銀 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "銀幣",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "silver%1:07:00::": {
-    "meaningZhTW": "銀 (義項 3)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "銀色；銀灰色",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "slip%1:04:02::": {
     "meaningZhTW": "滑（軍事）",
@@ -1796,19 +1796,19 @@ export const ZH_TW_L2_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "spider%1:05:00::": {
-    "meaningZhTW": "蜘蛛（金額/款項）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "蜘蛛",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "spider%1:10:00::": {
-    "meaningZhTW": "蜘蛛 (義項 2)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "網路爬蟲；網路蜘蛛（資訊）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "spider%1:06:00::": {
-    "meaningZhTW": "蜘蛛 (義項 3)",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "鑄鐵平底鍋（舊稱）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "sport%1:04:00::": {
     "meaningZhTW": "運動 (義項 1)",
@@ -2046,14 +2046,14 @@ export const ZH_TW_L2_OVERRIDES = {
     "reason": "Second-pass verified. 一致通過"
   },
   "worm%1:05:00::": {
-    "meaningZhTW": "蟲（動物）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "蠕蟲；蟲",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "worm%1:10:00::": {
-    "meaningZhTW": "蟲（軍事）",
-    "status": "auto_differentiated",
-    "reason": "Auto-differentiated to eliminate questionable over-merge [CLEAR_OVER_MERGE]"
+    "meaningZhTW": "電腦蠕蟲；蠕蟲程式",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
   },
   "wound%1:26:00::": {
     "meaningZhTW": "創傷 (義項 1)",
