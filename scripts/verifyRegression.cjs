@@ -82,9 +82,9 @@ async function runTests() {
   assert(l3_dict_before === l3_dict_after, 'Running Level 4 generator does NOT mutate Level 3 dictionary (Level Isolation).');
 
   // 6. Generators are idempotent
-  const l1_dict_run1 = fs.readFileSync(path.join(PROJECT_ROOT, 'src', 'data', 'wordDefinitionsZhTW_L1.js'), 'utf8');
+  const l1_dict_run1 = fs.readFileSync(path.join(PROJECT_ROOT, 'src', 'data', 'wordDefinitionsZhTW_L1.js'), 'utf8').replace(/\r\n/g, '\n');
   execSync('node scripts/generateZhTW.cjs --level 1', { cwd: PROJECT_ROOT });
-  const l1_dict_run2 = fs.readFileSync(path.join(PROJECT_ROOT, 'src', 'data', 'wordDefinitionsZhTW_L1.js'), 'utf8');
+  const l1_dict_run2 = fs.readFileSync(path.join(PROJECT_ROOT, 'src', 'data', 'wordDefinitionsZhTW_L1.js'), 'utf8').replace(/\r\n/g, '\n');
 
   assert(l1_dict_run1 === l1_dict_run2, 'Generators are idempotent (re-running produces byte-for-byte identical output).');
 
