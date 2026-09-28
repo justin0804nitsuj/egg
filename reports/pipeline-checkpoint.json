@@ -1,12 +1,23 @@
 {
   "startedAt": "2026-09-28T08:12:42.086Z",
-  "updatedAt": "2026-09-28T08:14:27.830Z",
+  "updatedAt": "2026-09-28T08:18:48.570Z",
   "completedLevels": [
     5,
-    6
+    6,
+    2
   ],
   "failedLevels": [],
   "levelStats": {
+    "2": {
+      "level": 2,
+      "verifiedAt": "2026-09-28T08:18:23.122Z",
+      "totalWords": 1002,
+      "totalRawSenses": 3299,
+      "totalLearnerMeanings": 1392,
+      "missingDefsCount": 18,
+      "suspiciousCount": 61,
+      "deduplicationRatio": "0.4219"
+    },
     "5": {
       "level": 5,
       "verifiedAt": "2026-09-28T08:12:44.089Z",
@@ -36,6 +47,10 @@
     {
       "level": 6,
       "startedAt": "2026-09-28T08:13:57.716Z"
+    },
+    {
+      "level": 2,
+      "startedAt": "2026-09-28T08:14:28.600Z"
     }
   ]
 }
