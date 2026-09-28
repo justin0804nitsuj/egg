@@ -1,86 +1,16 @@
 {
-  "startedAt": "2026-09-28T08:12:42.086Z",
-  "updatedAt": "2026-09-28T08:20:59.609Z",
+  "updatedAt": "2026-09-28T12:05:43.575Z",
   "completedLevels": [
-    5,
-    6,
+    1,
     2,
     3,
-    4
+    4,
+    5,
+    6
   ],
-  "failedLevels": [],
-  "levelStats": {
-    "2": {
-      "level": 2,
-      "verifiedAt": "2026-09-28T08:18:23.122Z",
-      "totalWords": 1002,
-      "totalRawSenses": 3299,
-      "totalLearnerMeanings": 1392,
-      "missingDefsCount": 18,
-      "suspiciousCount": 61,
-      "deduplicationRatio": "0.4219"
-    },
-    "3": {
-      "level": 3,
-      "verifiedAt": "2026-09-28T08:18:51.494Z",
-      "totalWords": 1002,
-      "totalRawSenses": 3005,
-      "totalLearnerMeanings": 1313,
-      "missingDefsCount": 6,
-      "suspiciousCount": 58,
-      "deduplicationRatio": "0.4369"
-    },
-    "4": {
-      "level": 4,
-      "verifiedAt": "2026-09-28T08:19:47.295Z",
-      "totalWords": 1002,
-      "totalRawSenses": 2874,
-      "totalLearnerMeanings": 1260,
-      "missingDefsCount": 7,
-      "suspiciousCount": 43,
-      "deduplicationRatio": "0.4384"
-    },
-    "5": {
-      "level": 5,
-      "verifiedAt": "2026-09-28T08:12:44.089Z",
-      "totalWords": 1002,
-      "totalRawSenses": 2867,
-      "totalLearnerMeanings": 1492,
-      "missingDefsCount": 4,
-      "suspiciousCount": 62,
-      "deduplicationRatio": "0.5204"
-    },
-    "6": {
-      "level": 6,
-      "verifiedAt": "2026-09-28T08:13:59.455Z",
-      "totalWords": 1002,
-      "totalRawSenses": 2549,
-      "totalLearnerMeanings": 1253,
-      "missingDefsCount": 6,
-      "suspiciousCount": 52,
-      "deduplicationRatio": "0.4916"
-    }
-  },
-  "history": [
-    {
-      "level": 5,
-      "startedAt": "2026-09-28T08:12:42.088Z"
-    },
-    {
-      "level": 6,
-      "startedAt": "2026-09-28T08:13:57.716Z"
-    },
-    {
-      "level": 2,
-      "startedAt": "2026-09-28T08:14:28.600Z"
-    },
-    {
-      "level": 3,
-      "startedAt": "2026-09-28T08:18:49.185Z"
-    },
-    {
-      "level": 4,
-      "startedAt": "2026-09-28T08:19:42.712Z"
-    }
-  ]
+  "totalGroupsProcessed": 491,
+  "ambiguousProcessed": 44,
+  "recommendedProcessed": 447,
+  "mergedSensesCount": 9,
+  "differentiatedSensesCount": 1365
 }
