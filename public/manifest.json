@@ -4,8 +4,8 @@
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
-  "background_color": "#0B0E14",
-  "theme_color": "#0B0E14",
+  "background_color": "#0B0E17",
+  "theme_color": "#0B0E17",
   "description": "離線英文單字學習與 SRS 複習 App",
   "icons": [
     {
