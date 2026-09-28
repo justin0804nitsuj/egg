@@ -1,5 +1,21 @@
 // Generated & Verified Traditional Chinese (Taiwan) Override Layer for Level 4 Words.
 export const ZH_TW_L4_OVERRIDES = {
+  "vessel%1:06:00::": {
+    "meaningZhTW": "船",
+    "status": "verified",
+    "reason": "Learner Priority"
+  },
+  "vessel%1:08:00::": {
+    "meaningZhTW": "血管；脈管",
+    "status": "verified",
+    "reason": "Learner Priority"
+  },
+  "vessel%1:06:01::": {
+    "meaningZhTW": "容器",
+    "status": "verified",
+    "reason": "Learner Priority"
+  },
+
   "aggressive%3:00:00::": {
     "meaningZhTW": "侵略的 (義項 1)",
     "status": "ai_reviewed",

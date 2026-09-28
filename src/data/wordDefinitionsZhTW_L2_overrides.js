@@ -1,5 +1,48 @@
 // Generated & Verified Traditional Chinese (Taiwan) Override Layer for Level 2 Words.
 export const ZH_TW_L2_OVERRIDES = {
+  "capital%5:00:00:superior:02": {
+    "meaningZhTW": "極好的；頂好的",
+    "status": "verified",
+    "reason": "Learner Priority"
+  },
+  "capital%5:00:00:primary:00": {
+    "meaningZhTW": "主要的",
+    "status": "verified",
+    "reason": "Learner Priority"
+  },
+  "capital%5:00:00:uppercase:00": {
+    "meaningZhTW": "大寫的",
+    "status": "verified",
+    "reason": "Learner Priority"
+  },
+
+  "cell%1:03:00::": {
+    "meaningZhTW": "細胞",
+    "status": "verified",
+    "reason": "Learner Priority"
+  },
+  "cell%1:06:00::": {
+    "meaningZhTW": "電池",
+    "status": "verified",
+    "reason": "Learner Priority"
+  },
+  "cell%1:06:01::": {
+    "meaningZhTW": "牢房",
+    "status": "verified",
+    "reason": "Learner Priority"
+  },
+  "cell%1:06:03::": {
+    "meaningZhTW": "單元",
+    "status": "verified",
+    "reason": "Learner Priority"
+  },
+
+  "capital%1:10:00::": {
+    "meaningZhTW": "大寫字母",
+    "status": "verified",
+    "reason": "Learner Priority"
+  },
+
   "accident%1:11:01::": {
     "meaningZhTW": "車禍；意外事故",
     "status": "verified",

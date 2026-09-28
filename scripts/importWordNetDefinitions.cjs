@@ -606,8 +606,15 @@ async function loadWords() {
   const modulePath = pathToFileURL(
     path.join(PROJECT_ROOT, 'src', 'data', 'words.js')
   ).href;
-
   const { WORDS } = await import(modulePath);
+
+  const overridesPath = pathToFileURL(
+    path.join(PROJECT_ROOT, 'src', 'data', 'learnerPriorityOverrides.js')
+  ).href;
+  const { LEARNER_PRIORITY_OVERRIDES } = await import(overridesPath);
+  
+  // Attach to global for easy access later
+  global.LEARNER_PRIORITY_OVERRIDES = LEARNER_PRIORITY_OVERRIDES;
 
   return WORDS;
 }
@@ -946,6 +953,18 @@ function buildDictionary({
       }
     });
 
+    const priorityList = global.LEARNER_PRIORITY_OVERRIDES?.[word.word] || [];
+    if (priorityList.length > 0) {
+      definitions.sort((a, b) => {
+        const indexA = priorityList.indexOf(a.id);
+        const indexB = priorityList.indexOf(b.id);
+        if (indexA !== -1 && indexB !== -1) return indexA - indexB;
+        if (indexA !== -1) return -1;
+        if (indexB !== -1) return 1;
+        return 0; // maintain original relative order otherwise
+      });
+    }
+
     const {
       primary,
       secondary,
@@ -1249,7 +1268,7 @@ function expandDefinition(item, wordLevel = 1) {
   const generated = generatedMap?.[id];
 
   const meaningZh = override?.meaningZhTW ?? generated?.meaningZhTW ?? chineseDefinition;
-  const status = override ? 'verified' : (generated ? 'verified' : translationStatus);
+  const status = override?.status ?? (override ? 'verified' : (generated ? 'ai_reviewed' : translationStatus));
 
   return {
     id,

@@ -36,7 +36,7 @@ const GENERATED_BY_LEVEL = {
 };
 
 export const WORD_DEFINITION_METADATA = {
-  "generatedAt": "2026-09-28T14:05:22.522Z",
+  "generatedAt": "2026-09-28T14:47:36.766Z",
   "scope": "all-words",
   "processedWordCount": 6012,
   "matchedWordCount": 5920,
@@ -1654,6 +1654,18 @@ export const WORD_DEFINITIONS_BY_ID = {
   "along-25": {
     "p": [
       [
+        "along%4:02:02::",
+        "00069153-r",
+        "r",
+        "adverb",
+        "adv.all",
+        "in addition (usually followed by ‘with’)",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "along%4:02:01::",
         "00068768-r",
         "r",
@@ -1676,7 +1688,9 @@ export const WORD_DEFINITIONS_BY_ID = {
         [],
         "openEnglishWordNet",
         "pending_review"
-      ],
+      ]
+    ],
+    "s": [
       [
         "along%4:02:03::",
         "00069386-r",
@@ -1684,20 +1698,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "adverb",
         "adv.all",
         "to a more advanced state",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ]
-    ],
-    "s": [
-      [
-        "along%4:02:02::",
-        "00069153-r",
-        "r",
-        "adverb",
-        "adv.all",
-        "in addition (usually followed by ‘with’)",
         null,
         [],
         "openEnglishWordNet",
@@ -2788,6 +2788,30 @@ export const WORD_DEFINITIONS_BY_ID = {
   "attack-51": {
     "p": [
       [
+        "attack%2:30:00::",
+        "00348264-v",
+        "v",
+        "verb",
+        "verb.change",
+        "set to work upon; turn one's energies vigorously to a task",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
+        "attack%1:26:00::",
+        "14104857-n",
+        "n",
+        "noun",
+        "noun.state",
+        "a sudden occurrence of an uncontrollable condition",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "attack%1:04:00::",
         "00974725-n",
         "n",
@@ -2806,18 +2830,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "noun",
         "noun.act",
         "an offensive move in a sport or game",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "attack%1:10:00::",
-        "06724098-n",
-        "n",
-        "noun",
-        "noun.communication",
-        "intense adverse criticism",
         null,
         [],
         "openEnglishWordNet",
@@ -2846,21 +2858,21 @@ export const WORD_DEFINITIONS_BY_ID = {
         [],
         "openEnglishWordNet",
         "pending_review"
-      ],
+      ]
+    ],
+    "s": [
       [
-        "attack%2:33:01::",
-        "01120867-v",
-        "v",
-        "verb",
-        "verb.competition",
-        "take the initiative and go on the offensive",
+        "attack%1:10:00::",
+        "06724098-n",
+        "n",
+        "noun",
+        "noun.communication",
+        "intense adverse criticism",
         null,
         [],
         "openEnglishWordNet",
         "pending_review"
-      ]
-    ],
-    "s": [
+      ],
       [
         "attack%1:04:03::",
         "00942956-n",
@@ -2898,18 +2910,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "pending_review"
       ],
       [
-        "attack%1:26:00::",
-        "14104857-n",
-        "n",
-        "noun",
-        "noun.state",
-        "a sudden occurrence of an uncontrollable condition",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
         "attack%1:22:00::",
         "13456721-n",
         "n",
@@ -2934,24 +2934,24 @@ export const WORD_DEFINITIONS_BY_ID = {
         "pending_review"
       ],
       [
-        "attack%2:33:02::",
-        "01122487-v",
+        "attack%2:33:01::",
+        "01120867-v",
         "v",
         "verb",
         "verb.competition",
-        "attack someone physically or emotionally",
+        "take the initiative and go on the offensive",
         null,
         [],
         "openEnglishWordNet",
         "pending_review"
       ],
       [
-        "attack%2:30:00::",
-        "00348264-v",
+        "attack%2:33:02::",
+        "01122487-v",
         "v",
         "verb",
-        "verb.change",
-        "set to work upon; turn one's energies vigorously to a task",
+        "verb.competition",
+        "attack someone physically or emotionally",
         null,
         [],
         "openEnglishWordNet",
@@ -5578,6 +5578,18 @@ export const WORD_DEFINITIONS_BY_ID = {
   "behind-81": {
     "p": [
       [
+        "behind%4:02:02::",
+        "00223959-r",
+        "r",
+        "adverb",
+        "adv.all",
+        "in debt",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "behind%4:02:00::",
         "00223465-r",
         "r",
@@ -5600,7 +5612,9 @@ export const WORD_DEFINITIONS_BY_ID = {
         [],
         "openEnglishWordNet",
         "pending_review"
-      ],
+      ]
+    ],
+    "s": [
       [
         "behind%4:02:04::",
         "00224359-r",
@@ -5612,9 +5626,7 @@ export const WORD_DEFINITIONS_BY_ID = {
         [],
         "openEnglishWordNet",
         "pending_review"
-      ]
-    ],
-    "s": [
+      ],
       [
         "behind%4:02:03::",
         "00224193-r",
@@ -5622,18 +5634,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "adverb",
         "adv.all",
         "in or into an inferior position",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "behind%4:02:02::",
-        "00223959-r",
-        "r",
-        "adverb",
-        "adv.all",
-        "in debt",
         null,
         [],
         "openEnglishWordNet",
@@ -17822,6 +17822,18 @@ export const WORD_DEFINITIONS_BY_ID = {
   "cold-181": {
     "p": [
       [
+        "cold%5:00:00:unconscious:00",
+        "00574324-s",
+        "s",
+        "adjective",
+        "adj.all",
+        "unconscious from a blow or shock or intoxication",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "cold%3:00:01::",
         "01254201-a",
         "a",
@@ -17840,18 +17852,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "adjective",
         "adj.all",
         "extended meanings; especially of psychological coldness; without human warmth or emotion",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "cold%5:00:00:stale:00",
-        "01073210-s",
-        "s",
-        "adjective",
-        "adj.all",
-        "having lost freshness through passage of time",
         null,
         [],
         "openEnglishWordNet",
@@ -17895,6 +17895,18 @@ export const WORD_DEFINITIONS_BY_ID = {
       ]
     ],
     "s": [
+      [
+        "cold%5:00:00:stale:00",
+        "01073210-s",
+        "s",
+        "adjective",
+        "adj.all",
+        "having lost freshness through passage of time",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
       [
         "cold%5:00:00:cool:03",
         "02542870-s",
@@ -17974,18 +17986,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "adjective",
         "adj.all",
         "feeling or showing no enthusiasm",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "cold%5:00:00:unconscious:00",
-        "00574324-s",
-        "s",
-        "adjective",
-        "adj.all",
-        "unconscious from a blow or shock or intoxication",
         null,
         [],
         "openEnglishWordNet",
@@ -18248,6 +18248,18 @@ export const WORD_DEFINITIONS_BY_ID = {
   "come-184": {
     "p": [
       [
+        "come%2:42:00::",
+        "02735838-v",
+        "v",
+        "verb",
+        "verb.stative",
+        "come under, be classified or included",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "come%2:38:00::",
         "01853188-v",
         "v",
@@ -18270,7 +18282,9 @@ export const WORD_DEFINITIONS_BY_ID = {
         [],
         "openEnglishWordNet",
         "pending_review"
-      ],
+      ]
+    ],
+    "s": [
       [
         "come%2:30:01::",
         "00342572-v",
@@ -18282,9 +18296,7 @@ export const WORD_DEFINITIONS_BY_ID = {
         [],
         "openEnglishWordNet",
         "pending_review"
-      ]
-    ],
-    "s": [
+      ],
       [
         "come%2:30:03::",
         "00543200-v",
@@ -18376,18 +18388,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "verb",
         "verb.motion",
         "cover a certain distance",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "come%2:42:00::",
-        "02735838-v",
-        "v",
-        "verb",
-        "verb.stative",
-        "come under, be classified or included",
         null,
         [],
         "openEnglishWordNet",
@@ -18875,6 +18875,18 @@ export const WORD_DEFINITIONS_BY_ID = {
   "cool-191": {
     "p": [
       [
+        "cool%5:00:00:fashionable:00",
+        "00974839-s",
+        "s",
+        "adjective",
+        "adj.all",
+        "fashionable and attractive at the time; often skilled or socially adept",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "cool%3:00:01::",
         "02540350-a",
         "a",
@@ -18893,18 +18905,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "adjective",
         "adj.all",
         "marked by calm self-control (especially in trying circumstances); unemotional",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "cool%3:00:03::",
-        "02542621-a",
-        "a",
-        "adjective",
-        "adj.all",
-        "inducing the impression of coolness; used especially of greens and blues and violets when referring to color",
         null,
         [],
         "openEnglishWordNet",
@@ -18949,6 +18949,18 @@ export const WORD_DEFINITIONS_BY_ID = {
     ],
     "s": [
       [
+        "cool%3:00:03::",
+        "02542621-a",
+        "a",
+        "adjective",
+        "adj.all",
+        "inducing the impression of coolness; used especially of greens and blues and violets when referring to color",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "cool%3:00:02::",
         "02541827-a",
         "a",
@@ -18979,18 +18991,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "adjective",
         "adj.all",
         "used of a quantity or amount (especially of money) for emphasis",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "cool%5:00:00:fashionable:00",
-        "00974839-s",
-        "s",
-        "adjective",
-        "adj.all",
-        "fashionable and attractive at the time; often skilled or socially adept",
         null,
         [],
         "openEnglishWordNet",
@@ -19533,6 +19533,18 @@ export const WORD_DEFINITIONS_BY_ID = {
   "count-197": {
     "p": [
       [
+        "count%2:31:00::",
+        "00686982-v",
+        "v",
+        "verb",
+        "verb.cognition",
+        "include as if by counting",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "count%2:32:00::",
         "00950103-v",
         "v",
@@ -19551,18 +19563,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "verb",
         "verb.stative",
         "have weight; have import, carry weight",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "count%2:32:03::",
-        "00952463-v",
-        "v",
-        "verb",
-        "verb.communication",
-        "show consideration for; take into account",
         null,
         [],
         "openEnglishWordNet",
@@ -19607,6 +19607,18 @@ export const WORD_DEFINITIONS_BY_ID = {
     ],
     "s": [
       [
+        "count%2:32:03::",
+        "00952463-v",
+        "v",
+        "verb",
+        "verb.communication",
+        "show consideration for; take into account",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "count%2:32:01::",
         "00949889-v",
         "v",
@@ -19625,18 +19637,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "verb",
         "verb.stative",
         "put into a group",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "count%2:31:00::",
-        "00686982-v",
-        "v",
-        "verb",
-        "verb.cognition",
-        "include as if by counting",
         null,
         [],
         "openEnglishWordNet",
@@ -19916,6 +19916,18 @@ export const WORD_DEFINITIONS_BY_ID = {
   "cover-201": {
     "p": [
       [
+        "cover%1:06:00::",
+        "03126349-n",
+        "n",
+        "noun",
+        "noun.artifact",
+        "a recording of a song that was first recorded or made popular by somebody else",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "cover%2:35:00::",
         "01335412-v",
         "v",
@@ -19970,18 +19982,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "noun",
         "noun.artifact",
         "bedding that keeps a person warm in bed",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "cover%1:04:00::",
-        "01051609-n",
-        "n",
-        "noun",
-        "noun.act",
-        "the act of concealing the existence of something by obstructing the view of it",
         null,
         [],
         "openEnglishWordNet",
@@ -20266,6 +20266,18 @@ export const WORD_DEFINITIONS_BY_ID = {
         "pending_review"
       ],
       [
+        "cover%1:04:00::",
+        "01051609-n",
+        "n",
+        "noun",
+        "noun.act",
+        "the act of concealing the existence of something by obstructing the view of it",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "cover%1:06:04::",
         "02843848-n",
         "n",
@@ -20320,18 +20332,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "noun",
         "noun.possession",
         "a fixed charge by a restaurant or nightclub over and above the charge for food and drink",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "cover%1:06:00::",
-        "03126349-n",
-        "n",
-        "noun",
-        "noun.artifact",
-        "a recording of a song that was first recorded or made popular by somebody else",
         null,
         [],
         "openEnglishWordNet",
@@ -25738,6 +25738,18 @@ export const WORD_DEFINITIONS_BY_ID = {
   "drive-243": {
     "p": [
       [
+        "drive%1:04:00::",
+        "00308457-n",
+        "n",
+        "noun",
+        "noun.act",
+        "a journey in a vehicle (usually an automobile)",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "drive%2:38:01::",
         "01934845-v",
         "v",
@@ -25792,18 +25804,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "noun",
         "noun.artifact",
         "a mechanism by which force or power is transmitted in a machine",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "drive%1:04:02::",
-        "00799906-n",
-        "n",
-        "noun",
-        "noun.act",
-        "a series of actions advancing a principle or tending toward a particular end",
         null,
         [],
         "openEnglishWordNet",
@@ -26040,6 +26040,18 @@ export const WORD_DEFINITIONS_BY_ID = {
         "pending_review"
       ],
       [
+        "drive%1:04:02::",
+        "00799906-n",
+        "n",
+        "noun",
+        "noun.act",
+        "a series of actions advancing a principle or tending toward a particular end",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "drive%1:06:01::",
         "03249091-n",
         "n",
@@ -26082,18 +26094,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "noun",
         "noun.act",
         "the act of driving a herd of animals overland",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "drive%1:04:00::",
-        "00308457-n",
-        "n",
-        "noun",
-        "noun.act",
-        "a journey in a vehicle (usually an automobile)",
         null,
         [],
         "openEnglishWordNet",
@@ -29073,6 +29073,18 @@ export const WORD_DEFINITIONS_BY_ID = {
   "expect-282": {
     "p": [
       [
+        "expect%2:29:00::",
+        "00058790-v",
+        "v",
+        "verb",
+        "verb.body",
+        "be pregnant with",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "expect%2:31:00::",
         "00721658-v",
         "v",
@@ -29095,7 +29107,9 @@ export const WORD_DEFINITIONS_BY_ID = {
         [],
         "openEnglishWordNet",
         "pending_review"
-      ],
+      ]
+    ],
+    "s": [
       [
         "expect%2:31:01::",
         "00721987-v",
@@ -29107,9 +29121,7 @@ export const WORD_DEFINITIONS_BY_ID = {
         [],
         "openEnglishWordNet",
         "pending_review"
-      ]
-    ],
-    "s": [
+      ],
       [
         "expect%2:31:05::",
         "00594097-v",
@@ -29129,18 +29141,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "verb",
         "verb.body",
         "look forward to the birth of a child",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "expect%2:29:00::",
-        "00058790-v",
-        "v",
-        "verb",
-        "verb.body",
-        "be pregnant with",
         null,
         [],
         "openEnglishWordNet",
@@ -29377,6 +29377,18 @@ export const WORD_DEFINITIONS_BY_ID = {
   "face-287": {
     "p": [
       [
+        "face%1:15:00::",
+        "08527687-n",
+        "n",
+        "noun",
+        "noun.location",
+        "a surface forming part of the outside of an object",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "face%1:08:00::",
         "05608392-n",
         "n",
@@ -29395,18 +29407,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "noun",
         "noun.attribute",
         "the feelings expressed on a person's face",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "face%1:07:00::",
-        "04686776-n",
-        "n",
-        "noun",
-        "noun.attribute",
-        "the general outward appearance of something",
         null,
         [],
         "openEnglishWordNet",
@@ -29451,6 +29451,18 @@ export const WORD_DEFINITIONS_BY_ID = {
     ],
     "s": [
       [
+        "face%1:07:00::",
+        "04686776-n",
+        "n",
+        "noun",
+        "noun.attribute",
+        "the general outward appearance of something",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "face%1:06:02::",
         "03318818-n",
         "n",
@@ -29469,18 +29481,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "noun",
         "noun.person",
         "a part of a person that is used to refer to a person",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "face%1:15:00::",
-        "08527687-n",
-        "n",
-        "noun",
-        "noun.location",
-        "a surface forming part of the outside of an object",
         null,
         [],
         "openEnglishWordNet",
@@ -29856,36 +29856,48 @@ export const WORD_DEFINITIONS_BY_ID = {
   "fall-291": {
     "p": [
       [
+        "fall%2:30:00::",
+        "00343098-v",
+        "v",
+        "verb",
+        "verb.change",
+        "occur at a specified time or place",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
+        "fall%1:11:00::",
+        "07376986-n",
+        "n",
+        "noun",
+        "noun.event",
+        "a free and rapid descent by the force of gravity",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
+        "fall%1:11:02::",
+        "07486511-n",
+        "n",
+        "noun",
+        "noun.event",
+        "when a wrestler's shoulders are forced to the mat",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "fall%1:28:00::",
         "15261656-n",
         "n",
         "noun",
         "noun.time",
         "the season when the leaves fall from the trees",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "fall%1:04:01::",
-        "00077704-n",
-        "n",
-        "noun",
-        "noun.act",
-        "a sudden drop from an upright position",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "fall%1:17:00::",
-        "09288526-n",
-        "n",
-        "noun",
-        "noun.object",
-        "a downward slope or bend",
         null,
         [],
         "openEnglishWordNet",
@@ -29914,21 +29926,33 @@ export const WORD_DEFINITIONS_BY_ID = {
         [],
         "openEnglishWordNet",
         "pending_review"
-      ],
+      ]
+    ],
+    "s": [
       [
-        "fall%2:30:08::",
-        "00147635-v",
-        "v",
-        "verb",
-        "verb.change",
-        "pass suddenly and passively into a state of body or mind",
+        "fall%1:04:01::",
+        "00077704-n",
+        "n",
+        "noun",
+        "noun.act",
+        "a sudden drop from an upright position",
         null,
         [],
         "openEnglishWordNet",
         "pending_review"
-      ]
-    ],
-    "s": [
+      ],
+      [
+        "fall%1:17:00::",
+        "09288526-n",
+        "n",
+        "noun",
+        "noun.object",
+        "a downward slope or bend",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
       [
         "fall%1:04:03::",
         "00758272-n",
@@ -29978,30 +30002,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "pending_review"
       ],
       [
-        "fall%1:11:02::",
-        "07486511-n",
-        "n",
-        "noun",
-        "noun.event",
-        "when a wrestler's shoulders are forced to the mat",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "fall%1:11:00::",
-        "07376986-n",
-        "n",
-        "noun",
-        "noun.event",
-        "a free and rapid descent by the force of gravity",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
         "fall%1:07:00::",
         "05119135-n",
         "n",
@@ -30020,6 +30020,18 @@ export const WORD_DEFINITIONS_BY_ID = {
         "noun",
         "noun.event",
         "a movement downward",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
+        "fall%2:30:08::",
+        "00147635-v",
+        "v",
+        "verb",
+        "verb.change",
+        "pass suddenly and passively into a state of body or mind",
         null,
         [],
         "openEnglishWordNet",
@@ -30092,18 +30104,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "verb",
         "verb.possession",
         "be captured",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "fall%2:30:00::",
-        "00343098-v",
-        "v",
-        "verb",
-        "verb.change",
-        "occur at a specified time or place",
         null,
         [],
         "openEnglishWordNet",
@@ -31495,6 +31495,18 @@ export const WORD_DEFINITIONS_BY_ID = {
   "fight-305": {
     "p": [
       [
+        "fight%1:04:03::",
+        "00447478-n",
+        "n",
+        "noun",
+        "noun.act",
+        "a boxing or wrestling match",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "fight%2:33:00::",
         "01092746-v",
         "v",
@@ -31553,18 +31565,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         [],
         "openEnglishWordNet",
         "pending_review"
-      ],
-      [
-        "fight%1:07:00::",
-        "04844656-n",
-        "n",
-        "noun",
-        "noun.attribute",
-        "an aggressive willingness to compete",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
       ]
     ],
     "s": [
@@ -31581,24 +31581,24 @@ export const WORD_DEFINITIONS_BY_ID = {
         "pending_review"
       ],
       [
-        "fight%1:10:00::",
-        "07199051-n",
+        "fight%1:07:00::",
+        "04844656-n",
         "n",
         "noun",
-        "noun.communication",
-        "an intense verbal dispute",
+        "noun.attribute",
+        "an aggressive willingness to compete",
         null,
         [],
         "openEnglishWordNet",
         "pending_review"
       ],
       [
-        "fight%1:04:03::",
-        "00447478-n",
+        "fight%1:10:00::",
+        "07199051-n",
         "n",
         "noun",
-        "noun.act",
-        "a boxing or wrestling match",
+        "noun.communication",
+        "an intense verbal dispute",
         null,
         [],
         "openEnglishWordNet",
@@ -32250,6 +32250,18 @@ export const WORD_DEFINITIONS_BY_ID = {
   "finger-311": {
     "p": [
       [
+        "finger%2:32:00::",
+        "00926402-v",
+        "v",
+        "verb",
+        "verb.communication",
+        "indicate the fingering for the playing of musical scores for keyboard instruments",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "finger%1:08:00::",
         "05574137-n",
         "n",
@@ -32308,7 +32320,9 @@ export const WORD_DEFINITIONS_BY_ID = {
         [],
         "openEnglishWordNet",
         "pending_review"
-      ],
+      ]
+    ],
+    "s": [
       [
         "finger%2:35:01::",
         "01317233-v",
@@ -32316,20 +32330,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "verb",
         "verb.contact",
         "search for on the computer",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ]
-    ],
-    "s": [
-      [
-        "finger%2:32:00::",
-        "00926402-v",
-        "v",
-        "verb",
-        "verb.communication",
-        "indicate the fingering for the playing of musical scores for keyboard instruments",
         null,
         [],
         "openEnglishWordNet",
@@ -32526,6 +32526,18 @@ export const WORD_DEFINITIONS_BY_ID = {
   "fire-313": {
     "p": [
       [
+        "fire%2:41:00::",
+        "02407967-v",
+        "v",
+        "verb",
+        "verb.social",
+        "terminate the employment of; discharge from an office or position",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "fire%1:11:00::",
         "07317454-n",
         "n",
@@ -32580,18 +32592,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "verb",
         "verb.competition",
         "cause to go off",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "fire%2:30:00::",
-        "00321337-v",
-        "v",
-        "verb",
-        "verb.change",
-        "bake in a kiln so as to harden",
         null,
         [],
         "openEnglishWordNet",
@@ -32672,12 +32672,12 @@ export const WORD_DEFINITIONS_BY_ID = {
         "pending_review"
       ],
       [
-        "fire%2:41:00::",
-        "02407967-v",
+        "fire%2:30:00::",
+        "00321337-v",
         "v",
         "verb",
-        "verb.social",
-        "terminate the employment of; discharge from an office or position",
+        "verb.change",
+        "bake in a kiln so as to harden",
         null,
         [],
         "openEnglishWordNet",
@@ -34831,6 +34831,18 @@ export const WORD_DEFINITIONS_BY_ID = {
   "front-334": {
     "p": [
       [
+        "front%1:19:00::",
+        "11480887-n",
+        "n",
+        "noun",
+        "noun.phenomenon",
+        "(meteorology) the atmospheric phenomenon created at the boundary between two different air masses",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "front%3:00:00::",
         "00199739-a",
         "a",
@@ -34865,7 +34877,9 @@ export const WORD_DEFINITIONS_BY_ID = {
         [],
         "openEnglishWordNet",
         "pending_review"
-      ],
+      ]
+    ],
+    "s": [
       [
         "front%1:09:00::",
         "05949020-n",
@@ -34877,9 +34891,7 @@ export const WORD_DEFINITIONS_BY_ID = {
         [],
         "openEnglishWordNet",
         "pending_review"
-      ]
-    ],
-    "s": [
+      ],
       [
         "front%1:06:00::",
         "03403382-n",
@@ -34911,18 +34923,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "noun",
         "noun.state",
         "a sphere of activity involving effort",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "front%1:19:00::",
-        "11480887-n",
-        "n",
-        "noun",
-        "noun.phenomenon",
-        "(meteorology) the atmospheric phenomenon created at the boundary between two different air masses",
         null,
         [],
         "openEnglishWordNet",
@@ -38045,6 +38045,18 @@ export const WORD_DEFINITIONS_BY_ID = {
   "gray-361": {
     "p": [
       [
+        "gray%5:00:00:intermediate:00",
+        "01018282-s",
+        "s",
+        "adjective",
+        "adj.all",
+        "intermediate in character or position",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "gray%5:00:00:achromatic:00",
         "00390371-s",
         "s",
@@ -38063,18 +38075,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "adjective",
         "adj.all",
         "showing characteristics of age, especially having grey or white hair",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "gray%5:00:00:southern:02",
-        "01611702-s",
-        "s",
-        "adjective",
-        "adj.all",
-        "used to signify the Confederate forces in the American Civil War (who wore grey uniforms)",
         null,
         [],
         "openEnglishWordNet",
@@ -38119,12 +38119,12 @@ export const WORD_DEFINITIONS_BY_ID = {
     ],
     "s": [
       [
-        "gray%5:00:00:intermediate:00",
-        "01018282-s",
+        "gray%5:00:00:southern:02",
+        "01611702-s",
         "s",
         "adjective",
         "adj.all",
-        "intermediate in character or position",
+        "used to signify the Confederate forces in the American Civil War (who wore grey uniforms)",
         null,
         [],
         "openEnglishWordNet",
@@ -40360,36 +40360,48 @@ export const WORD_DEFINITIONS_BY_ID = {
   "head-383": {
     "p": [
       [
+        "head%2:42:00::",
+        "02700129-v",
+        "v",
+        "verb",
+        "verb.stative",
+        "be in the front of or on top of",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
+        "head%1:15:00::",
+        "08681922-n",
+        "n",
+        "noun",
+        "noun.location",
+        "the top of something",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
+        "head%1:18:00::",
+        "10182584-n",
+        "n",
+        "noun",
+        "noun.person",
+        "a person who is in charge",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "head%1:08:00::",
         "05546258-n",
         "n",
         "noun",
         "noun.body",
         "the upper part of the human body or the front part of the body in animals; contains the face and brains",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "head%1:05:00::",
-        "01320872-n",
-        "n",
-        "noun",
-        "noun.animal",
-        "a single domestic animal",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "head%1:09:00::",
-        "05619057-n",
-        "n",
-        "noun",
-        "noun.cognition",
-        "that which is responsible for one's thoughts, feelings, and conscious brain functions; the seat of the faculty of reason",
         null,
         [],
         "openEnglishWordNet",
@@ -40418,28 +40430,28 @@ export const WORD_DEFINITIONS_BY_ID = {
         [],
         "openEnglishWordNet",
         "pending_review"
-      ],
-      [
-        "head%2:38:02::",
-        "02003455-v",
-        "v",
-        "verb",
-        "verb.motion",
-        "travel in front of; go in advance of others",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
       ]
     ],
     "s": [
       [
-        "head%1:18:00::",
-        "10182584-n",
+        "head%1:05:00::",
+        "01320872-n",
         "n",
         "noun",
-        "noun.person",
-        "a person who is in charge",
+        "noun.animal",
+        "a single domestic animal",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
+        "head%1:09:00::",
+        "05619057-n",
+        "n",
+        "noun",
+        "noun.cognition",
+        "that which is responsible for one's thoughts, feelings, and conscious brain functions; the seat of the faculty of reason",
         null,
         [],
         "openEnglishWordNet",
@@ -40464,18 +40476,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "noun",
         "noun.phenomenon",
         "the pressure exerted by a fluid",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "head%1:15:00::",
-        "08681922-n",
-        "n",
-        "noun",
-        "noun.location",
-        "the top of something",
         null,
         [],
         "openEnglishWordNet",
@@ -40794,6 +40794,18 @@ export const WORD_DEFINITIONS_BY_ID = {
         "pending_review"
       ],
       [
+        "head%2:38:02::",
+        "02003455-v",
+        "v",
+        "verb",
+        "verb.motion",
+        "travel in front of; go in advance of others",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
         "head%2:42:01::",
         "02734898-v",
         "v",
@@ -40824,18 +40836,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "verb",
         "verb.stative",
         "take its rise",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "head%2:42:00::",
-        "02700129-v",
-        "v",
-        "verb",
-        "verb.stative",
-        "be in the front of or on top of",
         null,
         [],
         "openEnglishWordNet",
@@ -108628,12 +108628,12 @@ export const WORD_DEFINITIONS_BY_ID = {
   "capital-1130": {
     "p": [
       [
-        "capital%1:21:01::",
-        "13375435-n",
+        "capital%1:15:00::",
+        "08535783-n",
         "n",
         "noun",
-        "noun.possession",
-        "assets available for use in the production of further assets",
+        "noun.location",
+        "a seat of government",
         null,
         [],
         "openEnglishWordNet",
@@ -108652,12 +108652,12 @@ export const WORD_DEFINITIONS_BY_ID = {
         "pending_review"
       ],
       [
-        "capital%1:15:00::",
-        "08535783-n",
+        "capital%1:10:00::",
+        "06837277-n",
         "n",
         "noun",
-        "noun.location",
-        "a seat of government",
+        "noun.communication",
+        "one of the large alphabetic characters used as the first letter in writing or printing proper names and sometimes for emphasis",
         null,
         [],
         "openEnglishWordNet",
@@ -108702,12 +108702,12 @@ export const WORD_DEFINITIONS_BY_ID = {
     ],
     "s": [
       [
-        "capital%1:10:00::",
-        "06837277-n",
+        "capital%1:21:01::",
+        "13375435-n",
         "n",
         "noun",
-        "noun.communication",
-        "one of the large alphabetic characters used as the first letter in writing or printing proper names and sometimes for emphasis",
+        "noun.possession",
+        "assets available for use in the production of further assets",
         null,
         [],
         "openEnglishWordNet",
@@ -109022,18 +109022,6 @@ export const WORD_DEFINITIONS_BY_ID = {
   "cell-1136": {
     "p": [
       [
-        "cell%1:06:03::",
-        "02995166-n",
-        "n",
-        "noun",
-        "noun.artifact",
-        "any small compartment",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
         "cell%1:03:00::",
         "00006484-n",
         "n",
@@ -109056,9 +109044,33 @@ export const WORD_DEFINITIONS_BY_ID = {
         [],
         "openEnglishWordNet",
         "pending_review"
+      ],
+      [
+        "cell%1:06:01::",
+        "02994757-n",
+        "n",
+        "noun",
+        "noun.artifact",
+        "a room where a prisoner is kept",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
       ]
     ],
     "s": [
+      [
+        "cell%1:06:03::",
+        "02995166-n",
+        "n",
+        "noun",
+        "noun.artifact",
+        "any small compartment",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
       [
         "cell%1:14:00::",
         "08375521-n",
@@ -109090,18 +109102,6 @@ export const WORD_DEFINITIONS_BY_ID = {
         "noun",
         "noun.artifact",
         "small room in which a monk or nun lives",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
-        "cell%1:06:01::",
-        "02994757-n",
-        "n",
-        "noun",
-        "noun.artifact",
-        "a room where a prisoner is kept",
         null,
         [],
         "openEnglishWordNet",
@@ -282541,24 +282541,24 @@ export const WORD_DEFINITIONS_BY_ID = {
   "vessel-3986": {
     "p": [
       [
-        "vessel%1:08:00::",
-        "05404676-n",
-        "n",
-        "noun",
-        "noun.body",
-        "a tube in which a body fluid circulates",
-        null,
-        [],
-        "openEnglishWordNet",
-        "pending_review"
-      ],
-      [
         "vessel%1:06:00::",
         "04537861-n",
         "n",
         "noun",
         "noun.artifact",
         "a craft designed for water transportation",
+        null,
+        [],
+        "openEnglishWordNet",
+        "pending_review"
+      ],
+      [
+        "vessel%1:08:00::",
+        "05404676-n",
+        "n",
+        "noun",
+        "noun.body",
+        "a tube in which a body fluid circulates",
         null,
         [],
         "openEnglishWordNet",
@@ -374983,7 +374983,7 @@ function expandDefinition(item, wordLevel = 1) {
   const generated = generatedMap?.[id];
 
   const meaningZh = override?.meaningZhTW ?? generated?.meaningZhTW ?? chineseDefinition;
-  const status = override ? 'verified' : (generated ? 'verified' : translationStatus);
+  const status = override?.status ?? (override ? 'verified' : (generated ? 'ai_reviewed' : translationStatus));
 
   return {
     id,
