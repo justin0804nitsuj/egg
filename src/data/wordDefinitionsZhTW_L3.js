@@ -3504,19 +3504,19 @@ export const WORD_DEFINITIONS_ZH_TW_L3 = {
     "meaningZhTW": "掛鉤"
   },
   "harbor%1:15:00::": {
-    "meaningZhTW": "港"
+    "meaningZhTW": "庇護"
   },
   "harbor%1:06:00::": {
     "meaningZhTW": "港"
   },
   "harbor%2:37:00::": {
-    "meaningZhTW": "港"
+    "meaningZhTW": "懷有(想法)"
   },
   "harbor%2:42:00::": {
-    "meaningZhTW": "港"
+    "meaningZhTW": "庇護"
   },
   "harbor%2:40:00::": {
-    "meaningZhTW": "港"
+    "meaningZhTW": "飼養(動物)"
   },
   "harm%1:26:00::": {
     "meaningZhTW": "傷害"
@@ -5490,13 +5490,13 @@ export const WORD_DEFINITIONS_ZH_TW_L3 = {
     "meaningZhTW": "珍珠"
   },
   "peel%2:35:00::": {
-    "meaningZhTW": "皮"
+    "meaningZhTW": "削皮；剝皮"
   },
   "peel%2:35:01::": {
-    "meaningZhTW": "皮"
+    "meaningZhTW": "剝落"
   },
   "peel%2:29:02::": {
-    "meaningZhTW": "皮"
+    "meaningZhTW": "脫衣服"
   },
   "peel%1:13:00::": {
     "meaningZhTW": "皮"

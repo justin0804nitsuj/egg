@@ -3627,10 +3627,10 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "公司"
   },
   "firm%2:30:00::": {
-    "meaningZhTW": "公司"
+    "meaningZhTW": "變堅實"
   },
   "firm%2:30:01::": {
-    "meaningZhTW": "公司"
+    "meaningZhTW": "使堅固"
   },
   "fisherman%1:18:00::": {
     "meaningZhTW": "漁夫"
@@ -4800,7 +4800,7 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "鐵"
   },
   "iron%2:35:00::": {
-    "meaningZhTW": "鐵"
+    "meaningZhTW": "熨平(衣服)"
   },
   "iron%5:00:00:robust:00": {
     "meaningZhTW": "鐵"
@@ -7422,7 +7422,7 @@ export const WORD_DEFINITIONS_ZH_TW_L2 = {
     "meaningZhTW": "沙"
   },
   "sand%2:35:00::": {
-    "meaningZhTW": "沙"
+    "meaningZhTW": "用砂紙磨光"
   },
   "sandwich%1:13:00::": {
     "meaningZhTW": "三明治"

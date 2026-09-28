@@ -361,9 +361,147 @@ function disambiguateWordSense(word, pos, eng, orig, index, total, lexicalFile) 
 
   if (word === 'bear') {
     if (eng.includes('mammal') || eng.includes('carnivore')) return { meaningZhTW: '熊', isSuspicious: false };
-    if (eng.includes('endure') || eng.includes('unpleasant')) return { meaningZhTW: '忍受；承受', isSuspicious: false };
+    if (eng.includes('investor') || eng.includes('pessimistic')) return { meaningZhTW: '空頭；看跌者', isSuspicious: false };
+    if (eng.includes('maintain') || eng.includes('theory') || eng.includes('thoughts')) return { meaningZhTW: '抱有；懷有', isSuspicious: false };
+    if (eng.includes('cause to be born')) return { meaningZhTW: '生育；產下', isSuspicious: false };
+    if (eng.includes('have') && !eng.includes('unpleasant')) return { meaningZhTW: '具有；承擔', isSuspicious: false };
+    if (eng.includes('endure') || eng.includes('unpleasant') || eng.includes('put up with')) return { meaningZhTW: '忍受；承受', isSuspicious: false };
     if (eng.includes('support') || eng.includes('hold up')) return { meaningZhTW: '支撐；承受重量', isSuspicious: false };
     if (eng.includes('have or contain') || eng.includes('feature')) return { meaningZhTW: '帶有；帶有...特徵', isSuspicious: false };
+  }
+
+  if (word === 'bridge') {
+    if (eng.includes('connect or reduce')) return { meaningZhTW: '架橋於；填補(差距)', isSuspicious: false };
+    if (eng.includes('make a bridge')) return { meaningZhTW: '架橋於', isSuspicious: false };
+    if (eng.includes('cross over')) return { meaningZhTW: '越過橋樑', isSuspicious: false };
+  }
+
+  if (word === 'dream') {
+    if (eng.includes('daydream') || eng.includes('fantasy')) return { meaningZhTW: '做白日夢；夢想', isSuspicious: false };
+    if (eng.includes('sleeping')) return { meaningZhTW: '做夢；夢見', isSuspicious: false };
+  }
+
+  if (word === 'fire') {
+    if (eng.includes('cause to go off')) return { meaningZhTW: '開火；射擊', isSuspicious: false };
+  }
+
+  if (word === 'fish') {
+    if (eng.includes('seek indirectly')) return { meaningZhTW: '套問；暗中探查', isSuspicious: false };
+    if (eng.includes('catch or try')) return { meaningZhTW: '捕魚；釣魚', isSuspicious: false };
+  }
+
+  if (word === 'flower' || word === 'bloom') {
+    if (eng.includes('produce or yield flowers')) return { meaningZhTW: '開花', isSuspicious: false };
+  }
+
+  if (word === 'blossom') {
+    if (eng.includes('produce or yield flowers')) return { meaningZhTW: '開花', isSuspicious: false };
+    if (eng.includes('develop or come')) return { meaningZhTW: '蓬勃發展', isSuspicious: false };
+  }
+
+  if (word === 'foot') {
+    if (eng.includes('pay for')) return { meaningZhTW: '支付(費用)', isSuspicious: false };
+    if (eng.includes('walk')) return { meaningZhTW: '步行', isSuspicious: false };
+    if (eng.includes('add a column')) return { meaningZhTW: '結算(帳目)', isSuspicious: false };
+  }
+
+  if (word === 'hand') {
+    if (eng.includes('place into the hands')) return { meaningZhTW: '遞給；交給', isSuspicious: false };
+    if (eng.includes('guide or conduct')) return { meaningZhTW: '引導；攙扶', isSuspicious: false };
+  }
+
+  if (word === 'head') {
+    if (eng.includes('travel in front of')) return { meaningZhTW: '率領；朝...前進', isSuspicious: false };
+  }
+
+  if (word === 'oil') {
+    if (eng.includes('cover with oil')) return { meaningZhTW: '塗油於；給...加油/潤滑', isSuspicious: false };
+    if (eng.includes('administer an oil')) return { meaningZhTW: '塗抹聖油', isSuspicious: false };
+  }
+
+  if (word === 'paper') {
+    if (eng.includes('cover with wallpaper')) return { meaningZhTW: '貼壁紙', isSuspicious: false };
+    if (eng.includes('cover with paper')) return { meaningZhTW: '包紙；貼紙', isSuspicious: false };
+  }
+
+  if (word === 'park') {
+    if (eng.includes('place temporarily')) return { meaningZhTW: '停放', isSuspicious: false };
+    if (eng.includes('parking space')) return { meaningZhTW: '停車', isSuspicious: false };
+  }
+
+  if (word === 'people') {
+    if (eng.includes('fill with people')) return { meaningZhTW: '居住於；使充滿人口', isSuspicious: false };
+    if (eng.includes('furnish with people')) return { meaningZhTW: '給...配備人員', isSuspicious: false };
+  }
+
+  if (word === 'rain') {
+    if (eng.includes('precipitate as rain')) return { meaningZhTW: '下雨', isSuspicious: false };
+  }
+
+  if (word === 'salt') {
+    if (eng.includes('add salt to')) return { meaningZhTW: '加鹽於', isSuspicious: false };
+    if (eng.includes('sprinkle as if')) return { meaningZhTW: '撒鹽於', isSuspicious: false };
+    if (eng.includes('zest or liveliness')) return { meaningZhTW: '增添趣味', isSuspicious: false };
+  }
+
+  if (word === 'school') {
+    if (eng.includes('educate in')) return { meaningZhTW: '教育；訓練', isSuspicious: false };
+    if (eng.includes('teach or refine')) return { meaningZhTW: '培養；陶冶', isSuspicious: false };
+    if (eng.includes('fish')) return { meaningZhTW: '成群游動(指魚群)', isSuspicious: false };
+  }
+
+  if (word === 'ship') {
+    if (eng.includes('transport commercially')) return { meaningZhTW: '運送；裝船', isSuspicious: false };
+    if (eng.includes('hire for work')) return { meaningZhTW: '僱用(船員)', isSuspicious: false };
+    if (eng.includes('go on board')) return { meaningZhTW: '上船', isSuspicious: false };
+  }
+
+  if (word === 'shop') {
+    if (eng.includes('do one\'s shopping at')) return { meaningZhTW: '在...購物', isSuspicious: false };
+    if (eng.includes('shop around')) return { meaningZhTW: '貨比三家', isSuspicious: false };
+    if (eng.includes('do one\'s shopping')) return { meaningZhTW: '購物；逛街', isSuspicious: false };
+  }
+
+  if (word === 'star') {
+    if (eng.includes('feature as the star')) return { meaningZhTW: '由...主演', isSuspicious: false };
+    if (eng.includes('be the star')) return { meaningZhTW: '主演', isSuspicious: false };
+    if (eng.includes('asterisk')) return { meaningZhTW: '標以星號', isSuspicious: false };
+  }
+
+  if (word === 'store') {
+    if (eng.includes('keep or lay aside')) return { meaningZhTW: '儲存；存放', isSuspicious: false };
+    if (eng.includes('find a place for')) return { meaningZhTW: '保管；收藏', isSuspicious: false };
+  }
+
+  if (word === 'water') {
+    if (eng.includes('supply with water')) return { meaningZhTW: '澆水；供水', isSuspicious: false };
+    if (eng.includes('provide with water')) return { meaningZhTW: '給...水喝', isSuspicious: false };
+    if (eng.includes('tears or saliva')) return { meaningZhTW: '流淚；流口水', isSuspicious: false };
+  }
+
+  if (word === 'firm') {
+    if (eng.includes('become taut')) return { meaningZhTW: '變堅實', isSuspicious: false };
+    if (eng.includes('make taut')) return { meaningZhTW: '使堅固', isSuspicious: false };
+  }
+
+  if (word === 'iron') {
+    if (eng.includes('heated iron')) return { meaningZhTW: '熨平(衣服)', isSuspicious: false };
+  }
+
+  if (word === 'sand') {
+    if (eng.includes('sandpaper')) return { meaningZhTW: '用砂紙磨光', isSuspicious: false };
+  }
+
+  if (word === 'harbor') {
+    if (eng.includes('maintain')) return { meaningZhTW: '懷有(想法)', isSuspicious: false };
+    if (eng.includes('shelter')) return { meaningZhTW: '庇護', isSuspicious: false };
+    if (eng.includes('animals')) return { meaningZhTW: '飼養(動物)', isSuspicious: false };
+  }
+
+  if (word === 'peel') {
+    if (eng.includes('remove the skin')) return { meaningZhTW: '削皮；剝皮', isSuspicious: false };
+    if (eng.includes('come off in flakes')) return { meaningZhTW: '剝落', isSuspicious: false };
+    if (eng.includes('undressed')) return { meaningZhTW: '脫衣服', isSuspicious: false };
   }
 
   return null;

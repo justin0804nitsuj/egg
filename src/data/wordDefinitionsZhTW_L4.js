@@ -861,7 +861,7 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "花"
   },
   "bloom%2:30:00::": {
-    "meaningZhTW": "花"
+    "meaningZhTW": "開花"
   },
   "blossom%1:20:00::": {
     "meaningZhTW": "花"
@@ -870,10 +870,10 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "花"
   },
   "blossom%2:30:01::": {
-    "meaningZhTW": "花"
+    "meaningZhTW": "開花"
   },
   "blossom%2:30:00::": {
-    "meaningZhTW": "花"
+    "meaningZhTW": "蓬勃發展"
   },
   "boast%2:32:00::": {
     "meaningZhTW": "吹牛"

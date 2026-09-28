@@ -552,13 +552,13 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "豆子"
   },
   "bear%2:42:01::": {
-    "meaningZhTW": "熊"
+    "meaningZhTW": "具有；承擔"
   },
   "bear%2:37:01::": {
-    "meaningZhTW": "熊"
+    "meaningZhTW": "抱有；懷有"
   },
   "bear%2:29:01::": {
-    "meaningZhTW": "熊"
+    "meaningZhTW": "生育；產下"
   },
   "bear%1:05:00::": {
     "meaningZhTW": "熊"
@@ -1035,13 +1035,13 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "橋狀物；連接物"
   },
   "bridge%2:42:00::": {
-    "meaningZhTW": "橋"
+    "meaningZhTW": "架橋於；填補(差距)"
   },
   "bridge%2:35:00::": {
-    "meaningZhTW": "橋"
+    "meaningZhTW": "架橋於"
   },
   "bridge%2:38:00::": {
-    "meaningZhTW": "橋"
+    "meaningZhTW": "越過橋樑"
   },
   "bright%3:00:00::": {
     "meaningZhTW": "明亮的"
@@ -2427,10 +2427,10 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "夢"
   },
   "dream%2:36:00::": {
-    "meaningZhTW": "夢"
+    "meaningZhTW": "做白日夢；夢想"
   },
   "dream%2:39:00::": {
-    "meaningZhTW": "夢"
+    "meaningZhTW": "做夢；夢見"
   },
   "dress%1:06:00::": {
     "meaningZhTW": "服裝"
@@ -3228,7 +3228,7 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "開槍；射擊"
   },
   "fire%2:33:00::": {
-    "meaningZhTW": "火"
+    "meaningZhTW": "開火；射擊"
   },
   "fire%2:30:00::": {
     "meaningZhTW": "點燃；發動引擎"
@@ -3258,10 +3258,10 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "魚"
   },
   "fish%2:35:00::": {
-    "meaningZhTW": "魚"
+    "meaningZhTW": "套問；暗中探查"
   },
   "fish%2:33:00::": {
-    "meaningZhTW": "魚"
+    "meaningZhTW": "捕魚；釣魚"
   },
   "floor%1:06:00::": {
     "meaningZhTW": "地板"
@@ -3288,7 +3288,7 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "花"
   },
   "flower%2:30:00::": {
-    "meaningZhTW": "花"
+    "meaningZhTW": "開花"
   },
   "fly%2:38:00::": {
     "meaningZhTW": "飛行；飛翔"
@@ -3351,13 +3351,13 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "腳"
   },
   "foot%2:40:00::": {
-    "meaningZhTW": "腳"
+    "meaningZhTW": "支付(費用)"
   },
   "foot%2:38:00::": {
-    "meaningZhTW": "腳"
+    "meaningZhTW": "步行"
   },
   "foot%2:31:00::": {
-    "meaningZhTW": "腳"
+    "meaningZhTW": "結算(帳目)"
   },
   "foreign%3:00:02::": {
     "meaningZhTW": "外國的"
@@ -3879,10 +3879,10 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "手"
   },
   "hand%2:40:00::": {
-    "meaningZhTW": "手"
+    "meaningZhTW": "遞給；交給"
   },
   "hand%2:38:00::": {
-    "meaningZhTW": "手"
+    "meaningZhTW": "引導；攙扶"
   },
   "hang%2:35:03::": {
     "meaningZhTW": "懸掛"
@@ -3969,7 +3969,7 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "率領；領導"
   },
   "head%2:38:02::": {
-    "meaningZhTW": "頭"
+    "meaningZhTW": "率領；朝...前進"
   },
   "headache%1:09:00::": {
     "meaningZhTW": "頭痛"
@@ -6255,10 +6255,10 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "油"
   },
   "oil%2:35:00::": {
-    "meaningZhTW": "油"
+    "meaningZhTW": "塗油於；給...加油/潤滑"
   },
   "oil%2:29:00::": {
-    "meaningZhTW": "油"
+    "meaningZhTW": "塗抹聖油"
   },
   "old%3:00:02::": {
     "meaningZhTW": "以前"
@@ -6495,10 +6495,10 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "紙"
   },
   "paper%2:35:00::": {
-    "meaningZhTW": "紙"
+    "meaningZhTW": "包紙；貼紙"
   },
   "paper%2:35:01::": {
-    "meaningZhTW": "紙"
+    "meaningZhTW": "貼壁紙"
   },
   "parent%1:18:00::": {
     "meaningZhTW": "父母"
@@ -6516,10 +6516,10 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "公園"
   },
   "park%2:35:00::": {
-    "meaningZhTW": "公園"
+    "meaningZhTW": "停放"
   },
   "park%2:38:00::": {
-    "meaningZhTW": "公園"
+    "meaningZhTW": "停車"
   },
   "part%1:24:00::": {
     "meaningZhTW": "部分"
@@ -6636,10 +6636,10 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "人"
   },
   "people%2:30:00::": {
-    "meaningZhTW": "人"
+    "meaningZhTW": "居住於；使充滿人口"
   },
   "people%2:42:00::": {
-    "meaningZhTW": "人"
+    "meaningZhTW": "給...配備人員"
   },
   "perhaps%4:02:00::": {
     "meaningZhTW": "也許"
@@ -7353,7 +7353,7 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "雨"
   },
   "rain%2:43:00::": {
-    "meaningZhTW": "雨"
+    "meaningZhTW": "下雨"
   },
   "rainbow%1:17:00::": {
     "meaningZhTW": "彩虹"
@@ -7821,13 +7821,13 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "鹽"
   },
   "salt%2:39:00::": {
-    "meaningZhTW": "鹽"
+    "meaningZhTW": "加鹽於"
   },
   "salt%2:35:00::": {
-    "meaningZhTW": "鹽"
+    "meaningZhTW": "撒鹽於"
   },
   "salt%2:30:01::": {
-    "meaningZhTW": "鹽"
+    "meaningZhTW": "增添趣味"
   },
   "same%3:00:02::": {
     "meaningZhTW": "相同的"
@@ -7866,13 +7866,13 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "學校"
   },
   "school%2:41:01::": {
-    "meaningZhTW": "學校"
+    "meaningZhTW": "教育；訓練"
   },
   "school%2:41:02::": {
-    "meaningZhTW": "學校"
+    "meaningZhTW": "培養；陶冶"
   },
   "school%2:38:00::": {
-    "meaningZhTW": "學校"
+    "meaningZhTW": "成群游動(指魚群)"
   },
   "science%1:09:00::": {
     "meaningZhTW": "科學"
@@ -8106,13 +8106,13 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "船"
   },
   "ship%2:38:00::": {
-    "meaningZhTW": "船"
+    "meaningZhTW": "運送；裝船"
   },
   "ship%2:41:00::": {
-    "meaningZhTW": "船"
+    "meaningZhTW": "僱用(船員)"
   },
   "ship%2:38:01::": {
-    "meaningZhTW": "船"
+    "meaningZhTW": "上船"
   },
   "shirt%1:06:00::": {
     "meaningZhTW": "襯衫"
@@ -8136,13 +8136,13 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "商店"
   },
   "shop%2:40:00::": {
-    "meaningZhTW": "商店"
+    "meaningZhTW": "購物；逛街"
   },
   "shop%2:41:00::": {
-    "meaningZhTW": "商店"
+    "meaningZhTW": "在...購物"
   },
   "shop%2:40:01::": {
-    "meaningZhTW": "商店"
+    "meaningZhTW": "貨比三家"
   },
   "short%3:00:02::": {
     "meaningZhTW": "短的"
@@ -8691,13 +8691,13 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "星"
   },
   "star%2:42:00::": {
-    "meaningZhTW": "星"
+    "meaningZhTW": "由...主演"
   },
   "star%2:36:00::": {
-    "meaningZhTW": "星"
+    "meaningZhTW": "主演"
   },
   "star%2:30:00::": {
-    "meaningZhTW": "星"
+    "meaningZhTW": "標以星號"
   },
   "start%2:30:00::": {
     "meaningZhTW": "驚起"
@@ -8790,10 +8790,10 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "商店"
   },
   "store%2:40:00::": {
-    "meaningZhTW": "商店"
+    "meaningZhTW": "儲存；存放"
   },
   "store%2:40:02::": {
-    "meaningZhTW": "商店"
+    "meaningZhTW": "保管；收藏"
   },
   "story%1:10:03::": {
     "meaningZhTW": "故事"
@@ -9951,13 +9951,13 @@ export const WORD_DEFINITIONS_ZH_TW_L1 = {
     "meaningZhTW": "水"
   },
   "water%2:30:00::": {
-    "meaningZhTW": "水"
+    "meaningZhTW": "澆水；供水"
   },
   "water%2:40:00::": {
-    "meaningZhTW": "水"
+    "meaningZhTW": "給...水喝"
   },
   "water%2:29:00::": {
-    "meaningZhTW": "水"
+    "meaningZhTW": "流淚；流口水"
   },
   "wave%1:11:01::": {
     "meaningZhTW": "波"
