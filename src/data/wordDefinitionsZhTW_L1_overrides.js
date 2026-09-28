@@ -1,6 +1,4 @@
-// Manual verified Traditional Chinese (Taiwan) sense overrides for Level 1 Words.
-// Differentiates over-merged WordNet senses to ensure accurate learner definitions.
-
+// Generated & Verified Traditional Chinese (Taiwan) Override Layer for Level 1 Words.
 export const ZH_TW_L1_OVERRIDES = {
   "plane%1:25:00::": {
     "meaningZhTW": "（數學）平面",

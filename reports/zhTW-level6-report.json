@@ -1,0 +1,955 @@
+{
+  "generatedAt": "2026-09-28T14:05:17.640Z",
+  "scope": "level-6-only",
+  "level6WordCount": 1002,
+  "level6MatchedWordCount": 996,
+  "translatedRawSenseCount": 2549,
+  "learnerMeaningsBeforeDeduplication": 2549,
+  "learnerMeaningsAfterDeduplication": 1261,
+  "duplicatesRemovedFromDisplay": 1288,
+  "wordsAffectedByDeduplication": 724,
+  "wordsWithMultipleTranslatedSensesCount": 758,
+  "suspiciousAmbiguousCount": 46,
+  "mergedDuplicateExamples": [
+    {
+      "wordId": "abbreviate-5011",
+      "word": "abbreviate",
+      "pos": "verb",
+      "meaningZhTW": "縮寫",
+      "primarySenseId": "abbreviate%2:30:01::",
+      "sourceSenseIds": [
+        "abbreviate%2:30:01::",
+        "abbreviate%2:30:00::"
+      ],
+      "englishDefinitions": [
+        "reduce in scope while retaining essential elements",
+        "shorten"
+      ]
+    },
+    {
+      "wordId": "abide-5012",
+      "word": "abide",
+      "pos": "verb",
+      "meaningZhTW": "停留",
+      "primarySenseId": "abide%2:42:01::",
+      "sourceSenseIds": [
+        "abide%2:42:01::",
+        "abide%2:31:00::"
+      ],
+      "englishDefinitions": [
+        "dwell",
+        "put up with something or somebody unpleasant"
+      ]
+    },
+    {
+      "wordId": "aboriginal-5013",
+      "word": "aboriginal",
+      "pos": "adjective",
+      "meaningZhTW": "原始的",
+      "primarySenseId": "aboriginal%3:00:00::",
+      "sourceSenseIds": [
+        "aboriginal%3:00:00::",
+        "aboriginal%5:00:00:early:00"
+      ],
+      "englishDefinitions": [
+        "characteristic of or relating to people inhabiting a region from the beginning",
+        "having existed from the beginning; in an earliest or original stage or state"
+      ]
+    },
+    {
+      "wordId": "abound-5014",
+      "word": "abound",
+      "pos": "verb",
+      "meaningZhTW": "大量存在",
+      "primarySenseId": "abound%2:42:00::",
+      "sourceSenseIds": [
+        "abound%2:42:00::",
+        "abound%2:42:01::"
+      ],
+      "englishDefinitions": [
+        "be abundant or plentiful; exist in large quantities",
+        "be in a state of movement or action"
+      ]
+    },
+    {
+      "wordId": "abstraction-5015",
+      "word": "abstraction",
+      "pos": "noun",
+      "meaningZhTW": "抽象化",
+      "primarySenseId": "abstraction%1:09:00::",
+      "sourceSenseIds": [
+        "abstraction%1:09:00::",
+        "abstraction%1:04:00::",
+        "abstraction%1:09:02::"
+      ],
+      "englishDefinitions": [
+        "a concept or idea not associated with any specific instance",
+        "the act of withdrawing or removing something",
+        "the process of formulating general concepts by abstracting common properties of instances"
+      ]
+    },
+    {
+      "wordId": "abundance-5016",
+      "word": "abundance",
+      "pos": "noun",
+      "meaningZhTW": "豐富",
+      "primarySenseId": "abundance%1:07:00::",
+      "sourceSenseIds": [
+        "abundance%1:07:00::",
+        "abundance%1:24:01::",
+        "abundance%1:24:00::"
+      ],
+      "englishDefinitions": [
+        "the property of a more than adequate quantity or supply",
+        "(physics) the ratio of the number of atoms of a specific isotope of an element to the total number of isotopes present",
+        "(chemistry) the ratio of the total mass of an element in the earth's crust to the total mass of the earth's crust; expressed as a percentage or in parts per million"
+      ]
+    },
+    {
+      "wordId": "academy-5017",
+      "word": "academy",
+      "pos": "noun",
+      "meaningZhTW": "學院",
+      "primarySenseId": "academy%1:14:00::",
+      "sourceSenseIds": [
+        "academy%1:14:00::",
+        "academy%1:14:02::",
+        "academy%1:14:01::"
+      ],
+      "englishDefinitions": [
+        "a secondary school (usually private)",
+        "an institution for the advancement of art or science or literature",
+        "a school for special training"
+      ]
+    },
+    {
+      "wordId": "accessory-5018",
+      "word": "accessory",
+      "pos": "noun",
+      "meaningZhTW": "附件",
+      "primarySenseId": "accessory%1:06:01::",
+      "sourceSenseIds": [
+        "accessory%1:06:01::",
+        "accessory%1:06:00::"
+      ],
+      "englishDefinitions": [
+        "clothing that is worn or carried, but not part of your main clothing",
+        "a supplementary component that improves capability"
+      ]
+    },
+    {
+      "wordId": "accessory-5018",
+      "word": "accessory",
+      "pos": "adjective",
+      "meaningZhTW": "附件",
+      "primarySenseId": "accessory%5:00:01:supportive:00",
+      "sourceSenseIds": [
+        "accessory%5:00:01:supportive:00",
+        "accessory%5:00:00:supportive:00"
+      ],
+      "englishDefinitions": [
+        "aiding and abetting in a crime",
+        "furnishing added support"
+      ]
+    },
+    {
+      "wordId": "acclaim-5019",
+      "word": "acclaim",
+      "pos": "verb",
+      "meaningZhTW": "喝彩",
+      "primarySenseId": "acclaim%2:32:00::",
+      "sourceSenseIds": [
+        "acclaim%2:32:00::",
+        "acclaim%2:32:01::"
+      ],
+      "englishDefinitions": [
+        "praise vociferously",
+        "clap one's hands or shout after performances to indicate approval"
+      ]
+    },
+    {
+      "wordId": "accordance-5020",
+      "word": "accordance",
+      "pos": "noun",
+      "meaningZhTW": "一致",
+      "primarySenseId": "accordance%1:10:00::",
+      "sourceSenseIds": [
+        "accordance%1:10:00::",
+        "accordance%1:04:00::"
+      ],
+      "englishDefinitions": [
+        "concurrence of opinion",
+        "the act of granting rights"
+      ]
+    },
+    {
+      "wordId": "accordingly-5021",
+      "word": "accordingly",
+      "pos": "adverb",
+      "meaningZhTW": "相應地",
+      "primarySenseId": "accordingly%4:02:00::",
+      "sourceSenseIds": [
+        "accordingly%4:02:00::",
+        "accordingly%4:02:01::"
+      ],
+      "englishDefinitions": [
+        "(sentence connectors) because of the reason given",
+        "in accordance with"
+      ]
+    },
+    {
+      "wordId": "accumulate-5023",
+      "word": "accumulate",
+      "pos": "verb",
+      "meaningZhTW": "積聚",
+      "primarySenseId": "accumulate%2:40:00::",
+      "sourceSenseIds": [
+        "accumulate%2:40:00::",
+        "accumulate%2:30:00::"
+      ],
+      "englishDefinitions": [
+        "get or gather together",
+        "increase in amount by collecting or gathering"
+      ]
+    },
+    {
+      "wordId": "accumulation-5024",
+      "word": "accumulation",
+      "pos": "noun",
+      "meaningZhTW": "積聚",
+      "primarySenseId": "accumulation%1:22:00::",
+      "sourceSenseIds": [
+        "accumulation%1:22:00::",
+        "accumulation%1:14:00::",
+        "accumulation%1:04:00::"
+      ],
+      "englishDefinitions": [
+        "an increase by natural growth or addition",
+        "several things grouped together or considered as a whole",
+        "the act of accumulating"
+      ]
+    },
+    {
+      "wordId": "accusation-5025",
+      "word": "accusation",
+      "pos": "noun",
+      "meaningZhTW": "控告",
+      "primarySenseId": "accusation%1:10:00::",
+      "sourceSenseIds": [
+        "accusation%1:10:00::",
+        "accusation%1:10:01::"
+      ],
+      "englishDefinitions": [
+        "a formal charge of wrongdoing brought against a person; the act of imputing blame or guilt",
+        "an assertion that someone is guilty of a fault or offence"
+      ]
+    },
+    {
+      "wordId": "adaptation-5029",
+      "word": "adaptation",
+      "pos": "noun",
+      "meaningZhTW": "適應",
+      "primarySenseId": "adaptation%1:10:00::",
+      "sourceSenseIds": [
+        "adaptation%1:10:00::",
+        "adaptation%1:22:00::",
+        "adaptation%1:04:01::"
+      ],
+      "englishDefinitions": [
+        "a written work (as a novel) that has been recast in a new form",
+        "the process of adapting to something (such as environmental conditions)",
+        "(physiology) the responsive adjustment of a sense organ (as the eye) to varying conditions (as of light)"
+      ]
+    },
+    {
+      "wordId": "administer/administrate-5031",
+      "word": "administer/administrate",
+      "pos": "verb",
+      "meaningZhTW": "管理；施行",
+      "primarySenseId": "administer%2:41:00::",
+      "sourceSenseIds": [
+        "administer%2:41:00::",
+        "administer%2:40:01::",
+        "administer%2:40:00::"
+      ],
+      "englishDefinitions": [
+        "work in an administrative capacity; supervise or be in charge of",
+        "perform (a church sacrament) ritually",
+        "administer or bestow, as in small portions"
+      ]
+    },
+    {
+      "wordId": "admiral-5032",
+      "word": "admiral",
+      "pos": "noun",
+      "meaningZhTW": "艦隊司令",
+      "primarySenseId": "admiral%1:18:00::",
+      "sourceSenseIds": [
+        "admiral%1:18:00::",
+        "admiral%1:05:00::"
+      ],
+      "englishDefinitions": [
+        "the supreme commander of a fleet; ranks above a vice admiral and below a fleet admiral",
+        "any of several brightly colored butterflies"
+      ]
+    },
+    {
+      "wordId": "adolescence-5033",
+      "word": "adolescence",
+      "pos": "noun",
+      "meaningZhTW": "青春期",
+      "primarySenseId": "adolescence%1:28:00::",
+      "sourceSenseIds": [
+        "adolescence%1:28:00::",
+        "adolescence%1:26:00::"
+      ],
+      "englishDefinitions": [
+        "the time period between the beginning of puberty and adulthood",
+        "in the state that someone is in between puberty and adulthood"
+      ]
+    },
+    {
+      "wordId": "aesthetic-5035",
+      "word": "aesthetic",
+      "pos": "adjective",
+      "meaningZhTW": "美學的",
+      "primarySenseId": "aesthetic%3:01:00::",
+      "sourceSenseIds": [
+        "aesthetic%3:01:00::",
+        "aesthetic%3:00:00::",
+        "aesthetic%5:00:00:tasteful:02"
+      ],
+      "englishDefinitions": [
+        "relating to or dealing with the subject of aesthetics",
+        "concerning or characterized by an appreciation of beauty or good taste",
+        "aesthetically pleasing"
+      ]
+    },
+    {
+      "wordId": "affirm-5038",
+      "word": "affirm",
+      "pos": "verb",
+      "meaningZhTW": "斷言",
+      "primarySenseId": "affirm%2:31:00::",
+      "sourceSenseIds": [
+        "affirm%2:31:00::",
+        "affirm%2:32:00::",
+        "affirm%2:32:01::"
+      ],
+      "englishDefinitions": [
+        "establish or strengthen as with new evidence or facts",
+        "to declare or affirm solemnly and formally as true",
+        "say yes to"
+      ]
+    },
+    {
+      "wordId": "airtight-5039",
+      "word": "airtight",
+      "pos": "adjective",
+      "meaningZhTW": "氣密的",
+      "primarySenseId": "airtight%5:00:00:invulnerable:00",
+      "sourceSenseIds": [
+        "airtight%5:00:00:invulnerable:00",
+        "airtight%5:00:00:tight:02"
+      ],
+      "englishDefinitions": [
+        "having no weak points",
+        "not allowing air or gas to pass in or out"
+      ]
+    },
+    {
+      "wordId": "airway-5040",
+      "word": "airway",
+      "pos": "noun",
+      "meaningZhTW": "空中航線",
+      "primarySenseId": "airway%1:06:01::",
+      "sourceSenseIds": [
+        "airway%1:06:01::",
+        "airway%1:15:00::",
+        "airway%1:08:00::"
+      ],
+      "englishDefinitions": [
+        "a duct that provides ventilation (as in mines)",
+        "a designated route followed by airplanes in flying from one airport to another",
+        "the passages through which air enters and leaves the body"
+      ]
+    },
+    {
+      "wordId": "alienate-5042",
+      "word": "alienate",
+      "pos": "verb",
+      "meaningZhTW": "使疏遠",
+      "primarySenseId": "alienate%2:37:00::",
+      "sourceSenseIds": [
+        "alienate%2:37:00::",
+        "alienate%2:40:00::",
+        "alienate%2:37:01::"
+      ],
+      "englishDefinitions": [
+        "arouse hostility or indifference in where there had formerly been love, affection, or friendliness",
+        "transfer property or ownership",
+        "make withdrawn or isolated or emotionally dissociated"
+      ]
+    },
+    {
+      "wordId": "align-5043",
+      "word": "align",
+      "pos": "verb",
+      "meaningZhTW": "排列",
+      "primarySenseId": "align%2:30:00::",
+      "sourceSenseIds": [
+        "align%2:30:00::",
+        "align%2:42:00::",
+        "align%2:31:00::"
+      ],
+      "englishDefinitions": [
+        "place in a line or arrange so as to be parallel or straight",
+        "be or come into adjustment with",
+        "align oneself with a group or a way of thinking"
+      ]
+    },
+    {
+      "wordId": "alligator-5045",
+      "word": "alligator",
+      "pos": "noun",
+      "meaningZhTW": "短吻鱷",
+      "primarySenseId": "alligator%1:27:00::",
+      "sourceSenseIds": [
+        "alligator%1:27:00::",
+        "alligator%1:05:00::"
+      ],
+      "englishDefinitions": [
+        "leather made from alligator's hide",
+        "either of two amphibious reptiles related to crocodiles but with shorter broader snouts"
+      ]
+    },
+    {
+      "wordId": "altitude-5046",
+      "word": "altitude",
+      "pos": "noun",
+      "meaningZhTW": "高度",
+      "primarySenseId": "altitude%1:07:00::",
+      "sourceSenseIds": [
+        "altitude%1:07:00::",
+        "altitude%1:25:00::",
+        "altitude%1:24:00::"
+      ],
+      "englishDefinitions": [
+        "elevation especially above sea level or above the earth's surface",
+        "the perpendicular distance from the base of a geometric figure to the opposite vertex (or side if parallel)",
+        "angular distance above the horizon (especially of a celestial object)"
+      ]
+    },
+    {
+      "wordId": "ambiguity-5048",
+      "word": "ambiguity",
+      "pos": "noun",
+      "meaningZhTW": "不明確",
+      "primarySenseId": "ambiguity%1:10:00::",
+      "sourceSenseIds": [
+        "ambiguity%1:10:00::",
+        "ambiguity%1:07:00::"
+      ],
+      "englishDefinitions": [
+        "an expression whose meaning cannot be determined from its context",
+        "unclearness by virtue of having more than one meaning"
+      ]
+    },
+    {
+      "wordId": "amplify-5050",
+      "word": "amplify",
+      "pos": "verb",
+      "meaningZhTW": "增強",
+      "primarySenseId": "amplify%2:30:00::",
+      "sourceSenseIds": [
+        "amplify%2:30:00::",
+        "amplify%2:32:00::",
+        "amplify%2:30:02::"
+      ],
+      "englishDefinitions": [
+        "increase in size, volume or significance",
+        "to enlarge beyond bounds or the truth",
+        "exaggerate or make bigger"
+      ]
+    },
+    {
+      "wordId": "analogy-5051",
+      "word": "analogy",
+      "pos": "noun",
+      "meaningZhTW": "相似",
+      "primarySenseId": "analogy%1:09:00::",
+      "sourceSenseIds": [
+        "analogy%1:09:00::",
+        "analogy%1:04:00::",
+        "analogy%1:09:01::"
+      ],
+      "englishDefinitions": [
+        "an inference that if things agree in some respects they probably agree in others",
+        "drawing a comparison in order to show a similarity in some respect",
+        "the religious belief that between creature and creator no similarity can be found so great but that the dissimilarity is always greater; any analogy between God and humans will always be inadequate"
+      ]
+    }
+  ],
+  "suspiciousAmbiguousTranslations": [
+    {
+      "wordId": "abundance-5016",
+      "word": "abundance",
+      "senseId": "abundance%1:24:00::",
+      "synsetId": "13842212-n",
+      "pos": "noun",
+      "englishDefinition": "(chemistry) the ratio of the total mass of an element in the earth's crust to the total mass of the earth's crust; expressed as a percentage or in parts per million",
+      "meaningZhTW": "豐富",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "analogy-5051",
+      "word": "analogy",
+      "senseId": "analogy%1:09:01::",
+      "synsetId": "05951428-n",
+      "pos": "noun",
+      "englishDefinition": "the religious belief that between creature and creator no similarity can be found so great but that the dissimilarity is always greater; any analogy between God and humans will always be inadequate",
+      "meaningZhTW": "相似",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "analytical-5052",
+      "word": "analytical",
+      "senseId": "analytical%3:00:03::",
+      "synsetId": "00113042-a",
+      "pos": "adjective",
+      "englishDefinition": "using or skilled in using analysis (i.e., separating a whole — intellectual or substantial — into its elemental parts or basic principles)",
+      "meaningZhTW": "分析的",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "cardinal-5131",
+      "word": "cardinal",
+      "senseId": "cardinal%1:18:00::",
+      "synsetId": "09913595-n",
+      "pos": "noun",
+      "englishDefinition": "(Roman Catholic Church) one of a group of more than 100 prominent bishops in the Sacred College who advise the Pope and elect new Popes",
+      "meaningZhTW": "紅衣主教",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "cellular-5142",
+      "word": "cellular",
+      "senseId": "cellular%3:00:00::",
+      "synsetId": "00327929-a",
+      "pos": "adjective",
+      "englishDefinition": "characterized by or divided into or containing cells or compartments (the smallest organizational or structural unit of an organism or organization)",
+      "meaningZhTW": "細胞的",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "cement-5144",
+      "word": "cement",
+      "senseId": "cement%1:27:00::",
+      "synsetId": "14828345-n",
+      "pos": "noun",
+      "englishDefinition": "a building material that is a powder made of a mixture of calcined limestone and clay; used with water and sand or gravel to make concrete and mortar",
+      "meaningZhTW": "水泥",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "closure-5167",
+      "word": "closure",
+      "senseId": "closure%1:09:00::",
+      "synsetId": "06259551-n",
+      "pos": "noun",
+      "englishDefinition": "a Gestalt principle of organization holding that there is an innate tendency to perceive incomplete objects as complete and to close or fill gaps and to perceive asymmetric stimuli as symmetric",
+      "meaningZhTW": "關閉",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "comet-5172",
+      "word": "comet",
+      "senseId": "comet%1:17:00::",
+      "synsetId": "09274313-n",
+      "pos": "noun",
+      "englishDefinition": "(astronomy) a relatively small extraterrestrial body consisting of a frozen mass that travels around the sun in a highly elliptical orbit",
+      "meaningZhTW": "彗星",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "commonwealth-5174",
+      "word": "commonwealth",
+      "senseId": "commonwealth%1:15:00::",
+      "synsetId": "08559966-n",
+      "pos": "noun",
+      "englishDefinition": "the official name of some states in the United States (Massachusetts and Pennsylvania and Virginia and Kentucky) and associated territories (Puerto Rico)",
+      "meaningZhTW": "共和國",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "commonwealth-5174",
+      "word": "commonwealth",
+      "senseId": "commonwealth%1:14:02::",
+      "synsetId": "08392081-n",
+      "pos": "noun",
+      "englishDefinition": "a world organization of autonomous states that are united in allegiance to a central power but are not subordinate to it or to one another",
+      "meaningZhTW": "共和國",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "compile-5178",
+      "word": "compile",
+      "senseId": "compile%2:36:01::",
+      "synsetId": "01630142-v",
+      "pos": "verb",
+      "englishDefinition": "use a computer program to translate source code written in a particular programming language into computer-readable machine code that can be executed",
+      "meaningZhTW": "編譯",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "console-5194",
+      "word": "console",
+      "senseId": "console%1:06:02::",
+      "synsetId": "03097112-n",
+      "pos": "noun",
+      "englishDefinition": "a scientific instrument consisting of displays and an input device that an operator can use to monitor and control a system (especially a computer system)",
+      "meaningZhTW": "安慰",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "crocodile-5218",
+      "word": "crocodile",
+      "senseId": "crocodile%1:05:00::",
+      "synsetId": "01699819-n",
+      "pos": "noun",
+      "englishDefinition": "large voracious aquatic reptile having a long snout with massive jaws and sharp teeth and a body covered with bony plates; of sluggish tropical waters",
+      "meaningZhTW": "鱷魚",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "diabetes-5252",
+      "word": "diabetes",
+      "senseId": "diabetes%1:26:00::",
+      "synsetId": "14141287-n",
+      "pos": "noun",
+      "englishDefinition": "a polygenic disease characterized by abnormally high glucose levels in the blood; any of several metabolic disorders marked by excessive urination and persistent thirst",
+      "meaningZhTW": "糖尿病",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "encyclopedia-5311",
+      "word": "encyclopedia",
+      "senseId": "encyclopedia%1:10:00::",
+      "synsetId": "06439057-n",
+      "pos": "noun",
+      "englishDefinition": "a reference work (often in several volumes) containing articles on various topics (often arranged in alphabetical order) dealing with the entire range of human knowledge or with some particular specialty",
+      "meaningZhTW": "百科全書",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "enlighten(ment)-5316",
+      "word": "enlighten(ment)",
+      "senseId": "enlightenment%1:26:00::",
+      "synsetId": "14011709-n",
+      "pos": "noun",
+      "englishDefinition": "(Hinduism and Buddhism) the beatitude that transcends the cycle of reincarnation; characterized by the extinction of desire and suffering and individual consciousness",
+      "meaningZhTW": "啟發",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "goalkeeper-5397",
+      "word": "goalkeeper",
+      "senseId": "goalkeeper%1:04:00::",
+      "synsetId": "00465105-n",
+      "pos": "noun",
+      "englishDefinition": "the defensive position on an ice hockey or soccer or lacrosse team who stands in front of the goal and tries to prevent opposing players from scoring",
+      "meaningZhTW": "守門員",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "goodwill-5398",
+      "word": "goodwill",
+      "senseId": "goodwill%1:21:00::",
+      "synsetId": "13353835-n",
+      "pos": "noun",
+      "englishDefinition": "(accounting) an intangible asset valued according to the advantage or reputation a business has acquired (over and above its tangible assets)",
+      "meaningZhTW": "友好",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "gospel-5400",
+      "word": "gospel",
+      "senseId": "gospel%1:10:03::",
+      "synsetId": "07075374-n",
+      "pos": "noun",
+      "englishDefinition": "folk music consisting of a genre of a cappella music originating with Black slaves in the United States and featuring call and response; influential on the development of other genres of popular music (especially soul)",
+      "meaningZhTW": "福音",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "harmonica-5414",
+      "word": "harmonica",
+      "senseId": "harmonica%1:06:00::",
+      "synsetId": "03499379-n",
+      "pos": "noun",
+      "englishDefinition": "a small rectangular free-reed instrument having a row of free reeds set back in air holes and played by blowing into the desired hole",
+      "meaningZhTW": "口琴",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "harness-5415",
+      "word": "harness",
+      "senseId": "harness%1:06:01::",
+      "synsetId": "03500164-n",
+      "pos": "noun",
+      "englishDefinition": "a support consisting of an arrangement of straps for holding something to the body (especially one supporting a person suspended from a parachute)",
+      "meaningZhTW": "馬具",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "hedge-5420",
+      "word": "hedge",
+      "senseId": "hedge%1:21:00::",
+      "synsetId": "13365477-n",
+      "pos": "noun",
+      "englishDefinition": "any technique designed to reduce or eliminate financial risk; for example, taking two positions that will offset each other if prices change",
+      "meaningZhTW": "樹籬",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "heroin-5424",
+      "word": "heroin",
+      "senseId": "heroin%1:06:00::",
+      "synsetId": "03521174-n",
+      "pos": "noun",
+      "englishDefinition": "a narcotic that is considered a hard drug; a highly addictive morphine derivative; intravenous injection provides the fastest and most intense rush",
+      "meaningZhTW": "海洛因",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "hybrid-5439",
+      "word": "hybrid",
+      "senseId": "hybrid%1:05:00::",
+      "synsetId": "01329963-n",
+      "pos": "noun",
+      "englishDefinition": "(genetics) an organism that is the offspring of genetically dissimilar parents or stock; especially offspring produced by breeding plants or animals of different varieties or breeds or species",
+      "meaningZhTW": "混血兒",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "irritate-5484",
+      "word": "irritate",
+      "senseId": "irritate%2:30:00::",
+      "synsetId": "00504796-v",
+      "pos": "verb",
+      "englishDefinition": "excite to some characteristic action or condition, such as motion, contraction, or nervous impulse, by the application of a stimulus",
+      "meaningZhTW": "激怒",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "liter-5522",
+      "word": "liter",
+      "senseId": "liter%1:23:00::",
+      "synsetId": "13645547-n",
+      "pos": "noun",
+      "englishDefinition": "a metric unit of capacity, formerly defined as the volume of one kilogram of pure water under standard conditions; now equal to 1,000 cubic centimeters (or approximately 1.75 pints)",
+      "meaningZhTW": "公升",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "maple-5551",
+      "word": "maple",
+      "senseId": "maple%1:20:02::",
+      "synsetId": "12773426-n",
+      "pos": "noun",
+      "englishDefinition": "wood of any of various maple trees; especially the hard close-grained wood of the sugar maple; used especially for furniture and flooring",
+      "meaningZhTW": "楓",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "ordeal-5622",
+      "word": "ordeal",
+      "senseId": "ordeal%1:04:00::",
+      "synsetId": "01198967-n",
+      "pos": "noun",
+      "englishDefinition": "a primitive method of determining a person's guilt or innocence by subjecting the accused person to dangerous or painful tests believed to be under divine control; escape was usually taken as a sign of innocence",
+      "meaningZhTW": "嚴酷考驗",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "organizer-5624",
+      "word": "organizer",
+      "senseId": "organizer%1:06:00::",
+      "synsetId": "03924859-n",
+      "pos": "noun",
+      "englishDefinition": "a lightweight consumer electronic device that looks like a hand-held computer but instead performs specific tasks; can serve as a diary or a personal database or a telephone or an alarm clock etc.",
+      "meaningZhTW": "組織者",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "ozone-5651",
+      "word": "ozone",
+      "senseId": "ozone%1:27:00::",
+      "synsetId": "14997366-n",
+      "pos": "noun",
+      "englishDefinition": "a colorless gas (O3) soluble in alkalis and cold water; a strong oxidizing agent; can be produced by electric discharge in oxygen or by the action of ultraviolet radiation on oxygen in the stratosphere (where it acts as a screen for ultraviolet radiation)",
+      "meaningZhTW": "新鮮的空氣",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "petrol-5673",
+      "word": "petrol",
+      "senseId": "petrol%1:27:00::",
+      "synsetId": "14711074-n",
+      "pos": "noun",
+      "englishDefinition": "a volatile flammable mixture of hydrocarbons (hexane and heptane and octane etc.) derived from petroleum; used mainly as a fuel in internal-combustion engines",
+      "meaningZhTW": "汽油",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "pneumonia-5686",
+      "word": "pneumonia",
+      "senseId": "pneumonia%1:26:00::",
+      "synsetId": "14171109-n",
+      "pos": "noun",
+      "englishDefinition": "respiratory disease characterized by inflammation of the lung parenchyma (excluding the bronchi) with congestion caused by viruses or bacteria or irritants",
+      "meaningZhTW": "肺炎",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "prohibition-5711",
+      "word": "prohibition",
+      "senseId": "prohibition%1:28:00::",
+      "synsetId": "15319625-n",
+      "pos": "noun",
+      "englishDefinition": "the period from 1920 to 1933 when the sale of alcoholic beverages was prohibited in the United States by a constitutional amendment",
+      "meaningZhTW": "禁令",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "quake-5728",
+      "word": "quake",
+      "senseId": "quake%1:11:00::",
+      "synsetId": "07443554-n",
+      "pos": "noun",
+      "englishDefinition": "shaking and vibration at the surface of the earth resulting from underground movement along a fault plane or from volcanic activity",
+      "meaningZhTW": "顫抖",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "reptile-5766",
+      "word": "reptile",
+      "senseId": "reptile%1:05:00::",
+      "synsetId": "01663732-n",
+      "pos": "noun",
+      "englishDefinition": "any cold-blooded vertebrate of the class Reptilia including tortoises, turtles, snakes, lizards, alligators, crocodiles, and extinct forms",
+      "meaningZhTW": "爬行動物",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "slang-5827",
+      "word": "slang",
+      "senseId": "slang%1:10:01::",
+      "synsetId": "07174118-n",
+      "pos": "noun",
+      "englishDefinition": "informal language consisting of words and expressions that are not considered appropriate for formal occasions; often vituperative or vulgar",
+      "meaningZhTW": "俚語",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "slum-5832",
+      "word": "slum",
+      "senseId": "slum%2:41:00::",
+      "synsetId": "02498343-v",
+      "pos": "verb",
+      "englishDefinition": "spend time at a lower socio-economic level than one's own, motivated by curiosity or desire for adventure; usage considered condescending and insensitive",
+      "meaningZhTW": "貧民窟",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "spacecraft/spaceship-5852",
+      "word": "spacecraft/spaceship",
+      "senseId": "spacecraft%1:06:00::",
+      "synsetId": "04272024-n",
+      "pos": "noun",
+      "englishDefinition": "a craft capable of traveling in outer space; technically, a satellite around the sun",
+      "meaningZhTW": "太空船",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "tropic-5941",
+      "word": "tropic",
+      "senseId": "tropic%1:15:00::",
+      "synsetId": "08692883-n",
+      "pos": "noun",
+      "englishDefinition": "either of two parallels of latitude about 23.5 degrees to the north and south of the equator representing the points farthest north and south at which the sun can shine directly overhead and constituting the boundaries of the Torrid Zone or tropics",
+      "meaningZhTW": "回歸線",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "tuck-5944",
+      "word": "tuck",
+      "senseId": "tuck%1:07:00::",
+      "synsetId": "05090894-n",
+      "pos": "noun",
+      "englishDefinition": "(sports) a bodily position adopted in some sports (such as diving or skiing) in which the knees are bent and the thighs are drawn close to the chest",
+      "meaningZhTW": "縫褶",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "vaccine-5965",
+      "word": "vaccine",
+      "senseId": "vaccine%1:06:00::",
+      "synsetId": "04524830-n",
+      "pos": "noun",
+      "englishDefinition": "immunogen consisting of a suspension of weakened or dead pathogenic cells injected in order to stimulate the production of antibodies",
+      "meaningZhTW": "牛痘苗",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "vanilla-5966",
+      "word": "vanilla",
+      "senseId": "vanilla%1:20:00::",
+      "synsetId": "12107056-n",
+      "pos": "noun",
+      "englishDefinition": "any of numerous climbing plants of the genus Vanilla having fleshy leaves and clusters of large waxy highly fragrant white or green or topaz flowers",
+      "meaningZhTW": "香草",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "veto-5973",
+      "word": "veto",
+      "senseId": "veto%1:07:00::",
+      "synsetId": "05206196-n",
+      "pos": "noun",
+      "englishDefinition": "the power or right to prohibit or reject a proposed or intended act (especially the power of a chief executive to reject a bill passed by the legislature)",
+      "meaningZhTW": "否決權",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "vitality-5986",
+      "word": "vitality",
+      "senseId": "vitality%1:19:00::",
+      "synsetId": "11544272-n",
+      "pos": "noun",
+      "englishDefinition": "(biology) a hypothetical force (not physical or chemical) once thought by Henri Bergson to cause the evolution and development of organisms",
+      "meaningZhTW": "活力",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "warrant-5994",
+      "word": "warrant",
+      "senseId": "warrant%1:21:00::",
+      "synsetId": "13439392-n",
+      "pos": "noun",
+      "englishDefinition": "a type of security issued by a corporation (usually together with a bond or preferred stock) that gives the holder the right to purchase a certain amount of common stock at a stated price",
+      "meaningZhTW": "授權",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "yoga-6010",
+      "word": "yoga",
+      "senseId": "yoga%1:09:00::",
+      "synsetId": "06249497-n",
+      "pos": "noun",
+      "englishDefinition": "discipline aimed at training the consciousness for a state of perfect spiritual insight and tranquility that is achieved through the three paths of actions and knowledge and devotion",
+      "meaningZhTW": "瑜珈",
+      "reason": "complex_or_technical_definition"
+    }
+  ]
+}

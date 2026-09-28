@@ -1,0 +1,1013 @@
+{
+  "generatedAt": "2026-09-28T14:05:17.047Z",
+  "scope": "level-5-only",
+  "level5WordCount": 1002,
+  "level5MatchedWordCount": 998,
+  "translatedRawSenseCount": 2867,
+  "learnerMeaningsBeforeDeduplication": 2867,
+  "learnerMeaningsAfterDeduplication": 1334,
+  "duplicatesRemovedFromDisplay": 1533,
+  "wordsAffectedByDeduplication": 789,
+  "wordsWithMultipleTranslatedSensesCount": 834,
+  "suspiciousAmbiguousCount": 51,
+  "mergedDuplicateExamples": [
+    {
+      "wordId": "abnormal-4009",
+      "word": "abnormal",
+      "pos": "adjective",
+      "meaningZhTW": "反常的",
+      "primarySenseId": "abnormal%3:00:00::",
+      "sourceSenseIds": [
+        "abnormal%3:00:00::",
+        "abnormal%3:00:03::",
+        "abnormal%5:00:00:immoderate:00"
+      ],
+      "englishDefinitions": [
+        "not normal; not typical or usual or regular or conforming to a norm",
+        "departing from the normal in e.g. intelligence and development",
+        "much greater than the normal"
+      ]
+    },
+    {
+      "wordId": "abortion-4011",
+      "word": "abortion",
+      "pos": "noun",
+      "meaningZhTW": "流產",
+      "primarySenseId": "abortion%1:04:00::",
+      "sourceSenseIds": [
+        "abortion%1:04:00::",
+        "abortion%1:11:00::"
+      ],
+      "englishDefinitions": [
+        "termination of pregnancy",
+        "failure of a plan"
+      ]
+    },
+    {
+      "wordId": "abrupt-4012",
+      "word": "abrupt",
+      "pos": "adjective",
+      "meaningZhTW": "突然的",
+      "primarySenseId": "abrupt%5:00:00:staccato:00",
+      "sourceSenseIds": [
+        "abrupt%5:00:00:staccato:00",
+        "abrupt%5:00:00:sudden:00",
+        "abrupt%5:00:00:steep:00"
+      ],
+      "englishDefinitions": [
+        "marked by sudden changes in subject and sharp transitions",
+        "exceedingly sudden and unexpected",
+        "dangerously steep"
+      ]
+    },
+    {
+      "wordId": "absurd-4013",
+      "word": "absurd",
+      "pos": "adjective",
+      "meaningZhTW": "荒謬的",
+      "primarySenseId": "absurd%5:00:00:illogical:00",
+      "sourceSenseIds": [
+        "absurd%5:00:00:illogical:00",
+        "absurd%5:00:00:foolish:00"
+      ],
+      "englishDefinitions": [
+        "inconsistent with reason or logic or common sense",
+        "so unreasonable as to invite derision"
+      ]
+    },
+    {
+      "wordId": "abuse-4015",
+      "word": "abuse",
+      "pos": "noun",
+      "meaningZhTW": "濫用",
+      "primarySenseId": "abuse%1:04:02::",
+      "sourceSenseIds": [
+        "abuse%1:04:02::",
+        "abuse%1:10:00::",
+        "abuse%1:04:01::"
+      ],
+      "englishDefinitions": [
+        "cruel or inhumane treatment",
+        "a rude expression intended to offend or hurt",
+        "improper or excessive use"
+      ]
+    },
+    {
+      "wordId": "abuse-4015",
+      "word": "abuse",
+      "pos": "verb",
+      "meaningZhTW": "濫用",
+      "primarySenseId": "abuse%2:41:00::",
+      "sourceSenseIds": [
+        "abuse%2:41:00::",
+        "abuse%2:30:00::",
+        "abuse%2:32:00::"
+      ],
+      "englishDefinitions": [
+        "treat badly",
+        "change the inherent purpose or function of something",
+        "use foul or abusive language towards"
+      ]
+    },
+    {
+      "wordId": "accelerate-4016",
+      "word": "accelerate",
+      "pos": "verb",
+      "meaningZhTW": "加速",
+      "primarySenseId": "accelerate%2:30:00::",
+      "sourceSenseIds": [
+        "accelerate%2:30:00::",
+        "accelerate%2:30:01::"
+      ],
+      "englishDefinitions": [
+        "move faster",
+        "cause to move faster"
+      ]
+    },
+    {
+      "wordId": "accessible-4017",
+      "word": "accessible",
+      "pos": "adjective",
+      "meaningZhTW": "易接近的",
+      "primarySenseId": "accessible%3:00:00::",
+      "sourceSenseIds": [
+        "accessible%3:00:00::",
+        "accessible%5:00:00:comprehensible:00",
+        "accessible%5:00:00:available:00"
+      ],
+      "englishDefinitions": [
+        "capable of being reached",
+        "capable of being read with comprehension",
+        "easily obtained"
+      ]
+    },
+    {
+      "wordId": "accommodate-4018",
+      "word": "accommodate",
+      "pos": "verb",
+      "meaningZhTW": "使適應",
+      "primarySenseId": "accommodate%2:42:00::",
+      "sourceSenseIds": [
+        "accommodate%2:42:00::",
+        "accommodate%2:30:00::",
+        "accommodate%2:34:00::"
+      ],
+      "englishDefinitions": [
+        "be agreeable or acceptable to",
+        "make fit for, or change to suit a new purpose",
+        "provide with something desired or needed"
+      ]
+    },
+    {
+      "wordId": "accommodation-4019",
+      "word": "accommodation",
+      "pos": "noun",
+      "meaningZhTW": "膳宿",
+      "primarySenseId": "accommodation%1:11:00::",
+      "sourceSenseIds": [
+        "accommodation%1:11:00::",
+        "accommodation%1:10:02::",
+        "accommodation%1:09:00::"
+      ],
+      "englishDefinitions": [
+        "making or becoming suitable; adjusting to circumstances",
+        "a settlement of differences",
+        "in the theories of Jean Piaget: the modification of internal representations in order to accommodate a changing knowledge of reality"
+      ]
+    },
+    {
+      "wordId": "accord-4020",
+      "word": "accord",
+      "pos": "noun",
+      "meaningZhTW": "一致",
+      "primarySenseId": "accord%1:26:00::",
+      "sourceSenseIds": [
+        "accord%1:26:00::",
+        "accord%1:10:00::",
+        "accord%1:10:01::"
+      ],
+      "englishDefinitions": [
+        "harmony of people's opinions or actions or characters",
+        "concurrence of opinion",
+        "a written agreement between two states or sovereigns"
+      ]
+    },
+    {
+      "wordId": "accord-4020",
+      "word": "accord",
+      "pos": "verb",
+      "meaningZhTW": "一致",
+      "primarySenseId": "accord%2:42:00::",
+      "sourceSenseIds": [
+        "accord%2:42:00::",
+        "accord%2:40:00::"
+      ],
+      "englishDefinitions": [
+        "go together",
+        "allow to have"
+      ]
+    },
+    {
+      "wordId": "accounting-4021",
+      "word": "accounting",
+      "pos": "noun",
+      "meaningZhTW": "會計學",
+      "primarySenseId": "accounting%1:10:00::",
+      "sourceSenseIds": [
+        "accounting%1:10:00::",
+        "accounting%1:09:00::",
+        "accounting%1:04:00::"
+      ],
+      "englishDefinitions": [
+        "a convincing explanation that reveals basic causes",
+        "a system that provides quantitative information about finances",
+        "the occupation of maintaining and auditing records and preparing financial reports for a business"
+      ]
+    },
+    {
+      "wordId": "acknowledge(ment)-4022",
+      "word": "acknowledge(ment)",
+      "pos": "verb",
+      "meaningZhTW": "承認；認可；致謝",
+      "primarySenseId": "acknowledge%2:32:00::",
+      "sourceSenseIds": [
+        "acknowledge%2:32:00::",
+        "acknowledge%2:32:04::",
+        "acknowledge%2:32:07::"
+      ],
+      "englishDefinitions": [
+        "declare to be true or admit the existence or reality or truth of",
+        "report the receipt of",
+        "express recognition of the presence or existence of, or acquaintance with"
+      ]
+    },
+    {
+      "wordId": "acknowledge(ment)-4022",
+      "word": "acknowledge(ment)",
+      "pos": "noun",
+      "meaningZhTW": "承認；認可；致謝",
+      "primarySenseId": "acknowledgement%1:26:00::",
+      "sourceSenseIds": [
+        "acknowledgement%1:26:00::",
+        "acknowledgement%1:10:00::"
+      ],
+      "englishDefinitions": [
+        "the state or quality of being recognized or acknowledged",
+        "a statement acknowledging something or someone"
+      ]
+    },
+    {
+      "wordId": "acquaint-4023",
+      "word": "acquaint",
+      "pos": "verb",
+      "meaningZhTW": "使認識",
+      "primarySenseId": "acquaint%2:32:00::",
+      "sourceSenseIds": [
+        "acquaint%2:32:00::",
+        "acquaint%2:32:01::",
+        "acquaint%2:32:02::"
+      ],
+      "englishDefinitions": [
+        "cause to come to know personally",
+        "make familiar or conversant with",
+        "inform"
+      ]
+    },
+    {
+      "wordId": "acquisition-4024",
+      "word": "acquisition",
+      "pos": "noun",
+      "meaningZhTW": "獲得",
+      "primarySenseId": "acquisition%1:04:00::",
+      "sourceSenseIds": [
+        "acquisition%1:04:00::",
+        "acquisition%1:21:00::",
+        "acquisition%1:09:01::"
+      ],
+      "englishDefinitions": [
+        "the act of contracting or assuming or acquiring possession of something",
+        "something acquired",
+        "the cognitive process of acquiring skill or knowledge"
+      ]
+    },
+    {
+      "wordId": "acute-4026",
+      "word": "acute",
+      "pos": "adjective",
+      "meaningZhTW": "尖銳的",
+      "primarySenseId": "acute%3:00:00::",
+      "sourceSenseIds": [
+        "acute%3:00:00::",
+        "acute%5:00:00:sharp:04",
+        "acute%5:00:00:perceptive:00"
+      ],
+      "englishDefinitions": [
+        "having or experiencing a rapid onset and short but severe course",
+        "extremely sharp or severe",
+        "having or demonstrating ability to recognize or draw fine distinctions"
+      ]
+    },
+    {
+      "wordId": "administration-4027",
+      "word": "administration",
+      "pos": "noun",
+      "meaningZhTW": "行政",
+      "primarySenseId": "administration%1:04:00::",
+      "sourceSenseIds": [
+        "administration%1:04:00::",
+        "administration%1:14:00::",
+        "administration%1:04:01::"
+      ],
+      "englishDefinitions": [
+        "a method of tending to or managing the affairs of some group of people (especially the group's business affairs)",
+        "the persons (or committees or departments etc.) who make up a body for the purpose of administering something",
+        "the act of administering medication"
+      ]
+    },
+    {
+      "wordId": "administrator-4029",
+      "word": "administrator",
+      "pos": "noun",
+      "meaningZhTW": "管理人",
+      "primarySenseId": "administrator%1:18:00::",
+      "sourceSenseIds": [
+        "administrator%1:18:00::",
+        "administrator%1:18:01::",
+        "administrator%1:18:02::"
+      ],
+      "englishDefinitions": [
+        "someone who administers a business",
+        "the party appointed by a probate court to distribute the estate of someone who dies without a will or without naming an executor",
+        "someone who manages a government agency or department"
+      ]
+    },
+    {
+      "wordId": "adolescent-4030",
+      "word": "adolescent",
+      "pos": "adjective",
+      "meaningZhTW": "青春期的",
+      "primarySenseId": "adolescent%3:01:00::",
+      "sourceSenseIds": [
+        "adolescent%3:01:00::",
+        "adolescent%5:00:00:young:00",
+        "adolescent%5:00:00:immature:02"
+      ],
+      "englishDefinitions": [
+        "relating to or peculiar to or suggestive of an adolescent",
+        "being of the age 13 through 19",
+        "displaying or suggesting a lack of maturity"
+      ]
+    },
+    {
+      "wordId": "adverse-4032",
+      "word": "adverse",
+      "pos": "adjective",
+      "meaningZhTW": "不利的",
+      "primarySenseId": "adverse%5:00:00:unfavorable:02",
+      "sourceSenseIds": [
+        "adverse%5:00:00:unfavorable:02",
+        "adverse%5:00:00:unfavorable:01"
+      ],
+      "englishDefinitions": [
+        "contrary to your interests or welfare",
+        "in an opposing direction"
+      ]
+    },
+    {
+      "wordId": "advocate-4033",
+      "word": "advocate",
+      "pos": "verb",
+      "meaningZhTW": "提倡者",
+      "primarySenseId": "advocate%2:32:00::",
+      "sourceSenseIds": [
+        "advocate%2:32:00::",
+        "advocate%2:32:01::"
+      ],
+      "englishDefinitions": [
+        "push for something",
+        "speak, plead, or argue in favor of"
+      ]
+    },
+    {
+      "wordId": "agenda-4035",
+      "word": "agenda",
+      "pos": "noun",
+      "meaningZhTW": "議程",
+      "primarySenseId": "agenda%1:09:00::",
+      "sourceSenseIds": [
+        "agenda%1:09:00::",
+        "agenda%1:10:00::"
+      ],
+      "englishDefinitions": [
+        "a temporally organized plan for matters to be attended to",
+        "a list of matters to be taken up (as at a meeting)"
+      ]
+    },
+    {
+      "wordId": "aggression-4036",
+      "word": "aggression",
+      "pos": "noun",
+      "meaningZhTW": "侵犯",
+      "primarySenseId": "aggression%1:07:00::",
+      "sourceSenseIds": [
+        "aggression%1:07:00::",
+        "aggression%1:12:00::",
+        "aggression%1:04:00::"
+      ],
+      "englishDefinitions": [
+        "a disposition to behave aggressively",
+        "a feeling of hostility that arouses thoughts of attack",
+        "violent action that is hostile and usually unprovoked"
+      ]
+    },
+    {
+      "wordId": "agony-4037",
+      "word": "agony",
+      "pos": "noun",
+      "meaningZhTW": "極大的痛苦",
+      "primarySenseId": "agony%1:12:00::",
+      "sourceSenseIds": [
+        "agony%1:12:00::",
+        "agony%1:26:00::"
+      ],
+      "englishDefinitions": [
+        "intense feelings of suffering; acute mental or physical pain",
+        "a state of acute pain"
+      ]
+    },
+    {
+      "wordId": "agricultural-4038",
+      "word": "agricultural",
+      "pos": "adjective",
+      "meaningZhTW": "農業的",
+      "primarySenseId": "agricultural%3:01:00::",
+      "sourceSenseIds": [
+        "agricultural%3:01:00::",
+        "agricultural%5:00:00:rural:00"
+      ],
+      "englishDefinitions": [
+        "relating to or used in or promoting agriculture or farming",
+        "relating to farming or agriculture"
+      ]
+    },
+    {
+      "wordId": "aisle-4039",
+      "word": "aisle",
+      "pos": "noun",
+      "meaningZhTW": "走廊",
+      "primarySenseId": "aisle%1:06:03::",
+      "sourceSenseIds": [
+        "aisle%1:06:03::",
+        "aisle%1:06:00::",
+        "aisle%1:06:02::"
+      ],
+      "englishDefinitions": [
+        "a long narrow passage (as in a cave or woods)",
+        "passageway between seating areas as in an auditorium or passenger vehicle or between areas of shelves of goods as in stores",
+        "part of a church divided laterally from the nave proper by rows of pillars or columns"
+      ]
+    },
+    {
+      "wordId": "alcoholic-4040",
+      "word": "alcoholic",
+      "pos": "adjective",
+      "meaningZhTW": "酒鬼",
+      "primarySenseId": "alcoholic%3:00:00::",
+      "sourceSenseIds": [
+        "alcoholic%3:00:00::",
+        "alcoholic%5:00:00:addicted:00"
+      ],
+      "englishDefinitions": [
+        "characteristic of or containing alcohol",
+        "addicted to alcohol"
+      ]
+    },
+    {
+      "wordId": "alien-4041",
+      "word": "alien",
+      "pos": "adjective",
+      "meaningZhTW": "外國人",
+      "primarySenseId": "alien%5:00:00:extrinsic:00",
+      "sourceSenseIds": [
+        "alien%5:00:00:extrinsic:00",
+        "alien%5:00:00:foreign:01"
+      ],
+      "englishDefinitions": [
+        "not contained in or deriving from the essential nature of something",
+        "being or from or characteristic of another place or part of the world"
+      ]
+    }
+  ],
+  "suspiciousAmbiguousTranslations": [
+    {
+      "wordId": "accommodation-4019",
+      "word": "accommodation",
+      "senseId": "accommodation%1:09:00::",
+      "synsetId": "05763483-n",
+      "pos": "noun",
+      "englishDefinition": "in the theories of Jean Piaget: the modification of internal representations in order to accommodate a changing knowledge of reality",
+      "meaningZhTW": "膳宿",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "analyst-4052",
+      "word": "analyst",
+      "senseId": "analyst%1:18:02::",
+      "synsetId": "09810971-n",
+      "pos": "noun",
+      "englishDefinition": "an expert who studies financial data (on credit or securities or sales or financial patterns etc.) and recommends appropriate business actions",
+      "meaningZhTW": "分析者",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "arena-4061",
+      "word": "arena",
+      "senseId": "arena%1:15:00::",
+      "synsetId": "08514117-n",
+      "pos": "noun",
+      "englishDefinition": "the central area of an ancient Roman amphitheater where contests and spectacles were held; especially an area that was strewn with sand",
+      "meaningZhTW": "角鬥場",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "calcium-4122",
+      "word": "calcium",
+      "senseId": "calcium%1:27:00::",
+      "synsetId": "14656826-n",
+      "pos": "noun",
+      "englishDefinition": "a white metallic element that burns with a brilliant light; the fifth most abundant element in the earth's crust; an important component of most plants and animals",
+      "meaningZhTW": "鈣",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "canal-4123",
+      "word": "canal",
+      "senseId": "canal%1:17:00::",
+      "synsetId": "09255224-n",
+      "pos": "noun",
+      "englishDefinition": "(astronomy) an indistinct surface feature of Mars once thought to be a system of channels; they are now believed to be an optical illusion",
+      "meaningZhTW": "運河",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "carbon-4126",
+      "word": "carbon",
+      "senseId": "carbon%1:27:00::",
+      "synsetId": "14657384-n",
+      "pos": "noun",
+      "englishDefinition": "an abundant nonmetallic tetravalent element occurring in three allotropic forms: amorphous carbon and graphite and diamond; occurs in all organic compounds",
+      "meaningZhTW": "碳",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "carbon-4126",
+      "word": "carbon",
+      "senseId": "carbon%1:27:01::",
+      "synsetId": "14821983-n",
+      "pos": "noun",
+      "englishDefinition": "a thin paper coated on one side with a dark waxy substance (often containing carbon); used to transfer characters from the original to an under sheet of paper",
+      "meaningZhTW": "碳",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "certificate-4136",
+      "word": "certificate",
+      "senseId": "certificate%1:21:00::",
+      "synsetId": "13437518-n",
+      "pos": "noun",
+      "englishDefinition": "a formal declaration that documents a fact of relevance to finance and investment; the holder has a right to receive interest or dividends",
+      "meaningZhTW": "證書",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "cocaine-4156",
+      "word": "cocaine",
+      "senseId": "cocaine%1:06:00::",
+      "synsetId": "03064297-n",
+      "pos": "noun",
+      "englishDefinition": "a narcotic (alkaloid) extracted from coca leaves; used as a surface anesthetic or taken for pleasure; can become powerfully addictive",
+      "meaningZhTW": "可卡因",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "collective-4162",
+      "word": "collective",
+      "senseId": "collective%5:00:00:socialistic:00",
+      "synsetId": "00299159-s",
+      "pos": "adjective",
+      "englishDefinition": "set up on the principle of collectivism or ownership and production by the workers involved usually under the supervision of a government",
+      "meaningZhTW": "集體的",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "commission-4170",
+      "word": "commission",
+      "senseId": "commission%1:21:00::",
+      "synsetId": "13341882-n",
+      "pos": "noun",
+      "englishDefinition": "a fee for services rendered based on a percentage of an amount received or collected or agreed to be paid (as distinguished from a salary)",
+      "meaningZhTW": "委任狀",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "component-4192",
+      "word": "component",
+      "senseId": "component%1:06:00::",
+      "synsetId": "03085025-n",
+      "pos": "noun",
+      "englishDefinition": "an artifact that is one of the individual parts of which a composite entity is made up; especially a part that can be separated from or attached to a system",
+      "meaningZhTW": "元件",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "correlation-4240",
+      "word": "correlation",
+      "senseId": "correlation%1:09:00::",
+      "synsetId": "06041776-n",
+      "pos": "noun",
+      "englishDefinition": "a statistic representing how closely two variables co-vary; it can vary from -1 (perfect negative correlation) through 0 (no correlation) to +1 (perfect positive correlation)",
+      "meaningZhTW": "相互關系",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "correlation-4240",
+      "word": "correlation",
+      "senseId": "correlation%1:09:01::",
+      "synsetId": "06040778-n",
+      "pos": "noun",
+      "englishDefinition": "a statistical relation between two or more variables such that systematic changes in the value of one variable are accompanied by systematic changes in the other",
+      "meaningZhTW": "相互關系",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "diameter-4295",
+      "word": "diameter",
+      "senseId": "diameter%1:25:00::",
+      "synsetId": "13894356-n",
+      "pos": "noun",
+      "englishDefinition": "a straight line connecting the center of a circle with two points on its perimeter (or the center of a sphere with two points on its surface)",
+      "meaningZhTW": "直徑",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "documentary-4316",
+      "word": "documentary",
+      "senseId": "documentary%5:00:00:real:00",
+      "synsetId": "01940473-s",
+      "pos": "adjective",
+      "englishDefinition": "(of film, television, radio, or photography) depicting a real-life event using images or interviews with people involved in the event",
+      "meaningZhTW": "記錄片",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "epidemic-4344",
+      "word": "epidemic",
+      "senseId": "epidemic%3:00:00::",
+      "synsetId": "01429248-a",
+      "pos": "adjective",
+      "englishDefinition": "(especially of medicine) of disease or anything resembling a disease; attacking or affecting many individuals in a community or a population simultaneously",
+      "meaningZhTW": "傳染病",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "equivalent-4348",
+      "word": "equivalent",
+      "senseId": "equivalent%1:07:00::",
+      "synsetId": "05033674-n",
+      "pos": "noun",
+      "englishDefinition": "the atomic weight of an element that has the same combining capacity as a given weight of another element; the standard is 8 for oxygen",
+      "meaningZhTW": "同等物",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "escalator-4352",
+      "word": "escalator",
+      "senseId": "escalator%1:10:00::",
+      "synsetId": "06405443-n",
+      "pos": "noun",
+      "englishDefinition": "a clause in a contract that provides for an increase or a decrease in wages or prices or benefits etc. depending on certain conditions (as a change in the cost of living index)",
+      "meaningZhTW": "電動扶梯",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "essence-4353",
+      "word": "essence",
+      "senseId": "essence%1:27:00::",
+      "synsetId": "15134663-n",
+      "pos": "noun",
+      "englishDefinition": "any substance possessing to a high degree the predominant properties of a plant or drug or other natural product from which it is extracted",
+      "meaningZhTW": "實質",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "estate-4354",
+      "word": "estate",
+      "senseId": "estate%1:14:00::",
+      "synsetId": "08184264-n",
+      "pos": "noun",
+      "englishDefinition": "a major social class or order of persons regarded collectively as part of the body politic of the country (especially in the United Kingdom) and formerly possessing distinct political rights",
+      "meaningZhTW": "不動產",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "federal-4389",
+      "word": "federal",
+      "senseId": "federal%3:00:00::",
+      "synsetId": "01110899-a",
+      "pos": "adjective",
+      "englishDefinition": "characterized by or constituting a form of government in which power is divided between one central and several regional authorities",
+      "meaningZhTW": "聯邦的",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "franchise-4406",
+      "word": "franchise",
+      "senseId": "franchise%1:07:00::",
+      "synsetId": "05194714-n",
+      "pos": "noun",
+      "englishDefinition": "a statutory right or privilege granted to a person or group by a government (especially the rights of citizenship and the right to vote)",
+      "meaningZhTW": "公民權",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "galaxy-4410",
+      "word": "galaxy",
+      "senseId": "galaxy%1:20:00::",
+      "synsetId": "12271795-n",
+      "pos": "noun",
+      "englishDefinition": "tufted evergreen perennial herb having spikes of tiny white flowers and glossy green round to heart-shaped leaves that become coppery to maroon or purplish in fall",
+      "meaningZhTW": "銀河",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "gravity-4423",
+      "word": "gravity",
+      "senseId": "gravity%1:19:00::",
+      "synsetId": "11484542-n",
+      "pos": "noun",
+      "englishDefinition": "(physics) the force of attraction between all masses in the universe; especially the attraction of the earth's mass for bodies near its surface",
+      "meaningZhTW": "地心引力",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "herb-4437",
+      "word": "herb",
+      "senseId": "herb%1:20:00::",
+      "synsetId": "12226211-n",
+      "pos": "noun",
+      "englishDefinition": "a plant lacking a permanent woody stem; many are flowering garden plants or potherbs; some having medicinal properties; some are pests",
+      "meaningZhTW": "藥草",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "hypothesis-4449",
+      "word": "hypothesis",
+      "senseId": "hypothesis%1:09:00::",
+      "synsetId": "05897536-n",
+      "pos": "noun",
+      "englishDefinition": "a tentative insight into the natural world; a concept that is not yet verified but that if true would explain certain facts or phenomena",
+      "meaningZhTW": "假設",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "icon-4450",
+      "word": "icon",
+      "senseId": "icon%1:10:00::",
+      "synsetId": "07284621-n",
+      "pos": "noun",
+      "englishDefinition": "(computer science) a graphic symbol (usually a simple picture) that denotes a program or a command or a data file or a concept in a graphical user interface",
+      "meaningZhTW": "畫像",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "index-4461",
+      "word": "index",
+      "senseId": "index%1:10:01::",
+      "synsetId": "06652323-n",
+      "pos": "noun",
+      "englishDefinition": "a number or ratio (a value on a scale of measurement) derived from a series of observed facts; can reveal relative changes as a function of time",
+      "meaningZhTW": "索引",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "institution-4484",
+      "word": "institution",
+      "senseId": "institution%1:06:00::",
+      "synsetId": "03579706-n",
+      "pos": "noun",
+      "englishDefinition": "an establishment consisting of a building or complex of buildings where an organization for the promotion of some cause is situated",
+      "meaningZhTW": "機構",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "laser-4507",
+      "word": "laser",
+      "senseId": "laser%1:06:00::",
+      "synsetId": "03648567-n",
+      "pos": "noun",
+      "englishDefinition": "an acronym for light amplification by stimulated emission of radiation; an optical device that produces an intense monochromatic beam of coherent light",
+      "meaningZhTW": "激光",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "mammal-4526",
+      "word": "mammal",
+      "senseId": "mammal%1:05:00::",
+      "synsetId": "01864419-n",
+      "pos": "noun",
+      "englishDefinition": "any warm-blooded vertebrate having the skin more or less covered with hair; young are born alive except for the small subclass of monotremes and nourished with milk",
+      "meaningZhTW": "哺乳動物",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "metaphor-4542",
+      "word": "metaphor",
+      "senseId": "metaphor%1:10:00::",
+      "synsetId": "07121485-n",
+      "pos": "noun",
+      "englishDefinition": "a figure of speech in which an expression is used to refer to something that it does not literally denote in order to suggest a similarity",
+      "meaningZhTW": "隱喻",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "metropolitan-4543",
+      "word": "metropolitan",
+      "senseId": "metropolitan%1:18:01::",
+      "synsetId": "10332897-n",
+      "pos": "noun",
+      "englishDefinition": "in the Eastern Orthodox Church this title is given to a position between bishop and patriarch; equivalent to archbishop in western Christianity",
+      "meaningZhTW": "大都市居民",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "muscular-4565",
+      "word": "muscular",
+      "senseId": "muscular%3:00:04::",
+      "synsetId": "00831875-a",
+      "pos": "adjective",
+      "englishDefinition": "having a robust muscular body-build characterized by predominance of structures (bone and muscle and connective tissue) developed from the embryonic mesodermal layer",
+      "meaningZhTW": "強壯的",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "narrative-4569",
+      "word": "narrative",
+      "senseId": "narrative%1:10:00::",
+      "synsetId": "07235754-n",
+      "pos": "noun",
+      "englishDefinition": "a message that tells the particulars of an act or occurrence or course of events; presented in writing or drama or cinema or as a radio or television program",
+      "meaningZhTW": "敘述",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "nutrient-4582",
+      "word": "nutrient",
+      "senseId": "nutrient%1:03:01::",
+      "synsetId": "00021914-n",
+      "pos": "noun",
+      "englishDefinition": "any substance (such as a chemical element or inorganic compound) that can be taken in by a green plant and used in organic synthesis",
+      "meaningZhTW": "營養的",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "nutrition-4583",
+      "word": "nutrition",
+      "senseId": "nutrition%1:22:00::",
+      "synsetId": "13544864-n",
+      "pos": "noun",
+      "englishDefinition": "(physiology) the organic process of nourishing or being nourished; the processes by which an organism assimilates food and uses it for growth and maintenance",
+      "meaningZhTW": "營養",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "overhead-4604",
+      "word": "overhead",
+      "senseId": "overhead%1:21:00::",
+      "synsetId": "13298202-n",
+      "pos": "noun",
+      "englishDefinition": "the expense of maintaining property (e.g., paying property taxes and utilities and insurance); it does not include depreciation or the cost of financing or income taxes",
+      "meaningZhTW": "經常開支",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "phase-4634",
+      "word": "phase",
+      "senseId": "phase%1:26:00::",
+      "synsetId": "14503649-n",
+      "pos": "noun",
+      "englishDefinition": "(physical chemistry) a distinct state of matter in a system; matter that is identical in chemical composition and physical state and separated from other material by the phase boundary",
+      "meaningZhTW": "時期",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "poke-4649",
+      "word": "poke",
+      "senseId": "poke%1:20:00::",
+      "synsetId": "11876022-n",
+      "pos": "noun",
+      "englishDefinition": "tall coarse perennial American herb having small white flowers followed by blackish-red berries on long drooping racemes; young fleshy stems are edible; berries and root are poisonous",
+      "meaningZhTW": "刺",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "pyramid-4690",
+      "word": "pyramid",
+      "senseId": "pyramid%1:21:00::",
+      "synsetId": "13364299-n",
+      "pos": "noun",
+      "englishDefinition": "(stock market) a series of transactions in which the speculator increases their holdings by using the rising market value of those holdings as margin for further purchases",
+      "meaningZhTW": "角錐",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "radical-4699",
+      "word": "radical",
+      "senseId": "radical%1:27:02::",
+      "synsetId": "14898347-n",
+      "pos": "noun",
+      "englishDefinition": "an atom or group of atoms with at least one unpaired electron; in the body it is usually an oxygen molecule that has lost an electron and will stabilize itself by stealing an electron from a nearby molecule",
+      "meaningZhTW": "激進分子",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "republican-4730",
+      "word": "republican",
+      "senseId": "republican%5:00:00:democratic:00",
+      "synsetId": "00720336-s",
+      "pos": "adjective",
+      "englishDefinition": "having the supreme power lying in the body of citizens entitled to vote for officers and representatives responsible to them or characteristic of such government",
+      "meaningZhTW": "共和主義者",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "resident-4734",
+      "word": "resident",
+      "senseId": "resident%1:18:01::",
+      "synsetId": "10208897-n",
+      "pos": "noun",
+      "englishDefinition": "a physician (especially an intern) who lives in a hospital and cares for hospitalized patients under the supervision of the medical staff of the hospital",
+      "meaningZhTW": "居民",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "sensor-4777",
+      "word": "sensor",
+      "senseId": "sensor%1:06:00::",
+      "synsetId": "03185635-n",
+      "pos": "noun",
+      "englishDefinition": "any device that receives a signal or stimulus (as heat or pressure or light or motion etc.) and responds to it in a distinctive manner",
+      "meaningZhTW": "傳感器",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "speculate-4831",
+      "word": "speculate",
+      "senseId": "speculate%2:32:00::",
+      "synsetId": "00929020-v",
+      "pos": "verb",
+      "englishDefinition": "talk over conjecturally, or review in an idle or casual way and with an element of doubt or without sufficient reason to reach a conclusion",
+      "meaningZhTW": "深思",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "sponge-4835",
+      "word": "sponge",
+      "senseId": "sponge%1:27:00::",
+      "synsetId": "14621938-n",
+      "pos": "noun",
+      "englishDefinition": "a porous mass of interlacing fibers that forms the internal skeleton of various marine animals and usable to absorb water or any porous rubber or cellulose product similarly used",
+      "meaningZhTW": "海綿",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "throne-4914",
+      "word": "throne",
+      "senseId": "throne%1:04:00::",
+      "synsetId": "00606138-n",
+      "pos": "noun",
+      "englishDefinition": "the position and power of an exalted person (a sovereign or bishop) who is entitled to sit in a chair of state on ceremonial occasions",
+      "meaningZhTW": "王座",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "tin-4918",
+      "word": "tin",
+      "senseId": "tin%1:27:00::",
+      "synsetId": "14683034-n",
+      "pos": "noun",
+      "englishDefinition": "a silvery malleable metallic element that resists corrosion; used in many alloys and to coat other metals to prevent corrosion; obtained chiefly from cassiterite where it occurs as tin oxide",
+      "meaningZhTW": "錫",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "torch-4920",
+      "word": "torch",
+      "senseId": "torch%1:20:00::",
+      "synsetId": "12910473-n",
+      "pos": "noun",
+      "englishDefinition": "tall-stalked very woolly mullein with densely packed yellow flowers; ancient Greeks and Romans dipped the stalks in tallow for funeral torches",
+      "meaningZhTW": "火把",
+      "reason": "complex_or_technical_definition"
+    }
+  ]
+}

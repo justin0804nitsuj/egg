@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T12:58:52.736Z",
+  "generatedAt": "2026-09-28T13:32:39.248Z",
   "scope": "first-100-words",
   "source": {
     "name": "Open English WordNet",
@@ -16,15 +16,60 @@
     "description": "Definitions are ordered by app lookup candidate order, app POS order, then the original sense order in the OEWN entry JSON.",
     "limitation": "The OEWN JSON export used here does not expose a reliable corpus frequency or learner-dictionary priority score for these senses; no frequency ranking is invented."
   },
+  "rankingMetadata": {
+    "sourceSenseOrderAvailable": true,
+    "orderedSenseLists": 135969,
+    "senseCount": 185129,
+    "senseObjectKeys": [
+      "adjposition",
+      "agent",
+      "also",
+      "antonym",
+      "body_part",
+      "by_means_of",
+      "derivation",
+      "destination",
+      "event",
+      "exemplifies",
+      "id",
+      "instrument",
+      "location",
+      "material",
+      "participle",
+      "pertainym",
+      "property",
+      "result",
+      "sent",
+      "similar",
+      "state",
+      "subcat",
+      "synset",
+      "undergoer",
+      "uses",
+      "vehicle"
+    ],
+    "rankingLikeSenseKeys": [],
+    "rankingLikeSynsetKeys": [],
+    "reliableRankingMetadataFound": false,
+    "usedForPrimaryDefinitions": "source-order",
+    "note": "OEWN entry sense arrays are ordered, but no frequency, tag count, or priority fields were found on imported sense or synset objects. WordNet sense IDs are retained as identifiers, not treated as usage-frequency ranks."
+  },
+  "primaryDefinitionRules": {
+    "strategy": "source-order-limited-primary-senses",
+    "maxPerPartOfSpeech": 3,
+    "maxPerWord": 6,
+    "description": "Primary definitions use the same source ordering as the full definition list, limited to at most three definitions per part of speech and six definitions per word."
+  },
   "runtimeDefinitionSchema": [
     "id",
     "synsetId",
     "partOfSpeech",
     "partOfSpeechLabel",
     "lexicalFile",
-    "definition",
+    "englishDefinition",
+    "chineseDefinition",
+    "examples",
     "source",
-    "meaningZh",
     "translationStatus"
   ],
   "totalWordsInApp": 6012,
@@ -34,6 +79,8 @@
   "matchRate": 92,
   "runtimeWordCount": 92,
   "definitionCount": 600,
+  "primaryDefinitionCount": 283,
+  "secondaryDefinitionCount": 317,
   "definitionCountStats": {
     "min": 0,
     "max": 28,
@@ -72,6 +119,7 @@
       "word": "a/an",
       "partOfSpeech": "art.",
       "level": 1,
+      "originalMeaning": "一個；一（冠詞）",
       "candidates": [
         "a",
         "an"
@@ -80,13 +128,31 @@
       "unsupportedParts": [
         "art"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "a",
+          "found": true,
+          "availablePos": [
+            "n"
+          ]
+        },
+        {
+          "candidate": "an",
+          "found": true,
+          "availablePos": [
+            "n"
+          ]
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "although-28",
       "word": "although",
       "partOfSpeech": "conj.",
       "level": 1,
+      "originalMeaning": "雖然",
       "candidates": [
         "although"
       ],
@@ -94,13 +160,22 @@
       "unsupportedParts": [
         "conj"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "although",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "and-31",
       "word": "and",
       "partOfSpeech": "conj.",
       "level": 1,
+      "originalMeaning": "和",
       "candidates": [
         "and"
       ],
@@ -108,13 +183,22 @@
       "unsupportedParts": [
         "conj"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "and",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "anybody/anyone-38",
       "word": "anybody/anyone",
       "partOfSpeech": "pron.",
       "level": 1,
+      "originalMeaning": "任何人",
       "candidates": [
         "anybody",
         "anyone"
@@ -123,13 +207,27 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "anybody",
+          "found": false,
+          "availablePos": []
+        },
+        {
+          "candidate": "anyone",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "anything-39",
       "word": "anything",
       "partOfSpeech": "pron.",
       "level": 1,
+      "originalMeaning": "任何事",
       "candidates": [
         "anything"
       ],
@@ -137,13 +235,22 @@
       "unsupportedParts": [
         "pron"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "anything",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "at-50",
       "word": "at",
       "partOfSpeech": "prep.",
       "level": 1,
+      "originalMeaning": "在",
       "candidates": [
         "at"
       ],
@@ -151,13 +258,24 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "at",
+          "found": true,
+          "availablePos": [
+            "n"
+          ]
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
     },
     {
       "id": "because-73",
       "word": "because",
       "partOfSpeech": "conj.",
       "level": 1,
+      "originalMeaning": "因為",
       "candidates": [
         "because"
       ],
@@ -165,13 +283,22 @@
       "unsupportedParts": [
         "conj"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "because",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     },
     {
       "id": "beside-88",
       "word": "beside",
       "partOfSpeech": "prep.",
       "level": 1,
+      "originalMeaning": "在旁邊",
       "candidates": [
         "beside"
       ],
@@ -179,9 +306,224 @@
       "unsupportedParts": [
         "prep"
       ],
-      "reason": "unsupported_pos"
+      "entryDiagnostics": [
+        {
+          "candidate": "beside",
+          "found": false,
+          "availablePos": []
+        }
+      ],
+      "reason": "unsupported_pos",
+      "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
     }
   ],
+  "unmatchedAnalysis": {
+    "unsupported_pos": [
+      {
+        "id": "a/an-1",
+        "word": "a/an",
+        "partOfSpeech": "art.",
+        "level": 1,
+        "originalMeaning": "一個；一（冠詞）",
+        "candidates": [
+          "a",
+          "an"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "art"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "a",
+            "found": true,
+            "availablePos": [
+              "n"
+            ]
+          },
+          {
+            "candidate": "an",
+            "found": true,
+            "availablePos": [
+              "n"
+            ]
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "although-28",
+        "word": "although",
+        "partOfSpeech": "conj.",
+        "level": 1,
+        "originalMeaning": "雖然",
+        "candidates": [
+          "although"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "conj"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "although",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "and-31",
+        "word": "and",
+        "partOfSpeech": "conj.",
+        "level": 1,
+        "originalMeaning": "和",
+        "candidates": [
+          "and"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "conj"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "and",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "anybody/anyone-38",
+        "word": "anybody/anyone",
+        "partOfSpeech": "pron.",
+        "level": 1,
+        "originalMeaning": "任何人",
+        "candidates": [
+          "anybody",
+          "anyone"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "anybody",
+            "found": false,
+            "availablePos": []
+          },
+          {
+            "candidate": "anyone",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "anything-39",
+        "word": "anything",
+        "partOfSpeech": "pron.",
+        "level": 1,
+        "originalMeaning": "任何事",
+        "candidates": [
+          "anything"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "pron"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "anything",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "at-50",
+        "word": "at",
+        "partOfSpeech": "prep.",
+        "level": 1,
+        "originalMeaning": "在",
+        "candidates": [
+          "at"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "at",
+            "found": true,
+            "availablePos": [
+              "n"
+            ]
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "OEWN contains at least one lookup candidate, but not with a part of speech compatible with the VocabApp entry."
+      },
+      {
+        "id": "because-73",
+        "word": "because",
+        "partOfSpeech": "conj.",
+        "level": 1,
+        "originalMeaning": "因為",
+        "candidates": [
+          "because"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "conj"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "because",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      },
+      {
+        "id": "beside-88",
+        "word": "beside",
+        "partOfSpeech": "prep.",
+        "level": 1,
+        "originalMeaning": "在旁邊",
+        "candidates": [
+          "beside"
+        ],
+        "supportedPos": [],
+        "unsupportedParts": [
+          "prep"
+        ],
+        "entryDiagnostics": [
+          {
+            "candidate": "beside",
+            "found": false,
+            "availablePos": []
+          }
+        ],
+        "reason": "unsupported_pos",
+        "possibleReason": "No normalized lookup candidate appears as an OEWN lemma. This may be an inflected form, spelling variant, multi-form entry, or a word absent from OEWN."
+      }
+    ],
+    "no_wordnet_sense_for_word_and_pos": []
+  },
   "anomalies": {
     "posMismatches": [],
     "duplicateDefinitionGroups": [

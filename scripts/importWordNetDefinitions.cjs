@@ -1168,6 +1168,10 @@ import { ZH_TW_L3_OVERRIDES } from './wordDefinitionsZhTW_L3_overrides.js';
 import { WORD_DEFINITIONS_ZH_TW_L3 } from './wordDefinitionsZhTW_L3.js';
 import { ZH_TW_L4_OVERRIDES } from './wordDefinitionsZhTW_L4_overrides.js';
 import { WORD_DEFINITIONS_ZH_TW_L4 } from './wordDefinitionsZhTW_L4.js';
+import { ZH_TW_L5_OVERRIDES } from './wordDefinitionsZhTW_L5_overrides.js';
+import { WORD_DEFINITIONS_ZH_TW_L5 } from './wordDefinitionsZhTW_L5.js';
+import { ZH_TW_L6_OVERRIDES } from './wordDefinitionsZhTW_L6_overrides.js';
+import { WORD_DEFINITIONS_ZH_TW_L6 } from './wordDefinitionsZhTW_L6.js';
 import { WORDS } from './words.js';
 
 const WORD_LEVEL_BY_ID = new Map(WORDS.map((w) => [String(w.id), w.level]));
@@ -1177,6 +1181,8 @@ const OVERRIDES_BY_LEVEL = {
   2: ZH_TW_L2_OVERRIDES,
   3: ZH_TW_L3_OVERRIDES,
   4: ZH_TW_L4_OVERRIDES,
+  5: ZH_TW_L5_OVERRIDES,
+  6: ZH_TW_L6_OVERRIDES,
 };
 
 const GENERATED_BY_LEVEL = {
@@ -1184,6 +1190,8 @@ const GENERATED_BY_LEVEL = {
   2: WORD_DEFINITIONS_ZH_TW_L2,
   3: WORD_DEFINITIONS_ZH_TW_L3,
   4: WORD_DEFINITIONS_ZH_TW_L4,
+  5: WORD_DEFINITIONS_ZH_TW_L5,
+  6: WORD_DEFINITIONS_ZH_TW_L6,
 };
 
 export const WORD_DEFINITION_METADATA = ${JSON.stringify(

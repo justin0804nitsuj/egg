@@ -384,10 +384,10 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "年刊"
   },
   "anxiety%1:26:00::": {
-    "meaningZhTW": "焦慮"
+    "meaningZhTW": "持續性焦慮；焦慮狀態（精神醫學）"
   },
   "anxiety%1:12:00::": {
-    "meaningZhTW": "焦慮"
+    "meaningZhTW": "焦慮；不安；憂慮（情緒）"
   },
   "apology%1:10:00::": {
     "meaningZhTW": "道歉"
@@ -861,7 +861,7 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "花"
   },
   "bloom%2:30:00::": {
-    "meaningZhTW": "花"
+    "meaningZhTW": "開花"
   },
   "blossom%1:20:00::": {
     "meaningZhTW": "花"
@@ -870,10 +870,10 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "花"
   },
   "blossom%2:30:01::": {
-    "meaningZhTW": "花"
+    "meaningZhTW": "開花"
   },
   "blossom%2:30:00::": {
-    "meaningZhTW": "花"
+    "meaningZhTW": "蓬勃發展"
   },
   "boast%2:32:00::": {
     "meaningZhTW": "吹牛"
@@ -885,13 +885,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "吹牛"
   },
   "bond%1:19:00::": {
-    "meaningZhTW": "捆綁物"
+    "meaningZhTW": "化學鍵（化學）"
   },
   "bond%1:21:02::": {
-    "meaningZhTW": "捆綁物"
+    "meaningZhTW": "債券（金融）"
   },
   "bond%1:24:00::": {
-    "meaningZhTW": "捆綁物"
+    "meaningZhTW": "紐帶；聯繫；關係"
   },
   "bond%2:35:00::": {
     "meaningZhTW": "捆綁物"
@@ -1005,10 +1005,10 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "計算"
   },
   "calorie%1:23:01::": {
-    "meaningZhTW": "卡路裡（熱量單位）"
+    "meaningZhTW": "卡；小卡（cal，熱量單位）"
   },
   "calorie%1:23:02::": {
-    "meaningZhTW": "卡路裡（熱量單位）"
+    "meaningZhTW": "大卡；千卡（kcal，食品熱量）"
   },
   "campaign%1:11:00::": {
     "meaningZhTW": "戰役"
@@ -1020,13 +1020,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "戰役"
   },
   "campaign%2:33:01::": {
-    "meaningZhTW": "戰役"
+    "meaningZhTW": "競選；參選"
   },
   "campaign%2:41:10::": {
-    "meaningZhTW": "戰役"
+    "meaningZhTW": "發起運動；積極倡議"
   },
   "campaign%2:33:00::": {
-    "meaningZhTW": "戰役"
+    "meaningZhTW": "參加戰役；出征"
   },
   "candidate%1:18:01::": {
     "meaningZhTW": "候選人"
@@ -1080,10 +1080,10 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "運送者（人）"
   },
   "carrier%1:06:03::": {
-    "meaningZhTW": "運送者"
+    "meaningZhTW": "運載車；運輸車輛"
   },
   "carrier%1:06:01::": {
-    "meaningZhTW": "運送者"
+    "meaningZhTW": "航空母艦；航母"
   },
   "carve%2:35:01::": {
     "meaningZhTW": "雕刻"
@@ -1950,13 +1950,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "會議"
   },
   "counter%1:06:00::": {
-    "meaningZhTW": "計算器"
+    "meaningZhTW": "櫃檯；櫃台"
   },
   "counter%1:06:03::": {
-    "meaningZhTW": "計算器"
+    "meaningZhTW": "計數籌碼；棋子"
   },
   "counter%1:06:01::": {
-    "meaningZhTW": "計算器"
+    "meaningZhTW": "計數器"
   },
   "counter%2:32:00::": {
     "meaningZhTW": "計算器"
@@ -4692,13 +4692,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "侮辱"
   },
   "insurance%1:21:02::": {
-    "meaningZhTW": "保險"
+    "meaningZhTW": "保險；損失補償保障"
   },
   "insurance%1:10:00::": {
-    "meaningZhTW": "保險"
+    "meaningZhTW": "保險單；保險契約"
   },
   "insurance%1:26:00::": {
-    "meaningZhTW": "保險"
+    "meaningZhTW": "保障；防範未來損失的措施"
   },
   "intellectual%5:00:00:mental:00": {
     "meaningZhTW": "有知識者"
@@ -5613,13 +5613,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "給與動機"
   },
   "motivation%1:03:00::": {
-    "meaningZhTW": "動機"
+    "meaningZhTW": "動機；驅力"
   },
   "motivation%1:26:00::": {
-    "meaningZhTW": "動機"
+    "meaningZhTW": "積極性；受激勵的狀態"
   },
   "motivation%1:04:00::": {
-    "meaningZhTW": "動機"
+    "meaningZhTW": "激勵；鼓舞（行為）"
   },
   "mountainous%5:00:00:rough:00": {
     "meaningZhTW": "多山的"
@@ -5895,13 +5895,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "反對"
   },
   "option%1:21:00::": {
-    "meaningZhTW": "選擇權"
+    "meaningZhTW": "選擇權（金融／契約）"
   },
   "option%1:09:00::": {
-    "meaningZhTW": "選擇權"
+    "meaningZhTW": "選項；可選擇的事物"
   },
   "option%1:04:00::": {
-    "meaningZhTW": "選擇權"
+    "meaningZhTW": "選擇；選取（行為）"
   },
   "orbit%1:15:00::": {
     "meaningZhTW": "軌道"
@@ -7950,10 +7950,10 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "筆劃"
   },
   "submarine%1:06:00::": {
-    "meaningZhTW": "潛水艇"
+    "meaningZhTW": "潛水艇；潛艦"
   },
   "submarine%1:13:00::": {
-    "meaningZhTW": "潛水艇"
+    "meaningZhTW": "潛艇堡；長條三明治（美式）"
   },
   "submarine%5:00:00:subsurface:00": {
     "meaningZhTW": "潛水艇"
@@ -8463,13 +8463,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "德行"
   },
   "virus%1:05:00::": {
-    "meaningZhTW": "病毒"
+    "meaningZhTW": "病毒（生物／醫學）"
   },
   "virus%1:26:00::": {
-    "meaningZhTW": "病毒"
+    "meaningZhTW": "禍害；有害影響（比喻）"
   },
   "virus%1:10:00::": {
-    "meaningZhTW": "病毒"
+    "meaningZhTW": "電腦病毒"
   },
   "visual%3:01:04::": {
     "meaningZhTW": "視覺的"

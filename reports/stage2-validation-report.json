@@ -1,0 +1,558 @@
+{
+  "brain": {
+    "entries": [
+      {
+        "id": "brain-1108",
+        "level": 2,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "腦 (義項 1)",
+            "sourceSenseIds": [
+              "brain%1:08:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "腦 (義項 2)",
+            "sourceSenseIds": [
+              "brain%1:09:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "腦（金額/款項）",
+            "sourceSenseIds": [
+              "brain%1:09:01::"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "complex": {
+    "entries": [
+      {
+        "id": "complex-1185",
+        "level": 2,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "綜合體",
+            "sourceSenseIds": [
+              "complex%3:00:00::",
+              "complex%5:00:01:complex:00"
+            ]
+          },
+          {
+            "meaningZhTW": "綜合體 (義項 1)",
+            "sourceSenseIds": [
+              "complex%1:09:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "綜合體 (義項 2)",
+            "sourceSenseIds": [
+              "complex%1:27:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "綜合體（軍事）",
+            "sourceSenseIds": [
+              "complex%1:12:00::"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "corn": {
+    "entries": [
+      {
+        "id": "corn-1201",
+        "level": 2,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "玉蜀黍 (義項 1)",
+            "sourceSenseIds": [
+              "corn%1:20:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "玉蜀黍（金額/款項）",
+            "sourceSenseIds": [
+              "corn%1:20:02::"
+            ]
+          },
+          {
+            "meaningZhTW": "玉蜀黍（人物）",
+            "sourceSenseIds": [
+              "corn%1:13:00::"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "earthquake": {
+    "entries": [
+      {
+        "id": "earthquake-1290",
+        "level": 2,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "地震（交通/載具）",
+            "sourceSenseIds": [
+              "earthquake%1:11:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "地震 (義項 2)",
+            "sourceSenseIds": [
+              "earthquake%1:26:00::"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "gold": {
+    "entries": [
+      {
+        "id": "gold-1404",
+        "level": 2,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "黃金 (義項 1)",
+            "sourceSenseIds": [
+              "gold%1:21:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "黃金 (義項 2)",
+            "sourceSenseIds": [
+              "gold%1:07:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "黃金 (義項 3)",
+            "sourceSenseIds": [
+              "gold%1:27:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "黃金",
+            "sourceSenseIds": [
+              "gold%5:00:00:metallic:00",
+              "gold%5:00:00:chromatic:00"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "hop": {
+    "entries": [
+      {
+        "id": "hop-1437",
+        "level": 2,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "單腳跳",
+            "sourceSenseIds": [
+              "hop%2:38:00::",
+              "hop%2:38:04::",
+              "hop%2:38:05::"
+            ]
+          },
+          {
+            "meaningZhTW": "單腳跳（軍事）",
+            "sourceSenseIds": [
+              "hop%1:04:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "單腳跳 (義項 2)",
+            "sourceSenseIds": [
+              "hop%1:20:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "單腳跳（音樂）",
+            "sourceSenseIds": [
+              "hop%1:11:00::"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "spider": {
+    "entries": [
+      {
+        "id": "spider-1835",
+        "level": 2,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "蜘蛛（金額/款項）",
+            "sourceSenseIds": [
+              "spider%1:05:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "蜘蛛 (義項 2)",
+            "sourceSenseIds": [
+              "spider%1:10:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "蜘蛛 (義項 3)",
+            "sourceSenseIds": [
+              "spider%1:06:00::"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "worm": {
+    "entries": [
+      {
+        "id": "worm-1997",
+        "level": 2,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "蟲（動物）",
+            "sourceSenseIds": [
+              "worm%1:05:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "蟲（人）",
+            "sourceSenseIds": [
+              "worm%1:18:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "蟲（軍事）",
+            "sourceSenseIds": [
+              "worm%1:10:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "蟲",
+            "sourceSenseIds": [
+              "worm%2:38:00::"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "civil": {
+    "entries": [
+      {
+        "id": "civil-2155",
+        "level": 3,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "市民的（軍事）",
+            "sourceSenseIds": [
+              "civil%5:00:00:civilian:00"
+            ]
+          },
+          {
+            "meaningZhTW": "市民的 (義項 2)",
+            "sourceSenseIds": [
+              "civil%3:00:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "市民的 (義項 3)",
+            "sourceSenseIds": [
+              "civil%3:01:01::"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "process": {
+    "entries": [
+      {
+        "id": "process-2677",
+        "level": 3,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "程式 (義項 1)",
+            "sourceSenseIds": [
+              "process%1:04:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "程式 (義項 2)",
+            "sourceSenseIds": [
+              "process%1:09:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "程式（法律）",
+            "sourceSenseIds": [
+              "process%1:10:00::"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "bond": {
+    "entries": [
+      {
+        "id": "bond-3108",
+        "level": 4,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "捆綁物 (義項 1)",
+            "sourceSenseIds": [
+              "bond%1:19:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "捆綁物（金額/款項）",
+            "sourceSenseIds": [
+              "bond%1:21:02::"
+            ]
+          },
+          {
+            "meaningZhTW": "捆綁物（交通/載具）",
+            "sourceSenseIds": [
+              "bond%1:24:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "捆綁物",
+            "sourceSenseIds": [
+              "bond%2:35:00::",
+              "bond%2:41:13::",
+              "bond%2:40:00::"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "cell": {
+    "entries": [
+      {
+        "id": "cell-1136",
+        "level": 2,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "單元",
+            "sourceSenseIds": [
+              "cell%1:06:03::",
+              "cell%1:03:00::",
+              "cell%1:06:00::"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "state": {
+    "entries": []
+  },
+  "capital": {
+    "entries": [
+      {
+        "id": "capital-1130",
+        "level": 2,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "首都 (義項 1)",
+            "sourceSenseIds": [
+              "capital%1:21:01::"
+            ]
+          },
+          {
+            "meaningZhTW": "資本；資金（經濟）",
+            "sourceSenseIds": [
+              "capital%1:21:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "首都；省會",
+            "sourceSenseIds": [
+              "capital%1:15:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "首都",
+            "sourceSenseIds": [
+              "capital%5:00:00:superior:02",
+              "capital%5:00:00:primary:00",
+              "capital%5:00:00:uppercase:00"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "bear": {
+    "entries": [
+      {
+        "id": "bear-71",
+        "level": 1,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "具有；承擔",
+            "sourceSenseIds": [
+              "bear%2:42:01::"
+            ]
+          },
+          {
+            "meaningZhTW": "抱有；懷有",
+            "sourceSenseIds": [
+              "bear%2:37:01::"
+            ]
+          },
+          {
+            "meaningZhTW": "生育；產下",
+            "sourceSenseIds": [
+              "bear%2:29:01::"
+            ]
+          },
+          {
+            "meaningZhTW": "熊",
+            "sourceSenseIds": [
+              "bear%1:05:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "空頭；看跌者",
+            "sourceSenseIds": [
+              "bear%1:18:00::"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "bank": {
+    "entries": [
+      {
+        "id": "bank-61",
+        "level": 1,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "河岸；堤岸",
+            "sourceSenseIds": [
+              "bank%1:17:01::"
+            ]
+          },
+          {
+            "meaningZhTW": "銀行",
+            "sourceSenseIds": [
+              "bank%1:14:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "土堤；長堆",
+            "sourceSenseIds": [
+              "bank%1:17:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "側傾；傾斜轉彎",
+            "sourceSenseIds": [
+              "bank%2:38:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "築堤圍住",
+            "sourceSenseIds": [
+              "bank%2:35:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "在（銀行）開戶往來",
+            "sourceSenseIds": [
+              "bank%2:40:02::"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "court": {
+    "entries": [
+      {
+        "id": "court-1205",
+        "level": 2,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "法院",
+            "sourceSenseIds": [
+              "court%1:14:00::",
+              "court%1:06:02::",
+              "court%1:14:01::"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "draft": {
+    "entries": [
+      {
+        "id": "draft-3322",
+        "level": 4,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "氣流",
+            "sourceSenseIds": [
+              "draft%1:21:00::",
+              "draft%1:19:00::",
+              "draft%1:06:01::"
+            ]
+          },
+          {
+            "meaningZhTW": "氣流 (義項 1)",
+            "sourceSenseIds": [
+              "draft%2:36:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "氣流 (義項 2)",
+            "sourceSenseIds": [
+              "draft%2:33:00::"
+            ]
+          },
+          {
+            "meaningZhTW": "氣流 (義項 3)",
+            "sourceSenseIds": [
+              "draft%2:36:05::"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "scale": {
+    "entries": []
+  },
+  "vessel": {
+    "entries": [
+      {
+        "id": "vessel-3986",
+        "level": 4,
+        "runtimePrimary": [
+          {
+            "meaningZhTW": "船",
+            "sourceSenseIds": [
+              "vessel%1:08:00::",
+              "vessel%1:06:00::",
+              "vessel%1:06:01::"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

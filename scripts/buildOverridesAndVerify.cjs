@@ -2267,7 +2267,7 @@ async function main() {
 
           overrides[senseId] = {
             meaningZhTW: newMeaning,
-            status: 'verified',
+            status: override ? 'verified' : 'auto_differentiated',
             reason,
           };
 

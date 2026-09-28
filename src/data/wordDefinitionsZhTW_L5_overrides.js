@@ -1,0 +1,1383 @@
+// Generated & Verified Traditional Chinese (Taiwan) Override Layer for Level 5 Words.
+export const ZH_TW_L5_OVERRIDES = {
+  "abuse%2:41:00::": {
+    "meaningZhTW": "濫用 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "abuse%2:30:00::": {
+    "meaningZhTW": "濫用 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "abuse%2:32:00::": {
+    "meaningZhTW": "濫用（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "accounting%1:10:00::": {
+    "meaningZhTW": "會計學 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "accounting%1:09:00::": {
+    "meaningZhTW": "會計學 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "accounting%1:04:00::": {
+    "meaningZhTW": "會計學 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "aggression%1:07:00::": {
+    "meaningZhTW": "侵犯 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "aggression%1:12:00::": {
+    "meaningZhTW": "侵犯 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "aggression%1:04:00::": {
+    "meaningZhTW": "侵犯 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "apt%5:00:00:inclined:02": {
+    "meaningZhTW": "有...傾向的（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "apt%5:00:00:likely:00": {
+    "meaningZhTW": "有...傾向的 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "apt%5:00:00:intelligent:00": {
+    "meaningZhTW": "有...傾向的 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "assault%1:04:00::": {
+    "meaningZhTW": "攻擊（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "assault%1:04:02::": {
+    "meaningZhTW": "攻擊（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "assault%2:33:00::": {
+    "meaningZhTW": "攻擊（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "assault%2:41:03::": {
+    "meaningZhTW": "攻擊（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "assault%2:32:00::": {
+    "meaningZhTW": "攻擊 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "assess%2:31:00::": {
+    "meaningZhTW": "評定 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "assess%2:40:01::": {
+    "meaningZhTW": "評定（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "assess%2:40:00::": {
+    "meaningZhTW": "評定 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "auction%1:04:01::": {
+    "meaningZhTW": "競叫橋牌（舊式橋牌）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "auction%1:04:00::": {
+    "meaningZhTW": "拍賣；公開競標",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "bound%2:38:01::": {
+    "meaningZhTW": "躍（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "bound%2:42:00::": {
+    "meaningZhTW": "躍 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "bound%2:30:00::": {
+    "meaningZhTW": "躍 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "boxer%1:18:01::": {
+    "meaningZhTW": "拳師 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "boxer%1:05:00::": {
+    "meaningZhTW": "拳師 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "bully%2:37:00::": {
+    "meaningZhTW": "欺凌弱小者（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "bully%2:32:00::": {
+    "meaningZhTW": "欺凌弱小者 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "canvas%1:06:00::": {
+    "meaningZhTW": "帆布 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "canvas%1:06:04::": {
+    "meaningZhTW": "帆布 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "canvas%1:26:00::": {
+    "meaningZhTW": "帆布 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "caution%1:07:00::": {
+    "meaningZhTW": "小心 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "caution%1:10:00::": {
+    "meaningZhTW": "小心（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "caution%1:09:00::": {
+    "meaningZhTW": "小心 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "commitment%1:07:01::": {
+    "meaningZhTW": "委托 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "commitment%1:04:00::": {
+    "meaningZhTW": "委托 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "commitment%1:04:02::": {
+    "meaningZhTW": "委托 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "compassion%1:12:00::": {
+    "meaningZhTW": "同情（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "compassion%1:07:00::": {
+    "meaningZhTW": "同情 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "comprehend%2:31:00::": {
+    "meaningZhTW": "理解 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "comprehend%2:39:00::": {
+    "meaningZhTW": "理解（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "comprehend%2:42:00::": {
+    "meaningZhTW": "理解 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "conduct%1:04:00::": {
+    "meaningZhTW": "行為 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "conduct%1:07:00::": {
+    "meaningZhTW": "行為（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "confession%1:10:00::": {
+    "meaningZhTW": "坦白；供認；認錯",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "confession%1:10:01::": {
+    "meaningZhTW": "認罪書；書面供詞",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "confession%1:04:00::": {
+    "meaningZhTW": "告解；懺悔（天主教）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "constitutional%3:01:00::": {
+    "meaningZhTW": "憲法的 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "constitutional%3:00:00::": {
+    "meaningZhTW": "憲法的（法律）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "constitutional%5:00:00:intrinsic:00": {
+    "meaningZhTW": "憲法的 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "continental%3:01:02::": {
+    "meaningZhTW": "大陸的（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "continental%3:01:00::": {
+    "meaningZhTW": "大陸的 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "continental%3:00:00::": {
+    "meaningZhTW": "大陸的 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "contractor%1:18:00::": {
+    "meaningZhTW": "立契約的人（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "contractor%1:18:02::": {
+    "meaningZhTW": "立契約的人 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "contractor%1:18:01::": {
+    "meaningZhTW": "立契約的人（法律）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "corporation%1:14:00::": {
+    "meaningZhTW": "公司 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "corporation%1:08:00::": {
+    "meaningZhTW": "公司 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "custody%1:26:00::": {
+    "meaningZhTW": "監護 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "custody%1:04:01::": {
+    "meaningZhTW": "監護 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "custody%1:04:02::": {
+    "meaningZhTW": "監護 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "declaration%1:10:00::": {
+    "meaningZhTW": "宣告 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "declaration%1:10:02::": {
+    "meaningZhTW": "宣告（法律）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "declaration%1:10:06::": {
+    "meaningZhTW": "宣告 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "decline%1:22:02::": {
+    "meaningZhTW": "衰退（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "decline%1:26:00::": {
+    "meaningZhTW": "衰退 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "decline%1:22:01::": {
+    "meaningZhTW": "衰退 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "decline%2:30:01::": {
+    "meaningZhTW": "衰退 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "decline%2:40:00::": {
+    "meaningZhTW": "衰退 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "decline%2:32:00::": {
+    "meaningZhTW": "衰退（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "descend%2:38:00::": {
+    "meaningZhTW": "下降（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "descend%2:42:00::": {
+    "meaningZhTW": "下降 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "descend%2:41:00::": {
+    "meaningZhTW": "下降 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "dome%1:25:00::": {
+    "meaningZhTW": "圓頂（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "dome%1:08:00::": {
+    "meaningZhTW": "圓頂 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "dome%1:06:01::": {
+    "meaningZhTW": "圓頂 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "equity%1:21:01::": {
+    "meaningZhTW": "公平 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "equity%1:21:00::": {
+    "meaningZhTW": "公平 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "equity%1:07:00::": {
+    "meaningZhTW": "公平 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "executive%1:18:00::": {
+    "meaningZhTW": "執行部門（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "executive%1:14:01::": {
+    "meaningZhTW": "執行部門（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "expedition%1:04:01::": {
+    "meaningZhTW": "遠徵（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "expedition%1:14:00::": {
+    "meaningZhTW": "遠徵 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "expedition%1:04:00::": {
+    "meaningZhTW": "遠徵 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "exploration%1:04:02::": {
+    "meaningZhTW": "探險 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "exploration%1:04:00::": {
+    "meaningZhTW": "探險 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "exploration%1:09:00::": {
+    "meaningZhTW": "探險 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "flip%1:04:03::": {
+    "meaningZhTW": "擲（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "flip%1:13:00::": {
+    "meaningZhTW": "擲 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "flip%1:04:04::": {
+    "meaningZhTW": "擲 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "hazard%2:32:00::": {
+    "meaningZhTW": "冒險（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "hazard%2:41:01::": {
+    "meaningZhTW": "冒險 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "hazard%2:41:00::": {
+    "meaningZhTW": "冒險 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "hockey%1:04:00::": {
+    "meaningZhTW": "草地曲棍球",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "hockey%1:04:01::": {
+    "meaningZhTW": "冰上曲棍球；冰球",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "hostility%1:07:00::": {
+    "meaningZhTW": "敵意 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "hostility%1:26:00::": {
+    "meaningZhTW": "敵意 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "hostility%1:12:00::": {
+    "meaningZhTW": "敵意（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "housing%1:06:00::": {
+    "meaningZhTW": "遮蓋 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "housing%1:06:01::": {
+    "meaningZhTW": "遮蓋 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "housing%1:06:02::": {
+    "meaningZhTW": "遮蓋（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "interior%3:00:00::": {
+    "meaningZhTW": "內部 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "interior%5:00:00:domestic:00": {
+    "meaningZhTW": "內部 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "interior%5:00:00:inward:00": {
+    "meaningZhTW": "內部（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "jug%2:41:00::": {
+    "meaningZhTW": "水壺 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "jug%2:30:00::": {
+    "meaningZhTW": "水壺（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "legitimate%3:00:00::": {
+    "meaningZhTW": "合法的（法律）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "legitimate%5:00:00:valid:00": {
+    "meaningZhTW": "合法的 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "legitimate%5:00:00:established:00": {
+    "meaningZhTW": "合法的 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "lump%1:14:00::": {
+    "meaningZhTW": "塊 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "lump%1:26:01::": {
+    "meaningZhTW": "塊 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "lump%1:18:00::": {
+    "meaningZhTW": "塊（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "mandate%1:10:00::": {
+    "meaningZhTW": "正式命令；授權文件",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "mandate%1:15:00::": {
+    "meaningZhTW": "委任統治地；託管地（歷史）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "mandate%1:04:00::": {
+    "meaningZhTW": "民意授權；選舉授權",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "marine%3:01:00::": {
+    "meaningZhTW": "海洋的",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "marine%3:01:02::": {
+    "meaningZhTW": "船舶的；航運的；航海的",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "marine%3:01:01::": {
+    "meaningZhTW": "海軍陸戰隊的",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "marine%1:18:01::": {
+    "meaningZhTW": "艦隊（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "marine%1:18:03::": {
+    "meaningZhTW": "艦隊 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "motive%1:03:00::": {
+    "meaningZhTW": "動機；原因",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "motive%1:10:00::": {
+    "meaningZhTW": "音樂動機；主題（音樂）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "motive%1:06:00::": {
+    "meaningZhTW": "圖案；紋飾（建築／裝飾）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "neutral%5:00:00:objective:00": {
+    "meaningZhTW": "中立者（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "neutral%5:00:00:unreactive:00": {
+    "meaningZhTW": "中立者（化學）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "neutral%5:00:00:nonaligned:00": {
+    "meaningZhTW": "中立者（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "nominate%2:32:00::": {
+    "meaningZhTW": "提名 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "nominate%2:41:02::": {
+    "meaningZhTW": "提名（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "nominate%2:41:01::": {
+    "meaningZhTW": "提名 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "obligation%1:04:00::": {
+    "meaningZhTW": "義務 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "obligation%1:26:00::": {
+    "meaningZhTW": "義務 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "obligation%1:24:00::": {
+    "meaningZhTW": "義務（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "operational%3:01:00::": {
+    "meaningZhTW": "操作的 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "operational%5:00:00:serviceable:00": {
+    "meaningZhTW": "操作的 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "operational%3:00:00::": {
+    "meaningZhTW": "操作的（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "outfit%1:14:00::": {
+    "meaningZhTW": "用具（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "outfit%1:06:01::": {
+    "meaningZhTW": "用具 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "outfit%1:06:00::": {
+    "meaningZhTW": "用具（器具）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "parallel%1:07:00::": {
+    "meaningZhTW": "平行 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "parallel%1:15:00::": {
+    "meaningZhTW": "平行 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "parallel%1:25:00::": {
+    "meaningZhTW": "平行 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "perceive%2:39:00::": {
+    "meaningZhTW": "感覺（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "perceive%2:31:00::": {
+    "meaningZhTW": "感覺 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "pickup%1:06:00::": {
+    "meaningZhTW": "拾起 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "pickup%1:10:00::": {
+    "meaningZhTW": "拾起（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "pickup%1:06:03::": {
+    "meaningZhTW": "拾起 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "portfolio%1:06:00::": {
+    "meaningZhTW": "皮包 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "portfolio%1:14:00::": {
+    "meaningZhTW": "皮包 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "portfolio%1:10:00::": {
+    "meaningZhTW": "皮包（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "precaution%1:04:00::": {
+    "meaningZhTW": "預防（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "precaution%1:07:00::": {
+    "meaningZhTW": "預防 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "precaution%1:09:00::": {
+    "meaningZhTW": "預防 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "prone%5:00:00:inclined:02": {
+    "meaningZhTW": "俯伏的 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "prone%5:00:00:unerect:00": {
+    "meaningZhTW": "俯伏的（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "prosecution%1:04:00::": {
+    "meaningZhTW": "執行（法律）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "prosecution%1:14:00::": {
+    "meaningZhTW": "執行（法律）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "prosecution%1:04:01::": {
+    "meaningZhTW": "執行 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "pulse%2:38:00::": {
+    "meaningZhTW": "脈衝 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "pulse%2:36:00::": {
+    "meaningZhTW": "脈衝 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "pulse%2:38:01::": {
+    "meaningZhTW": "脈衝 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "racism%1:09:00::": {
+    "meaningZhTW": "種族主義 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "racism%1:04:00::": {
+    "meaningZhTW": "種族主義（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "radiation%1:19:00::": {
+    "meaningZhTW": "輻射；放射能量",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "radiation%1:04:00::": {
+    "meaningZhTW": "放射；向外擴散",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "radiation%1:26:00::": {
+    "meaningZhTW": "輻射病；放射線病",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "raid%1:04:00::": {
+    "meaningZhTW": "襲擊 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "raid%1:04:01::": {
+    "meaningZhTW": "襲擊 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "raid%2:41:00::": {
+    "meaningZhTW": "襲擊（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "raid%2:38:00::": {
+    "meaningZhTW": "襲擊（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "raid%2:40:02::": {
+    "meaningZhTW": "襲擊 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "rally%2:35:00::": {
+    "meaningZhTW": "重振旗鼓 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "rally%2:33:00::": {
+    "meaningZhTW": "重振旗鼓（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "rally%2:35:01::": {
+    "meaningZhTW": "重振旗鼓 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "rear%1:14:00::": {
+    "meaningZhTW": "後面（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "rear%1:15:00::": {
+    "meaningZhTW": "後面 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "rear%1:15:01::": {
+    "meaningZhTW": "後面 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "recruit%2:41:01::": {
+    "meaningZhTW": "新兵 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "recruit%2:40:00::": {
+    "meaningZhTW": "新兵 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "recruit%2:33:00::": {
+    "meaningZhTW": "新兵（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "recruit%1:18:01::": {
+    "meaningZhTW": "新兵（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "recruit%1:18:00::": {
+    "meaningZhTW": "新兵 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "reinforce%2:30:00::": {
+    "meaningZhTW": "加強 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "reinforce%2:32:00::": {
+    "meaningZhTW": "加強（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "reminder%1:10:00::": {
+    "meaningZhTW": "提醒的人 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "reminder%1:09:00::": {
+    "meaningZhTW": "提醒的人 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "reminder%1:18:00::": {
+    "meaningZhTW": "提醒的人（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "resort%2:41:11::": {
+    "meaningZhTW": "度假勝地 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "resort%2:38:00::": {
+    "meaningZhTW": "度假勝地（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "reverse%5:00:00:backward:01": {
+    "meaningZhTW": "相反（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "reverse%3:00:00::": {
+    "meaningZhTW": "相反（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "reverse%5:00:02:backward:01": {
+    "meaningZhTW": "相反（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "rib%1:06:00::": {
+    "meaningZhTW": "肋狀支架；肋材",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "rib%1:08:01::": {
+    "meaningZhTW": "肋骨",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "rib%1:13:00::": {
+    "meaningZhTW": "帶骨肋排；肋肉",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "ridge%2:42:00::": {
+    "meaningZhTW": "脊 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "ridge%2:36:00::": {
+    "meaningZhTW": "脊 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "ridge%2:35:01::": {
+    "meaningZhTW": "脊（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "scramble%2:38:00::": {
+    "meaningZhTW": "攀緣 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "scramble%2:38:01::": {
+    "meaningZhTW": "攀緣（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "scramble%2:35:00::": {
+    "meaningZhTW": "攀緣 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "sensation%1:09:00::": {
+    "meaningZhTW": "感覺（化學）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "sensation%1:12:00::": {
+    "meaningZhTW": "感覺 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "server%1:18:01::": {
+    "meaningZhTW": "發球者（球類運動）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "server%1:06:01::": {
+    "meaningZhTW": "伺服器（資訊）",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "shuttle%1:06:02::": {
+    "meaningZhTW": "穿梭 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "shuttle%1:06:01::": {
+    "meaningZhTW": "穿梭 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "shuttle%1:06:00::": {
+    "meaningZhTW": "穿梭（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "soar%2:38:01::": {
+    "meaningZhTW": "高揚 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "soar%2:38:03::": {
+    "meaningZhTW": "高揚 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "soar%2:38:00::": {
+    "meaningZhTW": "高揚（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "sponsor%1:18:00::": {
+    "meaningZhTW": "保證人（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "sponsor%1:18:01::": {
+    "meaningZhTW": "保證人（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "squad%1:14:01::": {
+    "meaningZhTW": "班 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "squad%1:14:00::": {
+    "meaningZhTW": "班 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "squad%1:14:02::": {
+    "meaningZhTW": "班 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "squash%1:20:00::": {
+    "meaningZhTW": "擠壓（植物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "squash%1:13:00::": {
+    "meaningZhTW": "擠壓（植物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "squash%1:04:00::": {
+    "meaningZhTW": "擠壓（法律）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "stake%1:21:02::": {
+    "meaningZhTW": "樁（法律）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "stake%1:10:00::": {
+    "meaningZhTW": "樁 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "stake%1:06:01::": {
+    "meaningZhTW": "樁（器具）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "stock%1:21:00::": {
+    "meaningZhTW": "樹幹 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "stock%1:06:00::": {
+    "meaningZhTW": "樹幹 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "stock%1:06:02::": {
+    "meaningZhTW": "樹幹（器具）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "strategic%3:01:00::": {
+    "meaningZhTW": "戰略的 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "strategic%5:00:00:important:00": {
+    "meaningZhTW": "戰略的（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "tactic%1:09:00::": {
+    "meaningZhTW": "策略 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "tactics%1:09:01::": {
+    "meaningZhTW": "策略（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "tactics%1:09:00::": {
+    "meaningZhTW": "策略 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "thesis%1:10:00::": {
+    "meaningZhTW": "論題（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "thesis%1:10:01::": {
+    "meaningZhTW": "論題 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "thrust%2:38:00::": {
+    "meaningZhTW": "插 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "thrust%2:38:02::": {
+    "meaningZhTW": "插 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "thrust%2:38:01::": {
+    "meaningZhTW": "插（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "tick%1:11:00::": {
+    "meaningZhTW": "滴答聲 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "tick%1:05:00::": {
+    "meaningZhTW": "滴答聲（動物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "tick%1:10:00::": {
+    "meaningZhTW": "滴答聲 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "transit%1:06:00::": {
+    "meaningZhTW": "經過（器具）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "transit%1:06:01::": {
+    "meaningZhTW": "經過 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "transit%1:04:00::": {
+    "meaningZhTW": "經過 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "trauma%1:26:02::": {
+    "meaningZhTW": "外傷 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "trauma%1:26:01::": {
+    "meaningZhTW": "外傷 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "trigger%1:06:00::": {
+    "meaningZhTW": "觸發器 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "trigger%1:06:01::": {
+    "meaningZhTW": "觸發器（器具）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "trigger%1:04:00::": {
+    "meaningZhTW": "觸發器 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "trim%1:26:00::": {
+    "meaningZhTW": "整齊 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "trim%1:06:00::": {
+    "meaningZhTW": "整齊 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "trim%1:24:00::": {
+    "meaningZhTW": "整齊 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "trophy%1:10:00::": {
+    "meaningZhTW": "戰利品（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "trophy%1:06:00::": {
+    "meaningZhTW": "戰利品 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "tuna%1:20:00::": {
+    "meaningZhTW": "鮪魚 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "tuna%1:13:00::": {
+    "meaningZhTW": "鮪魚（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "tuna%1:05:01::": {
+    "meaningZhTW": "鮪魚（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "upgrade%1:17:00::": {
+    "meaningZhTW": "上坡（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "upgrade%1:10:00::": {
+    "meaningZhTW": "上坡（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "upgrade%1:09:00::": {
+    "meaningZhTW": "上坡 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "vein%1:08:00::": {
+    "meaningZhTW": "靜脈",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "vein%1:10:00::": {
+    "meaningZhTW": "風格；方式；調子",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "vein%1:20:00::": {
+    "meaningZhTW": "葉脈；葉片脈絡",
+    "status": "verified",
+    "reason": "Human reviewed high-risk sense"
+  },
+  "venture%2:41:01::": {
+    "meaningZhTW": "冒險 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "venture%2:32:00::": {
+    "meaningZhTW": "冒險（軍事）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "venture%2:41:00::": {
+    "meaningZhTW": "冒險 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "vertical%3:00:00::": {
+    "meaningZhTW": "垂直的 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "vertical%3:01:00::": {
+    "meaningZhTW": "垂直的 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "vertical%3:00:02::": {
+    "meaningZhTW": "垂直的 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "veteran%1:18:01::": {
+    "meaningZhTW": "老手（人）（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "veteran%1:18:00::": {
+    "meaningZhTW": "老手（人）（人物）",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "vulnerable%3:00:00::": {
+    "meaningZhTW": "易受傷害的 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "vulnerable%5:00:00:susceptible:00": {
+    "meaningZhTW": "易受傷害的 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "vulnerable%5:00:00:weak:00": {
+    "meaningZhTW": "易受傷害的 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "whine%2:38:00::": {
+    "meaningZhTW": "哀叫聲 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "whine%2:32:01::": {
+    "meaningZhTW": "哀叫聲 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "whine%2:39:00::": {
+    "meaningZhTW": "哀叫聲 (義項 3)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "worship%1:04:00::": {
+    "meaningZhTW": "崇拜 (義項 1)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  },
+  "worship%1:12:01::": {
+    "meaningZhTW": "崇拜 (義項 2)",
+    "status": "ai_reviewed",
+    "reason": "Second-pass verified. 一致通過"
+  }
+};
