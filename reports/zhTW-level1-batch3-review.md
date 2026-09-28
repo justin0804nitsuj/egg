@@ -1,0 +1,380 @@
+# Level 1 Batch 3 Vocabulary Review Queue
+
+- **Generated Date:** 2026-09-27
+- **Scope:** Level 1 High-Priority CLEAR_OVER_MERGE Groups (Batch 3: Groups 31–60)
+- **Total Groups:** 30
+- **Total Source Senses:** 87
+
+---
+
+## Instructions for Reviewer
+
+For each row in `reports/zhTW-level1-batch3-review.csv`:
+1. Set `decision` to:
+   - `APPROVE`: Accept the AI suggested Taiwan Traditional Chinese meaning.
+   - `REVISE`: Fill `finalMeaningZhTW` with your custom corrected Chinese translation.
+   - `KEEP_MERGED`: Keep the existing shared Chinese translation for this sense.
+2. Fill `finalMeaningZhTW` if revising or approving.
+3. Change `reviewStatus` from `NEEDS_REVIEW` to `APPROVED` when finalized.
+
+---
+
+## Review Queue Groups Summary
+
+### Group nose-31: **nose** (noun)
+- **Current Runtime Meaning:** `鼻子`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (clothing, transport, military). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `nose%1:08:00::` | the organ of smell and entrance to the respiratory tract; the prominent part of the face of man or other mammals | **鼻子** |
+| `nose%1:06:00::` | a front that resembles a human nose (especially the front of an aircraft) | **（飛機/車輛）鼻尖；前端** |
+| `nose%1:06:02::` | the front or forward projection of a tool or weapon | **嗅覺；敏銳嗅覺** |
+
+---
+
+### Group nurse-32: **nurse** (verb)
+- **Current Runtime Meaning:** `護士`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (legal, transport, medical, finance). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `nurse%2:29:00::` | try to cure by special care of treatment, of an illness or injury | **護理；照料（病患）** |
+| `nurse%2:37:00::` | maintain (a theory, thoughts, or feelings) | **餵奶；哺乳** |
+| `nurse%2:41:00::` | serve as a nurse; care for sick or handicapped people | **懷有；抱持（情緒/想法）** |
+
+---
+
+### Group on-33: **on** (adverb)
+- **Current Runtime Meaning:** `在...之上`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (military, mathematics). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `on%4:02:00::` | with a forward motion | **向前；繼續地** |
+| `on%4:02:01::` | indicates continuity or persistence or concentration | **穿上；戴上** |
+| `on%4:02:02::` | in a state required for something to function or be effective | **進行中；開著** |
+
+---
+
+### Group open-34: **open** (adjective)
+- **Current Runtime Meaning:** `公開`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `open%3:00:01::` | affording unobstructed entrance and exit; not shut or closed | **開著的；敞開的** |
+| `open%3:00:02::` | affording free passage or access | **開放的；公開的** |
+| `open%5:00:00:unprotected:00` | with no protection or shield | **露天的；無遮蔽的** |
+
+---
+
+### Group order-35: **order** (noun)
+- **Current Runtime Meaning:** `次序`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (legal, military, clothing). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `order%1:10:03::` | (often plural) a command given by a superior (e.g., a military or law enforcement officer) that must be obeyed | **命令；指示** |
+| `order%1:07:01::` | a degree in a continuum of size or quantity | **順序；秩序** |
+| `order%1:26:00::` | established customary state (especially of society) | **訂單；訂購品** |
+
+---
+
+### Group pass-36: **pass** (noun)
+- **Current Runtime Meaning:** `經過`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (military, entertainment, container, clothing). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `pass%1:04:04::` | (baseball) an advance to first base by a batter who receives four balls | **通行證；入場券** |
+| `pass%1:28:00::` | (military) a written leave of absence | **（體育）傳球** |
+| `pass%1:04:02::` | (American football) a play that involves one player throwing the ball to a teammate | **山口；關隘** |
+
+---
+
+### Group pay(ment)-37: **pay(ment)** (verb)
+- **Current Runtime Meaning:** `付錢`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (finance, container). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `pay%2:40:00::` | give money, usually in exchange for goods or services | **付款；支付** |
+| `pay%2:32:00::` | convey, as of a compliment, regards, attention, etc.; bestow | **付代價；得到報應** |
+| `pay%2:40:04::` | cancel or discharge a debt | **給付（薪資/利息）** |
+
+---
+
+### Group plant-38: **plant** (noun)
+- **Current Runtime Meaning:** `植物`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (legal, transport, entertainment). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `plant%1:06:01::` | buildings for carrying on industrial labor | **植物；草木** |
+| `plant%1:03:00::` | (botany) a living organism lacking the power of locomotion | **工廠；發電廠** |
+| `plant%1:18:00::` | an actor situated in the audience whose acting is rehearsed but seems spontaneous to the audience | **臥底；內應** |
+
+---
+
+### Group pool-39: **pool** (verb)
+- **Current Runtime Meaning:** `池`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (finance, container). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `pool%2:40:00::` | combine into a common fund | **共用；共籌（資金/資源）** |
+| `pool%2:33:00::` | join or form a pool of people | **打撞球** |
+
+---
+
+### Group pot-40: **pot** (noun)
+- **Current Runtime Meaning:** `盆`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (military, container, clothing, transport). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `pot%1:06:00::` | metal or earthenware cooking vessel that is usually round and deep; often has a handle and lid | **鍋子；深鍋** |
+| `pot%1:06:01::` | a plumbing fixture for defecation and urination | **花盆；陶罐** |
+| `pot%1:23:00::` | the quantity contained in a pot | **一鍋的量** |
+
+---
+
+### Group practice-41: **practice** (noun)
+- **Current Runtime Meaning:** `實踐`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (entertainment, mathematics, transport). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `practice%1:04:00::` | a customary way of operation or behavior | **練習；訓練** |
+| `practice%1:04:02::` | systematic training by multiple repetitions | **慣例；習慣作法** |
+| `practice%1:04:04::` | translating an idea into action | **（醫師/律師等）執業；診所** |
+
+---
+
+### Group pull-42: **pull** (verb)
+- **Current Runtime Meaning:** `拉`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `pull%2:35:00::` | cause to move by pulling | **拉；拖；拔** |
+| `pull%2:35:02::` | direct toward itself or oneself by means of some psychological power or physical attributes | **划（船桨）** |
+| `pull%2:38:01::` | move into a certain direction | **拉傷；扭傷（肌肉）** |
+
+---
+
+### Group pull-43: **pull** (noun)
+- **Current Runtime Meaning:** `拉`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `pull%1:04:00::` | the act of pulling; applying force to move something toward or with you | **拉；拖（動作）** |
+| `pull%1:19:00::` | the force used in pulling | **吸引力；拉力** |
+| `pull%1:07:00::` | special advantage or influence | **影響力；勢力（口語）** |
+
+---
+
+### Group race-44: **race** (verb)
+- **Current Runtime Meaning:** `種族`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `race%2:38:00::` | move hurridly | **競速；比賽跑步/賽車** |
+| `race%2:33:00::` | compete in a race | **疾馳；飛奔** |
+| `race%2:41:03::` | to work as fast as possible towards a goal, sometimes in competition with others | **（心臟/引擎）劇烈跳動；急速運轉** |
+
+---
+
+### Group raise-45: **raise** (noun)
+- **Current Runtime Meaning:** `上升`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (geography, military, entertainment). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `raise%1:07:00::` | the amount a salary is increased | **加薪** |
+| `raise%1:17:00::` | an upward slope or grade (as in a road) | **斜坡；高地** |
+| `raise%1:04:01::` | increasing the size of a bet (as in poker) | **舉起；抬高（動作）** |
+
+---
+
+### Group reach-46: **reach** (verb)
+- **Current Runtime Meaning:** `伸出`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `reach%2:38:01::` | reach a destination, either real or abstract | **到達；抵達** |
+| `reach%2:38:00::` | reach a point in time, or a certain state or level | **伸出（手）觸及** |
+| `reach%2:35:00::` | move forward or upward in order to touch; also in a metaphorical sense | **伸手拿取** |
+
+---
+
+### Group report-47: **report** (noun)
+- **Current Runtime Meaning:** `報告`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (container, finance). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `report%1:10:03::` | a written document describing the findings of some individual or group | **報告；報導** |
+| `report%1:10:01::` | the act of informing by verbal report | **傳聞；風聲** |
+| `report%1:10:00::` | a short account of the news | **爆裂聲；槍炮聲** |
+
+---
+
+### Group right-48: **right** (adjective)
+- **Current Runtime Meaning:** `右邊；正確的；權利`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `right%3:00:00::` | being or located on or directed toward the side of the body to the east when facing north | **右邊的；右側的** |
+| `right%3:00:02::` | free from error; especially conforming to fact or truth | **正確的；對的** |
+| `right%5:00:01:proper:00` | socially right or correct | **適當的；合適的** |
+
+---
+
+### Group rise-49: **rise** (noun)
+- **Current Runtime Meaning:** `上升`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (mathematics, military, geography). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `rise%1:11:00::` | a growth in strength or number or importance | **上升；增加** |
+| `rise%1:04:00::` | the act of changing location in an upward direction | **興起；崛起** |
+| `rise%1:17:00::` | an upward slope or grade (as in a road) | **上坡；小丘** |
+
+---
+
+### Group rise-50: **rise** (verb)
+- **Current Runtime Meaning:** `上升`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (military, finance). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `rise%2:38:00::` | move upward | **升起；起立** |
+| `rise%2:30:00::` | increase in value or to a higher point | **（數量/物價）上漲；增加** |
+| `rise%2:38:05::` | rise to one's feet | **（太陽/月亮）升起** |
+
+---
+
+### Group roll-51: **roll** (noun)
+- **Current Runtime Meaning:** `卷`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (geography, military). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `roll%1:11:02::` | rotary motion of an object around its own axis | **滾動；翻滾** |
+| `roll%1:10:00::` | a list of names | **名冊；名單** |
+| `roll%1:11:01::` | a long heavy sea wave as it advances towards the shore | **小麵包卷** |
+
+---
+
+### Group round-52: **round** (noun)
+- **Current Runtime Meaning:** `圓`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (entertainment, legal). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `round%1:06:01::` | a charge of ammunition for a single shot | **圓（義項 1）** |
+| `round%1:28:01::` | an interval during which a recurring sequence of events occurs | **圓（義項 2）** |
+| `round%1:15:00::` | a regular route for a sentry or policeman | **圓（義項 3）** |
+
+---
+
+### Group service-53: **service** (noun)
+- **Current Runtime Meaning:** `服務`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (clothing, military, transport). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `service%1:04:08::` | work done by one person or group that benefits another | **服務（義項 1）** |
+| `service%1:04:00::` | an act of help or assistance; something (such as a tool, software or system) used to render said help or assistance | **服務（義項 2）** |
+| `service%1:04:01::` | the act of public worship following prescribed rules | **服務（義項 3）** |
+
+---
+
+### Group share-54: **share** (noun)
+- **Current Runtime Meaning:** `部分`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (finance, transport, mathematics). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `share%1:21:00::` | assets belonging to or due to or contributed by an individual person or group | **部分（義項 1）** |
+| `share%1:21:01::` | any of the equal portions into which the capital stock of a corporation is divided and ownership of which is evidenced by a stock certificate | **部分（義項 2）** |
+| `share%1:04:00::` | the allotment of some amount by dividing something | **部分（義項 3）** |
+
+---
+
+### Group sick-55: **sick** (adjective)
+- **Current Runtime Meaning:** `病人`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (finance, geography). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `sick%3:00:01::` | affected by an impairment of normal physical or mental function | **生病的；不適的** |
+| `sick%5:00:02:ill:01` | feeling nausea; feeling about to vomit | **噁心的；想吐的** |
+| `sick%5:00:00:insane:00` | affected with madness or insanity | **（口語）變態的；病態的** |
+
+---
+
+### Group sight-56: **sight** (verb)
+- **Current Runtime Meaning:** `景觀`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `sight%2:39:00::` | catch sight of; to perceive with the eyes | **看見；目擊** |
+| `sight%2:39:03::` | take aim by looking through the sights of a gun (or other device) | **瞄準；用瞄準器觀察** |
+
+---
+
+### Group soldier-57: **soldier** (noun)
+- **Current Runtime Meaning:** `軍人`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (military). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `soldier%1:18:00::` | an enlisted man or woman who serves in an army | **士兵；軍人** |
+| `soldier%1:05:00::` | a wingless sterile ant or termite having a large head and powerful jaws adapted for defending the colony | **兵蟻；兵蜂** |
+
+---
+
+### Group south-58: **south** (noun)
+- **Current Runtime Meaning:** `南方`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (clothing, transport, military). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `south%1:24:00::` | the cardinal compass point that is at 180 degrees | **南方（義項 1）** |
+| `south%1:15:02::` | a location in the southern part of a country, region, or city | **南方（義項 2）** |
+| `south%1:24:02::` | the direction corresponding to the southward cardinal compass point | **南方（義項 3）** |
+
+---
+
+### Group spring-59: **spring** (verb)
+- **Current Runtime Meaning:** `春天`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (military, time_season). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `spring%2:38:01::` | move forward by leaps and bounds | **春天（義項 1）** |
+| `spring%2:42:00::` | develop into a distinctive entity | **春天（義項 2）** |
+| `spring%2:38:00::` | spring back; spring away from an impact | **春天（義項 3）** |
+
+---
+
+### Group square-60: **square** (noun)
+- **Current Runtime Meaning:** `正方形`
+- **Classifier Rationale:** Underlying English definitions belong to incompatible semantic domains (transport, mathematics). Merging them loses critical meaning distinctions.
+
+| Sense ID | English Definition | AI Suggested Meaning |
+| :--- | :--- | :--- |
+| `square%1:25:00::` | (geometry) a plane rectangle with four equal sides and four right angles; a four-sided regular polygon | **正方形（義項 1）** |
+| `square%1:23:00::` | the product of two equal terms | **正方形（義項 2）** |
+| `square%1:15:00::` | an open area at the meeting of two or more streets | **正方形（義項 3）** |
+
+---
+

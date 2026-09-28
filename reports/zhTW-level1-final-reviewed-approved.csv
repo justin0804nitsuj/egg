@@ -1,0 +1,55 @@
+﻿groupId,wordId,word,level,partOfSpeech,classification,currentMeaningZhTW,senseId,englishDefinition,suggestedMeaningZhTW,decision,finalMeaningZhTW,reviewStatus,reviewerNotes
+fly-1,fly-318,fly,1,verb,POSSIBLE_OVER_MERGE,蒼蠅,fly%2:38:00::,travel through the air; be airborne,飛行；飛翔,REVISE,飛行；飛翔,APPROVED,在空中飛行。
+fly-1,fly-318,fly,1,verb,POSSIBLE_OVER_MERGE,蒼蠅,fly%2:38:02::,move quickly or suddenly,飛馳；疾行,REVISE,飛馳；疾行,APPROVED,快速或突然移動，不限於空中。
+fly-1,fly-318,fly,1,verb,POSSIBLE_OVER_MERGE,蒼蠅,fly%2:38:01::,operate an airplane,駕駛飛機,REVISE,駕駛飛機,APPROVED,操作飛機，與一般飛行動作不同。
+pass-2,pass-630,pass,1,verb,POSSIBLE_OVER_MERGE,經過,pass%2:38:00::,go across or through,穿過；通過,REVISE,穿過；通過,APPROVED,穿越某處或穿過障礙。
+pass-2,pass-630,pass,1,verb,POSSIBLE_OVER_MERGE,經過,pass%2:38:05::,move past,經過；路過,REVISE,經過；路過,APPROVED,從旁經過，不一定穿越。
+pass-2,pass-630,pass,1,verb,POSSIBLE_OVER_MERGE,經過,pass%2:41:02::,"make laws, bills, etc. or bring into effect by legislation",通過（法案、議案）,REVISE,通過（法案、議案）,APPROVED,立法語境；與空間移動不同。
+push-3,push-684,push,1,verb,POSSIBLE_OVER_MERGE,推,push%2:38:00::,move with force,用力推；推動,REVISE,用力推；推動,APPROVED,施力使物體移動。
+push-3,push-684,push,1,verb,POSSIBLE_OVER_MERGE,推,push%2:32:01::,"press, drive, or impel (someone) to action or completion of an action",催促；逼迫,REVISE,催促；逼迫,APPROVED,促使人採取或完成行動。
+push-3,push-684,push,1,verb,POSSIBLE_OVER_MERGE,推,push%2:32:00::,make publicity for; try to sell (a product),推廣；推銷,REVISE,推廣；推銷,APPROVED,宣傳或試圖售出商品。
+study-4,study-837,study,1,verb,CLEAR_OVER_MERGE,學習,study%2:31:02::,consider in detail and subject to an analysis in order to discover essential features or meaning,研究；深入分析,REVISE,研究；深入分析,APPROVED,深入分析以理解本質或意義。
+study-4,study-837,study,1,verb,CLEAR_OVER_MERGE,學習,study%2:31:03::,be a student; follow a course of study; be enrolled at an institute of learning,就讀；求學,REVISE,就讀；求學,APPROVED,在學校或課程中接受教育。
+study-4,study-837,study,1,verb,CLEAR_OVER_MERGE,學習,study%2:39:00::,give careful consideration to,仔細考慮；審慎思考,REVISE,仔細考慮；審慎思考,APPROVED,審慎思考某事，與就讀不同。
+sugar-5,sugar-841,sugar,1,noun,CLEAR_OVER_MERGE,糖,sugar%1:13:00::,a white crystalline carbohydrate used as a sweetener and preservative,食糖；白糖,REVISE,食糖；白糖,APPROVED,用作甜味劑的食用糖。
+sugar-5,sugar-841,sugar,1,noun,CLEAR_OVER_MERGE,糖,sugar%1:27:00::,an essential structural component of living cells and source of energy for animals; includes simple sugars with small molecules as well as macromolecular substances; are classified according to the number of monosaccharide groups they contain,醣類；碳水化合物,REVISE,醣類；碳水化合物,APPROVED,生物化學中的糖類及相關碳水化合物。
+sugar-5,sugar-841,sugar,1,noun,CLEAR_OVER_MERGE,糖,sugar%1:21:00::,informal terms for money,錢；金錢（俚語）,REVISE,錢；金錢（俚語）,APPROVED,金錢的非正式用法。
+sun-6,sun-842,sun,1,noun,CLEAR_OVER_MERGE,太陽,sun%1:19:00::,the rays of the sun,陽光；日照,REVISE,陽光；日照,APPROVED,太陽發出的光線。
+sun-6,sun-842,sun,1,noun,CLEAR_OVER_MERGE,太陽,sun%1:18:00::,a person considered as a source of warmth or energy or glory etc,（比喻）帶來溫暖或光彩的人,REVISE,（比喻）帶來溫暖或光彩的人,APPROVED,比喻帶來活力、溫暖或榮耀的人。
+sun-6,sun-842,sun,1,noun,CLEAR_OVER_MERGE,太陽,sun%1:17:01::,any star around which a planetary system revolves,恆星（有行星環繞）,REVISE,恆星（有行星環繞）,APPROVED,泛指有行星系統環繞的恆星，不限太陽。
+surprise-7,surprise-846,surprise,1,verb,CLEAR_OVER_MERGE,驚奇,surprise%2:31:00::,cause to be surprised,使驚訝；使吃驚,REVISE,使驚訝；使吃驚,APPROVED,使人感到意外。
+surprise-7,surprise-846,surprise,1,verb,CLEAR_OVER_MERGE,驚奇,surprise%2:41:00::,come upon or take unawares,出其不意地遇上；使措手不及,REVISE,出其不意地遇上；使措手不及,APPROVED,使對方在毫無防備下遭遇，不必涉及攻擊。
+surprise-7,surprise-846,surprise,1,verb,CLEAR_OVER_MERGE,驚奇,surprise%2:33:00::,attack by storm; attack suddenly,突襲；奇襲,REVISE,突襲；奇襲,APPROVED,特指突然發動攻擊。
+table-8,table-849,table,1,noun,CLEAR_OVER_MERGE,桌子,table%1:14:00::,a set of data arranged in rows and columns,表格；資料表,REVISE,表格；資料表,APPROVED,列和欄組成的資料。
+table-8,table-849,table,1,noun,CLEAR_OVER_MERGE,桌子,table%1:06:01::,a piece of furniture having a smooth flat top that is usually supported by one or more vertical legs,桌子；餐桌,KEEP_MERGED,桌子；餐桌,APPROVED,與擺好餐具的餐桌共用核心物件義。
+table-8,table-849,table,1,noun,CLEAR_OVER_MERGE,桌子,table%1:06:02::,a piece of furniture with tableware for a meal laid out on it,桌子；餐桌,KEEP_MERGED,桌子；餐桌,APPROVED,擺好餐具只是餐桌的使用情境，不需重複顯示。
+theater-9,theater-873,theater,1,noun,CLEAR_OVER_MERGE,戲院,theater%1:06:00::,a building where theatrical performances or motion-picture shows can be presented,劇院；戲院,REVISE,劇院；戲院,APPROVED,劇場或電影放映建築。
+theater-9,theater-873,theater,1,noun,CLEAR_OVER_MERGE,戲院,theater%1:10:00::,the art of writing and producing plays,戲劇藝術；劇作與製作,REVISE,戲劇藝術；劇作與製作,APPROVED,創作及製作戲劇的藝術。
+theater-9,theater-873,theater,1,noun,CLEAR_OVER_MERGE,戲院,theater%1:15:00::,a region in which active military operations are in progress,戰區；軍事作戰區域,REVISE,戰區；軍事作戰區域,APPROVED,軍事活動所在的區域。
+then-10,then-874,then,1,adverb,CLEAR_OVER_MERGE,然後,then%4:02:00::,subsequently or soon afterward (often used as sentence connectors),然後；接著,REVISE,然後；接著,APPROVED,表示時間順序。
+then-10,then-874,then,1,adverb,CLEAR_OVER_MERGE,然後,then%4:02:02::,in that case or as a consequence,那麼；如此一來,REVISE,那麼；如此一來,APPROVED,表示條件的結果。
+then-10,then-874,then,1,adverb,CLEAR_OVER_MERGE,然後,then%4:02:01::,at that time,當時；那時,REVISE,當時；那時,APPROVED,指某個過去或已提及的時間。
+there-11,there-875,there,1,adverb,CLEAR_OVER_MERGE,在那裡,there%4:02:00::,in or at that place or location,在那裡；在該處,REVISE,在那裡；在該處,APPROVED,表示所在位置。
+there-11,there-875,there,1,adverb,CLEAR_OVER_MERGE,在那裡,there%4:02:02::,in that matter; in that respect; on that point,在那方面；就那一點而言,REVISE,在那方面；就那一點而言,APPROVED,表示某個議題或方面。
+there-11,there-875,there,1,adverb,CLEAR_OVER_MERGE,在那裡,there%4:02:01::,to or toward that place; away from the speaker,往那裡；向那邊,REVISE,往那裡；向那邊,APPROVED,表示前往的方向。
+tip-12,tip-895,tip,1,noun,CLEAR_OVER_MERGE,尖端；小費；提示,tip%1:15:00::,the extreme end of something; especially something pointed,尖端；末端,REVISE,尖端；末端,APPROVED,物體最末端，通常是尖的。
+tip-12,tip-895,tip,1,noun,CLEAR_OVER_MERGE,尖端；小費；提示,tip%1:21:00::,a relatively small amount of money given for services rendered (as by a waiter),小費,REVISE,小費,APPROVED,服務後額外給予的金錢。
+tip-12,tip-895,tip,1,noun,CLEAR_OVER_MERGE,尖端；小費；提示,tip%1:10:00::,an indication of potential opportunity,線索；內線消息,REVISE,線索；內線消息,APPROVED,暗示可能機會的資訊，非一般操作訣竅。
+toilet-13,toilet-901,toilet,1,noun,CLEAR_OVER_MERGE,廁所,toilet%1:06:00::,a room or building equipped with one or more toilets,廁所；洗手間,REVISE,廁所；洗手間,APPROVED,設有馬桶的場所。
+toilet-13,toilet-901,toilet,1,noun,CLEAR_OVER_MERGE,廁所,toilet%1:06:01::,a plumbing fixture for defecation and urination,馬桶；便器,REVISE,馬桶；便器,APPROVED,如廁用衛生設備。
+toilet-13,toilet-901,toilet,1,noun,CLEAR_OVER_MERGE,廁所,toilet%1:26:00::,misfortune resulting in lost effort or money,來源待核對，暫不提供正式中文翻譯,,,NEEDS_REVIEW,來源異常：英文定義是「努力或金錢付諸流水的不幸」，與單字 toilet 的一般名詞義不符；需回查原始 WordNet synset、lemma 與匯入程序，不得直接核准。
+tooth-14,tooth-907,tooth,1,noun,CLEAR_OVER_MERGE,牙齒,tooth%1:08:00::,hard bonelike structures in the jaws of vertebrates; used for biting and chewing or for attack and defense,牙齒,REVISE,牙齒,APPROVED,脊椎動物口中的牙齒。
+tooth-14,tooth-907,tooth,1,noun,CLEAR_OVER_MERGE,牙齒,tooth%1:06:01::,something resembling the tooth of an animal,（梳子、鋸子等的）齒,REVISE,（梳子、鋸子等的）齒,APPROVED,與動物牙齒外形相似的器物齒。
+tooth-14,tooth-907,tooth,1,noun,CLEAR_OVER_MERGE,牙齒,tooth%1:05:02::,toothlike structure in invertebrates found in the mouth or alimentary canal or on a shell,（無脊椎動物的）齒狀構造,REVISE,（無脊椎動物的）齒狀構造,APPROVED,英文定義指無脊椎動物，不是齒輪。
+train-15,train-916,train,1,verb,CLEAR_OVER_MERGE,火車,train%2:31:01::,create by training and teaching,訓練；培訓,REVISE,訓練；培訓,APPROVED,對別人施以訓練或教導。
+train-15,train-916,train,1,verb,CLEAR_OVER_MERGE,火車,train%2:31:00::,"undergo training or instruction in preparation for a particular role, function, or profession",接受訓練；受訓,REVISE,接受訓練；受訓,APPROVED,自己接受某種職業或技能的訓練。
+train-15,train-916,train,1,verb,CLEAR_OVER_MERGE,火車,train%2:41:02::,develop (a child's or animal's) behavior by instruction and practice; especially to teach self-control,管教；訓練（兒童或動物）,REVISE,管教；訓練（兒童或動物）,APPROVED,培養兒童或動物的行為與自我控制。
+treat(ment)-16,treat(ment)-917,treat(ment),1,noun,CLEAR_OVER_MERGE,對待,treat%1:13:00::,something considered choice to eat,美食；特別的點心,REVISE,美食；特別的點心,APPROVED,特別值得享用的食物。
+treat(ment)-16,treat(ment)-917,treat(ment),1,noun,CLEAR_OVER_MERGE,對待,treat%1:11:00::,an occurrence that causes special pleasure or delight,樂事；特別的享受,REVISE,樂事；特別的享受,APPROVED,帶來特別愉悅的事件，不必涉及款待。
+treat(ment)-16,treat(ment)-917,treat(ment),1,noun,CLEAR_OVER_MERGE,對待,treatment%1:04:00::,care provided to improve a situation (especially medical procedures or applications that are intended to relieve illness or injury),治療；醫療照護,REVISE,治療；醫療照護,APPROVED,改善病況的照護或醫療處置；此 Sense 屬 treatment，匯入時應檢查複合詞條對應。
+visit-17,visit-940,visit,1,noun,CLEAR_OVER_MERGE,拜訪,visit%1:04:02::,the act of going to see some person or place or thing for a short time,拜訪；參觀,REVISE,拜訪；參觀,APPROVED,短時間前往探訪人或地方。
+visit-17,visit-940,visit,1,noun,CLEAR_OVER_MERGE,拜訪,visit%1:14:00::,a meeting arranged by the visitor to see someone (such as a doctor or lawyer) for treatment or advice,就診；諮詢會面,REVISE,就診；諮詢會面,APPROVED,特指看醫師或律師等的約定會面。
+visit-17,visit-940,visit,1,noun,CLEAR_OVER_MERGE,拜訪,visit%1:04:01::,the act of visiting in an official capacity (as for an inspection),正式訪問；視察,REVISE,正式訪問；視察,APPROVED,以公務身分進行的訪問或檢查。
+well-18,well-960,well,1,adjective,CLEAR_OVER_MERGE,很好地；井,well%3:00:01::,in good health especially after having suffered illness or injury,健康的；康復的,REVISE,健康的；康復的,APPROVED,生病或受傷後處於健康狀態。
+well-18,well-960,well,1,adjective,CLEAR_OVER_MERGE,很好地；井,well%5:00:00:fortunate:00,resulting favorably,順利的；結果良好的,REVISE,順利的；結果良好的,APPROVED,指結果有利、順利。
+well-18,well-960,well,1,adjective,CLEAR_OVER_MERGE,很好地；井,well%5:00:00:advisable:00,wise or advantageous and hence advisable,明智的；妥當的,REVISE,明智的；妥當的,APPROVED,指有利或明智、值得採取。

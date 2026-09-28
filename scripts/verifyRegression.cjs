@@ -1,3 +1,4 @@
+/* global __dirname */
 const fs = require('fs');
 const path = require('path');
 const { pathToFileURL } = require('url');
@@ -150,6 +151,78 @@ async function runTests() {
     }
   }
   assert(attackApprovedPreserved, 'Previously approved Level 1 meanings preserved (e.g. attack%1:04:04:: === "進攻；攻勢").');
+
+  // 12. Batch 3 user-approved meanings preserved (plant, nurse, practice)
+  const plantDefs = getWordDefinitions('plant-653');
+  const nurseDefs = getWordDefinitions('nurse-596');
+  const practiceDefs = getWordDefinitions('practice-673');
+
+  let batch3ApprovedPreserved = false;
+  if (plantDefs && nurseDefs && practiceDefs) {
+    const plantFactory = plantDefs.rawPrimaryDefinitions.find(d => d.id === 'plant%1:06:01::');
+    const plantBotany = plantDefs.rawPrimaryDefinitions.find(d => d.id === 'plant%1:03:00::');
+    const nurseEmotion = nurseDefs.rawPrimaryDefinitions.find(d => d.id === 'nurse%2:37:00::');
+    const nurseRole = nurseDefs.rawPrimaryDefinitions.find(d => d.id === 'nurse%2:41:00::');
+    const practiceAction = practiceDefs.rawPrimaryDefinitions.find(d => d.id === 'practice%1:04:04::');
+
+    if (plantFactory && plantFactory.chineseDefinition === '工廠；廠房' &&
+        plantBotany && plantBotany.chineseDefinition === '植物' &&
+        nurseEmotion && nurseEmotion.chineseDefinition === '心懷；長久抱持（想法或情感）' &&
+        nurseRole && nurseRole.chineseDefinition === '擔任護理師；照護病患' &&
+        practiceAction && practiceAction.chineseDefinition === '實踐；付諸實行') {
+      batch3ApprovedPreserved = true;
+    }
+  }
+  assert(batch3ApprovedPreserved, 'Batch 3 user-approved meanings preserved (plant, nurse, practice).');
+
+  // 13. All 313 approved records across 4 CSV batches match getWordDefinitions()
+  const { parse: parseCsv } = require('csv-parse/sync');
+  const csvFiles = [
+    'zhTW-level1-reviewed-first30.csv',
+    'zhTW-level1-batch2-approved.csv',
+    'zhTW-level1-batch3-approved.csv',
+    'zhTW-level1-final-reviewed-approved.csv'
+  ];
+  let totalApprovedVerified = 0;
+  let all313Match = true;
+
+  csvFiles.forEach(fName => {
+    const fPath = path.join(PROJECT_ROOT, 'reports', fName);
+    if (fs.existsSync(fPath)) {
+      const records = parseCsv(fs.readFileSync(fPath, 'utf8'), { columns: true, skip_empty_lines: true, bom: true });
+      const approved = records.filter(r => r.reviewStatus === 'APPROVED' || (r.decision && r.decision.trim() !== ''));
+      approved.forEach(r => {
+        totalApprovedVerified++;
+        const wId = r.wordId || r.word;
+        const expectedZh = (r.finalMeaningZhTW || r.suggestedMeaningZhTW || '').trim();
+        const defs = getWordDefinitions(wId);
+        if (!defs) {
+          all313Match = false;
+          return;
+        }
+        const rawSense = defs.rawDefinitions.find(d => d.id === r.senseId);
+        if (!rawSense || (rawSense.chineseDefinition || '').trim() !== expectedZh) {
+          all313Match = false;
+        }
+      });
+    }
+  });
+
+  assert(all313Match && totalApprovedVerified === 313, `All ${totalApprovedVerified} approved records across 4 CSV batches match getWordDefinitions() runtime display.`);
+
+  // 14. Approved KEEP_MERGED groups (north, service, south, table) preserved intact
+  const northDefs = getWordDefinitions('north-588');
+  const serviceDefs = getWordDefinitions('service-754');
+  const southDefs = getWordDefinitions('south-813');
+  const tableDefs = getWordDefinitions('table-849');
+
+  const northNounOK = northDefs && northDefs.primaryDefinitions.some(d => d.sourceSenseIds && d.sourceSenseIds.includes('north%1:24:00::') && d.meaningZhTW === '正北；北方');
+  const serviceNounOK = serviceDefs && serviceDefs.primaryDefinitions.some(d => d.sourceSenseIds && d.sourceSenseIds.includes('service%1:04:08::') && d.meaningZhTW === '服務；協助');
+  const southNounOK = southDefs && southDefs.primaryDefinitions.some(d => d.sourceSenseIds && d.sourceSenseIds.includes('south%1:24:00::') && d.meaningZhTW === '正南；南方（方位）');
+  const tableNounOK = tableDefs && tableDefs.primaryDefinitions.some(d => d.sourceSenseIds && d.sourceSenseIds.includes('table%1:06:01::') && d.meaningZhTW === '桌子；餐桌');
+
+  const keepMergedIntact = northNounOK && serviceNounOK && southNounOK && tableNounOK;
+  assert(keepMergedIntact, 'Approved KEEP_MERGED groups (north, service, south, table) preserved intact in primary definitions.');
 
   console.log('\n----------------------------------------------------');
   console.log(`SUMMARY: ${passed} Passed, ${failed} Failed.`);

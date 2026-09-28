@@ -3,10 +3,10 @@
     "1": {
       "level": 1,
       "wordCount": 1002,
-      "learnerMeanings": 1626,
-      "verifiedOverrides": 358,
-      "targetLearnerMeanings": 1626,
-      "targetOverrides": 358,
+      "learnerMeanings": 1683,
+      "verifiedOverrides": 445,
+      "targetLearnerMeanings": 1683,
+      "targetOverrides": 445,
       "matches": true
     },
     "2": {
@@ -38,9 +38,9 @@
     }
   },
   "level1Audit": {
-    "totalMergedGroups": 1035,
+    "totalMergedGroups": 1005,
     "safeDuplicateCount": 986,
     "possibleOverMergeCount": 3,
-    "clearOverMergeCount": 46
+    "clearOverMergeCount": 16
   }
 }

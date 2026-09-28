@@ -1,0 +1,686 @@
+[
+  {
+    "index": 2,
+    "senseId": "nose%1:06:00::",
+    "word": "nose",
+    "approvedMeaning": "機鼻；（飛機等的）前端",
+    "oldRuntimeMeaning": "（飛機/車輛）鼻尖；前端",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文特指外形像鼻子的前端，尤其是飛機的機鼻。"
+  },
+  {
+    "index": 3,
+    "senseId": "nose%1:06:02::",
+    "word": "nose",
+    "approvedMeaning": "（工具或武器的）前端；凸出部",
+    "oldRuntimeMeaning": "嗅覺；敏銳嗅覺",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指工具或武器向前伸出的部位，並非「嗅覺」。"
+  },
+  {
+    "index": 4,
+    "senseId": "nurse%2:29:00::",
+    "word": "nurse",
+    "approvedMeaning": "悉心護理（疾病或傷勢）",
+    "oldRuntimeMeaning": "護理；照料（病患）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指透過特別照護來治療傷病。"
+  },
+  {
+    "index": 5,
+    "senseId": "nurse%2:37:00::",
+    "word": "nurse",
+    "approvedMeaning": "心懷；長久抱持（想法或情感）",
+    "oldRuntimeMeaning": "餵奶；哺乳",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指維持某種想法或感情，不是哺乳。"
+  },
+  {
+    "index": 6,
+    "senseId": "nurse%2:41:00::",
+    "word": "nurse",
+    "approvedMeaning": "擔任護理師；照護病患",
+    "oldRuntimeMeaning": "懷有；抱持（情緒/想法）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指從事護理工作，與針對傷病的悉心照護有語意側重差異。"
+  },
+  {
+    "index": 7,
+    "senseId": "on%4:02:00::",
+    "word": "on",
+    "approvedMeaning": "向前；往前",
+    "oldRuntimeMeaning": "向前；繼續地",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指向前移動；不等同表示持續的副詞用法。"
+  },
+  {
+    "index": 8,
+    "senseId": "on%4:02:01::",
+    "word": "on",
+    "approvedMeaning": "持續地；不停地",
+    "oldRuntimeMeaning": "穿上；戴上",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文表示連續、堅持或持續專注，不是穿戴。"
+  },
+  {
+    "index": 9,
+    "senseId": "on%4:02:02::",
+    "word": "on",
+    "approvedMeaning": "開著；運作中",
+    "oldRuntimeMeaning": "進行中；開著",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：表示設備處於可運作或有效狀態。"
+  },
+  {
+    "index": 11,
+    "senseId": "open%3:00:02::",
+    "word": "open",
+    "approvedMeaning": "可通行的；可進入的",
+    "oldRuntimeMeaning": "開放的；公開的",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：強調可自由通行或進入，與單純「未關閉」的形態不同。"
+  },
+  {
+    "index": 12,
+    "senseId": "open%5:00:00:unprotected:00",
+    "word": "open",
+    "approvedMeaning": "無遮蔽的；未受保護的",
+    "oldRuntimeMeaning": "露天的；無遮蔽的",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：強調缺乏遮蔽或防護，不限定「露天」。"
+  },
+  {
+    "index": 14,
+    "senseId": "order%1:07:01::",
+    "word": "order",
+    "approvedMeaning": "數量級；程度",
+    "oldRuntimeMeaning": "順序；秩序",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指大小或數量連續範圍中的級別，不是排列順序。"
+  },
+  {
+    "index": 15,
+    "senseId": "order%1:26:00::",
+    "word": "order",
+    "approvedMeaning": "社會秩序；既定秩序",
+    "oldRuntimeMeaning": "訂單；訂購品",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指已確立的慣常社會狀態，不是訂單。"
+  },
+  {
+    "index": 16,
+    "senseId": "pass%1:04:04::",
+    "word": "pass",
+    "approvedMeaning": "四壞球保送",
+    "oldRuntimeMeaning": "通行證；入場券",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：棒球打者得到四個壞球而被保送上一壘。"
+  },
+  {
+    "index": 17,
+    "senseId": "pass%1:28:00::",
+    "word": "pass",
+    "approvedMeaning": "（軍人）休假證；准假證",
+    "oldRuntimeMeaning": "（體育）傳球",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指軍方核發的書面准假證明，不是體育傳球。"
+  },
+  {
+    "index": 18,
+    "senseId": "pass%1:04:02::",
+    "word": "pass",
+    "approvedMeaning": "（美式足球）傳球進攻",
+    "oldRuntimeMeaning": "山口；關隘",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指以傳球方式展開的美式足球進攻，不是山口。"
+  },
+  {
+    "index": 20,
+    "senseId": "pay%2:32:00::",
+    "word": "pay(ment)",
+    "approvedMeaning": "致以；給予（敬意、稱讚等）",
+    "oldRuntimeMeaning": "付代價；得到報應",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：例如 pay a compliment / pay attention；不是付出代價。"
+  },
+  {
+    "index": 21,
+    "senseId": "pay%2:40:04::",
+    "word": "pay(ment)",
+    "approvedMeaning": "償還；清償（債務）",
+    "oldRuntimeMeaning": "給付（薪資/利息）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文特指還清債務，不是泛指支付薪資或利息。"
+  },
+  {
+    "index": 22,
+    "senseId": "plant%1:06:01::",
+    "word": "plant",
+    "approvedMeaning": "工廠；廠房",
+    "oldRuntimeMeaning": "植物；草木",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文是從事工業生產的建築設施，不是生物植物。"
+  },
+  {
+    "index": 23,
+    "senseId": "plant%1:03:00::",
+    "word": "plant",
+    "approvedMeaning": "植物",
+    "oldRuntimeMeaning": "工廠；發電廠",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文是植物學意義的生物，原始建議與工廠義對調。"
+  },
+  {
+    "index": 24,
+    "senseId": "plant%1:18:00::",
+    "word": "plant",
+    "approvedMeaning": "安插在觀眾席的演員；暗樁",
+    "oldRuntimeMeaning": "臥底；內應",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指預先安排、假裝自然反應的觀眾席演員，不一定是臥底。"
+  },
+  {
+    "index": 25,
+    "senseId": "pool%2:40:00::",
+    "word": "pool",
+    "approvedMeaning": "集資；合併（資金或資源）",
+    "oldRuntimeMeaning": "共用；共籌（資金/資源）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指匯集為共同基金；可泛指集中資源。"
+  },
+  {
+    "index": 26,
+    "senseId": "pool%2:33:00::",
+    "word": "pool",
+    "approvedMeaning": "集結人員；組成人力庫",
+    "oldRuntimeMeaning": "打撞球",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指集合或組成一群人，並非打撞球。"
+  },
+  {
+    "index": 28,
+    "senseId": "pot%1:06:01::",
+    "word": "pot",
+    "approvedMeaning": "馬桶；便器",
+    "oldRuntimeMeaning": "花盆；陶罐",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指供排便、排尿的衛浴設備，不是花盆。"
+  },
+  {
+    "index": 30,
+    "senseId": "practice%1:04:00::",
+    "word": "practice",
+    "approvedMeaning": "慣例；慣常做法",
+    "oldRuntimeMeaning": "練習；訓練",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指慣常的行為或運作方式，不是反覆練習。"
+  },
+  {
+    "index": 31,
+    "senseId": "practice%1:04:02::",
+    "word": "practice",
+    "approvedMeaning": "練習；反覆訓練",
+    "oldRuntimeMeaning": "慣例；習慣作法",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指藉多次重複進行系統性訓練。"
+  },
+  {
+    "index": 32,
+    "senseId": "practice%1:04:04::",
+    "word": "practice",
+    "approvedMeaning": "實踐；付諸實行",
+    "oldRuntimeMeaning": "（醫師/律師等）執業；診所",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：將想法化為行動，並非此 sense 的專業執業義。"
+  },
+  {
+    "index": 33,
+    "senseId": "pull%2:35:00::",
+    "word": "pull",
+    "approvedMeaning": "拉；拖",
+    "oldRuntimeMeaning": "拉；拖；拔",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：以拉力使物體移動；不必將所有不同動作硬寫在同一項。"
+  },
+  {
+    "index": 34,
+    "senseId": "pull%2:35:02::",
+    "word": "pull",
+    "approvedMeaning": "吸引；引起（注意或興趣）",
+    "oldRuntimeMeaning": "划（船桨）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：靠心理或物理特性吸引對象，不是划槳。"
+  },
+  {
+    "index": 35,
+    "senseId": "pull%2:38:01::",
+    "word": "pull",
+    "approvedMeaning": "朝某方向移動；駛向",
+    "oldRuntimeMeaning": "拉傷；扭傷（肌肉）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指向特定方向移動，例如車輛駛近，不是拉傷。"
+  },
+  {
+    "index": 37,
+    "senseId": "pull%1:19:00::",
+    "word": "pull",
+    "approvedMeaning": "拉力；牽引力",
+    "oldRuntimeMeaning": "吸引力；拉力",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：物理上的拉動力量，不專指吸引力。"
+  },
+  {
+    "index": 38,
+    "senseId": "pull%1:07:00::",
+    "word": "pull",
+    "approvedMeaning": "影響力；門路",
+    "oldRuntimeMeaning": "影響力；勢力（口語）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：口語中指特殊影響力或有利關係。"
+  },
+  {
+    "index": 39,
+    "senseId": "race%2:38:00::",
+    "word": "race",
+    "approvedMeaning": "飛奔；疾馳",
+    "oldRuntimeMeaning": "競速；比賽跑步/賽車",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指快速移動，不一定在參加競賽。"
+  },
+  {
+    "index": 40,
+    "senseId": "race%2:33:00::",
+    "word": "race",
+    "approvedMeaning": "賽跑；競速",
+    "oldRuntimeMeaning": "疾馳；飛奔",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指實際參加競賽；原建議和上一項對調。"
+  },
+  {
+    "index": 41,
+    "senseId": "race%2:41:03::",
+    "word": "race",
+    "approvedMeaning": "爭分奪秒；全速朝目標努力",
+    "oldRuntimeMeaning": "（心臟/引擎）劇烈跳動；急速運轉",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：快速朝目標工作，可能與他人競爭，不是心臟或引擎跳動。"
+  },
+  {
+    "index": 42,
+    "senseId": "raise%1:07:00::",
+    "word": "raise",
+    "approvedMeaning": "加薪；加薪幅度",
+    "oldRuntimeMeaning": "加薪",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指薪資增加的額度。"
+  },
+  {
+    "index": 43,
+    "senseId": "raise%1:17:00::",
+    "word": "raise",
+    "approvedMeaning": "上坡；坡度",
+    "oldRuntimeMeaning": "斜坡；高地",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指道路等向上的斜坡或坡度，不一定是高地。"
+  },
+  {
+    "index": 44,
+    "senseId": "raise%1:04:01::",
+    "word": "raise",
+    "approvedMeaning": "加注；提高賭注",
+    "oldRuntimeMeaning": "舉起；抬高（動作）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文是撲克牌遊戲中增加下注金額的動作。"
+  },
+  {
+    "index": 46,
+    "senseId": "reach%2:38:00::",
+    "word": "reach",
+    "approvedMeaning": "達到（某時間、狀態或程度）",
+    "oldRuntimeMeaning": "伸出（手）觸及",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指時間、狀態或程度的到達，不是伸出手。"
+  },
+  {
+    "index": 47,
+    "senseId": "reach%2:35:00::",
+    "word": "reach",
+    "approvedMeaning": "伸手觸及；伸向",
+    "oldRuntimeMeaning": "伸手拿取",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：向前或向上伸出以碰觸，也可作比喻。"
+  },
+  {
+    "index": 48,
+    "senseId": "report%1:10:03::",
+    "word": "report",
+    "approvedMeaning": "書面報告；調查報告",
+    "oldRuntimeMeaning": "報告；報導",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：個人或團體研究發現的書面文件。"
+  },
+  {
+    "index": 49,
+    "senseId": "report%1:10:01::",
+    "word": "report",
+    "approvedMeaning": "口頭報告；口頭通報",
+    "oldRuntimeMeaning": "傳聞；風聲",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指口頭告知的行為，並非傳聞。"
+  },
+  {
+    "index": 50,
+    "senseId": "report%1:10:00::",
+    "word": "report",
+    "approvedMeaning": "簡短新聞報導；消息簡報",
+    "oldRuntimeMeaning": "爆裂聲；槍炮聲",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指簡短的新聞敘述，並非槍炮爆裂聲。"
+  },
+  {
+    "index": 52,
+    "senseId": "right%3:00:02::",
+    "word": "right",
+    "approvedMeaning": "正確的；無誤的",
+    "oldRuntimeMeaning": "正確的；對的",
+    "decision": "APPROVE",
+    "reviewerNotes": "校訂建議（待使用者核准）：符合事實或真相。"
+  },
+  {
+    "index": 53,
+    "senseId": "right%5:00:01:proper:00",
+    "word": "right",
+    "approvedMeaning": "得體的；合乎禮節的",
+    "oldRuntimeMeaning": "適當的；合適的",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指符合社會禮儀或行為規範。"
+  },
+  {
+    "index": 54,
+    "senseId": "rise%1:11:00::",
+    "word": "rise",
+    "approvedMeaning": "增長；提升（力量、數量或重要性）",
+    "oldRuntimeMeaning": "上升；增加",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：抽象或數量上的增長，不是空間位置的上升。"
+  },
+  {
+    "index": 55,
+    "senseId": "rise%1:04:00::",
+    "word": "rise",
+    "approvedMeaning": "上升；升起（動作）",
+    "oldRuntimeMeaning": "興起；崛起",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：實際向上移動的動作，與勢力／數量增長分開。"
+  },
+  {
+    "index": 56,
+    "senseId": "rise%1:17:00::",
+    "word": "rise",
+    "approvedMeaning": "上坡；坡度",
+    "oldRuntimeMeaning": "上坡；小丘",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：地形或道路向上傾斜的部分，不一定是小丘。"
+  },
+  {
+    "index": 57,
+    "senseId": "rise%2:38:00::",
+    "word": "rise",
+    "approvedMeaning": "上升；升起",
+    "oldRuntimeMeaning": "升起；起立",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指向上移動；不含「站起來」的專指義。"
+  },
+  {
+    "index": 58,
+    "senseId": "rise%2:30:00::",
+    "word": "rise",
+    "approvedMeaning": "上漲；增加（數值或程度）",
+    "oldRuntimeMeaning": "（數量/物價）上漲；增加",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指數值或程度上升。"
+  },
+  {
+    "index": 59,
+    "senseId": "rise%2:38:05::",
+    "word": "rise",
+    "approvedMeaning": "站起來；起身",
+    "oldRuntimeMeaning": "（太陽/月亮）升起",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文是 rise to one's feet，並非日月升起。"
+  },
+  {
+    "index": 60,
+    "senseId": "roll%1:11:02::",
+    "word": "roll",
+    "approvedMeaning": "滾動；繞軸旋轉",
+    "oldRuntimeMeaning": "滾動；翻滾",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：物體繞本身軸線的旋轉。"
+  },
+  {
+    "index": 62,
+    "senseId": "roll%1:11:01::",
+    "word": "roll",
+    "approvedMeaning": "湧向岸邊的巨浪；滾滾波浪",
+    "oldRuntimeMeaning": "小麵包卷",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指向海岸推進的大浪，不是小麵包。"
+  },
+  {
+    "index": 63,
+    "senseId": "round%1:06:01::",
+    "word": "round",
+    "approvedMeaning": "一發（彈藥）；一發子彈",
+    "oldRuntimeMeaning": "圓（義項 1）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指供單次射擊的一份彈藥。"
+  },
+  {
+    "index": 64,
+    "senseId": "round%1:28:01::",
+    "word": "round",
+    "approvedMeaning": "一輪；一回合（週期）",
+    "oldRuntimeMeaning": "圓（義項 2）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指一連串重複事件的一個週期。"
+  },
+  {
+    "index": 65,
+    "senseId": "round%1:15:00::",
+    "word": "round",
+    "approvedMeaning": "巡邏路線；巡邏區",
+    "oldRuntimeMeaning": "圓（義項 3）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指警察或哨兵固定巡查的路線。"
+  },
+  {
+    "index": 66,
+    "senseId": "service%1:04:08::",
+    "word": "service",
+    "approvedMeaning": "服務；協助",
+    "oldRuntimeMeaning": "服務（義項 1）",
+    "decision": "KEEP_MERGED",
+    "reviewerNotes": "校訂建議（待使用者核准）：提供有益他人的服務性工作；與下一項在一般學習層級屬同一服務概念。"
+  },
+  {
+    "index": 67,
+    "senseId": "service%1:04:00::",
+    "word": "service",
+    "approvedMeaning": "服務；協助",
+    "oldRuntimeMeaning": "服務（義項 2）",
+    "decision": "KEEP_MERGED",
+    "reviewerNotes": "校訂建議（待使用者核准）：提供幫助或支援，也可指用於支援的工具；一般服務義與上一項保留合併。"
+  },
+  {
+    "index": 68,
+    "senseId": "service%1:04:01::",
+    "word": "service",
+    "approvedMeaning": "宗教禮拜；禮拜儀式",
+    "oldRuntimeMeaning": "服務（義項 3）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文特指按照宗教規範舉行的公共禮拜。"
+  },
+  {
+    "index": 69,
+    "senseId": "share%1:21:00::",
+    "word": "share",
+    "approvedMeaning": "份額；分得的部分",
+    "oldRuntimeMeaning": "部分（義項 1）",
+    "decision": "KEEP_MERGED",
+    "reviewerNotes": "校訂建議（待使用者核准）：個人或團體應有、出資或分得的資產份額；與一般分得份額義合併。"
+  },
+  {
+    "index": 70,
+    "senseId": "share%1:21:01::",
+    "word": "share",
+    "approvedMeaning": "股份；股票",
+    "oldRuntimeMeaning": "部分（義項 2）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：公司股本等分的一份，具股票持有意義。"
+  },
+  {
+    "index": 71,
+    "senseId": "share%1:04:00::",
+    "word": "share",
+    "approvedMeaning": "份額；分得的部分",
+    "oldRuntimeMeaning": "部分（義項 3）",
+    "decision": "KEEP_MERGED",
+    "reviewerNotes": "校訂建議（待使用者核准）：分配所得的部分；與應有份額在一般學習層級屬同一概念。"
+  },
+  {
+    "index": 72,
+    "senseId": "sick%3:00:01::",
+    "word": "sick",
+    "approvedMeaning": "生病的；身體不適的",
+    "oldRuntimeMeaning": "生病的；不適的",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：指正常身心功能受到疾病或障礙影響，與「想吐」的特定感受分開。"
+  },
+  {
+    "index": 73,
+    "senseId": "sick%5:00:02:ill:01",
+    "word": "sick",
+    "approvedMeaning": "想吐的；噁心的",
+    "oldRuntimeMeaning": "噁心的；想吐的",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文特指噁心欲吐。"
+  },
+  {
+    "index": 74,
+    "senseId": "sick%5:00:00:insane:00",
+    "word": "sick",
+    "approvedMeaning": "精神失常的；精神錯亂的（舊式用法）",
+    "oldRuntimeMeaning": "（口語）變態的；病態的",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指精神失常，不能譯成「變態」；此用法可能帶貶義。"
+  },
+  {
+    "index": 75,
+    "senseId": "sight%2:39:00::",
+    "word": "sight",
+    "approvedMeaning": "看見；發現",
+    "oldRuntimeMeaning": "看見；目擊",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指用眼睛發現或看到。"
+  },
+  {
+    "index": 76,
+    "senseId": "sight%2:39:03::",
+    "word": "sight",
+    "approvedMeaning": "（透過瞄準器）瞄準",
+    "oldRuntimeMeaning": "瞄準；用瞄準器觀察",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指透過槍械或其他設備瞄準器取準。"
+  },
+  {
+    "index": 78,
+    "senseId": "soldier%1:05:00::",
+    "word": "soldier",
+    "approvedMeaning": "兵蟻；兵白蟻",
+    "oldRuntimeMeaning": "兵蟻；兵蜂",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：昆蟲學中防禦蟻巢／白蟻群的無翅兵型個體，不是兵蜂。"
+  },
+  {
+    "index": 79,
+    "senseId": "south%1:24:00::",
+    "word": "south",
+    "approvedMeaning": "正南；南方（方位）",
+    "oldRuntimeMeaning": "南方（義項 1）",
+    "decision": "KEEP_MERGED",
+    "reviewerNotes": "校訂建議（待使用者核准）：指指南針 180 度正南方向；與下方方位詞義合併。"
+  },
+  {
+    "index": 80,
+    "senseId": "south%1:15:02::",
+    "word": "south",
+    "approvedMeaning": "南部；南方地區",
+    "oldRuntimeMeaning": "南方（義項 2）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指國家、地區或城市南部的地理區域。"
+  },
+  {
+    "index": 81,
+    "senseId": "south%1:24:02::",
+    "word": "south",
+    "approvedMeaning": "正南；南方（方位）",
+    "oldRuntimeMeaning": "南方（義項 3）",
+    "decision": "KEEP_MERGED",
+    "reviewerNotes": "校訂建議（待使用者核准）：指朝南方位，與 compass point 屬同一基本方位概念。"
+  },
+  {
+    "index": 82,
+    "senseId": "spring%2:38:01::",
+    "word": "spring",
+    "approvedMeaning": "跳躍前進；躍進",
+    "oldRuntimeMeaning": "春天（義項 1）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文是連續跳躍向前移動，不是春天名詞。"
+  },
+  {
+    "index": 83,
+    "senseId": "spring%2:42:00::",
+    "word": "spring",
+    "approvedMeaning": "產生；形成；發展成",
+    "oldRuntimeMeaning": "春天（義項 2）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指逐漸發展成有特色的事物，非季節春天。"
+  },
+  {
+    "index": 84,
+    "senseId": "spring%2:38:00::",
+    "word": "spring",
+    "approvedMeaning": "彈回；彈開",
+    "oldRuntimeMeaning": "春天（義項 3）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指受到撞擊後彈開或反彈。"
+  },
+  {
+    "index": 85,
+    "senseId": "square%1:25:00::",
+    "word": "square",
+    "approvedMeaning": "正方形",
+    "oldRuntimeMeaning": "正方形（義項 1）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：四邊等長、四角皆直角的平面圖形。"
+  },
+  {
+    "index": 86,
+    "senseId": "square%1:23:00::",
+    "word": "square",
+    "approvedMeaning": "平方；平方值",
+    "oldRuntimeMeaning": "正方形（義項 2）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：兩個相同數相乘的乘積，不是平面圖形。"
+  },
+  {
+    "index": 87,
+    "senseId": "square%1:15:00::",
+    "word": "square",
+    "approvedMeaning": "廣場；街口廣場",
+    "oldRuntimeMeaning": "正方形（義項 3）",
+    "decision": "REVISE",
+    "reviewerNotes": "校訂建議（待使用者核准）：英文指兩條以上街道交會處的開放空間。"
+  }
+]

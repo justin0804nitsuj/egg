@@ -1791,5 +1791,705 @@ export const ZH_TW_L1_OVERRIDES = {
     "meaningZhTW": "正北；北方",
     "status": "verified",
     "reason": "User-reviewed batch2 (KEEP_MERGED): AI 校訂草稿，待使用者確認。與第一個羅盤方向 sense 語義相近，可合併顯示。"
+  },
+  "nose%1:08:00::": {
+    "meaningZhTW": "鼻子",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (APPROVE): 校訂建議（待使用者核准）：嗅覺器官；與飛機或工具的前端義分開。"
+  },
+  "nose%1:06:00::": {
+    "meaningZhTW": "機鼻；（飛機等的）前端",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文特指外形像鼻子的前端，尤其是飛機的機鼻。"
+  },
+  "nose%1:06:02::": {
+    "meaningZhTW": "（工具或武器的）前端；凸出部",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指工具或武器向前伸出的部位，並非「嗅覺」。"
+  },
+  "nurse%2:29:00::": {
+    "meaningZhTW": "悉心護理（疾病或傷勢）",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指透過特別照護來治療傷病。"
+  },
+  "nurse%2:37:00::": {
+    "meaningZhTW": "心懷；長久抱持（想法或情感）",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指維持某種想法或感情，不是哺乳。"
+  },
+  "nurse%2:41:00::": {
+    "meaningZhTW": "擔任護理師；照護病患",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指從事護理工作，與針對傷病的悉心照護有語意側重差異。"
+  },
+  "on%4:02:00::": {
+    "meaningZhTW": "向前；往前",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指向前移動；不等同表示持續的副詞用法。"
+  },
+  "on%4:02:01::": {
+    "meaningZhTW": "持續地；不停地",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文表示連續、堅持或持續專注，不是穿戴。"
+  },
+  "on%4:02:02::": {
+    "meaningZhTW": "開著；運作中",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：表示設備處於可運作或有效狀態。"
+  },
+  "open%3:00:01::": {
+    "meaningZhTW": "開著的；敞開的",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (APPROVE): 校訂建議（待使用者核准）：指門口等未關閉，可進出。"
+  },
+  "open%3:00:02::": {
+    "meaningZhTW": "可通行的；可進入的",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：強調可自由通行或進入，與單純「未關閉」的形態不同。"
+  },
+  "open%5:00:00:unprotected:00": {
+    "meaningZhTW": "無遮蔽的；未受保護的",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：強調缺乏遮蔽或防護，不限定「露天」。"
+  },
+  "order%1:10:03::": {
+    "meaningZhTW": "命令；指示",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (APPROVE): 校訂建議（待使用者核准）：上級要求遵守的命令，可能以複數 orders 出現。"
+  },
+  "order%1:07:01::": {
+    "meaningZhTW": "數量級；程度",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指大小或數量連續範圍中的級別，不是排列順序。"
+  },
+  "order%1:26:00::": {
+    "meaningZhTW": "社會秩序；既定秩序",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指已確立的慣常社會狀態，不是訂單。"
+  },
+  "pass%1:04:04::": {
+    "meaningZhTW": "四壞球保送",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：棒球打者得到四個壞球而被保送上一壘。"
+  },
+  "pass%1:28:00::": {
+    "meaningZhTW": "（軍人）休假證；准假證",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指軍方核發的書面准假證明，不是體育傳球。"
+  },
+  "pass%1:04:02::": {
+    "meaningZhTW": "（美式足球）傳球進攻",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指以傳球方式展開的美式足球進攻，不是山口。"
+  },
+  "pay%2:40:00::": {
+    "meaningZhTW": "付款；支付",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (APPROVE): 校訂建議（待使用者核准）：以金錢換取商品或服務。"
+  },
+  "pay%2:32:00::": {
+    "meaningZhTW": "致以；給予（敬意、稱讚等）",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：例如 pay a compliment / pay attention；不是付出代價。"
+  },
+  "pay%2:40:04::": {
+    "meaningZhTW": "償還；清償（債務）",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文特指還清債務，不是泛指支付薪資或利息。"
+  },
+  "plant%1:06:01::": {
+    "meaningZhTW": "工廠；廠房",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文是從事工業生產的建築設施，不是生物植物。"
+  },
+  "plant%1:03:00::": {
+    "meaningZhTW": "植物",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文是植物學意義的生物，原始建議與工廠義對調。"
+  },
+  "plant%1:18:00::": {
+    "meaningZhTW": "安插在觀眾席的演員；暗樁",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指預先安排、假裝自然反應的觀眾席演員，不一定是臥底。"
+  },
+  "pool%2:40:00::": {
+    "meaningZhTW": "集資；合併（資金或資源）",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指匯集為共同基金；可泛指集中資源。"
+  },
+  "pool%2:33:00::": {
+    "meaningZhTW": "集結人員；組成人力庫",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指集合或組成一群人，並非打撞球。"
+  },
+  "pot%1:06:00::": {
+    "meaningZhTW": "鍋子；深鍋",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (APPROVE): 校訂建議（待使用者核准）：烹煮用的深鍋。"
+  },
+  "pot%1:06:01::": {
+    "meaningZhTW": "馬桶；便器",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指供排便、排尿的衛浴設備，不是花盆。"
+  },
+  "pot%1:23:00::": {
+    "meaningZhTW": "一鍋的量",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (APPROVE): 校訂建議（待使用者核准）：指鍋內所盛裝的數量。"
+  },
+  "practice%1:04:00::": {
+    "meaningZhTW": "慣例；慣常做法",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指慣常的行為或運作方式，不是反覆練習。"
+  },
+  "practice%1:04:02::": {
+    "meaningZhTW": "練習；反覆訓練",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指藉多次重複進行系統性訓練。"
+  },
+  "practice%1:04:04::": {
+    "meaningZhTW": "實踐；付諸實行",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：將想法化為行動，並非此 sense 的專業執業義。"
+  },
+  "pull%2:35:00::": {
+    "meaningZhTW": "拉；拖",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：以拉力使物體移動；不必將所有不同動作硬寫在同一項。"
+  },
+  "pull%2:35:02::": {
+    "meaningZhTW": "吸引；引起（注意或興趣）",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：靠心理或物理特性吸引對象，不是划槳。"
+  },
+  "pull%2:38:01::": {
+    "meaningZhTW": "朝某方向移動；駛向",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指向特定方向移動，例如車輛駛近，不是拉傷。"
+  },
+  "pull%1:04:00::": {
+    "meaningZhTW": "拉；拖（動作）",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (APPROVE): 校訂建議（待使用者核准）：施力將物體拉近或帶動的行為。"
+  },
+  "pull%1:19:00::": {
+    "meaningZhTW": "拉力；牽引力",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：物理上的拉動力量，不專指吸引力。"
+  },
+  "pull%1:07:00::": {
+    "meaningZhTW": "影響力；門路",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：口語中指特殊影響力或有利關係。"
+  },
+  "race%2:38:00::": {
+    "meaningZhTW": "飛奔；疾馳",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指快速移動，不一定在參加競賽。"
+  },
+  "race%2:33:00::": {
+    "meaningZhTW": "賽跑；競速",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指實際參加競賽；原建議和上一項對調。"
+  },
+  "race%2:41:03::": {
+    "meaningZhTW": "爭分奪秒；全速朝目標努力",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：快速朝目標工作，可能與他人競爭，不是心臟或引擎跳動。"
+  },
+  "raise%1:07:00::": {
+    "meaningZhTW": "加薪；加薪幅度",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指薪資增加的額度。"
+  },
+  "raise%1:17:00::": {
+    "meaningZhTW": "上坡；坡度",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指道路等向上的斜坡或坡度，不一定是高地。"
+  },
+  "raise%1:04:01::": {
+    "meaningZhTW": "加注；提高賭注",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文是撲克牌遊戲中增加下注金額的動作。"
+  },
+  "reach%2:38:01::": {
+    "meaningZhTW": "到達；抵達",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (APPROVE): 校訂建議（待使用者核准）：抵達實際或抽象的目的地。"
+  },
+  "reach%2:38:00::": {
+    "meaningZhTW": "達到（某時間、狀態或程度）",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指時間、狀態或程度的到達，不是伸出手。"
+  },
+  "reach%2:35:00::": {
+    "meaningZhTW": "伸手觸及；伸向",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：向前或向上伸出以碰觸，也可作比喻。"
+  },
+  "report%1:10:03::": {
+    "meaningZhTW": "書面報告；調查報告",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：個人或團體研究發現的書面文件。"
+  },
+  "report%1:10:01::": {
+    "meaningZhTW": "口頭報告；口頭通報",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指口頭告知的行為，並非傳聞。"
+  },
+  "report%1:10:00::": {
+    "meaningZhTW": "簡短新聞報導；消息簡報",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指簡短的新聞敘述，並非槍炮爆裂聲。"
+  },
+  "right%3:00:00::": {
+    "meaningZhTW": "右邊的；右側的",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (APPROVE): 校訂建議（待使用者核准）：以面朝北方時身體東側為右的方向。"
+  },
+  "right%3:00:02::": {
+    "meaningZhTW": "正確的；無誤的",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (APPROVE): 校訂建議（待使用者核准）：符合事實或真相。"
+  },
+  "right%5:00:01:proper:00": {
+    "meaningZhTW": "得體的；合乎禮節的",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指符合社會禮儀或行為規範。"
+  },
+  "rise%1:11:00::": {
+    "meaningZhTW": "增長；提升（力量、數量或重要性）",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：抽象或數量上的增長，不是空間位置的上升。"
+  },
+  "rise%1:04:00::": {
+    "meaningZhTW": "上升；升起（動作）",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：實際向上移動的動作，與勢力／數量增長分開。"
+  },
+  "rise%1:17:00::": {
+    "meaningZhTW": "上坡；坡度",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：地形或道路向上傾斜的部分，不一定是小丘。"
+  },
+  "rise%2:38:00::": {
+    "meaningZhTW": "上升；升起",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指向上移動；不含「站起來」的專指義。"
+  },
+  "rise%2:30:00::": {
+    "meaningZhTW": "上漲；增加（數值或程度）",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指數值或程度上升。"
+  },
+  "rise%2:38:05::": {
+    "meaningZhTW": "站起來；起身",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文是 rise to one's feet，並非日月升起。"
+  },
+  "roll%1:11:02::": {
+    "meaningZhTW": "滾動；繞軸旋轉",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：物體繞本身軸線的旋轉。"
+  },
+  "roll%1:10:00::": {
+    "meaningZhTW": "名冊；名單",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (APPROVE): 校訂建議（待使用者核准）：例如點名冊、成員名單。"
+  },
+  "roll%1:11:01::": {
+    "meaningZhTW": "湧向岸邊的巨浪；滾滾波浪",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指向海岸推進的大浪，不是小麵包。"
+  },
+  "round%1:06:01::": {
+    "meaningZhTW": "一發（彈藥）；一發子彈",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指供單次射擊的一份彈藥。"
+  },
+  "round%1:28:01::": {
+    "meaningZhTW": "一輪；一回合（週期）",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指一連串重複事件的一個週期。"
+  },
+  "round%1:15:00::": {
+    "meaningZhTW": "巡邏路線；巡邏區",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指警察或哨兵固定巡查的路線。"
+  },
+  "service%1:04:08::": {
+    "meaningZhTW": "服務；協助",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (KEEP_MERGED): 校訂建議（待使用者核准）：提供有益他人的服務性工作；與下一項在一般學習層級屬同一服務概念。"
+  },
+  "service%1:04:00::": {
+    "meaningZhTW": "服務；協助",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (KEEP_MERGED): 校訂建議（待使用者核准）：提供幫助或支援，也可指用於支援的工具；一般服務義與上一項保留合併。"
+  },
+  "service%1:04:01::": {
+    "meaningZhTW": "宗教禮拜；禮拜儀式",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文特指按照宗教規範舉行的公共禮拜。"
+  },
+  "share%1:21:00::": {
+    "meaningZhTW": "份額；分得的部分",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (KEEP_MERGED): 校訂建議（待使用者核准）：個人或團體應有、出資或分得的資產份額；與一般分得份額義合併。"
+  },
+  "share%1:21:01::": {
+    "meaningZhTW": "股份；股票",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：公司股本等分的一份，具股票持有意義。"
+  },
+  "share%1:04:00::": {
+    "meaningZhTW": "份額；分得的部分",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (KEEP_MERGED): 校訂建議（待使用者核准）：分配所得的部分；與應有份額在一般學習層級屬同一概念。"
+  },
+  "sick%3:00:01::": {
+    "meaningZhTW": "生病的；身體不適的",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：指正常身心功能受到疾病或障礙影響，與「想吐」的特定感受分開。"
+  },
+  "sick%5:00:02:ill:01": {
+    "meaningZhTW": "想吐的；噁心的",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文特指噁心欲吐。"
+  },
+  "sick%5:00:00:insane:00": {
+    "meaningZhTW": "精神失常的；精神錯亂的（舊式用法）",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指精神失常，不能譯成「變態」；此用法可能帶貶義。"
+  },
+  "sight%2:39:00::": {
+    "meaningZhTW": "看見；發現",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指用眼睛發現或看到。"
+  },
+  "sight%2:39:03::": {
+    "meaningZhTW": "（透過瞄準器）瞄準",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指透過槍械或其他設備瞄準器取準。"
+  },
+  "soldier%1:18:00::": {
+    "meaningZhTW": "士兵；軍人",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (APPROVE): 校訂建議（待使用者核准）：軍隊服役的人員。"
+  },
+  "soldier%1:05:00::": {
+    "meaningZhTW": "兵蟻；兵白蟻",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：昆蟲學中防禦蟻巢／白蟻群的無翅兵型個體，不是兵蜂。"
+  },
+  "south%1:24:00::": {
+    "meaningZhTW": "正南；南方（方位）",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (KEEP_MERGED): 校訂建議（待使用者核准）：指指南針 180 度正南方向；與下方方位詞義合併。"
+  },
+  "south%1:15:02::": {
+    "meaningZhTW": "南部；南方地區",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指國家、地區或城市南部的地理區域。"
+  },
+  "south%1:24:02::": {
+    "meaningZhTW": "正南；南方（方位）",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (KEEP_MERGED): 校訂建議（待使用者核准）：指朝南方位，與 compass point 屬同一基本方位概念。"
+  },
+  "spring%2:38:01::": {
+    "meaningZhTW": "跳躍前進；躍進",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文是連續跳躍向前移動，不是春天名詞。"
+  },
+  "spring%2:42:00::": {
+    "meaningZhTW": "產生；形成；發展成",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指逐漸發展成有特色的事物，非季節春天。"
+  },
+  "spring%2:38:00::": {
+    "meaningZhTW": "彈回；彈開",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指受到撞擊後彈開或反彈。"
+  },
+  "square%1:25:00::": {
+    "meaningZhTW": "正方形",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：四邊等長、四角皆直角的平面圖形。"
+  },
+  "square%1:23:00::": {
+    "meaningZhTW": "平方；平方值",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：兩個相同數相乘的乘積，不是平面圖形。"
+  },
+  "square%1:15:00::": {
+    "meaningZhTW": "廣場；街口廣場",
+    "status": "verified",
+    "reason": "User-reviewed batch3 (REVISE): 校訂建議（待使用者核准）：英文指兩條以上街道交會處的開放空間。"
+  },
+  "fly%2:38:00::": {
+    "meaningZhTW": "飛行；飛翔",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 在空中飛行。"
+  },
+  "fly%2:38:02::": {
+    "meaningZhTW": "飛馳；疾行",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 快速或突然移動，不限於空中。"
+  },
+  "fly%2:38:01::": {
+    "meaningZhTW": "駕駛飛機",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 操作飛機，與一般飛行動作不同。"
+  },
+  "pass%2:38:00::": {
+    "meaningZhTW": "穿過；通過",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 穿越某處或穿過障礙。"
+  },
+  "pass%2:38:05::": {
+    "meaningZhTW": "經過；路過",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 從旁經過，不一定穿越。"
+  },
+  "pass%2:41:02::": {
+    "meaningZhTW": "通過（法案、議案）",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 立法語境；與空間移動不同。"
+  },
+  "push%2:38:00::": {
+    "meaningZhTW": "用力推；推動",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 施力使物體移動。"
+  },
+  "push%2:32:01::": {
+    "meaningZhTW": "催促；逼迫",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 促使人採取或完成行動。"
+  },
+  "push%2:32:00::": {
+    "meaningZhTW": "推廣；推銷",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 宣傳或試圖售出商品。"
+  },
+  "study%2:31:02::": {
+    "meaningZhTW": "研究；深入分析",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 深入分析以理解本質或意義。"
+  },
+  "study%2:31:03::": {
+    "meaningZhTW": "就讀；求學",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 在學校或課程中接受教育。"
+  },
+  "study%2:39:00::": {
+    "meaningZhTW": "仔細考慮；審慎思考",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 審慎思考某事，與就讀不同。"
+  },
+  "sugar%1:13:00::": {
+    "meaningZhTW": "食糖；白糖",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 用作甜味劑的食用糖。"
+  },
+  "sugar%1:27:00::": {
+    "meaningZhTW": "醣類；碳水化合物",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 生物化學中的糖類及相關碳水化合物。"
+  },
+  "sugar%1:21:00::": {
+    "meaningZhTW": "錢；金錢（俚語）",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 金錢的非正式用法。"
+  },
+  "sun%1:19:00::": {
+    "meaningZhTW": "陽光；日照",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 太陽發出的光線。"
+  },
+  "sun%1:18:00::": {
+    "meaningZhTW": "（比喻）帶來溫暖或光彩的人",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 比喻帶來活力、溫暖或榮耀的人。"
+  },
+  "sun%1:17:01::": {
+    "meaningZhTW": "恆星（有行星環繞）",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 泛指有行星系統環繞的恆星，不限太陽。"
+  },
+  "surprise%2:31:00::": {
+    "meaningZhTW": "使驚訝；使吃驚",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 使人感到意外。"
+  },
+  "surprise%2:41:00::": {
+    "meaningZhTW": "出其不意地遇上；使措手不及",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 使對方在毫無防備下遭遇，不必涉及攻擊。"
+  },
+  "surprise%2:33:00::": {
+    "meaningZhTW": "突襲；奇襲",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 特指突然發動攻擊。"
+  },
+  "table%1:14:00::": {
+    "meaningZhTW": "表格；資料表",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 列和欄組成的資料。"
+  },
+  "table%1:06:01::": {
+    "meaningZhTW": "桌子；餐桌",
+    "status": "verified",
+    "reason": "User-reviewed final batch (KEEP_MERGED): 與擺好餐具的餐桌共用核心物件義。"
+  },
+  "table%1:06:02::": {
+    "meaningZhTW": "桌子；餐桌",
+    "status": "verified",
+    "reason": "User-reviewed final batch (KEEP_MERGED): 擺好餐具只是餐桌的使用情境，不需重複顯示。"
+  },
+  "theater%1:06:00::": {
+    "meaningZhTW": "劇院；戲院",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 劇場或電影放映建築。"
+  },
+  "theater%1:10:00::": {
+    "meaningZhTW": "戲劇藝術；劇作與製作",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 創作及製作戲劇的藝術。"
+  },
+  "theater%1:15:00::": {
+    "meaningZhTW": "戰區；軍事作戰區域",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 軍事活動所在的區域。"
+  },
+  "then%4:02:00::": {
+    "meaningZhTW": "然後；接著",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 表示時間順序。"
+  },
+  "then%4:02:02::": {
+    "meaningZhTW": "那麼；如此一來",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 表示條件的結果。"
+  },
+  "then%4:02:01::": {
+    "meaningZhTW": "當時；那時",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 指某個過去或已提及的時間。"
+  },
+  "there%4:02:00::": {
+    "meaningZhTW": "在那裡；在該處",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 表示所在位置。"
+  },
+  "there%4:02:02::": {
+    "meaningZhTW": "在那方面；就那一點而言",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 表示某個議題或方面。"
+  },
+  "there%4:02:01::": {
+    "meaningZhTW": "往那裡；向那邊",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 表示前往的方向。"
+  },
+  "tip%1:15:00::": {
+    "meaningZhTW": "尖端；末端",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 物體最末端，通常是尖的。"
+  },
+  "tip%1:21:00::": {
+    "meaningZhTW": "小費",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 服務後額外給予的金錢。"
+  },
+  "tip%1:10:00::": {
+    "meaningZhTW": "線索；內線消息",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 暗示可能機會的資訊，非一般操作訣竅。"
+  },
+  "toilet%1:06:00::": {
+    "meaningZhTW": "廁所；洗手間",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 設有馬桶的場所。"
+  },
+  "toilet%1:06:01::": {
+    "meaningZhTW": "馬桶；便器",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 如廁用衛生設備。"
+  },
+  "tooth%1:08:00::": {
+    "meaningZhTW": "牙齒",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 脊椎動物口中的牙齒。"
+  },
+  "tooth%1:06:01::": {
+    "meaningZhTW": "（梳子、鋸子等的）齒",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 與動物牙齒外形相似的器物齒。"
+  },
+  "tooth%1:05:02::": {
+    "meaningZhTW": "（無脊椎動物的）齒狀構造",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 英文定義指無脊椎動物，不是齒輪。"
+  },
+  "train%2:31:01::": {
+    "meaningZhTW": "訓練；培訓",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 對別人施以訓練或教導。"
+  },
+  "train%2:31:00::": {
+    "meaningZhTW": "接受訓練；受訓",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 自己接受某種職業或技能的訓練。"
+  },
+  "train%2:41:02::": {
+    "meaningZhTW": "管教；訓練（兒童或動物）",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 培養兒童或動物的行為與自我控制。"
+  },
+  "treat%1:13:00::": {
+    "meaningZhTW": "美食；特別的點心",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 特別值得享用的食物。"
+  },
+  "treat%1:11:00::": {
+    "meaningZhTW": "樂事；特別的享受",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 帶來特別愉悅的事件，不必涉及款待。"
+  },
+  "treatment%1:04:00::": {
+    "meaningZhTW": "治療；醫療照護",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 改善病況的照護或醫療處置；此 Sense 屬 treatment，匯入時應檢查複合詞條對應。"
+  },
+  "visit%1:04:02::": {
+    "meaningZhTW": "拜訪；參觀",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 短時間前往探訪人或地方。"
+  },
+  "visit%1:14:00::": {
+    "meaningZhTW": "就診；諮詢會面",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 特指看醫師或律師等的約定會面。"
+  },
+  "visit%1:04:01::": {
+    "meaningZhTW": "正式訪問；視察",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 以公務身分進行的訪問或檢查。"
+  },
+  "well%3:00:01::": {
+    "meaningZhTW": "健康的；康復的",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 生病或受傷後處於健康狀態。"
+  },
+  "well%5:00:00:fortunate:00": {
+    "meaningZhTW": "順利的；結果良好的",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 指結果有利、順利。"
+  },
+  "well%5:00:00:advisable:00": {
+    "meaningZhTW": "明智的；妥當的",
+    "status": "verified",
+    "reason": "User-reviewed final batch (REVISE): 指有利或明智、值得採取。"
   }
 };

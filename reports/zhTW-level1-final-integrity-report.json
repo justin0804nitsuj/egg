@@ -1,0 +1,107 @@
+{
+  "generatedAt": "2026-09-28T06:59:16.640Z",
+  "projectName": "VocabApp",
+  "scope": "Level 1 Final Integrity Audit & Cross-Level Verification",
+  "signoffReady": true,
+  "approvedBatches": {
+    "totalApprovedRecords": 313,
+    "perfectMatchRate": "100%",
+    "batchBreakdown": [
+      {
+        "batchName": "Batch 1",
+        "fileName": "zhTW-level1-reviewed-first30.csv",
+        "totalRows": 384,
+        "approvedCount": 83
+      },
+      {
+        "batchName": "Batch 2",
+        "fileName": "zhTW-level1-batch2-approved.csv",
+        "totalRows": 90,
+        "approvedCount": 90
+      },
+      {
+        "batchName": "Batch 3",
+        "fileName": "zhTW-level1-batch3-approved.csv",
+        "totalRows": 87,
+        "approvedCount": 87
+      },
+      {
+        "batchName": "Final Batch",
+        "fileName": "zhTW-level1-final-reviewed-approved.csv",
+        "totalRows": 54,
+        "approvedCount": 53
+      }
+    ]
+  },
+  "overridesProvenance": {
+    "totalL1Overrides": 498,
+    "userApprovedCsvOverrides": 313,
+    "baselinePolysemyOverrides": 185
+  },
+  "learnerMeaningsCounts": {
+    "level1": 1715,
+    "level2": 1392,
+    "level3": 1313,
+    "level4": 1260
+  },
+  "otherLevelsOverrides": {
+    "level2": 31,
+    "level3": 0,
+    "level4": 0,
+    "discrepancyNote": "Level 2 contains 31 baseline polysemy differentiation keys. Previous report mentioning 18 was based on word count/filtering. Level 3 & 4 have 0 verified overrides."
+  },
+  "toiletAnomaly": {
+    "senseId": "toilet%1:26:00::",
+    "englishDefinition": "misfortune resulting in lost effort or money",
+    "wordNetSynset": "14499576-n (noun.state)",
+    "status": "NEEDS_REVIEW",
+    "importedToOverrides": false,
+    "resolutionProposal": "Keep sense key in raw definitions with NEEDS_REVIEW status. Do not assign unverified literal fallback translation."
+  },
+  "keepMergedGroups": [
+    {
+      "word": "north",
+      "wordId": "north-588",
+      "senseIds": [
+        "north%1:24:00::",
+        "north%1:24:02::"
+      ],
+      "meaningZhTW": "正北；北方",
+      "status": "VERIFIED_INTACT"
+    },
+    {
+      "word": "service",
+      "wordId": "service-754",
+      "senseIds": [
+        "service%1:04:08::",
+        "service%1:04:00::"
+      ],
+      "meaningZhTW": "服務；協助",
+      "status": "VERIFIED_INTACT"
+    },
+    {
+      "word": "south",
+      "wordId": "south-813",
+      "senseIds": [
+        "south%1:24:00::",
+        "south%1:24:02::"
+      ],
+      "meaningZhTW": "正南；南方（方位）",
+      "status": "VERIFIED_INTACT"
+    },
+    {
+      "word": "table",
+      "wordId": "table-849",
+      "senseIds": [
+        "table%1:06:01::",
+        "table%1:06:02::"
+      ],
+      "meaningZhTW": "桌子；餐桌",
+      "status": "VERIFIED_INTACT"
+    }
+  ],
+  "testSuiteResults": {
+    "regressionTests": "16 Passed, 0 Failed",
+    "eslintResult": "0 errors, 0 warnings"
+  }
+}
