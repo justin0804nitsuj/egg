@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-09-28T08:19:53.064Z",
+  "generatedAt": "2026-09-28T08:31:12.500Z",
   "scope": "level-4-only",
   "level4WordCount": 1002,
   "level4MatchedWordCount": 995,
   "translatedRawSenseCount": 2874,
   "learnerMeaningsBeforeDeduplication": 2874,
-  "learnerMeaningsAfterDeduplication": 1427,
-  "duplicatesRemovedFromDisplay": 1447,
-  "wordsAffectedByDeduplication": 749,
+  "learnerMeaningsAfterDeduplication": 1260,
+  "duplicatesRemovedFromDisplay": 1614,
+  "wordsAffectedByDeduplication": 812,
   "wordsWithMultipleTranslatedSensesCount": 836,
-  "suspiciousAmbiguousCount": 30,
+  "suspiciousAmbiguousCount": 43,
   "mergedDuplicateExamples": [
     {
       "wordId": "abandon-3007",
@@ -514,6 +514,16 @@
       "reason": "complex_or_technical_definition"
     },
     {
+      "wordId": "anxiety-3050",
+      "word": "anxiety",
+      "senseId": "anxiety%1:26:00::",
+      "synsetId": "14397837-n",
+      "pos": "noun",
+      "englishDefinition": "(psychiatry) a relatively permanent state of worry and nervousness occurring in a variety of mental disorders, usually accompanied by compulsive behavior or attacks of panic",
+      "meaningZhTW": "焦慮",
+      "reason": "complex_or_technical_definition"
+    },
+    {
       "wordId": "aspirin-3067",
       "word": "aspirin",
       "senseId": "aspirin%1:06:00::",
@@ -521,6 +531,56 @@
       "pos": "noun",
       "englishDefinition": "the acetylated derivative of salicylic acid; used as an analgesic anti-inflammatory drug (trade names Bayer, Empirin, and St. Joseph) usually taken in tablet form; used as an antipyretic; slows clotting of the blood by poisoning platelets",
       "meaningZhTW": "阿斯匹林",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "bond-3108",
+      "word": "bond",
+      "senseId": "bond%1:21:02::",
+      "synsetId": "13438583-n",
+      "pos": "noun",
+      "englishDefinition": "a certificate of debt (usually interest-bearing or discounted) that is issued by a government or corporation in order to raise money; the issuer is required to pay a fixed sum annually until maturity and then a fixed sum to repay the principal",
+      "meaningZhTW": "捆綁物",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "calorie-3121",
+      "word": "calorie",
+      "senseId": "calorie%1:23:01::",
+      "synsetId": "13748406-n",
+      "pos": "noun",
+      "englishDefinition": "unit of heat defined as the quantity of heat required to raise the temperature of 1 gram of water by 1 degree centigrade at atmospheric pressure",
+      "meaningZhTW": "卡路裡（熱量單位）",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "calorie-3121",
+      "word": "calorie",
+      "senseId": "calorie%1:23:02::",
+      "synsetId": "13748672-n",
+      "pos": "noun",
+      "englishDefinition": "a unit of heat equal to the amount of heat required to raise the temperature of one kilogram of water by one degree at one atmosphere pressure; used by nutritionists to characterize the energy-producing potential in food",
+      "meaningZhTW": "卡路裡（熱量單位）",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "campaign-3122",
+      "word": "campaign",
+      "senseId": "campaign%2:41:10::",
+      "synsetId": "02595732-v",
+      "pos": "verb",
+      "englishDefinition": "exert oneself continuously, vigorously, or obtrusively to gain an end or engage in a crusade for a certain cause or person; be an advocate for",
+      "meaningZhTW": "戰役",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "carrier-3130",
+      "word": "carrier",
+      "senseId": "carrier%1:06:03::",
+      "synsetId": "02973559-n",
+      "pos": "noun",
+      "englishDefinition": "a self-propelled wheeled vehicle designed specifically to carry something",
+      "meaningZhTW": "運送者",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -581,6 +641,16 @@
       "pos": "noun",
       "englishDefinition": "(Christianity) an assembly of theologians and bishops and other representatives of different churches or dioceses that is convened to regulate matters of discipline or doctrine",
       "meaningZhTW": "會議",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "counter-3233",
+      "word": "counter",
+      "senseId": "counter%1:06:03::",
+      "synsetId": "03121850-n",
+      "pos": "noun",
+      "englishDefinition": "game equipment (as a piece of wood, plastic, or ivory) used for keeping a count or reserving a space in various card or board games",
+      "meaningZhTW": "計算器",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -694,6 +764,16 @@
       "reason": "complex_or_technical_definition"
     },
     {
+      "wordId": "insurance-3550",
+      "word": "insurance",
+      "senseId": "insurance%1:21:02::",
+      "synsetId": "13365819-n",
+      "pos": "noun",
+      "englishDefinition": "promise of reimbursement in the case of loss; paid to people or companies so concerned about hazards that they have made prepayments to an insurance company",
+      "meaningZhTW": "保險",
+      "reason": "complex_or_technical_definition"
+    },
+    {
       "wordId": "interaction-3559",
       "word": "interaction",
       "senseId": "interaction%1:19:00::",
@@ -701,6 +781,26 @@
       "pos": "noun",
       "englishDefinition": "(physics) the transfer of energy between elementary particles or between an elementary particle and a field or between fields; mediated by gauge bosons",
       "meaningZhTW": "交互作用",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "motivation-3660",
+      "word": "motivation",
+      "senseId": "motivation%1:03:00::",
+      "synsetId": "00023953-n",
+      "pos": "noun",
+      "englishDefinition": "the psychological feature that arouses an organism to action toward a desired goal; the reason for the action; that which gives purpose and direction to behavior",
+      "meaningZhTW": "動機",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "option-3698",
+      "word": "option",
+      "senseId": "option%1:21:00::",
+      "synsetId": "13262498-n",
+      "pos": "noun",
+      "englishDefinition": "the right to buy or sell property at an agreed price; the right is purchased and if it is not exercised by a stated date the money is forfeited",
+      "meaningZhTW": "選擇權",
       "reason": "complex_or_technical_definition"
     },
     {
@@ -784,6 +884,16 @@
       "reason": "complex_or_technical_definition"
     },
     {
+      "wordId": "submarine-3928",
+      "word": "submarine",
+      "senseId": "submarine%1:13:00::",
+      "synsetId": "07713570-n",
+      "pos": "noun",
+      "englishDefinition": "a large sandwich made of a long crusty roll split lengthwise and filled with meats and cheese (and tomato and onion and lettuce and condiments); different names are used in different sections of the United States",
+      "meaningZhTW": "潛水艇",
+      "reason": "complex_or_technical_definition"
+    },
+    {
       "wordId": "twig-3977",
       "word": "twig",
       "senseId": "twig%1:20:00::",
@@ -791,6 +901,26 @@
       "pos": "noun",
       "englishDefinition": "a small branch or division of a branch (especially a terminal division); usually applied to branches of the current or preceding year",
       "meaningZhTW": "小枝",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "virus-3990",
+      "word": "virus",
+      "senseId": "virus%1:05:00::",
+      "synsetId": "01331343-n",
+      "pos": "noun",
+      "englishDefinition": "(virology) ultramicroscopic infectious agent that replicates itself only within cells of living hosts; many are pathogenic; a piece of nucleic acid (DNA or RNA) wrapped in a thin coat of protein",
+      "meaningZhTW": "病毒",
+      "reason": "complex_or_technical_definition"
+    },
+    {
+      "wordId": "virus-3990",
+      "word": "virus",
+      "senseId": "virus%1:10:00::",
+      "synsetId": "06597992-n",
+      "pos": "noun",
+      "englishDefinition": "a software program capable of reproducing itself and usually capable of causing great harm to files or other programs on the same computer",
+      "meaningZhTW": "病毒",
       "reason": "complex_or_technical_definition"
     },
     {
