@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T08:30:51.274Z",
+  "generatedAt": "2026-09-28T08:36:24.428Z",
   "globalStats": {
     "totalWords": 6012,
     "totalLearnerMeanings": 8250,
@@ -9,11 +9,18 @@
     "totalClearOverMerge": 486,
     "totalPossibleOverMerge": 9,
     "totalSafeDuplicate": 5366,
-    "totalReviewQueueDataRows": 495
+    "totalQuestionableReviewGroups": 491
   },
-  "reconciliationNotes": {
-    "discrepancyExplained": "The previous 592 figure was derived from uncleaned raw text line counts across CSV files. The reconciled exact count of questionable over-merge data rows across all Level 1-6 Review Queue CSVs is exactly 495 rows.",
-    "provenanceAudited": "Only human-approved overrides (498 in L1, 31 in L2 = 529 total) carry status: 'verified'. Auto-generated candidate overrides (1,374 total) carry status: 'auto_differentiated' and enter the human Review Queue as NEEDS_REVIEW."
+  "tierStats": {
+    "SAFE_AUTO_FIX": 0,
+    "RECOMMENDED_REVIEW": 447,
+    "AMBIGUOUS_REVIEW": 44
+  },
+  "provenanceBreakdown": {
+    "level1HumanVerified": 498,
+    "level2BaselineManualVerified": 31,
+    "totalVerified": 529,
+    "totalAutoDifferentiatedCandidates": 1374
   },
   "levelStats": {
     "1": {
@@ -26,7 +33,7 @@
       "clearOverMergeCount": 4,
       "possibleOverMergeCount": 0,
       "safeDuplicateCount": 987,
-      "reviewQueueDataRows": 4,
+      "tieredReviewRows": 0,
       "coverage": "100%"
     },
     "2": {
@@ -39,7 +46,7 @@
       "clearOverMergeCount": 131,
       "possibleOverMergeCount": 2,
       "safeDuplicateCount": 971,
-      "reviewQueueDataRows": 133,
+      "tieredReviewRows": 133,
       "coverage": "100%"
     },
     "3": {
@@ -52,7 +59,7 @@
       "clearOverMergeCount": 99,
       "possibleOverMergeCount": 2,
       "safeDuplicateCount": 916,
-      "reviewQueueDataRows": 101,
+      "tieredReviewRows": 101,
       "coverage": "100%"
     },
     "4": {
@@ -65,7 +72,7 @@
       "clearOverMergeCount": 89,
       "possibleOverMergeCount": 2,
       "safeDuplicateCount": 869,
-      "reviewQueueDataRows": 91,
+      "tieredReviewRows": 91,
       "coverage": "100%"
     },
     "5": {
@@ -78,7 +85,7 @@
       "clearOverMergeCount": 100,
       "possibleOverMergeCount": 1,
       "safeDuplicateCount": 850,
-      "reviewQueueDataRows": 101,
+      "tieredReviewRows": 101,
       "coverage": "100%"
     },
     "6": {
@@ -91,11 +98,12 @@
       "clearOverMergeCount": 63,
       "possibleOverMergeCount": 2,
       "safeDuplicateCount": 773,
-      "reviewQueueDataRows": 65,
+      "tieredReviewRows": 65,
       "coverage": "100%"
     }
   },
   "gitCommits": [
+    "7072952 fix: reconcile review queues and enforce strict override status discipline",
     "9961389 feat: complete full level 1-6 dictionary completion pipeline and final reports",
     "5ec5664 feat: complete level 4 dictionary and audit pipeline",
     "2732331 feat: complete level 3 dictionary and audit pipeline",
@@ -104,7 +112,6 @@
     "677d306 feat: complete level 5 dictionary and audit pipeline",
     "926f39f fix: synchronize npm lockfile for Cloudflare Pages",
     "d05dbaa Merge branch 'feature/ui-pwa-enhancement'",
-    "77636a1 feat: improve UI and PWA experience",
-    "dc4876e fix: improve verified zh-TW definitions"
+    "77636a1 feat: improve UI and PWA experience"
   ]
 }

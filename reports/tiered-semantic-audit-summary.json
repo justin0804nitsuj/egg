@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-09-28T08:35:39.135Z",
+  "totalQuestionableGroups": 491,
+  "totalAutoDifferentiatedSenses": 1374,
+  "globalTierStats": {
+    "SAFE_AUTO_FIX": 0,
+    "RECOMMENDED_REVIEW": 447,
+    "AMBIGUOUS_REVIEW": 44
+  },
+  "levelTierBreakdown": {
+    "2": {
+      "level": 2,
+      "groupsCount": 133,
+      "autoDiffSensesCount": 383,
+      "SAFE_AUTO_FIX": 0,
+      "RECOMMENDED_REVIEW": 124,
+      "AMBIGUOUS_REVIEW": 9
+    },
+    "3": {
+      "level": 3,
+      "groupsCount": 101,
+      "autoDiffSensesCount": 285,
+      "SAFE_AUTO_FIX": 0,
+      "RECOMMENDED_REVIEW": 92,
+      "AMBIGUOUS_REVIEW": 9
+    },
+    "4": {
+      "level": 4,
+      "groupsCount": 91,
+      "autoDiffSensesCount": 258,
+      "SAFE_AUTO_FIX": 0,
+      "RECOMMENDED_REVIEW": 80,
+      "AMBIGUOUS_REVIEW": 11
+    },
+    "5": {
+      "level": 5,
+      "groupsCount": 101,
+      "autoDiffSensesCount": 276,
+      "SAFE_AUTO_FIX": 0,
+      "RECOMMENDED_REVIEW": 91,
+      "AMBIGUOUS_REVIEW": 10
+    },
+    "6": {
+      "level": 6,
+      "groupsCount": 65,
+      "autoDiffSensesCount": 172,
+      "SAFE_AUTO_FIX": 0,
+      "RECOMMENDED_REVIEW": 60,
+      "AMBIGUOUS_REVIEW": 5
+    }
+  }
+}
