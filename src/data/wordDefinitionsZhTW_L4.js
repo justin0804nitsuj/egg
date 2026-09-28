@@ -249,13 +249,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "代理商"
   },
   "aggressive%3:00:00::": {
-    "meaningZhTW": "侵略的"
+    "meaningZhTW": "侵略的 (義項 1)"
   },
   "aggressive%5:00:00:invasive:00": {
-    "meaningZhTW": "侵略的"
+    "meaningZhTW": "侵略的 (義項 2)"
   },
   "aggressive%5:00:00:hostile:01": {
-    "meaningZhTW": "侵略的"
+    "meaningZhTW": "侵略的 (義項 3)"
   },
   "agreeable%3:00:00::": {
     "meaningZhTW": "令人愉快的"
@@ -285,10 +285,10 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "警覺的"
   },
   "alert%1:26:00::": {
-    "meaningZhTW": "警覺的"
+    "meaningZhTW": "警覺的 (義項 1)"
   },
   "alert%1:10:00::": {
-    "meaningZhTW": "警覺的"
+    "meaningZhTW": "警覺的（軍事）"
   },
   "allowance%1:21:00::": {
     "meaningZhTW": "津貼"
@@ -384,10 +384,10 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "年刊"
   },
   "anxiety%1:26:00::": {
-    "meaningZhTW": "焦慮"
+    "meaningZhTW": "焦慮 (義項 1)"
   },
   "anxiety%1:12:00::": {
-    "meaningZhTW": "焦慮"
+    "meaningZhTW": "焦慮 (義項 2)"
   },
   "apology%1:10:00::": {
     "meaningZhTW": "道歉"
@@ -483,10 +483,10 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "站立"
   },
   "arms%1:06:00::": {
-    "meaningZhTW": "武器"
+    "meaningZhTW": "武器（軍事）"
   },
   "arms%1:06:01::": {
-    "meaningZhTW": "武器"
+    "meaningZhTW": "武器 (義項 2)"
   },
   "artificial%3:00:00::": {
     "meaningZhTW": "人造的"
@@ -636,13 +636,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "原子"
   },
   "atomic%3:01:00::": {
-    "meaningZhTW": "原子的"
+    "meaningZhTW": "原子的（音樂）"
   },
   "atomic%3:00:00::": {
-    "meaningZhTW": "原子的"
+    "meaningZhTW": "原子的（軍事）"
   },
   "atomic%5:00:00:small:00": {
-    "meaningZhTW": "原子的"
+    "meaningZhTW": "原子的 (義項 3)"
   },
   "attach%2:35:01::": {
     "meaningZhTW": "附上"
@@ -765,25 +765,25 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "盆"
   },
   "battery%1:14:02::": {
-    "meaningZhTW": "電池"
+    "meaningZhTW": "電池 (義項 1)"
   },
   "battery%1:06:00::": {
-    "meaningZhTW": "電池"
+    "meaningZhTW": "電池（設備/器具）"
   },
   "battery%1:14:01::": {
-    "meaningZhTW": "電池"
+    "meaningZhTW": "電池 (義項 3)"
   },
   "beggar%1:18:00::": {
     "meaningZhTW": "乞丐"
   },
   "behavior%1:04:00::": {
-    "meaningZhTW": "行為"
+    "meaningZhTW": "行為 (義項 1)"
   },
   "behavior%1:26:00::": {
-    "meaningZhTW": "行為"
+    "meaningZhTW": "行為（設備/器具）"
   },
   "behavior%1:07:00::": {
-    "meaningZhTW": "行為"
+    "meaningZhTW": "行為（軍事）"
   },
   "bin%1:06:00::": {
     "meaningZhTW": "(貯存谷物等的)容器"
@@ -885,13 +885,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "吹牛"
   },
   "bond%1:19:00::": {
-    "meaningZhTW": "捆綁物"
+    "meaningZhTW": "捆綁物 (義項 1)"
   },
   "bond%1:21:02::": {
-    "meaningZhTW": "捆綁物"
+    "meaningZhTW": "捆綁物（金額/款項）"
   },
   "bond%1:24:00::": {
-    "meaningZhTW": "捆綁物"
+    "meaningZhTW": "捆綁物（交通/載具）"
   },
   "bond%2:35:00::": {
     "meaningZhTW": "捆綁物"
@@ -912,13 +912,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "跳"
   },
   "bounce%1:07:00::": {
-    "meaningZhTW": "跳"
+    "meaningZhTW": "跳 (義項 1)"
   },
   "bounce%1:04:00::": {
-    "meaningZhTW": "跳"
+    "meaningZhTW": "跳（軍事）"
   },
   "bounce%1:11:00::": {
-    "meaningZhTW": "跳"
+    "meaningZhTW": "跳 (義項 3)"
   },
   "bracelet%1:06:01::": {
     "meaningZhTW": "手鐲"
@@ -996,37 +996,37 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "計算"
   },
   "calculation%1:04:00::": {
-    "meaningZhTW": "計算"
+    "meaningZhTW": "計算 (義項 1)"
   },
   "calculation%1:09:00::": {
-    "meaningZhTW": "計算"
+    "meaningZhTW": "計算（數學）"
   },
   "calculation%1:09:01::": {
-    "meaningZhTW": "計算"
+    "meaningZhTW": "計算（交通/載具）"
   },
   "calorie%1:23:01::": {
-    "meaningZhTW": "卡路裡（熱量單位）"
+    "meaningZhTW": "卡路裡（熱量單位） (義項 1)"
   },
   "calorie%1:23:02::": {
-    "meaningZhTW": "卡路裡（熱量單位）"
+    "meaningZhTW": "卡路裡（熱量單位） (義項 2)"
   },
   "campaign%1:11:00::": {
-    "meaningZhTW": "戰役"
+    "meaningZhTW": "戰役 (義項 1)"
   },
   "campaign%1:04:02::": {
-    "meaningZhTW": "戰役"
+    "meaningZhTW": "戰役（軍事）"
   },
   "campaign%1:04:00::": {
-    "meaningZhTW": "戰役"
+    "meaningZhTW": "戰役 (義項 3)"
   },
   "campaign%2:33:01::": {
-    "meaningZhTW": "戰役"
+    "meaningZhTW": "戰役 (義項 1)"
   },
   "campaign%2:41:10::": {
-    "meaningZhTW": "戰役"
+    "meaningZhTW": "戰役（人物）"
   },
   "campaign%2:33:00::": {
-    "meaningZhTW": "戰役"
+    "meaningZhTW": "戰役（軍事）"
   },
   "candidate%1:18:01::": {
     "meaningZhTW": "候選人"
@@ -1059,13 +1059,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "容量"
   },
   "capital%1:21:01::": {
-    "meaningZhTW": "首都"
+    "meaningZhTW": "首都 (義項 1)"
   },
   "capital%1:21:00::": {
-    "meaningZhTW": "首都"
+    "meaningZhTW": "首都（金額/款項）"
   },
   "capital%1:15:00::": {
-    "meaningZhTW": "首都"
+    "meaningZhTW": "首都 (義項 3)"
   },
   "capitalist%1:18:01::": {
     "meaningZhTW": "資本家"
@@ -1080,10 +1080,10 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "運送者（人）"
   },
   "carrier%1:06:03::": {
-    "meaningZhTW": "運送者"
+    "meaningZhTW": "運送者（交通/載具）"
   },
   "carrier%1:06:01::": {
-    "meaningZhTW": "運送者"
+    "meaningZhTW": "運送者（軍事）"
   },
   "carve%2:35:01::": {
     "meaningZhTW": "雕刻"
@@ -1161,13 +1161,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "特性"
   },
   "charity%1:14:00::": {
-    "meaningZhTW": "慈悲"
+    "meaningZhTW": "慈悲 (義項 1)"
   },
   "charity%1:07:00::": {
-    "meaningZhTW": "慈悲"
+    "meaningZhTW": "慈悲（軍事）"
   },
   "charity%1:04:00::": {
-    "meaningZhTW": "慈悲"
+    "meaningZhTW": "慈悲 (義項 3)"
   },
   "chemistry%1:09:00::": {
     "meaningZhTW": "化學"
@@ -1368,13 +1368,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "崩潰"
   },
   "collapse%2:38:00::": {
-    "meaningZhTW": "崩潰"
+    "meaningZhTW": "崩潰 (義項 1)"
   },
   "collapse%2:29:00::": {
-    "meaningZhTW": "崩潰"
+    "meaningZhTW": "崩潰（醫學）"
   },
   "collapse%2:38:01::": {
-    "meaningZhTW": "崩潰"
+    "meaningZhTW": "崩潰 (義項 3)"
   },
   "colleague%1:18:00::": {
     "meaningZhTW": "同事"
@@ -1398,13 +1398,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "喜劇"
   },
   "commander%1:18:00::": {
-    "meaningZhTW": "司令官"
+    "meaningZhTW": "司令官（軍事）"
   },
   "commander%1:18:03::": {
-    "meaningZhTW": "司令官"
+    "meaningZhTW": "司令官（人物）"
   },
   "commander%1:18:01::": {
-    "meaningZhTW": "司令官"
+    "meaningZhTW": "司令官（軍事） (義項 3)"
   },
   "comment%1:10:00::": {
     "meaningZhTW": "注解"
@@ -1476,13 +1476,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "競爭"
   },
   "competitive%3:00:00::": {
-    "meaningZhTW": "競爭的"
+    "meaningZhTW": "競爭的 (義項 1)"
   },
   "competitive%5:00:00:capitalistic:00": {
-    "meaningZhTW": "競爭的"
+    "meaningZhTW": "競爭的 (義項 2)"
   },
   "competitive%5:00:00:aggressive:00": {
-    "meaningZhTW": "競爭的"
+    "meaningZhTW": "競爭的 (義項 3)"
   },
   "competitor%1:18:00::": {
     "meaningZhTW": "競爭者"
@@ -1851,13 +1851,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "大會"
   },
   "conventional%3:00:00::": {
-    "meaningZhTW": "傳統的"
+    "meaningZhTW": "傳統的 (義項 1)"
   },
   "conventional%5:00:00:orthodox:00": {
-    "meaningZhTW": "傳統的"
+    "meaningZhTW": "傳統的 (義項 2)"
   },
   "conventional%3:00:02::": {
-    "meaningZhTW": "傳統的"
+    "meaningZhTW": "傳統的（軍事）"
   },
   "converse%2:32:00::": {
     "meaningZhTW": "相反的事物"
@@ -1950,13 +1950,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "會議"
   },
   "counter%1:06:00::": {
-    "meaningZhTW": "計算器"
+    "meaningZhTW": "計算器 (義項 1)"
   },
   "counter%1:06:03::": {
-    "meaningZhTW": "計算器"
+    "meaningZhTW": "計算器（體育）"
   },
   "counter%1:06:01::": {
-    "meaningZhTW": "計算器"
+    "meaningZhTW": "計算器（數學）"
   },
   "counter%2:32:00::": {
     "meaningZhTW": "計算器"
@@ -2229,52 +2229,52 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "宣布"
   },
   "decoration%1:06:00::": {
-    "meaningZhTW": "裝飾"
+    "meaningZhTW": "裝飾 (義項 1)"
   },
   "decoration%1:10:00::": {
-    "meaningZhTW": "裝飾"
+    "meaningZhTW": "裝飾（軍事）"
   },
   "decoration%1:04:00::": {
-    "meaningZhTW": "裝飾"
+    "meaningZhTW": "裝飾 (義項 3)"
   },
   "defeat%1:11:00::": {
-    "meaningZhTW": "敗北"
+    "meaningZhTW": "敗北 (義項 1)"
   },
   "defeat%1:12:00::": {
-    "meaningZhTW": "敗北"
+    "meaningZhTW": "敗北（金額/款項）"
   },
   "defeat%2:33:00::": {
-    "meaningZhTW": "敗北"
+    "meaningZhTW": "敗北 (義項 1)"
   },
   "defeat%2:41:00::": {
-    "meaningZhTW": "敗北"
+    "meaningZhTW": "敗北（軍事）"
   },
   "defend%2:32:00::": {
-    "meaningZhTW": "防護"
+    "meaningZhTW": "防護 (義項 1)"
   },
   "defend%2:33:00::": {
-    "meaningZhTW": "防護"
+    "meaningZhTW": "防護 (義項 2)"
   },
   "defend%2:33:02::": {
-    "meaningZhTW": "防護"
+    "meaningZhTW": "防護 (義項 3)"
   },
   "defense%1:04:00::": {
-    "meaningZhTW": "防衛"
+    "meaningZhTW": "防衛（軍事）"
   },
   "defense%1:04:03::": {
-    "meaningZhTW": "防衛"
+    "meaningZhTW": "防衛 (義項 2)"
   },
   "defense%1:14:01::": {
-    "meaningZhTW": "防衛"
+    "meaningZhTW": "防衛（體育）"
   },
   "defensible%5:00:00:invulnerable:00": {
     "meaningZhTW": "可防衛的"
   },
   "defensive%3:00:00::": {
-    "meaningZhTW": "防衛的"
+    "meaningZhTW": "防衛的 (義項 1)"
   },
   "defensive%5:00:00:apologetic:00": {
-    "meaningZhTW": "防衛的"
+    "meaningZhTW": "防衛的 (義項 2)"
   },
   "definite%3:00:00::": {
     "meaningZhTW": "明確的"
@@ -2283,13 +2283,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "明確的"
   },
   "delicate%3:00:00::": {
-    "meaningZhTW": "細致優雅的"
+    "meaningZhTW": "細致優雅的（音樂）"
   },
   "delicate%5:00:00:skilled:00": {
-    "meaningZhTW": "細致優雅的"
+    "meaningZhTW": "細致優雅的 (義項 2)"
   },
   "delicate%5:00:00:breakable:00": {
-    "meaningZhTW": "細致優雅的"
+    "meaningZhTW": "細致優雅的 (義項 3)"
   },
   "delight%1:12:00::": {
     "meaningZhTW": "高興"
@@ -2337,13 +2337,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "示範"
   },
   "demonstration%1:04:00::": {
-    "meaningZhTW": "示範"
+    "meaningZhTW": "示範（體育）"
   },
   "demonstration%1:04:02::": {
-    "meaningZhTW": "示範"
+    "meaningZhTW": "示範（軍事）"
   },
   "demonstration%1:04:01::": {
-    "meaningZhTW": "示範"
+    "meaningZhTW": "示範（金額/款項）"
   },
   "dense%5:00:00:thick:02": {
     "meaningZhTW": "密集的"
@@ -2592,13 +2592,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "假面目"
   },
   "disguise%1:07:00::": {
-    "meaningZhTW": "假面目"
+    "meaningZhTW": "假面目（軍事）"
   },
   "disguise%1:06:00::": {
-    "meaningZhTW": "假面目"
+    "meaningZhTW": "假面目 (義項 2)"
   },
   "disguise%1:04:00::": {
-    "meaningZhTW": "假面目"
+    "meaningZhTW": "假面目 (義項 3)"
   },
   "disgust%1:12:00::": {
     "meaningZhTW": "厭惡"
@@ -2730,13 +2730,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "離婚"
   },
   "dodge%2:38:00::": {
-    "meaningZhTW": "避開"
+    "meaningZhTW": "避開 (義項 1)"
   },
   "dodge%2:38:01::": {
-    "meaningZhTW": "避開"
+    "meaningZhTW": "避開 (義項 2)"
   },
   "dodge%2:32:00::": {
-    "meaningZhTW": "避開"
+    "meaningZhTW": "避開 (義項 3)"
   },
   "dodge%1:09:00::": {
     "meaningZhTW": "避開"
@@ -2775,13 +2775,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "氣流"
   },
   "draft%2:36:00::": {
-    "meaningZhTW": "氣流"
+    "meaningZhTW": "氣流 (義項 1)"
   },
   "draft%2:33:00::": {
-    "meaningZhTW": "氣流"
+    "meaningZhTW": "氣流 (義項 2)"
   },
   "draft%2:36:05::": {
-    "meaningZhTW": "氣流"
+    "meaningZhTW": "氣流 (義項 3)"
   },
   "dread%1:12:00::": {
     "meaningZhTW": "恐懼"
@@ -2817,13 +2817,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "鑽孔機"
   },
   "drill%2:35:00::": {
-    "meaningZhTW": "鑽孔機"
+    "meaningZhTW": "鑽孔機（設備/器具）"
   },
   "drill%2:31:03::": {
-    "meaningZhTW": "鑽孔機"
+    "meaningZhTW": "鑽孔機（軍事）"
   },
   "drill%2:31:00::": {
-    "meaningZhTW": "鑽孔機"
+    "meaningZhTW": "鑽孔機 (義項 3)"
   },
   "drowsy%5:00:00:asleep:00": {
     "meaningZhTW": "昏昏欲睡的"
@@ -3024,13 +3024,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "圍繞"
   },
   "encounter%1:04:00::": {
-    "meaningZhTW": "相會"
+    "meaningZhTW": "相會 (義項 1)"
   },
   "encounter%1:11:00::": {
-    "meaningZhTW": "相會"
+    "meaningZhTW": "相會 (義項 2)"
   },
   "encounter%1:04:01::": {
-    "meaningZhTW": "相會"
+    "meaningZhTW": "相會（人物）"
   },
   "encounter%2:38:00::": {
     "meaningZhTW": "相會"
@@ -3579,13 +3579,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "流利的"
   },
   "flush%2:29:00::": {
-    "meaningZhTW": "流溢"
+    "meaningZhTW": "流溢 (義項 1)"
   },
   "flush%2:30:00::": {
-    "meaningZhTW": "流溢"
+    "meaningZhTW": "流溢 (義項 2)"
   },
   "flush%2:39:00::": {
-    "meaningZhTW": "流溢"
+    "meaningZhTW": "流溢（軍事）"
   },
   "flush%1:28:00::": {
     "meaningZhTW": "流溢"
@@ -3642,10 +3642,10 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "客套語"
   },
   "fort%1:06:01::": {
-    "meaningZhTW": "堡壘"
+    "meaningZhTW": "堡壘（軍事）"
   },
   "fort%1:06:00::": {
-    "meaningZhTW": "堡壘"
+    "meaningZhTW": "堡壘 (義項 2)"
   },
   "fortunate%3:00:00::": {
     "meaningZhTW": "幸運的"
@@ -3756,13 +3756,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "挫敗"
   },
   "frustration%1:12:00::": {
-    "meaningZhTW": "挫折"
+    "meaningZhTW": "挫折（金額/款項）"
   },
   "frustration%1:04:02::": {
-    "meaningZhTW": "挫折"
+    "meaningZhTW": "挫折（人物）"
   },
   "frustration%1:12:01::": {
-    "meaningZhTW": "挫折"
+    "meaningZhTW": "挫折（金額/款項） (義項 3)"
   },
   "fulfill%2:36:00::": {
     "meaningZhTW": "履行"
@@ -3981,13 +3981,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "優美的"
   },
   "gracious%3:00:00::": {
-    "meaningZhTW": "親切的"
+    "meaningZhTW": "親切的 (義項 1)"
   },
   "gracious%5:00:00:kind:00": {
-    "meaningZhTW": "親切的"
+    "meaningZhTW": "親切的（法律）"
   },
   "gracious%5:00:00:polite:00": {
-    "meaningZhTW": "親切的"
+    "meaningZhTW": "親切的（法律） (義項 3)"
   },
   "graduation%1:04:01::": {
     "meaningZhTW": "畢業"
@@ -4074,13 +4074,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "磨"
   },
   "grind%1:18:00::": {
-    "meaningZhTW": "磨"
+    "meaningZhTW": "磨 (義項 1)"
   },
   "grind%1:07:00::": {
-    "meaningZhTW": "磨"
+    "meaningZhTW": "磨 (義項 2)"
   },
   "grind%1:04:01::": {
-    "meaningZhTW": "磨"
+    "meaningZhTW": "磨 (義項 3)"
   },
   "guarantee%2:32:00::": {
     "meaningZhTW": "擔保"
@@ -4092,13 +4092,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "擔保"
   },
   "guarantee%1:10:00::": {
-    "meaningZhTW": "擔保"
+    "meaningZhTW": "擔保 (義項 1)"
   },
   "guarantee%1:10:01::": {
-    "meaningZhTW": "擔保"
+    "meaningZhTW": "擔保 (義項 2)"
   },
   "guarantee%1:21:03::": {
-    "meaningZhTW": "擔保"
+    "meaningZhTW": "擔保（人物）"
   },
   "guardian%1:18:00::": {
     "meaningZhTW": "看守者（人）"
@@ -4161,13 +4161,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "艱難"
   },
   "hardware%1:06:02::": {
-    "meaningZhTW": "硬體"
+    "meaningZhTW": "硬體（軍事）"
   },
   "hardware%1:06:03::": {
-    "meaningZhTW": "硬體"
+    "meaningZhTW": "硬體（音樂）"
   },
   "hardware%1:06:01::": {
-    "meaningZhTW": "硬體"
+    "meaningZhTW": "硬體 (義項 3)"
   },
   "harmony%1:07:01::": {
     "meaningZhTW": "協調"
@@ -4248,13 +4248,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "猶豫"
   },
   "hive%1:14:00::": {
-    "meaningZhTW": "蜂房"
+    "meaningZhTW": "蜂房 (義項 1)"
   },
   "hive%1:06:00::": {
-    "meaningZhTW": "蜂房"
+    "meaningZhTW": "蜂房（軍事）"
   },
   "hive%1:17:00::": {
-    "meaningZhTW": "蜂房"
+    "meaningZhTW": "蜂房 (義項 3)"
   },
   "homeland%1:15:00::": {
     "meaningZhTW": "本國"
@@ -4410,13 +4410,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "無知"
   },
   "ignorant%5:00:02:uneducated:00": {
-    "meaningZhTW": "無知識的"
+    "meaningZhTW": "無知識的 (義項 1)"
   },
   "ignorant%5:00:01:uneducated:00": {
-    "meaningZhTW": "無知識的"
+    "meaningZhTW": "無知識的 (義項 2)"
   },
   "ignorant%5:00:00:uninformed:00": {
-    "meaningZhTW": "無知識的"
+    "meaningZhTW": "無知識的（軍事）"
   },
   "illustrate%2:32:00::": {
     "meaningZhTW": "舉例說明"
@@ -4512,13 +4512,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "徵(稅)"
   },
   "impression%1:09:00::": {
-    "meaningZhTW": "印象"
+    "meaningZhTW": "印象 (義項 1)"
   },
   "impression%1:07:00::": {
-    "meaningZhTW": "印象"
+    "meaningZhTW": "印象（軍事）"
   },
   "impression%1:09:01::": {
-    "meaningZhTW": "印象"
+    "meaningZhTW": "印象 (義項 3)"
   },
   "incident%1:11:00::": {
     "meaningZhTW": "事件"
@@ -4671,13 +4671,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "本能"
   },
   "instruct%2:32:00::": {
-    "meaningZhTW": "教"
+    "meaningZhTW": "教 (義項 1)"
   },
   "instruct%2:32:01::": {
-    "meaningZhTW": "教"
+    "meaningZhTW": "教 (義項 2)"
   },
   "instruct%2:32:02::": {
-    "meaningZhTW": "教"
+    "meaningZhTW": "教（軍事）"
   },
   "instructor%1:18:00::": {
     "meaningZhTW": "教員"
@@ -4692,13 +4692,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "侮辱"
   },
   "insurance%1:21:02::": {
-    "meaningZhTW": "保險"
+    "meaningZhTW": "保險 (義項 1)"
   },
   "insurance%1:10:00::": {
-    "meaningZhTW": "保險"
+    "meaningZhTW": "保險 (義項 2)"
   },
   "insurance%1:26:00::": {
-    "meaningZhTW": "保險"
+    "meaningZhTW": "保險 (義項 3)"
   },
   "intellectual%5:00:00:mental:00": {
     "meaningZhTW": "有知識者"
@@ -4749,13 +4749,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "強烈"
   },
   "intensive%5:00:00:intense:00": {
-    "meaningZhTW": "加強的"
+    "meaningZhTW": "加強的 (義項 1)"
   },
   "intensive%3:01:01::": {
-    "meaningZhTW": "加強的"
+    "meaningZhTW": "加強的 (義項 2)"
   },
   "intensive%3:00:00::": {
-    "meaningZhTW": "加強的"
+    "meaningZhTW": "加強的 (義項 3)"
   },
   "intention%1:09:00::": {
     "meaningZhTW": "意圖"
@@ -4812,13 +4812,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "打擾"
   },
   "intimate%5:00:00:close:02": {
-    "meaningZhTW": "親密的"
+    "meaningZhTW": "親密的 (義項 1)"
   },
   "intimate%5:00:00:personal:00": {
-    "meaningZhTW": "親密的"
+    "meaningZhTW": "親密的（人物）"
   },
   "intimate%5:00:00:friendly:01": {
-    "meaningZhTW": "親密的"
+    "meaningZhTW": "親密的（軍事）"
   },
   "intimate%1:18:00::": {
     "meaningZhTW": "親密的"
@@ -4830,22 +4830,22 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "直覺"
   },
   "invade%2:33:00::": {
-    "meaningZhTW": "侵入"
+    "meaningZhTW": "侵入（軍事）"
   },
   "invade%2:38:00::": {
-    "meaningZhTW": "侵入"
+    "meaningZhTW": "侵入 (義項 2)"
   },
   "invade%2:42:00::": {
-    "meaningZhTW": "侵入"
+    "meaningZhTW": "侵入（數學）"
   },
   "invasion%1:04:00::": {
-    "meaningZhTW": "侵犯"
+    "meaningZhTW": "侵犯 (義項 1)"
   },
   "invasion%1:11:00::": {
-    "meaningZhTW": "侵犯"
+    "meaningZhTW": "侵犯 (義項 2)"
   },
   "invasion%1:11:01::": {
-    "meaningZhTW": "侵犯"
+    "meaningZhTW": "侵犯 (義項 3)"
   },
   "invention%1:09:00::": {
     "meaningZhTW": "發明"
@@ -4926,13 +4926,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "發行"
   },
   "issue%2:32:00::": {
-    "meaningZhTW": "發行"
+    "meaningZhTW": "發行 (義項 1)"
   },
   "issue%2:41:00::": {
-    "meaningZhTW": "發行"
+    "meaningZhTW": "發行 (義項 2)"
   },
   "issue%2:32:01::": {
-    "meaningZhTW": "發行"
+    "meaningZhTW": "發行（軍事）"
   },
   "jealousy%1:12:00::": {
     "meaningZhTW": "妒忌"
@@ -4950,13 +4950,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "鋒利的"
   },
   "kettle%1:06:00::": {
-    "meaningZhTW": "茶壺"
+    "meaningZhTW": "茶壺 (義項 1)"
   },
   "kettle%1:23:00::": {
-    "meaningZhTW": "茶壺"
+    "meaningZhTW": "茶壺 (義項 2)"
   },
   "kettle%1:17:00::": {
-    "meaningZhTW": "茶壺"
+    "meaningZhTW": "茶壺 (義項 3)"
   },
   "kneel%2:35:00::": {
     "meaningZhTW": "跪下"
@@ -4971,13 +4971,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "把手"
   },
   "labor%1:14:00::": {
-    "meaningZhTW": "勞動"
+    "meaningZhTW": "勞動（音樂）"
   },
   "labor%1:04:00::": {
-    "meaningZhTW": "勞動"
+    "meaningZhTW": "勞動 (義項 2)"
   },
   "labor%1:26:00::": {
-    "meaningZhTW": "勞動"
+    "meaningZhTW": "勞動 (義項 3)"
   },
   "labor%2:41:01::": {
     "meaningZhTW": "勞動"
@@ -5265,13 +5265,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "忠誠的"
   },
   "loyalty%1:07:00::": {
-    "meaningZhTW": "忠貞"
+    "meaningZhTW": "忠貞 (義項 1)"
   },
   "loyalty%1:12:00::": {
-    "meaningZhTW": "忠貞"
+    "meaningZhTW": "忠貞（金額/款項）"
   },
   "loyalty%1:04:00::": {
-    "meaningZhTW": "忠貞"
+    "meaningZhTW": "忠貞 (義項 3)"
   },
   "luxurious%5:00:00:indulgent:00": {
     "meaningZhTW": "豪華的"
@@ -5316,10 +5316,10 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "組成"
   },
   "manual%1:10:00::": {
-    "meaningZhTW": "手冊"
+    "meaningZhTW": "手冊 (義項 1)"
   },
   "manual%1:04:00::": {
-    "meaningZhTW": "手冊"
+    "meaningZhTW": "手冊（軍事）"
   },
   "manual%3:01:00::": {
     "meaningZhTW": "手冊"
@@ -5394,13 +5394,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "可測量的"
   },
   "measure%1:04:01::": {
-    "meaningZhTW": "措施"
+    "meaningZhTW": "措施（軍事）"
   },
   "measure%1:03:00::": {
-    "meaningZhTW": "措施"
+    "meaningZhTW": "措施 (義項 2)"
   },
   "measure%1:10:02::": {
-    "meaningZhTW": "措施"
+    "meaningZhTW": "措施（法律）"
   },
   "mechanic%1:18:00::": {
     "meaningZhTW": "機械工"
@@ -5436,13 +5436,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "商人"
   },
   "mercy%1:04:00::": {
-    "meaningZhTW": "仁慈"
+    "meaningZhTW": "仁慈（軍事）"
   },
   "mercy%1:07:00::": {
-    "meaningZhTW": "仁慈"
+    "meaningZhTW": "仁慈 (義項 2)"
   },
   "mercy%1:12:00::": {
-    "meaningZhTW": "仁慈"
+    "meaningZhTW": "仁慈（金額/款項）"
   },
   "mere%5:00:00:specified:00": {
     "meaningZhTW": "小湖"
@@ -5583,10 +5583,10 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "謙遜"
   },
   "monitor%1:18:01::": {
-    "meaningZhTW": "監督器（人）"
+    "meaningZhTW": "監督器（人）（人物）"
   },
   "monitor%1:18:00::": {
-    "meaningZhTW": "監督器（人）"
+    "meaningZhTW": "監督器（人）（軍事）"
   },
   "monitor%1:06:02::": {
     "meaningZhTW": "監督器"
@@ -5613,13 +5613,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "給與動機"
   },
   "motivation%1:03:00::": {
-    "meaningZhTW": "動機"
+    "meaningZhTW": "動機（軍事）"
   },
   "motivation%1:26:00::": {
-    "meaningZhTW": "動機"
+    "meaningZhTW": "動機 (義項 2)"
   },
   "motivation%1:04:00::": {
-    "meaningZhTW": "動機"
+    "meaningZhTW": "動機 (義項 3)"
   },
   "mountainous%5:00:00:rough:00": {
     "meaningZhTW": "多山的"
@@ -5748,13 +5748,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "現在"
   },
   "nuclear%3:00:00::": {
-    "meaningZhTW": "核子的"
+    "meaningZhTW": "核子的（軍事）"
   },
   "nuclear%3:01:01::": {
-    "meaningZhTW": "核子的"
+    "meaningZhTW": "核子的 (義項 2)"
   },
   "nuclear%3:01:02::": {
-    "meaningZhTW": "核子的"
+    "meaningZhTW": "核子的 (義項 3)"
   },
   "numerous%5:00:00:many:00": {
     "meaningZhTW": "很多的"
@@ -5802,13 +5802,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "目的"
   },
   "observation%1:04:01::": {
-    "meaningZhTW": "觀察"
+    "meaningZhTW": "觀察 (義項 1)"
   },
   "observation%1:04:00::": {
-    "meaningZhTW": "觀察"
+    "meaningZhTW": "觀察 (義項 2)"
   },
   "observation%1:10:00::": {
-    "meaningZhTW": "觀察"
+    "meaningZhTW": "觀察（音樂）"
   },
   "obstacle%1:09:00::": {
     "meaningZhTW": "障礙"
@@ -5835,13 +5835,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "偶然的"
   },
   "occupation%1:04:00::": {
-    "meaningZhTW": "職業"
+    "meaningZhTW": "職業（金額/款項）"
   },
   "occupation%1:04:02::": {
-    "meaningZhTW": "職業"
+    "meaningZhTW": "職業（軍事）"
   },
   "occupation%1:04:04::": {
-    "meaningZhTW": "職業"
+    "meaningZhTW": "職業（人物）"
   },
   "occupy%2:41:00::": {
     "meaningZhTW": "佔領"
@@ -5871,13 +5871,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "犯罪"
   },
   "offensive%5:00:00:offending:00": {
-    "meaningZhTW": "令人不快的"
+    "meaningZhTW": "令人不快的 (義項 1)"
   },
   "offensive%3:00:03::": {
-    "meaningZhTW": "令人不快的"
+    "meaningZhTW": "令人不快的 (義項 2)"
   },
   "offensive%3:00:02::": {
-    "meaningZhTW": "令人不快的"
+    "meaningZhTW": "令人不快的（音樂）"
   },
   "opera%1:10:00::": {
     "meaningZhTW": "歌劇"
@@ -5886,22 +5886,22 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "歌劇"
   },
   "oppose%2:32:01::": {
-    "meaningZhTW": "反對"
+    "meaningZhTW": "反對 (義項 1)"
   },
   "oppose%2:33:01::": {
-    "meaningZhTW": "反對"
+    "meaningZhTW": "反對 (義項 2)"
   },
   "oppose%2:42:00::": {
-    "meaningZhTW": "反對"
+    "meaningZhTW": "反對 (義項 3)"
   },
   "option%1:21:00::": {
-    "meaningZhTW": "選擇權"
+    "meaningZhTW": "選擇權（金額/款項）"
   },
   "option%1:09:00::": {
-    "meaningZhTW": "選擇權"
+    "meaningZhTW": "選擇權（數學）"
   },
   "option%1:04:00::": {
-    "meaningZhTW": "選擇權"
+    "meaningZhTW": "選擇權（音樂）"
   },
   "orbit%1:15:00::": {
     "meaningZhTW": "軌道"
@@ -6063,13 +6063,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "參與"
   },
   "partnership%1:14:00::": {
-    "meaningZhTW": "合夥"
+    "meaningZhTW": "合夥 (義項 1)"
   },
   "partnership%1:24:00::": {
-    "meaningZhTW": "合夥"
+    "meaningZhTW": "合夥（交通/載具）"
   },
   "partnership%1:10:00::": {
-    "meaningZhTW": "合夥"
+    "meaningZhTW": "合夥（金額/款項）"
   },
   "passive%3:00:01::": {
     "meaningZhTW": "消極的"
@@ -6285,13 +6285,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "許多的"
   },
   "plot%1:09:00::": {
-    "meaningZhTW": "小塊土地"
+    "meaningZhTW": "小塊土地（法律）"
   },
   "plot%1:15:00::": {
-    "meaningZhTW": "小塊土地"
+    "meaningZhTW": "小塊土地 (義項 2)"
   },
   "plot%1:10:00::": {
-    "meaningZhTW": "小塊土地"
+    "meaningZhTW": "小塊土地（體育）"
   },
   "plot%2:31:00::": {
     "meaningZhTW": "小塊土地"
@@ -6426,13 +6426,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "懷孕的"
   },
   "presentation%1:04:01::": {
-    "meaningZhTW": "贈與"
+    "meaningZhTW": "贈與（軍事）"
   },
   "presentation%1:04:00::": {
-    "meaningZhTW": "贈與"
+    "meaningZhTW": "贈與（體育）"
   },
   "presentation%1:10:00::": {
-    "meaningZhTW": "贈與"
+    "meaningZhTW": "贈與 (義項 3)"
   },
   "preservation%1:04:00::": {
     "meaningZhTW": "保存"
@@ -6474,13 +6474,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "最佳部分"
   },
   "primitive%5:00:02:early:02": {
-    "meaningZhTW": "原始人"
+    "meaningZhTW": "原始人 (義項 1)"
   },
   "primitive%5:00:01:early:02": {
-    "meaningZhTW": "原始人"
+    "meaningZhTW": "原始人 (義項 2)"
   },
   "primitive%5:00:00:noncivilized:00": {
-    "meaningZhTW": "原始人"
+    "meaningZhTW": "原始人 (義項 3)"
   },
   "priority%1:26:00::": {
     "meaningZhTW": "優先權"
@@ -6516,13 +6516,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "程式"
   },
   "proceed%2:32:00::": {
-    "meaningZhTW": "繼續進行"
+    "meaningZhTW": "繼續進行 (義項 1)"
   },
   "proceed%2:38:00::": {
-    "meaningZhTW": "繼續進行"
+    "meaningZhTW": "繼續進行（軍事）"
   },
   "proceed%2:41:00::": {
-    "meaningZhTW": "繼續進行"
+    "meaningZhTW": "繼續進行 (義項 3)"
   },
   "productive%3:00:00::": {
     "meaningZhTW": "能生產的"
@@ -6774,13 +6774,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "葡萄幹"
   },
   "realistic%3:00:00::": {
-    "meaningZhTW": "現實的"
+    "meaningZhTW": "現實的（軍事）"
   },
   "realistic%5:00:00:representational:00": {
-    "meaningZhTW": "現實的"
+    "meaningZhTW": "現實的 (義項 2)"
   },
   "realistic%3:01:00::": {
-    "meaningZhTW": "現實的"
+    "meaningZhTW": "現實的 (義項 3)"
   },
   "rebel%1:18:00::": {
     "meaningZhTW": "叛徒（人）"
@@ -6804,13 +6804,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "回憶"
   },
   "recall%1:10:02::": {
-    "meaningZhTW": "回憶"
+    "meaningZhTW": "回憶 (義項 1)"
   },
   "recall%1:10:00::": {
-    "meaningZhTW": "回憶"
+    "meaningZhTW": "回憶 (義項 2)"
   },
   "recall%1:10:01::": {
-    "meaningZhTW": "回憶"
+    "meaningZhTW": "回憶 (義項 3)"
   },
   "reception%1:10:01::": {
     "meaningZhTW": "接待"
@@ -7212,13 +7212,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "保持"
   },
   "retire%2:41:01::": {
-    "meaningZhTW": "退休"
+    "meaningZhTW": "退休 (義項 1)"
   },
   "retire%2:41:02::": {
-    "meaningZhTW": "退休"
+    "meaningZhTW": "退休 (義項 2)"
   },
   "retire%2:38:00::": {
-    "meaningZhTW": "退休"
+    "meaningZhTW": "退休（軍事）"
   },
   "retirement%1:26:00::": {
     "meaningZhTW": "退休"
@@ -7230,22 +7230,22 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "退休"
   },
   "retreat%1:04:00::": {
-    "meaningZhTW": "休息寓所"
+    "meaningZhTW": "休息寓所（軍事）"
   },
   "retreat%1:15:00::": {
-    "meaningZhTW": "休息寓所"
+    "meaningZhTW": "休息寓所 (義項 2)"
   },
   "retreat%1:10:01::": {
-    "meaningZhTW": "休息寓所"
+    "meaningZhTW": "休息寓所（軍事） (義項 3)"
   },
   "retreat%2:38:00::": {
-    "meaningZhTW": "休息寓所"
+    "meaningZhTW": "休息寓所（軍事）"
   },
   "retreat%2:38:02::": {
-    "meaningZhTW": "休息寓所"
+    "meaningZhTW": "休息寓所 (義項 2)"
   },
   "retreat%2:38:01::": {
-    "meaningZhTW": "休息寓所"
+    "meaningZhTW": "休息寓所 (義項 3)"
   },
   "reunion%1:14:00::": {
     "meaningZhTW": "團圓"
@@ -7305,13 +7305,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "報酬"
   },
   "reward%2:41:01::": {
-    "meaningZhTW": "報酬"
+    "meaningZhTW": "報酬（軍事）"
   },
   "reward%2:32:00::": {
-    "meaningZhTW": "報酬"
+    "meaningZhTW": "報酬（軍事） (義項 2)"
   },
   "reward%2:40:00::": {
-    "meaningZhTW": "報酬"
+    "meaningZhTW": "報酬（人物）"
   },
   "rhyme%1:10:00::": {
     "meaningZhTW": "韻"
@@ -7620,13 +7620,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "變化"
   },
   "shift%2:30:00::": {
-    "meaningZhTW": "變化"
+    "meaningZhTW": "變化 (義項 1)"
   },
   "shift%2:38:00::": {
-    "meaningZhTW": "變化"
+    "meaningZhTW": "變化 (義項 2)"
   },
   "shift%2:38:02::": {
-    "meaningZhTW": "變化"
+    "meaningZhTW": "變化 (義項 3)"
   },
   "sightseeing%1:04:00::": {
     "meaningZhTW": "觀光"
@@ -7773,10 +7773,10 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "火花"
   },
   "spear%1:06:00::": {
-    "meaningZhTW": "矛"
+    "meaningZhTW": "矛（軍事）"
   },
   "spear%1:06:01::": {
-    "meaningZhTW": "矛"
+    "meaningZhTW": "矛 (義項 2)"
   },
   "spear%2:35:00::": {
     "meaningZhTW": "矛"
@@ -7785,10 +7785,10 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "矛"
   },
   "species%1:14:00::": {
-    "meaningZhTW": "種"
+    "meaningZhTW": "種 (義項 1)"
   },
   "species%1:09:00::": {
-    "meaningZhTW": "種"
+    "meaningZhTW": "種 (義項 2)"
   },
   "spiritual%5:00:00:sacred:00": {
     "meaningZhTW": "精神上的"
@@ -7818,13 +7818,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "劈開"
   },
   "split%1:04:02::": {
-    "meaningZhTW": "劈開"
+    "meaningZhTW": "劈開 (義項 1)"
   },
   "split%1:23:00::": {
-    "meaningZhTW": "劈開"
+    "meaningZhTW": "劈開 (義項 2)"
   },
   "split%1:21:00::": {
-    "meaningZhTW": "劈開"
+    "meaningZhTW": "劈開（金額/款項）"
   },
   "sprinkle%2:35:01::": {
     "meaningZhTW": "灑"
@@ -7881,13 +7881,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "莖"
   },
   "stem%2:42:00::": {
-    "meaningZhTW": "莖"
+    "meaningZhTW": "莖 (義項 1)"
   },
   "stem%2:42:03::": {
-    "meaningZhTW": "莖"
+    "meaningZhTW": "莖（軍事）"
   },
   "stem%2:30:00::": {
-    "meaningZhTW": "莖"
+    "meaningZhTW": "莖 (義項 3)"
   },
   "stereo%1:06:00::": {
     "meaningZhTW": "鉛版"
@@ -7917,13 +7917,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "加強"
   },
   "stripe%1:06:00::": {
-    "meaningZhTW": "斑紋"
+    "meaningZhTW": "斑紋 (義項 1)"
   },
   "stripe%1:10:01::": {
-    "meaningZhTW": "斑紋"
+    "meaningZhTW": "斑紋（軍事）"
   },
   "stripe%1:10:00::": {
-    "meaningZhTW": "斑紋"
+    "meaningZhTW": "斑紋（軍事） (義項 3)"
   },
   "strive%2:41:00::": {
     "meaningZhTW": "努力"
@@ -7950,10 +7950,10 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "筆劃"
   },
   "submarine%1:06:00::": {
-    "meaningZhTW": "潛水艇"
+    "meaningZhTW": "潛水艇（軍事）"
   },
   "submarine%1:13:00::": {
-    "meaningZhTW": "潛水艇"
+    "meaningZhTW": "潛水艇 (義項 2)"
   },
   "submarine%5:00:00:subsurface:00": {
     "meaningZhTW": "潛水艇"
@@ -7980,13 +7980,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "外科醫生"
   },
   "surgery%1:09:00::": {
-    "meaningZhTW": "外科"
+    "meaningZhTW": "外科（醫學）"
   },
   "surgery%1:06:01::": {
-    "meaningZhTW": "外科"
+    "meaningZhTW": "外科 (義項 2)"
   },
   "surgery%1:06:00::": {
-    "meaningZhTW": "外科"
+    "meaningZhTW": "外科 (義項 3)"
   },
   "surrender%2:33:00::": {
     "meaningZhTW": "交出"
@@ -8034,13 +8034,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "音節"
   },
   "sympathetic%3:01:00::": {
-    "meaningZhTW": "有同情心的"
+    "meaningZhTW": "有同情心的 (義項 1)"
   },
   "sympathetic%3:00:00::": {
-    "meaningZhTW": "有同情心的"
+    "meaningZhTW": "有同情心的（金額/款項）"
   },
   "sympathetic%5:00:00:kind:00": {
-    "meaningZhTW": "有同情心的"
+    "meaningZhTW": "有同情心的 (義項 3)"
   },
   "sympathy%1:09:00::": {
     "meaningZhTW": "同情"
@@ -8079,13 +8079,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "望遠鏡"
   },
   "tendency%1:09:00::": {
-    "meaningZhTW": "趨向"
+    "meaningZhTW": "趨向 (義項 1)"
   },
   "tendency%1:12:00::": {
-    "meaningZhTW": "趨向"
+    "meaningZhTW": "趨向 (義項 2)"
   },
   "tendency%1:07:00::": {
-    "meaningZhTW": "趨向"
+    "meaningZhTW": "趨向（軍事）"
   },
   "tense%3:00:03::": {
     "meaningZhTW": "緊張的"
@@ -8265,13 +8265,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "遷移"
   },
   "transform%2:30:02::": {
-    "meaningZhTW": "使轉換"
+    "meaningZhTW": "使轉換 (義項 1)"
   },
   "transform%2:30:00::": {
-    "meaningZhTW": "使轉換"
+    "meaningZhTW": "使轉換 (義項 2)"
   },
   "transform%2:30:03::": {
-    "meaningZhTW": "使轉換"
+    "meaningZhTW": "使轉換（軍事）"
   },
   "translate%2:32:00::": {
     "meaningZhTW": "翻譯"
@@ -8436,13 +8436,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "船"
   },
   "violate%2:42:00::": {
-    "meaningZhTW": "違犯"
+    "meaningZhTW": "違犯 (義項 1)"
   },
   "violate%2:41:00::": {
-    "meaningZhTW": "違犯"
+    "meaningZhTW": "違犯（法律）"
   },
   "violate%2:35:00::": {
-    "meaningZhTW": "違犯"
+    "meaningZhTW": "違犯 (義項 3)"
   },
   "violation%1:04:00::": {
     "meaningZhTW": "違反"
@@ -8463,13 +8463,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "德行"
   },
   "virus%1:05:00::": {
-    "meaningZhTW": "病毒"
+    "meaningZhTW": "病毒 (義項 1)"
   },
   "virus%1:26:00::": {
-    "meaningZhTW": "病毒"
+    "meaningZhTW": "病毒 (義項 2)"
   },
   "virus%1:10:00::": {
-    "meaningZhTW": "病毒"
+    "meaningZhTW": "病毒（軍事）"
   },
   "visual%3:01:04::": {
     "meaningZhTW": "視覺的"
@@ -8493,10 +8493,10 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "自動的"
   },
   "volunteer%1:18:01::": {
-    "meaningZhTW": "志願者（人）"
+    "meaningZhTW": "志願者（人）（軍事）"
   },
   "volunteer%1:18:00::": {
-    "meaningZhTW": "志願者（人）"
+    "meaningZhTW": "志願者（人）（人物）"
   },
   "volunteer%2:32:00::": {
     "meaningZhTW": "志願者"
@@ -8571,13 +8571,13 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
     "meaningZhTW": "女巫"
   },
   "withdraw%2:38:00::": {
-    "meaningZhTW": "撤回"
+    "meaningZhTW": "撤回（軍事）"
   },
   "withdraw%2:41:01::": {
-    "meaningZhTW": "撤回"
+    "meaningZhTW": "撤回 (義項 2)"
   },
   "withdraw%2:35:00::": {
-    "meaningZhTW": "撤回"
+    "meaningZhTW": "撤回 (義項 3)"
   },
   "witness%1:18:00::": {
     "meaningZhTW": "證人"
