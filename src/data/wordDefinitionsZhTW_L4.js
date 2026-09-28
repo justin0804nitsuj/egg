@@ -8426,14 +8426,14 @@ export const WORD_DEFINITIONS_ZH_TW_L4 = {
   "vegetarian%1:18:00::": {
     "meaningZhTW": "素食者（人）"
   },
-  "vessel%1:08:00::": {
-    "meaningZhTW": "船"
-  },
   "vessel%1:06:00::": {
     "meaningZhTW": "船"
   },
+  "vessel%1:08:00::": {
+    "meaningZhTW": "血管；脈管"
+  },
   "vessel%1:06:01::": {
-    "meaningZhTW": "船"
+    "meaningZhTW": "容器"
   },
   "violate%2:42:00::": {
     "meaningZhTW": "違犯"

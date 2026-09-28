@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-28T14:17:24.903Z",
+  "generatedAt": "2026-09-28T15:28:45.826Z",
   "scope": "level-4-only",
   "level4WordCount": 1002,
   "level4MatchedWordCount": 995,
   "translatedRawSenseCount": 2874,
   "learnerMeaningsBeforeDeduplication": 2874,
-  "learnerMeaningsAfterDeduplication": 1279,
-  "duplicatesRemovedFromDisplay": 1595,
-  "wordsAffectedByDeduplication": 804,
+  "learnerMeaningsAfterDeduplication": 1281,
+  "duplicatesRemovedFromDisplay": 1593,
+  "wordsAffectedByDeduplication": 803,
   "wordsWithMultipleTranslatedSensesCount": 836,
   "suspiciousAmbiguousCount": 30,
   "mergedDuplicateExamples": [
