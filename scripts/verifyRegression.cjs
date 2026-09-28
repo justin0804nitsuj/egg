@@ -94,7 +94,7 @@ async function runTests() {
   let validSenseIds = true;
   let checkedSenses = 0;
 
-  WORDS.filter(w => w.level <= 4).forEach(w => {
+  WORDS.filter(w => w.level <= 6).forEach(w => {
     const entry = getWordDefinitions(w.id);
     if (entry) {
       entry.rawDefinitions.forEach(d => {

@@ -1,0 +1,92 @@
+{
+  "generatedAt": "2026-09-28T08:21:01.200Z",
+  "completedLevels": [
+    5,
+    6,
+    2,
+    3,
+    4
+  ],
+  "globalStats": {
+    "totalWords": 6012,
+    "totalLearnerMeanings": 8425,
+    "totalVerifiedOverrides": 805,
+    "totalClearOverMerge": 486,
+    "totalPossibleOverMerge": 9,
+    "totalSafeDuplicate": 5366
+  },
+  "levelStats": {
+    "1": {
+      "level": 1,
+      "wordCount": 1002,
+      "learnerMeaningCount": 1715,
+      "verifiedOverrideCount": 498,
+      "clearOverMergeCount": 4,
+      "possibleOverMergeCount": 0,
+      "safeDuplicateCount": 987,
+      "coverage": "100%"
+    },
+    "2": {
+      "level": 2,
+      "wordCount": 1002,
+      "learnerMeaningCount": 1392,
+      "verifiedOverrideCount": 31,
+      "clearOverMergeCount": 131,
+      "possibleOverMergeCount": 2,
+      "safeDuplicateCount": 971,
+      "coverage": "100%"
+    },
+    "3": {
+      "level": 3,
+      "wordCount": 1002,
+      "learnerMeaningCount": 1313,
+      "verifiedOverrideCount": 0,
+      "clearOverMergeCount": 99,
+      "possibleOverMergeCount": 2,
+      "safeDuplicateCount": 916,
+      "coverage": "100%"
+    },
+    "4": {
+      "level": 4,
+      "wordCount": 1002,
+      "learnerMeaningCount": 1260,
+      "verifiedOverrideCount": 0,
+      "clearOverMergeCount": 89,
+      "possibleOverMergeCount": 2,
+      "safeDuplicateCount": 869,
+      "coverage": "100%"
+    },
+    "5": {
+      "level": 5,
+      "wordCount": 1002,
+      "learnerMeaningCount": 1492,
+      "verifiedOverrideCount": 276,
+      "clearOverMergeCount": 100,
+      "possibleOverMergeCount": 1,
+      "safeDuplicateCount": 850,
+      "coverage": "100%"
+    },
+    "6": {
+      "level": 6,
+      "wordCount": 1002,
+      "learnerMeaningCount": 1253,
+      "verifiedOverrideCount": 0,
+      "clearOverMergeCount": 63,
+      "possibleOverMergeCount": 2,
+      "safeDuplicateCount": 773,
+      "coverage": "100%"
+    }
+  },
+  "gitCommits": [
+    "5ec5664 feat: complete level 4 dictionary and audit pipeline",
+    "2732331 feat: complete level 3 dictionary and audit pipeline",
+    "36146ca feat: complete level 2 dictionary and audit pipeline",
+    "0374b91 feat: complete level 6 dictionary and audit pipeline",
+    "677d306 feat: complete level 5 dictionary and audit pipeline",
+    "926f39f fix: synchronize npm lockfile for Cloudflare Pages",
+    "d05dbaa Merge branch 'feature/ui-pwa-enhancement'",
+    "77636a1 feat: improve UI and PWA experience",
+    "dc4876e fix: improve verified zh-TW definitions",
+    "90f98b9 anti?"
+  ]
+}
