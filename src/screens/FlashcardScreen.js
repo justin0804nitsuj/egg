@@ -1342,9 +1342,13 @@ const styles = StyleSheet.create({
       COLORS.surface,
     borderWidth: 1,
     borderColor:
-      COLORS.border,
+      COLORS.borderLight,
     borderRadius: 26,
     padding: 28,
+    shadowColor: COLORS.primary,
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.18,
+    shadowRadius: 24,
   },
 
   cardTop: {
@@ -1360,7 +1364,7 @@ const styles = StyleSheet.create({
   },
 
   cardLevel: {
-    color: COLORS.primary,
+    color: COLORS.primaryLight,
     fontSize: 12,
     fontWeight: '800',
     letterSpacing: 1,
@@ -1430,7 +1434,7 @@ const styles = StyleSheet.create({
   },
 
   speakText: {
-    color: COLORS.primary,
+    color: COLORS.primaryLight,
     fontSize: 14,
     fontWeight: '700',
   },
@@ -1466,21 +1470,21 @@ const styles = StyleSheet.create({
 
   againButton: {
     backgroundColor:
-      `${COLORS.danger}15`,
+      'rgba(239, 68, 68, 0.12)',
     borderColor:
       COLORS.danger,
   },
 
   hardButton: {
     backgroundColor:
-      `${COLORS.warning}15`,
+      'rgba(245, 158, 11, 0.12)',
     borderColor:
       COLORS.warning,
   },
 
   goodButton: {
     backgroundColor:
-      `${COLORS.success}15`,
+      'rgba(16, 185, 129, 0.12)',
     borderColor:
       COLORS.success,
   },
@@ -1560,6 +1564,9 @@ const styles = StyleSheet.create({
       'space-around',
     backgroundColor:
       COLORS.surface,
+    borderWidth: 1,
+    borderColor:
+      COLORS.borderLight,
     borderRadius: 20,
     paddingVertical: 20,
     marginTop: 28,

@@ -52,6 +52,20 @@ export default function LibraryScreen({ navigation }) {
     }, [])
   );
 
+  // Pre-calculate word counts for each level badge
+  const levelCounts = useMemo(() => {
+    const counts = { all: WORDS.length };
+    LEVELS.forEach((lvl) => {
+      counts[lvl] = 0;
+    });
+    WORDS.forEach((item) => {
+      if (item.level && counts[item.level] !== undefined) {
+        counts[item.level]++;
+      }
+    });
+    return counts;
+  }, []);
+
   const filteredWords = useMemo(() => {
     const keyword = search.trim().toLowerCase();
 
@@ -70,6 +84,14 @@ export default function LibraryScreen({ navigation }) {
       return matchesSearch && matchesLevel && matchesFavorite;
     });
   }, [search, selectedLevel, favoritesOnly, favoriteIds]);
+
+  const toggleLevel = useCallback((level) => {
+    if (level === null) {
+      setSelectedLevel(null);
+    } else {
+      setSelectedLevel((current) => (current === level ? null : level));
+    }
+  }, []);
 
   const openWord = useCallback(
     (item) => navigation.navigate('WordDetail', { word: item }),
@@ -115,7 +137,7 @@ export default function LibraryScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
-      {/* Keep the search and level selector outside the virtualized list. */}
+      {/* Keep search and level selector outside virtualized list with safe flex bounds. */}
       <View style={styles.controls}>
         <View style={styles.header}>
           <Text style={styles.title}>軍械庫</Text>
@@ -135,25 +157,26 @@ export default function LibraryScreen({ navigation }) {
           testID="library-search"
         />
 
-        {/* A bounded row: FlatList cannot consume the selector's height. */}
+        {/* Dynamic height level bar container to prevent height collapse or button clipping */}
         <View style={styles.levelBar}>
           <ScrollView
             horizontal
             style={styles.levelScroll}
             contentContainerStyle={styles.levelContent}
             showsHorizontalScrollIndicator={false}
-            keyboardShouldPersistTaps="always"
-            directionalLockEnabled
+            keyboardShouldPersistTaps="handled"
+            directionalLockEnabled={false}
             testID="library-level-scroll"
           >
             <Pressable
-              onPress={() => setSelectedLevel(null)}
+              onPress={() => toggleLevel(null)}
               accessibilityRole="button"
               accessibilityState={{ selected: allLevelsSelected }}
               testID="library-level-all"
-              style={[
+              style={({ pressed }) => [
                 styles.levelButton,
                 allLevelsSelected && styles.levelButtonActive,
+                pressed && styles.levelButtonPressed,
               ]}
             >
               <Text
@@ -169,17 +192,19 @@ export default function LibraryScreen({ navigation }) {
             {LEVELS.map((level) => {
               const active =
                 isSelectedLevel(selectedLevel, level);
+              const count = levelCounts[level] ?? 0;
 
               return (
                 <Pressable
                   key={level}
-                  onPress={() => setSelectedLevel(level)}
+                  onPress={() => toggleLevel(level)}
                   accessibilityRole="button"
                   accessibilityState={{ selected: active }}
                   testID={`library-level-${level}`}
-                  style={[
+                  style={({ pressed }) => [
                     styles.levelButton,
                     active && styles.levelButtonActive,
+                    pressed && styles.levelButtonPressed,
                   ]}
                 >
                   <Text
@@ -190,6 +215,14 @@ export default function LibraryScreen({ navigation }) {
                   >
                     Lv.{level}
                   </Text>
+                  <Text
+                    style={[
+                      styles.levelCountText,
+                      active && styles.levelCountTextActive,
+                    ]}
+                  >
+                    {count}
+                  </Text>
                 </Pressable>
               );
             })}
@@ -199,7 +232,7 @@ export default function LibraryScreen({ navigation }) {
         <View style={styles.resultRow}>
           <Text style={styles.resultText} numberOfLines={1}>
             找到 {filteredWords.length} 個單字
-            {selectedLevel !== null ? ` · Lv.${selectedLevel}` : ''}
+            {!allLevelsSelected && selectedLevel !== null ? ` · Lv.${selectedLevel}` : ''}
           </Text>
 
           <Pressable
@@ -208,9 +241,10 @@ export default function LibraryScreen({ navigation }) {
             accessibilityState={{ selected: favoritesOnly }}
             accessibilityLabel={favoritesOnly ? '顯示全部單字' : '只看收藏單字'}
             testID="library-favorites-toggle"
-            style={[
+            style={({ pressed }) => [
               styles.favoritesButton,
               favoritesOnly && styles.favoritesButtonActive,
+              pressed && styles.favoritesButtonPressed,
             ]}
           >
             <Text
@@ -258,11 +292,12 @@ const styles = StyleSheet.create({
   },
   controls: {
     flexShrink: 0,
-    zIndex: 1,
+    zIndex: 10,
+    marginBottom: 4,
   },
   header: {
-    marginTop: 20,
-    marginBottom: 18,
+    marginTop: 16,
+    marginBottom: 14,
   },
   title: {
     color: COLORS.text,
@@ -271,50 +306,56 @@ const styles = StyleSheet.create({
   },
   subtitle: {
     color: COLORS.textSecondary,
-    fontSize: 15,
-    marginTop: 4,
+    fontSize: 14,
+    marginTop: 2,
   },
   searchInput: {
-    height: 52,
+    height: 48,
     backgroundColor: COLORS.surface,
     borderWidth: 1,
     borderColor: COLORS.border,
-    borderRadius: 16,
+    borderRadius: 14,
     paddingHorizontal: 16,
     color: COLORS.text,
-    fontSize: 16,
+    fontSize: 15,
   },
   levelBar: {
-    height: 60,
-    flexGrow: 0,
+    minHeight: 52,
+    marginVertical: 10,
     flexShrink: 0,
     zIndex: 2,
   },
   levelScroll: {
     width: '100%',
-    height: 60,
     flexGrow: 0,
     flexShrink: 0,
   },
   levelContent: {
     alignItems: 'center',
-    paddingVertical: 10,
+    paddingVertical: 4,
     paddingRight: 12,
   },
   levelButton: {
-    height: 38,
-    paddingHorizontal: 16,
+    minHeight: 38,
+    paddingHorizontal: 14,
+    paddingVertical: 6,
     marginRight: 8,
+    flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: COLORS.surface,
     borderWidth: 1,
     borderColor: COLORS.border,
     borderRadius: 19,
+    gap: 6,
   },
   levelButtonActive: {
     backgroundColor: COLORS.primary,
     borderColor: COLORS.primary,
+  },
+  levelButtonPressed: {
+    opacity: 0.75,
+    transform: [{ scale: 0.97 }],
   },
   levelButtonText: {
     color: COLORS.textSecondary,
@@ -323,13 +364,29 @@ const styles = StyleSheet.create({
   },
   levelButtonTextActive: {
     color: '#FFFFFF',
+    fontWeight: '700',
+  },
+  levelCountText: {
+    color: COLORS.textMuted,
+    fontSize: 11,
+    fontWeight: '500',
+    backgroundColor: COLORS.surfaceLight,
+    paddingHorizontal: 6,
+    paddingVertical: 2,
+    borderRadius: 8,
+    overflow: 'hidden',
+  },
+  levelCountTextActive: {
+    color: COLORS.primary,
+    backgroundColor: '#FFFFFF',
+    fontWeight: '700',
   },
   resultRow: {
-    minHeight: 42,
+    minHeight: 38,
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: 10,
+    marginBottom: 8,
   },
   resultText: {
     flexShrink: 1,

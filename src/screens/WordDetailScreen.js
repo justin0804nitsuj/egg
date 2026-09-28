@@ -916,7 +916,7 @@ const styles =
       borderWidth: 1,
 
       borderColor:
-        COLORS.border,
+        COLORS.borderLight,
 
       borderRadius: 18,
 
@@ -951,7 +951,7 @@ const styles =
     },
 
     sourceBadge: {
-      color: COLORS.primary,
+      color: COLORS.primaryLight,
 
       fontSize: 11,
 
@@ -994,7 +994,7 @@ const styles =
     },
 
     senseGroupTitle: {
-      color: COLORS.primary,
+      color: COLORS.primaryLight,
 
       fontSize: 13,
 
@@ -1087,7 +1087,7 @@ const styles =
       borderWidth: 1,
 
       borderColor:
-        COLORS.border,
+        COLORS.borderLight,
 
       borderRadius: 12,
 
@@ -1130,7 +1130,7 @@ const styles =
     },
 
     cambridgeButtonText: {
-      color: COLORS.primary,
+      color: COLORS.primaryLight,
 
       fontSize: 14,
 
@@ -1209,10 +1209,10 @@ const styles =
 
     masteryDotActive: {
       backgroundColor:
-        COLORS.primary,
+        COLORS.primaryLight,
 
       borderColor:
-        COLORS.primary,
+        COLORS.primaryLight,
     },
 
     masteryText: {
@@ -1242,7 +1242,7 @@ const styles =
       borderWidth: 1,
 
       borderColor:
-        COLORS.border,
+        COLORS.borderLight,
 
       marginTop: 6,
     },
@@ -1250,6 +1250,9 @@ const styles =
     favoriteButtonActive: {
       borderColor:
         COLORS.warning,
+
+      backgroundColor:
+        'rgba(245, 158, 11, 0.08)',
     },
 
     favoriteIcon: {

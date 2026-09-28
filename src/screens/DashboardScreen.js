@@ -575,7 +575,7 @@ const styles =
     },
 
     eyebrow: {
-      color: COLORS.primary,
+      color: COLORS.primaryLight,
 
       fontSize: 11,
       fontWeight: '800',
@@ -603,7 +603,7 @@ const styles =
       borderWidth: 1,
 
       borderColor:
-        COLORS.border,
+        COLORS.borderLight,
 
       paddingHorizontal: 14,
 
@@ -632,13 +632,18 @@ const styles =
       borderWidth: 1,
 
       borderColor:
-        COLORS.border,
+        COLORS.borderLight,
 
       borderRadius: 22,
 
       padding: 20,
 
       marginTop: 24,
+
+      shadowColor: COLORS.primary,
+      shadowOffset: { width: 0, height: 4 },
+      shadowOpacity: 0.12,
+      shadowRadius: 16,
     },
 
     levelTop: {
@@ -662,7 +667,7 @@ const styles =
     },
 
     levelValue: {
-      color: COLORS.primary,
+      color: COLORS.primaryLight,
 
       fontSize: 48,
       fontWeight: '900',
@@ -775,16 +780,16 @@ const styles =
     },
 
     statIcon: {
-      fontSize: 18,
+      fontSize: 20,
     },
 
     statValue: {
       color: COLORS.text,
 
-      fontSize: 27,
+      fontSize: 26,
       fontWeight: '800',
 
-      marginTop: 12,
+      marginTop: 10,
     },
 
     statLabel: {
@@ -879,7 +884,7 @@ const styles =
     },
 
     missionTrack: {
-      height: 5,
+      height: 6,
 
       backgroundColor:
         COLORS.surfaceLight,
@@ -971,7 +976,7 @@ const styles =
     },
 
     trainingButton: {
-      minHeight: 76,
+      minHeight: 74,
 
       flexDirection: 'row',
 
@@ -985,16 +990,21 @@ const styles =
 
       borderRadius: 20,
 
-      paddingHorizontal: 20,
+      paddingHorizontal: 22,
 
       marginTop: 24,
+
+      shadowColor: COLORS.primary,
+      shadowOffset: { width: 0, height: 6 },
+      shadowOpacity: 0.35,
+      shadowRadius: 16,
     },
 
     trainingLabel: {
       color:
-        'rgba(255,255,255,0.7)',
+        'rgba(255,255,255,0.75)',
 
-      fontSize: 9,
+      fontSize: 10,
       fontWeight: '800',
 
       letterSpacing: 1.4,
@@ -1006,23 +1016,23 @@ const styles =
       fontSize: 20,
       fontWeight: '800',
 
-      marginTop: 4,
+      marginTop: 3,
     },
 
     trainingArrow: {
       color: '#FFFFFF',
 
-      fontSize: 30,
+      fontSize: 28,
 
-      fontWeight: '300',
+      fontWeight: '400',
     },
 
     pressed: {
-      opacity: 0.75,
+      opacity: 0.85,
 
       transform: [
         {
-          scale: 0.99,
+          scale: 0.985,
         },
       ],
     },
