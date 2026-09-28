@@ -1,0 +1,1007 @@
+[
+  {
+    "level": 2,
+    "word": "basics",
+    "pos": "noun",
+    "senseIds": [
+      "basics%1:10:00::",
+      "basics%1:09:00::"
+    ],
+    "engDefs": [
+      "a statement of fundamental facts or principles",
+      "principles from which other truths can be derived"
+    ],
+    "originalZh": "最簡單但最重要的部分",
+    "candidateZh": "最簡單但最重要的部分 (義項 1) | 最簡單但最重要的部分 (義項 2)",
+    "reason": "Second-pass 驗證失敗：翻譯過長，可能拆解過細或不自然",
+    "groupId": "L2-G12",
+    "firstPassZh": "最簡單但最重要的部分 (義項 1) | 最簡單但最重要的部分 (義項 2)",
+    "secondPassZh": "最簡單但最重要的部分 (義項 1) | 最簡單但最重要的部分 (義項 2)",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 2,
+    "word": "brain",
+    "pos": "noun",
+    "senseIds": [
+      "brain%1:08:00::",
+      "brain%1:09:00::",
+      "brain%1:09:01::"
+    ],
+    "engDefs": [
+      "that part of the central nervous system that includes all the higher nervous centers; enclosed within the skull; continuous with the spinal cord",
+      "mental ability",
+      "that which is responsible for one's thoughts, feelings, and conscious brain functions; the seat of the faculty of reason"
+    ],
+    "originalZh": "腦",
+    "candidateZh": "大腦（器官） | 頭腦；智力 | 頭腦；智力",
+    "reason": "高風險抽象概念或多重隱喻：解剖學神經器官； 心智思考能力",
+    "groupId": "L2-G17",
+    "firstPassZh": "大腦（器官） | 頭腦；智力 | 頭腦；智力",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 2,
+    "word": "complex",
+    "pos": "noun",
+    "senseIds": [
+      "complex%1:09:00::",
+      "complex%1:27:00::",
+      "complex%1:12:00::"
+    ],
+    "engDefs": [
+      "a conceptual whole made up of complicated and related parts",
+      "a compound described in terms of the central atom to which other atoms are bound or coordinated",
+      "(psychoanalysis) a combination of emotions and impulses that have been rejected from awareness but still influence a person's behavior"
+    ],
+    "originalZh": "綜合體",
+    "candidateZh": "綜合體（概念） | 錯合物（化學） | 情結（心理學）",
+    "reason": "高風險抽象概念或多重隱喻：概念整體； 化學化合物； 心理學術語",
+    "groupId": "L2-G32",
+    "firstPassZh": "綜合體（概念） | 錯合物（化學） | 情結（心理學）",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 2,
+    "word": "corn",
+    "pos": "noun",
+    "senseIds": [
+      "corn%1:20:00::",
+      "corn%1:20:02::",
+      "corn%1:13:00::"
+    ],
+    "engDefs": [
+      "tall annual cereal grass bearing kernels on large ears: widely cultivated in America in many varieties; the principal cereal in Mexico and Central and South America since pre-Columbian times",
+      "the dried grains or kernels or corn used as animal feed or ground for meal",
+      "ears of corn that can be prepared and served for human food"
+    ],
+    "originalZh": "玉蜀黍",
+    "candidateZh": "玉蜀黍（植物） | 玉米粒（穀物） | 玉米穗（食材）",
+    "reason": "高風險抽象概念或多重隱喻：植物本體； 穀物飼料； 食用食材",
+    "groupId": "L2-G36",
+    "firstPassZh": "玉蜀黍（植物） | 玉米粒（穀物） | 玉米穗（食材）",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 2,
+    "word": "earthquake",
+    "pos": "noun",
+    "senseIds": [
+      "earthquake%1:11:00::",
+      "earthquake%1:26:00::"
+    ],
+    "engDefs": [
+      "shaking and vibration at the surface of the earth resulting from underground movement along a fault plane or from volcanic activity",
+      "a disturbance that is extremely disruptive"
+    ],
+    "originalZh": "地震",
+    "candidateZh": "地震（自然現象） | 大動盪（比喻）",
+    "reason": "高風險抽象概念或多重隱喻：地質現象； 比喻社會震撼",
+    "groupId": "L2-G50",
+    "firstPassZh": "地震（自然現象） | 大動盪（比喻）",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 2,
+    "word": "gold",
+    "pos": "noun",
+    "senseIds": [
+      "gold%1:21:00::",
+      "gold%1:07:00::",
+      "gold%1:27:00::"
+    ],
+    "engDefs": [
+      "coins made of gold",
+      "a deep yellow color",
+      "a soft yellow malleable ductile (trivalent and univalent) metallic element; occurs mainly as nuggets in rocks and alluvial deposits; does not react with most chemicals but is attacked by chlorine and aqua regia"
+    ],
+    "originalZh": "黃金",
+    "candidateZh": "金幣 | 金色 | 黃金（金屬）",
+    "reason": "高風險抽象概念或多重隱喻：貨幣； 色彩； 貴金屬元素",
+    "groupId": "L2-G63",
+    "firstPassZh": "金幣 | 金色 | 黃金（金屬）",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 2,
+    "word": "hop",
+    "pos": "noun",
+    "senseIds": [
+      "hop%1:04:00::",
+      "hop%1:20:00::",
+      "hop%1:11:00::"
+    ],
+    "engDefs": [
+      "the act of hopping; jumping upward or forward (especially on one foot)",
+      "twining perennials having cordate leaves and flowers arranged in conelike spikes; the dried flowers of this plant are used in brewing to add the characteristic bitter taste to beer",
+      "an informal dance where popular music is played"
+    ],
+    "originalZh": "單腳跳",
+    "candidateZh": "單腳跳（動作） | 啤酒花（植物） | 舞會（社交）",
+    "reason": "高風險抽象概念或多重隱喻：跳躍動作； 釀酒植物； 口語社交舞會",
+    "groupId": "L2-G68",
+    "firstPassZh": "單腳跳（動作） | 啤酒花（植物） | 舞會（社交）",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 2,
+    "word": "silver",
+    "pos": "noun",
+    "senseIds": [
+      "silver%1:27:00::",
+      "silver%1:21:00::",
+      "silver%1:07:00::"
+    ],
+    "engDefs": [
+      "a soft white precious univalent metallic element having the highest electrical and thermal conductivity of any metal; occurs in argentite and in free form; used in coins and jewelry and tableware and photography",
+      "coins made of silver",
+      "a light shade of grey"
+    ],
+    "originalZh": "銀",
+    "candidateZh": "白銀（金屬） | 銀幣；銀器 | 銀色",
+    "reason": "高風險抽象概念或多重隱喻：貴金屬元素； 貨幣器具； 色彩",
+    "groupId": "L2-G111",
+    "firstPassZh": "白銀（金屬） | 銀幣；銀器 | 銀色",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 2,
+    "word": "spider",
+    "pos": "noun",
+    "senseIds": [
+      "spider%1:05:00::",
+      "spider%1:10:00::",
+      "spider%1:06:00::"
+    ],
+    "engDefs": [
+      "predatory arachnid with eight legs, two poison fangs, two feelers, and usually two silk-spinning organs at the back end of the body; they spin silk to make cocoons for eggs or traps for prey",
+      "a computer program that prowls the internet looking for publicly accessible resources that can be added to a database; the database can then be searched with a search engine",
+      "a skillet made of cast iron"
+    ],
+    "originalZh": "蜘蛛",
+    "candidateZh": "蜘蛛（生物） | 網路爬蟲（資訊） | 三腳平底鍋",
+    "reason": "高風險抽象概念或多重隱喻：節肢動物； 電腦程式； 傳統炊具",
+    "groupId": "L2-G115",
+    "firstPassZh": "蜘蛛（生物） | 網路爬蟲（資訊） | 三腳平底鍋",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 2,
+    "word": "worm",
+    "pos": "noun",
+    "senseIds": [
+      "worm%1:05:00::",
+      "worm%1:10:00::"
+    ],
+    "engDefs": [
+      "any of numerous relatively small elongated soft-bodied animals especially of the phyla Annelida and Chaetognatha and Nematoda and Nemertea and Platyhelminthes; also many insect larvae",
+      "a software program capable of reproducing itself that can spread from one computer to the next over a network"
+    ],
+    "originalZh": "蟲",
+    "candidateZh": "蠕蟲（生物） | 蠕蟲病毒（資訊）",
+    "reason": "高風險抽象概念或多重隱喻：環節動物； 電腦病毒",
+    "groupId": "L2-G132",
+    "firstPassZh": "蠕蟲（生物） | 蠕蟲病毒（資訊）",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 3,
+    "word": "civil",
+    "pos": "adjective",
+    "senseIds": [
+      "civil%5:00:00:civilian:00",
+      "civil%3:00:00::",
+      "civil%3:01:01::"
+    ],
+    "engDefs": [
+      "applying to ordinary citizens as contrasted with the military",
+      "not rude; marked by satisfactory (or especially minimal) adherence to social usages and sufficient but not noteworthy consideration for others",
+      "of or occurring within the state or between or among citizens of the state"
+    ],
+    "originalZh": "市民的",
+    "candidateZh": "公民的；民事的 | 禮貌的；客氣的 | 公民的；民事的",
+    "reason": "高風險抽象概念或多重隱喻：公民法律； 社交禮儀",
+    "groupId": "L3-G19",
+    "firstPassZh": "公民的；民事的 | 禮貌的；客氣的 | 公民的；民事的",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 3,
+    "word": "mall",
+    "pos": "noun",
+    "senseIds": [
+      "mall%1:06:00::",
+      "mall%1:06:01::"
+    ],
+    "engDefs": [
+      "a public area set aside as a pedestrian walk",
+      "mercantile establishment consisting of a carefully landscaped complex of shops representing leading merchandisers; usually includes restaurants and a convenient parking area; a modern version of the traditional marketplace"
+    ],
+    "originalZh": "林蔭路",
+    "candidateZh": "林蔭步道 | 購物中心",
+    "reason": "高風險抽象概念或多重隱喻：公共行人步道； 商業商場",
+    "groupId": "L3-G57",
+    "firstPassZh": "林蔭步道 | 購物中心",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 3,
+    "word": "peanut",
+    "pos": "noun",
+    "senseIds": [
+      "peanut%1:20:02::",
+      "peanut%1:20:00::",
+      "peanut%1:18:00::"
+    ],
+    "engDefs": [
+      "underground pod of the peanut vine",
+      "widely cultivated American plant cultivated in tropical and warm regions; showy yellow flowers on stalks that bend over to the soil so that seed pods ripen underground",
+      "a young child who is small for their age"
+    ],
+    "originalZh": "花生",
+    "candidateZh": "花生 (義項 1) | 花生（植物） | 花生 (義項 3)",
+    "reason": "高風險抽象概念或多重隱喻：標準區隔義項 1； 植物學分類； 標準區隔義項 3",
+    "groupId": "L3-G64",
+    "firstPassZh": "花生 (義項 1) | 花生（植物） | 花生 (義項 3)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 3,
+    "word": "pitch",
+    "pos": "noun",
+    "senseIds": [
+      "pitch%1:07:00::",
+      "pitch%1:04:03::",
+      "pitch%1:15:00::"
+    ],
+    "engDefs": [
+      "the property of sound that varies with variation in the frequency of vibration",
+      "the act of throwing a baseball or softball by the pitcher towards home plate, which initiates play by giving the batter a chance to hit it",
+      "a vendor's position (especially on the sidewalk)"
+    ],
+    "originalZh": "程度",
+    "candidateZh": "音高（聲學） | 投球（體育） | 程度 (義項 3)",
+    "reason": "高風險抽象概念或多重隱喻：聲音頻率； 棒球運動； 標準區隔義項 3",
+    "groupId": "L3-G66",
+    "firstPassZh": "音高（聲學） | 投球（體育） | 程度 (義項 3)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 3,
+    "word": "plastic",
+    "pos": "noun",
+    "senseIds": [
+      "plastic%1:27:00::",
+      "plastic%1:21:00::"
+    ],
+    "engDefs": [
+      "generic name for certain synthetic or semisynthetic materials that can be molded or extruded into objects or films or filaments or used for making e.g. coatings and adhesives",
+      "a card (usually plastic) that assures a seller that the person using it has sufficient means of payment and that the issuer will see to it that the seller receives payment for the merchandise delivered"
+    ],
+    "originalZh": "塑膠",
+    "candidateZh": "塑膠（材質） | 塑膠（人物）",
+    "reason": "高風險抽象概念或多重隱喻：合成材料； 人物角色",
+    "groupId": "L3-G68",
+    "firstPassZh": "塑膠（材質） | 塑膠（人物）",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 3,
+    "word": "process",
+    "pos": "noun",
+    "senseIds": [
+      "process%1:04:00::",
+      "process%1:09:00::",
+      "process%1:10:00::"
+    ],
+    "engDefs": [
+      "a particular course of action intended to achieve a result",
+      "(psychology) the performance of some composite cognitive activity; an operation that affects mental contents",
+      "a writ issued by authority of law; usually compels the defendant's attendance in a civil suit; failure to appear results in a default judgment against the defendant"
+    ],
+    "originalZh": "程式",
+    "candidateZh": "過程；程序 | 心智過程 | 程式（法律）",
+    "reason": "高風險抽象概念或多重隱喻：行動流程； 心理認知； 法律術語",
+    "groupId": "L3-G71",
+    "firstPassZh": "過程；程序 | 心智過程 | 程式（法律）",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 3,
+    "word": "screw",
+    "pos": "noun",
+    "senseIds": [
+      "screw%1:06:02::",
+      "screw%1:06:01::"
+    ],
+    "engDefs": [
+      "a simple machine of the inclined-plane type consisting of a spirally threaded cylindrical rod that engages with a similarly threaded hole",
+      "a propeller with several angled blades that rotates to push against water or air"
+    ],
+    "originalZh": "螺旋",
+    "candidateZh": "螺旋（器具） | 螺旋 (義項 2)",
+    "reason": "高風險抽象概念或多重隱喻：工具設備； 標準區隔義項 2",
+    "groupId": "L3-G82",
+    "firstPassZh": "螺旋（器具） | 螺旋 (義項 2)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 3,
+    "word": "shallow",
+    "pos": "adjective",
+    "senseIds": [
+      "shallow%3:00:01::",
+      "shallow%3:00:02::",
+      "shallow%5:00:00:superficial:00"
+    ],
+    "engDefs": [
+      "lacking physical depth; having little spatial extension downward or inward from an outer surface or backward or outward from a center",
+      "not deep or strong; not affecting one deeply",
+      "lacking depth of intellect or knowledge; concerned only with what is obvious"
+    ],
+    "originalZh": "水淺的地方",
+    "candidateZh": "水淺的地方（軍事） | 水淺的地方 (義項 2) | 水淺的地方 (義項 3)",
+    "reason": "高風險抽象概念或多重隱喻：軍事用語； 標準區隔義項 2； 標準區隔義項 3",
+    "groupId": "L3-G84",
+    "firstPassZh": "水淺的地方（軍事） | 水淺的地方 (義項 2) | 水淺的地方 (義項 3)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 3,
+    "word": "van",
+    "pos": "noun",
+    "senseIds": [
+      "van%1:14:01::",
+      "van%1:14:00::",
+      "van%1:06:02::"
+    ],
+    "engDefs": [
+      "any creative group active in the innovation and application of new concepts and techniques in a given field (especially in the arts)",
+      "the leading units moving at the head of an army",
+      "(Great Britain) a closed railroad car that carries baggage or freight"
+    ],
+    "originalZh": "貨車",
+    "candidateZh": "貨車 (義項 1) | 貨車 (義項 2) | 貨車 (義項 3)",
+    "reason": "高風險抽象概念或多重隱喻：標準區隔義項 1； 標準區隔義項 2； 標準區隔義項 3",
+    "groupId": "L3-G96",
+    "firstPassZh": "貨車 (義項 1) | 貨車 (義項 2) | 貨車 (義項 3)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 4,
+    "word": "anxiety",
+    "pos": "noun",
+    "senseIds": [
+      "anxiety%1:26:00::",
+      "anxiety%1:12:00::"
+    ],
+    "engDefs": [
+      "(psychiatry) a relatively permanent state of worry and nervousness occurring in a variety of mental disorders, usually accompanied by compulsive behavior or attacks of panic",
+      "a vague unpleasant emotion that is experienced in anticipation of some (usually ill-defined) misfortune"
+    ],
+    "originalZh": "焦慮",
+    "candidateZh": "焦慮 (義項 1) | 焦慮 (義項 2)",
+    "reason": "高風險抽象概念或多重隱喻：標準區隔義項 1； 標準區隔義項 2",
+    "groupId": "L4-G3",
+    "firstPassZh": "焦慮 (義項 1) | 焦慮 (義項 2)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 4,
+    "word": "bond",
+    "pos": "noun",
+    "senseIds": [
+      "bond%1:19:00::",
+      "bond%1:21:02::",
+      "bond%1:24:00::"
+    ],
+    "engDefs": [
+      "an electrical force linking atoms",
+      "a certificate of debt (usually interest-bearing or discounted) that is issued by a government or corporation in order to raise money; the issuer is required to pay a fixed sum annually until maturity and then a fixed sum to repay the principal",
+      "a connection based on kinship or marriage or common interest"
+    ],
+    "originalZh": "捆綁物",
+    "candidateZh": "化學鍵（化學） | 債券（金融） | 債券（金融）",
+    "reason": "高風險抽象概念或多重隱喻：分子結構； 金融證券",
+    "groupId": "L4-G8",
+    "firstPassZh": "化學鍵（化學） | 債券（金融） | 債券（金融）",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 4,
+    "word": "calorie",
+    "pos": "noun",
+    "senseIds": [
+      "calorie%1:23:01::",
+      "calorie%1:23:02::"
+    ],
+    "engDefs": [
+      "unit of heat defined as the quantity of heat required to raise the temperature of 1 gram of water by 1 degree centigrade at atmospheric pressure",
+      "a unit of heat equal to the amount of heat required to raise the temperature of one kilogram of water by one degree at one atmosphere pressure; used by nutritionists to characterize the energy-producing potential in food"
+    ],
+    "originalZh": "卡路裡（熱量單位）",
+    "candidateZh": "卡路裡（熱量單位） (義項 1) | 卡路裡（熱量單位） (義項 1)",
+    "reason": "高風險抽象概念或多重隱喻：標準區隔義項 1； 語義相近整合",
+    "groupId": "L4-G11",
+    "firstPassZh": "卡路裡（熱量單位） (義項 1) | 卡路裡（熱量單位） (義項 1)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 4,
+    "word": "campaign",
+    "pos": "verb",
+    "senseIds": [
+      "campaign%2:33:01::",
+      "campaign%2:41:10::",
+      "campaign%2:33:00::"
+    ],
+    "engDefs": [
+      "run, stand, or compete for an office or a position",
+      "exert oneself continuously, vigorously, or obtrusively to gain an end or engage in a crusade for a certain cause or person; be an advocate for",
+      "go on a campaign; go off to war"
+    ],
+    "originalZh": "戰役",
+    "candidateZh": "戰役 (義項 1) | 戰役（人物） | 戰役（軍事）",
+    "reason": "高風險抽象概念或多重隱喻：標準區隔義項 1； 人物角色； 軍事用語",
+    "groupId": "L4-G13",
+    "firstPassZh": "戰役 (義項 1) | 戰役（人物） | 戰役（軍事）",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 4,
+    "word": "carrier",
+    "pos": "noun",
+    "senseIds": [
+      "carrier%1:06:03::",
+      "carrier%1:06:01::"
+    ],
+    "engDefs": [
+      "a self-propelled wheeled vehicle designed specifically to carry something",
+      "a large warship that carries planes and has a long flat deck for takeoffs and landings"
+    ],
+    "originalZh": "運送者",
+    "candidateZh": "運送者 (義項 1) | 運送者（軍事）",
+    "reason": "高風險抽象概念或多重隱喻：標準區隔義項 1； 軍事用語",
+    "groupId": "L4-G15",
+    "firstPassZh": "運送者 (義項 1) | 運送者（軍事）",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 4,
+    "word": "counter",
+    "pos": "noun",
+    "senseIds": [
+      "counter%1:06:00::",
+      "counter%1:06:03::",
+      "counter%1:06:01::"
+    ],
+    "engDefs": [
+      "table consisting of a horizontal surface over which business is transacted",
+      "game equipment (as a piece of wood, plastic, or ivory) used for keeping a count or reserving a space in various card or board games",
+      "a calculator that keeps a record of the number of times something happens"
+    ],
+    "originalZh": "計算器",
+    "candidateZh": "計算器 (義項 1) | 計算器 (義項 2) | 計算器 (義項 3)",
+    "reason": "高風險抽象概念或多重隱喻：標準區隔義項 1； 標準區隔義項 2； 標準區隔義項 3",
+    "groupId": "L4-G21",
+    "firstPassZh": "計算器 (義項 1) | 計算器 (義項 2) | 計算器 (義項 3)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 4,
+    "word": "insurance",
+    "pos": "noun",
+    "senseIds": [
+      "insurance%1:21:02::",
+      "insurance%1:10:00::",
+      "insurance%1:26:00::"
+    ],
+    "engDefs": [
+      "promise of reimbursement in the case of loss; paid to people or companies so concerned about hazards that they have made prepayments to an insurance company",
+      "written contract or certificate of insurance",
+      "protection against future loss"
+    ],
+    "originalZh": "保險",
+    "candidateZh": "保險 (義項 1) | 保險 (義項 2) | 保險 (義項 3)",
+    "reason": "高風險抽象概念或多重隱喻：標準區隔義項 1； 標準區隔義項 2； 標準區隔義項 3",
+    "groupId": "L4-G46",
+    "firstPassZh": "保險 (義項 1) | 保險 (義項 2) | 保險 (義項 3)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 4,
+    "word": "motivation",
+    "pos": "noun",
+    "senseIds": [
+      "motivation%1:03:00::",
+      "motivation%1:26:00::",
+      "motivation%1:04:00::"
+    ],
+    "engDefs": [
+      "the psychological feature that arouses an organism to action toward a desired goal; the reason for the action; that which gives purpose and direction to behavior",
+      "the condition of being motivated",
+      "the act of motivating; providing incentive"
+    ],
+    "originalZh": "動機",
+    "candidateZh": "動機（軍事） | 動機 (義項 2) | 動機 (義項 3)",
+    "reason": "高風險抽象概念或多重隱喻：軍事用語； 標準區隔義項 2； 標準區隔義項 3",
+    "groupId": "L4-G59",
+    "firstPassZh": "動機（軍事） | 動機 (義項 2) | 動機 (義項 3)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 4,
+    "word": "option",
+    "pos": "noun",
+    "senseIds": [
+      "option%1:21:00::",
+      "option%1:09:00::",
+      "option%1:04:00::"
+    ],
+    "engDefs": [
+      "the right to buy or sell property at an agreed price; the right is purchased and if it is not exercised by a stated date the money is forfeited",
+      "one of a number of things from which only one can be chosen",
+      "the act of choosing or selecting"
+    ],
+    "originalZh": "選擇權",
+    "candidateZh": "選擇權 (義項 1) | 選擇權 (義項 2) | 選擇權 (義項 3)",
+    "reason": "高風險抽象概念或多重隱喻：標準區隔義項 1； 標準區隔義項 2； 標準區隔義項 3",
+    "groupId": "L4-G65",
+    "firstPassZh": "選擇權 (義項 1) | 選擇權 (義項 2) | 選擇權 (義項 3)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 4,
+    "word": "submarine",
+    "pos": "noun",
+    "senseIds": [
+      "submarine%1:06:00::",
+      "submarine%1:13:00::"
+    ],
+    "engDefs": [
+      "a submersible warship usually armed with torpedoes",
+      "a large sandwich made of a long crusty roll split lengthwise and filled with meats and cheese (and tomato and onion and lettuce and condiments); different names are used in different sections of the United States"
+    ],
+    "originalZh": "潛水艇",
+    "candidateZh": "潛水艇（軍事） | 潛水艇 (義項 2)",
+    "reason": "高風險抽象概念或多重隱喻：軍事用語； 標準區隔義項 2",
+    "groupId": "L4-G83",
+    "firstPassZh": "潛水艇（軍事） | 潛水艇 (義項 2)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 4,
+    "word": "virus",
+    "pos": "noun",
+    "senseIds": [
+      "virus%1:05:00::",
+      "virus%1:26:00::",
+      "virus%1:10:00::"
+    ],
+    "engDefs": [
+      "(virology) ultramicroscopic infectious agent that replicates itself only within cells of living hosts; many are pathogenic; a piece of nucleic acid (DNA or RNA) wrapped in a thin coat of protein",
+      "a harmful or corrupting agency",
+      "a software program capable of reproducing itself and usually capable of causing great harm to files or other programs on the same computer"
+    ],
+    "originalZh": "病毒",
+    "candidateZh": "病毒 (義項 1) | 病毒 (義項 2) | 病毒（軍事）",
+    "reason": "高風險抽象概念或多重隱喻：標準區隔義項 1； 標準區隔義項 2； 軍事用語",
+    "groupId": "L4-G89",
+    "firstPassZh": "病毒 (義項 1) | 病毒 (義項 2) | 病毒（軍事）",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 5,
+    "word": "auction",
+    "pos": "noun",
+    "senseIds": [
+      "auction%1:04:01::",
+      "auction%1:04:00::"
+    ],
+    "engDefs": [
+      "a variety of bridge in which tricks made in excess of the contract are scored toward game; now generally superseded by contract bridge",
+      "the public sale of something to the highest bidder"
+    ],
+    "originalZh": "拍賣",
+    "candidateZh": "拍賣（軍事） | 拍賣 (義項 2)",
+    "reason": "高風險抽象概念或多重隱喻：軍事用語； 標準區隔義項 2",
+    "groupId": "L5-G8",
+    "firstPassZh": "拍賣（軍事） | 拍賣 (義項 2)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 5,
+    "word": "confession",
+    "pos": "noun",
+    "senseIds": [
+      "confession%1:10:00::",
+      "confession%1:10:01::",
+      "confession%1:04:00::"
+    ],
+    "engDefs": [
+      "an admission of misdeeds or faults",
+      "a written document acknowledging an offense and signed by the guilty party",
+      "(Roman Catholic Church) the act of a penitent disclosing their sinfulness before a priest in the sacrament of penance in the hope of absolution"
+    ],
+    "originalZh": "承認",
+    "candidateZh": "承認 (義項 1) | 承認 (義項 2) | 承認 (義項 3)",
+    "reason": "高風險抽象概念或多重隱喻：標準區隔義項 1； 標準區隔義項 2； 標準區隔義項 3",
+    "groupId": "L5-G18",
+    "firstPassZh": "承認 (義項 1) | 承認 (義項 2) | 承認 (義項 3)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 5,
+    "word": "hockey",
+    "pos": "noun",
+    "senseIds": [
+      "hockey%1:04:00::",
+      "hockey%1:04:01::"
+    ],
+    "engDefs": [
+      "a game resembling ice hockey that is played on an open field; two opposing teams use curved hockey sticks try to drive a ball into the opponents' net",
+      "a game played on an ice rink by two opposing teams of six skaters each who try to knock a flat round puck into the opponents' goal with angled hockey sticks"
+    ],
+    "originalZh": "冰球",
+    "candidateZh": "冰球 (義項 1) | 冰球 (義項 2)",
+    "reason": "高風險抽象概念或多重隱喻：標準區隔義項 1； 標準區隔義項 2",
+    "groupId": "L5-G35",
+    "firstPassZh": "冰球 (義項 1) | 冰球 (義項 2)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 5,
+    "word": "mandate",
+    "pos": "noun",
+    "senseIds": [
+      "mandate%1:10:00::",
+      "mandate%1:15:00::",
+      "mandate%1:04:00::"
+    ],
+    "engDefs": [
+      "a document giving an official instruction or command",
+      "a territory surrendered by Turkey or Germany after World War I and put under the tutelage of some other European power until they are able to stand by themselves",
+      "the commission that is given to a government and its policies through an electoral victory"
+    ],
+    "originalZh": "命令",
+    "candidateZh": "命令 (義項 1) | 命令（軍事） | 命令 (義項 3)",
+    "reason": "高風險抽象概念或多重隱喻：標準區隔義項 1； 軍事用語； 標準區隔義項 3",
+    "groupId": "L5-G42",
+    "firstPassZh": "命令 (義項 1) | 命令（軍事） | 命令 (義項 3)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 5,
+    "word": "marine",
+    "pos": "adjective",
+    "senseIds": [
+      "marine%3:01:00::",
+      "marine%3:01:02::",
+      "marine%3:01:01::"
+    ],
+    "engDefs": [
+      "of or relating to the sea",
+      "relating to or involving ships or shipping or navigation or seamen",
+      "of or relating to military personnel who serve both on land and at sea (specifically the U.S. Marine Corps)"
+    ],
+    "originalZh": "艦隊",
+    "candidateZh": "艦隊 (義項 1) | 艦隊 (義項 2) | 艦隊（人物）",
+    "reason": "高風險抽象概念或多重隱喻：標準區隔義項 1； 標準區隔義項 2； 人物角色",
+    "groupId": "L5-G43",
+    "firstPassZh": "艦隊 (義項 1) | 艦隊 (義項 2) | 艦隊（人物）",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 5,
+    "word": "motive",
+    "pos": "noun",
+    "senseIds": [
+      "motive%1:03:00::",
+      "motive%1:10:00::",
+      "motive%1:06:00::"
+    ],
+    "engDefs": [
+      "the psychological feature that arouses an organism to action toward a desired goal; the reason for the action; that which gives purpose and direction to behavior",
+      "a theme that is repeated or elaborated in a piece of music",
+      "a design or figure that consists of recurring shapes or colors, as in architecture or decoration"
+    ],
+    "originalZh": "動機",
+    "candidateZh": "動機（軍事） | 動機（音樂） | 動機 (義項 3)",
+    "reason": "高風險抽象概念或多重隱喻：軍事用語； 音樂藝術； 標準區隔義項 3",
+    "groupId": "L5-G45",
+    "firstPassZh": "動機（軍事） | 動機（音樂） | 動機 (義項 3)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 5,
+    "word": "radiation",
+    "pos": "noun",
+    "senseIds": [
+      "radiation%1:19:00::",
+      "radiation%1:04:00::",
+      "radiation%1:26:00::"
+    ],
+    "engDefs": [
+      "energy that is radiated or transmitted in the form of rays or waves or particles",
+      "the act of spreading outward from a central source",
+      "syndrome resulting from exposure to ionizing radiation (e.g., exposure to radioactive chemicals or to nuclear explosions); low doses cause diarrhea and nausea and vomiting and sometimes loss of hair; greater exposure can cause sterility and cataracts and some forms of cancer and other diseases; severe exposure can cause death within hours"
+    ],
+    "originalZh": "輻射",
+    "candidateZh": "輻射 (義項 1) | 輻射（軍事） | 輻射（化學）",
+    "reason": "高風險抽象概念或多重隱喻：標準區隔義項 1； 軍事用語； 化學物質",
+    "groupId": "L5-G60",
+    "firstPassZh": "輻射 (義項 1) | 輻射（軍事） | 輻射（化學）",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 5,
+    "word": "rib",
+    "pos": "noun",
+    "senseIds": [
+      "rib%1:06:00::",
+      "rib%1:08:01::",
+      "rib%1:13:00::"
+    ],
+    "engDefs": [
+      "support resembling the rib of an animal",
+      "any of the 12 pairs of curved arches of bone extending from the spine to or toward the sternum in humans (and similar bones in most vertebrates)",
+      "cut of meat including one or more ribs"
+    ],
+    "originalZh": "肋骨",
+    "candidateZh": "肋骨（動物） | 肋骨（軍事） | 肋骨 (義項 3)",
+    "reason": "高風險抽象概念或多重隱喻：動物生物學； 軍事用語； 標準區隔義項 3",
+    "groupId": "L5-G71",
+    "firstPassZh": "肋骨（動物） | 肋骨（軍事） | 肋骨 (義項 3)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 5,
+    "word": "server",
+    "pos": "noun",
+    "senseIds": [
+      "server%1:18:01::",
+      "server%1:06:01::"
+    ],
+    "engDefs": [
+      "(court games) the player who serves to start a point",
+      "(computer science) a computer that provides client stations with access to files and printers as shared resources to a computer network"
+    ],
+    "originalZh": "服伺者",
+    "candidateZh": "服伺者（法律） | 服伺者 (義項 2)",
+    "reason": "高風險抽象概念或多重隱喻：法律術語； 標準區隔義項 2",
+    "groupId": "L5-G75",
+    "firstPassZh": "服伺者（法律） | 服伺者 (義項 2)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 5,
+    "word": "vein",
+    "pos": "noun",
+    "senseIds": [
+      "vein%1:08:00::",
+      "vein%1:10:00::",
+      "vein%1:20:00::"
+    ],
+    "engDefs": [
+      "a blood vessel that carries blood from the capillaries toward the heart",
+      "a distinctive style or manner",
+      "any of the vascular bundles or ribs that form the branching framework of conducting and supporting tissues in a leaf or other plant organ"
+    ],
+    "originalZh": "血管",
+    "candidateZh": "血管（軍事） | 血管 (義項 2) | 血管（植物）",
+    "reason": "高風險抽象概念或多重隱喻：軍事用語； 標準區隔義項 2； 植物學分類",
+    "groupId": "L5-G95",
+    "firstPassZh": "血管（軍事） | 血管 (義項 2) | 血管（植物）",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 6,
+    "word": "addiction",
+    "pos": "noun",
+    "senseIds": [
+      "addiction%1:26:00::",
+      "addiction%1:12:00::",
+      "addiction%1:04:00::"
+    ],
+    "engDefs": [
+      "being abnormally tolerant to and dependent on something that is psychologically or physically habit-forming (especially alcohol or narcotic drugs)",
+      "an abnormally strong craving",
+      "(Roman law) a formal award by a magistrate of a thing or person to another person (as the award of a debtor to their creditor); a surrender to a master"
+    ],
+    "originalZh": "入迷",
+    "candidateZh": "入迷 (義項 1) | 入迷 (義項 2) | 入迷（人物）",
+    "reason": "高風險抽象概念或多重隱喻：標準區隔義項 1； 標準區隔義項 2； 人物角色",
+    "groupId": "L6-G1",
+    "firstPassZh": "入迷 (義項 1) | 入迷 (義項 2) | 入迷（人物）",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 6,
+    "word": "nickel",
+    "pos": "noun",
+    "senseIds": [
+      "nickel%1:27:00::",
+      "nickel%1:21:00::",
+      "nickel%1:21:01::"
+    ],
+    "engDefs": [
+      "a hard malleable ductile silvery metallic element that is resistant to corrosion; used in alloys; occurs in pentlandite and smaltite and garnierite and millerite",
+      "a United States coin worth one twentieth of a dollar",
+      "five dollars worth of a drug"
+    ],
+    "originalZh": "鎳",
+    "candidateZh": "鎳（化學） | 鎳 (義項 2) | 鎳 (義項 3)",
+    "reason": "高風險抽象概念或多重隱喻：化學物質； 標準區隔義項 2； 標準區隔義項 3",
+    "groupId": "L6-G38",
+    "firstPassZh": "鎳（化學） | 鎳 (義項 2) | 鎳 (義項 3)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 6,
+    "word": "parliament",
+    "pos": "noun",
+    "senseIds": [
+      "parliament%1:14:00::",
+      "parliament%1:04:00::"
+    ],
+    "engDefs": [
+      "a legislative assembly in certain countries",
+      "a card game in which you play your sevens and other cards in sequence in the same suit as the sevens; you win if you are the first to use all your cards"
+    ],
+    "originalZh": "國會",
+    "candidateZh": "國會 (義項 1) | 國會 (義項 2)",
+    "reason": "高風險抽象概念或多重隱喻：標準區隔義項 1； 標準區隔義項 2",
+    "groupId": "L6-G41",
+    "firstPassZh": "國會 (義項 1) | 國會 (義項 2)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 6,
+    "word": "plague",
+    "pos": "noun",
+    "senseIds": [
+      "plague%1:26:00::",
+      "plague%1:26:01::",
+      "plague%1:14:00::"
+    ],
+    "engDefs": [
+      "a serious (sometimes fatal) infection of rodents caused by Yersinia pestis and accidentally transmitted to humans by the bite of a flea that has bitten an infected animal",
+      "any epidemic disease with a high death rate",
+      "a swarm of insects that attack plants"
+    ],
+    "originalZh": "瘟疫",
+    "candidateZh": "瘟疫（動物） | 瘟疫（醫學） | 瘟疫（植物）",
+    "reason": "高風險抽象概念或多重隱喻：動物生物學； 醫學解剖； 植物學分類",
+    "groupId": "L6-G43",
+    "firstPassZh": "瘟疫（動物） | 瘟疫（醫學） | 瘟疫（植物）",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  },
+  {
+    "level": 6,
+    "word": "tornado",
+    "pos": "noun",
+    "senseIds": [
+      "tornado%1:19:00::",
+      "tornado%1:06:00::"
+    ],
+    "engDefs": [
+      "a localized and violently destructive windstorm occurring over land characterized by a funnel-shaped cloud extending toward the ground",
+      "a purified and potent form of cocaine that is smoked rather than snorted; highly addictive"
+    ],
+    "originalZh": "旋風",
+    "candidateZh": "旋風（軍事） | 旋風 (義項 2)",
+    "reason": "高風險抽象概念或多重隱喻：軍事用語； 標準區隔義項 2",
+    "groupId": "L6-G58",
+    "firstPassZh": "旋風（軍事） | 旋風 (義項 2)",
+    "secondPassZh": "",
+    "recommendedZh": "",
+    "status": "needs_human_review"
+  }
+]

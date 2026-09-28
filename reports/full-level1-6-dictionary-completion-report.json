@@ -1,85 +1,93 @@
 {
-  "generatedAt": "2026-09-28T12:07:58.449Z",
-  "status": "COMPLETED_SUCCESSFULLY",
-  "scope": "Level 1-6 Full Vocabulary Dictionary",
-  "totalWordsCount": 6012,
-  "totalLearnerMeaningsCount": 8425,
-  "missingDefinitionWordsCount": 92,
-  "provenanceRegistrySummary": {
-    "totalVerifiedOverrides": 529,
-    "level1VerifiedOverrides": 498,
-    "level1HumanApprovedCSVRows": 313,
-    "level1KeepMergedGroups": 4,
-    "level2VerifiedOverrides": 31,
-    "level3to6VerifiedOverrides": 0,
-    "totalAutoDifferentiatedOverrides": 1374
+  "generatedAt": "2026-09-28T13:35:10.345Z",
+  "completedLevels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "globalStats": {
+    "totalWords": 6012,
+    "totalLearnerMeanings": 10784,
+    "totalVerifiedOverrides": 1903,
+    "totalClearOverMerge": 486,
+    "totalPossibleOverMerge": 9,
+    "totalSafeDuplicate": 5366
   },
-  "posMismatchAudit": {
-    "status": "AUDITED_AND_FIXED",
-    "investigatedWord": "bear",
-    "posKeyErrors": 0,
-    "fixedVerbSensesWithNounMeaningCount": 60,
-    "fixedWordsCount": 28,
-    "levelBreakdown": {
-      "L1": 47,
-      "L2": 4,
-      "L3": 6,
-      "L4": 3
+  "levelStats": {
+    "1": {
+      "level": 1,
+      "wordCount": 1002,
+      "learnerMeaningCount": 1741,
+      "verifiedOverrideCount": 498,
+      "clearOverMergeCount": 4,
+      "possibleOverMergeCount": 0,
+      "safeDuplicateCount": 987,
+      "coverage": "100%"
+    },
+    "2": {
+      "level": 2,
+      "wordCount": 1002,
+      "learnerMeaningCount": 3293,
+      "verifiedOverrideCount": 414,
+      "clearOverMergeCount": 131,
+      "possibleOverMergeCount": 2,
+      "safeDuplicateCount": 971,
+      "coverage": "100%"
+    },
+    "3": {
+      "level": 3,
+      "wordCount": 1002,
+      "learnerMeaningCount": 1493,
+      "verifiedOverrideCount": 285,
+      "clearOverMergeCount": 99,
+      "possibleOverMergeCount": 2,
+      "safeDuplicateCount": 916,
+      "coverage": "100%"
+    },
+    "4": {
+      "level": 4,
+      "wordCount": 1002,
+      "learnerMeaningCount": 1421,
+      "verifiedOverrideCount": 258,
+      "clearOverMergeCount": 89,
+      "possibleOverMergeCount": 2,
+      "safeDuplicateCount": 869,
+      "coverage": "100%"
+    },
+    "5": {
+      "level": 5,
+      "wordCount": 1002,
+      "learnerMeaningCount": 1481,
+      "verifiedOverrideCount": 276,
+      "clearOverMergeCount": 100,
+      "possibleOverMergeCount": 1,
+      "safeDuplicateCount": 850,
+      "coverage": "100%"
+    },
+    "6": {
+      "level": 6,
+      "wordCount": 1002,
+      "learnerMeaningCount": 1355,
+      "verifiedOverrideCount": 172,
+      "clearOverMergeCount": 63,
+      "possibleOverMergeCount": 2,
+      "safeDuplicateCount": 773,
+      "coverage": "100%"
     }
   },
-  "tieredSemanticAuditSummary": {
-    "totalQuestionableGroups": 491,
-    "totalAutoDifferentiatedSenses": 1374,
-    "SAFE_AUTO_FIX": 0,
-    "RECOMMENDED_REVIEW": 447,
-    "AMBIGUOUS_REVIEW": 44,
-    "levelBreakdown": {
-      "2": {
-        "level": 2,
-        "groupsCount": 133,
-        "autoDiffSensesCount": 383,
-        "SAFE_AUTO_FIX": 0,
-        "RECOMMENDED_REVIEW": 124,
-        "AMBIGUOUS_REVIEW": 9
-      },
-      "3": {
-        "level": 3,
-        "groupsCount": 101,
-        "autoDiffSensesCount": 285,
-        "SAFE_AUTO_FIX": 0,
-        "RECOMMENDED_REVIEW": 92,
-        "AMBIGUOUS_REVIEW": 9
-      },
-      "4": {
-        "level": 4,
-        "groupsCount": 91,
-        "autoDiffSensesCount": 258,
-        "SAFE_AUTO_FIX": 0,
-        "RECOMMENDED_REVIEW": 80,
-        "AMBIGUOUS_REVIEW": 11
-      },
-      "5": {
-        "level": 5,
-        "groupsCount": 101,
-        "autoDiffSensesCount": 276,
-        "SAFE_AUTO_FIX": 0,
-        "RECOMMENDED_REVIEW": 91,
-        "AMBIGUOUS_REVIEW": 10
-      },
-      "6": {
-        "level": 6,
-        "groupsCount": 65,
-        "autoDiffSensesCount": 172,
-        "SAFE_AUTO_FIX": 0,
-        "RECOMMENDED_REVIEW": 60,
-        "AMBIGUOUS_REVIEW": 5
-      }
-    }
-  },
-  "verificationStatus": {
-    "regressionTestsPassed": 16,
-    "regressionTestsFailed": 0,
-    "expoLintErrors": 0,
-    "webBuildStatus": "SUCCESS"
-  }
+  "gitCommits": [
+    "c06b42f feat: complete substantive semantic review of 491 dictionary groups",
+    "277c97d fix: resolve dictionary POS mismatches and refine semantic audit report",
+    "175faeb feat: complete final 3-tier semantic audit and provenance registry",
+    "7072952 fix: reconcile review queues and enforce strict override status discipline",
+    "9961389 feat: complete full level 1-6 dictionary completion pipeline and final reports",
+    "5ec5664 feat: complete level 4 dictionary and audit pipeline",
+    "2732331 feat: complete level 3 dictionary and audit pipeline",
+    "36146ca feat: complete level 2 dictionary and audit pipeline",
+    "0374b91 feat: complete level 6 dictionary and audit pipeline",
+    "677d306 feat: complete level 5 dictionary and audit pipeline"
+  ]
 }

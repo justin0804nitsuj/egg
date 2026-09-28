@@ -36,7 +36,7 @@ const GENERATED_BY_LEVEL = {
 };
 
 export const WORD_DEFINITION_METADATA = {
-  "generatedAt": "2026-09-24T15:01:11.623Z",
+  "generatedAt": "2026-09-28T13:35:39.862Z",
   "scope": "all-words",
   "processedWordCount": 6012,
   "matchedWordCount": 5920,
@@ -374979,14 +374979,11 @@ function expandDefinition(item, wordLevel = 1) {
   const overridesMap = OVERRIDES_BY_LEVEL[wordLevel];
   const generatedMap = GENERATED_BY_LEVEL[wordLevel];
 
-  const overrideEntry = overridesMap?.[id];
-  const isVerifiedOverride = typeof overrideEntry === 'string' || overrideEntry?.status === 'verified';
-  const verifiedMeaning = isVerifiedOverride ? (typeof overrideEntry === 'string' ? overrideEntry : overrideEntry.meaningZhTW) : null;
-
+  const override = overridesMap?.[id];
   const generated = generatedMap?.[id];
 
-  const meaningZh = verifiedMeaning ?? generated?.meaningZhTW ?? chineseDefinition;
-  const status = verifiedMeaning ? 'verified' : (generated ? 'verified' : translationStatus);
+  const meaningZh = override?.meaningZhTW ?? generated?.meaningZhTW ?? chineseDefinition;
+  const status = override ? 'verified' : (generated ? 'verified' : translationStatus);
 
   return {
     id,
@@ -374999,7 +374996,8 @@ function expandDefinition(item, wordLevel = 1) {
     examples,
     source,
     translationStatus: status,
-    definition: englishDefinition,
+    definition:
+      englishDefinition,
     meaningZh,
   };
 }
@@ -375008,7 +375006,7 @@ export function normalizeChineseMeaning(meaning) {
   if (!meaning) return '';
   return meaning
     .trim()
-    .replace(/\s+/g, ' ')
+    .replace(/s+/g, ' ')
     .replace(/[，、；;。.]$/g, '')
     .trim();
 }
