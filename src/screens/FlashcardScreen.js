@@ -22,6 +22,8 @@ import {
   recordReview,
   completeSession,
   getLearningStats,
+  getWordProgress,
+  calculateSchedule,
 } from '../storage/progress';
 
 import {
@@ -104,7 +106,22 @@ export default function FlashcardScreen() {
     again: 0,
     hard: 0,
     good: 0,
+    easy: 0,
   });
+
+  const currentWord =
+    sessionWords[currentIndex];
+
+  const [
+    currentProgress,
+    setCurrentProgress,
+  ] = useState(null);
+
+  useEffect(() => {
+    if (currentWord) {
+      getWordProgress(currentWord.id).then(setCurrentProgress);
+    }
+  }, [currentWord]);
 
   useEffect(() => {
     let active = true;
@@ -124,9 +141,6 @@ export default function FlashcardScreen() {
       active = false;
     };
   }, []);
-
-  const currentWord =
-    sessionWords[currentIndex];
 
   const frontRotateY =
     useMemo(
@@ -259,6 +273,7 @@ export default function FlashcardScreen() {
         again: 0,
         hard: 0,
         good: 0,
+        easy: 0,
       });
 
       setPhase('study');
@@ -642,62 +657,49 @@ export default function FlashcardScreen() {
             >
               {results.again}
             </Text>
-
-            <Text
-              style={
-                styles.summaryLabel
-              }
-            >
-              不會
-            </Text>
+            <Text style={styles.summaryLabel}>不會</Text>
           </View>
 
-          <View
-            style={styles.summaryItem}
-          >
+          <View style={styles.summaryItem}>
             <Text
               style={[
                 styles.summaryValue,
                 {
-                  color:
-                    COLORS.warning,
+                  color: COLORS.warning,
                 },
               ]}
             >
               {results.hard}
             </Text>
-
-            <Text
-              style={
-                styles.summaryLabel
-              }
-            >
-              有點熟
-            </Text>
+            <Text style={styles.summaryLabel}>有點熟</Text>
           </View>
 
-          <View
-            style={styles.summaryItem}
-          >
+          <View style={styles.summaryItem}>
             <Text
               style={[
                 styles.summaryValue,
                 {
-                  color:
-                    COLORS.success,
+                  color: COLORS.success,
                 },
               ]}
             >
               {results.good}
             </Text>
+            <Text style={styles.summaryLabel}>會了</Text>
+          </View>
 
+          <View style={styles.summaryItem}>
             <Text
-              style={
-                styles.summaryLabel
-              }
+              style={[
+                styles.summaryValue,
+                {
+                  color: '#3B82F6',
+                },
+              ]}
             >
-              會了
+              {results.easy}
             </Text>
+            <Text style={styles.summaryLabel}>太簡單</Text>
           </View>
         </View>
 
@@ -757,6 +759,21 @@ export default function FlashcardScreen() {
           sessionWords.length
         ) * 100
       : 0;
+
+  const formatInterval = (days, rating) => {
+    if (rating === 'again') return '< 10m';
+    if (days === 0) return '< 1d';
+    if (days < 30) return `${days}d`;
+    if (days < 365) return `${Math.round(days / 30)}mo`;
+    return `${Math.round(days / 365)}y`;
+  };
+
+  const getPreview = (rating) => {
+    if (!currentProgress) return '';
+    const schedule = calculateSchedule(currentProgress, rating, false);
+    if (rating === 'again') return '< 10m';
+    return formatInterval(schedule.intervalDays, rating);
+  };
 
   return (
     <View
@@ -1015,7 +1032,7 @@ export default function FlashcardScreen() {
             <RatingButton
               emoji="😵"
               title="不會"
-              xp="+2 XP"
+              preview={getPreview('again')}
               disabled={submitting}
               style={
                 styles.againButton
@@ -1030,7 +1047,7 @@ export default function FlashcardScreen() {
             <RatingButton
               emoji="🤔"
               title="有點熟"
-              xp="+5 XP"
+              preview={getPreview('hard')}
               disabled={submitting}
               style={
                 styles.hardButton
@@ -1045,7 +1062,7 @@ export default function FlashcardScreen() {
             <RatingButton
               emoji="😎"
               title="會了"
-              xp="+10 XP"
+              preview={getPreview('good')}
               disabled={submitting}
               style={
                 styles.goodButton
@@ -1053,6 +1070,21 @@ export default function FlashcardScreen() {
               onPress={() =>
                 handleRating(
                   'good'
+                )
+              }
+            />
+            
+            <RatingButton
+              emoji="🚀"
+              title="太簡單"
+              preview={getPreview('easy')}
+              disabled={submitting}
+              style={
+                styles.easyButton
+              }
+              onPress={() =>
+                handleRating(
+                  'easy'
                 )
               }
             />
@@ -1066,7 +1098,7 @@ export default function FlashcardScreen() {
 function RatingButton({
   emoji,
   title,
-  xp,
+  preview,
   disabled,
   style,
   onPress,
@@ -1107,7 +1139,7 @@ function RatingButton({
       <Text
         style={styles.ratingXp}
       >
-        {xp}
+        {preview}
       </Text>
     </Pressable>
   );
@@ -1487,6 +1519,11 @@ const styles = StyleSheet.create({
       'rgba(16, 185, 129, 0.12)',
     borderColor:
       COLORS.success,
+  },
+  
+  easyButton: {
+    backgroundColor: 'rgba(59, 130, 246, 0.12)',
+    borderColor: '#3B82F6',
   },
 
   ratingEmoji: {
